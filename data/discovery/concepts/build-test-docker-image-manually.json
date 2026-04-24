@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Test Docker Image manually"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "Build Test Docker Image manually"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate",
+      "text": "Build Test Docker Image manually"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32834,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29117,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29012,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28991,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28963,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Test Docker Image manually",
+  "concept_id": "build-test-docker-image-manually",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker-build-manual.yml",
+      "source_repo": "HKUDS/LightRAG"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Test Docker Image manually",
+      "sense_id": "build-test-docker-image-manually#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biomap-research/xTrimoMultimer",
+      "target": "hpcaitech/fastfold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biomap-research/xTrimoMultimer",
+      "target": "deepmind/alphafold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biomap-research/xTrimoMultimer",
+      "target": "aqlaboratory/openfold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biomap-research/xTrimoMultimer",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:26.406483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7420
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "biomap-research/xTrimoMultimer",
+    "html_url": "https://github.com/biomap-research/xTrimoMultimer",
+    "language": "Python",
+    "pushed_at": "2022-10-17T09:08:55Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2025-11-13T01:50:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aqlaboratory/openfold",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/alphafold",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpcaitech/fastfold",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

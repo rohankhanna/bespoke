@@ -1,0 +1,360 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "brunohaf/action-bandit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "brunohaf/action-bandit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "brunohaf/action-bandit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darker-black-isort.yml"
+    },
+    {
+      "component": "akaihola/darker@1.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darker-black-isort.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/help-in-readme.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/help-in-readme.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml"
+    },
+    {
+      "component": "akaihola/lint-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "akaihola/graylint",
+      "target": "rubik/xenon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "akaihola/graylint",
+      "target": "pypa/twine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "brunohaf/action-bandit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "Security check - Bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darker-black-isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darker-black-isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "akaihola/darker@1.7.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/darker-black-isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "darker-black-isort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "help-in-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "akaihola/lint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "isort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/graylint",
+      "target": "mypy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:51.519101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 73604
+    },
+    {
+      "path": "Dockerfile",
+      "size": 499
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5040
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 741
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/darker-black-isort.yml",
+      "size": 468
+    },
+    {
+      "path": ".github/workflows/flake8.yml",
+      "size": 644
+    },
+    {
+      "path": ".github/workflows/help-in-readme.yml",
+      "size": 482
+    },
+    {
+      "path": ".github/workflows/isort.yml",
+      "size": 1106
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This package is a placeholder for a tool which filters linter messages from various Python linters to only those which were caused by recent changes to the code base being linted.",
+    "fork": false,
+    "full_name": "akaihola/graylint",
+    "html_url": "https://github.com/akaihola/graylint",
+    "language": "Python",
+    "pushed_at": "2025-11-02T20:51:24Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-02-26T20:16:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubik/xenon",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/twine",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security check - Bandit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "term": "Security check - Bandit"
+    },
+    {
+      "context_snippet": "codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "codespell"
+    },
+    {
+      "context_snippet": "darker-black-isort",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/darker-black-isort.yml",
+      "term": "darker-black-isort"
+    },
+    {
+      "context_snippet": "flake8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake8.yml",
+      "term": "flake8"
+    },
+    {
+      "context_snippet": "help-in-readme",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "term": "help-in-readme"
+    },
+    {
+      "context_snippet": "isort",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isort.yml",
+      "term": "isort"
+    },
+    {
+      "context_snippet": "mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "mypy"
+    }
+  ]
+}

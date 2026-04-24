@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "azure-cli-extension"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-cli-extensions",
+      "status": "candidate-context",
+      "text": "Public Repository for Extensions of Azure CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli-extensions",
+      "status": "candidate-context",
+      "text": "This repository serves two purposes and they are independent:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli-extensions",
+      "status": "candidate",
+      "text": "This repository serves two purposes and they are independent:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "azure-cli-extension",
+  "concept_id": "azure-cli-extension",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-cli-extensions"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "azure-cli-extension",
+      "sense_id": "azure-cli-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

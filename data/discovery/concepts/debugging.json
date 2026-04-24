@@ -139,6 +139,30 @@
       "source_repo": "gruns/icecream",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Eigenbahn/icecream-cljc",
+      "status": "candidate-context",
+      "text": ":icecream: icecream ported to Clojure(Script)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eigenbahn/icecream-cljc",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +229,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gruns/icecream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate",
+      "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eigenbahn/icecream-cljc",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
     }
@@ -328,11 +364,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gruns/icecream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bet4it/udbserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Eigenbahn/icecream-cljc"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint",
+      "target": "lama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint",
+      "target": "latent-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint",
+      "target": "zits",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:48.381868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6748
+    },
+    {
+      "path": "requirements.txt",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
+    "fork": false,
+    "full_name": "Sanster/IOPaint",
+    "html_url": "https://github.com/Sanster/IOPaint",
+    "language": "Python",
+    "pushed_at": "2025-04-29T02:13:17Z",
+    "stargazers_count": 23018,
+    "topics": [
+      "inpainting",
+      "lama",
+      "latent-diffusion",
+      "mat",
+      "pytorch",
+      "stable-diffusion",
+      "zits"
+    ],
+    "updated_at": "2026-04-24T08:52:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">IOPaint</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">IOPaint</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lama"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">IOPaint</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latent-diffusion"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">IOPaint</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">IOPaint</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">IOPaint</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zits"
+    }
+  ]
+}

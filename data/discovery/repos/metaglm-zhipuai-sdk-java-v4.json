@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "target": "thudm/z-ai-sdk-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "target": "Lint PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:06.500997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14337
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/lint-pr.yaml",
+      "size": 346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java SDK for Zhipu AI",
+    "fork": false,
+    "full_name": "MetaGLM/zhipuai-sdk-java-v4",
+    "html_url": "https://github.com/MetaGLM/zhipuai-sdk-java-v4",
+    "language": "Java",
+    "pushed_at": "2025-10-15T08:19:27Z",
+    "stargazers_count": 157,
+    "topics": [],
+    "updated_at": "2026-04-08T06:41:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/z-ai-sdk-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "\"Lint PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "term": "Lint PR"
+    }
+  ]
+}

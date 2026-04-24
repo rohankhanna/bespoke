@@ -19,12 +19,48 @@
       "source_repo": "ipfs/ipfs-desktop",
       "status": "candidate-context",
       "text": "Transifex sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Browser extension that simplifies access to IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Transifex sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "React components for https://explore.ipld.io and ipfs-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "Transifex sync"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate",
+      "text": "Transifex sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "Transifex sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
       "status": "candidate",
       "text": "Transifex sync"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/tx-pull.yml",
       "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tx-pull.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tx-pull.yml",
+      "source_repo": "ipfs/ipld-explorer-components"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,41 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "rom1504/img2dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_sRGB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla"
     }
   ],
   "term": "dataset"

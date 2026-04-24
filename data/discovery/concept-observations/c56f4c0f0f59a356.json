@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|Logo|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|Logo|"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976693,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973591,
+      "status": "candidate",
+      "text": "value"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969086,
+      "status": "candidate",
+      "text": "deserve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966448,
+      "status": "candidate",
+      "text": "merit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952719,
+      "status": "candidate",
+      "text": "grade"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rate",
+      "sense_id": "rate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42086,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39045,
+      "status": "candidate",
+      "text": "merit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31093,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31055,
+      "status": "candidate",
+      "text": "pace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30076,
+      "status": "candidate",
+      "text": "value"
+    }
+  ],
+  "concept_id": "rate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rate",
+  "observation_id": "c56f4c0f0f59a356",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "rate",
+  "source_context_snippet": "|Logo|",
+  "source_file": null,
+  "source_repo": "tqdm/tqdm",
+  "source_repo_description": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+}

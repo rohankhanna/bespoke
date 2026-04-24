@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "ashvardanian/tinysemver@v2.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "coroutines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "lazy-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "numerical-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "ranges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "software-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs",
+      "target": "software-design",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:48.851921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1410
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 614
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Playing around \"Less Slow\" coding practices in Rust, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines",
+    "fork": false,
+    "full_name": "ashvardanian/less_slow.rs",
+    "html_url": "https://github.com/ashvardanian/less_slow.rs",
+    "language": "Rust",
+    "pushed_at": "2025-04-23T12:07:56Z",
+    "stargazers_count": 124,
+    "topics": [
+      "benchmark",
+      "benchmarking",
+      "coroutines",
+      "hpc",
+      "lazy-evaluation",
+      "numerical-methods",
+      "ranges",
+      "simd",
+      "software-architecture",
+      "software-design"
+    ],
+    "updated_at": "2026-03-07T18:46:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coroutines"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lazy-evaluation"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-methods"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ranges"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-architecture"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-design"
+    }
+  ]
+}

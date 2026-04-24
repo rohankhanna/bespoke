@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "alpinelinux/aports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "elsa-workflows/elsa-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "composer/composer"
     }
   ],
   "term": "packages"

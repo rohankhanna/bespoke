@@ -1,7 +1,8 @@
 {
   "aliases": [
     "PyPI Release",
-    "PyPI release"
+    "PyPI release",
+    "PyPi Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -86,6 +87,18 @@
       "source_repo": "huggingface/datatrove",
       "status": "candidate-context",
       "text": "PyPI release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\"PyPi Release\""
     }
   ],
   "candidate_glosses": [
@@ -124,6 +137,12 @@
       "source_repo": "huggingface/datatrove",
       "status": "candidate",
       "text": "PyPI release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "\"PyPi Release\""
     }
   ],
   "candidate_related_terms": [
@@ -215,11 +234,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pypi-release.yml",
       "source_repo": "huggingface/datatrove"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ast-grep/ast-grep"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

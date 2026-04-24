@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Uniform API to read/write tree data models - cross-format, cross-library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Uniform API to read/write heterogeneous tree data models - cross-format, cross-library.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Uniform API to read/write heterogeneous tree data models - cross-format, cross-library.**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022971,
+      "status": "candidate",
+      "text": "bson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022969,
+      "status": "candidate",
+      "text": "binary-coded decimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022968,
+      "status": "candidate",
+      "text": "blob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022967,
+      "status": "candidate",
+      "text": "binary code"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cbor",
+      "sense_id": "cbor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cbor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cbor",
+  "observation_id": "f4845705630f97e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "cbor",
+  "source_context_snippet": "**Uniform API to read/write heterogeneous tree data models - cross-format, cross-library.**",
+  "source_file": null,
+  "source_repo": "filip26/tree-io",
+  "source_repo_description": "Uniform API to read/write tree data models - cross-format, cross-library."
+}

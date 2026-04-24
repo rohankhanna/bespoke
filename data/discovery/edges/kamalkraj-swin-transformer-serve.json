@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "pytorch/serve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "swintransformer/storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "eager-load",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "swin-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "torchscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "torchserve",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "kamalkraj/Swin-Transformer-Serve"
+}

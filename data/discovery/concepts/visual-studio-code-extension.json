@@ -19,6 +19,18 @@
       "source_repo": "matepek/vscode-catch2-test-adapter",
       "status": "candidate-context",
       "text": "Announcment: Looking for contributors to polish:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "matepek/vscode-catch2-test-adapter",
       "status": "candidate",
       "text": "Announcment: Looking for contributors to polish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate",
+      "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "matepek/vscode-catch2-test-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier-vscode"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

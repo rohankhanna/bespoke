@@ -67,6 +67,18 @@
       "source_repo": "apache/datafusion-ballista-python",
       "status": "candidate-context",
       "text": "Comment Bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": "Comment Bot"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate",
+      "text": "Comment Bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
       "status": "candidate",
       "text": "Comment Bot"
     }
@@ -172,11 +190,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/comment_bot.yml",
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/comment-bot.yml",
+      "source_repo": "tqdm/tqdm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -380,6 +380,66 @@
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
       "status": "candidate-context",
       "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "\"Lock threads\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Streaming torrent client for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "\"Lock threads\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d \u00a0Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "The Java gRPC implementation. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_glosses": [
@@ -566,6 +626,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate",
+      "text": "\"Lock threads\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate",
+      "text": "\"Lock threads\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
       "status": "candidate",
       "text": "'Lock Threads'"
     }
@@ -833,11 +923,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "panva/jose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "webtorrent/webtorrent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "apollographql/apollo-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/issue_lock.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "grpc/grpc-java"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollouts_e2e_tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollouts_e2e_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "argoproj/argo-rollouts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "Generated code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/setup-go@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "Run E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/setup-go@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/setup-go@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "Lint code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollouts_e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollouts_e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "actions/setup-go@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rollouts_e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "Run upstream Argo-Rollouts E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "argo-rollouts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "argoproj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "target": "progressive-delivery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:54.797847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1435
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1262
+    },
+    {
+      "path": "go.mod",
+      "size": 6798
+    },
+    {
+      "path": ".github/workflows/codegen.yaml",
+      "size": 1709
+    },
+    {
+      "path": ".github/workflows/e2e_tests.yml",
+      "size": 1383
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1009
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/rollouts_e2e_tests.yml",
+      "size": 1529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes Operator for Argo Rollouts controller.",
+    "fork": false,
+    "full_name": "argoproj-labs/argo-rollouts-manager",
+    "html_url": "https://github.com/argoproj-labs/argo-rollouts-manager",
+    "language": "Go",
+    "pushed_at": "2026-04-16T12:44:36Z",
+    "stargazers_count": 137,
+    "topics": [
+      "argo-rollouts",
+      "argoproj",
+      "progressive-delivery"
+    ],
+    "updated_at": "2026-04-16T12:44:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argoproj/argo-rollouts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generated code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "term": "Generated code"
+    },
+    {
+      "context_snippet": "Run E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "term": "Run E2E tests"
+    },
+    {
+      "context_snippet": "Lint code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint code"
+    },
+    {
+      "context_snippet": "Run upstream Argo-Rollouts E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rollouts_e2e_tests.yml",
+      "term": "Run upstream Argo-Rollouts E2E tests"
+    },
+    {
+      "context_snippet": "**Project Status: BETA**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argo-rollouts"
+    },
+    {
+      "context_snippet": "**Project Status: BETA**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argoproj"
+    },
+    {
+      "context_snippet": "**Project Status: BETA**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "progressive-delivery"
+    }
+  ]
+}

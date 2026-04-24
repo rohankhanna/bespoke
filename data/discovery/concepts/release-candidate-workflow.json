@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Candidate Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Release Candidate Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "Release Candidate Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22623,
+      "status": "candidate",
+      "text": "firing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22563,
+      "status": "candidate",
+      "text": "preselection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "movie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22495,
+      "status": "candidate",
+      "text": "bailment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Candidate Workflow",
+  "concept_id": "release-candidate-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release_candidate.yml",
+      "source_repo": "datreeio/datree"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Candidate Workflow",
+      "sense_id": "release-candidate-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

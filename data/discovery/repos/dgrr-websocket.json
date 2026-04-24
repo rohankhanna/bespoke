@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgrr/websocket",
+      "target": "fasthttp/websocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgrr/websocket",
+      "target": "nhooyr/websocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgrr/websocket",
+      "target": "gobwas/ws",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/websocket",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/websocket",
+      "target": "fasthttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/websocket",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/websocket",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/websocket",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:58:25.945933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9718
+    },
+    {
+      "path": "go.mod",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WebSocket for fasthttp",
+    "fork": false,
+    "full_name": "dgrr/websocket",
+    "html_url": "https://github.com/dgrr/websocket",
+    "language": "Go",
+    "pushed_at": "2025-03-10T16:59:37Z",
+    "stargazers_count": 68,
+    "topics": [
+      "fast",
+      "fasthttp",
+      "golang",
+      "high-performance",
+      "websocket"
+    ],
+    "updated_at": "2025-11-23T00:07:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasthttp/websocket",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gobwas/ws",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nhooyr/websocket",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fasthttp"
+    },
+    {
+      "context_snippet": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

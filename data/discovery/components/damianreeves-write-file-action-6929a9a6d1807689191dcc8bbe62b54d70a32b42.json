@@ -1,0 +1,12 @@
+{
+  "component": "DamianReeves/write-file-action@6929a9a6d1807689191dcc8bbe62b54d70a32b42",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "python-semantic-release/python-semantic-release"
+    }
+  ]
+}

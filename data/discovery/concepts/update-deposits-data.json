@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update deposits data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Gnosis Chain Validator Deposit Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Update deposits data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate",
+      "text": "Update deposits data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18768,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18768,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18756,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18743,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18743,
+      "status": "candidate",
+      "text": "edition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update deposits data",
+  "concept_id": "update-deposits-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deposits_data_cronjob.yml",
+      "source_repo": "gnosischain/gbc-deposit-ui"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update deposits data",
+      "sense_id": "update-deposits-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

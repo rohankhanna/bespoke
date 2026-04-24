@@ -127,6 +127,30 @@
       "source_repo": "firstbatchxyz/dkn-compute-node",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 An IPFS website measurement tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "IPFS implementation in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "firstbatchxyz/dkn-compute-node",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate",
+      "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
     }
   ],
   "candidate_related_terms": [],
@@ -274,11 +310,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "firstbatchxyz/dkn-compute-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "probe-lab/tiros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/js-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

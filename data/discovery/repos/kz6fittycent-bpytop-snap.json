@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-snap-can-build.yml"
+    },
+    {
+      "component": "snapcore/action-build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-snap-can-build.yml"
+    },
+    {
+      "component": "diddlesnaps/snapcraft-review-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-snap-can-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-snap-can-build.yml",
+      "source_repo": "kz6fittycent/bpytop-snap",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-snap-can-build.yml",
+      "source_repo": "kz6fittycent/bpytop-snap",
+      "target": "snapcore/action-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-snap-can-build.yml",
+      "source_repo": "kz6fittycent/bpytop-snap",
+      "target": "diddlesnaps/snapcraft-review-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-snap-can-build.yml",
+      "source_repo": "kz6fittycent/bpytop-snap",
+      "target": "\ud83e\uddea Snap Builds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:08.127327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1290
+    },
+    {
+      "path": ".github/workflows/test-snap-can-build.yml",
+      "size": 452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A snap for bpytop",
+    "fork": false,
+    "full_name": "kz6fittycent/bpytop-snap",
+    "html_url": "https://github.com/kz6fittycent/bpytop-snap",
+    "language": null,
+    "pushed_at": "2024-10-23T14:31:55Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2024-10-23T14:33:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\uddea Snap Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-snap-can-build.yml",
+      "term": "\ud83e\uddea Snap Builds"
+    }
+  ]
+}

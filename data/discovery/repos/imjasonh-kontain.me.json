@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "imjasonh/setup-crane@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "imjasonh/setup-crane@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "google-github-actions/auth@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "google/ko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "hashicorp/setup-terraform@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "imjasonh/setup-crane@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "hashicorp/setup-terraform@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "imjasonh/setup-crane@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "google-github-actions/auth@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "google-github-actions/setup-gcloud@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imjasonh/kontain.me",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imjasonh/kontain.me",
+      "target": "containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:24.527215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2026
+    },
+    {
+      "path": "go.mod",
+      "size": 11807
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 500
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 1163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Container image registry that serves images built fresh when you ask for them",
+    "fork": false,
+    "full_name": "imjasonh/kontain.me",
+    "html_url": "https://github.com/imjasonh/kontain.me",
+    "language": "Go",
+    "pushed_at": "2026-04-02T17:16:27Z",
+    "stargazers_count": 239,
+    "topics": [
+      "build",
+      "containers",
+      "jit"
+    ],
+    "updated_at": "2026-04-02T17:16:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/ko",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/imjasonh/kontain.me/actions/workflows/ci.yaml/badge.svg?event=push)](https://github.com/imjasonh/kontain.me/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/imjasonh/kontain.me/actions/workflows/ci.yaml/badge.svg?event=push)](https://github.com/imjasonh/kontain.me/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    }
+  ]
+}

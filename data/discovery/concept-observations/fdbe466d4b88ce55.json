@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udecd A JAMstack Ecommerce Site built with Nuxt and Netlify Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39710294,
+      "status": "candidate",
+      "text": "gridiron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "control grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "power grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "power system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "reference grid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grid",
+      "sense_id": "grid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5039,
+      "status": "candidate",
+      "text": "gridiron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "power grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "control grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "reference grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "power system"
+    }
+  ],
+  "concept_id": "grid",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grid",
+  "observation_id": "fdbe466d4b88ce55",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "grid",
+  "source_context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+  "source_file": null,
+  "source_repo": "sdras/ecommerce-netlify",
+  "source_repo_description": "\ud83d\udecd A JAMstack Ecommerce Site built with Nuxt and Netlify Functions"
+}

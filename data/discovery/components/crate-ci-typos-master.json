@@ -1,7 +1,7 @@
 {
   "component": "crate-ci/typos@master",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "denoland/std"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/pymbolic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "modelcontextprotocol/rust-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "FuelLabs/sway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "finegrain-ai/refiners"
     }
   ]
 }

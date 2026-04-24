@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/frizbee",
+      "target": "helix-editor/nucleo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/frizbee",
+      "target": "dmtrkovalenko/fff.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "saghen/frizbee",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "saghen/frizbee",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:17:00.380699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7168
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 722
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast typo-resistant fuzzy matching via SIMD smith waterman, similar algorithm to FZF/FZY",
+    "fork": false,
+    "full_name": "saghen/frizbee",
+    "html_url": "https://github.com/saghen/frizbee",
+    "language": "Rust",
+    "pushed_at": "2026-04-04T18:59:12Z",
+    "stargazers_count": 516,
+    "topics": [],
+    "updated_at": "2026-04-24T01:44:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmtrkovalenko/fff.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helix-editor/nucleo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    }
+  ]
+}

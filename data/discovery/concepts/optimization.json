@@ -163,6 +163,54 @@
       "source_repo": "google-deepmind/optax",
       "status": "candidate-context",
       "text": "![CI status](https://github.com/google-deepmind/optax/actions/workflows/tests.yml/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inisis/OnnxSlim",
+      "status": "candidate-context",
+      "text": "A Toolkit to Help Optimize Onnx Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inisis/OnnxSlim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "Nonlinear optimisation (root-finding, least squares, ...) in JAX+Equinox. https://docs.kidger.site/optimistix/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Optimistix</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "BLAS-like Library Instantiation Software Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookarchive/prepack",
+      "status": "candidate-context",
+      "text": "A JavaScript bundle optimizer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/prepack",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/PrepackLogo.png\" width=150 align=right>"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +291,30 @@
       "source_repo": "google-deepmind/optax",
       "status": "candidate",
       "text": "![CI status](https://github.com/google-deepmind/optax/actions/workflows/tests.yml/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inisis/OnnxSlim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate",
+      "text": "<h1 align='center'>Optimistix</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/prepack",
+      "status": "candidate",
+      "text": "<img src=\"assets/PrepackLogo.png\" width=150 align=right>"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +454,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "inisis/OnnxSlim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/optimistix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flame/blis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/prepack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

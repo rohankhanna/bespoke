@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alamofire/Foundation",
+      "target": "afnetworking/afamazons3manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alamofire/Foundation",
+      "target": "afnetworking/afjsonrpcclient",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alamofire/Foundation",
+      "target": "afnetworking/afgziprequestserializer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alamofire/Foundation",
+      "target": "afnetworking/afcoreimageresponseserializer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:04:36.332175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Policies for the Alamofire Software Foundation",
+    "fork": false,
+    "full_name": "Alamofire/Foundation",
+    "html_url": "https://github.com/Alamofire/Foundation",
+    "language": null,
+    "pushed_at": "2024-06-30T18:08:55Z",
+    "stargazers_count": 687,
+    "topics": [],
+    "updated_at": "2026-04-19T03:25:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afnetworking/afamazons3manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afnetworking/afcoreimageresponseserializer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afnetworking/afgziprequestserializer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afnetworking/afjsonrpcclient",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

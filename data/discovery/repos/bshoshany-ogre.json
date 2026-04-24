@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bshoshany/OGRe",
+      "target": "bshoshany/ogrepy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/OGRe",
+      "target": "differential-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/OGRe",
+      "target": "general-relativity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/OGRe",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/OGRe",
+      "target": "tensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/OGRe",
+      "target": "tensors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:14:31.640065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An object-oriented general relativity package for Mathematica.",
+    "fork": false,
+    "full_name": "bshoshany/OGRe",
+    "html_url": "https://github.com/bshoshany/OGRe",
+    "language": "Mathematica",
+    "pushed_at": "2024-09-04T07:26:39Z",
+    "stargazers_count": 140,
+    "topics": [
+      "differential-geometry",
+      "general-relativity",
+      "scientific-computing",
+      "tensor",
+      "tensors"
+    ],
+    "updated_at": "2026-04-15T21:40:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bshoshany/ogrepy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differential-geometry"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "general-relativity"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensors"
+    }
+  ]
+}

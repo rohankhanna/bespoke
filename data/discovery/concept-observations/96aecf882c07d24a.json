@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jonschlinkert",
+      "sense_id": "jonschlinkert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jonschlinkert",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jonschlinkert",
+  "observation_id": "96aecf882c07d24a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "jonschlinkert",
+  "source_context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/repeat-string",
+  "source_repo_description": "Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method)"
+}

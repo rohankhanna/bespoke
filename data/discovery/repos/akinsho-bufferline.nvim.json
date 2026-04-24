@@ -38,27 +38,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "akinsho/bufferline.nvim",
-      "target": "ema2159/centaur-tabs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "akinsho/bufferline.nvim",
-      "target": "tiagovla/scope.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "akinsho/bufferline.nvim",
-      "target": "ap/vim-buftabline",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "akinsho/bufferline.nvim",
@@ -129,7 +108,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:58:45.682568+00:00",
+  "fetched_at": "2026-04-24T08:12:48.846399+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -154,7 +133,7 @@
     "html_url": "https://github.com/akinsho/bufferline.nvim",
     "language": "Lua",
     "pushed_at": "2025-01-14T16:03:57Z",
-    "stargazers_count": 4295,
+    "stargazers_count": 4294,
     "topics": [
       "bufferline",
       "lua",
@@ -163,25 +142,9 @@
       "nvim",
       "vim"
     ],
-    "updated_at": "2026-04-22T19:03:23Z"
+    "updated_at": "2026-04-23T21:23:27Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ap/vim-buftabline",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ema2159/centaur-tabs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tiagovla/scope.nvim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Semantic Pull Request Subject",

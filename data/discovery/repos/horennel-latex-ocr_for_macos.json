@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "horennel/LaTex-OCR_for_macOS",
+      "target": "jaredks/rumps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "horennel/LaTex-OCR_for_macOS",
+      "target": "ronaldoussoren/py2app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "horennel/LaTex-OCR_for_macOS",
+      "target": "python-pillow/pillow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:43.448507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3993
+    },
+    {
+      "path": "requirements.txt",
+      "size": 94
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A macOS Menu Bar Application for Text and Math Formula Recognition Based on Pix2Text",
+    "fork": false,
+    "full_name": "horennel/LaTex-OCR_for_macOS",
+    "html_url": "https://github.com/horennel/LaTex-OCR_for_macOS",
+    "language": "Python",
+    "pushed_at": "2024-12-14T09:26:42Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-03-28T15:55:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaredks/rumps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-pillow/pillow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ronaldoussoren/py2app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

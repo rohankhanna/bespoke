@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amyreese/zsh-titles",
+      "target": "tmux-titles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amyreese/zsh-titles",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amyreese/zsh-titles",
+      "target": "zsh-titles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:21.015912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Terminal/tmux titles based on current location and task",
+    "fork": false,
+    "full_name": "amyreese/zsh-titles",
+    "html_url": "https://github.com/amyreese/zsh-titles",
+    "language": "Shell",
+    "pushed_at": "2023-02-10T21:33:25Z",
+    "stargazers_count": 58,
+    "topics": [
+      "tmux-titles",
+      "zsh",
+      "zsh-plugin",
+      "zsh-titles"
+    ],
+    "updated_at": "2025-09-25T11:50:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Automatic terminal and tmux titles based on current location and task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-titles"
+    },
+    {
+      "context_snippet": "Automatic terminal and tmux titles based on current location and task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin"
+    },
+    {
+      "context_snippet": "Automatic terminal and tmux titles based on current location and task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-titles"
+    }
+  ]
+}

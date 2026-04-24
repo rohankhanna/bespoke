@@ -19,6 +19,18 @@
       "source_repo": "lerocha/netflixdb",
       "status": "candidate-context",
       "text": "Sample database based on the data from the [Netflix Engagement Report](https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2024) and the [Netflix Global Top 10](https://www.netflix.com/tudum/top10) weekly list, it includes movies and TV shows for learning and pra\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "SQL-first Golang ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lerocha/netflixdb",
       "status": "candidate",
       "text": "Sample database based on the data from the [Netflix Engagement Report](https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2024) and the [Netflix Global Top 10](https://www.netflix.com/tudum/top10) weekly list, it includes movies and TV shows for learning and pra\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "lerocha/netflixdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/bun"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

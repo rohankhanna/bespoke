@@ -283,6 +283,102 @@
       "source_repo": "grpc-ecosystem/grpc-health-probe",
       "status": "candidate-context",
       "text": "![ci](https://github.com/grpc-ecosystem/grpc-health-probe/workflows/ci/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "status": "candidate-context",
+      "text": "KurrentDB .NET Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "status": "candidate-context",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate-context",
+      "text": "KurrentDB Go Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate-context",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Java",
+      "status": "candidate-context",
+      "text": "KurrentDB Java Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Java",
+      "status": "candidate-context",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenh/ts-proto",
+      "status": "candidate-context",
+      "text": "An idiomatic protobuf generator for TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenh/ts-proto",
+      "status": "candidate-context",
+      "text": "ts-proto"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate-context",
+      "text": "Compile protocol buffer messages to TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate-context",
+      "text": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate-context",
+      "text": "Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcurl/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcurl/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fullstorydev/grpcui",
+      "status": "candidate-context",
+      "text": "An interactive web UI for gRPC, along the lines of postman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcui",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcui/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcui/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "The Java gRPC implementation. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "gRPC-Java - An RPC library and framework"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +519,54 @@
       "source_repo": "grpc-ecosystem/grpc-health-probe",
       "status": "candidate",
       "text": "![ci](https://github.com/grpc-ecosystem/grpc-health-probe/workflows/ci/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "status": "candidate",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Java",
+      "status": "candidate",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenh/ts-proto",
+      "status": "candidate",
+      "text": "ts-proto"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate",
+      "text": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcurl/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcurl/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcui",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcui/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcui/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate",
+      "text": "gRPC-Java - An RPC library and framework"
     }
   ],
   "candidate_related_terms": [],
@@ -568,11 +712,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "grpc-ecosystem/grpc-health-probe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "stephenh/ts-proto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fullstorydev/grpcurl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fullstorydev/grpcui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tikv/grpc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

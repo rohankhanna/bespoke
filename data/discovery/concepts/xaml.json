@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "xaml"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "![WinUI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate-context",
+      "text": "Collection of controls, helpers and extension for WinUI 2, WinUI 3, and Uno Platform developers. Simplifies and demonstrates common developer tasks building experiences for Windows with .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate-context",
+      "text": "**/CommunityToolkit.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate",
+      "text": "![WinUI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate",
+      "text": "**/CommunityToolkit.*"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021565,
+      "status": "candidate",
+      "text": "mxml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021564,
+      "status": "candidate",
+      "text": "combobox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021563,
+      "status": "candidate",
+      "text": "asp.net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021562,
+      "status": "candidate",
+      "text": "silverlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021561,
+      "status": "candidate",
+      "text": "winforms"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "xaml",
+  "concept_id": "xaml",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xaml",
+      "sense_id": "xaml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

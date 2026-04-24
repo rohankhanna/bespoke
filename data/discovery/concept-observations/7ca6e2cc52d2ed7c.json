@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "go generate based graphql server library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "assessments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "contributions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "customers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "dues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "endowments"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "subscriptions",
+      "sense_id": "subscriptions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "subscriptions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "subscriptions",
+  "observation_id": "7ca6e2cc52d2ed7c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "subscriptions",
+  "source_context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+  "source_file": null,
+  "source_repo": "99designs/gqlgen",
+  "source_repo_description": "go generate based graphql server library"
+}

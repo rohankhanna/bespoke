@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/boxoban-levels",
+      "target": "deepmind/boxoban-levels",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:46.672397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains levels for boxoban, a box-pushing puzzle game inspired by Sokoban.",
+    "fork": false,
+    "full_name": "google-deepmind/boxoban-levels",
+    "html_url": "https://github.com/google-deepmind/boxoban-levels",
+    "language": null,
+    "pushed_at": "2022-12-28T16:26:04Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-09T08:52:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/boxoban-levels",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

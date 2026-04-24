@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wondervictor/WiderFace-Evaluation",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wondervictor/WiderFace-Evaluation",
+      "target": "widerface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wondervictor/WiderFace-Evaluation",
+      "target": "widerface-evaluation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:34.545746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python Evaluation Code for Wider Face Dataset",
+    "fork": false,
+    "full_name": "wondervictor/WiderFace-Evaluation",
+    "html_url": "https://github.com/wondervictor/WiderFace-Evaluation",
+    "language": "Python",
+    "pushed_at": "2024-03-04T07:00:38Z",
+    "stargazers_count": 182,
+    "topics": [
+      "face-detection",
+      "widerface",
+      "widerface-evaluation"
+    ],
+    "updated_at": "2026-03-10T08:17:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Python Evaluation Code for [Wider Face Dataset](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "Python Evaluation Code for [Wider Face Dataset](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widerface"
+    },
+    {
+      "context_snippet": "Python Evaluation Code for [Wider Face Dataset](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widerface-evaluation"
+    }
+  ]
+}

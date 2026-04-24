@@ -259,6 +259,66 @@
       "source_repo": "pypi/warehouse",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aackerman/circular-dependency-plugin",
+      "status": "candidate-context",
+      "text": "Detect circular dependencies in modules compiled with Webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aackerman/circular-dependency-plugin",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Build AI Agents, Visually"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OrleansContrib/OrleansDashboard",
+      "status": "candidate-context",
+      "text": ":bar_chart: A developer dashboard for Microsoft Orleans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrleansContrib/OrleansDashboard",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension for inspection Preact applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
@@ -385,6 +445,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pypi/warehouse",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aackerman/circular-dependency-plugin",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrleansContrib/OrleansDashboard",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -574,11 +664,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "apollographql/eslint-plugin-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "TooTallNate/proxy-agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "aackerman/circular-dependency-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FlowiseAI/Flowise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "OrleansContrib/OrleansDashboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "preactjs/preact-devtools"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

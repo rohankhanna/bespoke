@@ -19,12 +19,30 @@
       "source_repo": "cncf/toc",
       "status": "candidate-context",
       "text": "Auto Label Issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate-context",
+      "text": "A thread-per-core async Rust runtime with IOCP/io_uring/polling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate-context",
+      "text": "Auto Label Issues and PRs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cncf/toc",
+      "status": "candidate",
+      "text": "Auto Label Issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio",
       "status": "candidate",
       "text": "Auto Label Issues and PRs"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/labeler.yaml",
       "source_repo": "cncf/toc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci_auto_label.yml",
+      "source_repo": "compio-rs/compio"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

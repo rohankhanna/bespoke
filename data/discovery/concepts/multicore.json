@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "multicore"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "status": "candidate-context",
+      "text": "Parallel t-SNE implementation with Python and Torch wrappers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "status": "candidate-context",
+      "text": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "status": "candidate",
+      "text": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018031,
+      "status": "candidate",
+      "text": "multicored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018030,
+      "status": "candidate",
+      "text": "manycore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018029,
+      "status": "candidate",
+      "text": "multicurrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018028,
+      "status": "candidate",
+      "text": "multicoil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018027,
+      "status": "candidate",
+      "text": "multicable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "multicore",
+  "concept_id": "multicore",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multicore",
+      "sense_id": "multicore#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Create GitHub release",
-    "Create GitHub Release"
+    "Create GitHub Release",
+    "Create Github Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,42 @@
       "source_repo": "actions/runner-images",
       "status": "candidate-context",
       "text": "Create GitHub release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Gnosis Chain Validator Deposit Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Create Github Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "status": "candidate-context",
+      "text": "A collection of nREPL middleware to enhance Clojure editors with common functionality like definition lookup, code completion, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate-context",
+      "text": "The corrective bash syntax highlighter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate-context",
+      "text": "Create GitHub release"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +117,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "actions/runner-images",
+      "status": "candidate",
+      "text": "Create GitHub release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate",
+      "text": "Create Github Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anordal/shellharden",
       "status": "candidate",
       "text": "Create GitHub release"
     }
@@ -155,11 +210,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/create_github_release.yml",
       "source_repo": "actions/runner-images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "gnosischain/gbc-deposit-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/cider-nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "anordal/shellharden"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

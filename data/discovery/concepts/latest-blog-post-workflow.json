@@ -1,0 +1,142 @@
+{
+  "aliases": [
+    "Latest blog post workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "Latest blog post workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "status": "candidate-context",
+      "text": "Yet another GitHub profile readme :smiley:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "status": "candidate-context",
+      "text": "Latest blog post workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gkr-bot/gkr-bot",
+      "status": "candidate-context",
+      "text": "Latest blog post workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate",
+      "text": "Latest blog post workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "status": "candidate",
+      "text": "Latest blog post workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gkr-bot/gkr-bot",
+      "status": "candidate",
+      "text": "Latest blog post workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36901,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32392,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29354,
+      "status": "candidate",
+      "text": "rant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29343,
+      "status": "candidate",
+      "text": "smear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22084,
+      "status": "candidate",
+      "text": "kast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Latest blog post workflow",
+  "concept_id": "latest-blog-post-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "gautamkrishnar/gautamkrishnar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/blog-master.yml",
+      "source_repo": "gkr-bot/gkr-bot"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest blog post workflow",
+      "sense_id": "latest-blog-post-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

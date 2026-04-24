@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crev-dev/crev",
+      "target": "crev-dev/pip-crev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crev-dev/crev",
+      "target": "dpc/crev-proofs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/crev",
+      "target": "audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/crev",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/crev",
+      "target": "review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/crev",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:51.028830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Socially scalable Code REView and recommendation system that we desperately need. See http://github.com/crev-dev/cargo-crev for real implemenation.",
+    "fork": false,
+    "full_name": "crev-dev/crev",
+    "html_url": "https://github.com/crev-dev/crev",
+    "language": null,
+    "pushed_at": "2022-01-18T03:04:46Z",
+    "stargazers_count": 425,
+    "topics": [
+      "audit",
+      "code",
+      "review",
+      "security",
+      "wot"
+    ],
+    "updated_at": "2026-04-16T02:59:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crev-dev/pip-crev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dpc/crev-proofs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audit"
+    },
+    {
+      "context_snippet": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "review"
+    },
+    {
+      "context_snippet": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

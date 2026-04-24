@@ -88,6 +88,42 @@
       "source_repo": "microsoft/playwright",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension for inspection Preact applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension that allows you to inspect a Preact component hierarchy,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "Bitwarden client apps (web, browser extension, desktop, and cli)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "Use your IAM role (from instance metadata) to open the AWS console "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -132,6 +168,24 @@
       "source_repo": "microsoft/playwright",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate",
+      "text": "Browser extension that allows you to inspect a Preact component hierarchy,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -237,11 +291,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/clients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

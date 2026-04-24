@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The semver parser for node (the one npm uses)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "semver(1) -- The semantic versioner for npm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "semver(1) -- The semantic versioner for npm"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "npm-cli",
+      "sense_id": "npm-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "npm-cli",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "npm-cli",
+  "observation_id": "9d73e52bf7ee6c44",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "npm-cli",
+  "source_context_snippet": "semver(1) -- The semantic versioner for npm",
+  "source_file": null,
+  "source_repo": "npm/node-semver",
+  "source_repo_description": "The semver parser for node (the one npm uses)"
+}

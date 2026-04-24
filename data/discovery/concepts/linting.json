@@ -299,6 +299,66 @@
       "source_repo": "rusty1s/pytorch_sparse",
       "status": "candidate-context",
       "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate-context",
+      "text": "AMD ROCm\u2122 Software - GitHub Home"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate-context",
+      "text": "This library provides support for \"legacy\" Python Packaging functionality removed from https://github.com/pypa/packaging."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gjtorikian/commonmarker",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for the comrak (CommonMark parser) Rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjtorikian/commonmarker",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": ":fire_engine: The guts of `standard` modularized for reuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": "'linting'"
     }
   ],
   "candidate_glosses": [
@@ -445,6 +505,36 @@
       "source_repo": "rusty1s/pytorch_sparse",
       "status": "candidate",
       "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjtorikian/commonmarker",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate",
+      "text": "'linting'"
     }
   ],
   "candidate_related_terms": [
@@ -691,11 +781,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "rusty1s/pytorch_sparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "di/packaging_legacy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/commonmarker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "standard/standard-engine"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

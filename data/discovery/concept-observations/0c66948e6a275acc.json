@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Automation: Update tooling versions\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Automation: Update tooling versions\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18822,
+      "status": "candidate",
+      "text": "introduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18798,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18798,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18798,
+      "status": "candidate",
+      "text": "retrofitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18775,
+      "status": "candidate",
+      "text": "bioengineering"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automation: Update tooling versions",
+      "sense_id": "automation-update-tooling-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automation-update-tooling-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automation-update-tooling-versions",
+  "observation_id": "0c66948e6a275acc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Automation: Update tooling versions",
+  "source_context_snippet": "\"Automation: Update tooling versions\"",
+  "source_file": ".github/workflows/auto-update-tools.yml",
+  "source_repo": "getsentry/sentry-cocoa",
+  "source_repo_description": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+}

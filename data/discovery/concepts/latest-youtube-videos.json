@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Latest YouTube Videos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "Latest YouTube Videos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate",
+      "text": "Latest YouTube Videos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18490,
+      "status": "candidate",
+      "text": "webcam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18292,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10229,
+      "status": "candidate",
+      "text": "streaming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "scoop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Latest YouTube Videos",
+  "concept_id": "latest-youtube-videos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest YouTube Videos",
+      "sense_id": "latest-youtube-videos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

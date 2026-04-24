@@ -81,6 +81,18 @@
       "source_repo": "SvenTiigi/SwiftKit",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "status": "candidate-context",
+      "text": "Generated Java code for Google APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "status": "candidate-context",
+      "text": "generate"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "SvenTiigi/SwiftKit",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "status": "candidate",
+      "text": "generate"
     }
   ],
   "candidate_related_terms": [
@@ -234,11 +252,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "SvenTiigi/SwiftKit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "googleapis/google-api-java-client-services"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

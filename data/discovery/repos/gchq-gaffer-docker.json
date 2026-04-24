@@ -1,0 +1,389 @@
+{
+  "components": [
+    {
+      "component": "easimon/maximize-build-space@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-get-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "jdcargile/ms-teams-notification@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "jdcargile/ms-teams-notification@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "tkt-actions/add-issue-links@v1.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-get-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "easimon/maximize-build-space@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions-ecosystem/action-get-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "Create Hotfix Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "Create Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "jdcargile/ms-teams-notification@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "tkt-actions/add-issue-links@v1.8.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "Issue Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions-ecosystem/action-get-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/gaffer-docker",
+      "target": "Full Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker",
+      "target": "accumulo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker",
+      "target": "gaffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker",
+      "target": "hdfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker",
+      "target": "helm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:43.246183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2425
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yaml",
+      "size": 2162
+    },
+    {
+      "path": ".github/workflows/create-hotfix-branch.yaml",
+      "size": 2614
+    },
+    {
+      "path": ".github/workflows/create-release-branch.yaml",
+      "size": 2098
+    },
+    {
+      "path": ".github/workflows/integration-test.yaml",
+      "size": 1827
+    },
+    {
+      "path": ".github/workflows/link-issue.yaml",
+      "size": 906
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 5426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "develop",
+    "description": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes",
+    "fork": false,
+    "full_name": "gchq/gaffer-docker",
+    "html_url": "https://github.com/gchq/gaffer-docker",
+    "language": "Shell",
+    "pushed_at": "2025-06-06T09:05:29Z",
+    "stargazers_count": 32,
+    "topics": [
+      "accumulo",
+      "docker",
+      "gaffer",
+      "hdfs",
+      "helm"
+    ],
+    "updated_at": "2025-11-22T22:49:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Create Hotfix Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "term": "Create Hotfix Branch"
+    },
+    {
+      "context_snippet": "Create Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "term": "Create Release Branch"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "'Issue Links'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yaml",
+      "term": "Issue Links"
+    },
+    {
+      "context_snippet": "Full Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Full Release"
+    },
+    {
+      "context_snippet": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accumulo"
+    },
+    {
+      "context_snippet": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaffer"
+    },
+    {
+      "context_snippet": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hdfs"
+    },
+    {
+      "context_snippet": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    }
+  ]
+}

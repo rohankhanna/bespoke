@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easily locate the cursor after a search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "When you perform a search, the cursor jumps to the closest match. It's often"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "When you perform a search, the cursor jumps to the closest match. It's often"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "viml",
+      "sense_id": "viml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "viml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "viml",
+  "observation_id": "0191f58f3f3e03f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "viml",
+  "source_context_snippet": "When you perform a search, the cursor jumps to the closest match. It's often",
+  "source_file": null,
+  "source_repo": "inside/vim-search-pulse",
+  "source_repo_description": "Easily locate the cursor after a search"
+}

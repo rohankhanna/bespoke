@@ -1,0 +1,346 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "clue-ai/chatyuan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "baichuan-inc/baichuan-7b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "agiresearch/openagi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "cluebenchmark/pclue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "alpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "autogpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "baichuan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "belle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "ceval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "codi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "guanaco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "learderboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "linly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "minigpt4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "self-instruct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "vicuna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "target": "wizadlm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:10.945154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChatGPT\u7206\u706b\uff0c\u5f00\u542f\u4e86\u901a\u5f80AGI\u7684\u5173\u952e\u4e00\u6b65\uff0c\u672c\u9879\u76ee\u65e8\u5728\u6c47\u603b\u90a3\u4e9bChatGPT\u7684\u5f00\u6e90\u5e73\u66ff\u4eec\uff0c\u5305\u62ec\u6587\u672c\u5927\u6a21\u578b\u3001\u591a\u6a21\u6001\u5927\u6a21\u578b\u7b49\uff0c\u4e3a\u5927\u5bb6\u63d0\u4f9b\u4e00\u4e9b\u4fbf\u5229",
+    "fork": false,
+    "full_name": "chenking2020/FindTheChatGPTer",
+    "html_url": "https://github.com/chenking2020/FindTheChatGPTer",
+    "language": null,
+    "pushed_at": "2023-08-14T07:18:09Z",
+    "stargazers_count": 2016,
+    "topics": [
+      "agi",
+      "alpaca",
+      "autogpt",
+      "baichuan",
+      "belle",
+      "ceval",
+      "chatglm",
+      "chatgpt",
+      "codi",
+      "guanaco",
+      "learderboard",
+      "linly",
+      "llama",
+      "llama2",
+      "llava",
+      "lora",
+      "minigpt4",
+      "self-instruct",
+      "vicuna",
+      "wizadlm"
+    ],
+    "updated_at": "2026-04-16T14:22:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agiresearch/openagi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baichuan-inc/baichuan-7b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clue-ai/chatyuan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cluebenchmark/pclue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpaca"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autogpt"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baichuan"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "belle"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ceval"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codi"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guanaco"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learderboard"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linly"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minigpt4"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-instruct"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vicuna"
+    },
+    {
+      "context_snippet": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wizadlm"
+    }
+  ]
+}

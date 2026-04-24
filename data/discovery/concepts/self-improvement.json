@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "self-improvement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1d  The First Self-Improving Agentic Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate-context",
+      "text": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate",
+      "text": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970859,
+      "status": "candidate",
+      "text": "self-reformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970858,
+      "status": "candidate",
+      "text": "self"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967813,
+      "status": "candidate",
+      "text": "self-reliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964245,
+      "status": "candidate",
+      "text": "improvement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964212,
+      "status": "candidate",
+      "text": "improving"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "self-reformation"
+    }
+  ],
+  "canonical_name": "self-improvement",
+  "concept_id": "self-improvement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-improvement",
+      "sense_id": "self-improvement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

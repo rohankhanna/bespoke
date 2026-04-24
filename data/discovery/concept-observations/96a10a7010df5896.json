@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9965075,
+      "status": "candidate",
+      "text": "gun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9953908,
+      "status": "candidate",
+      "text": "gas pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9938397,
+      "status": "candidate",
+      "text": "throttle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9901605,
+      "status": "candidate",
+      "text": "atom smasher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9901442,
+      "status": "candidate",
+      "text": "particle accelerator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "accelerators",
+      "sense_id": "accelerators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "accelerators",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "accelerators",
+  "observation_id": "96a10a7010df5896",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "accelerators",
+  "source_context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+  "source_file": null,
+  "source_repo": "beehive-lab/GPULlama3.java",
+  "source_repo_description": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+}

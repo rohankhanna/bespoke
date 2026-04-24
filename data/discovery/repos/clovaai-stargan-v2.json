@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/stargan-v2",
+      "target": "clovaai/stargan-v2-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/stargan-v2",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/stargan-v2",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/stargan-v2",
+      "target": "image-to-image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/stargan-v2",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/stargan-v2",
+      "target": "stargan-v2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:19:48.968311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StarGAN v2 - Official PyTorch Implementation (CVPR 2020)",
+    "fork": false,
+    "full_name": "clovaai/stargan-v2",
+    "html_url": "https://github.com/clovaai/stargan-v2",
+    "language": "Python",
+    "pushed_at": "2023-04-27T00:58:48Z",
+    "stargazers_count": 3606,
+    "topics": [
+      "cvpr2020",
+      "generative-models",
+      "image-to-image-translation",
+      "pytorch",
+      "stargan-v2"
+    ],
+    "updated_at": "2026-04-16T12:35:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/stargan-v2-tensorflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-models"
+    },
+    {
+      "context_snippet": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image-translation"
+    },
+    {
+      "context_snippet": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stargan-v2"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "btcd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate-context",
+      "text": "An alternative full node bitcoin implementation written in Go (golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate-context",
+      "text": "btcd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate",
+      "text": "btcd"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "btcd",
+  "concept_id": "btcd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "btcsuite/btcd"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "btcd",
+      "sense_id": "btcd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

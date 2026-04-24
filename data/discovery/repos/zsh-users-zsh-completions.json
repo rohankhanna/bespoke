@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zsh-users/zsh-completions",
+      "target": "macports/macports-ports",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-completions",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-completions",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-completions",
+      "target": "zsh-completions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:26.656854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Additional completion definitions for Zsh.",
+    "fork": false,
+    "full_name": "zsh-users/zsh-completions",
+    "html_url": "https://github.com/zsh-users/zsh-completions",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T10:52:06Z",
+    "stargazers_count": 7743,
+    "topics": [
+      "completion",
+      "shell",
+      "zsh",
+      "zsh-completions"
+    ],
+    "updated_at": "2026-04-24T07:36:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macports/macports-ports",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-completions"
+    }
+  ]
+}

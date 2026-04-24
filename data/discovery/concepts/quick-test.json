@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Quick Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "A feature-rich command-line audio/video downloader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "Quick Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate",
+      "text": "Quick Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53436,
+      "status": "candidate",
+      "text": "test out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53435,
+      "status": "candidate",
+      "text": "test run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53434,
+      "status": "candidate",
+      "text": "test case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53433,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53432,
+      "status": "candidate",
+      "text": "test ban"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Quick Test",
+  "concept_id": "quick-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/quick-test.yml",
+      "source_repo": "yt-dlp/yt-dlp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quick Test",
+      "sense_id": "quick-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

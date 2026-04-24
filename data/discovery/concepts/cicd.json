@@ -82,6 +82,42 @@
       "source_repo": "gitleaks/gitleaks",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antgroup/DeepXTrace",
+      "status": "candidate-context",
+      "text": "DeepXTrace is a lightweight tool for precisely diagnosing slow ranks in DeepEP-based environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antgroup/DeepXTrace",
+      "status": "candidate-context",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "status": "candidate-context",
+      "text": "A super simple XML parser for LLMs that removes a lot of pain for traditional XML parsing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "status": "candidate-context",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/grcov",
+      "status": "candidate-context",
+      "text": "Rust tool to collect and aggregate code coverage data for multiple source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/grcov",
+      "status": "candidate-context",
+      "text": "CICD"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +156,24 @@
       "source_repo": "gitleaks/gitleaks",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antgroup/DeepXTrace",
+      "status": "candidate",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "status": "candidate",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/grcov",
+      "status": "candidate",
+      "text": "CICD"
     }
   ],
   "candidate_related_terms": [],
@@ -163,11 +217,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "antgroup/DeepXTrace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "Significant-Gravitas/gravitasml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "mozilla/grcov"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

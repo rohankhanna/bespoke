@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go-netaddrs.yaml",
+      "source_repo": "hashicorp/go-netaddrs",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go-netaddrs.yaml",
+      "source_repo": "hashicorp/go-netaddrs",
+      "target": "actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go-netaddrs.yaml",
+      "source_repo": "hashicorp/go-netaddrs",
+      "target": "golangci/golangci-lint-action@08e2f20817b15149a52b5b3ebe7de50aff2ba8c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-go-netaddrs.yaml",
+      "source_repo": "hashicorp/go-netaddrs",
+      "target": "test-go-netaddrs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "hashicorp/go-netaddrs"
+}

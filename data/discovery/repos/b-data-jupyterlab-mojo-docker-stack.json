@@ -1,0 +1,307 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "microsoft/vscode-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "b-data/jupyter-marimo-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "conda/conda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "b-data/docker-deployment-jupyter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "code-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "mojo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "multi-arch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:51.387219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab MAX/Mojo docker images. Please submit Pull Requests to the GitLab repository. Mirror of",
+    "fork": false,
+    "full_name": "b-data/jupyterlab-mojo-docker-stack",
+    "html_url": "https://github.com/b-data/jupyterlab-mojo-docker-stack",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-24T05:25:17Z",
+    "stargazers_count": 5,
+    "topics": [
+      "ai",
+      "amd64",
+      "arm64",
+      "code-oss",
+      "container",
+      "data-science",
+      "docker",
+      "ide",
+      "jupyterlab",
+      "language",
+      "llm",
+      "machine-learning",
+      "ml",
+      "mojo",
+      "multi-arch",
+      "onnx",
+      "podman",
+      "programming-language",
+      "pytorch",
+      "vscode"
+    ],
+    "updated_at": "2026-04-24T05:25:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b-data/docker-deployment-jupyter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b-data/jupyter-marimo-proxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda/conda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd64"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-oss"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mojo"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-arch"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

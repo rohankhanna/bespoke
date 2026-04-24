@@ -84,7 +84,7 @@
   "normalized_form": "build-binary-releases",
   "observation_id": "5a25f35f21be9d12",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Build binary releases",
   "source_context_snippet": "Build binary releases",
   "source_file": ".github/workflows/static.yaml",

@@ -19,6 +19,18 @@
       "source_repo": "jmsltnv/civitai-data-manager",
       "status": "candidate-context",
       "text": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "One command brings a complete pre-wired LLM stack with hundreds of services to explore."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jmsltnv/civitai-data-manager",
       "status": "candidate",
       "text": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +70,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

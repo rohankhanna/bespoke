@@ -103,6 +103,42 @@
       "source_repo": "nonebot/aiocqhttp",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/github/license/nonebot/aiocqhttp.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate-context",
+      "text": "Object mapping, and more, for Redis and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate-context",
+      "text": "Electrum server using zeromq libbitcoin as backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate-context",
+      "text": "obelisk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miguelgrinberg/python-socketio",
+      "status": "candidate-context",
+      "text": "Python Socket.IO server and client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miguelgrinberg/python-socketio",
+      "status": "candidate-context",
+      "text": "python-socketio"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "nonebot/aiocqhttp",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/github/license/nonebot/aiocqhttp.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate",
+      "text": "obelisk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miguelgrinberg/python-socketio",
+      "status": "candidate",
+      "text": "python-socketio"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +262,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nonebot/aiocqhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

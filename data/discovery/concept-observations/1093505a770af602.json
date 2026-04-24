@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nim implementation of the Ethereum Beacon Chain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unit Test Results"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unit Test Results"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35592,
+      "status": "candidate",
+      "text": "negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34556,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34556,
+      "status": "candidate",
+      "text": "result"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34491,
+      "status": "candidate",
+      "text": "output"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34491,
+      "status": "candidate",
+      "text": "performance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit Test Results",
+      "sense_id": "unit-test-results#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unit-test-results",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unit-test-results",
+  "observation_id": "1093505a770af602",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Unit Test Results",
+  "source_context_snippet": "Unit Test Results",
+  "source_file": ".github/workflows/unit-test-results.yml",
+  "source_repo": "status-im/nimbus-eth2",
+  "source_repo_description": "Nim implementation of the Ethereum Beacon Chain"
+}

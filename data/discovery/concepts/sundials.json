@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sundials"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/sunode",
+      "status": "candidate-context",
+      "text": "Solve ODEs fast, with support for PyMC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/sunode",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/sunode",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "armillary sphere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51424,
+      "status": "candidate",
+      "text": "solstices"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51423,
+      "status": "candidate",
+      "text": "equinoxes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51422,
+      "status": "candidate",
+      "text": "hipparchus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51421,
+      "status": "candidate",
+      "text": "sextant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sundials",
+  "concept_id": "sundials",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/sunode"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sundials",
+      "sense_id": "sundials#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

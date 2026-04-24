@@ -1,0 +1,199 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "bloom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "gpt-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "gpt-q",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "instruct-finetune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "instruct-gpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "instruction-set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE",
+      "target": "open-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:53:37.642741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17701
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BELLE: Be Everyone's Large Language model Engine\uff08\u5f00\u6e90\u4e2d\u6587\u5bf9\u8bdd\u5927\u6a21\u578b\uff09",
+    "fork": false,
+    "full_name": "LianjiaTech/BELLE",
+    "html_url": "https://github.com/LianjiaTech/BELLE",
+    "language": "HTML",
+    "pushed_at": "2024-10-16T11:38:59Z",
+    "stargazers_count": 8283,
+    "topics": [
+      "bloom",
+      "chinese-nlp",
+      "gpt-evaluation",
+      "gpt-q",
+      "instruct-finetune",
+      "instruct-gpt",
+      "instruction-set",
+      "llama",
+      "lora",
+      "open-models"
+    ],
+    "updated_at": "2026-04-23T11:52:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-nlp"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-evaluation"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-q"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruct-finetune"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruct-gpt"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-set"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "*Read this in [English](README_en.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-models"
+    }
+  ]
+}

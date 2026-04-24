@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manage stale issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manage stale issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18102,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18062,
+      "status": "candidate",
+      "text": "done"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18062,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18062,
+      "status": "candidate",
+      "text": "procurator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18030,
+      "status": "candidate",
+      "text": "religion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manage stale issues",
+      "sense_id": "manage-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manage-stale-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manage-stale-issues",
+  "observation_id": "8f12ad5e2e0f98e0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Manage stale issues",
+  "source_context_snippet": "Manage stale issues",
+  "source_file": ".github/workflows/stale-issues.yml",
+  "source_repo": "XcodesOrg/homebrew-cask",
+  "source_repo_description": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+}

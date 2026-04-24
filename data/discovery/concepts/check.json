@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Check",
-    "check"
+    "check",
+    "\ud83e\uddea check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -352,6 +353,54 @@
       "source_repo": "tpapp/julia-repl",
       "status": "candidate-context",
       "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate-context",
+      "text": "A thread-per-core async Rust runtime with IOCP/io_uring/polling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "Virtual Python Environment builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cplusplus/draft",
+      "status": "candidate-context",
+      "text": "C++ standards drafts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cplusplus/draft",
+      "status": "candidate-context",
+      "text": "check"
     }
   ],
   "candidate_glosses": [
@@ -528,6 +577,30 @@
       "source_repo": "tpapp/julia-repl",
       "status": "candidate",
       "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate",
+      "text": "\ud83e\uddea check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cplusplus/draft",
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "candidate_related_terms": [
@@ -565,6 +638,41 @@
       "score": 39715152,
       "status": "candidate",
       "text": "check into"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
     }
   ],
   "candidate_synonyms": [
@@ -799,11 +907,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "tpapp/julia-repl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci_check.yml",
+      "source_repo": "compio-rs/compio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "pypa/virtualenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tqdm/tqdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "cplusplus/draft"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

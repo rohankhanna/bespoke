@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -312,6 +312,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "source_repo": "Waffle/waffle"
     }
   ]
 }

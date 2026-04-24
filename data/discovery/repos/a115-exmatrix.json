@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a115/exmatrix",
+      "target": "alco/benchfella",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:02:17.637757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Elixir library implementing a parallel matrix multiplication algorithm and other utilities for working with matrices. Used for benchmarking computationally intensive concurrent code. ",
+    "fork": false,
+    "full_name": "a115/exmatrix",
+    "html_url": "https://github.com/a115/exmatrix",
+    "language": "Elixir",
+    "pushed_at": "2023-04-09T20:33:23Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2024-08-21T23:37:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alco/benchfella",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

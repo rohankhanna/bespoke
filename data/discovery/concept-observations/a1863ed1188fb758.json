@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Comment Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Comment Bot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10795,
+      "status": "candidate",
+      "text": "interfere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "adviso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "ahoy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "aitchbone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "astrocyte"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment Bot",
+      "sense_id": "comment-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "comment-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comment-bot",
+  "observation_id": "a1863ed1188fb758",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Comment Bot",
+  "source_context_snippet": "Comment Bot",
+  "source_file": ".github/workflows/comment-bot.yml",
+  "source_repo": "tqdm/tqdm",
+  "source_repo_description": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+}

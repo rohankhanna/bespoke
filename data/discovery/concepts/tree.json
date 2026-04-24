@@ -31,6 +31,30 @@
       "source_repo": "ms-jpq/chadtree",
       "status": "candidate-context",
       "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "the champagne of beta embedded databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ms-jpq/chadtree",
       "status": "candidate",
       "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate",
+      "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +144,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ms-jpq/chadtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spacejam/sled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

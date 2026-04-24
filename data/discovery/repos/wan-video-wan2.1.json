@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Wan-Video/Wan2.1",
+      "target": "ali-vilab/vace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Wan-Video/Wan2.1",
+      "target": "ali-vilab/wan-move",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Wan-Video/Wan2.1",
+      "target": "bytedance/ati",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Wan-Video/Wan2.1",
+      "target": "ali-vilab/unianimate-dit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Wan-Video/Wan2.1",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Wan-Video/Wan2.1",
+      "target": "videogeneration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:47.105764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42825
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1339
+    },
+    {
+      "path": "requirements.txt",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+    "fork": false,
+    "full_name": "Wan-Video/Wan2.1",
+    "html_url": "https://github.com/Wan-Video/Wan2.1",
+    "language": "Python",
+    "pushed_at": "2026-03-05T09:38:07Z",
+    "stargazers_count": 15899,
+    "topics": [
+      "aigc",
+      "videogeneration"
+    ],
+    "updated_at": "2026-04-24T07:51:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ali-vilab/unianimate-dit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ali-vilab/vace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ali-vilab/wan-move",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/ati",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videogeneration"
+    }
+  ]
+}

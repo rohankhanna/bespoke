@@ -39,6 +39,30 @@
       "source_repo": "gitleaks/gitleaks",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "Protect your secrets using Gitleaks-Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "gitleaks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leaktk/gitleaks",
+      "status": "candidate-context",
+      "text": "Protect and discover secrets using Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leaktk/gitleaks",
+      "status": "candidate-context",
+      "text": "gitleaks"
     }
   ],
   "candidate_glosses": [
@@ -59,6 +83,18 @@
       "source_repo": "gitleaks/gitleaks",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate",
+      "text": "gitleaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leaktk/gitleaks",
+      "status": "candidate",
+      "text": "gitleaks"
     }
   ],
   "candidate_related_terms": [],
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "leaktk/gitleaks"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

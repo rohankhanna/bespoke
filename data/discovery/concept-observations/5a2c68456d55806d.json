@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Outputs current CPU core and package temperatures on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Outputs current CPU core and package temperatures on macOS."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Outputs current CPU core and package temperatures on macOS."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039503,
+      "status": "candidate",
+      "text": "pith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027931,
+      "status": "candidate",
+      "text": "meat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989486,
+      "status": "candidate",
+      "text": "nub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9972747,
+      "status": "candidate",
+      "text": "marrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9945229,
+      "status": "candidate",
+      "text": "heart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cores",
+      "sense_id": "cores#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cores",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cores",
+  "observation_id": "5a2c68456d55806d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "cores",
+  "source_context_snippet": "Outputs current CPU core and package temperatures on macOS.",
+  "source_file": null,
+  "source_repo": "hacker1024/coretemp",
+  "source_repo_description": "Outputs current CPU core and package temperatures on macOS."
+}

@@ -271,6 +271,78 @@
       "source_repo": "klauspost/compress",
       "status": "candidate-context",
       "text": "This package provides various compression algorithms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate-context",
+      "text": "Basis Universal GPU Texture Codec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2016-2026 Binomial LLC -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/draco",
+      "status": "candidate-context",
+      "text": "Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/draco",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dsnet/compress",
+      "status": "candidate-context",
+      "text": "Collection of compression related Go packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dsnet/compress",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate-context",
+      "text": "Animation Compression Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelroy/Zip",
+      "status": "candidate-context",
+      "text": "Swift framework for zipping and unzipping files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelroy/Zip",
+      "status": "candidate-context",
+      "text": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +477,42 @@
       "source_repo": "klauspost/compress",
       "status": "candidate",
       "text": "This package provides various compression algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate",
+      "text": "<!-- Copyright 2016-2026 Binomial LLC -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/draco",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dsnet/compress",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelroy/Zip",
+      "status": "candidate",
+      "text": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)"
     }
   ],
   "candidate_related_terms": [
@@ -628,11 +736,59 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "inikep/lizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google/draco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dsnet/compress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "inikep/lizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nfrechette/acl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "marmelroy/Zip"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

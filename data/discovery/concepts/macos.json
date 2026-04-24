@@ -995,6 +995,150 @@
       "source_repo": "dacap/clip",
       "status": "candidate-context",
       "text": "*Copyright (c) 2015-2026 David Capello*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aibasel/downward",
+      "status": "candidate-context",
+      "text": "The Fast Downward domain-independent classical planning system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Native Node bindings to Git."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosnicolaou/pbzip2",
+      "status": "candidate-context",
+      "text": "parallel bzip2 decompressor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosnicolaou/pbzip2",
+      "status": "candidate-context",
+      "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate-context",
+      "text": "py2app is a Python setuptools command which will allow  you to make standalone Mac OS X application bundles  and plugins from Python scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate-context",
+      "text": "py2app is a tool that will create standalone application"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmyczko/fnt",
+      "status": "candidate-context",
+      "text": "apt for fonts, the missing font manager for macOS/linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmyczko/fnt",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/bbin",
+      "status": "candidate-context",
+      "text": "Install any Babashka script or project with one command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/bbin",
+      "status": "candidate-context",
+      "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "status": "candidate-context",
+      "text": "Outputs current CPU temperature for OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "status": "candidate-context",
+      "text": "Outputs current CPU temperature for OSX."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacker1024/coretemp",
+      "status": "candidate-context",
+      "text": "Outputs current CPU core and package temperatures on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacker1024/coretemp",
+      "status": "candidate-context",
+      "text": "Outputs current CPU core and package temperatures on macOS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yubico/libfido2",
+      "status": "candidate-context",
+      "text": "Provides library functionality for FIDO2, including communication with a device over USB or NFC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yubico/libfido2",
+      "status": "candidate-context",
+      "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate-context",
+      "text": "A General-purpose Task-parallel Programming System in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_glosses": [
@@ -1495,6 +1639,78 @@
       "source_repo": "dacap/clip",
       "status": "candidate",
       "text": "*Copyright (c) 2015-2026 David Capello*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosnicolaou/pbzip2",
+      "status": "candidate",
+      "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate",
+      "text": "py2app is a tool that will create standalone application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmyczko/fnt",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/bbin",
+      "status": "candidate",
+      "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "status": "candidate",
+      "text": "Outputs current CPU temperature for OSX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacker1024/coretemp",
+      "status": "candidate",
+      "text": "Outputs current CPU core and package temperatures on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yubico/libfido2",
+      "status": "candidate",
+      "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -2108,11 +2324,119 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/macos-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "aibasel/downward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nodegit/nodegit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "cosnicolaou/pbzip2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/py2app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexmyczko/fnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "babashka/bbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lavoiesl/osx-cpu-temp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hacker1024/coretemp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "Yubico/libfido2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "taskflow/taskflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-cocoa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

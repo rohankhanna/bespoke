@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "herumi/xbyak",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "herumi/xbyak",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "herumi/xbyak",
+      "target": "assembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "herumi/xbyak",
+      "target": "x86-64",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:04.740963+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A JIT assembler for x86/x64 architectures supporting FPU, MMX, SSE (1-4), AVX (1-2, 512), APX, and AVX10.2",
+    "fork": false,
+    "full_name": "herumi/xbyak",
+    "html_url": "https://github.com/herumi/xbyak",
+    "language": "C",
+    "pushed_at": "2026-04-23T00:11:39Z",
+    "stargazers_count": 2232,
+    "topics": [
+      "assembler",
+      "jit",
+      "x86-64"
+    ],
+    "updated_at": "2026-04-16T23:51:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembler"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x86-64"
+    }
+  ]
+}

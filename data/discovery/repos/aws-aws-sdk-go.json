@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "aws-actions/closed-issue-message@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "aws-github-ops/handle-stale-discussions@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml"
+    },
+    {
+      "component": "aws-actions/stale-issue-cleanup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "aws-actions/closed-issue-message@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "Closed Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "Go Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "aws-github-ops/handle-stale-discussions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "HandleStaleDiscussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "issue-regression-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "aws-actions/stale-issue-cleanup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "source_repo": "aws/aws-sdk-go",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-go",
+      "target": "aws-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:47.331947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18959
+    },
+    {
+      "path": "go.mod",
+      "size": 262
+    },
+    {
+      "path": ".github/workflows/closed-issue-message.yml",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/handle-stale-discussions.yml",
+      "size": 423
+    },
+    {
+      "path": ".github/workflows/issue-regression-labeler.yml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/stale_issues.yml",
+      "size": 1951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "This SDK has reached end-of-support. The AWS SDK for Go v2 is available here: https://github.com/aws/aws-sdk-go-v2",
+    "fork": false,
+    "full_name": "aws/aws-sdk-go",
+    "html_url": "https://github.com/aws/aws-sdk-go",
+    "language": "Go",
+    "pushed_at": "2025-07-31T16:06:20Z",
+    "stargazers_count": 8692,
+    "topics": [
+      "aws",
+      "aws-sdk",
+      "go"
+    ],
+    "updated_at": "2026-04-21T17:04:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Closed Issue Message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "term": "Closed Issue Message"
+    },
+    {
+      "context_snippet": "Go Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Go Tests"
+    },
+    {
+      "context_snippet": "HandleStaleDiscussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "term": "HandleStaleDiscussions"
+    },
+    {
+      "context_snippet": "issue-regression-label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "term": "issue-regression-label"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "[![API Reference](https://img.shields.io/badge/api-reference-blue.svg)](https://docs.aws.amazon.com/sdk-for-go/api) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/aws/aws-sdk-go/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-sdk"
+    }
+  ]
+}

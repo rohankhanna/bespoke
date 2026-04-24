@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "atlanhq/application-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "dexters-hub/vue-study-jam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "gautamkrishnar/blog-post-workflow@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Latest blog post workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "gautamkrishnar/blog-post-workflow@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Latest Twitter Tweets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "jamesgeorge007/github-activity-readme@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Update README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "gautamkrishnar/blog-post-workflow@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Latest YouTube Videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "alwinjohn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "awesome-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "badges-markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "dexters-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "shields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "youtube",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "Dexters-Hub/Dexters-Hub"
+}

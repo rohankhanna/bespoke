@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "graphql-schema"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d \u00a0Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "graphql-schema",
+  "concept_id": "graphql-schema",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotansimha/graphql-code-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-server"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphql-schema",
+      "sense_id": "graphql-schema#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

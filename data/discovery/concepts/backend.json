@@ -45,6 +45,42 @@
       "source_repo": "getsentry/sentry",
       "status": "candidate-context",
       "text": "backend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "i18next-fs-backend is a backend layer for i18next using in Node.js and for Deno to load translations from the filesystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "i18next-http-backend is a backend layer for i18next using in Node.js, in the browser and for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +101,24 @@
       "source_repo": "getsentry/sentry",
       "status": "candidate",
       "text": "backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +180,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "getsentry/sentry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sparckles/Robyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-fs-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-http-backend"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

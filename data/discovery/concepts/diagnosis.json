@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "diagnosis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "status": "candidate-context",
+      "text": "An LLM Based Diagnosis System  (https://arxiv.org/pdf/2312.01454.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "status": "candidate-context",
+      "text": "<div align= \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "status": "candidate",
+      "text": "<div align= \"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823368,
+      "status": "candidate",
+      "text": "diagnosing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823367,
+      "status": "candidate",
+      "text": "diagnose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823266,
+      "status": "candidate",
+      "text": "diagnostic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29822982,
+      "status": "candidate",
+      "text": "self-diagnosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29821645,
+      "status": "candidate",
+      "text": "disease"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "diagnosing"
+    }
+  ],
+  "canonical_name": "diagnosis",
+  "concept_id": "diagnosis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diagnosis",
+      "sense_id": "diagnosis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

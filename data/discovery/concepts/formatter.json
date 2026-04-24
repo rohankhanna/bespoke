@@ -262,6 +262,126 @@
       "source_repo": "hhatto/autopep8",
       "status": "candidate-context",
       "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arnetheduck/nph",
+      "status": "candidate-context",
+      "text": "An opinionated code formatter for Nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnetheduck/nph",
+      "status": "candidate-context",
+      "text": "`nph` is an opinionated source code formatter for the Nim language, aiming to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "GitHub Action that formats Java files following Google Style guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CppCXY/EmmyLuaCodeStyle",
+      "status": "candidate-context",
+      "text": "fast, powerful, and feature-rich Lua formatting and checking tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CppCXY/EmmyLuaCodeStyle",
+      "status": "candidate-context",
+      "text": "[English doc](README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antham/ghokin",
+      "status": "candidate-context",
+      "text": "Parallelized formatter with no external dependencies for gherkin (cucumber, behat...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antham/ghokin",
+      "status": "candidate-context",
+      "text": "Ghokin format and apply transformation on gherkin files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonWetzel/prettypst",
+      "status": "candidate-context",
+      "text": "Formatter for Typst"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonWetzel/prettypst",
+      "status": "candidate-context",
+      "text": "[package] name = \"prettypst\" version = \"3.2.0\" edition = \"2024\" description = \"Formatter for Typst\" repository = \"https://github.com/antonWetzel/prettypst\" license-file = \"LICENSE\" keywords = [\"cli\"] categories = [\"command-line-utilities\"] [dependencies] clap = { version = \"4.5\"\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "A Python utility / library to sort imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/docformatter",
+      "status": "candidate-context",
+      "text": "Formats docstrings to follow PEP 257"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/docformatter",
+      "status": "candidate-context",
+      "text": "============"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "An opinionated code formatter for Julia. Plot twist - the opinion is your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "[![Documenter: stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://domluna.github.io/JuliaFormatter.jl/stable/)"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +510,66 @@
       "source_repo": "hhatto/autopep8",
       "status": "candidate",
       "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnetheduck/nph",
+      "status": "candidate",
+      "text": "`nph` is an opinionated source code formatter for the Nim language, aiming to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate",
+      "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate",
+      "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CppCXY/EmmyLuaCodeStyle",
+      "status": "candidate",
+      "text": "[English doc](README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antham/ghokin",
+      "status": "candidate",
+      "text": "Ghokin format and apply transformation on gherkin files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonWetzel/prettypst",
+      "status": "candidate",
+      "text": "[package] name = \"prettypst\" version = \"3.2.0\" edition = \"2024\" description = \"Formatter for Typst\" repository = \"https://github.com/antonWetzel/prettypst\" license-file = \"LICENSE\" keywords = [\"cli\"] categories = [\"command-line-utilities\"] [dependencies] clap = { version = \"4.5\"\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/docformatter",
+      "status": "candidate",
+      "text": "============"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate",
+      "text": "[![Documenter: stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://domluna.github.io/JuliaFormatter.jl/stable/)"
     }
   ],
   "candidate_related_terms": [
@@ -601,11 +781,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "arnetheduck/nph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "axel-op/googlejavaformat-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "diffplug/spotless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CppCXY/EmmyLuaCodeStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "antham/ghokin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "antonWetzel/prettypst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/docformatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "domluna/JuliaFormatter.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

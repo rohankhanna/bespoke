@@ -1,12 +1,52 @@
 {
   "component": "step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "python-hyper/uritemplate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-manual-build-test-sign.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-publish-docs.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage-report.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
     }
   ]
 }

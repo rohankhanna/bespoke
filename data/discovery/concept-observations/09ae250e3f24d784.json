@@ -48,7 +48,7 @@
   "normalized_form": "redis-client",
   "observation_id": "09ae250e3f24d784",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "redis-client",
   "source_context_snippet": "The Python interface to the Redis key-value store.",
   "source_file": null,

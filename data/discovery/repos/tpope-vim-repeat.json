@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:04:57.204058+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "repeat.vim: enable repeating supported plugin maps with \".\"",
+    "fork": false,
+    "full_name": "tpope/vim-repeat",
+    "html_url": "https://github.com/tpope/vim-repeat",
+    "language": "Vim Script",
+    "pushed_at": "2024-07-08T21:28:41Z",
+    "stargazers_count": 2705,
+    "topics": [],
+    "updated_at": "2026-04-20T04:20:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

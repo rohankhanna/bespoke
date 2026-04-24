@@ -19,18 +19,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-phoenix",
-      "target": "dwyl/learn-hapi",
+      "target": "dwyl/learn-postgresql",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-phoenix",
-      "target": "dwyl/learn-aws-lambda",
+      "target": "dwyl/learn-phoenix-web-development",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T22:00:14.240903+00:00",
+  "fetched_at": "2026-04-24T07:02:15.381563+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,9 +47,9 @@
     "html_url": "https://github.com/dwyl/learn-phoenix",
     "language": "Elixir",
     "pushed_at": "2025-09-14T07:08:35Z",
-    "stargazers_count": 658,
+    "stargazers_count": 659,
     "topics": [],
-    "updated_at": "2026-04-15T08:57:04Z"
+    "updated_at": "2026-04-23T22:23:53Z"
   },
   "repo_links": [
     {
@@ -59,17 +59,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dwyl/learn-aws-lambda",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dwyl/learn-hapi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "dwyl/learn-phoenix-framework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-phoenix-web-development",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-postgresql",
       "source_file": "README.md"
     }
   ],

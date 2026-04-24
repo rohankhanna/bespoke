@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "@antora/lunr-extension",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/site-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/netbeans-antora",
+      "target": "apache/netbeans-antora-site",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/netbeans-antora",
+      "target": "apache/netbeans-antora-wiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/netbeans-antora",
+      "target": "apache/netbeans-antora-tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/netbeans-antora",
+      "target": "apache/netbeans-antora-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/netbeans-antora",
+      "target": "@antora/lunr-extension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/netbeans-antora",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/netbeans-antora",
+      "target": "@antora/site-generator",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:24.803532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2368
+    },
+    {
+      "path": "package.json",
+      "size": 613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache netbeans",
+    "fork": false,
+    "full_name": "apache/netbeans-antora",
+    "html_url": "https://github.com/apache/netbeans-antora",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-15T11:36:15Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-15T11:36:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/netbeans-antora-site",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/netbeans-antora-tutorials",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/netbeans-antora-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/netbeans-antora-wiki",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

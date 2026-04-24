@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcf0 Binary distribution of PDFium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build one"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build one"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110091919,
+      "status": "candidate",
+      "text": "erect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110090919,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110089919,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 109991914,
+      "status": "candidate",
+      "text": "inaugural"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build one",
+      "sense_id": "build-one#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-one",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-one",
+  "observation_id": "ce854d09a56043bb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Build one",
+  "source_context_snippet": "Build one",
+  "source_file": ".github/workflows/build-one.yml",
+  "source_repo": "bblanchon/pdfium-binaries",
+  "source_repo_description": "\ud83d\udcf0 Binary distribution of PDFium"
+}

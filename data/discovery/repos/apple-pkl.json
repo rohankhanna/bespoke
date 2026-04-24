@@ -1,0 +1,3286 @@
+{
+  "components": [
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "gradle/actions/dependency-submission@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/dependency-submission@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_report.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_report.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/dependency-submission@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__lockfile__.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/pkl",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apple/pkl",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apple/pkl",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/dependency-submission@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/pkl",
+      "target": "Build (main)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prb.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prb.yml",
+      "source_repo": "apple/pkl",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-branch.yml",
+      "source_repo": "apple/pkl",
+      "target": "Build (release branch)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_report.yml",
+      "source_repo": "apple/pkl",
+      "target": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_report.yml",
+      "source_repo": "apple/pkl",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_report.yml",
+      "source_repo": "apple/pkl",
+      "target": "PR Test Reports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "functional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "object-oriented",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "properties",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "propertylist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:30.134837+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/__lockfile__.yml",
+      "size": 1895
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 31923
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1957
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 35830
+    },
+    {
+      "path": ".github/workflows/prb.yml",
+      "size": 33301
+    },
+    {
+      "path": ".github/workflows/release-branch.yml",
+      "size": 33276
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 36782
+    },
+    {
+      "path": ".github/workflows/test_report.yml",
+      "size": 1088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A configuration as code language with rich validation and tooling.",
+    "fork": false,
+    "full_name": "apple/pkl",
+    "html_url": "https://github.com/apple/pkl",
+    "language": "Java",
+    "pushed_at": "2026-04-23T21:39:56Z",
+    "stargazers_count": 11315,
+    "topics": [
+      "config",
+      "configuration",
+      "data",
+      "functional",
+      "java",
+      "json",
+      "kotlin",
+      "language",
+      "object-oriented",
+      "pkl",
+      "programming-language",
+      "properties",
+      "propertylist",
+      "validation",
+      "xml",
+      "yaml"
+    ],
+    "updated_at": "2026-04-23T23:50:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build (main)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build (main)"
+    },
+    {
+      "context_snippet": "Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prb.yml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Build (release branch)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-branch.yml",
+      "term": "Build (release branch)"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "PR Test Reports",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_report.yml",
+      "term": "PR Test Reports"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-oriented"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "properties"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "propertylist"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    },
+    {
+      "context_snippet": "__lockfile__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

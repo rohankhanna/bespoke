@@ -56,6 +56,18 @@
       "source_repo": "grain-lang/grain",
       "status": "candidate-context",
       "text": "Generate documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension for inspection Preact applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Generate documentation"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "grain-lang/grain",
+      "status": "candidate",
+      "text": "Generate documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
       "status": "candidate",
       "text": "Generate documentation"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/generate-docs.yml",
       "source_repo": "grain-lang/grain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "preactjs/preact-devtools"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,389 @@
+{
+  "components": [
+    {
+      "component": "@arbitrum/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nomiclabs/hardhat-ethers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ethers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hardhat",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@offchainlabs/eslint-config-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@offchainlabs/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-solidity",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "OffchainLabs/actions/node-modules/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom-export.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml"
+    },
+    {
+      "component": "OffchainLabs/actions/node-modules/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml"
+    },
+    {
+      "component": "OffchainLabs/actions/run-nitro-test-node@feat-simplify",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml"
+    },
+    {
+      "component": "OffchainLabs/actions/node-modules/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml"
+    },
+    {
+      "component": "OffchainLabs/actions/run-nitro-test-node@feat-simplify",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "offchainlabs/arbitrum-orbit-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "@arbitrum/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "@nomiclabs/hardhat-ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "hardhat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "@offchainlabs/eslint-config-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "@offchainlabs/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "eslint-plugin-mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "OffchainLabs/actions/node-modules/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "Check format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom-export.yaml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbom-export.yaml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "SBOM Export & Centralize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "OffchainLabs/actions/node-modules/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "OffchainLabs/actions/run-nitro-test-node@feat-simplify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "target": "Test all tutorials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:59:53.848370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4266
+    },
+    {
+      "path": "package.json",
+      "size": 1397
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/sbom-export.yaml",
+      "size": 1997
+    },
+    {
+      "path": ".github/workflows/test-all.yml",
+      "size": 2104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get started developing on Arbitrum ",
+    "fork": false,
+    "full_name": "OffchainLabs/arbitrum-tutorials",
+    "html_url": "https://github.com/OffchainLabs/arbitrum-tutorials",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-01T21:24:38Z",
+    "stargazers_count": 505,
+    "topics": [],
+    "updated_at": "2026-03-31T06:29:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "offchainlabs/arbitrum-orbit-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Check format"
+    },
+    {
+      "context_snippet": "SBOM Export & Centralize",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbom-export.yaml",
+      "term": "SBOM Export & Centralize"
+    },
+    {
+      "context_snippet": "Test all tutorials",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all.yml",
+      "term": "Test all tutorials"
+    }
+  ]
+}

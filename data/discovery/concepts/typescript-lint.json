@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Typescript & lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Extension for React/Javascript snippets with search supporting ES7+ and babel features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Typescript & lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "Typescript & lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10898,
+      "status": "candidate",
+      "text": "breaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10898,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10898,
+      "status": "candidate",
+      "text": "carding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10898,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10898,
+      "status": "candidate",
+      "text": "cotton picker"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Typescript & lint",
+  "concept_id": "typescript-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/typescript_and_lint.yml",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Typescript & lint",
+      "sense_id": "typescript-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

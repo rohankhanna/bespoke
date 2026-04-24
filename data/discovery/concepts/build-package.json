@@ -45,6 +45,18 @@
       "source_repo": "camel-ai/camel",
       "status": "candidate-context",
       "text": "Build Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "Astro library to get the Simple icons to the Astro Framework https://simple-icons-astro.dzeio.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "Build & Package"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "camel-ai/camel",
       "status": "candidate",
       "text": "Build Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate",
+      "text": "Build & Package"
     }
   ],
   "candidate_related_terms": [
@@ -138,11 +156,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build_package.yml",
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/simple-icons-astro"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

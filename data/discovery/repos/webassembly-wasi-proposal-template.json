@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "WebAssembly/wit-abi-up-to-date@v19",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/wasi-proposal-template",
+      "target": "privacycg/template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-proposal-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-proposal-template",
+      "target": "WebAssembly/wit-abi-up-to-date@v19",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/wasi-proposal-template",
+      "target": "wasi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:28.954327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3497
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Starter template for proposing a new WASI API",
+    "fork": false,
+    "full_name": "WebAssembly/wasi-proposal-template",
+    "html_url": "https://github.com/WebAssembly/wasi-proposal-template",
+    "language": null,
+    "pushed_at": "2024-03-18T22:04:12Z",
+    "stargazers_count": 29,
+    "topics": [
+      "wasi"
+    ],
+    "updated_at": "2026-04-11T04:40:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "privacycg/template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This template can be used to start a new proposal, which can then be proposed in the WASI Subgroup meetings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasi"
+    }
+  ]
+}

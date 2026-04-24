@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "romgrk/publish-to-github@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "romgrk/fzy-lua-native",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "romgrk/fzy-lua-native",
+      "target": "uraimo/run-on-arch-action@v2.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "romgrk/fzy-lua-native",
+      "target": "romgrk/publish-to-github@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "romgrk/fzy-lua-native",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romgrk/fzy-lua-native",
+      "target": "luajit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:44.640959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 935
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Luajit FFI bindings to FZY",
+    "fork": false,
+    "full_name": "romgrk/fzy-lua-native",
+    "html_url": "https://github.com/romgrk/fzy-lua-native",
+    "language": "Lua",
+    "pushed_at": "2024-10-26T09:23:03Z",
+    "stargazers_count": 121,
+    "topics": [
+      "ffi",
+      "fzy",
+      "lua",
+      "luajit"
+    ],
+    "updated_at": "2026-03-06T17:31:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "Luajit FFI bindings to FZY.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    }
+  ]
+}

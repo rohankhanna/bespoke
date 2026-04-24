@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "sunset1995/torch_efficient_distloss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "facebookresearch/co3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "yenchenlin/nerf-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "directvoxgo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "dvgo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/DirectVoxGO",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:10.950988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10646
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Direct voxel grid optimization for fast radiance field reconstruction.",
+    "fork": false,
+    "full_name": "sunset1995/DirectVoxGO",
+    "html_url": "https://github.com/sunset1995/DirectVoxGO",
+    "language": "Python",
+    "pushed_at": "2023-05-15T23:01:32Z",
+    "stargazers_count": 1076,
+    "topics": [
+      "cvpr2022",
+      "directvoxgo",
+      "dvgo",
+      "nerf",
+      "neural-radiance-fields"
+    ],
+    "updated_at": "2026-04-15T07:15:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/co3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sunset1995/torch_efficient_distloss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yenchenlin/nerf-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Direct Voxel Grid Optimization (CVPR2022 Oral, [project page](https://sunset1995.github.io/dvgo/), [DVGO paper](https://arxiv.org/abs/2111.11215), [DVGO v2 paper](https://arxiv.org/abs/2206.05085)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "Direct Voxel Grid Optimization (CVPR2022 Oral, [project page](https://sunset1995.github.io/dvgo/), [DVGO paper](https://arxiv.org/abs/2111.11215), [DVGO v2 paper](https://arxiv.org/abs/2206.05085)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directvoxgo"
+    },
+    {
+      "context_snippet": "Direct Voxel Grid Optimization (CVPR2022 Oral, [project page](https://sunset1995.github.io/dvgo/), [DVGO paper](https://arxiv.org/abs/2111.11215), [DVGO v2 paper](https://arxiv.org/abs/2206.05085)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dvgo"
+    },
+    {
+      "context_snippet": "Direct Voxel Grid Optimization (CVPR2022 Oral, [project page](https://sunset1995.github.io/dvgo/), [DVGO paper](https://arxiv.org/abs/2111.11215), [DVGO v2 paper](https://arxiv.org/abs/2206.05085)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "Direct Voxel Grid Optimization (CVPR2022 Oral, [project page](https://sunset1995.github.io/dvgo/), [DVGO paper](https://arxiv.org/abs/2111.11215), [DVGO v2 paper](https://arxiv.org/abs/2206.05085)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    }
+  ]
+}

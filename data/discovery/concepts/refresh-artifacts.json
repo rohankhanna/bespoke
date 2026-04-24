@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Refresh artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "Refresh artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate",
+      "text": "Refresh artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "dew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "fan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "nap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "rest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Refresh artifacts",
+  "concept_id": "refresh-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/refresh-artifacts.yml",
+      "source_repo": "dependabot/smoke-tests"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Refresh artifacts",
+      "sense_id": "refresh-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

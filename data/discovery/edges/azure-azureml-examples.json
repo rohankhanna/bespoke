@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-cleanup-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-cleanup-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-cleanup-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automated-cleanup-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "automated-cleanup-resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-infra.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-infra.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-infra.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrapping-infra.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "bootstrapping-infra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrapping-resources.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "bootstrapping-resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-component-pipeline.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-component-pipeline.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-assets-component-pipeline.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "cli-assets-component-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-component-train.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-component-train.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-assets-component-train.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "cli-assets-component-train",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-https.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-https.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-https.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "cli-assets-data-cloud-file-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-wasbs.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-wasbs.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-wasbs.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "cli-assets-data-cloud-file-wasbs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "cli-assets-data-cloud-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-folder-https.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-folder-https.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-assets-data-cloud-folder-https.yml",
+      "source_repo": "Azure/azureml-examples",
+      "target": "cli-assets-data-cloud-folder-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azureml-examples",
+      "target": "azure-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azureml-examples",
+      "target": "azureml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azureml-examples",
+      "target": "data-science",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "Azure/azureml-examples"
+}

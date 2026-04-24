@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "pre-trained"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS, \u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate-context",
+      "text": "RoBERTa\u4e2d\u6587\u9884\u8bad\u7ec3\u6a21\u578b: RoBERTa for Chinese "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate-context",
+      "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate",
+      "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "fore-trained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "prelearnt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "pre-loved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "pre-defined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "pre-packaged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pre-trained",
+  "concept_id": "pre-trained",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/albert_zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pre-trained",
+      "sense_id": "pre-trained#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

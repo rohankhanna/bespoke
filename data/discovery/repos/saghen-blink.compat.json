@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/blink.compat",
+      "target": "dmitmel/cmp-digraphs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:58.964150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compatibility layer for using nvim-cmp sources on blink.cmp",
+    "fork": false,
+    "full_name": "saghen/blink.compat",
+    "html_url": "https://github.com/saghen/blink.compat",
+    "language": "Lua",
+    "pushed_at": "2025-05-28T20:34:16Z",
+    "stargazers_count": 216,
+    "topics": [],
+    "updated_at": "2026-04-18T15:17:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmitmel/cmp-digraphs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

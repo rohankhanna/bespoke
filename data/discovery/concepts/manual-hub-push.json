@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual Hub Push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "Manual Hub Push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate",
+      "text": "Manual Hub Push"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18038,
+      "status": "candidate",
+      "text": "fan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18014,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18014,
+      "status": "candidate",
+      "text": "roustabout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17990,
+      "status": "candidate",
+      "text": "propeller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17973,
+      "status": "candidate",
+      "text": "axis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Hub Push",
+  "concept_id": "manual-hub-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/force-hub-push.yml",
+      "source_repo": "jina-ai/clip-as-service"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Hub Push",
+      "sense_id": "manual-hub-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

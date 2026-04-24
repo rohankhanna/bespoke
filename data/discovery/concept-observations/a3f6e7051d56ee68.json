@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Count Lines of Code*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Count Lines of Code*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "programming-language",
+      "sense_id": "programming-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "programming-language",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "programming-language",
+  "observation_id": "a3f6e7051d56ee68",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "programming-language",
+  "source_context_snippet": "*Count Lines of Code*",
+  "source_file": null,
+  "source_repo": "AlDanial/cloc",
+  "source_repo_description": "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages."
+}

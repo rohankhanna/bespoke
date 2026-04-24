@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "target": "content-moderation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "target": "nsfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "target": "nsfw-classifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "target": "pornography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:37.158578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3385
+    },
+    {
+      "path": "Dockerfile",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier",
+    "fork": false,
+    "full_name": "alex000kim/nsfw_data_scraper",
+    "html_url": "https://github.com/alex000kim/nsfw_data_scraper",
+    "language": "Shell",
+    "pushed_at": "2024-01-21T23:49:42Z",
+    "stargazers_count": 12563,
+    "topics": [
+      "content-moderation",
+      "deep-learning",
+      "machine-learning",
+      "nsfw",
+      "nsfw-classifier",
+      "pornography"
+    ],
+    "updated_at": "2026-04-24T06:20:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-moderation"
+    },
+    {
+      "context_snippet": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nsfw"
+    },
+    {
+      "context_snippet": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nsfw-classifier"
+    },
+    {
+      "context_snippet": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pornography"
+    }
+  ]
+}

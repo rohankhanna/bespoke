@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Customized Lua parser for [lua-language-server](https://github.com/sumneko/lua-language-server)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "syntax-checker",
+      "sense_id": "syntax-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "syntax-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "syntax-checker",
+  "observation_id": "a32062d7fc46d43f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "syntax-checker",
+  "source_context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)",
+  "source_file": null,
+  "source_repo": "LuaLS/LuaParser",
+  "source_repo_description": "Customized Lua parser for [lua-language-server](https://github.com/sumneko/lua-language-server)."
+}

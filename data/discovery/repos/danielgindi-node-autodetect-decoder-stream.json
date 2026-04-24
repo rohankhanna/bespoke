@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "jschardet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "iconv-lite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stream-buffers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielgindi/node-autodetect-decoder-stream",
+      "target": "aadsm/jschardet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielgindi/node-autodetect-decoder-stream",
+      "target": "jschardet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielgindi/node-autodetect-decoder-stream",
+      "target": "iconv-lite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielgindi/node-autodetect-decoder-stream",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielgindi/node-autodetect-decoder-stream",
+      "target": "stream-buffers",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:06.548313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2656
+    },
+    {
+      "path": "package.json",
+      "size": 975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An iconv-lite stream that autodetects the encoding and fallbacks to a specified fallback encoding.",
+    "fork": false,
+    "full_name": "danielgindi/node-autodetect-decoder-stream",
+    "html_url": "https://github.com/danielgindi/node-autodetect-decoder-stream",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-10T07:26:56Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-09-08T10:18:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aadsm/jschardet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

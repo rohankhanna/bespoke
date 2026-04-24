@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/netbeans-mavenutils-archetypes",
+      "target": "netbeans",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:25.482585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache NetBeans Maven Archetypes",
+    "fork": false,
+    "full_name": "apache/netbeans-mavenutils-archetypes",
+    "html_url": "https://github.com/apache/netbeans-mavenutils-archetypes",
+    "language": "Groovy",
+    "pushed_at": "2024-01-29T04:37:15Z",
+    "stargazers_count": 1,
+    "topics": [
+      "netbeans"
+    ],
+    "updated_at": "2025-08-25T03:04:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netbeans"
+    }
+  ]
+}

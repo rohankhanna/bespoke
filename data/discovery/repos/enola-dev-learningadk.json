@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enola-dev/LearningADK",
+      "target": "vorburger/vorburger.ch-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enola-dev/LearningADK",
+      "target": "enola-dev/enola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enola-dev/LearningADK",
+      "target": "glaforge/adk-java-maven-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enola-dev/LearningADK",
+      "target": "glaforge/gemini-workshop-for-java-developers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:58.618537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo with examples for learning by example about Google's Agent Development Kit (ADK)",
+    "fork": false,
+    "full_name": "enola-dev/LearningADK",
+    "html_url": "https://github.com/enola-dev/LearningADK",
+    "language": "Java",
+    "pushed_at": "2025-08-13T05:19:06Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-10T14:01:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enola-dev/enola",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glaforge/adk-java-maven-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glaforge/gemini-workshop-for-java-developers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vorburger/vorburger.ch-notes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

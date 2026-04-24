@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "krzysztofzablocki/automaticsettings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "artsy/eidolon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "jpsim/sourcekitten",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "alisoftware/swiftgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_homebrew.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "mislav/bump-homebrew-formula-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_homebrew.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "Bump Homebrew formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "EndBug/add-and-commit@v9.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "rake docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macOS.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macOS.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_macOS.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "release macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "swift-actions/setup-swift@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "release ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_macOS.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_macOS.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "test macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "YOCKOW/Action-setup-swift@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "test ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "codegenerator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "metaprogramming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "krzysztofzablocki/Sourcery"
+}

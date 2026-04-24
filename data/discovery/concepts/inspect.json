@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Inspect"
+    "Inspect",
+    "inspect"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate-context",
       "text": "Inspect"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Eigenbahn/icecream-cljc",
+      "status": "candidate-context",
+      "text": ":icecream: icecream ported to Clojure(Script)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eigenbahn/icecream-cljc",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate",
       "text": "Inspect"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eigenbahn/icecream-cljc",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +119,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/inspect.yml",
       "source_repo": "pixiv/three-vrm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Eigenbahn/icecream-cljc"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

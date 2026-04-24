@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chineseblue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chineseblue",
+  "concept_id": "chineseblue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chineseblue",
+      "sense_id": "chineseblue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

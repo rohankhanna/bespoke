@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anuvyklack/animation.nvim",
+      "target": "anuvyklack/middleclass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuvyklack/animation.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuvyklack/animation.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:09.336667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create animations in Neovim",
+    "fork": false,
+    "full_name": "anuvyklack/animation.nvim",
+    "html_url": "https://github.com/anuvyklack/animation.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-09-18T10:57:42Z",
+    "stargazers_count": 47,
+    "topics": [
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-03-12T09:18:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anuvyklack/middleclass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An OOP library to create animations in Neovim (as far as terminal application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "An OOP library to create animations in Neovim (as far as terminal application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

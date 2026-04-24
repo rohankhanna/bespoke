@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go wrapper of libutp reference uTP C implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034367,
+      "status": "candidate",
+      "text": "bulb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029338,
+      "status": "candidate",
+      "text": "plug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029163,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024585,
+      "status": "candidate",
+      "text": "bushing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024114,
+      "status": "candidate",
+      "text": "groove"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "socket",
+      "sense_id": "socket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "socket",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "socket",
+  "observation_id": "e2a97cacf2bacba9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "socket",
+  "source_context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+  "source_file": null,
+  "source_repo": "anacrolix/go-libutp",
+  "source_repo_description": "Go wrapper of libutp reference uTP C implementation"
+}

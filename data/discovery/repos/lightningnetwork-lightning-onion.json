@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "lightningnetwork/lightning-rfc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "cryptocurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "lightning-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "micropayments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion",
+      "target": "onion-architecture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:35.178573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3783
+    },
+    {
+      "path": "go.mod",
+      "size": 957
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Onion Routed Micropayments for the Lightning Network",
+    "fork": false,
+    "full_name": "lightningnetwork/lightning-onion",
+    "html_url": "https://github.com/lightningnetwork/lightning-onion",
+    "language": "Go",
+    "pushed_at": "2026-02-04T08:44:50Z",
+    "stargazers_count": 415,
+    "topics": [
+      "bitcoin",
+      "cryptocurrency",
+      "cryptography",
+      "lightning-network",
+      "micropayments",
+      "onion-architecture"
+    ],
+    "updated_at": "2026-04-12T05:05:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightningnetwork/lightning-rfc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository houses an implementation of the [Lightning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "This repository houses an implementation of the [Lightning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptocurrency"
+    },
+    {
+      "context_snippet": "This repository houses an implementation of the [Lightning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "This repository houses an implementation of the [Lightning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning-network"
+    },
+    {
+      "context_snippet": "This repository houses an implementation of the [Lightning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "micropayments"
+    },
+    {
+      "context_snippet": "This repository houses an implementation of the [Lightning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onion-architecture"
+    }
+  ]
+}

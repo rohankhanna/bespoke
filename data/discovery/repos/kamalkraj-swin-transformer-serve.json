@@ -1,0 +1,213 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "pytorch/serve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "swintransformer/storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "eager-load",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "swin-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "torchscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "target": "torchserve",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:49.954018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8198
+    },
+    {
+      "path": "requirements.txt",
+      "size": 23
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deploy Swin Transformer using TorchServe ",
+    "fork": false,
+    "full_name": "kamalkraj/Swin-Transformer-Serve",
+    "html_url": "https://github.com/kamalkraj/Swin-Transformer-Serve",
+    "language": "Python",
+    "pushed_at": "2021-07-13T06:37:13Z",
+    "stargazers_count": 28,
+    "topics": [
+      "cuda",
+      "deploy",
+      "docker",
+      "eager-load",
+      "microsoft",
+      "python3",
+      "pytorch",
+      "swin-transformer",
+      "torch",
+      "torchscript",
+      "torchserve"
+    ],
+    "updated_at": "2026-03-10T13:17:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/serve",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swintransformer/storage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eager-load"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swin-transformer"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchscript"
+    },
+    {
+      "context_snippet": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchserve"
+    }
+  ]
+}

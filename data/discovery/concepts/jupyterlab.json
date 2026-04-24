@@ -55,6 +55,54 @@
       "source_repo": "jupyter/docker-stacks",
       "status": "candidate-context",
       "text": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Julia docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab MAX/Mojo docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Python docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab R docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "jupyter/docker-stacks",
       "status": "candidate",
       "text": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +184,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jupyter/docker-stacks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-julia-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-python-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-r-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/frontends-team-compass"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

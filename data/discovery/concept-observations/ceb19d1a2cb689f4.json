@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A feature-rich command-line audio/video downloader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Quick Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Quick Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53436,
+      "status": "candidate",
+      "text": "test out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53435,
+      "status": "candidate",
+      "text": "test run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53434,
+      "status": "candidate",
+      "text": "test case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53433,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53432,
+      "status": "candidate",
+      "text": "test ban"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quick Test",
+      "sense_id": "quick-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "quick-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quick-test",
+  "observation_id": "ceb19d1a2cb689f4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Quick Test",
+  "source_context_snippet": "Quick Test",
+  "source_file": ".github/workflows/quick-test.yml",
+  "source_repo": "yt-dlp/yt-dlp",
+  "source_repo_description": "A feature-rich command-line audio/video downloader"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chzyer/readline",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chzyer/readline",
+      "target": "readline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chzyer/readline",
+      "target": "readline-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:47:40.592218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1226
+    },
+    {
+      "path": "go.mod",
+      "size": 180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Readline is a pure go(golang) implementation for GNU-Readline kind library",
+    "fork": false,
+    "full_name": "chzyer/readline",
+    "html_url": "https://github.com/chzyer/readline",
+    "language": "Go",
+    "pushed_at": "2025-06-20T03:33:30Z",
+    "stargazers_count": 2283,
+    "topics": [
+      "go",
+      "golang",
+      "readline",
+      "readline-library"
+    ],
+    "updated_at": "2026-04-17T23:16:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/chzyer/readline.svg?branch=master)](https://travis-ci.org/chzyer/readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/chzyer/readline.svg?branch=master)](https://travis-ci.org/chzyer/readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readline"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/chzyer/readline.svg?branch=master)](https://travis-ci.org/chzyer/readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readline-library"
+    }
+  ]
+}

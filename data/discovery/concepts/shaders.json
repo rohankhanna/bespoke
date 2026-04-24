@@ -34,6 +34,18 @@
       "source_repo": "ConfettiFX/The-Forge",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Making it easier to work with shaders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Slang"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "ConfettiFX/The-Forge",
       "status": "candidate",
       "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate",
+      "text": "Slang"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shader-slang/slang"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

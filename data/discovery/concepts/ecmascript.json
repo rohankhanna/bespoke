@@ -139,6 +139,54 @@
       "source_repo": "standard/snazzy",
       "status": "candidate-context",
       "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estools/escodegen",
+      "status": "candidate-context",
+      "text": "ECMAScript code generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estools/escodegen",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/escodegen.svg)](http://badge.fury.io/js/escodegen)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "Status, process, and documents for ECMA-262"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "ECMAScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposals",
+      "status": "candidate-context",
+      "text": "Tracking ECMAScript Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposals",
+      "status": "candidate-context",
+      "text": "* [Stage 1 Proposals](stage-1-proposals.md)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +255,30 @@
       "source_repo": "standard/snazzy",
       "status": "candidate",
       "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estools/escodegen",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/escodegen.svg)](http://badge.fury.io/js/escodegen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate",
+      "text": "ECMAScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposals",
+      "status": "candidate",
+      "text": "* [Stage 1 Proposals](stage-1-proposals.md)"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +436,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "estools/escodegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tc39/ecma262"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-www"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposals"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

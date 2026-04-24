@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cgag/loc",
+      "target": "aaronepower/tokei",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:31.998111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10156
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Count lines of code quickly.",
+    "fork": false,
+    "full_name": "cgag/loc",
+    "html_url": "https://github.com/cgag/loc",
+    "language": "Rust",
+    "pushed_at": "2024-04-21T20:06:03Z",
+    "stargazers_count": 2449,
+    "topics": [],
+    "updated_at": "2026-04-23T01:15:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronepower/tokei",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

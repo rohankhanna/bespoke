@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenllliang/G1",
+      "target": "quentin18/gymnasium-2048",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:52:12.842351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning",
+    "fork": false,
+    "full_name": "chenllliang/G1",
+    "html_url": "https://github.com/chenllliang/G1",
+    "language": "Python",
+    "pushed_at": "2025-05-20T09:37:34Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-03-31T13:16:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quentin18/gymnasium-2048",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

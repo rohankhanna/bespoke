@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run upstream Argo-Rollouts E2E tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Argo Rollouts controller."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "status": "candidate-context",
+      "text": "Run upstream Argo-Rollouts E2E tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "status": "candidate",
+      "text": "Run upstream Argo-Rollouts E2E tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26816,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26816,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26755,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24012,
+      "status": "candidate",
+      "text": "head gate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23416,
+      "status": "candidate",
+      "text": "runs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run upstream Argo-Rollouts E2E tests",
+  "concept_id": "run-upstream-argo-rollouts-e2e-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rollouts_e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run upstream Argo-Rollouts E2E tests",
+      "sense_id": "run-upstream-argo-rollouts-e2e-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

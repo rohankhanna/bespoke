@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "target": "code-formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "target": "google-java-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "target": "hook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "target": "maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:20.327662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7880
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A maven plugin that automatically deploys code formatters as pre-commit git hook",
+    "fork": false,
+    "full_name": "Cosium/git-code-format-maven-plugin",
+    "html_url": "https://github.com/Cosium/git-code-format-maven-plugin",
+    "language": "Java",
+    "pushed_at": "2026-04-20T05:41:58Z",
+    "stargazers_count": 222,
+    "topics": [
+      "code-formatter",
+      "git",
+      "google-java-format",
+      "hook",
+      "java",
+      "maven"
+    ],
+    "updated_at": "2026-04-20T05:41:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-formatter"
+    },
+    {
+      "context_snippet": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-java-format"
+    },
+    {
+      "context_snippet": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hook"
+    },
+    {
+      "context_snippet": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven"
+    }
+  ]
+}

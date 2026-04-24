@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u3010EMNLP 2024\ud83d\udd25\u3011Video-LLaVA: Learning United Visual Representation by Alignment Before Projection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instruction-tuning",
+      "sense_id": "instruction-tuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "instruction-tuning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instruction-tuning",
+  "observation_id": "5ef5abce54645cfe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "instruction-tuning",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "PKU-YuanGroup/Video-LLaVA",
+  "source_repo_description": "\u3010EMNLP 2024\ud83d\udd25\u3011Video-LLaVA: Learning United Visual Representation by Alignment Before Projection"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "YADB is a utility tool that extends ADB, with its keyboard input feature being superior to ADBKeyboard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050091,
+      "status": "candidate",
+      "text": "keypad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047318,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046808,
+      "status": "candidate",
+      "text": "typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044416,
+      "status": "candidate",
+      "text": "touch-tone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042658,
+      "status": "candidate",
+      "text": "keyword"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keyboard",
+      "sense_id": "keyboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keyboard",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keyboard",
+  "observation_id": "6df244cd46bf73f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "keyboard",
+  "source_context_snippet": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)",
+  "source_file": null,
+  "source_repo": "ysbing/YADB",
+  "source_repo_description": "YADB is a utility tool that extends ADB, with its keyboard input feature being superior to ADBKeyboard."
+}

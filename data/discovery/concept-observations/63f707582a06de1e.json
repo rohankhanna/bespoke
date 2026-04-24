@@ -48,7 +48,7 @@
   "normalized_form": "golangci-lint",
   "observation_id": "63f707582a06de1e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "golangci-lint",
   "source_context_snippet": "golangci-lint",
   "source_file": ".github/workflows/golangci-lint.yml",

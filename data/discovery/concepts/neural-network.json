@@ -223,6 +223,54 @@
       "source_repo": "PaddlePaddle/Paddle-Lite",
       "status": "candidate-context",
       "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "Open standard for machine learning interoperability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice \uff08\u300e\u98de\u6868\u300f\u6838\u5fc3\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60&\u673a\u5668\u5b66\u4e60\u9ad8\u6027\u80fd\u5355\u673a\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u548c\u8de8\u5e73\u53f0\u90e8\u7f72\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "Useful extra functionality for TensorFlow 2.x maintained by SIG-addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate-context",
+      "text": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +381,30 @@
       "source_repo": "PaddlePaddle/Paddle-Lite",
       "status": "candidate",
       "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +532,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/Paddle-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

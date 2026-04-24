@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Fast Downward domain-independent classical planning system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"misc/images/fast-downward.svg\" width=\"800\" alt=\"Fast Downward\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"misc/images/fast-downward.svg\" width=\"800\" alt=\"Fast Downward\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998992,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991363,
+      "status": "candidate",
+      "text": "provision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001665,
+      "status": "candidate",
+      "text": "planification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001562,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000914,
+      "status": "candidate",
+      "text": "devising"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "planning",
+      "sense_id": "planning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24046,
+      "status": "candidate",
+      "text": "provision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11039,
+      "status": "candidate",
+      "text": "preparation"
+    }
+  ],
+  "concept_id": "planning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "planning",
+  "observation_id": "94021dd9d921f64f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "planning",
+  "source_context_snippet": "<img src=\"misc/images/fast-downward.svg\" width=\"800\" alt=\"Fast Downward\">",
+  "source_file": null,
+  "source_repo": "aibasel/downward",
+  "source_repo_description": "The Fast Downward domain-independent classical planning system"
+}

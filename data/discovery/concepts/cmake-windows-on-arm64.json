@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "CMake (Windows on ARM64)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate-context",
+      "text": "DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate-context",
+      "text": "'CMake (Windows on ARM64)'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate",
+      "text": "'CMake (Windows on ARM64)'"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CMake (Windows on ARM64)",
+  "concept_id": "cmake-windows-on-arm64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "microsoft/DirectXMath"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CMake (Windows on ARM64)",
+      "sense_id": "cmake-windows-on-arm64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

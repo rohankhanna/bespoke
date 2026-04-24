@@ -1,7 +1,9 @@
 {
   "aliases": [
     "post-release",
-    "Post release"
+    "Post release",
+    "Post Release",
+    "Post-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +58,54 @@
       "source_repo": "clap-rs/clap",
       "status": "candidate-context",
       "text": "post-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": "Post Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "Post Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "REPL (interactive shell) for Dart, supporting 3rd party packages, hot reload, and full grammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "Post-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bambinos/bambi",
+      "status": "candidate-context",
+      "text": "BAyesian Model-Building Interface (Bambi) in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bambinos/bambi",
+      "status": "candidate-context",
+      "text": "Post-release"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +132,30 @@
       "source_repo": "clap-rs/clap",
       "status": "candidate",
       "text": "post-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate",
+      "text": "Post Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "Post Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate",
+      "text": "Post-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bambinos/bambi",
+      "status": "candidate",
+      "text": "Post-release"
     }
   ],
   "candidate_related_terms": [
@@ -155,11 +229,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/post-release.yml",
       "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "tqdm/tqdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/post_release.yml",
+      "source_repo": "fzyzcjy/dart_interactive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "bambinos/bambi"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Changes In High Risk Code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "Changes In High Risk Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate-context",
+      "text": "Sentry SDK for Dart and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate-context",
+      "text": "Changes In High Risk Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate",
+      "text": "Changes In High Risk Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate",
+      "text": "Changes In High Risk Code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43634,
+      "status": "candidate",
+      "text": "hazard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33533,
+      "status": "candidate",
+      "text": "risks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33519,
+      "status": "candidate",
+      "text": "chancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33488,
+      "status": "candidate",
+      "text": "danger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33338,
+      "status": "candidate",
+      "text": "ascii"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Changes In High Risk Code",
+  "concept_id": "changes-in-high-risk-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+      "source_repo": "getsentry/sentry-cocoa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+      "source_repo": "getsentry/sentry-dart"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Changes In High Risk Code",
+      "sense_id": "changes-in-high-risk-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

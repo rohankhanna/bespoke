@@ -55,6 +55,30 @@
       "source_repo": "emacs-tree-sitter/tree-sitter-langs",
       "status": "candidate-context",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "Julia grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "emacs-tree-sitter/tree-sitter-langs",
       "status": "candidate",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "emacs-tree-sitter/tree-sitter-langs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter-julia"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

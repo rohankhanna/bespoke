@@ -1,7 +1,7 @@
 {
   "component": "goreleaser/goreleaser-action@v7",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/goreleaser.yml",
       "source_repo": "gin-gonic/gin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abhinav/tmux-fastcopy"
     }
   ]
 }

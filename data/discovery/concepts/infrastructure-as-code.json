@@ -127,6 +127,18 @@
       "source_repo": "akuity/awesome-argo",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubecfg/kubecfg",
+      "status": "candidate-context",
+      "text": "A tool for managing complex enterprise Kubernetes environments as code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubecfg/kubecfg",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "akuity/awesome-argo",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubecfg/kubecfg",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kubecfg/kubecfg"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

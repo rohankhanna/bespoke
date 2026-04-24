@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test and clippy common crates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "Unified zkVM Interface & Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "Test and clippy common crates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
+      "status": "candidate",
+      "text": "Test and clippy common crates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26622,
+      "status": "candidate",
+      "text": "rat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26234,
+      "status": "candidate",
+      "text": "true"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26116,
+      "status": "candidate",
+      "text": "cet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23122,
+      "status": "candidate",
+      "text": "cased"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22762,
+      "status": "candidate",
+      "text": "evaluation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and clippy common crates",
+  "concept_id": "test-and-clippy-common-crates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test-common.yml",
+      "source_repo": "eth-act/ere"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and clippy common crates",
+      "sense_id": "test-and-clippy-common-crates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "Significant-Gravitas/gravitasml",
+      "target": "CICD",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:08:22.237780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9658
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 715
+    },
+    {
+      "path": ".github/workflows/cicd.yml",
+      "size": 2928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A super simple XML parser for LLMs that removes a lot of pain for traditional XML parsing",
+    "fork": false,
+    "full_name": "Significant-Gravitas/gravitasml",
+    "html_url": "https://github.com/Significant-Gravitas/gravitasml",
+    "language": "Python",
+    "pushed_at": "2026-04-14T00:01:23Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-03-20T08:33:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CICD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "term": "CICD"
+    }
+  ]
+}

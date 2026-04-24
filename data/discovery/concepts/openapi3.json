@@ -91,6 +91,42 @@
       "source_repo": "getkin/kin-openapi",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-h/rest",
+      "status": "candidate-context",
+      "text": "Generate OpenAPI 3.0 specifications from Go code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/rest",
+      "status": "candidate-context",
+      "text": "Document a REST API with an OpenAPI 3.0 specification."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate-context",
+      "text": "Lightweight, blazing fast, cross-platform OpenAPI 3 mock server with validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "getkin/kin-openapi",
       "status": "candidate",
       "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/rest",
+      "status": "candidate",
+      "text": "Document a REST API with an OpenAPI 3.0 specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "getkin/kin-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "a-h/rest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

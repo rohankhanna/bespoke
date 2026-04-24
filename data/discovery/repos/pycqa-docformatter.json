@@ -1,0 +1,486 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-lint.yml"
+    },
+    {
+      "component": "weibullguy/get-labels-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-prioritize-issues.yml"
+    },
+    {
+      "component": "andymckay/labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-prioritize-issues.yml"
+    },
+    {
+      "component": "andymckay/labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-prioritize-issues.yml"
+    },
+    {
+      "component": "andymckay/labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-prioritize-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "joerick/pr-labels-action@v1.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "shogo82148/actions-upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "heinrichreimer/github-changelog-generator-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-next-semvers@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-close-milestone@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-create-milestone@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-create-milestone@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-update-authors.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-update-authors.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-update-authors.yml"
+    },
+    {
+      "component": "andymckay/labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-issue-open.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-tag.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "Execute Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-lint.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-lint.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-lint.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-prioritize-issues.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "weibullguy/get-labels-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-prioritize-issues.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "andymckay/labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-prioritize-issues.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "Prioritize Issues Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "joerick/pr-labels-action@v1.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "shogo82148/actions-upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "heinrichreimer/github-changelog-generator-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "WyriHaximus/github-action-next-semvers@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "WyriHaximus/github-action-close-milestone@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "WyriHaximus/github-action-create-milestone@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-release.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "Do Release Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-update-authors.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-update-authors.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/do-update-authors.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-update-authors.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "Update AUTHORS.rst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-issue-open.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "andymckay/labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-open.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "Issue Open Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-tag.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-tag.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-tag.yml",
+      "source_repo": "PyCQA/docformatter",
+      "target": "Prerelease Tag Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/docformatter",
+      "target": "autoformat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/docformatter",
+      "target": "docstring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/docformatter",
+      "target": "formatter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:47.569291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7115
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4913
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1032
+    },
+    {
+      "path": ".github/workflows/do-lint.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/do-prioritize-issues.yml",
+      "size": 1935
+    },
+    {
+      "path": ".github/workflows/do-release.yml",
+      "size": 5756
+    },
+    {
+      "path": ".github/workflows/do-update-authors.yml",
+      "size": 2507
+    },
+    {
+      "path": ".github/workflows/on-issue-open.yml",
+      "size": 326
+    },
+    {
+      "path": ".github/workflows/on-push-tag.yml",
+      "size": 1189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Formats docstrings to follow PEP 257",
+    "fork": false,
+    "full_name": "PyCQA/docformatter",
+    "html_url": "https://github.com/PyCQA/docformatter",
+    "language": "Python",
+    "pushed_at": "2026-04-21T01:28:25Z",
+    "stargazers_count": 584,
+    "topics": [
+      "autoformat",
+      "docstring",
+      "formatter",
+      "python"
+    ],
+    "updated_at": "2026-04-21T02:35:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Execute Test Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Execute Test Suite"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Prioritize Issues Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-prioritize-issues.yml",
+      "term": "Prioritize Issues Workflow"
+    },
+    {
+      "context_snippet": "Do Release Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-release.yml",
+      "term": "Do Release Workflow"
+    },
+    {
+      "context_snippet": "Update AUTHORS.rst",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-update-authors.yml",
+      "term": "Update AUTHORS.rst"
+    },
+    {
+      "context_snippet": "Issue Open Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-open.yml",
+      "term": "Issue Open Workflow"
+    },
+    {
+      "context_snippet": "Prerelease Tag Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-tag.yml",
+      "term": "Prerelease Tag Workflow"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoformat"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docstring"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    }
+  ]
+}

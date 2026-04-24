@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:59:19.709132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "espnet/notebook",
+    "html_url": "https://github.com/espnet/notebook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-06-09T18:43:25Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-22T10:52:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

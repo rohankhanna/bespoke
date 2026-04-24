@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Snapshot Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/rococoa",
+      "status": "candidate-context",
+      "text": "Rococoa allows you to call Objective-C code through Java classes and interfaces that you define."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/rococoa",
+      "status": "candidate-context",
+      "text": "Publish Snapshot Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/rococoa",
+      "status": "candidate",
+      "text": "Publish Snapshot Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17932,
+      "status": "candidate",
+      "text": "cinematograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17932,
+      "status": "candidate",
+      "text": "dissilience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17932,
+      "status": "candidate",
+      "text": "mirror"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17932,
+      "status": "candidate",
+      "text": "negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17932,
+      "status": "candidate",
+      "text": "photograph"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Snapshot Artifacts",
+  "concept_id": "publish-snapshot-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "iterate-ch/rococoa"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Snapshot Artifacts",
+      "sense_id": "publish-snapshot-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

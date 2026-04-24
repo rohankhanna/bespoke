@@ -79,6 +79,30 @@
       "source_repo": "AdguardTeam/AdGuardHome",
       "status": "candidate-context",
       "text": "&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/social-connect",
+      "status": "candidate-context",
+      "text": "Protocol mapping social identifiers to blockchain addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/social-connect",
+      "status": "candidate-context",
+      "text": "*For Dev Setup see [CONTRIBUTING.MD](.github/CONTRIBUTING.md)*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate-context",
+      "text": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps \ud83d\udcf1!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "AdguardTeam/AdGuardHome",
       "status": "candidate",
       "text": "&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/social-connect",
+      "status": "candidate",
+      "text": "*For Dev Setup see [CONTRIBUTING.MD](.github/CONTRIBUTING.md)*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate",
+      "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -225,11 +261,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "AdguardTeam/AdGuardHome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/social-connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "simplex-chat/simplex-chat"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

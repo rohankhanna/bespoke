@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SIMD-accelerated base64 codecs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**This is an unmaintained software package that was used for research purposes. Do not use in production. [Use the simdutf library instead](https://github.com/simdutf/simdutf).** The simdutf library has superior support for base64."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**This is an unmaintained software package that was used for research purposes. Do not use in production. [Use the simdutf library instead](https://github.com/simdutf/simdutf).** The simdutf library has superior support for base64."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "avx2",
+      "sense_id": "avx2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "avx2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "avx2",
+  "observation_id": "58f4d9974d5152bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "avx2",
+  "source_context_snippet": "**This is an unmaintained software package that was used for research purposes. Do not use in production. [Use the simdutf library instead](https://github.com/simdutf/simdutf).** The simdutf library has superior support for base64.",
+  "source_file": null,
+  "source_repo": "lemire/fastbase64",
+  "source_repo_description": "SIMD-accelerated base64 codecs"
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/upload-celocli-executables.yml",
+      "source_repo": "celo-org/developer-tooling"
+    }
+  ],
+  "term": "Upload celocli executables"
+}

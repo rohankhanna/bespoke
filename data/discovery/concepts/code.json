@@ -79,6 +79,30 @@
       "source_repo": "boyter/scc",
       "status": "candidate-context",
       "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/crev",
+      "status": "candidate-context",
+      "text": "Socially scalable Code REView and recommendation system that we desperately need. See http://github.com/crev-dev/cargo-crev for real implemenation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/crev",
+      "status": "candidate-context",
+      "text": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate-context",
+      "text": "A tool for measuring Python class cohesion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "boyter/scc",
       "status": "candidate",
       "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/crev",
+      "status": "candidate",
+      "text": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +292,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "boyter/scc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

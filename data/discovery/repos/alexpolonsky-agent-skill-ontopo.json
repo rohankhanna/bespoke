@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "alexpolonsky/agent-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "israel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "ontopo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "target": "restaurant-booking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:20.624275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Search Israeli restaurants, check availability across date ranges, and get booking links. Agent Skills format for OpenClaw, Claude, Cursor.",
+    "fork": false,
+    "full_name": "alexpolonsky/agent-skill-ontopo",
+    "html_url": "https://github.com/alexpolonsky/agent-skill-ontopo",
+    "language": "Python",
+    "pushed_at": "2026-03-13T11:11:41Z",
+    "stargazers_count": 3,
+    "topics": [
+      "agent-skills",
+      "ai-tools",
+      "claude-code",
+      "cursor",
+      "israel",
+      "ontopo",
+      "openclaw",
+      "python",
+      "restaurant-booking"
+    ],
+    "updated_at": "2026-04-09T13:43:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skills",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ontopo"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restaurant-booking"
+    }
+  ]
+}

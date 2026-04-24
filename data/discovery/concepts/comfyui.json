@@ -67,6 +67,54 @@
       "source_repo": "blepping/ComfyUI-bleh",
       "status": "candidate-context",
       "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "status": "candidate-context",
+      "text": "6 nodes for ComfyUI that allows for more control and flexibility over noise to do e.g. variations or \"un-sampling\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "status": "candidate-context",
+      "text": "This repo contains 6 nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allows for more control and flexibility over the noise. This allows e.g. for workflows with small variations to generations or finding the accompanying noise to some input image and prompt."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "status": "candidate-context",
+      "text": "Tiled samplers for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "status": "candidate-context",
+      "text": "![panorama of the ocean, sailboats and large moody clouds](https://github.com/BlenderNeko/ComfyUI_TiledKSampler/blob/master/examples/ComfyUI_02010_.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate-context",
+      "text": "Janky implementation of HiDiffusion for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate-context",
+      "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate-context",
+      "text": "Wildly unsound and experimental sampling for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate-context",
+      "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "blepping/ComfyUI-bleh",
       "status": "candidate",
       "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "status": "candidate",
+      "text": "This repo contains 6 nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allows for more control and flexibility over the noise. This allows e.g. for workflows with small variations to generations or finding the accompanying noise to some input image and prompt."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "status": "candidate",
+      "text": "![panorama of the ocean, sailboats and large moody clouds](https://github.com/BlenderNeko/ComfyUI_TiledKSampler/blob/master/examples/ComfyUI_02010_.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate",
+      "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate",
+      "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +226,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "blepping/ComfyUI-bleh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_Noise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

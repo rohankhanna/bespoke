@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:12:56.524788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ppc64le-cloud/k8s-ansible",
+    "html_url": "https://github.com/ppc64le-cloud/k8s-ansible",
+    "language": "Jinja",
+    "pushed_at": "2025-04-02T12:18:20Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-24T07:30:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

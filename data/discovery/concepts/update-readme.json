@@ -38,6 +38,18 @@
       "source_repo": "eslint/js",
       "status": "candidate-context",
       "text": "update-readme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "Update README"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
       "source_repo": "eslint/js",
       "status": "candidate",
       "text": "update-readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate",
+      "text": "Update README"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/update-readme.yml",
       "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "eslint/js"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

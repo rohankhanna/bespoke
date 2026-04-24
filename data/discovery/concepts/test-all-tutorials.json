@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test all tutorials"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate-context",
+      "text": "Get started developing on Arbitrum "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate-context",
+      "text": "Test all tutorials"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate",
+      "text": "Test all tutorials"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26407,
+      "status": "candidate",
+      "text": "far"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22732,
+      "status": "candidate",
+      "text": "catalogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22732,
+      "status": "candidate",
+      "text": "library catalog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22732,
+      "status": "candidate",
+      "text": "library catalogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22720,
+      "status": "candidate",
+      "text": "cataloged procedure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test all tutorials",
+  "concept_id": "test-all-tutorials",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test-all.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test all tutorials",
+      "sense_id": "test-all-tutorials#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

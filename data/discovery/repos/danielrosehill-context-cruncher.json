@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:04:27.236049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5592
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "App for extracting context data from voice recordings",
+    "fork": false,
+    "full_name": "danielrosehill/Context-Cruncher",
+    "html_url": "https://github.com/danielrosehill/Context-Cruncher",
+    "language": "Python",
+    "pushed_at": "2025-10-26T19:44:35Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-26T19:44:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

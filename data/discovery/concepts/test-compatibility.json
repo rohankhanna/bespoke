@@ -19,12 +19,48 @@
       "source_repo": "ModelCloud/GPTQModel",
       "status": "candidate-context",
       "text": "Test Compatibility"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate-context",
+      "text": "Model defuser helper for HF Transformers "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate-context",
+      "text": "Test Compatibility"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate-context",
+      "text": "A unified Logger and ProgressBar util with zero dependencies. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate-context",
+      "text": "Test Compatibility"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate",
+      "text": "Test Compatibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate",
+      "text": "Test Compatibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/LogBar",
       "status": "candidate",
       "text": "Test Compatibility"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/compatibility.yml",
       "source_repo": "ModelCloud/GPTQModel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "ModelCloud/Defuser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "ModelCloud/LogBar"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

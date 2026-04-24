@@ -748,6 +748,150 @@
       "source_repo": "docker/github-builder",
       "status": "candidate-context",
       "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "The slightly more awesome standard unix password manager for teams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/crev",
+      "status": "candidate-context",
+      "text": "Socially scalable Code REView and recommendation system that we desperately need. See http://github.com/crev-dev/cargo-crev for real implemenation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/crev",
+      "status": "candidate-context",
+      "text": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/dompurify.svg)](https://www.npmjs.com/package/dompurify) [![License](https://img.shields.io/badge/license-MPL--2.0%20OR%20Apache--2.0-blue.svg)](https://github.com/cure53/DOMPurify/blob/main/LICENSE) ![Tests](https://github.com/cure53/DOMPuri\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "briansmith/ring",
+      "status": "candidate-context",
+      "text": "An experiment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "briansmith/ring",
+      "status": "candidate-context",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\" AND BRIAN SMITH AND THE AUTHORS DISCLAIM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "Protect your secrets using Gitleaks-Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/libssz",
+      "status": "candidate-context",
+      "text": "A fast, zkVM-friendly SSZ library for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/libssz",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "Signature Transparency Log designed for ease of use, low cost, and minimal maintenance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "Rekor v2, aka rekor-tiles or Rekor on Tiles, is a redesigned and modernized [Rekor](https://github.com/sigstore/rekor),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate-context",
+      "text": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps \ud83d\udcf1!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "Use your IAM role (from instance metadata) to open the AWS console "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "BCrypt.Net - Bringing updates to the original bcrypt package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "open-source agentic AI data assistant for the next generation of AI + Data products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -1110,6 +1254,78 @@
       "source_repo": "docker/github-builder",
       "status": "candidate",
       "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/crev",
+      "status": "candidate",
+      "text": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/dompurify.svg)](https://www.npmjs.com/package/dompurify) [![License](https://img.shields.io/badge/license-MPL--2.0%20OR%20Apache--2.0-blue.svg)](https://github.com/cure53/DOMPurify/blob/main/LICENSE) ![Tests](https://github.com/cure53/DOMPuri\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "briansmith/ring",
+      "status": "candidate",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\" AND BRIAN SMITH AND THE AUTHORS DISCLAIM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/libssz",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate",
+      "text": "Rekor v2, aka rekor-tiles or Rekor on Tiles, is a redesigned and modernized [Rekor](https://github.com/sigstore/rekor),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate",
+      "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -1585,11 +1801,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gopasspw/gopass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "cure53/DOMPurify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "briansmith/ring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "lambdaclass/libssz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/rekor-tiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "simplex-chat/simplex-chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eosphoros-ai/DB-GPT"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "gaffer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "Documentation for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "Python API for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39906130,
+      "status": "candidate",
+      "text": "foreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39905408,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39900604,
+      "status": "candidate",
+      "text": "honcho"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896524,
+      "status": "candidate",
+      "text": "old-timer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896014,
+      "status": "candidate",
+      "text": "chief"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27039,
+      "status": "candidate",
+      "text": "antique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7041,
+      "status": "candidate",
+      "text": "foreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4031,
+      "status": "candidate",
+      "text": "honcho"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "old-timer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "old geezer"
+    }
+  ],
+  "canonical_name": "gaffer",
+  "concept_id": "gaffer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gafferpy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gaffer",
+      "sense_id": "gaffer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
+      "target": "showcases/clean-code-linters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/standard",
       "target": "standard/standard-engine",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "standard/standard",
       "target": "standard/eslint-config-standard-with-typescript",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standard/standard",
-      "target": "standard/standard-www",
       "target_type": "repository"
     },
     {
@@ -281,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "standard/standard"
 }

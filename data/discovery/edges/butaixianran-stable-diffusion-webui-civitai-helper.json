@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+      "target": "zixaphir/stable-diffusion-webui-civitai-helper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+      "target": "blue-pen5805/stable-diffusion-webui-civitai-helper",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "butaixianran/Stable-Diffusion-Webui-Civitai-Helper"
+}

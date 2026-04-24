@@ -1,0 +1,279 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "cc-by-nc-nd-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "judge-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "key-answer-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "llm-as-a-judge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "llm-as-evaluator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "lm-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "open-compass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "regex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "reliability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "reliable-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "target": "xfinder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:49:23.536959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15493
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1077
+    },
+    {
+      "path": "requirements.txt",
+      "size": 101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] xFinder: Large Language Models as Automated Evaluators for Reliable Evaluation",
+    "fork": false,
+    "full_name": "IAAR-Shanghai/xFinder",
+    "html_url": "https://github.com/IAAR-Shanghai/xFinder",
+    "language": "Python",
+    "pushed_at": "2025-11-14T09:20:12Z",
+    "stargazers_count": 181,
+    "topics": [
+      "benchmark",
+      "cc-by-nc-nd-4",
+      "chatglm",
+      "dataset",
+      "evaluation",
+      "gpt",
+      "judge-model",
+      "key-answer-extraction",
+      "large-language-models",
+      "llm",
+      "llm-as-a-judge",
+      "llm-as-evaluator",
+      "lm-evaluation",
+      "open-compass",
+      "phi",
+      "qwen",
+      "regex",
+      "reliability",
+      "reliable-evaluation",
+      "xfinder"
+    ],
+    "updated_at": "2026-04-09T11:56:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cc-by-nc-nd-4"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "judge-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-answer-extraction"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-as-a-judge"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-as-evaluator"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lm-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-compass"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reliability"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reliable-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xfinder"
+    }
+  ]
+}

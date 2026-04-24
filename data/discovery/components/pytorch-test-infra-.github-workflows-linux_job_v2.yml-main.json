@@ -1,7 +1,7 @@
 {
   "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "pytorch/vision"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_torchft.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
     }
   ]
 }

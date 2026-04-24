@@ -7,10 +7,95 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "Elegant Lua unit testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "Busted"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate",
+      "text": "Busted"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39734618,
+      "status": "candidate",
+      "text": "broken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730826,
+      "status": "candidate",
+      "text": "ruptured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39726794,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39725424,
+      "status": "candidate",
+      "text": "damaged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807519,
+      "status": "candidate",
+      "text": "fart"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25055,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12050,
+      "status": "candidate",
+      "text": "broken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8026,
+      "status": "candidate",
+      "text": "damaged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3023,
+      "status": "candidate",
+      "text": "ruptured"
+    }
+  ],
   "canonical_name": "Busted",
   "concept_id": "busted",
   "definition_status": "unresolved",
@@ -20,12 +105,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/busted.yml",
       "source_repo": "lunarmodules/luacheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/busted"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

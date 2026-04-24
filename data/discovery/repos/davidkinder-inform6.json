@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "DavidKinder/Inform6",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "DavidKinder/Inform6",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "DavidKinder/Inform6",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "DavidKinder/Inform6",
+      "target": "Windows build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:20.838516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2458
+    },
+    {
+      "path": ".github/workflows/windows_build.yml",
+      "size": 401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The latest version of the Inform 6 compiler, used for generating interactive fiction games.",
+    "fork": false,
+    "full_name": "DavidKinder/Inform6",
+    "html_url": "https://github.com/DavidKinder/Inform6",
+    "language": "C",
+    "pushed_at": "2026-04-22T19:09:17Z",
+    "stargazers_count": 232,
+    "topics": [],
+    "updated_at": "2026-04-22T19:09:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Windows build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build.yml",
+      "term": "Windows build"
+    }
+  ]
+}

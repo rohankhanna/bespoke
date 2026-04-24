@@ -19,6 +19,18 @@
       "source_repo": "microsoft/terminal",
       "status": "candidate-context",
       "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "Make it easy to use the C++ std::filesystem API across platforms, even those where std::filesystem would otherwise be (conditionally) unavailable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/terminal",
       "status": "candidate",
       "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

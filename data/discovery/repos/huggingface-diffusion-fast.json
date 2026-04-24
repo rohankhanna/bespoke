@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/diffusion-fast",
+      "target": "huggingface/flux-fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "huggingface/diffusion-fast",
+      "target": "pytorch-labs/ao",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusion-fast",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusion-fast",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusion-fast",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusion-fast",
+      "target": "sdxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusion-fast",
+      "target": "text-to-image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:13.179609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12502
+    },
+    {
+      "path": "Dockerfile",
+      "size": 888
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Faster generation with text-to-image diffusion models.",
+    "fork": false,
+    "full_name": "huggingface/diffusion-fast",
+    "html_url": "https://github.com/huggingface/diffusion-fast",
+    "language": "Python",
+    "pushed_at": "2025-06-28T05:30:12Z",
+    "stargazers_count": 232,
+    "topics": [
+      "diffusers",
+      "diffusion-models",
+      "pytorch",
+      "sdxl",
+      "text-to-image-generation"
+    ],
+    "updated_at": "2026-03-02T09:51:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/flux-fast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch-labs/ao",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sdxl"
+    },
+    {
+      "context_snippet": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-generation"
+    }
+  ]
+}

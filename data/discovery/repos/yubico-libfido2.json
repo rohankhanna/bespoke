@@ -1,0 +1,421 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_builds.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz_oss.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz_oss.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz_oss.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssl3.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "bsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz_oss.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz_oss.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz_oss.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz_oss.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "cifuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "codeql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "cygwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_fuzz.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_fuzz.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "fuzzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssl3.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openssl3.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "openssl3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "Yubico/libfido2",
+      "target": "shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yubico/libfido2",
+      "target": "fido2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yubico/libfido2",
+      "target": "libfido2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yubico/libfido2",
+      "target": "webauthn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yubico/libfido2",
+      "target": "yubikey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:35.938871+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/alpine_builds.yml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/bsd_builds.yml",
+      "size": 856
+    },
+    {
+      "path": ".github/workflows/cifuzz_oss.yml",
+      "size": 1227
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/cygwin_builds.yml",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/linux_builds.yml",
+      "size": 1637
+    },
+    {
+      "path": ".github/workflows/linux_fuzz.yml",
+      "size": 924
+    },
+    {
+      "path": ".github/workflows/macos_builds.yml",
+      "size": 766
+    },
+    {
+      "path": ".github/workflows/openssl3.yml",
+      "size": 1336
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provides library functionality for FIDO2, including communication with a device over USB or NFC.",
+    "fork": false,
+    "full_name": "Yubico/libfido2",
+    "html_url": "https://github.com/Yubico/libfido2",
+    "language": "C",
+    "pushed_at": "2026-04-15T12:54:20Z",
+    "stargazers_count": 705,
+    "topics": [
+      "fido2",
+      "libfido2",
+      "webauthn",
+      "yubikey"
+    ],
+    "updated_at": "2026-04-20T12:21:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "alpine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine_builds.yml",
+      "term": "alpine"
+    },
+    {
+      "context_snippet": "bsd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd_builds.yml",
+      "term": "bsd"
+    },
+    {
+      "context_snippet": "cifuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz_oss.yml",
+      "term": "cifuzz"
+    },
+    {
+      "context_snippet": "\"codeql\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "codeql"
+    },
+    {
+      "context_snippet": "cygwin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin_builds.yml",
+      "term": "cygwin"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "fuzzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_fuzz.yml",
+      "term": "fuzzer"
+    },
+    {
+      "context_snippet": "macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "term": "macos"
+    },
+    {
+      "context_snippet": "openssl3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openssl3.yml",
+      "term": "openssl3"
+    },
+    {
+      "context_snippet": "shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "shellcheck"
+    },
+    {
+      "context_snippet": "alpine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fido2"
+    },
+    {
+      "context_snippet": "alpine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libfido2"
+    },
+    {
+      "context_snippet": "alpine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webauthn"
+    },
+    {
+      "context_snippet": "alpine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yubikey"
+    }
+  ]
+}

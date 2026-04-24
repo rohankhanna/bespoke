@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Private Packagist Conductor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "Dependency Manager for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "Private Packagist Conductor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate",
+      "text": "Private Packagist Conductor"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11653,
+      "status": "candidate",
+      "text": "kapellmeister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11563,
+      "status": "candidate",
+      "text": "semi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11525,
+      "status": "candidate",
+      "text": "passenger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11525,
+      "status": "candidate",
+      "text": "sir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11461,
+      "status": "candidate",
+      "text": "drivers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Private Packagist Conductor",
+  "concept_id": "private-packagist-conductor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/conductor.yaml",
+      "source_repo": "composer/composer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Private Packagist Conductor",
+      "sense_id": "private-packagist-conductor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

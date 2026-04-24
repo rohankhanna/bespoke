@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy a helm chart. Generic workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "cLabs managed applications for Kubernetes using Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "'Deploy a helm chart. Generic workflow'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
+      "status": "candidate",
+      "text": "'Deploy a helm chart. Generic workflow'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31987,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31987,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31987,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31987,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28092,
+      "status": "candidate",
+      "text": "interface"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy a helm chart. Generic workflow",
+  "concept_id": "deploy-a-helm-chart.-generic-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy a helm chart. Generic workflow",
+      "sense_id": "deploy-a-helm-chart.-generic-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

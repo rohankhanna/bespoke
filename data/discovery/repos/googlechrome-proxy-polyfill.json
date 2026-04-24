@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-closure-compiler",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "target": "google-closure-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "target": "polyfill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "target": "trap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:05:45.917619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4697
+    },
+    {
+      "path": "package.json",
+      "size": 817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Proxy object polyfill",
+    "fork": false,
+    "full_name": "GoogleChrome/proxy-polyfill",
+    "html_url": "https://github.com/GoogleChrome/proxy-polyfill",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-27T15:22:42Z",
+    "stargazers_count": 1143,
+    "topics": [
+      "polyfill",
+      "proxy",
+      "trap"
+    ],
+    "updated_at": "2026-04-10T06:14:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyfill"
+    },
+    {
+      "context_snippet": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trap"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "sveltejs/eslint-plugin-svelte",
       "status": "candidate-context",
       "text": "Publish to pkg.pr.new"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Svelte parser for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Publish to pkg.pr.new"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sveltejs/eslint-plugin-svelte",
+      "status": "candidate",
+      "text": "Publish to pkg.pr.new"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
       "status": "candidate",
       "text": "Publish to pkg.pr.new"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pkg.pr.new.yml",
       "source_repo": "sveltejs/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/svelte-eslint-parser"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

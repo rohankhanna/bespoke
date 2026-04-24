@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonWetzel/prettypst",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonWetzel/prettypst",
+      "target": "typst",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:28.214285+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Formatter for Typst",
+    "fork": false,
+    "full_name": "antonWetzel/prettypst",
+    "html_url": "https://github.com/antonWetzel/prettypst",
+    "language": "Rust",
+    "pushed_at": "2026-04-11T15:18:58Z",
+    "stargazers_count": 53,
+    "topics": [
+      "formatter",
+      "typst"
+    ],
+    "updated_at": "2026-04-15T01:35:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[package] name = \"prettypst\" version = \"3.2.0\" edition = \"2024\" description = \"Formatter for Typst\" repository = \"https://github.com/antonWetzel/prettypst\" license-file = \"LICENSE\" keywords = [\"cli\"] categories = [\"command-line-utilities\"] [dependencies] clap = { version = \"4.5\"\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[package] name = \"prettypst\" version = \"3.2.0\" edition = \"2024\" description = \"Formatter for Typst\" repository = \"https://github.com/antonWetzel/prettypst\" license-file = \"LICENSE\" keywords = [\"cli\"] categories = [\"command-line-utilities\"] [dependencies] clap = { version = \"4.5\"\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typst"
+    }
+  ]
+}

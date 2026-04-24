@@ -84,7 +84,7 @@
   "normalized_form": "bindings-tests-go",
   "observation_id": "aeeed0f3684dd848",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Bindings Tests (Go)",
   "source_context_snippet": "Bindings Tests (Go)",
   "source_file": ".github/workflows/bindings-go.yml",

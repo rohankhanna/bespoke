@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Docker Build Only"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Docker Build Only"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33310,
+      "status": "candidate",
+      "text": "turtle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26167,
+      "status": "candidate",
+      "text": "empiric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17401,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17401,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17287,
+      "status": "candidate",
+      "text": "lock"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Docker Build Only",
+      "sense_id": "test-docker-build-only#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-docker-build-only",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-docker-build-only",
+  "observation_id": "83d86eb2ba429f41",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Test Docker Build Only",
+  "source_context_snippet": "Test Docker Build Only",
+  "source_file": ".github/workflows/docker-build-test.yml",
+  "source_repo": "ArkMowers/arknights-mower",
+  "source_repo_description": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+}

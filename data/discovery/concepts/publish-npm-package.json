@@ -31,6 +31,18 @@
       "source_repo": "a16z/helios",
       "status": "candidate-context",
       "text": "Publish NPM Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatethurston/ProtoScript",
+      "status": "candidate-context",
+      "text": "A protobuf runtime and code generation tool for JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatethurston/ProtoScript",
+      "status": "candidate-context",
+      "text": "Publish NPM Package"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "a16z/helios",
+      "status": "candidate",
+      "text": "Publish NPM Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatethurston/ProtoScript",
       "status": "candidate",
       "text": "Publish NPM Package"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "a16z/helios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tatethurston/ProtoScript"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

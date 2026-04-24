@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/arcade-services",
+      "target": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/arcade-services",
+      "target": "Inter-branch merge workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/arcade-services",
+      "target": "depedency-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/arcade-services",
+      "target": "dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/arcade-services",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/arcade-services",
+      "target": "engineering-platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/arcade-services",
+      "target": "infrastructure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:48.407242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/inter-branch-merge-flow.yml",
+      "size": 224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home to .NET's dependency flow system & tooling",
+    "fork": false,
+    "full_name": "dotnet/arcade-services",
+    "html_url": "https://github.com/dotnet/arcade-services",
+    "language": "C#",
+    "pushed_at": "2026-04-23T16:34:06Z",
+    "stargazers_count": 81,
+    "topics": [
+      "depedency-tracking",
+      "dependencies",
+      "dotnet",
+      "engineering-platforms",
+      "infrastructure"
+    ],
+    "updated_at": "2026-04-23T16:34:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Inter-branch merge workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "term": "Inter-branch merge workflow"
+    },
+    {
+      "context_snippet": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depedency-tracking"
+    },
+    {
+      "context_snippet": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependencies"
+    },
+    {
+      "context_snippet": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "engineering-platforms"
+    },
+    {
+      "context_snippet": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure"
+    }
+  ]
+}

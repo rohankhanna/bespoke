@@ -31,6 +31,30 @@
       "source_repo": "dimforge/nalgebra",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "BLAS-like Library Instantiation Software Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "OpenGL Mathematics (GLM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "ci"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "dimforge/nalgebra",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate",
+      "text": "ci"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +151,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dimforge/nalgebra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flame/blis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "g-truc/glm"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

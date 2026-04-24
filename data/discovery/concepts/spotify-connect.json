@@ -19,6 +19,30 @@
       "source_repo": "librespot-org/librespot",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/librespot-org/librespot/workflows/build/badge.svg)](https://github.com/librespot-org/librespot/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] The most up-to-date open source Spotify client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate-context",
+      "text": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dtcooper/raspotify",
+      "status": "candidate-context",
+      "text": "A Spotify Connect client that mostly Just Works\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtcooper/raspotify",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "librespot-org/librespot",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/librespot-org/librespot/workflows/build/badge.svg)](https://github.com/librespot-org/librespot/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate",
+      "text": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtcooper/raspotify",
+      "status": "candidate",
+      "text": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "librespot-org/librespot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dtcooper/raspotify"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

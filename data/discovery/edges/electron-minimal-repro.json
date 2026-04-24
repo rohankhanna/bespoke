@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron/minimal-repro",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/minimal-repro",
+      "target": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/minimal-repro",
+      "target": "dsanders11/project-actions/add-item@2134fe7cc71c58b7ae259c82a8e63c6058255678",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/minimal-repro",
+      "target": "Add to Ecosystem WG Project",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "electron/minimal-repro"
+}

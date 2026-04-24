@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Human-readable representation of Lua tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "inspect.lua"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "inspect.lua"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39886498,
+      "status": "candidate",
+      "text": "board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39883363,
+      "status": "candidate",
+      "text": "shelve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857507,
+      "status": "candidate",
+      "text": "mesa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39753918,
+      "status": "candidate",
+      "text": "set back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39751082,
+      "status": "candidate",
+      "text": "remit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tables",
+      "sense_id": "tables#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tables",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tables",
+  "observation_id": "2ac9e39ef1c2d6dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "tables",
+  "source_context_snippet": "inspect.lua",
+  "source_file": null,
+  "source_repo": "kikito/inspect.lua",
+  "source_repo_description": "Human-readable representation of Lua tables"
+}

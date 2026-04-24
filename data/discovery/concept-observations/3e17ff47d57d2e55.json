@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005333,
+      "status": "candidate",
+      "text": "wikipedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28436470,
+      "status": "candidate",
+      "text": "vicky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005376,
+      "status": "candidate",
+      "text": "ueki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005376,
+      "status": "candidate",
+      "text": "wikis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005374,
+      "status": "candidate",
+      "text": "mediawiki"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wiki",
+      "sense_id": "wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wiki",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wiki",
+  "observation_id": "3e17ff47d57d2e55",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "wiki",
+  "source_context_snippet": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>",
+  "source_file": null,
+  "source_repo": "brightmart/nlp_chinese_corpus",
+  "source_repo_description": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+}

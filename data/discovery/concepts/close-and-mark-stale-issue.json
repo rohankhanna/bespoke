@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Close and mark stale issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "a vendor-agnostic gateway conformance test suite for implementers of IPFS Gateways to ensure compliance with  https://specs.ipfs.tech/http-gateways/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "Close and mark stale issue"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "IPFS implementation in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "Close and mark stale issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate",
+      "text": "Close and mark stale issue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate",
+      "text": "Close and mark stale issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36790,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36790,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33157,
+      "status": "candidate",
+      "text": "marker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30894,
+      "status": "candidate",
+      "text": "flatten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30894,
+      "status": "candidate",
+      "text": "flattening"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close and mark stale issue",
+  "concept_id": "close-and-mark-stale-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/gateway-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/js-ipfs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close and mark stale issue",
+      "sense_id": "close-and-mark-stale-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

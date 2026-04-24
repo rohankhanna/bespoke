@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "github/codeql-action/init@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "github/codeql-action/autobuild@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "github/codeql-action/analyze@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "github/codeql-action/upload-sarif@4dd16135b69a43b6c8efb853346f8437d92d3c93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy-perf",
+      "target": "envoy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:12:59.476668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1290
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 987
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2673
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 2174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Envoy performance testing",
+    "fork": false,
+    "full_name": "envoyproxy/envoy-perf",
+    "html_url": "https://github.com/envoyproxy/envoy-perf",
+    "language": "Python",
+    "pushed_at": "2026-04-20T11:32:54Z",
+    "stargazers_count": 145,
+    "topics": [
+      "benchmarking",
+      "cncf",
+      "envoy"
+    ],
+    "updated_at": "2026-04-17T18:08:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy-perf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy-perf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy-perf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy-perf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy-perf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy-perf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy"
+    }
+  ]
+}

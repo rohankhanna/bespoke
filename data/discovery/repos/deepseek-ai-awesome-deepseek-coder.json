@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/awesome-deepseek-coder",
+      "target": "smallcloudai/refact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/awesome-deepseek-coder",
+      "target": "tabbyml/tabby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/awesome-deepseek-coder",
+      "target": "unit-mesh/auto-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/awesome-deepseek-coder",
+      "target": "unit-mesh/unit-eval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:56:43.026462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of open-source projects related to DeepSeek Coder",
+    "fork": false,
+    "full_name": "deepseek-ai/awesome-deepseek-coder",
+    "html_url": "https://github.com/deepseek-ai/awesome-deepseek-coder",
+    "language": null,
+    "pushed_at": "2025-11-11T06:45:15Z",
+    "stargazers_count": 773,
+    "topics": [],
+    "updated_at": "2026-04-20T23:33:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smallcloudai/refact",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tabbyml/tabby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unit-mesh/auto-dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unit-mesh/unit-eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

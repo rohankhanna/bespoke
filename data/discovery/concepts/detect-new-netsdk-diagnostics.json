@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Detect New NETSDK Diagnostics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Detect New NETSDK Diagnostics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate",
+      "text": "Detect New NETSDK Diagnostics"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25710,
+      "status": "candidate",
+      "text": "mri"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24389,
+      "status": "candidate",
+      "text": "radar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24353,
+      "status": "candidate",
+      "text": "diagnosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23752,
+      "status": "candidate",
+      "text": "caesium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23731,
+      "status": "candidate",
+      "text": "laboratory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Detect New NETSDK Diagnostics",
+  "concept_id": "detect-new-netsdk-diagnostics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/detect-netsdk-diagnostics.yml",
+      "source_repo": "dotnet/sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect New NETSDK Diagnostics",
+      "sense_id": "detect-new-netsdk-diagnostics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

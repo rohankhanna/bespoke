@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "highlightjs/cdn-release",
+      "target": "isagalaev/highlight.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:15.487988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for autoupdating CDN build versions",
+    "fork": false,
+    "full_name": "highlightjs/cdn-release",
+    "html_url": "https://github.com/highlightjs/cdn-release",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-25T17:53:30Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2025-12-24T09:11:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isagalaev/highlight.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

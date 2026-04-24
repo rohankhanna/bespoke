@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build XCFramework Slice"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build XCFramework Slice"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11518,
+      "status": "candidate",
+      "text": "great"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11518,
+      "status": "candidate",
+      "text": "thick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10608,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10608,
+      "status": "candidate",
+      "text": "basis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build XCFramework Slice",
+      "sense_id": "build-xcframework-slice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-xcframework-slice",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-xcframework-slice",
+  "observation_id": "a4b8f6d3551488b1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Build XCFramework Slice",
+  "source_context_snippet": "Build XCFramework Slice",
+  "source_file": ".github/workflows/build-xcframework-variant-slices.yml",
+  "source_repo": "getsentry/sentry-cocoa",
+  "source_repo_description": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+}

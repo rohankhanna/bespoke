@@ -1,7 +1,7 @@
 {
   "component": "cygwin/cygwin-install-action@711d29f3da23c9f4a1798e369a6f01198c13b11a",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "lint-staged/lint-staged"
     }
   ]
 }

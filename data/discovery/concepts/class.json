@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "class"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate-context",
+      "text": "A tool for measuring Python class cohesion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907855,
+      "status": "candidate",
+      "text": "category"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907167,
+      "status": "candidate",
+      "text": "classify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39905994,
+      "status": "candidate",
+      "text": "assort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902956,
+      "status": "candidate",
+      "text": "sort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901524,
+      "status": "candidate",
+      "text": "social class"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19072,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12059,
+      "status": "candidate",
+      "text": "division"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11054,
+      "status": "candidate",
+      "text": "sort"
+    }
+  ],
+  "canonical_name": "class",
+  "concept_id": "class",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "class",
+      "sense_id": "class#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

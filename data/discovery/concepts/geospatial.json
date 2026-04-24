@@ -19,6 +19,66 @@
       "source_repo": "georust/geo",
       "status": "candidate-context",
       "text": "[![geo](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/simplification",
+      "status": "candidate-context",
+      "text": "Very fast Python line simplification using either the RDP or Visvalingam-Whyatt algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/simplification",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/urschrei/simplification/actions/workflows/wheels.yml/badge.svg)](https://github.com/urschrei/simplification/actions/workflows/wheels.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/simplification/badge.svg?branch=master)](h\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/geocoding",
+      "status": "candidate-context",
+      "text": "Geocoding library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geocoding",
+      "status": "candidate-context",
+      "text": "Rust utilities to enrich addresses, cities, countries, and landmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/geojson",
+      "status": "candidate-context",
+      "text": "Library for serializing the GeoJSON vector GIS file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geojson",
+      "status": "candidate-context",
+      "text": "[Documentation](https://docs.rs/geojson/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/gpx",
+      "status": "candidate-context",
+      "text": "Rust read/write support for GPS Exchange Format (GPX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/gpx",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/proj",
+      "status": "candidate-context",
+      "text": "Rust bindings for the latest stable release of PROJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/proj",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "georust/geo",
       "status": "candidate",
       "text": "[![geo](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/simplification",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/urschrei/simplification/actions/workflows/wheels.yml/badge.svg)](https://github.com/urschrei/simplification/actions/workflows/wheels.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/simplification/badge.svg?branch=master)](h\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geocoding",
+      "status": "candidate",
+      "text": "Rust utilities to enrich addresses, cities, countries, and landmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geojson",
+      "status": "candidate",
+      "text": "[Documentation](https://docs.rs/geojson/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/gpx",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/proj",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +166,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "georust/geo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "urschrei/simplification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/geocoding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/geojson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/gpx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/proj"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

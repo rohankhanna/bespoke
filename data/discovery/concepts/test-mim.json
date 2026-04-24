@@ -91,6 +91,42 @@
       "source_repo": "open-mmlab/mmocr",
       "status": "candidate-context",
       "text": "test-mim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate-context",
+      "text": "OpenMMLab Rotated Object Detection Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate-context",
+      "text": "test-mim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmselfsup",
+      "status": "candidate-context",
+      "text": "OpenMMLab Self-Supervised Learning Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmselfsup",
+      "status": "candidate-context",
+      "text": "test-mim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmtracking",
+      "status": "candidate-context",
+      "text": "OpenMMLab Video Perception Toolbox. It supports Video Object Detection (VID), Multiple Object Tracking (MOT), Single Object Tracking (SOT), Video Instance Segmentation (VIS) with a unified framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmtracking",
+      "status": "candidate-context",
+      "text": "test-mim"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +169,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-mmlab/mmocr",
+      "status": "candidate",
+      "text": "test-mim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate",
+      "text": "test-mim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmselfsup",
+      "status": "candidate",
+      "text": "test-mim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmtracking",
       "status": "candidate",
       "text": "test-mim"
     }
@@ -202,11 +256,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/test_mim.yml",
       "source_repo": "open-mmlab/mmocr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmrotate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmselfsup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmtracking"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sisl/MADRL",
+      "target": "pettingzoo-team/pettingzoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sisl/MADRL",
+      "target": "rejuvyesh/rllab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:53:07.998834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repo containing code for multi-agent deep reinforcement learning (MADRL). ",
+    "fork": false,
+    "full_name": "sisl/MADRL",
+    "html_url": "https://github.com/sisl/MADRL",
+    "language": "Python",
+    "pushed_at": "2023-04-12T16:04:09Z",
+    "stargazers_count": 746,
+    "topics": [],
+    "updated_at": "2026-04-21T17:46:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pettingzoo-team/pettingzoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rejuvyesh/rllab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

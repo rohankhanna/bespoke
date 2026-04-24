@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml"
+    },
+    {
+      "component": "sobolevn/misspell-fixer-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "dwyl/learn-flutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "dwyl/flutter-todo-list-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "dwyl/flutter-stopwatch-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "dwyl/learn-tdd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "Deploy to Github Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "sobolevn/misspell-fixer-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "peter-evans/create-pull-request@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "Automatically fix typos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "bloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "flutter-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "target": "state-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:02:25.314485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 100319
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 810
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 886
+    },
+    {
+      "path": ".github/workflows/fix-typos.yml",
+      "size": 417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A step-by-step example/tutorial explaining the benefits of the BLoC architecture and bloc library including tests!",
+    "fork": false,
+    "full_name": "dwyl/flutter-bloc-tutorial",
+    "html_url": "https://github.com/dwyl/flutter-bloc-tutorial",
+    "language": "Dart",
+    "pushed_at": "2023-09-04T16:53:06Z",
+    "stargazers_count": 111,
+    "topics": [
+      "bloc",
+      "dart",
+      "flutter",
+      "flutter-app",
+      "state-management"
+    ],
+    "updated_at": "2026-04-04T17:43:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/flutter-stopwatch-tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/flutter-todo-list-tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-flutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-tdd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Deploy to Github Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to Github Pages"
+    },
+    {
+      "context_snippet": "Automatically fix typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "term": "Automatically fix typos"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-app"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-management"
+    }
+  ]
+}

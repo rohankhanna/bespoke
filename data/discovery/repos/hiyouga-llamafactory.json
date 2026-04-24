@@ -128,6 +128,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
+      "target": "hiyouga/fastedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/LlamaFactory",
       "target": "facebookresearch/llama",
       "target_type": "repository"
     },
@@ -135,14 +142,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "conardli/easy-dataset",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hiyouga/LlamaFactory",
-      "target": "deepseek-ai/deepseek-llm",
+      "target": "fudandisc/disc-lawllm",
       "target_type": "repository"
     },
     {
@@ -412,7 +412,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:33:11.987820+00:00",
+  "fetched_at": "2026-04-24T06:51:02.796133+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,7 +461,7 @@
     "html_url": "https://github.com/hiyouga/LlamaFactory",
     "language": "Python",
     "pushed_at": "2026-04-23T09:29:06Z",
-    "stargazers_count": 70524,
+    "stargazers_count": 70542,
     "topics": [
       "agent",
       "ai",
@@ -484,19 +484,9 @@
       "rlhf",
       "transformers"
     ],
-    "updated_at": "2026-04-23T19:05:30Z"
+    "updated_at": "2026-04-24T06:37:37Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "conardli/easy-dataset",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deepseek-ai/deepseek-llm",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/longlora",
@@ -505,6 +495,16 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudandisc/disc-lawllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/fastedit",
       "source_file": "README.md"
     }
   ],

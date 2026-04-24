@@ -31,6 +31,18 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate-context",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justjavac/free-programming-books-zh_CN",
+      "status": "candidate-context",
+      "text": ":books: \u514d\u8d39\u7684\u8ba1\u7b97\u673a\u7f16\u7a0b\u7c7b\u4e2d\u6587\u4e66\u7c4d\uff0c\u6b22\u8fce\u6295\u7a3f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justjavac/free-programming-books-zh_CN",
+      "status": "candidate-context",
+      "text": "\u514d\u8d39\u7684\u7f16\u7a0b\u4e2d\u6587\u4e66\u7c4d\u7d22\u5f15"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justjavac/free-programming-books-zh_CN",
+      "status": "candidate",
+      "text": "\u514d\u8d39\u7684\u7f16\u7a0b\u4e2d\u6587\u4e66\u7c4d\u7d22\u5f15"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "MariaLetta/free-gophers-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "justjavac/free-programming-books-zh_CN"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

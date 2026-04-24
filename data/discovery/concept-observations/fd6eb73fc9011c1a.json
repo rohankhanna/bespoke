@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "React components for https://explore.ipld.io and ipfs-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> React components for https://explore.ipld.io (https://github.com/ipfs/explore.ipld.io) and ipfs-webui"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> React components for https://explore.ipld.io (https://github.com/ipfs/explore.ipld.io) and ipfs-webui"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipfs-gui",
+      "sense_id": "ipfs-gui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ipfs-gui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ipfs-gui",
+  "observation_id": "fd6eb73fc9011c1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "ipfs-gui",
+  "source_context_snippet": "> React components for https://explore.ipld.io (https://github.com/ipfs/explore.ipld.io) and ipfs-webui",
+  "source_file": null,
+  "source_repo": "ipfs/ipld-explorer-components",
+  "source_repo_description": "React components for https://explore.ipld.io and ipfs-webui"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:52:40.116815+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "incluit/OpenVino-For-SmartCity",
+    "html_url": "https://github.com/incluit/OpenVino-For-SmartCity",
+    "language": "C++",
+    "pushed_at": "2022-12-08T01:38:38Z",
+    "stargazers_count": 234,
+    "topics": [],
+    "updated_at": "2026-02-18T20:43:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

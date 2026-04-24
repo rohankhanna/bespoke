@@ -1,0 +1,535 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml"
+    },
+    {
+      "component": "step-security/changed-files@60967b822d3001fa82242f8d6b4ed46bc3600a68",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/actions/auth-gcp-artifact-registry@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/actions/build-container@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml"
+    },
+    {
+      "component": "cardinalby/export-env-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml"
+    },
+    {
+      "component": "google-github-actions/get-gke-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml"
+    },
+    {
+      "component": "mamezou-tech/setup-helmfile@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml"
+    },
+    {
+      "component": "jitterbit/get-changed-files@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "docker://us-west1-docker.pkg.dev/devopsre/akeyless-public/akeyless-action:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "dcarbone/install-yq-action@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "celo-org/charts",
+      "target": "step-security/changed-files@60967b822d3001fa82242f8d6b4ed46bc3600a68",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "celo-org/charts",
+      "target": "celo-org/reusable-workflows/.github/actions/auth-gcp-artifact-registry@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "celo-org/charts",
+      "target": "celo-org/reusable-workflows/.github/actions/build-container@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "celo-org/charts",
+      "target": "Build and Push Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts",
+      "target": "cardinalby/export-env-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts",
+      "target": "google-github-actions/get-gke-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts",
+      "target": "mamezou-tech/setup-helmfile@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "source_repo": "celo-org/charts",
+      "target": "Deploy a helm chart. Generic workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml",
+      "source_repo": "celo-org/charts",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml",
+      "source_repo": "celo-org/charts",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml",
+      "source_repo": "celo-org/charts",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yml",
+      "source_repo": "celo-org/charts",
+      "target": "jitterbit/get-changed-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_release.yml",
+      "source_repo": "celo-org/charts",
+      "target": "Release Helm Chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "helm/chart-testing-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "helm/kind-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "docker://us-west1-docker.pkg.dev/devopsre/akeyless-public/akeyless-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "dcarbone/install-yq-action@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_test.yml",
+      "source_repo": "celo-org/charts",
+      "target": "Helm Charts test and docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "celo-org/charts",
+      "target": "PR only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/charts",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/charts",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/charts",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/charts",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:07:13.868017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9972
+    },
+    {
+      "path": ".github/workflows/.env",
+      "size": 270
+    },
+    {
+      "path": ".github/workflows/containers.yml",
+      "size": 1867
+    },
+    {
+      "path": ".github/workflows/helm_deploy_call.yml",
+      "size": 2814
+    },
+    {
+      "path": ".github/workflows/helm_release.yml",
+      "size": 4855
+    },
+    {
+      "path": ".github/workflows/helm_test.yml",
+      "size": 11060
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 316
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 3076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "cLabs managed applications for Kubernetes using Helm",
+    "fork": false,
+    "full_name": "celo-org/charts",
+    "html_url": "https://github.com/celo-org/charts",
+    "language": "Go Template",
+    "pushed_at": "2026-04-23T00:09:03Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-09T13:09:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Push Containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containers.yml",
+      "term": "Build and Push Containers"
+    },
+    {
+      "context_snippet": "'Deploy a helm chart. Generic workflow'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_deploy_call.yml",
+      "term": "Deploy a helm chart. Generic workflow"
+    },
+    {
+      "context_snippet": "Release Helm Chart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_release.yml",
+      "term": "Release Helm Chart"
+    },
+    {
+      "context_snippet": "Helm Charts test and docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_test.yml",
+      "term": "Helm Charts test and docs"
+    },
+    {
+      "context_snippet": "PR only",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "term": "PR only"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "test-cygwin"
+    "test-cygwin",
+    "Test Cygwin"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "gitpython-developers/GitPython",
       "status": "candidate-context",
       "text": "test-cygwin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "The friendly PIL fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "Test Cygwin"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "gitpython-developers/GitPython",
       "status": "candidate",
       "text": "test-cygwin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate",
+      "text": "Test Cygwin"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "test-cygwin",
   "concept_id": "test-cygwin",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/cygwin-test.yml",
       "source_repo": "gitpython-developers/GitPython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

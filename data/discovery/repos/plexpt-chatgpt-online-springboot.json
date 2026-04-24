@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:54:17.536716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "chatgpt online demo for springboot. \u5e26\u524d\u7aef\u754c\u9762\u7684chatgpt springboot \u793a\u4f8b.",
+    "fork": false,
+    "full_name": "PlexPt/chatgpt-online-springboot",
+    "html_url": "https://github.com/PlexPt/chatgpt-online-springboot",
+    "language": "CSS",
+    "pushed_at": "2024-11-04T19:33:27Z",
+    "stargazers_count": 111,
+    "topics": [],
+    "updated_at": "2026-03-14T01:41:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

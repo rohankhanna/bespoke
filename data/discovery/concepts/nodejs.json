@@ -1345,6 +1345,330 @@
       "source_repo": "pnpm/pnpm",
       "status": "candidate-context",
       "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Native Node bindings to Git."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jorgebucaran/nvm.fish",
+      "status": "candidate-context",
+      "text": "The Node.js version manager you'll adore, crafted just for Fish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/nvm.fish",
+      "status": "candidate-context",
+      "text": "> The Node.js version manager you'll adore, crafted just for [Fish](https://fishshell.com)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Streaming torrent client for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate-context",
+      "text": "Create a badge using GitHub Actions and GitHub Workflow CPU time (no 3rd parties servers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/test.yml](https://github.com/emibcn/badge-action/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/emibcn/badge-action/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "simple tool to count SLOC (source lines of code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Official JavaScript repository for Clerk authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-yoga",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd8 Rewrite of a fully-featured GraphQL Server with focus on easy setup, performance & great developer experience.  The core of Yoga implements WHATWG Fetch API and can run/deploy on any JS environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-yoga",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/graphql-hive/graphql-yoga/refs/heads/main/website/public/cover.png\" width=\"720\" /></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate-context",
+      "text": "A nodenv plugin providing node-build definitions for Node.js prereleases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate-context",
+      "text": "A [nodenv][] plugin providing [node-build][] definitions for Node.js prereleases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "i18next-fs-backend is a backend layer for i18next using in Node.js and for Deno to load translations from the filesystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "i18next-http-backend is a backend layer for i18next using in Node.js, in the browser and for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate-context",
+      "text": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate-context",
+      "text": "> Returns true if the value is a finite number."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "Recursively merge values in a JavaScript object. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "If you use globs, this will make your code faster. Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience. 55+ million downloads. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate-context",
+      "text": "Deeply assign the enumerable properties of source objects to a destination object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate-context",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "status": "candidate-context",
+      "text": "Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "status": "candidate-context",
+      "text": "> Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "Node.js body parsing middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": ":fire_engine: The guts of `standard` modularized for reuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/standard/standard-engine/workflows/tests/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "Bitwarden client apps (web, browser extension, desktop, and cli)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "Encode data with built-in or custom encodings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "**Encode data with built-in or custom encodings.** The successor to [`level-codec`][level-codec] that transcodes encodings from and to internal data formats supported by a database. This allows a database to store data in a format of its choice (Buffer, Uint8Array or String) wit\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "Create a manifest describing the abilities of an abstract-level database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "**Create a manifest describing the abilities of an [`abstract-level`](https://github.com/Level/abstract-level) database.** No longer compatible with [`levelup`](https://github.com/Level/levelup) or [`abstract-leveldown`](https://github.com/Level/abstract-leveldown) since version\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "Superseded by many-level. Multilevel implemented using leveldowns with reconnect support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`many-level`](https://github.com/Level/many-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate-context",
+      "text": "Demonstrates bundling level for browsers using browserify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate-context",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`browserify`](https://github.com/browserify/browserify).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "Demonstrates bundling level for browsers using webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getndazn/dazn-lambda-powertools",
+      "status": "candidate-context",
+      "text": "Powertools (logger, HTTP client, AWS clients, middlewares, patterns) for Lambda functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getndazn/dazn-lambda-powertools",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
     }
   ],
   "candidate_glosses": [
@@ -2013,6 +2337,168 @@
       "source_repo": "pnpm/pnpm",
       "status": "candidate",
       "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/nvm.fish",
+      "status": "candidate",
+      "text": "> The Node.js version manager you'll adore, crafted just for [Fish](https://fishshell.com)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate",
+      "text": "[![.github/workflows/test.yml](https://github.com/emibcn/badge-action/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/emibcn/badge-action/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate",
+      "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-yoga",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/graphql-hive/graphql-yoga/refs/heads/main/website/public/cover.png\" width=\"720\" /></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate",
+      "text": "A [nodenv][] plugin providing [node-build][] definitions for Node.js prereleases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate",
+      "text": "> Returns true if the value is a finite number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate",
+      "text": "> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "status": "candidate",
+      "text": "> Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/standard/standard-engine/workflows/tests/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate",
+      "text": "**Encode data with built-in or custom encodings.** The successor to [`level-codec`][level-codec] that transcodes encodings from and to internal data formats supported by a database. This allows a database to store data in a format of its choice (Buffer, Uint8Array or String) wit\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate",
+      "text": "**Create a manifest describing the abilities of an [`abstract-level`](https://github.com/Level/abstract-level) database.** No longer compatible with [`levelup`](https://github.com/Level/levelup) or [`abstract-leveldown`](https://github.com/Level/abstract-leveldown) since version\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate",
+      "text": "**Superseded by [`many-level`](https://github.com/Level/many-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`browserify`](https://github.com/browserify/browserify).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getndazn/dazn-lambda-powertools",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
     }
   ],
   "candidate_related_terms": [],
@@ -2848,11 +3334,227 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pnpm/pnpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "TooTallNate/proxy-agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nodegit/nodegit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jorgebucaran/nvm.fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/webtorrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "emibcn/badge-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flosse/sloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clerk/javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-yoga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-prerelease"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-fs-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-http-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/expand-tilde"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "expressjs/body-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-www"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/clients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/transcoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/supports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/browserify-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "getndazn/dazn-lambda-powertools"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

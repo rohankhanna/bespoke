@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A maven plugin that automatically deploys code formatters as pre-commit git hook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910494,
+      "status": "candidate",
+      "text": "crochet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910410,
+      "status": "candidate",
+      "text": "knock off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910058,
+      "status": "candidate",
+      "text": "mitt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39894564,
+      "status": "candidate",
+      "text": "fleece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893856,
+      "status": "candidate",
+      "text": "soak"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hook",
+      "sense_id": "hook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52053,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39049,
+      "status": "candidate",
+      "text": "plume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35076,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23038,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18080,
+      "status": "candidate",
+      "text": "lift"
+    }
+  ],
+  "concept_id": "hook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hook",
+  "observation_id": "a2fb355ac17ae7cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "hook",
+  "source_context_snippet": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)",
+  "source_file": null,
+  "source_repo": "Cosium/git-code-format-maven-plugin",
+  "source_repo_description": "A maven plugin that automatically deploys code formatters as pre-commit git hook"
+}

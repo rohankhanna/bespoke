@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "homebrew/homebrew-cask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/git-user-config@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/bump-packages@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Bump casks on schedule or request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/git-user-config@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/setup-commit-signing@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/git-try-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Google Fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/git-user-config@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/setup-commit-signing@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/remove-disabled-packages@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/git-try-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Remove disabled packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Scheduled online check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Manage stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/limit-pull-requests@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/check-commit-format@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Homebrew/actions/label-pull-requests@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "target": "Triage tasks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "XcodesOrg/homebrew-cask"
+}

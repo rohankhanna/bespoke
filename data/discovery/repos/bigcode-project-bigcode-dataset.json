@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:56:41.600988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bigcode-project/bigcode-dataset",
+    "html_url": "https://github.com/bigcode-project/bigcode-dataset",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-15T13:42:30Z",
+    "stargazers_count": 492,
+    "topics": [],
+    "updated_at": "2026-04-20T07:00:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

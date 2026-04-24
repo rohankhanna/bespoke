@@ -130,6 +130,54 @@
       "source_repo": "akaihola/darker",
       "status": "candidate-context",
       "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate-context",
+      "text": "Bayesian Modeling and Probabilistic Programming in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate-context",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate-context",
+      "text": "The theory of mind module for the SWE agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate-context",
+      "text": "Mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akaihola/graylint",
+      "status": "candidate-context",
+      "text": "This package is a placeholder for a tool which filters linter messages from various Python linters to only those which were caused by recent changes to the code base being linted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/graylint",
+      "status": "candidate-context",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mypyc/librt",
+      "status": "candidate-context",
+      "text": "Mypyc runtime library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/librt",
+      "status": "candidate-context",
+      "text": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +240,30 @@
       "source_repo": "akaihola/darker",
       "status": "candidate",
       "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate",
+      "text": "Mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/graylint",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/librt",
+      "status": "candidate",
+      "text": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)"
     }
   ],
   "candidate_related_terms": [],
@@ -283,11 +355,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "pymc-devs/pymc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/graylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mypyc/librt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

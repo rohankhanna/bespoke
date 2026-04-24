@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/ChatEval",
+      "target": "chanchimin/chateval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "thunlp/ChatEval",
+      "target": "openbmb/bmtools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:30.924996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11895
+    },
+    {
+      "path": "requirements.txt",
+      "size": 177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Codes for our paper \"ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate\"",
+    "fork": false,
+    "full_name": "thunlp/ChatEval",
+    "html_url": "https://github.com/thunlp/ChatEval",
+    "language": "Python",
+    "pushed_at": "2024-10-19T08:18:57Z",
+    "stargazers_count": 331,
+    "topics": [],
+    "updated_at": "2026-04-14T10:58:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chanchimin/chateval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/bmtools",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal"
+    }
+  ]
+}

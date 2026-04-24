@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "server-side-technologies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "status": "candidate-context",
+      "text": "The ad-insertion reference pipeline shows how to integrate various media building blocks, with analytics powered by the OpenVINO\u2122 Toolkit, for intelligent server-side ad insertion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "server-side-technologies",
+  "concept_id": "server-side-technologies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "server-side-technologies",
+      "sense_id": "server-side-technologies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

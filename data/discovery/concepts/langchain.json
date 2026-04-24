@@ -235,6 +235,18 @@
       "source_repo": "ASK-03/Reverse-Chain",
       "status": "candidate-context",
       "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Build AI Agents, Visually"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD030 -->"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "ASK-03/Reverse-Chain",
       "status": "candidate",
       "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD030 -->"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +574,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FlowiseAI/Flowise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

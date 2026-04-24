@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022391,
+      "status": "candidate",
+      "text": "openmp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022390,
+      "status": "candidate",
+      "text": "mdct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022389,
+      "status": "candidate",
+      "text": "multiprecision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022388,
+      "status": "candidate",
+      "text": "ocaml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022387,
+      "status": "candidate",
+      "text": "rtti"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simd",
+      "sense_id": "simd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "simd",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simd",
+  "observation_id": "585cc62f57440c41",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "simd",
+  "source_context_snippet": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)",
+  "source_file": null,
+  "source_repo": "microsoft/DirectXMath",
+  "source_repo_description": "DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps"
+}

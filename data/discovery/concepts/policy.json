@@ -34,6 +34,30 @@
       "source_repo": "open-policy-agent/opa",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate-context",
+      "text": "The corrective bash syntax highlighter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate-context",
+      "text": "<img src=\"img/logo.png\" align=\"right\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +72,18 @@
       "source_repo": "open-policy-agent/opa",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate",
+      "text": "<img src=\"img/logo.png\" align=\"right\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +154,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anordal/shellharden"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datreeio/datree"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

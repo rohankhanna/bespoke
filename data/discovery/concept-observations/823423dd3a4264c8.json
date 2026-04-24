@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Object mapping, and more, for Redis and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docs Build and deploy MkDocs site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docs Build and deploy MkDocs site"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36626,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36356,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36333,
+      "status": "candidate",
+      "text": "annals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36333,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36333,
+      "status": "candidate",
+      "text": "documentation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docs Build and deploy MkDocs site",
+      "sense_id": "docs-build-and-deploy-mkdocs-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docs-build-and-deploy-mkdocs-site",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docs-build-and-deploy-mkdocs-site",
+  "observation_id": "823423dd3a4264c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Docs Build and deploy MkDocs site",
+  "source_context_snippet": "Docs Build and deploy MkDocs site",
+  "source_file": ".github/workflows/docs-pages.yml",
+  "source_repo": "redis/redis-om-python",
+  "source_repo_description": "Object mapping, and more, for Redis and Python"
+}

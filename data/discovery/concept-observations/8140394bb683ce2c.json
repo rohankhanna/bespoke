@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create Wheel from CMake projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test editable with example"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test editable with example"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "chamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "reagent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "sample"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "sampling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26062,
+      "status": "candidate",
+      "text": "polygraph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test editable with example",
+      "sense_id": "test-editable-with-example#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-editable-with-example",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-editable-with-example",
+  "observation_id": "8140394bb683ce2c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Test editable with example",
+  "source_context_snippet": "Test editable with example",
+  "source_file": ".github/workflows/editable.yml",
+  "source_repo": "cmake-wheel/cmeel",
+  "source_repo_description": "Create Wheel from CMake projects"
+}

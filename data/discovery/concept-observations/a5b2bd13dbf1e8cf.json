@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Spotify Connect client that mostly Just Works\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raspberry-pi",
+      "sense_id": "raspberry-pi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "raspberry-pi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "raspberry-pi",
+  "observation_id": "a5b2bd13dbf1e8cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "raspberry-pi",
+  "source_context_snippet": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)",
+  "source_file": null,
+  "source_repo": "dtcooper/raspotify",
+  "source_repo_description": "A Spotify Connect client that mostly Just Works\u2122"
+}

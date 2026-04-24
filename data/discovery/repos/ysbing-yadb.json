@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ysbing/YADB",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ysbing/YADB",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ysbing/YADB",
+      "target": "keyboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ysbing/YADB",
+      "target": "screenshot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:35.067948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "YADB is a utility tool that extends ADB, with its keyboard input feature being superior to ADBKeyboard.",
+    "fork": false,
+    "full_name": "ysbing/YADB",
+    "html_url": "https://github.com/ysbing/YADB",
+    "language": "Java",
+    "pushed_at": "2026-04-09T09:00:59Z",
+    "stargazers_count": 194,
+    "topics": [
+      "adb",
+      "android",
+      "automation",
+      "keyboard",
+      "screenshot"
+    ],
+    "updated_at": "2026-04-22T12:36:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard"
+    },
+    {
+      "context_snippet": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    }
+  ]
+}

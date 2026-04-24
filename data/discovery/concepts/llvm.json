@@ -105,6 +105,18 @@
       "source_repo": "WebAssembly/wasi-sdk",
       "status": "candidate-context",
       "text": "[Download SDK packages here.][releases]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "NumPy aware dynamic Python compiler using LLVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "*****"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +167,12 @@
       "source_repo": "WebAssembly/wasi-sdk",
       "status": "candidate",
       "text": "[Download SDK packages here.][releases]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate",
+      "text": "*****"
     }
   ],
   "candidate_related_terms": [
@@ -239,11 +257,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/wasi-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

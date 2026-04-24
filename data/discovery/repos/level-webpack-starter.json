@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "level",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/webpack-starter",
+      "target": "level",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/webpack-starter",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/webpack-starter",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/webpack-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/webpack-starter",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/webpack-starter",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter",
+      "target": "browsers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter",
+      "target": "level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter",
+      "target": "starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter",
+      "target": "webpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:14:02.059282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2011
+    },
+    {
+      "path": "package.json",
+      "size": 543
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Demonstrates bundling level for browsers using webpack.",
+    "fork": false,
+    "full_name": "Level/webpack-starter",
+    "html_url": "https://github.com/Level/webpack-starter",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-01T13:59:30Z",
+    "stargazers_count": 5,
+    "topics": [
+      "browsers",
+      "level",
+      "nodejs",
+      "starter",
+      "webpack"
+    ],
+    "updated_at": "2023-02-04T13:42:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browsers"
+    },
+    {
+      "context_snippet": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level"
+    },
+    {
+      "context_snippet": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter"
+    },
+    {
+      "context_snippet": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpack"
+    }
+  ]
+}

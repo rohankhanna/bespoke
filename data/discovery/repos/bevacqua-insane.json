@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "assignment",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "he",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bevacqua/insane",
+      "target": "assignment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bevacqua/insane",
+      "target": "he",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bevacqua/insane",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bevacqua/insane",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bevacqua/insane",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bevacqua/insane",
+      "target": "html-sanitizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bevacqua/insane",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:09.481452+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":pouting_cat: Lean and configurable whitelist-oriented HTML sanitizer",
+    "fork": false,
+    "full_name": "bevacqua/insane",
+    "html_url": "https://github.com/bevacqua/insane",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-06T10:46:15Z",
+    "stargazers_count": 483,
+    "topics": [
+      "html",
+      "html-sanitizer",
+      "markdown"
+    ],
+    "updated_at": "2026-04-14T20:19:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "insane \u2014 Lean and configurable whitelist-oriented HTML sanitizer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "insane \u2014 Lean and configurable whitelist-oriented HTML sanitizer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-sanitizer"
+    },
+    {
+      "context_snippet": "insane \u2014 Lean and configurable whitelist-oriented HTML sanitizer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

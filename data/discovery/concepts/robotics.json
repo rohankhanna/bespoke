@@ -43,6 +43,18 @@
       "source_repo": "facebookresearch/votenet",
       "status": "candidate-context",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate-context",
+      "text": "PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate-context",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/stable-baselines3/badges/master/pipeline.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) -->"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "facebookresearch/votenet",
       "status": "candidate",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/stable-baselines3/badges/master/pipeline.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) -->"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/votenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "DLR-RM/stable-baselines3"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

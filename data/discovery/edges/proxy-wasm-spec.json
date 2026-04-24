@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "kong/ngx_wasm_module",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "mosn/mosn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "api7/wasm-nginx-module",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "mosn/proxy-wasm-go-host",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "proxy-wasm/spec"
+}

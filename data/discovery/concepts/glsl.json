@@ -31,6 +31,54 @@
       "source_repo": "SaschaWillems/Vulkan",
       "status": "candidate-context",
       "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_integration.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Making it easier to work with shaders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Slang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "LALR parser for GLSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/alixinne/glsl-lang/workflows/build/badge.svg?branch=master)](https://github.com/alixinne/glsl-lang/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate-context",
+      "text": "GLSL parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate-context",
+      "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "SaschaWillems/Vulkan",
       "status": "candidate",
       "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_integration.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate",
+      "text": "Slang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/alixinne/glsl-lang/workflows/build/badge.svg?branch=master)](https://github.com/alixinne/glsl-lang/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate",
+      "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "SaschaWillems/Vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glslang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shader-slang/slang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alixinne/glsl-lang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hadronized/glsl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

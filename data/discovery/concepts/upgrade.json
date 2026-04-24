@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "upgrade"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-lambda-layer-awscli",
+      "status": "candidate-context",
+      "text": "AWS Lambda Layer for AWS CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-lambda-layer-awscli",
+      "status": "candidate-context",
+      "text": "upgrade"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-lambda-layer-awscli",
+      "status": "candidate",
+      "text": "upgrade"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039240,
+      "status": "candidate",
+      "text": "ascent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039055,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038802,
+      "status": "candidate",
+      "text": "climb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037785,
+      "status": "candidate",
+      "text": "elevate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036492,
+      "status": "candidate",
+      "text": "kick upstairs"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55059,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39040,
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26054,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "elevate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24055,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "canonical_name": "upgrade",
+  "concept_id": "upgrade",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/upgrade.yml",
+      "source_repo": "aws-samples/aws-lambda-layer-awscli"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "upgrade",
+      "sense_id": "upgrade#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:55:05.222541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "kafka-connect-milvus sink connector",
+    "fork": false,
+    "full_name": "zilliztech/kafka-connect-milvus",
+    "html_url": "https://github.com/zilliztech/kafka-connect-milvus",
+    "language": "Java",
+    "pushed_at": "2026-01-23T08:01:12Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-01-23T08:01:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

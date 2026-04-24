@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-pr-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-pr-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-pr-build.yml",
+      "source_repo": "apache/camel-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-pr-build.yml",
+      "source_repo": "apache/camel-examples",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-pr-build.yml",
+      "source_repo": "apache/camel-examples",
+      "target": "main pr build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push-build.yml",
+      "source_repo": "apache/camel-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push-build.yml",
+      "source_repo": "apache/camel-examples",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-push-build.yml",
+      "source_repo": "apache/camel-examples",
+      "target": "main build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel-examples",
+      "target": "camel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel-examples",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel-examples",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:13.913269+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/master-pr-build.yml",
+      "size": 1314
+    },
+    {
+      "path": ".github/workflows/master-push-build.yml",
+      "size": 1304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Camel Examples",
+    "fork": false,
+    "full_name": "apache/camel-examples",
+    "html_url": "https://github.com/apache/camel-examples",
+    "language": "Java",
+    "pushed_at": "2026-04-11T07:00:09Z",
+    "stargazers_count": 473,
+    "topics": [
+      "camel",
+      "integration",
+      "java"
+    ],
+    "updated_at": "2026-04-22T03:57:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main pr build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-pr-build.yml",
+      "term": "main pr build"
+    },
+    {
+      "context_snippet": "main build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-push-build.yml",
+      "term": "main build"
+    },
+    {
+      "context_snippet": "main pr build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camel"
+    },
+    {
+      "context_snippet": "main pr build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integration"
+    },
+    {
+      "context_snippet": "main pr build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

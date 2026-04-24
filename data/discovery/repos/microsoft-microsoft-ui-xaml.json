@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/similar-issues-bot.yml"
+    },
+    {
+      "component": "craigloewen-msft/GitGudSimilarIssues@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/similar-issues-bot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "microsoft/winui-gallery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "Validate doc links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/similar-issues-bot.yml",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/similar-issues-bot.yml",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "craigloewen-msft/GitGudSimilarIssues@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/similar-issues-bot.yml",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "GitGudSimilarIssues comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "fluent-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "windows-10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "winui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "winui3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "target": "xaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:17.020075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5938
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/similar-issues-bot.yml",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.",
+    "fork": false,
+    "full_name": "microsoft/microsoft-ui-xaml",
+    "html_url": "https://github.com/microsoft/microsoft-ui-xaml",
+    "language": "C++",
+    "pushed_at": "2026-04-24T02:58:43Z",
+    "stargazers_count": 7439,
+    "topics": [
+      "cpp",
+      "csharp",
+      "desktop",
+      "fluent-design",
+      "uwp",
+      "windows",
+      "windows-10",
+      "winui",
+      "winui3",
+      "xaml"
+    ],
+    "updated_at": "2026-04-24T05:28:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/winui-gallery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate doc links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Validate doc links"
+    },
+    {
+      "context_snippet": "GitGudSimilarIssues comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/similar-issues-bot.yml",
+      "term": "GitGudSimilarIssues comments"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluent-design"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-10"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui3"
+    },
+    {
+      "context_snippet": "![WinUI hero image](docs/images/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xaml"
+    }
+  ]
+}

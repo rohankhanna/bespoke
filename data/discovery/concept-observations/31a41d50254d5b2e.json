@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple Python style checker in one Python file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pycodestyle (formerly called pep8) - Python style guide checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pycodestyle (formerly called pep8) - Python style guide checker"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "style-guide",
+      "sense_id": "style-guide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "style-guide",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "style-guide",
+  "observation_id": "31a41d50254d5b2e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "style-guide",
+  "source_context_snippet": "pycodestyle (formerly called pep8) - Python style guide checker",
+  "source_file": null,
+  "source_repo": "PyCQA/pycodestyle",
+  "source_repo_description": "Simple Python style checker in one Python file"
+}

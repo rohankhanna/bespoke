@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:59:30.827143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9397
+    },
+    {
+      "path": "requirements.txt",
+      "size": 119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "JianweiSun007/athena-sjw",
+    "html_url": "https://github.com/JianweiSun007/athena-sjw",
+    "language": "Python",
+    "pushed_at": "2022-03-13T14:56:13Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2022-03-13T16:14:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [
+    "Release: Cherry-pick"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-python-community",
+      "status": "candidate-context",
+      "text": "Community repo for adk-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-python-community",
+      "status": "candidate-context",
+      "text": "\"Release: Cherry-pick\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-python-community",
+      "status": "candidate",
+      "text": "\"Release: Cherry-pick\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "consider all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "include all"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release: Cherry-pick",
+  "concept_id": "release-cherry-pick",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-cherry-pick.yml",
+      "source_repo": "google/adk-python-community"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release: Cherry-pick",
+      "sense_id": "release-cherry-pick#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

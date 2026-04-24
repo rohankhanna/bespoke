@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tracking ECMAScript Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* [Stage 1 Proposals](stage-1-proposals.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* [Stage 1 Proposals](stage-1-proposals.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992045,
+      "status": "candidate",
+      "text": "spec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989658,
+      "status": "candidate",
+      "text": "stipulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009979,
+      "status": "candidate",
+      "text": "enumeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008489,
+      "status": "candidate",
+      "text": "workbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003246,
+      "status": "candidate",
+      "text": "monograph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "specification",
+      "sense_id": "specification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18048,
+      "status": "candidate",
+      "text": "stipulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "spec"
+    }
+  ],
+  "concept_id": "specification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "specification",
+  "observation_id": "1709da01a2bdccf2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "specification",
+  "source_context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+  "source_file": null,
+  "source_repo": "tc39/proposals",
+  "source_repo_description": "Tracking ECMAScript Proposals"
+}

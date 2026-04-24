@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate new news entries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate-context",
+      "text": "Freeze (package) Python programs into stand-alone executables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate-context",
+      "text": "Validate new news entries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate",
+      "text": "Validate new news entries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35737,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35475,
+      "status": "candidate",
+      "text": "seats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34717,
+      "status": "candidate",
+      "text": "old"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34581,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34569,
+      "status": "candidate",
+      "text": "perspective"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate new news entries",
+  "concept_id": "validate-new-news-entries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/validate-new-news.yml",
+      "source_repo": "pyinstaller/pyinstaller"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate new news entries",
+      "sense_id": "validate-new-news-entries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

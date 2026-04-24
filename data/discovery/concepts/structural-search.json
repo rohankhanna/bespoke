@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "structural-search"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "<p align=center>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "structural-search",
+  "concept_id": "structural-search",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ast-grep/ast-grep"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "structural-search",
+      "sense_id": "structural-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "experimental"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate-context",
+      "text": "Wildly unsound and experimental sampling for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate-context",
+      "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate",
+      "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028467,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026087,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017725,
+      "status": "candidate",
+      "text": "observational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003742,
+      "status": "candidate",
+      "text": "empirical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943034,
+      "status": "candidate",
+      "text": "model"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37052,
+      "status": "candidate",
+      "text": "empirical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15062,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13073,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12059,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "canonical_name": "experimental",
+  "concept_id": "experimental",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "experimental",
+      "sense_id": "experimental#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

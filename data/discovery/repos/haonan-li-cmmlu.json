@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haonan-li/CMMLU",
+      "target": "duxiaoman-di/xuanyuan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haonan-li/CMMLU",
+      "target": "baichuan-inc/baichuan-13b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haonan-li/CMMLU",
+      "target": "baichuan-inc/baichuan-7b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haonan-li/CMMLU",
+      "target": "bigscience-workshop/xmtf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:20.500695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CMMLU: Measuring massive multitask language understanding in Chinese",
+    "fork": false,
+    "full_name": "haonan-li/CMMLU",
+    "html_url": "https://github.com/haonan-li/CMMLU",
+    "language": "Python",
+    "pushed_at": "2024-12-06T08:54:24Z",
+    "stargazers_count": 811,
+    "topics": [],
+    "updated_at": "2026-04-24T05:49:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baichuan-inc/baichuan-13b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baichuan-inc/baichuan-7b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigscience-workshop/xmtf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "duxiaoman-di/xuanyuan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

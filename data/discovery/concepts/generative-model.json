@@ -43,6 +43,18 @@
       "source_repo": "toshas/torch-fidelity",
       "status": "candidate-context",
       "text": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luost26/diffusion-point-cloud",
+      "status": "candidate-context",
+      "text": ":thought_balloon: Diffusion Probabilistic Models for 3D Point Cloud Generation (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luost26/diffusion-point-cloud",
+      "status": "candidate-context",
+      "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "toshas/torch-fidelity",
       "status": "candidate",
       "text": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luost26/diffusion-point-cloud",
+      "status": "candidate",
+      "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "luost26/diffusion-point-cloud"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

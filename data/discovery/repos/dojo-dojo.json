@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "intern-geezer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-proxy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsgi-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "formidable",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dojo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dojo/dojo",
+      "target": "intern-geezer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dojo/dojo",
+      "target": "http-proxy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dojo/dojo",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dojo/dojo",
+      "target": "jsgi-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dojo/dojo",
+      "target": "formidable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dojo/dojo",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dojo/dojo",
+      "target": "dojo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dojo/dojo",
+      "target": "dojo-toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:23.284475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3541
+    },
+    {
+      "path": "package.json",
+      "size": 1380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dojo 1 - the Dojo 1 toolkit core library.",
+    "fork": false,
+    "full_name": "dojo/dojo",
+    "html_url": "https://github.com/dojo/dojo",
+    "language": "JavaScript",
+    "pushed_at": "2023-05-20T17:55:01Z",
+    "stargazers_count": 1581,
+    "topics": [
+      "dojo-toolkit",
+      "javascript"
+    ],
+    "updated_at": "2026-04-21T02:41:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "dojo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dojo-toolkit"
+    }
+  ]
+}

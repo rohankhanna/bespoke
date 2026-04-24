@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728  Learn how to use AWS Lambda to easily create infinitely scalable web services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046354,
+      "status": "candidate",
+      "text": "coaching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046264,
+      "status": "candidate",
+      "text": "tutoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045728,
+      "status": "candidate",
+      "text": "mentoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045401,
+      "status": "candidate",
+      "text": "mentorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044967,
+      "status": "candidate",
+      "text": "counselling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tutorial",
+      "sense_id": "tutorial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tutorial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tutorial",
+  "observation_id": "54972cdb19221e6a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "tutorial",
+  "source_context_snippet": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)",
+  "source_file": null,
+  "source_repo": "dwyl/learn-aws-lambda",
+  "source_repo_description": "\u2728  Learn how to use AWS Lambda to easily create infinitely scalable web services"
+}

@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "thinca/action-setup-vim@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "google/vim-maktaba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "xolox/vim-misc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "vim-jp/vital.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "thinca/action-setup-vim@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "viml-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "viml-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "vimscript-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "target": "vimscript-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:55.255834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 61966
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library of Vim functions",
+    "fork": false,
+    "full_name": "LucHermitte/lh-vim-lib",
+    "html_url": "https://github.com/LucHermitte/lh-vim-lib",
+    "language": "Vim Script",
+    "pushed_at": "2025-09-10T20:38:56Z",
+    "stargazers_count": 205,
+    "topics": [
+      "vim",
+      "viml-functions",
+      "viml-library",
+      "vimscript-functions",
+      "vimscript-library"
+    ],
+    "updated_at": "2026-01-20T00:30:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/vim-maktaba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-jp/vital.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xolox/vim-misc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ufeff# lh-vim-lib [![Last release][Releases-badge]][Releases-url] [![Build Status][gh-action-badge]][gh-action-result] [![Project Stats][openhub-badge]][openhub-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml-functions"
+    },
+    {
+      "context_snippet": "\ufeff# lh-vim-lib [![Last release][Releases-badge]][Releases-url] [![Build Status][gh-action-badge]][gh-action-result] [![Project Stats][openhub-badge]][openhub-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml-library"
+    },
+    {
+      "context_snippet": "\ufeff# lh-vim-lib [![Last release][Releases-badge]][Releases-url] [![Build Status][gh-action-badge]][gh-action-result] [![Project Stats][openhub-badge]][openhub-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimscript-functions"
+    },
+    {
+      "context_snippet": "\ufeff# lh-vim-lib [![Last release][Releases-badge]][Releases-url] [![Build Status][gh-action-badge]][gh-action-result] [![Project Stats][openhub-badge]][openhub-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimscript-library"
+    }
+  ]
+}

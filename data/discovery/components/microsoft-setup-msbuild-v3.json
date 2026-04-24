@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v3",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cmake-test.yml",
       "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "DavidKinder/Inform6"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Defuser"
     }
   ]
 }

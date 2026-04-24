@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "antgroup/DeepXTrace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "antgroup/DeepXTrace",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "antgroup/DeepXTrace",
+      "target": "CICD",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:50.886499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6902
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    },
+    {
+      "path": ".github/workflows/cicd.yml",
+      "size": 874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepXTrace is a lightweight tool for precisely diagnosing slow ranks in DeepEP-based environments.",
+    "fork": false,
+    "full_name": "antgroup/DeepXTrace",
+    "html_url": "https://github.com/antgroup/DeepXTrace",
+    "language": "Python",
+    "pushed_at": "2026-01-16T09:03:31Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-03-09T08:57:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CICD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "term": "CICD"
+    }
+  ]
+}

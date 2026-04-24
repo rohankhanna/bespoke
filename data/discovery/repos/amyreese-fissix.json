@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amyreese/fissix",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amyreese/fissix",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amyreese/fissix",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amyreese/fissix",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amyreese/fissix",
+      "target": "backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amyreese/fissix",
+      "target": "refactoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amyreese/fissix",
+      "target": "standard-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:38.358032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1362
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1376
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "backport of lib2to3, with enhancements",
+    "fork": false,
+    "full_name": "amyreese/fissix",
+    "html_url": "https://github.com/amyreese/fissix",
+    "language": "Python",
+    "pushed_at": "2026-04-11T23:58:09Z",
+    "stargazers_count": 54,
+    "topics": [
+      "backport",
+      "python",
+      "refactoring",
+      "standard-library"
+    ],
+    "updated_at": "2026-04-11T23:58:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "fissix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backport"
+    },
+    {
+      "context_snippet": "fissix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring"
+    },
+    {
+      "context_snippet": "fissix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard-library"
+    }
+  ]
+}

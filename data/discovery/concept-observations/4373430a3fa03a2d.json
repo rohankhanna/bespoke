@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd28 Fast and idiomatic client-driven REST APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "graph query language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "apache hbase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "jooq object oriented querying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "postgresql"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "postgis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphql",
+      "sense_id": "graphql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graphql",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphql",
+  "observation_id": "4373430a3fa03a2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "graphql",
+  "source_context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+  "source_file": null,
+  "source_repo": "dunglas/vulcain",
+  "source_repo_description": "\ud83d\udd28 Fast and idiomatic client-driven REST APIs."
+}

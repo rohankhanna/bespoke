@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindrets/diffview.nvim",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindrets/diffview.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindrets/diffview.nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindrets/diffview.nvim",
+      "target": "neovim-lua-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindrets/diffview.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:22.339730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26799
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Single tabpage interface for easily cycling through diffs for all modified files for any git rev.",
+    "fork": false,
+    "full_name": "sindrets/diffview.nvim",
+    "html_url": "https://github.com/sindrets/diffview.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-08-02T16:45:51Z",
+    "stargazers_count": 5512,
+    "topics": [
+      "diff",
+      "git",
+      "neovim",
+      "neovim-lua",
+      "neovim-lua-plugin",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-24T01:05:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Single tabpage interface for easily cycling through diffs for all modified files",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff"
+    },
+    {
+      "context_snippet": "Single tabpage interface for easily cycling through diffs for all modified files",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Single tabpage interface for easily cycling through diffs for all modified files",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "Single tabpage interface for easily cycling through diffs for all modified files",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua-plugin"
+    },
+    {
+      "context_snippet": "Single tabpage interface for easily cycling through diffs for all modified files",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

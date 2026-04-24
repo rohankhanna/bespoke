@@ -397,6 +397,114 @@
       "source_repo": "shikiw/OPERA",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LianjiaTech/BELLE",
+      "status": "candidate-context",
+      "text": "BELLE: Be Everyone's Large Language model Engine\uff08\u5f00\u6e90\u4e2d\u6587\u5bf9\u8bdd\u5927\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LianjiaTech/BELLE",
+      "status": "candidate-context",
+      "text": "*Read this in [English](README_en.md).*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "predibase/lorax",
+      "status": "candidate-context",
+      "text": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "predibase/lorax",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "status": "candidate-context",
+      "text": "ChatGPT\u7206\u706b\uff0c\u5f00\u542f\u4e86\u901a\u5f80AGI\u7684\u5173\u952e\u4e00\u6b65\uff0c\u672c\u9879\u76ee\u65e8\u5728\u6c47\u603b\u90a3\u4e9bChatGPT\u7684\u5f00\u6e90\u5e73\u66ff\u4eec\uff0c\u5305\u62ec\u6587\u672c\u5927\u6a21\u578b\u3001\u591a\u6a21\u6001\u5927\u6a21\u578b\u7b49\uff0c\u4e3a\u5927\u5bb6\u63d0\u4f9b\u4e00\u4e9b\u4fbf\u5229"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "status": "candidate-context",
+      "text": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate-context",
+      "text": "Scala 3 bindings for llama.cpp \ud83e\udd99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate-context",
+      "text": "[![Maven Central Version](https://img.shields.io/maven-central/v/com.donderom/llm4s_3?style=flat-square&logo=scala&color=dbf1ff)](https://central.sonatype.com/artifact/com.donderom/llm4s_3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate-context",
+      "text": "Firefly: \u5927\u6a21\u578b\u8bad\u7ec3\u5de5\u5177\uff0c\u652f\u6301\u8bad\u7ec3Qwen2.5\u3001Qwen2\u3001Yi1.5\u3001Phi-3\u3001Llama3\u3001Gemma\u3001MiniCPM\u3001Yi\u3001Deepseek\u3001Orion\u3001Xverse\u3001Mixtral-8x7B\u3001Zephyr\u3001Mistral\u3001Baichuan2\u3001Llma2\u3001Llama\u3001Qwen\u3001Baichuan\u3001ChatGLM2\u3001InternLM\u3001Ziya2\u3001Vicuna\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "status": "candidate-context",
+      "text": "Instruction Tuning with GPT-4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "status": "candidate-context",
+      "text": "Baolin Peng*, Chunyuan Li*, Pengcheng He*, Michel Galley, Jianfeng Gao (*Equal Contribution)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "status": "candidate-context",
+      "text": "A Framework of Small-scale Large Multimodal Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/red-instruct",
+      "status": "candidate-context",
+      "text": "Codes and datasets of the paper Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/red-instruct",
+      "status": "candidate-context",
+      "text": "[**Paper**](https://arxiv.org/abs/2308.09662) | [**Github**](https://github.com/declare-lab/red-instruct) | [**Dataset**](https://huggingface.co/datasets/declare-lab/HarmfulQA) | [**Model**](https://huggingface.co/declare-lab/starling-7B)"
     }
   ],
   "candidate_glosses": [
@@ -591,6 +699,60 @@
       "source_repo": "shikiw/OPERA",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LianjiaTech/BELLE",
+      "status": "candidate",
+      "text": "*Read this in [English](README_en.md).*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "predibase/lorax",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenking2020/FindTheChatGPTer",
+      "status": "candidate",
+      "text": "ChatGPT/GPT4\u5f00\u6e90\u201c\u5e73\u66ff\u201d\u6c47\u603b\uff0c\u6301\u7eed\u66f4\u65b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate",
+      "text": "[![Maven Central Version](https://img.shields.io/maven-central/v/com.donderom/llm4s_3?style=flat-square&logo=scala&color=dbf1ff)](https://central.sonatype.com/artifact/com.donderom/llm4s_3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "status": "candidate",
+      "text": "Baolin Peng*, Chunyuan Li*, Pengcheng He*, Michel Galley, Jianfeng Gao (*Equal Contribution)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/red-instruct",
+      "status": "candidate",
+      "text": "[**Paper**](https://arxiv.org/abs/2308.09662) | [**Github**](https://github.com/declare-lab/red-instruct) | [**Dataset**](https://huggingface.co/datasets/declare-lab/HarmfulQA) | [**Model**](https://huggingface.co/declare-lab/starling-7B)"
     }
   ],
   "candidate_related_terms": [
@@ -898,11 +1060,95 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "shikiw/OPERA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "predibase/lorax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "chenking2020/FindTheChatGPTer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donderom/llm4s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/red-instruct"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

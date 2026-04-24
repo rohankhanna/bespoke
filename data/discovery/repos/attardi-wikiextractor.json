@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "attardi/wikiextractor",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "attardi/wikiextractor",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:46.908673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6621
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool for extracting plain text from Wikipedia dumps",
+    "fork": false,
+    "full_name": "attardi/wikiextractor",
+    "html_url": "https://github.com/attardi/wikiextractor",
+    "language": "Python",
+    "pushed_at": "2024-05-23T06:19:08Z",
+    "stargazers_count": 3980,
+    "topics": [],
+    "updated_at": "2026-04-24T03:26:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

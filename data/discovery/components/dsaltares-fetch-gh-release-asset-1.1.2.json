@@ -1,12 +1,17 @@
 {
   "component": "dsaltares/fetch-gh-release-asset@1.1.2",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yaml",
       "source_repo": "ethereum/beacon-APIs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "beeware/briefcase"
     }
   ]
 }

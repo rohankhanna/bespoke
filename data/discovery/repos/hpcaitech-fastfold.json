@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_bdist.yml"
+    },
+    {
+      "component": "garygrossgarten/github-action-scp@release",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_bdist.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/FastFold",
+      "target": "openai/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/FastFold",
+      "target": "aqlaboratory/openfold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hpcaitech/FastFold",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hpcaitech/FastFold",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_bdist.yml",
+      "source_repo": "hpcaitech/FastFold",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_bdist.yml",
+      "source_repo": "hpcaitech/FastFold",
+      "target": "garygrossgarten/github-action-scp@release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_bdist.yml",
+      "source_repo": "hpcaitech/FastFold",
+      "target": "Release bdist wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "alphafold2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "evoformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "habana-gaudi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "protein-folding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "protein-structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:29.997693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9449
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1309
+    },
+    {
+      "path": ".github/workflows/release_bdist.yml",
+      "size": 2521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Optimizing AlphaFold Training and Inference on GPU Clusters",
+    "fork": false,
+    "full_name": "hpcaitech/FastFold",
+    "html_url": "https://github.com/hpcaitech/FastFold",
+    "language": "Python",
+    "pushed_at": "2024-07-16T06:14:42Z",
+    "stargazers_count": 612,
+    "topics": [
+      "alphafold2",
+      "cuda",
+      "evoformer",
+      "gpu",
+      "habana-gaudi",
+      "parallelism",
+      "protein-folding",
+      "protein-structure",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T06:28:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aqlaboratory/openfold",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Release bdist wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_bdist.yml",
+      "term": "Release bdist wheel"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphafold2"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evoformer"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "habana-gaudi"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallelism"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protein-folding"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protein-structure"
+    },
+    {
+      "context_snippet": "![](/assets/fold.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

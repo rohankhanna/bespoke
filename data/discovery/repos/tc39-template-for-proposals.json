@@ -1,0 +1,331 @@
+{
+  "components": [
+    {
+      "component": "@tc39/ecma262-biblio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parse5-html-rewriting-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "phulsechinmay/rewritable-pr-comment@v0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "tc39/proposals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "account/project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "tc39/how-we-work",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "@tc39/ecma262-biblio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "parse5-html-rewriting-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "Publish main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "phulsechinmay/rewritable-pr-comment@v0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "Publish PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/template-for-proposals",
+      "target": "Render PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:03:41.167324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2942
+    },
+    {
+      "path": "package.json",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/publish-main.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/publish-pr.yml",
+      "size": 4079
+    },
+    {
+      "path": ".github/workflows/render-pr.yml",
+      "size": 1238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A template for ECMAScript proposals",
+    "fork": false,
+    "full_name": "tc39/template-for-proposals",
+    "html_url": "https://github.com/tc39/template-for-proposals",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-02T21:16:51Z",
+    "stargazers_count": 148,
+    "topics": [],
+    "updated_at": "2026-02-15T04:47:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "account/project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/how-we-work",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposals",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-main.yml",
+      "term": "Publish main"
+    },
+    {
+      "context_snippet": "Publish PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "term": "Publish PR"
+    },
+    {
+      "context_snippet": "Render PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render-pr.yml",
+      "term": "Render PR"
+    }
+  ]
+}

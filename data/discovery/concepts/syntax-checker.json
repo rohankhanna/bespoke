@@ -43,6 +43,18 @@
       "source_repo": "vim-syntastic/syntastic",
       "status": "candidate-context",
       "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate-context",
+      "text": "Customized Lua parser for [lua-language-server](https://github.com/sumneko/lua-language-server)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate-context",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "vim-syntastic/syntastic",
       "status": "candidate",
       "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

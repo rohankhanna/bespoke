@@ -176,6 +176,78 @@
       "source_repo": "WebAssembly/WASI",
       "status": "candidate-context",
       "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "GraphGen: Enhancing Supervised Fine-Tuning for LLMs with Knowledge-Driven Synthetic Data Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ballista Distributed Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Official JavaScript repository for Clerk authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "A Python utility / library to sort imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neplexlabs/canvacord",
+      "status": "candidate-context",
+      "text": "Easily generate images using react-like components in nodejs. Canvacord is suitable for creating dynamic images such as social media posts, greetings cards, memes, etc. It is also possible to create your own templates and builders to generate images. You are only limited by your imagination."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neplexlabs/canvacord",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -260,6 +332,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "WebAssembly/WASI",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neplexlabs/canvacord",
       "status": "candidate",
       "text": "Labeler"
     }
@@ -389,11 +497,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "WebAssembly/WASI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "clerk/javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "actix/actix-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "neplexlabs/canvacord"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

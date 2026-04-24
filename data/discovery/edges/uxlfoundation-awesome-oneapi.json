@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "agorshk/daal4py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "acts-project/traccc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "acts-project/acts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "afd-illinois/kharma",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "uxlfoundation/awesome-oneapi"
+}

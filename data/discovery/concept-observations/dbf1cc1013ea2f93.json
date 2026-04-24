@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050621,
+      "status": "candidate",
+      "text": "keel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050574,
+      "status": "candidate",
+      "text": "pilothouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050570,
+      "status": "candidate",
+      "text": "aport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050556,
+      "status": "candidate",
+      "text": "amidships"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050189,
+      "status": "candidate",
+      "text": "rudder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "helm",
+      "sense_id": "helm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "helm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "helm",
+  "observation_id": "dbf1cc1013ea2f93",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "helm",
+  "source_context_snippet": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)",
+  "source_file": null,
+  "source_repo": "helm-unittest/helm-unittest",
+  "source_repo_description": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+}

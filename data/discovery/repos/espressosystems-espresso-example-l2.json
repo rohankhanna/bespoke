@@ -1,0 +1,430 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml"
+    },
+    {
+      "component": "github/combine-prs@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "espressosystems/surf-disco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "espressosystems/tide-disco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "cachix/install-nix-action@v23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "Static Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "github/combine-prs@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "Combine PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "rustsec/audit-check@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "cachix/install-nix-action@v23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "DeterminateSystems/update-flake-lock@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:57:03.498238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7820
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2212
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/build_static.yml",
+      "size": 3421
+    },
+    {
+      "path": ".github/workflows/combine-prs.yml",
+      "size": 500
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/update_nix.yml",
+      "size": 673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "EspressoSystems/espresso-example-l2",
+    "html_url": "https://github.com/EspressoSystems/espresso-example-l2",
+    "language": "Rust",
+    "pushed_at": "2026-04-19T00:19:35Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-02-22T18:13:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressosystems/surf-disco",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressosystems/tide-disco",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Static Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_static.yml",
+      "term": "Static Build"
+    },
+    {
+      "context_snippet": "Combine PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "term": "Combine PRs"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_nix.yml",
+      "term": "update-flake-lock"
+    }
+  ]
+}

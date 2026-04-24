@@ -1,27 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "akinsho/bufferline.nvim",
-      "target": "ema2159/centaur-tabs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "akinsho/bufferline.nvim",
-      "target": "tiagovla/scope.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "akinsho/bufferline.nvim",
-      "target": "ap/vim-buftabline",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "akinsho/bufferline.nvim",
@@ -92,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "akinsho/bufferline.nvim"
 }

@@ -1,0 +1,902 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-edge-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_credential_check.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_credential_check.yml"
+    },
+    {
+      "component": "s3-actions/s3cmd@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_credential_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "redis-stack/homebrew-redis-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "redis-stack/helm-redis-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "redis-stack/redis-stack-cloudimages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "jordansissel/fpm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "s3-actions/s3cmd@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Snap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "uraimo/run-on-arch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "s3-actions/s3cmd@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "s3-actions/s3cmd@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "s3-actions/s3cmd@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Build RedisInsight Web package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "s3-actions/s3cmd@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Snap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-edge-docker.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-edge-docker.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Edge Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_credential_check.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_credential_check.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "s3-actions/s3cmd@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_credential_check.yml",
+      "source_repo": "redis-stack/redis-stack",
+      "target": "Daily credential check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:07:59.887005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9782
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1398
+    },
+    {
+      "path": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "size": 4557
+    },
+    {
+      "path": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "size": 12297
+    },
+    {
+      "path": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "size": 16420
+    },
+    {
+      "path": ".github/workflows/DOCKER_REUSABLE.yml",
+      "size": 4053
+    },
+    {
+      "path": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "size": 4411
+    },
+    {
+      "path": ".github/workflows/SNAP_REUSABLE.yml",
+      "size": 3225
+    },
+    {
+      "path": ".github/workflows/nightly-edge-docker.yml",
+      "size": 4521
+    },
+    {
+      "path": ".github/workflows/nightly_credential_check.yml",
+      "size": 1351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Redis server with additional database capabilities powered by Redis modules.",
+    "fork": false,
+    "full_name": "redis-stack/redis-stack",
+    "html_url": "https://github.com/redis-stack/redis-stack",
+    "language": "Python",
+    "pushed_at": "2025-11-03T13:45:04Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-03-15T08:59:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jordansissel/fpm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-stack/helm-redis-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-stack/homebrew-redis-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-stack/redis-stack-cloudimages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Snap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "term": "Snap"
+    },
+    {
+      "context_snippet": "Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "term": "Build and Publish"
+    },
+    {
+      "context_snippet": "Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "term": "Build and Publish"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Build RedisInsight Web package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "term": "Build RedisInsight Web package"
+    },
+    {
+      "context_snippet": "Snap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "term": "Snap"
+    },
+    {
+      "context_snippet": "Edge Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-edge-docker.yml",
+      "term": "Edge Docker"
+    },
+    {
+      "context_snippet": "Daily credential check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_credential_check.yml",
+      "term": "Daily credential check"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spandrel gives your project support for various PyTorch architectures meant for AI Super-Resolution, restoration, and inpainting. Based on the model support implemented in chaiNNer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Keep cache alive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Keep cache alive"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37906,
+      "status": "candidate",
+      "text": "commemorate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37608,
+      "status": "candidate",
+      "text": "remember"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37106,
+      "status": "candidate",
+      "text": "remembering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35082,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35082,
+      "status": "candidate",
+      "text": "live"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keep cache alive",
+      "sense_id": "keep-cache-alive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keep-cache-alive",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keep-cache-alive",
+  "observation_id": "e37c54294150fa10",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Keep cache alive",
+  "source_context_snippet": "Keep cache alive",
+  "source_file": ".github/workflows/keep-cache-alive.yml",
+  "source_repo": "chaiNNer-org/spandrel",
+  "source_repo_description": "Spandrel gives your project support for various PyTorch architectures meant for AI Super-Resolution, restoration, and inpainting. Based on the model support implemented in chaiNNer."
+}

@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-4",
+      "target": "mariushobbhahn/swebench-verified-mini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-4",
+      "target": "aorwall/moatless-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-4",
+      "target": "openautocoder/agentless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-4",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-4",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-4",
+      "target": "chatglm-6b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-4",
+      "target": "glm-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-4",
+      "target": "glm4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:16.853249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23767
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GLM-4 series: Open Multilingual Multimodal Chat LMs | \u5f00\u6e90\u591a\u8bed\u8a00\u591a\u6a21\u6001\u5bf9\u8bdd\u6a21\u578b",
+    "fork": false,
+    "full_name": "zai-org/GLM-4",
+    "html_url": "https://github.com/zai-org/GLM-4",
+    "language": "Python",
+    "pushed_at": "2025-07-04T04:16:36Z",
+    "stargazers_count": 7079,
+    "topics": [
+      "chatglm",
+      "chatglm-6b",
+      "glm",
+      "glm-4",
+      "glm4"
+    ],
+    "updated_at": "2026-04-22T15:06:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-hands-ai/openhands",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aorwall/moatless-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mariushobbhahn/swebench-verified-mini",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openautocoder/agentless",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm-6b"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glm-4"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glm4"
+    }
+  ]
+}

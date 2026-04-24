@@ -322,6 +322,42 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate-context",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "Protect your secrets using Gitleaks-Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "<p align=center>"
     }
   ],
   "candidate_glosses": [
@@ -474,6 +510,24 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "<p align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -691,11 +745,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pylint-dev/astroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ast-grep/ast-grep"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

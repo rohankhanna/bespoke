@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/VideoMamba",
+      "target": "facebookresearch/mae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/VideoMamba",
+      "target": "sense-x/uniformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/VideoMamba",
+      "target": "opengvlab/unmasked_teacher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/VideoMamba",
+      "target": "hustvl/vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:26.638089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4756
+    },
+    {
+      "path": "requirements.txt",
+      "size": 560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV2024] VideoMamba: State Space Model for Efficient Video Understanding",
+    "fork": false,
+    "full_name": "OpenGVLab/VideoMamba",
+    "html_url": "https://github.com/OpenGVLab/VideoMamba",
+    "language": "Python",
+    "pushed_at": "2024-07-06T11:07:17Z",
+    "stargazers_count": 1102,
+    "topics": [],
+    "updated_at": "2026-04-24T04:29:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/mae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/unmasked_teacher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sense-x/uniformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

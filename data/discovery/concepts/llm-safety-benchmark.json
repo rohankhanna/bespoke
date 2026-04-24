@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "llm-safety-benchmark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/resta",
+      "status": "candidate-context",
+      "text": "Restore safety in fine-tuned language models through task arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/resta",
+      "status": "candidate-context",
+      "text": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/resta",
+      "status": "candidate",
+      "text": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "llm-safety-benchmark",
+  "concept_id": "llm-safety-benchmark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/resta"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-safety-benchmark",
+      "sense_id": "llm-safety-benchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

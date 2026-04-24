@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluesky-social/pds",
+      "target": "bluesky-social/goat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "bluesky-social/pds",
+      "target": "bluesky-social/goat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml",
+      "source_repo": "bluesky-social/pds",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml",
+      "source_repo": "bluesky-social/pds",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml",
+      "source_repo": "bluesky-social/pds",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml",
+      "source_repo": "bluesky-social/pds",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml",
+      "source_repo": "bluesky-social/pds",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml",
+      "source_repo": "bluesky-social/pds",
+      "target": "build-and-push-ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/pds",
+      "target": "atproto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/pds",
+      "target": "bluesky",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/pds",
+      "target": "self-hosted",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:27.945661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18313
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1177
+    },
+    {
+      "path": ".github/workflows/build-and-push-ghcr.yaml",
+      "size": 1592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bluesky PDS (Personal Data Server) container image, compose file, and documentation",
+    "fork": false,
+    "full_name": "bluesky-social/pds",
+    "html_url": "https://github.com/bluesky-social/pds",
+    "language": "Shell",
+    "pushed_at": "2026-04-15T08:59:45Z",
+    "stargazers_count": 2476,
+    "topics": [
+      "atproto",
+      "bluesky",
+      "self-hosted"
+    ],
+    "updated_at": "2026-04-23T08:45:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/goat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/goat",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-and-push-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-ghcr.yaml",
+      "term": "build-and-push-ghcr"
+    },
+    {
+      "context_snippet": "Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atproto"
+    },
+    {
+      "context_snippet": "Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bluesky"
+    },
+    {
+      "context_snippet": "Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    }
+  ]
+}

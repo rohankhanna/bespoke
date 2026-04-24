@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "setl/rdf-urdna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "Codacy Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "Java 8 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "Publish JRE8 to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "rdf-canonicalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "rdfc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-rdf-canon",
+      "target": "urdna",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:45.533343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3067
+    },
+    {
+      "path": ".github/workflows/codacy-coverage.yml",
+      "size": 815
+    },
+    {
+      "path": ".github/workflows/java8-build.yml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/java8-publish.yml",
+      "size": 994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An implementation of W3C Standard RDF Dataset Canonicalization (RDFC 1.0)",
+    "fork": false,
+    "full_name": "filip26/titanium-rdf-canon",
+    "html_url": "https://github.com/filip26/titanium-rdf-canon",
+    "language": "Java",
+    "pushed_at": "2026-02-23T18:50:29Z",
+    "stargazers_count": 3,
+    "topics": [
+      "rdf",
+      "rdf-canonicalization",
+      "rdfc",
+      "urdna"
+    ],
+    "updated_at": "2026-03-26T18:49:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "setl/rdf-urdna",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Codacy Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "term": "Codacy Coverage"
+    },
+    {
+      "context_snippet": "Java 8 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "term": "Java 8 CI"
+    },
+    {
+      "context_snippet": "Publish JRE8 to the Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "term": "Publish JRE8 to the Maven Central"
+    },
+    {
+      "context_snippet": "An implementation of the [W3C Standard RDF Dataset Canonicalization Algorithm (RDFC 1.0)](https://www.w3.org/TR/rdf-canon/) in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdf-canonicalization"
+    },
+    {
+      "context_snippet": "An implementation of the [W3C Standard RDF Dataset Canonicalization Algorithm (RDFC 1.0)](https://www.w3.org/TR/rdf-canon/) in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdfc"
+    },
+    {
+      "context_snippet": "An implementation of the [W3C Standard RDF Dataset Canonicalization Algorithm (RDFC 1.0)](https://www.w3.org/TR/rdf-canon/) in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdna"
+    }
+  ]
+}

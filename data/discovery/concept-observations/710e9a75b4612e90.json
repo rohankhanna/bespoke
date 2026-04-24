@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build cross-platform native applications with the power of the Babylon.js JavaScript framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Win32 Precompiled Shader Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Win32 Precompiled Shader Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21520,
+      "status": "candidate",
+      "text": "tone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21491,
+      "status": "candidate",
+      "text": "toning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18419,
+      "status": "candidate",
+      "text": "fortran"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17491,
+      "status": "candidate",
+      "text": "designed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17491,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Win32 Precompiled Shader Test",
+      "sense_id": "build-win32-precompiled-shader-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-win32-precompiled-shader-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-win32-precompiled-shader-test",
+  "observation_id": "710e9a75b4612e90",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Build Win32 Precompiled Shader Test",
+  "source_context_snippet": "Build Win32 Precompiled Shader Test",
+  "source_file": ".github/workflows/build-win32-shader.yml",
+  "source_repo": "BabylonJS/BabylonNative",
+  "source_repo_description": "Build cross-platform native applications with the power of the Babylon.js JavaScript framework"
+}

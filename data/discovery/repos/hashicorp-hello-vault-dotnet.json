@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/hello-vault-dotnet",
+      "target": "hashicorp/hello-vault-spring",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:59.095776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runnable C# examples of how to integrate an application with HashiCorp Vault.",
+    "fork": false,
+    "full_name": "hashicorp/hello-vault-dotnet",
+    "html_url": "https://github.com/hashicorp/hello-vault-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-04-14T05:09:35Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-14T05:09:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/hello-vault-spring",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

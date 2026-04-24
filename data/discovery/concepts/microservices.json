@@ -199,6 +199,30 @@
       "source_repo": "go-kit/kit",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d The API and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "The Java gRPC implementation. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "gRPC-Java - An RPC library and framework"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "go-kit/kit",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate",
+      "text": "gRPC-Java - An RPC library and framework"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +472,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "go-kit/kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Kong/kong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-client-go"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

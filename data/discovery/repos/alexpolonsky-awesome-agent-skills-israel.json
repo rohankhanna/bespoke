@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-timemap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-strikeradar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "curated-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "israel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "openclaw",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:22.712587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of Agent Skills for navigating life in Israel",
+    "fork": false,
+    "full_name": "alexpolonsky/awesome-agent-skills-israel",
+    "html_url": "https://github.com/alexpolonsky/awesome-agent-skills-israel",
+    "language": null,
+    "pushed_at": "2026-02-26T18:04:19Z",
+    "stargazers_count": 7,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-tools",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-code",
+      "curated-list",
+      "israel",
+      "openclaw"
+    ],
+    "updated_at": "2026-04-06T19:32:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skill-libby-book-monitor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skill-strikeradar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skill-timemap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curated-list"
+    },
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    },
+    {
+      "context_snippet": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    }
+  ]
+}

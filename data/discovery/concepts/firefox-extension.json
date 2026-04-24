@@ -19,6 +19,18 @@
       "source_repo": "iorate/ublacklist",
       "status": "candidate-context",
       "text": "English | [Deutsch](README.de.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Browser extension that simplifies access to IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "iorate/ublacklist",
       "status": "candidate",
       "text": "English | [Deutsch](README.de.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "iorate/ublacklist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

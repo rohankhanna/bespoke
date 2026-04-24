@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "objects"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "Recursively merge values in a JavaScript object. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "> Recursively merge values in a javascript object."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate",
+      "text": "> Recursively merge values in a javascript object."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051301,
+      "status": "candidate",
+      "text": "objective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9907617,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9897695,
+      "status": "candidate",
+      "text": "target"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "physical object"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "against"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "objects",
+  "concept_id": "objects",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "objects",
+      "sense_id": "objects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

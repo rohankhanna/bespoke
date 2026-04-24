@@ -1,7 +1,7 @@
 {
   "component": "actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
     }
   ]
 }

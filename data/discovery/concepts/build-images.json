@@ -92,6 +92,18 @@
       "source_repo": "chainguard-dev/apko",
       "status": "candidate-context",
       "text": "Build Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "Generative AI Examples is a collection of GenAI examples such as ChatQnA, Copilot, which illustrate the pipeline capabilities of the Open Platform for Enterprise AI (OPEA) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "Build Images"
     }
   ],
   "candidate_glosses": [
@@ -140,6 +152,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chainguard-dev/apko",
+      "status": "candidate",
+      "text": "Build Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
       "status": "candidate",
       "text": "Build Images"
     }
@@ -257,11 +275,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/build-samples.yml",
       "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/UploadDockerImages.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/_build_image.yml",
+      "source_repo": "opea-project/GenAIExamples"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

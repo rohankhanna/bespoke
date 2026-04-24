@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenMOSS/MOSS",
-      "target": "jingyijun/moss_backend",
+      "target": "openlmlab/moss",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenMOSS/MOSS",
-      "target": "ist-daslab/gptq",
+      "target": "openai/triton",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenMOSS/MOSS",
-      "target": "jittor/jittor",
+      "target": "opengvlab/ask-anything",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenMOSS/MOSS",
-      "target": "binary-husky/gpt_academic",
+      "target": "linonetwo/moss-dockerfile",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:43:27.997470+00:00",
+  "fetched_at": "2026-04-24T06:53:41.968217+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,7 +93,7 @@
     "html_url": "https://github.com/OpenMOSS/MOSS",
     "language": "Python",
     "pushed_at": "2024-07-13T14:52:59Z",
-    "stargazers_count": 12103,
+    "stargazers_count": 12104,
     "topics": [
       "chatgpt",
       "deep-learning",
@@ -102,27 +102,27 @@
       "natural-language-processing",
       "text-generation"
     ],
-    "updated_at": "2026-04-23T04:59:38Z"
+    "updated_at": "2026-04-24T01:51:47Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "binary-husky/gpt_academic",
+      "full_name": "linonetwo/moss-dockerfile",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ist-daslab/gptq",
+      "full_name": "openai/triton",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jingyijun/moss_backend",
+      "full_name": "opengvlab/ask-anything",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jittor/jittor",
+      "full_name": "openlmlab/moss",
       "source_file": "README.md"
     }
   ],

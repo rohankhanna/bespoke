@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Git Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JoshClose/CsvHelper",
+      "status": "candidate-context",
+      "text": "Library to help reading and writing CSV files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshClose/CsvHelper",
+      "status": "candidate-context",
+      "text": "Check Git Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshClose/CsvHelper",
+      "status": "candidate",
+      "text": "Check Git Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24269,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23107,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22488,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22401,
+      "status": "candidate",
+      "text": "benedicite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "radio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Git Version",
+  "concept_id": "check-git-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/git-version.yaml",
+      "source_repo": "JoshClose/CsvHelper"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Git Version",
+      "sense_id": "check-git-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

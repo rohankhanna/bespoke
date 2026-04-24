@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@181d5eefc20863364f96762470ba6f862bdef56b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@181d5eefc20863364f96762470ba6f862bdef56b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@181d5eefc20863364f96762470ba6f862bdef56b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/pgzip",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/pgzip",
+      "target": "github/codeql-action/init@181d5eefc20863364f96762470ba6f862bdef56b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/pgzip",
+      "target": "github/codeql-action/autobuild@181d5eefc20863364f96762470ba6f862bdef56b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/pgzip",
+      "target": "github/codeql-action/analyze@181d5eefc20863364f96762470ba6f862bdef56b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/pgzip",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "klauspost/pgzip",
+      "target": "actions/setup-go@v5.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "klauspost/pgzip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:44.974350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7141
+    },
+    {
+      "path": "go.mod",
+      "size": 90
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2934
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go parallel gzip (de)compression",
+    "fork": false,
+    "full_name": "klauspost/pgzip",
+    "html_url": "https://github.com/klauspost/pgzip",
+    "language": "Go",
+    "pushed_at": "2026-04-22T08:41:12Z",
+    "stargazers_count": 1192,
+    "topics": [],
+    "updated_at": "2026-04-23T09:29:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-source-file",
+      "target": "ddu-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-source-file",
+      "target": "ddu-vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:37.715334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "File source for ddu.vim",
+    "fork": false,
+    "full_name": "Shougo/ddu-source-file",
+    "html_url": "https://github.com/Shougo/ddu-source-file",
+    "language": "TypeScript",
+    "pushed_at": "2025-09-05T03:09:48Z",
+    "stargazers_count": 20,
+    "topics": [
+      "ddu-source",
+      "ddu-vim"
+    ],
+    "updated_at": "2026-03-29T04:43:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "File source for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-source"
+    },
+    {
+      "context_snippet": "File source for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-vim"
+    }
+  ]
+}

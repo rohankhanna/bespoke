@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish to npm",
-    "Publish to NPM"
+    "Publish to NPM",
+    "publish to npm"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -74,6 +75,30 @@
       "source_repo": "yeoman/yo",
       "status": "candidate-context",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipikuka/rehype-highlight-code-lines",
+      "status": "candidate-context",
+      "text": "Rehype plugin to add line numbers to code blocks and allow highlighting of desired code lines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/rehype-highlight-code-lines",
+      "status": "candidate-context",
+      "text": "publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipikuka/remark-flexible-containers",
+      "status": "candidate-context",
+      "text": "Remark plugin to add custom containers with customizable properties in markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/remark-flexible-containers",
+      "status": "candidate-context",
+      "text": "publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -112,6 +137,18 @@
       "source_repo": "yeoman/yo",
       "status": "candidate",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/rehype-highlight-code-lines",
+      "status": "candidate",
+      "text": "publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/remark-flexible-containers",
+      "status": "candidate",
+      "text": "publish to npm"
     }
   ],
   "candidate_related_terms": [
@@ -203,11 +240,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ipikuka/rehype-highlight-code-lines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ipikuka/remark-flexible-containers"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -259,6 +259,42 @@
       "source_repo": "shikiw/OPERA",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Build AI Agents, Visually"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aimerneige/MiraiChess",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528 MiraiGo-Template \u5b9e\u73b0\u7684\u56fd\u9645\u8c61\u68cb\u673a\u5668\u4eba\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/MiraiChess",
+      "status": "candidate-context",
+      "text": "> **Warning**\\"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "shikiw/OPERA",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/MiraiChess",
+      "status": "candidate",
+      "text": "> **Warning**\\"
     }
   ],
   "candidate_related_terms": [
@@ -586,11 +640,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "shikiw/OPERA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FlowiseAI/Flowise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aimerneige/MiraiChess"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

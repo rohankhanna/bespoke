@@ -227,6 +227,30 @@
       "source_repo": "ashvardanian/less_slow.py",
       "status": "candidate-context",
       "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate-context",
+      "text": "The theory of mind module for the SWE agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate-context",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "pytest fixture for benchmarking code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "========"
     }
   ],
   "candidate_glosses": [
@@ -337,6 +361,18 @@
       "source_repo": "ashvardanian/less_slow.py",
       "status": "candidate",
       "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate",
+      "text": "========"
     }
   ],
   "candidate_related_terms": [
@@ -494,11 +530,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/less_slow.py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

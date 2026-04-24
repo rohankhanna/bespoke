@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:13:18.028460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2075
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community contributed tools",
+    "fork": false,
+    "full_name": "bpftrace/user-tools",
+    "html_url": "https://github.com/bpftrace/user-tools",
+    "language": null,
+    "pushed_at": "2026-03-17T18:08:03Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-03-17T18:08:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

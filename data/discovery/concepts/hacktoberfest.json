@@ -3061,6 +3061,558 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate-context",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "The slightly more awesome standard unix password manager for teams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5\ufe0f Reproducible development environment for humans and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grommet/grommet",
+      "status": "candidate-context",
+      "text": "a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grommet/grommet",
+      "status": "candidate-context",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Streaming torrent client for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for Milvus(Deprecated)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/hexpm/l/plug.svg?color=green)](https://github.com/milvus-io/milvus-sdk-go/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "Install and Run Python Applications in Isolated Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "[build-system] build-backend = \"hatchling.build\" requires = [ \"hatch-vcs>=0.4\", \"hatchling>=1.27\", ] [project] name = \"pipx\" description = \"Install and Run Python Applications in Isolated Environments\" readme = \"docs/README.md\" keywords = [ \"cli\", \"install\", \"pip\", \"Virtual Envi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "A small command line tool to simplify releasing software by updating all version strings in your source code by the correct increment and optionally commit and tag the changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate-context",
+      "text": "Create a badge using GitHub Actions and GitHub Workflow CPU time (no 3rd parties servers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/test.yml](https://github.com/emibcn/badge-action/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/emibcn/badge-action/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate-context",
+      "text": "A fork of Git containing Windows-specific patches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate-context",
+      "text": "Git for Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-h/rest",
+      "status": "candidate-context",
+      "text": "Generate OpenAPI 3.0 specifications from Go code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/rest",
+      "status": "candidate-context",
+      "text": "Document a REST API with an OpenAPI 3.0 specification."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate-context",
+      "text": "Lightweight, blazing fast, cross-platform OpenAPI 3 mock server with validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "\ud83d\udd28 Fast and idiomatic client-driven REST APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate-context",
+      "text": "Go client for the Docker Engine API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fsouza/go-dockerclient/workflows/Build/badge.svg)](https://github.com/fsouza/go-dockerclient/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "Virtual Python Environment builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "Make it easy to use the C++ std::filesystem API across platforms, even those where std::filesystem would otherwise be (conditionally) unavailable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/gpx",
+      "status": "candidate-context",
+      "text": "Rust read/write support for GPS Exchange Format (GPX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/gpx",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JoshClose/CsvHelper",
+      "status": "candidate-context",
+      "text": "Library to help reading and writing CSV files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshClose/CsvHelper",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "A Python utility / library to sort imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate-context",
+      "text": "Go development plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "CLI tool to create a semantic release, git-cliff powered Changelog, and releases to GitHub all in one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Publish Rust crates from CI with a Release PR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "[![release-plz-logo](website/static/img/release-plz-social-card.png)](https://release-plz.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/docs.microsoft.com-nuget",
+      "status": "candidate-context",
+      "text": "Documentation for NuGet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/docs.microsoft.com-nuget",
+      "status": "candidate-context",
+      "text": "The NuGet documentation contained in this repository is hosted in [NuGet documentation](https://learn.microsoft.com/nuget/). This repository was migrated from the former NuGetDocs repository, https://github.com/NuGet/NuGetDocs, which is no longer in active use."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "Client Tools for NuGet - including Visual Studio extensions, command line tools, and msbuild support. (Open issues on https://github.com/nuget/home/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "The official angr GUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "angr-management is a cross-platform, open-source, graphical binary analysis tool powered by the [angr](https://angr.io) binary analysis platform! See [here](https://angr-management.readthedocs.io/en/latest/) for more information."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate-context",
+      "text": "Nim implementation of the Ethereum Beacon Chain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate-context",
+      "text": "[![Github Actions CI](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml/badge.svg?branch=stable)](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml?query=branch%3Astable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "probonopd/go-appimage",
+      "status": "candidate-context",
+      "text": "Go implementation of AppImage tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probonopd/go-appimage",
+      "status": "candidate-context",
+      "text": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mvz/non-digest-assets",
+      "status": "candidate-context",
+      "text": "Generate non-digest along with digest assets - less angry fork of non-stupid-digest-assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvz/non-digest-assets",
+      "status": "candidate-context",
+      "text": "In Rails starting from version 4, there is no way to by default compile both"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "Web terminal and sandbox explorer for your mesos containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "Actor framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "CNCF Jaeger, a Distributed Tracing Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "> Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-c/json-c",
+      "status": "candidate-context",
+      "text": "https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-c/json-c",
+      "status": "candidate-context",
+      "text": "\\mainpage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "weather app for the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "**wego** is a weather client for the terminal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate-context",
+      "text": "An alternative full node bitcoin implementation written in Go (golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate-context",
+      "text": "btcd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate-context",
+      "text": "Sentry SDK for Dart and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neplexlabs/canvacord",
+      "status": "candidate-context",
+      "text": "Easily generate images using react-like components in nodejs. Canvacord is suitable for creating dynamic images such as social media posts, greetings cards, memes, etc. It is also possible to create your own templates and builders to generate images. You are only limited by your imagination."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neplexlabs/canvacord",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "node-fetch/node-fetch",
+      "status": "candidate-context",
+      "text": "A light-weight module that brings the Fetch API to Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-fetch/node-fetch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "Application lifecycle orchestration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "![Kargo by Akuity, creators of Argo](./ui/public/kargo-logo-white.png#gh-dark-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "A Neovim configuration for the advanced martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "open-source agentic AI data assistant for the next generation of AI + Data products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -4587,6 +5139,282 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grommet/grommet",
+      "status": "candidate",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/hexpm/l/plug.svg?color=green)](https://github.com/milvus-io/milvus-sdk-go/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate",
+      "text": "[build-system] build-backend = \"hatchling.build\" requires = [ \"hatch-vcs>=0.4\", \"hatchling>=1.27\", ] [project] name = \"pipx\" description = \"Install and Run Python Applications in Isolated Environments\" readme = \"docs/README.md\" keywords = [ \"cli\", \"install\", \"pip\", \"Virtual Envi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate",
+      "text": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate",
+      "text": "[![.github/workflows/test.yml](https://github.com/emibcn/badge-action/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/emibcn/badge-action/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate",
+      "text": "Git for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/rest",
+      "status": "candidate",
+      "text": "Document a REST API with an OpenAPI 3.0 specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fsouza/go-dockerclient/workflows/Build/badge.svg)](https://github.com/fsouza/go-dockerclient/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/gpx",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshClose/CsvHelper",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate",
+      "text": "[![release-plz-logo](website/static/img/release-plz-social-card.png)](https://release-plz.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/docs.microsoft.com-nuget",
+      "status": "candidate",
+      "text": "The NuGet documentation contained in this repository is hosted in [NuGet documentation](https://learn.microsoft.com/nuget/). This repository was migrated from the former NuGetDocs repository, https://github.com/NuGet/NuGetDocs, which is no longer in active use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate",
+      "text": "angr-management is a cross-platform, open-source, graphical binary analysis tool powered by the [angr](https://angr.io) binary analysis platform! See [here](https://angr-management.readthedocs.io/en/latest/) for more information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate",
+      "text": "[![Github Actions CI](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml/badge.svg?branch=stable)](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml?query=branch%3Astable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probonopd/go-appimage",
+      "status": "candidate",
+      "text": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvz/non-digest-assets",
+      "status": "candidate",
+      "text": "In Rails starting from version 4, there is no way to by default compile both"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate",
+      "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate",
+      "text": "> Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-c/json-c",
+      "status": "candidate",
+      "text": "\\mainpage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate",
+      "text": "**wego** is a weather client for the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate",
+      "text": "btcd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neplexlabs/canvacord",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-fetch/node-fetch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate",
+      "text": "![Kargo by Akuity, creators of Argo](./ui/public/kargo-logo-white.png#gh-dark-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [],
@@ -6394,11 +7222,395 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pylint-dev/astroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gopasspw/gopass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "grommet/grommet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/webtorrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sparckles/Robyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pypa/pipx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "callowayproject/bump-my-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "emibcn/badge-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "git-for-windows/git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "a-h/rest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fsouza/go-dockerclient"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pypa/virtualenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/gpx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "JoshClose/CsvHelper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fatih/vim-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "favware/cliff-jumper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/docs.microsoft.com-nuget"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/NuGet.Client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "angr/angr-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "probonopd/go-appimage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mvz/non-digest-assets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks-methods.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "json-c/json-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "schachmat/wego"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "btcsuite/btcd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "node-fetch/node-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "doom-neovim/doom-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eosphoros-ai/DB-GPT"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

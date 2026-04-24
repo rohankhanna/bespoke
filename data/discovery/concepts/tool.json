@@ -115,6 +115,42 @@
       "source_repo": "apache/incubator-seata-ctl",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0k/shyaml",
+      "status": "candidate-context",
+      "text": "YAML for command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0k/shyaml",
+      "status": "candidate-context",
+      "text": "================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "One command brings a complete pre-wired LLM stack with hundreds of services to explore."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Automating Releases via SemVer and Commit Message Conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Python Semantic Release"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "apache/incubator-seata-ctl",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0k/shyaml",
+      "status": "candidate",
+      "text": "================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate",
+      "text": "Python Semantic Release"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +358,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "0k/shyaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "python-semantic-release/python-semantic-release"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

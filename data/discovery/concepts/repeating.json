@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "repeating"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027616,
+      "status": "candidate",
+      "text": "repetition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027630,
+      "status": "candidate",
+      "text": "iteration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027581,
+      "status": "candidate",
+      "text": "reiterate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027427,
+      "status": "candidate",
+      "text": "repetitious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027380,
+      "status": "candidate",
+      "text": "repetitive"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11040,
+      "status": "candidate",
+      "text": "repetition"
+    }
+  ],
+  "canonical_name": "repeating",
+  "concept_id": "repeating",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "repeating",
+      "sense_id": "repeating#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

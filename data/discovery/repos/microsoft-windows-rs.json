@@ -13,16 +13,6 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmd_fmt.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmd_kick.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cross.yml"
     },
     {
@@ -74,6 +64,16 @@
       "component": "KyleMayes/install-llvm-action@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miri.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv-windows.yml"
     }
   ],
   "edges": [
@@ -97,20 +97,6 @@
       "source_repo": "microsoft/windows-rs",
       "target": "clippy",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmd_fmt.yml",
-      "source_repo": "microsoft/windows-rs",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmd_kick.yml",
-      "source_repo": "microsoft/windows-rs",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -218,6 +204,34 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "miri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv-windows.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msrv-windows.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "msrv-windows",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/windows-rs",
@@ -232,7 +246,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:51:48.820651+00:00",
+  "fetched_at": "2026-04-24T09:15:21.018875+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -241,14 +255,6 @@
     {
       "path": ".github/workflows/clippy.yml",
       "size": 1427
-    },
-    {
-      "path": ".github/workflows/cmd_fmt.yml",
-      "size": 2163
-    },
-    {
-      "path": ".github/workflows/cmd_kick.yml",
-      "size": 1895
     },
     {
       "path": ".github/workflows/cross.yml",
@@ -273,6 +279,14 @@
     {
       "path": ".github/workflows/linux.yml",
       "size": 1547
+    },
+    {
+      "path": ".github/workflows/miri.yml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/msrv-windows.yml",
+      "size": 863
     }
   ],
   "related_repositories": [],
@@ -284,13 +298,13 @@
     "full_name": "microsoft/windows-rs",
     "html_url": "https://github.com/microsoft/windows-rs",
     "language": "Rust",
-    "pushed_at": "2026-04-23T20:28:18Z",
-    "stargazers_count": 12127,
+    "pushed_at": "2026-04-24T04:33:01Z",
+    "stargazers_count": 12128,
     "topics": [
       "rust",
       "windows"
     ],
-    "updated_at": "2026-04-23T20:30:53Z"
+    "updated_at": "2026-04-24T04:33:04Z"
   },
   "repo_links": [],
   "terms": [
@@ -335,6 +349,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/linux.yml",
       "term": "linux"
+    },
+    {
+      "context_snippet": "miri",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/miri.yml",
+      "term": "miri"
+    },
+    {
+      "context_snippet": "msrv-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msrv-windows.yml",
+      "term": "msrv-windows"
     },
     {
       "context_snippet": "[workspace] resolver = \"2\" members = [ \"crates/libs/*\", \"crates/samples/*/*\", \"crates/targets/*\", \"crates/tests/*/*\", \"crates/tools/*\", ] exclude = [ \"crates/targets/baseline\", ] [profile.dev.package.\"*\"] opt-level = 2 [workspace.lints.rust] unexpected_cfgs = { level = \"warn\", c\u2026",

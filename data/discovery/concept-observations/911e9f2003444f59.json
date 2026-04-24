@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dry run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dry run"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018185,
+      "status": "candidate",
+      "text": "rehearsal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987793,
+      "status": "candidate",
+      "text": "run through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070615,
+      "status": "candidate",
+      "text": "dummy run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070614,
+      "status": "candidate",
+      "text": "practice run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070613,
+      "status": "candidate",
+      "text": "run-through"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dry run",
+      "sense_id": "dry-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dry-run",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dry-run",
+  "observation_id": "911e9f2003444f59",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Dry run",
+  "source_context_snippet": "Dry run",
+  "source_file": ".github/workflows/dry-run.yml",
+  "source_repo": "dependabot/smoke-tests",
+  "source_repo_description": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+}

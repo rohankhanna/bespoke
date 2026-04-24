@@ -49,6 +49,18 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate-context",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-stack/redis-stack",
+      "status": "candidate-context",
+      "text": "A Redis server with additional database capabilities powered by Redis modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-stack/redis-stack",
+      "status": "candidate-context",
+      "text": "Build and Publish"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +85,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/rnx-kit",
+      "status": "candidate",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-stack/redis-stack",
       "status": "candidate",
       "text": "Build and Publish"
     }
@@ -148,11 +166,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

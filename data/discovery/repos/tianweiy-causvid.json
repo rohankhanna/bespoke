@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianweiy/CausVid",
+      "target": "wan-video/wan2.1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianweiy/CausVid",
+      "target": "hao-ai-lab/fastvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:46.383278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7616
+    },
+    {
+      "path": "requirements.txt",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(CVPR 2025) From Slow Bidirectional to Fast Autoregressive Video Diffusion Models",
+    "fork": false,
+    "full_name": "tianweiy/CausVid",
+    "html_url": "https://github.com/tianweiy/CausVid",
+    "language": "Python",
+    "pushed_at": "2025-08-07T04:49:23Z",
+    "stargazers_count": 1311,
+    "topics": [],
+    "updated_at": "2026-04-23T10:11:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hao-ai-lab/fastvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wan-video/wan2.1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

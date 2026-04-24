@@ -93,6 +93,42 @@
       "source_repo": "dotnet/fsharp",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "This repository contains core functionality needed to create .NET projects that are shared between Visual Studio and the [.NET CLI](https://learn.microsoft.com/dotnet/core/tools/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate-context",
+      "text": "Palette quantization library that powers pngquant and other PNG optimizers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate-context",
+      "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +173,24 @@
       "source_repo": "dotnet/fsharp",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate",
+      "text": "This repository contains core functionality needed to create .NET projects that are shared between Visual Studio and the [.NET CLI](https://learn.microsoft.com/dotnet/core/tools/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate",
+      "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -186,11 +240,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-dev-gallery"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

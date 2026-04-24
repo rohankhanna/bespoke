@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "zhangxj199/tinyllava-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "dlcv-buaa/tinyllavabench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "large-multimodal-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "tinyllama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "target": "vision-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:34.104320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19668
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Framework of Small-scale Large Multimodal Models",
+    "fork": false,
+    "full_name": "TinyLLaVA/TinyLLaVA_Factory",
+    "html_url": "https://github.com/TinyLLaVA/TinyLLaVA_Factory",
+    "language": "Python",
+    "pushed_at": "2026-04-21T15:23:28Z",
+    "stargazers_count": 977,
+    "topics": [
+      "large-multimodal-models",
+      "llama",
+      "llava",
+      "nlp",
+      "tinyllama",
+      "transformers",
+      "vision-language"
+    ],
+    "updated_at": "2026-04-22T07:16:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhangxj199/tinyllava-video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlcv-buaa/tinyllavabench",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-multimodal-models"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinyllama"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    }
+  ]
+}

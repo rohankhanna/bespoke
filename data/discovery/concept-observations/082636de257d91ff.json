@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Validate your Kubernetes configuration files, supports multiple Kubernetes versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**NOTE: This project is [no longer maintained](https://github.com/instrumenta/kubeval/issues/268#issuecomment-902128481), a good replacement is [kubeconform](https://github.com/yannh/kubeconform)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**NOTE: This project is [no longer maintained](https://github.com/instrumenta/kubeval/issues/268#issuecomment-902128481), a good replacement is [kubeconform](https://github.com/yannh/kubeconform)**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "instrument"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "instruments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "instrumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "instrumentally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "instrumentalities"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instrumenta",
+      "sense_id": "instrumenta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "instrumenta",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instrumenta",
+  "observation_id": "082636de257d91ff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "instrumenta",
+  "source_context_snippet": "**NOTE: This project is [no longer maintained](https://github.com/instrumenta/kubeval/issues/268#issuecomment-902128481), a good replacement is [kubeconform](https://github.com/yannh/kubeconform)**",
+  "source_file": null,
+  "source_repo": "instrumenta/kubeval",
+  "source_repo_description": "Validate your Kubernetes configuration files, supports multiple Kubernetes versions"
+}

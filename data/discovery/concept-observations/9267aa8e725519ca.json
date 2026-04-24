@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS, \u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19176231,
+      "status": "candidate",
+      "text": "hugh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19113142,
+      "status": "candidate",
+      "text": "camus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19099404,
+      "status": "candidate",
+      "text": "elbert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19090720,
+      "status": "candidate",
+      "text": "rapoport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125609,
+      "status": "candidate",
+      "text": "wei"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "albert",
+      "sense_id": "albert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "albert",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "albert",
+  "observation_id": "9267aa8e725519ca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "albert",
+  "source_context_snippet": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow",
+  "source_file": null,
+  "source_repo": "brightmart/albert_zh",
+  "source_repo_description": "A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS, \u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b"
+}

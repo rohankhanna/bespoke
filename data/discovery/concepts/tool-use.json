@@ -31,6 +31,18 @@
       "source_repo": "NVIDIA-NeMo/DataDesigner",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate-context",
+      "text": "LLaVA-Plus: Large Language and Vision Assistants that Plug and Learn to Use Skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate-context",
+      "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "NVIDIA-NeMo/DataDesigner",
       "status": "candidate",
       "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate",
+      "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

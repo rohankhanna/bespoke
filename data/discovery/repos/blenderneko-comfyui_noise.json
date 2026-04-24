@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:36.732563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "6 nodes for ComfyUI that allows for more control and flexibility over noise to do e.g. variations or \"un-sampling\"",
+    "fork": false,
+    "full_name": "BlenderNeko/ComfyUI_Noise",
+    "html_url": "https://github.com/BlenderNeko/ComfyUI_Noise",
+    "language": "Python",
+    "pushed_at": "2024-06-10T16:38:48Z",
+    "stargazers_count": 322,
+    "topics": [
+      "comfyui",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-03-21T18:55:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains 6 nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allows for more control and flexibility over the noise. This allows e.g. for workflows with small variations to generations or finding the accompanying noise to some input image and prompt.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "This repo contains 6 nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allows for more control and flexibility over the noise. This allows e.g. for workflows with small variations to generations or finding the accompanying noise to some input image and prompt.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

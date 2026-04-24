@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "gjtorikian/actions/.github/workflows/automerge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_gem_release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_and_release.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_test_suite.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "rudionrails/yell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "raspberrypi/documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "squeak-smalltalk/squeak.org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "dotfiles/dotfiles.github.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "gjtorikian/actions/.github/workflows/automerge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "gjtorikian/actions/.github/workflows/ruby_lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "gjtorikian/actions/.github/workflows/ruby_gem_release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "Tag and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "gjtorikian/actions/.github/workflows/ruby_test_suite.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "link-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjtorikian/html-proofer",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:01:51.003303+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25440
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 278
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 232
+    },
+    {
+      "path": ".github/workflows/tag_and_release.yml",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test your rendered HTML files to make sure they're accurate.",
+    "fork": false,
+    "full_name": "gjtorikian/html-proofer",
+    "html_url": "https://github.com/gjtorikian/html-proofer",
+    "language": "Ruby",
+    "pushed_at": "2026-03-29T17:59:12Z",
+    "stargazers_count": 1642,
+    "topics": [
+      "html",
+      "link-checker",
+      "ruby"
+    ],
+    "updated_at": "2026-04-22T07:05:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotfiles/dotfiles.github.com",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raspberrypi/documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rudionrails/yell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "squeak-smalltalk/squeak.org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Tag and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "term": "Tag and Release"
+    },
+    {
+      "context_snippet": "If you generate HTML files, _then this tool might be for you_!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "If you generate HTML files, _then this tool might be for you_!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "link-checker"
+    },
+    {
+      "context_snippet": "If you generate HTML files, _then this tool might be for you_!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

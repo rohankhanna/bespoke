@@ -499,6 +499,126 @@
       "source_repo": "LambdaLabsML/distributed-training-guide",
       "status": "candidate-context",
       "text": "\ud83d\udd25 News \ud83d\udd25"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "NumPy aware dynamic Python compiler using LLVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "*****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "This repository consists for gpu bootcamp material for HPC and AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Swin Transformer using TorchServe "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "kaldi-asr/kaldi is the official location of the Kaldi project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Making it easier to work with shaders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Slang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Julia docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Python docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab R docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/FastFold",
+      "status": "candidate-context",
+      "text": "Optimizing AlphaFold Training and Inference on GPU Clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/FastFold",
+      "status": "candidate-context",
+      "text": "![](/assets/fold.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +867,66 @@
       "source_repo": "LambdaLabsML/distributed-training-guide",
       "status": "candidate",
       "text": "\ud83d\udd25 News \ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate",
+      "text": "*****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate",
+      "text": "Slang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/FastFold",
+      "status": "candidate",
+      "text": "![](/assets/fold.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -1072,11 +1252,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "LambdaLabsML/distributed-training-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uccl-project/uccl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kaldi-asr/kaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shader-slang/slang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-julia-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-python-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-r-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/FastFold"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "widget"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "Github Star History - A stunning star history widget chart generator for Github Repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049692,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049692,
+      "status": "candidate",
+      "text": "gizmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011141,
+      "status": "candidate",
+      "text": "convenience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898885,
+      "status": "candidate",
+      "text": "contraption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29888499,
+      "status": "candidate",
+      "text": "contrivance"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "contrivance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9038,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8041,
+      "status": "candidate",
+      "text": "appliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "gizmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5033,
+      "status": "candidate",
+      "text": "convenience"
+    }
+  ],
+  "canonical_name": "widget",
+  "concept_id": "widget",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "widget",
+      "sense_id": "widget#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

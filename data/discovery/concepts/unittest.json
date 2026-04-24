@@ -1,11 +1,15 @@
 {
   "aliases": [
-    "unittest"
+    "unittest",
+    "Unittest",
+    "UnitTest"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -13,6 +17,42 @@
       "source_repo": "googleapis/python-pubsublite",
       "status": "candidate-context",
       "text": "unittest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for Milvus(Deprecated)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "Unittest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/WeTextProcessing",
+      "status": "candidate-context",
+      "text": "Text Normalization & Inverse Text Normalization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/WeTextProcessing",
+      "status": "candidate-context",
+      "text": "UnitTest"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +61,24 @@
       "source_repo": "googleapis/python-pubsublite",
       "status": "candidate",
       "text": "unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate",
+      "text": "Unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/WeTextProcessing",
+      "status": "candidate",
+      "text": "UnitTest"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +128,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/unittest.yml",
       "source_repo": "googleapis/python-pubsublite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milvus-io/milvus-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "wenet-e2e/WeTextProcessing"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

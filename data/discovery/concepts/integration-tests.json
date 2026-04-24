@@ -251,6 +251,54 @@
       "source_repo": "celery/celery",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "One command brings a complete pre-wired LLM stack with hundreds of services to explore."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate-context",
+      "text": "A light weight Python library for the Spotify Web API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate-context",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmuxinator/tmuxinator",
+      "status": "candidate-context",
+      "text": "Manage complex tmux sessions easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmuxinator/tmuxinator",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -371,6 +419,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmuxinator/tmuxinator",
       "status": "candidate",
       "text": "Integration Tests"
     }
@@ -566,11 +638,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "tmuxinator/tmuxinator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/crossdoc-integration-test.yml",
+      "source_repo": "jaegertracing/jaeger-client-go"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

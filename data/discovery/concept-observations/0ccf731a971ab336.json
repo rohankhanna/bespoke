@@ -84,7 +84,7 @@
   "normalized_form": "gen",
   "observation_id": "0ccf731a971ab336",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "gen",
   "source_context_snippet": "gen",
   "source_file": ".github/workflows/gen.yml",

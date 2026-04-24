@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gnosis Chain Validator Deposit Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manual Deployment to Production"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manual Deployment to Production"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18696,
+      "status": "candidate",
+      "text": "stocks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18670,
+      "status": "candidate",
+      "text": "publication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18656,
+      "status": "candidate",
+      "text": "publishing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18643,
+      "status": "candidate",
+      "text": "inventory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Deployment to Production",
+      "sense_id": "manual-deployment-to-production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manual-deployment-to-production",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manual-deployment-to-production",
+  "observation_id": "fec04bd610dab6fe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Manual Deployment to Production",
+  "source_context_snippet": "Manual Deployment to Production",
+  "source_file": ".github/workflows/prod_deploy.yml",
+  "source_repo": "gnosischain/gbc-deposit-ui",
+  "source_repo_description": "Gnosis Chain Validator Deposit Tool"
+}

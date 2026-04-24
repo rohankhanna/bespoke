@@ -119,6 +119,18 @@
       "source_repo": "cpputest/cpputest",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jimporter/mettle",
+      "status": "candidate-context",
+      "text": "A C++20 unit test framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mettle",
+      "status": "candidate-context",
+      "text": "[![Latest release][release-image]][release-link]"
     }
   ],
   "candidate_glosses": [
@@ -175,6 +187,12 @@
       "source_repo": "cpputest/cpputest",
       "status": "candidate",
       "text": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mettle",
+      "status": "candidate",
+      "text": "[![Latest release][release-image]][release-link]"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "cpputest/cpputest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jimporter/mettle"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

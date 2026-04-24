@@ -55,6 +55,18 @@
       "source_repo": "aspect-build/rules_buildx",
       "status": "candidate-context",
       "text": "Tag a Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://esbuild.github.io/ JS bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Tag a Release"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aspect-build/rules_buildx",
+      "status": "candidate",
+      "text": "Tag a Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
       "status": "candidate",
       "text": "Tag a Release"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/tag.yaml",
       "source_repo": "aspect-build/rules_buildx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "aspect-build/rules_esbuild"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

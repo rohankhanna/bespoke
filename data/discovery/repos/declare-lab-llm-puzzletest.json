@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "declare-lab/puzzle-reasoning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "gemini-pro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "multimodal-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "target": "multimodal-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:34.343855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12929
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository is maintained to release dataset and models for multimodal puzzle reasoning.",
+    "fork": false,
+    "full_name": "declare-lab/LLM-PuzzleTest",
+    "html_url": "https://github.com/declare-lab/LLM-PuzzleTest",
+    "language": "Python",
+    "pushed_at": "2025-02-26T02:24:34Z",
+    "stargazers_count": 115,
+    "topics": [
+      "gemini",
+      "gemini-pro",
+      "gpt-4",
+      "language-model",
+      "large-language-models",
+      "llm",
+      "llms",
+      "multimodal-deep-learning",
+      "multimodal-learning"
+    ],
+    "updated_at": "2026-04-22T12:01:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "declare-lab/puzzle-reasoning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-pro"
+    },
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-deep-learning"
+    },
+    {
+      "context_snippet": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-learning"
+    }
+  ]
+}

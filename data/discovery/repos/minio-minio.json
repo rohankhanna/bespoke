@@ -1,0 +1,480 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-healing.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-healing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-resiliency.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-resiliency.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-lint.yml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/minio",
+      "target": "minio/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/minio",
+      "target": "minio/operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "minio/minio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "minio/minio",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "minio/minio",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross.yml",
+      "source_repo": "minio/minio",
+      "target": "Crosscompile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-healing.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-healing.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-healing.yml",
+      "source_repo": "minio/minio",
+      "target": "Healing Functional Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-lint.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-lint.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-lint.yml",
+      "source_repo": "minio/minio",
+      "target": "Linters and Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-resiliency.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-resiliency.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-resiliency.yml",
+      "source_repo": "minio/minio",
+      "target": "Resiliency Functional Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/minio",
+      "target": "Functional Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-lint.yml",
+      "source_repo": "minio/minio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-lint.yml",
+      "source_repo": "minio/minio",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-lint.yml",
+      "source_repo": "minio/minio",
+      "target": "Helm Chart linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "amazon-s3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "cloudnative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "cloudstorage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "multi-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "multi-cloud-kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "objectstorage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/minio",
+      "target": "storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:06.793367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8950
+    },
+    {
+      "path": "Dockerfile",
+      "size": 425
+    },
+    {
+      "path": "go.mod",
+      "size": 12539
+    },
+    {
+      "path": ".github/workflows/depsreview.yaml",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/go-cross.yml",
+      "size": 957
+    },
+    {
+      "path": ".github/workflows/go-healing.yml",
+      "size": 1227
+    },
+    {
+      "path": ".github/workflows/go-lint.yml",
+      "size": 1010
+    },
+    {
+      "path": ".github/workflows/go-resiliency.yml",
+      "size": 958
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/helm-lint.yml",
+      "size": 551
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+    "fork": false,
+    "full_name": "minio/minio",
+    "html_url": "https://github.com/minio/minio",
+    "language": "Go",
+    "pushed_at": "2026-02-12T20:18:51Z",
+    "stargazers_count": 60785,
+    "topics": [
+      "amazon-s3",
+      "cloud",
+      "cloudnative",
+      "cloudstorage",
+      "go",
+      "k8s",
+      "kubernetes",
+      "multi-cloud",
+      "multi-cloud-kubernetes",
+      "objectstorage",
+      "s3",
+      "storage"
+    ],
+    "updated_at": "2026-04-24T07:53:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minio/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minio/operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Crosscompile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross.yml",
+      "term": "Crosscompile"
+    },
+    {
+      "context_snippet": "Healing Functional Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-healing.yml",
+      "term": "Healing Functional Tests"
+    },
+    {
+      "context_snippet": "Linters and Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-lint.yml",
+      "term": "Linters and Tests"
+    },
+    {
+      "context_snippet": "Resiliency Functional Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-resiliency.yml",
+      "term": "Resiliency Functional Tests"
+    },
+    {
+      "context_snippet": "Functional Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Functional Tests"
+    },
+    {
+      "context_snippet": "Helm Chart linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-lint.yml",
+      "term": "Helm Chart linting"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-s3"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudnative"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudstorage"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-cloud"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-cloud-kubernetes"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objectstorage"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    }
+  ]
+}

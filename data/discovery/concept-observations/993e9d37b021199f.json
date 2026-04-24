@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "iOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "iOS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29594155,
+      "status": "candidate",
+      "text": "sda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29506613,
+      "status": "candidate",
+      "text": "ism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29432380,
+      "status": "candidate",
+      "text": "soi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29412126,
+      "status": "candidate",
+      "text": "iso"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "iOS",
+      "sense_id": "ios#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ios",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ios",
+  "observation_id": "993e9d37b021199f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "iOS",
+  "source_context_snippet": "iOS",
+  "source_file": ".github/workflows/status-ios.yml",
+  "source_repo": "google/filament",
+  "source_repo_description": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2"
+}

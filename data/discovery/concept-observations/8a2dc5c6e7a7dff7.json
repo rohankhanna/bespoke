@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go development plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "git checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "git checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11213,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11213,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11213,
+      "status": "candidate",
+      "text": "scram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11213,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10936,
+      "status": "candidate",
+      "text": "monitor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "git checks",
+      "sense_id": "git-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "git-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "git-checks",
+  "observation_id": "8a2dc5c6e7a7dff7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "git checks",
+  "source_context_snippet": "git checks",
+  "source_file": ".github/workflows/git.yml",
+  "source_repo": "fatih/vim-go",
+  "source_repo_description": "Go development plugin for Vim"
+}

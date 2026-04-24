@@ -67,6 +67,30 @@
       "source_repo": "connectrpc/connect-query-es",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable-next-line MD041 MD033 -- 033: necessary for setting the width; 041: this is the style of bufbuild READMEs -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "\ud83e\uddb9\u200d\u2642\ufe0f Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/next-i18next",
+      "status": "candidate-context",
+      "text": "The easiest way to translate your NextJs apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/next-i18next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/next-i18next.svg?style=flat-square)](https://www.npmjs.com/package/next-i18next)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "connectrpc/connect-query-es",
       "status": "candidate",
       "text": "<!-- markdownlint-disable-next-line MD041 MD033 -- 033: necessary for setting the width; 041: this is the style of bufbuild READMEs -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/next-i18next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/next-i18next.svg?style=flat-square)](https://www.npmjs.com/package/next-i18next)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "connectrpc/connect-query-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.macro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/next-i18next"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

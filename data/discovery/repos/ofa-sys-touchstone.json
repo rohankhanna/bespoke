@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OFA-Sys/TouchStone",
+      "target": "thudm/cogvlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OFA-Sys/TouchStone",
+      "target": "baaivision/emu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OFA-Sys/TouchStone",
+      "target": "opengvlab/llama-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OFA-Sys/TouchStone",
+      "target": "vision-cair/minigpt-4",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:42.753191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Touchstone: Evaluating Vision-Language Models by Language Models",
+    "fork": false,
+    "full_name": "OFA-Sys/TouchStone",
+    "html_url": "https://github.com/OFA-Sys/TouchStone",
+    "language": "Python",
+    "pushed_at": "2024-01-18T10:17:57Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2025-05-10T01:58:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baaivision/emu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/llama-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvlm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vision-cair/minigpt-4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

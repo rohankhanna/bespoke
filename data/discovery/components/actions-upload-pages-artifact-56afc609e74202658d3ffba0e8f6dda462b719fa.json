@@ -2,7 +2,7 @@
   "component": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -24,6 +24,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gh_pages_deploy.yml",
       "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-publish-docs.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "source_repo": "kubecfg/kubecfg"
     }
   ]
 }

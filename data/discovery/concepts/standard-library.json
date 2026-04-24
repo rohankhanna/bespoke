@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "standard-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amyreese/fissix",
+      "status": "candidate-context",
+      "text": "backport of lib2to3, with enhancements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amyreese/fissix",
+      "status": "candidate-context",
+      "text": "fissix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/std",
+      "status": "candidate-context",
+      "text": "A standard library wrapper for use in the `arkworks` ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/std",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">arkworks::std</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amyreese/fissix",
+      "status": "candidate",
+      "text": "fissix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/std",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">arkworks::std</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "standard-library",
+  "concept_id": "standard-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "amyreese/fissix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "standard-library",
+      "sense_id": "standard-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

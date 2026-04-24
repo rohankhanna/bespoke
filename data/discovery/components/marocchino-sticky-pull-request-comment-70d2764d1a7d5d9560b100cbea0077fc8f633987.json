@@ -1,7 +1,7 @@
 {
   "component": "marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-semver.yml",
       "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website-integrity.yml",
+      "source_repo": "dotansimha/graphql-code-generator"
     }
   ]
 }

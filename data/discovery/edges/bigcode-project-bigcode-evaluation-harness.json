@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigcode-project/bigcode-evaluation-harness",
+      "target": "hkunlp/ds-1000",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigcode-project/bigcode-evaluation-harness",
+      "target": "nuprl/multipl-e",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigcode-project/bigcode-evaluation-harness",
+      "target": "amazon-science/recode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigcode-project/bigcode-evaluation-harness",
+      "target": "reasoning-machines/pal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bigcode-project/bigcode-evaluation-harness",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bigcode-project/bigcode-evaluation-harness",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "bigcode-project/bigcode-evaluation-harness"
+}

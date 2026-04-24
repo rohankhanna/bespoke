@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_retrieval.yml"
+    },
+    {
+      "component": "harkgill-amd/rocm_issue_management@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_retrieval.yml"
+    },
+    {
+      "component": "ROCm/rocm-docs-core/.github/workflows/linting.yml@develop",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/ROCm",
+      "target": "rocm/rocm-libraries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/ROCm",
+      "target": "rocm/amdmigraphx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/ROCm",
+      "target": "rocm/mivisionx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/ROCm",
+      "target": "rocm/rocgdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_retrieval.yml",
+      "source_repo": "ROCm/ROCm",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_retrieval.yml",
+      "source_repo": "ROCm/ROCm",
+      "target": "harkgill-amd/rocm_issue_management@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_retrieval.yml",
+      "source_repo": "ROCm/ROCm",
+      "target": "Issue retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/ROCm",
+      "target": "ROCm/rocm-docs-core/.github/workflows/linting.yml@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/ROCm",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm",
+      "target": "documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:22.985734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8109
+    },
+    {
+      "path": ".github/workflows/issue_retrieval.yml",
+      "size": 582
+    },
+    {
+      "path": ".github/workflows/linting.yml",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "AMD ROCm\u2122 Software - GitHub Home",
+    "fork": false,
+    "full_name": "ROCm/ROCm",
+    "html_url": "https://github.com/ROCm/ROCm",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T19:59:47Z",
+    "stargazers_count": 6413,
+    "topics": [
+      "documentation"
+    ],
+    "updated_at": "2026-04-24T01:48:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/amdmigraphx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/mivisionx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/rocgdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/rocm-libraries",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue retrieval",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_retrieval.yml",
+      "term": "Issue retrieval"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    }
+  ]
+}

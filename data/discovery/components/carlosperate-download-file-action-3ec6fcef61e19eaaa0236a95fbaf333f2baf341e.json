@@ -1,0 +1,12 @@
+{
+  "component": "carlosperate/download-file-action@3ec6fcef61e19eaaa0236a95fbaf333f2baf341e",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlabs-data/tablesaw-parquet"
+    }
+  ]
+}

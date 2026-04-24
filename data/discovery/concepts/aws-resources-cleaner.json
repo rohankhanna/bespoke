@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AWS Resources Cleaner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate-context",
+      "text": "AWS Distro for OpenTelemetry Collector (see ADOT Roadmap at https://github.com/orgs/aws-observability/projects/4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate-context",
+      "text": "AWS Resources Cleaner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate",
+      "text": "AWS Resources Cleaner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14291,
+      "status": "candidate",
+      "text": "abundance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10115,
+      "status": "candidate",
+      "text": "being"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10115,
+      "status": "candidate",
+      "text": "bids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10115,
+      "status": "candidate",
+      "text": "calibre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10115,
+      "status": "candidate",
+      "text": "merits"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AWS Resources Cleaner",
+  "concept_id": "aws-resources-cleaner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/aws-resources-clean.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AWS Resources Cleaner",
+      "sense_id": "aws-resources-cleaner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

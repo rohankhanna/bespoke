@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Documents"
+    "Build Documents",
+    "build-documents"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "0xJacky/nginx-ui",
       "status": "candidate-context",
       "text": "Build Documents"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate-context",
+      "text": "Industry Working Group on Automated Cryptographic Algorithm Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate-context",
+      "text": "build-documents"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "0xJacky/nginx-ui",
       "status": "candidate",
       "text": "Build Documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate",
+      "text": "build-documents"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/documents.yml",
       "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "usnistgov/ACVP"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

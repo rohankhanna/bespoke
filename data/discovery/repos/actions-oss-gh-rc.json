@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "cli/gh-extension-precompile@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "actions-oss/gh-rc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "actions-oss/gh-rc",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "actions-oss/gh-rc",
+      "target": "cli/gh-extension-precompile@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "actions-oss/gh-rc",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-oss/gh-rc",
+      "target": "gh-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-oss/gh-rc",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:47:32.750695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 553
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 441
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runner.Client as GitHub CLI extension",
+    "fork": false,
+    "full_name": "actions-oss/gh-rc",
+    "html_url": "https://github.com/actions-oss/gh-rc",
+    "language": "Shell",
+    "pushed_at": "2026-01-24T16:24:58Z",
+    "stargazers_count": 1,
+    "topics": [
+      "gh-extension",
+      "github-actions"
+    ],
+    "updated_at": "2025-05-20T11:49:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "[Runner.Client](https://github.com/ChristopherHX/runner.server) as [GitHub CLI](https://docs.github.com/en/github-cli/github-cli/about-github-cli) extension",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gh-extension"
+    },
+    {
+      "context_snippet": "[Runner.Client](https://github.com/ChristopherHX/runner.server) as [GitHub CLI](https://docs.github.com/en/github-cli/github-cli/about-github-cli) extension",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

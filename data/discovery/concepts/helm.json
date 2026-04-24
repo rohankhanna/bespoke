@@ -202,6 +202,30 @@
       "source_repo": "argoproj/argo-cd",
       "status": "candidate-context",
       "text": "**Releases:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "argoproj/argo-cd",
       "status": "candidate",
       "text": "**Releases:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +487,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -18,17 +18,17 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-phoenix",
-      "target": "dwyl/learn-hapi",
+      "target": "dwyl/learn-postgresql",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-phoenix",
-      "target": "dwyl/learn-aws-lambda",
+      "target": "dwyl/learn-phoenix-web-development",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "dwyl/learn-phoenix"
 }

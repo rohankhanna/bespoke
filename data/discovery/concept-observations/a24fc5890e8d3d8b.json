@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The ad-insertion reference pipeline shows how to integrate various media building blocks, with analytics powered by the OpenVINO\u2122 Toolkit, for intelligent server-side ad insertion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project will no longer be maintained by Intel."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "libavcodec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "openh264"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "avidemux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "mediainfo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "openfl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ffmpeg",
+      "sense_id": "ffmpeg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ffmpeg",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ffmpeg",
+  "observation_id": "a24fc5890e8d3d8b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "ffmpeg",
+  "source_context_snippet": "This project will no longer be maintained by Intel.",
+  "source_file": null,
+  "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+  "source_repo_description": "The ad-insertion reference pipeline shows how to integrate various media building blocks, with analytics powered by the OpenVINO\u2122 Toolkit, for intelligent server-side ad insertion."
+}

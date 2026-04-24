@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:00:41.289909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "List of resources and links that are relevant",
+    "fork": false,
+    "full_name": "oak-security/resources",
+    "html_url": "https://github.com/oak-security/resources",
+    "language": null,
+    "pushed_at": "2026-01-16T08:58:46Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-01-16T08:58:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

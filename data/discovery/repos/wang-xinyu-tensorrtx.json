@@ -1,0 +1,404 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "alexeyab/darknet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "baofengzan/dbnet.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "cfzd/ultra-fast-lane-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "dingxiaoh/repvgg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "arcface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "mnasnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "mobilenetv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "mobilenetv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "retinaface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "squeezenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "swin-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolo11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolov3-spp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolov4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolov5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolov7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolov8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx",
+      "target": "yolov9",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:30.136416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27616
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of popular deep learning networks with TensorRT network definition API",
+    "fork": false,
+    "full_name": "wang-xinyu/tensorrtx",
+    "html_url": "https://github.com/wang-xinyu/tensorrtx",
+    "language": "C++",
+    "pushed_at": "2026-03-07T10:45:14Z",
+    "stargazers_count": 7755,
+    "topics": [
+      "arcface",
+      "crnn",
+      "detr",
+      "mnasnet",
+      "mobilenetv2",
+      "mobilenetv3",
+      "resnet",
+      "retinaface",
+      "squeezenet",
+      "swin-transformer",
+      "tensorrt",
+      "yolo11",
+      "yolov3",
+      "yolov3-spp",
+      "yolov4",
+      "yolov5",
+      "yolov7",
+      "yolov8",
+      "yolov9"
+    ],
+    "updated_at": "2026-04-24T06:36:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexeyab/darknet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baofengzan/dbnet.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cfzd/ultra-fast-lane-detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repvgg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcface"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mnasnet"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv2"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv3"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retinaface"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "squeezenet"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swin-transformer"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo11"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3-spp"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov7"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    },
+    {
+      "context_snippet": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov9"
+    }
+  ]
+}

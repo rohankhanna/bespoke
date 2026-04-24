@@ -421,6 +421,54 @@
       "source_repo": "89luca89/distrobox",
       "status": "candidate-context",
       "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate-context",
+      "text": "A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "One command brings a complete pre-wired LLM stack with hundreds of services to explore."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/bbin",
+      "status": "candidate-context",
+      "text": "Install any Babashka script or project with one command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/bbin",
+      "status": "candidate-context",
+      "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "AI Code Completions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
     }
   ],
   "candidate_glosses": [
@@ -627,6 +675,30 @@
       "source_repo": "89luca89/distrobox",
       "status": "candidate",
       "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/bbin",
+      "status": "candidate",
+      "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
     }
   ],
   "candidate_related_terms": [
@@ -958,11 +1030,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alebcay/awesome-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "babashka/bbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

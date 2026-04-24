@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "nice-mee/WindowsAgentArena"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bskyweb-aws.yaml",
+      "source_repo": "bluesky-social/social-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bskyweb-ghcr.yaml",
+      "source_repo": "bluesky-social/social-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-embedr-aws.yaml",
+      "source_repo": "bluesky-social/social-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-link-aws.yaml",
+      "source_repo": "bluesky-social/social-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ogcard-aws.yaml",
+      "source_repo": "bluesky-social/social-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/force-docker-build-cas.yml",
+      "source_repo": "jina-ai/clip-as-service"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "anacrolix/confluence"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kube-libsonnet/kube-libsonnet"
     }
   ]
 }

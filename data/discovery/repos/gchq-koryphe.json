@@ -1,0 +1,347 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yaml"
+    },
+    {
+      "component": "tkt-actions/add-issue-links@v1.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "Create Hotfix Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "Create Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/koryphe",
+      "target": "tkt-actions/add-issue-links@v1.8.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/koryphe",
+      "target": "Issue Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "Release To Nexus as standalone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/koryphe",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/koryphe",
+      "target": "functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/koryphe",
+      "target": "java-8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:49.705738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2837
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yaml",
+      "size": 981
+    },
+    {
+      "path": ".github/workflows/create-hotfix-branch.yaml",
+      "size": 2236
+    },
+    {
+      "path": ".github/workflows/create-release-branch.yaml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/link-issue.yml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/release-standalone.yaml",
+      "size": 1077
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 4601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "develop",
+    "description": "A flexible library for writing functional operations in Java",
+    "fork": false,
+    "full_name": "gchq/koryphe",
+    "html_url": "https://github.com/gchq/koryphe",
+    "language": "Java",
+    "pushed_at": "2025-06-06T10:20:12Z",
+    "stargazers_count": 24,
+    "topics": [
+      "functions",
+      "java-8"
+    ],
+    "updated_at": "2025-10-28T20:47:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Create Hotfix Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "term": "Create Hotfix Branch"
+    },
+    {
+      "context_snippet": "Create Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "term": "Create Release Branch"
+    },
+    {
+      "context_snippet": "'Issue Links'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "term": "Issue Links"
+    },
+    {
+      "context_snippet": "Release To Nexus as standalone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "term": "Release To Nexus as standalone"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"logos/koryphe_logo_text.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functions"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"logos/koryphe_logo_text.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-8"
+    }
+  ]
+}

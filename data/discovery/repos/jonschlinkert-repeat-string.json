@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "ansi-cyan",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "benchmarked",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "isobject",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "repeating",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "text-table",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "sindresorhus/repeating",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "jonschlinkert/repeat-element",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "verbose/verb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "ansi-cyan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "benchmarked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "isobject",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "repeating",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "text-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "yargs-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "repeat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "repeat-string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "repeating",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string",
+      "target": "string",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:00:51.663021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4580
+    },
+    {
+      "path": "package.json",
+      "size": 1728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method)",
+    "fork": false,
+    "full_name": "jonschlinkert/repeat-string",
+    "html_url": "https://github.com/jonschlinkert/repeat-string",
+    "language": "JavaScript",
+    "pushed_at": "2022-01-17T05:08:54Z",
+    "stargazers_count": 50,
+    "topics": [
+      "es",
+      "javascript",
+      "jonschlinkert",
+      "node",
+      "nodejs",
+      "repeat",
+      "repeat-string",
+      "repeating",
+      "string"
+    ],
+    "updated_at": "2025-07-01T01:59:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/repeat-element",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/repeating",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verbose/verb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repeat"
+    },
+    {
+      "context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repeat-string"
+    },
+    {
+      "context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repeating"
+    },
+    {
+      "context_snippet": "> Repeat the given string n times. Fastest implementation for repeating a string.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string"
+    }
+  ]
+}

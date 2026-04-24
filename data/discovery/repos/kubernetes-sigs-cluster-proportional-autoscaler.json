@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-release.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler",
+      "target": "helm/chart-releaser-action@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-chart-release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler",
+      "target": "Release Helm Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler",
+      "target": "k8s-sig-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:01:38.581657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9878
+    },
+    {
+      "path": "go.mod",
+      "size": 2176
+    },
+    {
+      "path": ".github/workflows/helm-chart-release.yaml",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes Cluster Proportional Autoscaler Container",
+    "fork": false,
+    "full_name": "kubernetes-sigs/cluster-proportional-autoscaler",
+    "html_url": "https://github.com/kubernetes-sigs/cluster-proportional-autoscaler",
+    "language": "Go",
+    "pushed_at": "2026-03-19T01:07:29Z",
+    "stargazers_count": 748,
+    "topics": [
+      "k8s-sig-network"
+    ],
+    "updated_at": "2026-04-07T13:59:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release Helm Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-chart-release.yaml",
+      "term": "Release Helm Charts"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/kubernetes-incubator/cluster-proportional-autoscaler.png)](https://travis-ci.org/kubernetes-incubator/cluster-proportional-autoscaler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-network"
+    }
+  ]
+}

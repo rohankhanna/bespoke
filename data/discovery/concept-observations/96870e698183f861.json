@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\uddb9\u200d\u2642\ufe0f Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39662250,
+      "status": "candidate",
+      "text": "pair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39646237,
+      "status": "candidate",
+      "text": "parallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39643880,
+      "status": "candidate",
+      "text": "counterpart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39636391,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39634278,
+      "status": "candidate",
+      "text": "couple"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "twin",
+      "sense_id": "twin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19050,
+      "status": "candidate",
+      "text": "mate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17058,
+      "status": "candidate",
+      "text": "parallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16042,
+      "status": "candidate",
+      "text": "similar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13058,
+      "status": "candidate",
+      "text": "match"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "duplicate"
+    }
+  ],
+  "concept_id": "twin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "twin",
+  "observation_id": "96870e698183f861",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "twin",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "ben-rogerson/twin.macro",
+  "source_repo_description": "\ud83e\uddb9\u200d\u2642\ufe0f Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time."
+}

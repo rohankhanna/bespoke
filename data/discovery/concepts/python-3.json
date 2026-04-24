@@ -43,6 +43,30 @@
       "source_repo": "bazel-contrib/rules_python",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate-context",
+      "text": "Freeze (package) Python programs into stand-alone executables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate-context",
+      "text": "PyInstaller Overview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "Messaging library for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "========================================"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "bazel-contrib/rules_python",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate",
+      "text": "PyInstaller Overview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate",
+      "text": "========================================"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celery/kombu"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

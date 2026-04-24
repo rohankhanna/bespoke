@@ -31,6 +31,30 @@
       "source_repo": "dotnet/efcore",
       "status": "candidate-context",
       "text": "Inter-branch merge workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Inter-branch merge workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate-context",
+      "text": "Home to .NET's dependency flow system & tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate-context",
+      "text": "Inter-branch merge workflow"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/efcore",
+      "status": "candidate",
+      "text": "Inter-branch merge workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate",
+      "text": "Inter-branch merge workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/arcade-services",
       "status": "candidate",
       "text": "Inter-branch merge workflow"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/inter-branch-merge-flow.yml",
       "source_repo": "dotnet/efcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/arcade-services"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

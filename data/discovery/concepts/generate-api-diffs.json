@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate API Diffs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/orleans",
+      "status": "candidate-context",
+      "text": "Cloud Native application framework for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/orleans",
+      "status": "candidate-context",
+      "text": "Generate API Diffs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/orleans",
+      "status": "candidate",
+      "text": "Generate API Diffs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11423,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11398,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11277,
+      "status": "candidate",
+      "text": "abomination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11277,
+      "status": "candidate",
+      "text": "acting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11277,
+      "status": "candidate",
+      "text": "adsorb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate API Diffs",
+  "concept_id": "generate-api-diffs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generate-api-diffs.yml",
+      "source_repo": "dotnet/orleans"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate API Diffs",
+      "sense_id": "generate-api-diffs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

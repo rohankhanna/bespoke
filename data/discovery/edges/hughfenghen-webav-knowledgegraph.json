@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "ffmpegwasm/ffmpeg.wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "gpac/mp4box.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "goldfire/howler.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "hughfenghen/bloom-shadow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "webcodecs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "hughfenghen/WebAV-KnowledgeGraph"
+}

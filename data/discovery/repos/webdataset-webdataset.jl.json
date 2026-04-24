@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "tmbdev/webdataset-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "julia-multithreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "shards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/WebDataset.jl",
+      "target": "tar-files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:47.984350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12436
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1901
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 457
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high performance I/O library for deep learning in Julia, based on the PyTorch WebDataset library",
+    "fork": false,
+    "full_name": "webdataset/WebDataset.jl",
+    "html_url": "https://github.com/webdataset/WebDataset.jl",
+    "language": "Julia",
+    "pushed_at": "2025-12-18T11:12:35Z",
+    "stargazers_count": 14,
+    "topics": [
+      "deep-learning",
+      "julia",
+      "julia-multithreading",
+      "shards",
+      "tar-files"
+    ],
+    "updated_at": "2025-09-30T11:09:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmbdev/webdataset-lightning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-multithreading"
+    },
+    {
+      "context_snippet": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shards"
+    },
+    {
+      "context_snippet": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tar-files"
+    }
+  ]
+}

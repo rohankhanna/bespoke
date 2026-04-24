@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "neovim"
+    "neovim",
+    "Neovim"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -1159,6 +1162,210 @@
       "source_repo": "notomo/vusted",
       "status": "candidate-context",
       "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "molleweide/LuaSnip-snippets.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin that provides snippets for the LuaSnip plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "molleweide/LuaSnip-snippets.nvim",
+      "status": "candidate-context",
+      "text": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "status": "candidate-context",
+      "text": "luasnip completion source for nvim-cmp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "status": "candidate-context",
+      "text": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-galore",
+      "status": "candidate-context",
+      "text": ":mortar_board: All things Vim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-galore",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "status": "candidate-context",
+      "text": "EXPERIMENTAL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "status": "candidate-context",
+      "text": "This is an **experimental project**, trying to build a compatibility layer for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "A guide to using Lua in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuvyklack/animation.nvim",
+      "status": "candidate-context",
+      "text": "Create animations in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/animation.nvim",
+      "status": "candidate-context",
+      "text": "An OOP library to create animations in Neovim (as far as terminal application"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psliwka/vim-smoothie",
+      "status": "candidate-context",
+      "text": "Smooth scrolling for Vim done right\ud83e\udd64"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psliwka/vim-smoothie",
+      "status": "candidate-context",
+      "text": "vim-smoothie: Smooth scrolling for Vim done right\ud83e\udd64"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate-context",
+      "text": "Tools to help create flutter apps in neovim using the native lsp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate-context",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "vim match-up: even better % :facepunch: navigate and highlight matching words :facepunch: modern matchit and matchparen.  Supports both vim and neovim + tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindrets/diffview.nvim",
+      "status": "candidate-context",
+      "text": "Single tabpage interface for easily cycling through diffs for all modified files for any git rev."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindrets/diffview.nvim",
+      "status": "candidate-context",
+      "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "MIRROR of: https://codeberg.org/mfussenegger/nvim-jdtls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate-context",
+      "text": "A plugin simplifying the task of working with VS Code codicons in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate-context",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "A Neovim configuration for the advanced martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1737,6 +1944,114 @@
       "source_repo": "notomo/vusted",
       "status": "candidate",
       "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "molleweide/LuaSnip-snippets.nvim",
+      "status": "candidate",
+      "text": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "status": "candidate",
+      "text": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-galore",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "status": "candidate",
+      "text": "This is an **experimental project**, trying to build a compatibility layer for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/animation.nvim",
+      "status": "candidate",
+      "text": "An OOP library to create animations in Neovim (as far as terminal application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psliwka/vim-smoothie",
+      "status": "candidate",
+      "text": "vim-smoothie: Smooth scrolling for Vim done right\ud83e\udd64"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate",
+      "text": "Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindrets/diffview.nvim",
+      "status": "candidate",
+      "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate",
+      "text": "Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate",
+      "text": "neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2380,11 +2695,149 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "notomo/vusted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "molleweide/LuaSnip-snippets.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "saadparwaiz1/cmp_luasnip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-galore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "roxma/vim-hug-neovim-rpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nanotee/nvim-lua-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anuvyklack/animation.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "psliwka/vim-smoothie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvim-flutter/flutter-tools.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-tree.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sindrets/diffview.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-jdtls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mortepau/codicons.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "doom-neovim/doom-nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mvz/non-digest-assets",
+      "target": "sikachu/sprockets-redirect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "mvz/non-digest-assets",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "mvz/non-digest-assets",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "mvz/non-digest-assets",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mvz/non-digest-assets",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mvz/non-digest-assets",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mvz/non-digest-assets",
+      "target": "ruby-on-rails",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:03:49.140587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2735
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 3267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate non-digest along with digest assets - less angry fork of non-stupid-digest-assets",
+    "fork": true,
+    "full_name": "mvz/non-digest-assets",
+    "html_url": "https://github.com/mvz/non-digest-assets",
+    "language": "Ruby",
+    "pushed_at": "2026-01-02T16:42:58Z",
+    "stargazers_count": 22,
+    "topics": [
+      "hacktoberfest",
+      "ruby",
+      "ruby-on-rails"
+    ],
+    "updated_at": "2026-01-02T16:43:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sikachu/sprockets-redirect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "In Rails starting from version 4, there is no way to by default compile both",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "In Rails starting from version 4, there is no way to by default compile both",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "In Rails starting from version 4, there is no way to by default compile both",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-on-rails"
+    }
+  ]
+}

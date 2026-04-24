@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Binary Package (Alpha)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArkMowers/arknights-mower",
+      "status": "candidate-context",
+      "text": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArkMowers/arknights-mower",
+      "status": "candidate-context",
+      "text": "Windows Binary Package (Alpha)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArkMowers/arknights-mower",
+      "status": "candidate",
+      "text": "Windows Binary Package (Alpha)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17896,
+      "status": "candidate",
+      "text": "slat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17806,
+      "status": "candidate",
+      "text": "curtain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17806,
+      "status": "candidate",
+      "text": "shutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17740,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17740,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Binary Package (Alpha)",
+  "concept_id": "windows-binary-package-alpha",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pyinstaller-win-alpha.yml",
+      "source_repo": "ArkMowers/arknights-mower"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Binary Package (Alpha)",
+      "sense_id": "windows-binary-package-alpha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go source code for Bluesky's atproto services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "container-bluepages-aws"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "container-bluepages-aws"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "container-bluepages-aws",
+      "sense_id": "container-bluepages-aws#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "container-bluepages-aws",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "container-bluepages-aws",
+  "observation_id": "8d0bbbe58f509667",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "container-bluepages-aws",
+  "source_context_snippet": "container-bluepages-aws",
+  "source_file": ".github/workflows/container-bluepages-aws.yaml",
+  "source_repo": "bluesky-social/indigo",
+  "source_repo_description": "Go source code for Bluesky's atproto services."
+}

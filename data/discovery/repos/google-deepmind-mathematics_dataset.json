@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/mathematics_dataset",
+      "target": "deepmind/mathematics_dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:51.107436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This dataset code generates mathematical question and answer pairs, from a range of question types at roughly school-level difficulty.",
+    "fork": false,
+    "full_name": "google-deepmind/mathematics_dataset",
+    "html_url": "https://github.com/google-deepmind/mathematics_dataset",
+    "language": "Python",
+    "pushed_at": "2024-12-23T14:21:10Z",
+    "stargazers_count": 1951,
+    "topics": [],
+    "updated_at": "2026-04-16T07:40:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mathematics_dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

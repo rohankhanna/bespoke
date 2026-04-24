@@ -331,6 +331,66 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate-context",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate-context",
+      "text": "Industry Working Group on Automated Cryptographic Algorithm Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate-context",
+      "text": "The [Automated Cryptographic Validation Protocol](https://pages.nist.gov/ACVP/draft-fussell-acvp-spec.html) (ACVP) is a protocol to support a new National Voluntary Laboratory Accreditation Program (NVLAP) testing scope at the [National Institute of Standards and Technology (NIS\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jedisct1/libsodium",
+      "status": "candidate-context",
+      "text": "A modern, portable, easy to use crypto library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/libsodium",
+      "status": "candidate-context",
+      "text": "Autocloser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "briansmith/ring",
+      "status": "candidate-context",
+      "text": "An experiment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "briansmith/ring",
+      "status": "candidate-context",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\" AND BRIAN SMITH AND THE AUTHORS DISCLAIM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate-context",
+      "text": "Onion Routed Micropayments for the Lightning Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate-context",
+      "text": "This repository houses an implementation of the [Lightning"
     }
   ],
   "candidate_glosses": [
@@ -501,6 +561,36 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate",
+      "text": "The [Automated Cryptographic Validation Protocol](https://pages.nist.gov/ACVP/draft-fussell-acvp-spec.html) (ACVP) is a protocol to support a new National Voluntary Laboratory Accreditation Program (NVLAP) testing scope at the [National Institute of Standards and Technology (NIS\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/libsodium",
+      "status": "candidate",
+      "text": "Autocloser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "briansmith/ring",
+      "status": "candidate",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\" AND BRIAN SMITH AND THE AUTHORS DISCLAIM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate",
+      "text": "This repository houses an implementation of the [Lightning"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +826,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "lightningnetwork/lnd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jedisct1/libsodium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "briansmith/ring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/curve25519-dalek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

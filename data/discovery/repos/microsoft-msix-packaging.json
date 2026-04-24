@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/msix-packaging",
+      "target": "apache/xerces-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/msix-packaging",
+      "target": "msix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:32.475789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12983
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MSIX SDK",
+    "fork": false,
+    "full_name": "microsoft/msix-packaging",
+    "html_url": "https://github.com/microsoft/msix-packaging",
+    "language": "C",
+    "pushed_at": "2025-04-28T18:04:30Z",
+    "stargazers_count": 1051,
+    "topics": [
+      "msix",
+      "uwp"
+    ],
+    "updated_at": "2026-04-23T16:36:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/xerces-c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Copyright (c) 2019 Microsoft Corp. All rights reserved.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msix"
+    }
+  ]
+}

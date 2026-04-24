@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -106,6 +106,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "libvips/libvips"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/graylint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "celery/billiard"
     }
   ],
   "term": "Codespell"

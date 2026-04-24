@@ -19,6 +19,18 @@
       "source_repo": "inikep/lizard",
       "status": "candidate-context",
       "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "Utilities for efficient fine-tuning, inference and evaluation of code generation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "inikep/lizard",
       "status": "candidate",
       "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +136,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "inikep/lizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "inikep/lizard"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

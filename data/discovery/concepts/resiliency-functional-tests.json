@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Resiliency Functional Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "Resiliency Functional Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate",
+      "text": "Resiliency Functional Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25653,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19238,
+      "status": "candidate",
+      "text": "audition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19238,
+      "status": "candidate",
+      "text": "checkout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19238,
+      "status": "candidate",
+      "text": "gymnastics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19238,
+      "status": "candidate",
+      "text": "hardy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Resiliency Functional Tests",
+  "concept_id": "resiliency-functional-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/go-resiliency.yml",
+      "source_repo": "minio/minio"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Resiliency Functional Tests",
+      "sense_id": "resiliency-functional-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

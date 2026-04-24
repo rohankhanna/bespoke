@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hadronized/hop.nvim",
+      "target": "phaazon/hop.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hadronized/hop.nvim",
+      "target": "smoka7/hop.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:58.388811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Neovim motions on speed!",
+    "fork": false,
+    "full_name": "hadronized/hop.nvim",
+    "html_url": "https://github.com/hadronized/hop.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-09-12T07:51:51Z",
+    "stargazers_count": 2511,
+    "topics": [],
+    "updated_at": "2026-04-17T04:39:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phaazon/hop.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smoka7/hop.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/evio.c",
+      "target": "tidwall/evio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/evio.c",
+      "target": "tidwall/pkg.sh",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:13.019580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A framework for building event based networking applications.",
+    "fork": false,
+    "full_name": "tidwall/evio.c",
+    "html_url": "https://github.com/tidwall/evio.c",
+    "language": "C",
+    "pushed_at": "2024-12-08T16:18:04Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2025-10-29T19:18:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tidwall/evio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tidwall/pkg.sh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -250,6 +250,30 @@
       "source_repo": "resilience4j/resilience4j",
       "status": "candidate-context",
       "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "simple tool to count SLOC (source lines of code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Compile-Time Instrumentation for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "![](docs/public/anim-logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -372,6 +396,18 @@
       "source_repo": "resilience4j/resilience4j",
       "status": "candidate",
       "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate",
+      "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate",
+      "text": "![](docs/public/anim-logo.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -553,11 +589,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "resilience4j/resilience4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flosse/sloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

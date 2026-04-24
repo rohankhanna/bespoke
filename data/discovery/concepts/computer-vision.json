@@ -439,6 +439,102 @@
       "source_repo": "pytorch/vision",
       "status": "candidate-context",
       "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "status": "candidate-context",
+      "text": "Code to create Stylized-ImageNet, a stylized version of standard ImageNet (ICLR 2019 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "status": "candidate-context",
+      "text": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for the paper \"MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "WB color augmenter improves the accuracy of image classification and image semantic segmentation methods by emulating different WB effects  (ICCV 2019) [Python & Matlab]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate-context",
+      "text": "White balance camera-rendered sRGB images (CVPR 2019) [Matlab & Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "Cross-platform, customizable ML solutions for live and streaming media."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] Balanced MSE for Imbalanced Visual Regression https://arxiv.org/abs/2203.16427"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "status": "candidate-context",
+      "text": "Code for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "API to run VirtualHome, a Multi-Agent Household Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphdeco-inria/gaussian-splatting",
+      "status": "candidate-context",
+      "text": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphdeco-inria/gaussian-splatting",
+      "status": "candidate-context",
+      "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +753,54 @@
       "source_repo": "pytorch/vision",
       "status": "candidate",
       "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "status": "candidate",
+      "text": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "status": "candidate",
+      "text": "Code for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphdeco-inria/gaussian-splatting",
+      "status": "candidate",
+      "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
     }
   ],
   "candidate_related_terms": [],
@@ -892,11 +1036,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pytorch/vision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_sRGB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jiawei-ren/BalancedMSE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "xavierpuigf/virtualhome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "graphdeco-inria/gaussian-splatting"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

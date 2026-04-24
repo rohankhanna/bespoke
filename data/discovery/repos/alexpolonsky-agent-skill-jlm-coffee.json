@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "alexpolonsky/agent-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "coffee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "israel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "jerusalem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "target": "specialty-coffee",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:18.297449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor.",
+    "fork": false,
+    "full_name": "alexpolonsky/agent-skill-jlm-coffee",
+    "html_url": "https://github.com/alexpolonsky/agent-skill-jlm-coffee",
+    "language": "Python",
+    "pushed_at": "2026-02-26T07:13:39Z",
+    "stargazers_count": 1,
+    "topics": [
+      "agent-skills",
+      "ai-tools",
+      "claude-code",
+      "coffee",
+      "cursor",
+      "israel",
+      "jerusalem",
+      "openclaw",
+      "python",
+      "specialty-coffee"
+    ],
+    "updated_at": "2026-04-09T13:59:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skills",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coffee"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jerusalem"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specialty-coffee"
+    }
+  ]
+}

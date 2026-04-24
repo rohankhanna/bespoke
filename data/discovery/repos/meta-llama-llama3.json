@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama3",
+      "target": "meta-llama/llama-toolchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama3",
+      "target": "meta-llama/llama-agentic-system",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama3",
+      "target": "meta-llama/llama-recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama3",
+      "target": "facebookresearch/llama-recipes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:35.961795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9558
+    },
+    {
+      "path": "requirements.txt",
+      "size": 46
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The official Meta Llama 3 GitHub site",
+    "fork": false,
+    "full_name": "meta-llama/llama3",
+    "html_url": "https://github.com/meta-llama/llama3",
+    "language": "Python",
+    "pushed_at": "2025-01-26T21:39:06Z",
+    "stargazers_count": 29292,
+    "topics": [],
+    "updated_at": "2026-04-24T01:41:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama-recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-agentic-system",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-toolchain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

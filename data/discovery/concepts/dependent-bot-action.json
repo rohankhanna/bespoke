@@ -1,0 +1,142 @@
+{
+  "aliases": [
+    "Dependent Bot Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AttentionEngine",
+      "status": "candidate-context",
+      "text": "Dependent Bot Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BitBLAS",
+      "status": "candidate-context",
+      "text": "BitBLAS is a library to support mixed-precision matrix multiplications, especially for quantized LLM deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BitBLAS",
+      "status": "candidate-context",
+      "text": "Dependent Bot Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate-context",
+      "text": "Ascend TileLang adapter "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate-context",
+      "text": "Dependent Bot Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AttentionEngine",
+      "status": "candidate",
+      "text": "Dependent Bot Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BitBLAS",
+      "status": "candidate",
+      "text": "Dependent Bot Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate",
+      "text": "Dependent Bot Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27003,
+      "status": "candidate",
+      "text": "muscular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26774,
+      "status": "candidate",
+      "text": "physicochemical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23560,
+      "status": "candidate",
+      "text": "reliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23275,
+      "status": "candidate",
+      "text": "respiration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23253,
+      "status": "candidate",
+      "text": "alternate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependent Bot Action",
+  "concept_id": "dependent-bot-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "microsoft/AttentionEngine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "microsoft/BitBLAS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "tile-ai/tilelang-ascend"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependent Bot Action",
+      "sense_id": "dependent-bot-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

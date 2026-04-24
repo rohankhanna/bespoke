@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:10:02.830025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provide a plaintext results [FrameWorkBenchmark](https://github.com/TechEmpower/FrameworkBenchmarks) json parser based on python [prettytable](https://pypi.org/project/prettytable/), ",
+    "fork": false,
+    "full_name": "j0826/PlainTextResultsParser",
+    "html_url": "https://github.com/j0826/PlainTextResultsParser",
+    "language": "Python",
+    "pushed_at": "2023-02-20T06:09:14Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-10-04T21:19:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

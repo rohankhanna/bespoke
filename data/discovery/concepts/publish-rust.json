@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Rust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/kitoken",
+      "status": "candidate-context",
+      "text": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/kitoken",
+      "status": "candidate-context",
+      "text": "Publish Rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/kitoken",
+      "status": "candidate",
+      "text": "Publish Rust"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "aeciospore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "eats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "oxidize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10454,
+      "status": "candidate",
+      "text": "aggravate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Rust",
+  "concept_id": "publish-rust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marin-community/kitoken"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Rust",
+      "sense_id": "publish-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

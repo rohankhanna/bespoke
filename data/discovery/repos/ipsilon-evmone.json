@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipsilon/evmone",
+      "target": "ewasm/go-ethereum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmone",
       "target": "ethereum/evmone",
       "target_type": "repository"
     },
@@ -19,14 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipsilon/evmone",
-      "target": "chfast/intx",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipsilon/evmone",
-      "target": "chfast/ethash",
+      "target": "torquem-ch/silkpre",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:57:53.596062+00:00",
+  "fetched_at": "2026-04-24T08:59:03.441497+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -100,22 +100,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chfast/ethash",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chfast/intx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "ethereum/evmc",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ethereum/evmone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ewasm/go-ethereum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "torquem-ch/silkpre",
       "source_file": "README.md"
     }
   ],

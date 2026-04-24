@@ -19,6 +19,18 @@
       "source_repo": "thiagopradi/octopus",
       "status": "candidate-context",
       "text": "Database Sharding for ActiveRecord"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mvz/non-digest-assets",
+      "status": "candidate-context",
+      "text": "Generate non-digest along with digest assets - less angry fork of non-stupid-digest-assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvz/non-digest-assets",
+      "status": "candidate-context",
+      "text": "In Rails starting from version 4, there is no way to by default compile both"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "thiagopradi/octopus",
       "status": "candidate",
       "text": "Database Sharding for ActiveRecord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvz/non-digest-assets",
+      "status": "candidate",
+      "text": "In Rails starting from version 4, there is no way to by default compile both"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "thiagopradi/octopus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mvz/non-digest-assets"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

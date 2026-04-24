@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:09:12.055680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3927
+    },
+    {
+      "path": "requirements.txt",
+      "size": 23
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":waning_gibbous_moon:  ASCII Art Phase of the Moon (Python version)",
+    "fork": false,
+    "full_name": "chubin/pyphoon",
+    "html_url": "https://github.com/chubin/pyphoon",
+    "language": "Python",
+    "pushed_at": "2023-10-09T17:38:18Z",
+    "stargazers_count": 1472,
+    "topics": [],
+    "updated_at": "2026-04-23T15:02:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

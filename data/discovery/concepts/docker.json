@@ -1582,6 +1582,270 @@
       "source_repo": "pnpm/pnpm",
       "status": "candidate-context",
       "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ballista Distributed Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5\ufe0f Reproducible development environment for humans and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/worker",
+      "status": "candidate-context",
+      "text": "Worker runs your Travis CI jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/worker",
+      "status": "candidate-context",
+      "text": "Worker is the component of Travis CI that will run a CI job on some form of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate-context",
+      "text": "Docker build scripts for TornadoVM on GPUs: https://github.com/beehive-lab/TornadoVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "One command brings a complete pre-wired LLM stack with hundreds of services to explore."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Swin Transformer using TorchServe "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "The container native, cloud agnostic serverless platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate-context",
+      "text": "Go client for the Docker Engine API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fsouza/go-dockerclient/workflows/Build/badge.svg)](https://github.com/fsouza/go-dockerclient/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/confluence",
+      "status": "candidate-context",
+      "text": "Torrent client as a HTTP service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/confluence",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "Meta-programming for Swift, stop writing boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Julia docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab MAX/Mojo docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Python docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab R docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate-context",
+      "text": "A highly configurable Go implementation of the Ethereum protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate-context",
+      "text": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/bake-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to use Docker Buildx Bake as a high-level build command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/bake-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/bake-action.svg?style=flat-square)](https://github.com/docker/bake-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to extract metadata (tags, labels) from Git reference and GitHub events for Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-stack/redis-stack",
+      "status": "candidate-context",
+      "text": "A Redis server with additional database capabilities powered by Redis modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-stack/redis-stack",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
     }
   ],
   "candidate_glosses": [
@@ -2376,6 +2640,138 @@
       "source_repo": "pnpm/pnpm",
       "status": "candidate",
       "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/worker",
+      "status": "candidate",
+      "text": "Worker is the component of Travis CI that will run a CI job on some form of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fsouza/go-dockerclient/workflows/Build/badge.svg)](https://github.com/fsouza/go-dockerclient/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/confluence",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate",
+      "text": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/bake-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/bake-action.svg?style=flat-square)](https://github.com/docker/bake-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-stack/redis-stack",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -3475,11 +3871,203 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "pnpm/pnpm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/worker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/docker-tornadovm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/fn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fsouza/go-dockerclient"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "anacrolix/confluence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-julia-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-python-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-r-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "docker/bake-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "docker/metadata-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

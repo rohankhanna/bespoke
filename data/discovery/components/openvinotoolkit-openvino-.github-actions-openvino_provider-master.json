@@ -1,12 +1,37 @@
 {
   "component": "openvinotoolkit/openvino/.github/actions/openvino_provider@master",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino_tokenizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "openvinotoolkit/openvino_tokenizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "openvinotoolkit/openvino_tokenizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_28.yml",
+      "source_repo": "openvinotoolkit/openvino_tokenizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "openvinotoolkit/openvino_tokenizers"
     }
   ]
 }

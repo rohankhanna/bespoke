@@ -193,6 +193,30 @@
       "source_repo": "tinted-theming/home",
       "status": "candidate-context",
       "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajlende/base16-atlas-scheme",
+      "status": "candidate-context",
+      "text": "A base16 color scheme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajlende/base16-atlas-scheme",
+      "status": "candidate-context",
+      "text": "Inspired by some No Man's Sky concept art."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootscore/bootscore",
+      "status": "candidate-context",
+      "text": "Flexible Bootstrap WordPress starter theme with full WooCommerce support and built-in SCSS compiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootscore/bootscore",
+      "status": "candidate-context",
+      "text": "<br>"
     }
   ],
   "candidate_glosses": [
@@ -285,6 +309,18 @@
       "source_repo": "tinted-theming/home",
       "status": "candidate",
       "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajlende/base16-atlas-scheme",
+      "status": "candidate",
+      "text": "Inspired by some No Man's Sky concept art."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootscore/bootscore",
+      "status": "candidate",
+      "text": "<br>"
     }
   ],
   "candidate_related_terms": [
@@ -496,11 +532,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ajlende/base16-atlas-scheme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bootscore/bootscore"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependabot Change Note"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate-context",
+      "text": "Tools to support converting a Python project into a standalone native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate-context",
+      "text": "Dependabot Change Note"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate",
+      "text": "Dependabot Change Note"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bends"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "monotone"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependabot Change Note",
+  "concept_id": "dependabot-change-note",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dependabot-changenote.yml",
+      "source_repo": "beeware/briefcase"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependabot Change Note",
+      "sense_id": "dependabot-change-note#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

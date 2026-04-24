@@ -31,6 +31,66 @@
       "source_repo": "PaddlePaddle/PaddleX",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "OpenMMLab Model Compression Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate-context",
+      "text": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "status": "candidate-context",
+      "text": "[CADL'22, ECCVW] Official repository of paper titled \"EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "status": "candidate-context",
+      "text": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate-context",
+      "text": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "PaddlePaddle/PaddleX",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "status": "candidate",
+      "text": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -122,11 +212,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmrazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mmaaz60/EdgeNeXt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

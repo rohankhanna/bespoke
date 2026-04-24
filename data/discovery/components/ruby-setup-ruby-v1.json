@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -857,6 +857,186 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ruby.yml",
       "source_repo": "anilmaurya/fast_jsonparser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deivid-rodriguez/byebug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "deivid-rodriguez/byebug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "redis/hiredis-rb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "stencilproject/Stencil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-cocoapods.yml",
+      "source_repo": "stencilproject/Stencil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-check-versions.yml",
+      "source_repo": "stencilproject/Stencil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "stencilproject/Stencil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "stencilproject/Stencil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "stencilproject/Stencil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "LucHermitte/lh-vim-lib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-update-repos.yml",
+      "source_repo": "cloudfoundry/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carrierwaveuploader/carrierwave"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/commonmarker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bkeepers/dotenv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bkeepers/dotenv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "status-im/nimbus-eth2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "mvz/non-digest-assets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/sprockets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/isolated.yml",
+      "source_repo": "rails/sprockets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "rails/sprockets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "tmuxinator/tmuxinator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "dherault/serverless-offline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "ohler55/oj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml.ignore",
+      "source_repo": "ohler55/oj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rake-compiler/rake-compiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rake-compiler/rake-compiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "saka1/simdjson_ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "saka1/simdjson_ruby"
     }
   ]
 }

@@ -140,6 +140,42 @@
       "source_repo": "plantain-00/type-coverage",
       "status": "candidate-context",
       "text": "Github CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locationtech/jts",
+      "status": "candidate-context",
+      "text": "The JTS Topology Suite is a Java library for creating and manipulating vector geometry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locationtech/jts",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "Useful extra functionality for TensorFlow 2.x maintained by SIG-addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/drupal",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for Drupal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/drupal",
+      "status": "candidate-context",
+      "text": "GitHub CI"
     }
   ],
   "candidate_glosses": [
@@ -214,6 +250,24 @@
       "source_repo": "plantain-00/type-coverage",
       "status": "candidate",
       "text": "Github CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locationtech/jts",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/drupal",
+      "status": "candidate",
+      "text": "GitHub CI"
     }
   ],
   "candidate_related_terms": [
@@ -329,11 +383,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/github-ci.yaml",
       "source_repo": "plantain-00/type-coverage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "locationtech/jts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "tensorflow/addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/drupal"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

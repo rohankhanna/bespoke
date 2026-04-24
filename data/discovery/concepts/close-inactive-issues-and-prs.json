@@ -43,6 +43,18 @@
       "source_repo": "LDLINGLINGLING/vllm",
       "status": "candidate-context",
       "text": "'Close inactive issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "'Close inactive issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate",
+      "text": "'Close inactive issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
       "status": "candidate",
       "text": "'Close inactive issues and PRs'"
     }
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "LDLINGLINGLING/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hiyouga/vllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

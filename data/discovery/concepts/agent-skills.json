@@ -97,6 +97,42 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate-context",
+      "text": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "status": "candidate-context",
+      "text": "Search Israeli restaurants, check availability across date ranges, and get booking links. Agent Skills format for OpenClaw, Claude, Cursor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "status": "candidate-context",
+      "text": "A curated list of Agent Skills for navigating life in Israel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "status": "candidate-context",
+      "text": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +177,24 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-ontopo",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "status": "candidate",
+      "text": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)"
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +280,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-ontopo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

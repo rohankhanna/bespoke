@@ -88,6 +88,30 @@
       "source_repo": "alpinelinux/aports",
       "status": "candidate-context",
       "text": "This repository contains the APKBUILD files for each and every"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-studio",
+      "status": "candidate-context",
+      "text": "A modular, extensible dashboard application framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-studio",
+      "status": "candidate-context",
+      "text": "Packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "Dependency Manager for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -132,6 +156,18 @@
       "source_repo": "alpinelinux/aports",
       "status": "candidate",
       "text": "This repository contains the APKBUILD files for each and every"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-studio",
+      "status": "candidate",
+      "text": "Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -217,11 +253,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "alpinelinux/aports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "elsa-workflows/elsa-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "composer/composer"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

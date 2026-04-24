@@ -19,6 +19,18 @@
       "source_repo": "girishji/ngramview-complete.vim",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate-context",
+      "text": "Auto-completion for Vim's command-line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate-context",
+      "text": "> **This plugin is obsolete and will no longer be maintained.**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "girishji/ngramview-complete.vim",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate",
+      "text": "> **This plugin is obsolete and will no longer be maintained.**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "girishji/ngramview-complete.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "girishji/vimsuggest"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

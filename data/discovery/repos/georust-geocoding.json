@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "georust/geocoding",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "georust/geocoding",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/geocoding",
+      "target": "geocoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/geocoding",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/geocoding",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:14:43.475008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 735
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 701
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Geocoding library for Rust.",
+    "fork": false,
+    "full_name": "georust/geocoding",
+    "html_url": "https://github.com/georust/geocoding",
+    "language": "Rust",
+    "pushed_at": "2025-01-13T12:26:00Z",
+    "stargazers_count": 79,
+    "topics": [
+      "geocoding",
+      "geospatial",
+      "rust"
+    ],
+    "updated_at": "2026-03-17T18:30:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Rust utilities to enrich addresses, cities, countries, and landmarks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocoding"
+    },
+    {
+      "context_snippet": "Rust utilities to enrich addresses, cities, countries, and landmarks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "Rust utilities to enrich addresses, cities, countries, and landmarks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

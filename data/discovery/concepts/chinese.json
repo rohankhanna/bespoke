@@ -91,6 +91,54 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate-context",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate-context",
+      "text": "RoBERTa\u4e2d\u6587\u9884\u8bad\u7ec3\u6a21\u578b: RoBERTa for Chinese "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate-context",
+      "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esbatmop/MNBVC",
+      "status": "candidate-context",
+      "text": "MNBVC(Massive Never-ending BT Vast Chinese corpus)\u8d85\u5927\u89c4\u6a21\u4e2d\u6587\u8bed\u6599\u96c6\u3002\u5bf9\u6807chatGPT\u8bad\u7ec3\u768440T\u6570\u636e\u3002MNBVC\u6570\u636e\u96c6\u4e0d\u4f46\u5305\u62ec\u4e3b\u6d41\u6587\u5316\uff0c\u4e5f\u5305\u62ec\u5404\u4e2a\u5c0f\u4f17\u6587\u5316\u751a\u81f3\u706b\u661f\u6587\u7684\u6570\u636e\u3002MNBVC\u6570\u636e\u96c6\u5305\u62ec\u65b0\u95fb\u3001\u4f5c\u6587\u3001\u5c0f\u8bf4\u3001\u4e66\u7c4d\u3001\u6742\u5fd7\u3001\u8bba\u6587\u3001\u53f0\u8bcd\u3001\u5e16\u5b50\u3001wiki\u3001\u53e4\u8bd7\u3001\u6b4c\u8bcd\u3001\u5546\u54c1\u4ecb\u7ecd\u3001\u7b11\u8bdd\u3001\u7cd7\u4e8b\u3001\u804a\u5929\u8bb0\u5f55\u7b49\u4e00\u5207\u5f62\u5f0f\u7684\u7eaf\u6587\u672c\u4e2d\u6587\u6570\u636e\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbatmop/MNBVC",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u4e92\u8054\u7f51\u4e0a\u6700\u53e4\u8001\u6700\u795e\u79d8(\u6ca1\u6709\u4e4b\u4e00)\u7684[MOP\u91cc\u5c4b\u793e\u533a](http://mnbvc.253874.net/)\u4e8e2023.1.1\u5e84\u91cd\u5ba3\u5e03:"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate",
+      "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbatmop/MNBVC",
+      "status": "candidate",
+      "text": "\u4e2d\u6587\u4e92\u8054\u7f51\u4e0a\u6700\u53e4\u8001\u6700\u795e\u79d8(\u6ca1\u6709\u4e4b\u4e00)\u7684[MOP\u91cc\u5c4b\u793e\u533a](http://mnbvc.253874.net/)\u4e8e2023.1.1\u5e84\u91cd\u5ba3\u5e03:"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +307,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "esbatmop/MNBVC"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

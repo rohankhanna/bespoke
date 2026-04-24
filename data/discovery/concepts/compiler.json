@@ -331,6 +331,66 @@
       "source_repo": "dotnet/fsharp",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "NumPy aware dynamic Python compiler using LLVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "*****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "The zero configuration build tool for the web. \ud83d\udce6\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_integration.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate-context",
+      "text": "GLSL parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate-context",
+      "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/FuelLabs/sway/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/sway/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +555,36 @@
       "source_repo": "dotnet/fsharp",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate",
+      "text": "*****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_integration.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate",
+      "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate",
+      "text": "[![build](https://github.com/FuelLabs/sway/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/sway/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -721,11 +811,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "parcel-bundler/parcel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glslang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hadronized/glsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FuelLabs/sway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-submissions-s3.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-submissions-s3.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-leaderboard.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-leaderboard.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "Deploy Leaderboard to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-submissions-s3.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-submissions-s3.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-submissions-s3.yml",
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "Sync Submissions to S3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "conversational-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sierra-research/tau2-bench",
+      "target": "language-model-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:41.870188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9620
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2417
+    },
+    {
+      "path": ".github/workflows/deploy-leaderboard.yml",
+      "size": 1518
+    },
+    {
+      "path": ".github/workflows/sync-submissions-s3.yml",
+      "size": 765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u03c4-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "fork": false,
+    "full_name": "sierra-research/tau2-bench",
+    "html_url": "https://github.com/sierra-research/tau2-bench",
+    "language": "Python",
+    "pushed_at": "2026-04-24T04:36:41Z",
+    "stargazers_count": 1066,
+    "topics": [
+      "ai",
+      "benchmark",
+      "conversational-agents",
+      "language-model-agent",
+      "llm"
+    ],
+    "updated_at": "2026-04-24T06:15:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Leaderboard to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-leaderboard.yml",
+      "term": "Deploy Leaderboard to GitHub Pages"
+    },
+    {
+      "context_snippet": "Sync Submissions to S3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-submissions-s3.yml",
+      "term": "Sync Submissions to S3"
+    },
+    {
+      "context_snippet": "[![python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[![python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-agents"
+    },
+    {
+      "context_snippet": "[![python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model-agent"
+    }
+  ]
+}

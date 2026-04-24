@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightweight C++ command line option parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Meson"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Meson"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39705075,
+      "status": "candidate",
+      "text": "mesotron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29663192,
+      "status": "candidate",
+      "text": "pseudoscalar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856822,
+      "status": "candidate",
+      "text": "mi-parti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856821,
+      "status": "candidate",
+      "text": "semilens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856820,
+      "status": "candidate",
+      "text": "hemibody"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Meson",
+      "sense_id": "meson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "mesotron"
+    }
+  ],
+  "concept_id": "meson",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "meson",
+  "observation_id": "03f5dd6ad8dd9007",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Meson",
+  "source_context_snippet": "Meson",
+  "source_file": ".github/workflows/meson.yml",
+  "source_repo": "jarro2783/cxxopts",
+  "source_repo_description": "Lightweight C++ command line option parser"
+}

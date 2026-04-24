@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "bethgelab/model-vs-human",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "rgeirhos/texture-vs-shape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "human-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "shape-bias",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "style-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "target": "texture-bias",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:48:25.256031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6294
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code to create Stylized-ImageNet, a stylized version of standard ImageNet (ICLR 2019 Oral)",
+    "fork": false,
+    "full_name": "rgeirhos/Stylized-ImageNet",
+    "html_url": "https://github.com/rgeirhos/Stylized-ImageNet",
+    "language": "Python",
+    "pushed_at": "2026-04-14T09:53:52Z",
+    "stargazers_count": 525,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "human-vision",
+      "shape-bias",
+      "style-transfer",
+      "texture-bias"
+    ],
+    "updated_at": "2026-04-16T16:25:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bethgelab/model-vs-human",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rgeirhos/texture-vs-shape",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-vision"
+    },
+    {
+      "context_snippet": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-bias"
+    },
+    {
+      "context_snippet": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-transfer"
+    },
+    {
+      "context_snippet": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-bias"
+    }
+  ]
+}

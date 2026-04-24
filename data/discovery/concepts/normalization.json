@@ -19,6 +19,18 @@
       "source_repo": "JoshData/python-email-validator",
       "status": "candidate-context",
       "text": "email-validator: Validate Email Addresses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/WeTextProcessing",
+      "status": "candidate-context",
+      "text": "Text Normalization & Inverse Text Normalization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/WeTextProcessing",
+      "status": "candidate-context",
+      "text": "```diff"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JoshData/python-email-validator",
       "status": "candidate",
       "text": "email-validator: Validate Email Addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/WeTextProcessing",
+      "status": "candidate",
+      "text": "```diff"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JoshData/python-email-validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "wenet-e2e/WeTextProcessing"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

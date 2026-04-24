@@ -139,6 +139,30 @@
       "source_repo": "enisdenjo/graphql-ws",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "One command brings a complete pre-wired LLM stack with hundreds of services to explore."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "The backend\u2014i.e. core services, APIs, and REST endpoints\u2014to Jupyter web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "enisdenjo/graphql-ws",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)"
     }
   ],
   "candidate_related_terms": [
@@ -331,11 +367,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "enisdenjo/graphql-ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

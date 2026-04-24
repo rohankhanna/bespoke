@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:04:34.561039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2025] GUIOdyssey is a comprehensive dataset for training and evaluating cross-app navigation agents. GUIOdyssey consists of 8,834 episodes from 6 mobile devices, spanning 6 types of cross-app tasks, 212 apps, and 1.4K app combos.",
+    "fork": false,
+    "full_name": "OpenGVLab/GUI-Odyssey",
+    "html_url": "https://github.com/OpenGVLab/GUI-Odyssey",
+    "language": "Python",
+    "pushed_at": "2026-01-03T14:32:40Z",
+    "stargazers_count": 156,
+    "topics": [],
+    "updated_at": "2026-04-17T06:42:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

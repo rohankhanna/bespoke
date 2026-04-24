@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release helm chart"
+    "Release helm chart",
+    "Release Helm Chart"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "labring/FastGPT",
       "status": "candidate-context",
       "text": "Release helm chart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "cLabs managed applications for Kubernetes using Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "Release Helm Chart"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "labring/FastGPT",
       "status": "candidate",
       "text": "Release helm chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
+      "status": "candidate",
+      "text": "Release Helm Chart"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/helm-release.yaml",
       "source_repo": "labring/FastGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/helm_release.yml",
+      "source_repo": "celo-org/charts"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

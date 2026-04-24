@@ -115,7 +115,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apollographql/eslint-plugin-graphql",
-      "target": "cjoudrey/graphql-schema-linter",
+      "target": "graphcool/graphql-cli",
       "target_type": "repository"
     },
     {
@@ -266,7 +266,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:39:52.135808+00:00",
+  "fetched_at": "2026-04-24T08:07:38.460374+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -308,12 +308,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cjoudrey/graphql-schema-linter",
+      "full_name": "dotansimha/graphql-eslint",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dotansimha/graphql-eslint",
+      "full_name": "graphcool/graphql-cli",
       "source_file": "README.md"
     }
   ],

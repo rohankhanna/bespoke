@@ -118,6 +118,42 @@
       "source_repo": "dependabot/dependabot-core",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ballista Distributed Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Apache DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate-context",
+      "text": "Home to .NET's dependency flow system & tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate-context",
+      "text": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md)."
     }
   ],
   "candidate_glosses": [
@@ -174,6 +210,24 @@
       "source_repo": "dependabot/dependabot-core",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate",
+      "text": "Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate",
+      "text": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md)."
     }
   ],
   "candidate_related_terms": [
@@ -301,11 +355,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/arcade-services"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

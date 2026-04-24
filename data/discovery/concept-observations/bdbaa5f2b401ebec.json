@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightning fast image processing and resizing library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008957,
+      "status": "candidate",
+      "text": "squabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008945,
+      "status": "candidate",
+      "text": "bicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008733,
+      "status": "candidate",
+      "text": "bickering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001037,
+      "status": "candidate",
+      "text": "fuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39629144,
+      "status": "candidate",
+      "text": "spat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tiff",
+      "sense_id": "tiff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "fuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14035,
+      "status": "candidate",
+      "text": "squabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9043,
+      "status": "candidate",
+      "text": "spat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5024,
+      "status": "candidate",
+      "text": "bickering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4036,
+      "status": "candidate",
+      "text": "bicker"
+    }
+  ],
+  "concept_id": "tiff",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tiff",
+  "observation_id": "bdbaa5f2b401ebec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "tiff",
+  "source_context_snippet": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026",
+  "source_file": null,
+  "source_repo": "davidbyttow/govips",
+  "source_repo_description": "A lightning fast image processing and resizing library for Go"
+}

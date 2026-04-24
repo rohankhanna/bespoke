@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "opentracing/basictracer-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "opentracing/basictracer-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "opentracing/basictracer-go",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "opentracing/basictracer-go",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "opentracing/basictracer-go",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:39.396568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 780
+    },
+    {
+      "path": "go.mod",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Basic implementation of the OpenTracing API for Go. \ud83d\uded1 This library is DEPRECATED! ",
+    "fork": false,
+    "full_name": "opentracing/basictracer-go",
+    "html_url": "https://github.com/opentracing/basictracer-go",
+    "language": "Go",
+    "pushed_at": "2023-03-06T16:09:22Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2024-01-28T09:19:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

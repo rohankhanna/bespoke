@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update v1docs Gaffer Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "Documentation for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "Update v1docs Gaffer Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate",
+      "text": "Update v1docs Gaffer Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22278,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22228,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22228,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22228,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22228,
+      "status": "candidate",
+      "text": "renewed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update v1docs Gaffer Version",
+  "concept_id": "update-v1docs-gaffer-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "source_repo": "gchq/gaffer-doc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update v1docs Gaffer Version",
+      "sense_id": "update-v1docs-gaffer-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

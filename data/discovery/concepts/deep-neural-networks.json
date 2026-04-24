@@ -79,6 +79,54 @@
       "source_repo": "facebookarchive/caffe2",
       "status": "candidate-context",
       "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for the paper \"MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "Open standard for machine learning interoperability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "Intel\u00ae AI Reference Models: contains Intel optimizations for running deep learning workloads on Intel\u00ae Xeon\u00ae Scalable processors and Intel\u00ae Data Center GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "albanie/collaborative-experts",
+      "status": "candidate-context",
+      "text": "Video embeddings for retrieval with natural language queries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albanie/collaborative-experts",
+      "status": "candidate-context",
+      "text": "This repo provides code:"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "facebookarchive/caffe2",
       "status": "candidate",
       "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albanie/collaborative-experts",
+      "status": "candidate",
+      "text": "This repo provides code:"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +232,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "facebookarchive/caffe2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "albanie/collaborative-experts"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

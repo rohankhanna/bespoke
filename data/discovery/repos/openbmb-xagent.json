@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/XAgent",
+      "target": "openbmb/toolbench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:32.405646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12035
+    },
+    {
+      "path": "requirements.txt",
+      "size": 300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Autonomous LLM Agent for Complex Task Solving",
+    "fork": false,
+    "full_name": "OpenBMB/XAgent",
+    "html_url": "https://github.com/OpenBMB/XAgent",
+    "language": "Python",
+    "pushed_at": "2024-08-12T06:41:38Z",
+    "stargazers_count": 8527,
+    "topics": [],
+    "updated_at": "2026-04-24T06:45:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/toolbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

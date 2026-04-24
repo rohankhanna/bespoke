@@ -79,6 +79,30 @@
       "source_repo": "marwin1991/profile-technology-icons",
       "status": "candidate-context",
       "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "status": "candidate-context",
+      "text": "Yet another GitHub profile readme :smiley:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "status": "candidate-context",
+      "text": "This is the place where I opensource stuff and break things :rofl:"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "marwin1991/profile-technology-icons",
       "status": "candidate",
       "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "status": "candidate",
+      "text": "This is the place where I opensource stuff and break things :rofl:"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "marwin1991/profile-technology-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/gautamkrishnar"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

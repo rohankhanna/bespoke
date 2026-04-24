@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -482,6 +482,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/freshen-images.yml",
       "source_repo": "operator-framework/operator-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "inclusionAI/AReaL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-test-env.yml",
+      "source_repo": "FEniCS/dolfinx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-end-user.yml",
+      "source_repo": "FEniCS/dolfinx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-update-stable.yml",
+      "source_repo": "FEniCS/dolfinx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-lite.yml",
+      "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-manual.yml",
+      "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "HKUDS/LightRAG"
     }
   ]
 }

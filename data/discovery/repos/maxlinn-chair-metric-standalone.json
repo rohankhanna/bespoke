@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Maxlinn/CHAIR-metric-standalone",
+      "target": "lisaanne/hallucination",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:43.269910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CHAIR metric is a rule-based metric for evaluating object hallucination in caption generation.",
+    "fork": false,
+    "full_name": "Maxlinn/CHAIR-metric-standalone",
+    "html_url": "https://github.com/Maxlinn/CHAIR-metric-standalone",
+    "language": "Python",
+    "pushed_at": "2025-07-02T07:10:55Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-17T06:34:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lisaanne/hallucination",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

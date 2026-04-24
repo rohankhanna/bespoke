@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfoidl/Base64",
+      "target": "base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfoidl/Base64",
+      "target": "base64-decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfoidl/Base64",
+      "target": "base64-encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfoidl/Base64",
+      "target": "base64url",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfoidl/Base64",
+      "target": "simd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:03.817449+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Base64 encoding / decoding with SIMD-support, also base64Url",
+    "fork": false,
+    "full_name": "gfoidl/Base64",
+    "html_url": "https://github.com/gfoidl/Base64",
+    "language": "C#",
+    "pushed_at": "2023-05-22T15:09:57Z",
+    "stargazers_count": 60,
+    "topics": [
+      "base64",
+      "base64-decoding",
+      "base64-encoding",
+      "base64url",
+      "simd"
+    ],
+    "updated_at": "2024-12-18T04:55:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Base64 encoding / decoding with SIMD-support, also base64Url",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64"
+    },
+    {
+      "context_snippet": "Base64 encoding / decoding with SIMD-support, also base64Url",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64-decoding"
+    },
+    {
+      "context_snippet": "Base64 encoding / decoding with SIMD-support, also base64Url",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64-encoding"
+    },
+    {
+      "context_snippet": "Base64 encoding / decoding with SIMD-support, also base64Url",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64url"
+    },
+    {
+      "context_snippet": "Base64 encoding / decoding with SIMD-support, also base64Url",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    }
+  ]
+}

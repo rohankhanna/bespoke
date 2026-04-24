@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Spell checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Spell checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070657,
+      "status": "candidate",
+      "text": "spelling checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070655,
+      "status": "candidate",
+      "text": "grammar checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070654,
+      "status": "candidate",
+      "text": "autocorrect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070653,
+      "status": "candidate",
+      "text": "spam killer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070652,
+      "status": "candidate",
+      "text": "softwear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spell checker",
+      "sense_id": "spell-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spell-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spell-checker",
+  "observation_id": "9240424c2b005d6f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Spell checker",
+  "source_context_snippet": "Spell checker",
+  "source_file": ".github/workflows/spelling.yml",
+  "source_repo": "finegrain-ai/refiners",
+  "source_repo_description": "A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation"
+}

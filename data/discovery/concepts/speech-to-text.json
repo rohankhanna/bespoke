@@ -79,6 +79,30 @@
       "source_repo": "cjpais/Handy",
       "status": "candidate-context",
       "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/dc_tts",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of DC-TTS: yet another text-to-speech model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/dc_tts",
+      "status": "candidate-context",
+      "text": "I implement yet another text-to-speech model, dc-tts, introduced in [Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969). My goal, however, is not just replicating the paper. Rather, I'd like t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "kaldi-asr/kaldi is the official location of the Kaldi project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "cjpais/Handy",
       "status": "candidate",
       "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/dc_tts",
+      "status": "candidate",
+      "text": "I implement yet another text-to-speech model, dc-tts, introduced in [Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969). My goal, however, is not just replicating the paper. Rather, I'd like t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +232,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/dc_tts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kaldi-asr/kaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

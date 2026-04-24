@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-close-user-survey.yml",
+      "source_repo": "apollographql/apollo-ios"
+    }
+  ],
+  "term": "Issue Close User Survey"
+}

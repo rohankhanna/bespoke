@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ethernet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "status": "candidate-context",
+      "text": "Blynk library for IoT boards. Works with Arduino, ESP32, ESP8266, Raspberry Pi, Particle, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "status": "candidate-context",
+      "text": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "status": "candidate",
+      "text": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978763,
+      "status": "candidate",
+      "text": "eth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956216,
+      "status": "candidate",
+      "text": "gbe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29800157,
+      "status": "candidate",
+      "text": "ether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050930,
+      "status": "candidate",
+      "text": "lan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050929,
+      "status": "candidate",
+      "text": "rj45"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ethernet",
+  "concept_id": "ethernet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ethernet",
+      "sense_id": "ethernet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

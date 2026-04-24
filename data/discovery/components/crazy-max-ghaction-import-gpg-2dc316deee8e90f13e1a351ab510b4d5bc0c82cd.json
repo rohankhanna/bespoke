@@ -1,7 +1,7 @@
 {
   "component": "crazy-max/ghaction-import-gpg@2dc316deee8e90f13e1a351ab510b4d5bc0c82cd",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-insider-spearhead.yml",
       "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "gopasspw/gopass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "gopasspw/git-credential-gopass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "gopasspw/gopass-hibp"
     }
   ]
 }

@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/metaseq",
+      "target": "opennmt/ctranslate2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/metaseq",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/metaseq",
+      "target": "microsoft/deepspeedexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "facebookresearch/metaseq",
+      "target": "ngoyal2707/megatron-lm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebookresearch/metaseq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebookresearch/metaseq",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:27.318056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4050
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1672
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Repo for external large-scale work",
+    "fork": false,
+    "full_name": "facebookresearch/metaseq",
+    "html_url": "https://github.com/facebookresearch/metaseq",
+    "language": "Python",
+    "pushed_at": "2024-04-27T22:15:40Z",
+    "stargazers_count": 6542,
+    "topics": [],
+    "updated_at": "2026-04-24T07:05:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeedexamples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opennmt/ctranslate2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ngoyal2707/megatron-lm",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

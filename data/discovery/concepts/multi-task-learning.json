@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multi-task-learning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate-context",
+      "text": "This repository hosts materials from the CLiC-IT 2023 tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate-context",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multi-task-learning",
+  "concept_id": "multi-task-learning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crux82/CLiC-it_2023_tutorial"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-task-learning",
+      "sense_id": "multi-task-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

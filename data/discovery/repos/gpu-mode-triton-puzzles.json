@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gpu-mode/Triton-Puzzles",
-      "target": "srush/transformer-puzzles",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "gpu-mode/Triton-Puzzles",
@@ -30,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:38:08.931988+00:00",
+  "fetched_at": "2026-04-24T06:48:50.780755+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,22 +40,17 @@
     "html_url": "https://github.com/gpu-mode/Triton-Puzzles",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-04-01T04:01:16Z",
-    "stargazers_count": 2394,
+    "stargazers_count": 2397,
     "topics": [
       "machine-learning",
       "puzzle"
     ],
-    "updated_at": "2026-04-22T16:33:23Z"
+    "updated_at": "2026-04-24T06:16:02Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "openai/triton",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "srush/transformer-puzzles",
       "source_file": "README.md"
     }
   ],

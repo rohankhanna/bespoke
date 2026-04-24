@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Regenerate Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "Regenerate Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate",
+      "text": "Regenerate Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15815,
+      "status": "candidate",
+      "text": "renew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15815,
+      "status": "candidate",
+      "text": "renewed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15815,
+      "status": "candidate",
+      "text": "renewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15774,
+      "status": "candidate",
+      "text": "reproduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14169,
+      "status": "candidate",
+      "text": "ameliorate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Regenerate Test",
+  "concept_id": "regenerate-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/regenerate-test.yml",
+      "source_repo": "dependabot/smoke-tests"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regenerate Test",
+      "sense_id": "regenerate-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

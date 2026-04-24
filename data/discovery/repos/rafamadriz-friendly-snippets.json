@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "creyD/prettier_action@v4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "capaj/vscode-standardjs-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "cstrap/python-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "edheltzel/vscode-jekyll-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "dsznajder/vscode-react-javascript-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "creyD/prettier_action@v4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "friendly-snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "programming-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rafamadriz/friendly-snippets",
+      "target": "snippets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:47:29.304937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3798
+    },
+    {
+      "path": "package.json",
+      "size": 18530
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 929
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Set of preconfigured snippets for different languages. ",
+    "fork": false,
+    "full_name": "rafamadriz/friendly-snippets",
+    "html_url": "https://github.com/rafamadriz/friendly-snippets",
+    "language": "Lua",
+    "pushed_at": "2026-01-23T15:29:00Z",
+    "stargazers_count": 2701,
+    "topics": [
+      "friendly-snippets",
+      "languages",
+      "programming-languages",
+      "snippets"
+    ],
+    "updated_at": "2026-04-22T13:54:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "capaj/vscode-standardjs-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cstrap/python-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dsznajder/vscode-react-javascript-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edheltzel/vscode-jekyll-snippets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Snippets collection for a set of different programming languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "friendly-snippets"
+    },
+    {
+      "context_snippet": "Snippets collection for a set of different programming languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languages"
+    },
+    {
+      "context_snippet": "Snippets collection for a set of different programming languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-languages"
+    },
+    {
+      "context_snippet": "Snippets collection for a set of different programming languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    }
+  ]
+}

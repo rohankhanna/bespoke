@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WXinlong/SOLO",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WXinlong/SOLO",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WXinlong/SOLO",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WXinlong/SOLO",
+      "target": "solo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WXinlong/SOLO",
+      "target": "solov2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:03.614524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7862
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SOLO and SOLOv2 for instance segmentation, ECCV 2020 & NeurIPS 2020.",
+    "fork": false,
+    "full_name": "WXinlong/SOLO",
+    "html_url": "https://github.com/WXinlong/SOLO",
+    "language": "Python",
+    "pushed_at": "2023-12-26T14:52:42Z",
+    "stargazers_count": 1751,
+    "topics": [
+      "instance-segmentation",
+      "object-detection",
+      "pytorch",
+      "solo",
+      "solov2"
+    ],
+    "updated_at": "2026-04-24T07:12:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project hosts the code for implementing the SOLO algorithms for instance segmentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the SOLO algorithms for instance segmentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the SOLO algorithms for instance segmentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the SOLO algorithms for instance segmentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solo"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the SOLO algorithms for instance segmentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solov2"
+    }
+  ]
+}

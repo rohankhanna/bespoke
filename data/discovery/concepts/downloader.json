@@ -19,6 +19,18 @@
       "source_repo": "akx/ollama-dl",
       "status": "candidate-context",
       "text": "Downloads models from the [Ollama](https://ollama.com/library) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "A feature-rich command-line audio/video downloader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "<!-- MANPAGE: BEGIN EXCLUDED SECTION -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "akx/ollama-dl",
       "status": "candidate",
       "text": "Downloads models from the [Ollama](https://ollama.com/library) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate",
+      "text": "<!-- MANPAGE: BEGIN EXCLUDED SECTION -->"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "akx/ollama-dl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yt-dlp/yt-dlp"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

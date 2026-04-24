@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:59:19.495253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Test data for the Haskell text project",
+    "fork": false,
+    "full_name": "haskell/text-test-data",
+    "html_url": "https://github.com/haskell/text-test-data",
+    "language": "Text",
+    "pushed_at": "2022-04-10T12:34:15Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-07-27T18:23:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

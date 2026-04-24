@@ -1,7 +1,7 @@
 {
   "component": "actions/create-release@v1",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -312,6 +312,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/first-release.yaml",
       "source_repo": "celo-org/op-geth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml",
+      "source_repo": "ronaldoussoren/py2app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagRelease.yml",
+      "source_repo": "mamoe/mirai-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/lang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mit-han-lab/Block-Sparse-Attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "jina-ai/clip-as-service"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "redhat-developer/vscode-redhat-telemetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AdguardTeam/dnsproxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "microsoft/vscode-codicons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_release.yml",
+      "source_repo": "Embarcadero/llama-cpp-delphi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "uber/petastorm"
     }
   ]
 }

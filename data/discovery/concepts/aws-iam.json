@@ -31,6 +31,18 @@
       "source_repo": "antonbabenko/awsp",
       "status": "candidate-context",
       "text": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "Use your IAM role (from instance metadata) to open the AWS console "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "antonbabenko/awsp",
       "status": "candidate",
       "text": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/awsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cloud Native application framework for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10032424,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020950,
+      "status": "candidate",
+      "text": "worker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980825,
+      "status": "candidate",
+      "text": "histrion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980341,
+      "status": "candidate",
+      "text": "thespian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9965598,
+      "status": "candidate",
+      "text": "role player"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "actors",
+      "sense_id": "actors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "actors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "actors",
+  "observation_id": "3557284b2f909155",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "actors",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "dotnet/orleans",
+  "source_repo_description": "Cloud Native application framework for .NET"
+}

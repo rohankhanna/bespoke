@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A very fast, portable and hackable fuzzy finder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CD # Continuous Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CD # Continuous Deployment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "dio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "dip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "dips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "gel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "paraffin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CD # Continuous Deployment",
+      "sense_id": "cd-continuous-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cd-continuous-deployment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cd-continuous-deployment",
+  "observation_id": "f0a0b845bfbef7eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "CD # Continuous Deployment",
+  "source_context_snippet": "CD # Continuous Deployment",
+  "source_file": ".github/workflows/cd.yml",
+  "source_repo": "alexpasmantier/television",
+  "source_repo_description": "A very fast, portable and hackable fuzzy finder."
+}

@@ -127,6 +127,42 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ballista Distributed Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask-contrib/dask-sql",
+      "status": "candidate-context",
+      "text": "Distributed SQL Engine in Python using Dask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-sql",
+      "status": "candidate-context",
+      "text": "**Dask-SQL is currently not in active maintenance, see [#1344](https://github.com/dask-contrib/dask-sql/issues/1344) for more information**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "IPFS implementation in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-sql",
+      "status": "candidate",
+      "text": "**Dask-SQL is currently not in active maintenance, see [#1344](https://github.com/dask-contrib/dask-sql/issues/1344) for more information**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate",
+      "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +400,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dask-contrib/dask-sql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/js-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of compression related Go packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025591,
+      "status": "candidate",
+      "text": "puncture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036575,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029064,
+      "status": "candidate",
+      "text": "downsize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027594,
+      "status": "candidate",
+      "text": "decrease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026833,
+      "status": "candidate",
+      "text": "reduce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deflate",
+      "sense_id": "deflate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10042,
+      "status": "candidate",
+      "text": "puncture"
+    }
+  ],
+  "concept_id": "deflate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deflate",
+  "observation_id": "67bff0525b35737e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "deflate",
+  "source_context_snippet": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)",
+  "source_file": null,
+  "source_repo": "dsnet/compress",
+  "source_repo_description": "Collection of compression related Go packages."
+}

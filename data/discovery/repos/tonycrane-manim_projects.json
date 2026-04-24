@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml"
+    },
+    {
+      "component": "manim-kindergarten/manim_action_renderer@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "manim-kindergarten/manim_action_renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "manim-kindergarten/manim_action_renderer@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "Render videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "3b1b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "bilibili",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TonyCrane/manim_projects",
+      "target": "manim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:42.217766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2633
+    },
+    {
+      "path": ".github/workflows/renderer.yml",
+      "size": 740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "my projects running on manim",
+    "fork": false,
+    "full_name": "TonyCrane/manim_projects",
+    "html_url": "https://github.com/TonyCrane/manim_projects",
+    "language": "Python",
+    "pushed_at": "2021-07-31T02:40:17Z",
+    "stargazers_count": 92,
+    "topics": [
+      "3b1b",
+      "bilibili",
+      "manim",
+      "python"
+    ],
+    "updated_at": "2026-01-25T21:41:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "manim-kindergarten/manim_action_renderer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Render videos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renderer.yml",
+      "term": "Render videos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3b1b"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bilibili"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim"
+    }
+  ]
+}

@@ -43,6 +43,30 @@
       "source_repo": "octokit/webhooks.js",
       "status": "candidate-context",
       "text": "> GitHub webhook events toolset for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "> Methods to handle GitHub Webhook requests"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "octokit/webhooks.js",
       "status": "candidate",
       "text": "> GitHub webhook events toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate",
+      "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate",
+      "text": "> Methods to handle GitHub Webhook requests"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "octokit/webhooks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks-methods.js"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

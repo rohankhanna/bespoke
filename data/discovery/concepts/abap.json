@@ -163,6 +163,18 @@
       "source_repo": "abap2UI5-addons/sql-console",
       "status": "candidate-context",
       "text": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marianfoo/ztoad",
+      "status": "candidate-context",
+      "text": "ABAP Open SQL Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marianfoo/ztoad",
+      "status": "candidate-context",
+      "text": "Open SQL Editor"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "abap2UI5-addons/sql-console",
       "status": "candidate",
       "text": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marianfoo/ztoad",
+      "status": "candidate",
+      "text": "Open SQL Editor"
     }
   ],
   "candidate_related_terms": [
@@ -394,11 +412,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "marianfoo/ztoad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/transpiler"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

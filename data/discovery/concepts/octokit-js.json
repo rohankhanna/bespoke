@@ -43,6 +43,42 @@
       "source_repo": "octokit/request.js",
       "status": "candidate-context",
       "text": "> Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "> Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/authentication-strategies.js",
+      "status": "candidate-context",
+      "text": "GitHub API authentication strategies for Browsers, Node.js, and Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/authentication-strategies.js",
+      "status": "candidate-context",
+      "text": "> GitHub API authentication strategies for Browsers, Node.js, and Deno"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "octokit/request.js",
       "status": "candidate",
       "text": "> Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate",
+      "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate",
+      "text": "> Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/authentication-strategies.js",
+      "status": "candidate",
+      "text": "> GitHub API authentication strategies for Browsers, Node.js, and Deno"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "octokit/request.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks-methods.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/authentication-strategies.js"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

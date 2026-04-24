@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate and Publish docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "BCrypt.Net - Bringing updates to the original bcrypt package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "Generate and Publish docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate",
+      "text": "Generate and Publish docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19322,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19292,
+      "status": "candidate",
+      "text": "excerpt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19254,
+      "status": "candidate",
+      "text": "excerpted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19179,
+      "status": "candidate",
+      "text": "asterix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19179,
+      "status": "candidate",
+      "text": "card catalogue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate and Publish docs",
+  "concept_id": "generate-and-publish-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generate-publish-docs.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate and Publish docs",
+      "sense_id": "generate-and-publish-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

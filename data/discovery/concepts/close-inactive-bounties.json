@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close inactive bounties"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "Close inactive bounties"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate",
+      "text": "Close inactive bounties"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14369,
+      "status": "candidate",
+      "text": "gorsedd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "agroforestry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "giveaway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "unalloyed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close inactive bounties",
+  "concept_id": "close-inactive-bounties",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/bounty_stale.yml",
+      "source_repo": "finegrain-ai/refiners"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close inactive bounties",
+      "sense_id": "close-inactive-bounties#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

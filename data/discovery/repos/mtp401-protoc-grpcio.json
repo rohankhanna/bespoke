@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mtp401/protoc-grpcio",
+      "target": "pingcap/grpc-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:57.547463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2439
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A programmatic API to the grpc-rs compiler",
+    "fork": false,
+    "full_name": "mtp401/protoc-grpcio",
+    "html_url": "https://github.com/mtp401/protoc-grpcio",
+    "language": "Rust",
+    "pushed_at": "2023-08-17T15:15:46Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-02-24T18:17:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pingcap/grpc-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

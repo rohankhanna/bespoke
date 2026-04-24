@@ -1,0 +1,142 @@
+{
+  "aliases": [
+    "SBOM Export & Centralize"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "Arbitrum Docs! Content + Webapp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "SBOM Export & Centralize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-sdk",
+      "status": "candidate-context",
+      "text": "SBOM Export & Centralize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate-context",
+      "text": "Get started developing on Arbitrum "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate-context",
+      "text": "SBOM Export & Centralize"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate",
+      "text": "SBOM Export & Centralize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-sdk",
+      "status": "candidate",
+      "text": "SBOM Export & Centralize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate",
+      "text": "SBOM Export & Centralize"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14344,
+      "status": "candidate",
+      "text": "centralizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13361,
+      "status": "candidate",
+      "text": "concenter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13361,
+      "status": "candidate",
+      "text": "drain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13361,
+      "status": "candidate",
+      "text": "footbath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13361,
+      "status": "candidate",
+      "text": "jackpot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SBOM Export & Centralize",
+  "concept_id": "sbom-export-centralize",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/sbom-export.yaml",
+      "source_repo": "OffchainLabs/arbitrum-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/sbom-export.yaml",
+      "source_repo": "OffchainLabs/arbitrum-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/sbom-export.yaml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SBOM Export & Centralize",
+      "sense_id": "sbom-export-centralize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

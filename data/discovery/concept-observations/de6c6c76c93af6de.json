@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "csharp",
+      "sense_id": "csharp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "csharp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "csharp",
+  "observation_id": "de6c6c76c93af6de",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "csharp",
+  "source_context_snippet": "![WindowsAI hero image](docs/images/header.png)",
+  "source_file": null,
+  "source_repo": "microsoft/ai-dev-gallery",
+  "source_repo_description": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+}

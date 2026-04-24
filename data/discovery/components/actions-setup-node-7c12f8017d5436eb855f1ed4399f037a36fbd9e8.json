@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-node@7c12f8017d5436eb855f1ed4399f037a36fbd9e8",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deposits_data_cronjob.yml",
+      "source_repo": "gnosischain/gbc-deposit-ui"
+    }
+  ]
+}

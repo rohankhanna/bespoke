@@ -6077,6 +6077,1224 @@
       "source_repo": "notomo/vusted",
       "status": "candidate-context",
       "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions-oss/gh-rc",
+      "status": "candidate-context",
+      "text": "Runner.Client as GitHub CLI extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/gh-rc",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "The slightly more awesome standard unix password manager for teams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "Agentic RL Training at Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate-context",
+      "text": "Python SDK for ZhiPu AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "get-gah/setup-gah",
+      "status": "candidate-context",
+      "text": "GitHub Action that setups gah"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/setup-gah",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5\ufe0f Reproducible development environment for humans and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": ":boom: :speech_balloon: errors but with error code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate-context",
+      "text": "Design data, including design tokens, component schemas, and tooling for Spectrum, Adobe's design system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "a vendor-agnostic gateway conformance test suite for implementers of IPFS Gateways to ensure compliance with  https://specs.ipfs.tech/http-gateways/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to automate setting DNSLink record "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/filament",
+      "status": "candidate-context",
+      "text": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/filament",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "The zero configuration build tool for the web. \ud83d\udce6\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate-context",
+      "text": "Like ruby's Abbrev module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate-context",
+      "text": "Model defuser helper for HF Transformers "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate-context",
+      "text": "Evalution: evolve your LLMs with better evals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate-context",
+      "text": "A unified Logger and ProgressBar util with zero dependencies. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Streaming torrent client for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate-context",
+      "text": "An sbt plugin for formating Java code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkohut/pensieve",
+      "status": "candidate-context",
+      "text": "A passive recording project allows you to have complete control over your data. Automatically take screenshots of all your screens, index them, and save them locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkohut/pensieve",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnnx/pnnx",
+      "status": "candidate-context",
+      "text": "PyTorch Neural Network eXchange"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnnx/pnnx",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "Install and Run Python Applications in Isolated Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "Nonlinear optimisation (root-finding, least squares, ...) in JAX+Equinox. https://docs.kidger.site/optimistix/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnkraemer/matfree",
+      "status": "candidate-context",
+      "text": "Matrix-free linear algebra in JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnkraemer/matfree",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate-context",
+      "text": "Dkron - Distributed, fault tolerant job scheduling system https://dkron.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "Configuration manager for Aerokube products"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/moon",
+      "status": "candidate-context",
+      "text": "Browser automation solution for Kubernetes and Openshift supporting Selenium, Playwright, Puppeteer and Cypress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/moon",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate-context",
+      "text": "This library provides support for \"legacy\" Python Packaging functionality removed from https://github.com/pypa/packaging."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "Virtual Python Environment builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "Static file serving and directory listing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "status": "candidate-context",
+      "text": "A Generic Repository AnALyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4e554c4c/base16-halloy",
+      "status": "candidate-context",
+      "text": " Base16 color scheme template for halloy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4e554c4c/base16-halloy",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "Binary version of the SwiftLint Swift Package Manager plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diegomura/react-pdf",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc4  Create PDF files using React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diegomura/react-pdf",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Svelte parser for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/node-semver",
+      "status": "candidate-context",
+      "text": "The semver parser for node (the one npm uses)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/node-semver",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "Apollo GraphQL VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff-vscode",
+      "status": "candidate-context",
+      "text": "A Visual Studio Code extension with support for the Ruff linter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-vscode",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+      "status": "candidate-context",
+      "text": "dockerfile parsing for clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate-context",
+      "text": "Fix IntelliJ/WebStorm's npm integration under nodenv."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate-context",
+      "text": "A nodenv plugin providing node-build definitions for Node.js prereleases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_cypress",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://www.cypress.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_cypress",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://esbuild.github.io/ JS bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_jasmine",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asonnleitner/highwayhash-wasm",
+      "status": "candidate-context",
+      "text": "JS bindings for browser and Node.js environment of the Rust implementation of HighwayHash, Google's fast, keyed, portable (output is hardware independent) and secure hash function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asonnleitner/highwayhash-wasm",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate-context",
+      "text": "Spacemesh PoET service reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rose-pine/rose-pine-bloom",
+      "status": "candidate-context",
+      "text": "Generate Ros\u00e9 Pine themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-bloom",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NiklasRosenstein/pbzx",
+      "status": "candidate-context",
+      "text": "Fork of the pbzx stream parser (www.tonymacx86.com/general-help/135458-pbzx-stream-parser.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiklasRosenstein/pbzx",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "Fuzzy Finder in rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "high-moctane/nextword",
+      "status": "candidate-context",
+      "text": "Predict next English words."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/nextword",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate-context",
+      "text": "conventional-changelog preset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate-context",
+      "text": "[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mstange/samply",
+      "status": "candidate-context",
+      "text": "Command-line sampling profiler for macOS, Linux, and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstange/samply",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "A configuration as code language with rich validation and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate-context",
+      "text": "Find the enemy and replace them with dark power."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate-context",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in Rust, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and memory ops \ud83e\udd96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate-context",
+      "text": "Async executor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "A Python utility / library to sort imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "R Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Publish Rust crates from CI with a Release PR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "[![release-plz-logo](website/static/img/release-plz-social-card.png)](https://release-plz.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate-context",
+      "text": "A flexible library for writing functional operations in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/grcov",
+      "status": "candidate-context",
+      "text": "Rust tool to collect and aggregate code coverage data for multiple source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/grcov",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/spongefish",
+      "status": "candidate-context",
+      "text": "Fiat-Shamir for the masses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/spongefish",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "The official angr GUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angrop",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "Authorization middleware for fasthttp based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "Unified zkVM Interface & Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "A small and fast async runtime for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gulpjs/glob-parent",
+      "status": "candidate-context",
+      "text": "Extract the non-magic parent path from a glob string."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/glob-parent",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d \u00a0Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/opensource-website",
+      "status": "candidate-context",
+      "text": "Source code for New Relic's Opensource site."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opensource-website",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby",
+      "status": "candidate-context",
+      "text": ":gem: A Ruby library that will communicate with Embedded Dart Sass using the Embedded Sass protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Automating Releases via SemVer and Commit Message Conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Python Semantic Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/psmux",
+      "status": "candidate-context",
+      "text": "Tmux on Windows Powershell - tmux for PowerShell, Windows Terminal, cmd.exe. Includes psmux, pmux, and tmux commands. This is native Powershell Tmux designed for Windows in Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/psmux",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/tmux-fastcopy",
+      "status": "candidate-context",
+      "text": "easymotion-style text copying for tmux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/tmux-fastcopy",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/social-connect",
+      "status": "candidate-context",
+      "text": "Protocol mapping social identifiers to blockchain addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/social-connect",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-go",
+      "status": "candidate-context",
+      "text": "Golang driver for ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-go",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate-context",
+      "text": "EventSource client for Node.js, browsers and other JavaScript runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-webhooks",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomnomnom/gron",
+      "status": "candidate-context",
+      "text": "Make JSON greppable!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomnomnom/gron",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rake-compiler/rake-compiler",
+      "status": "candidate-context",
+      "text": "Provide a standard and simplified way to build and package Ruby C and Java extensions using Rake as glue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rake-compiler/rake-compiler",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "build APKs from source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate-context",
+      "text": "Chocolatey package for AWS Vault by ByteNess"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "node-fetch/node-fetch",
+      "status": "candidate-context",
+      "text": "A light-weight module that brings the Fetch API to Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-fetch/node-fetch",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "wrap methods with before/after hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/windows-installer",
+      "status": "candidate-context",
+      "text": "Build Windows Installers for Electron apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-installer",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "Encode data with built-in or custom encodings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "Create a manifest describing the abilities of an abstract-level database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "Superseded by many-level. Multilevel implemented using leveldowns with reconnect support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate-context",
+      "text": "Scala 3 bindings for llama.cpp \ud83e\udd99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "Application lifecycle orchestration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arangoml/dgl-adapter",
+      "status": "candidate-context",
+      "text": "The Deep Graph Library adapter for ArangoDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arangoml/dgl-adapter",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate-context",
+      "text": "Convert different model APIs into the OpenAI API format out of the box."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "A Neovim configuration for the advanced martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "release"
     }
   ],
   "candidate_glosses": [
@@ -9137,6 +10355,624 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "notomo/vusted",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/gh-rc",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/setup-gah",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/filament",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkohut/pensieve",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnnx/pnnx",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnkraemer/matfree",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/moon",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4e554c4c/base16-halloy",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diegomura/react-pdf",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/node-semver",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-vscode",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_cypress",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_jasmine",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asonnleitner/highwayhash-wasm",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-bloom",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiklasRosenstein/pbzx",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/nextword",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate",
+      "text": "[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstange/samply",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate",
+      "text": "[![release-plz-logo](website/static/img/release-plz-social-card.png)](https://release-plz.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/grcov",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/spongefish",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angrop",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/glob-parent",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opensource-website",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate",
+      "text": "Python Semantic Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/psmux",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/tmux-fastcopy",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/social-connect",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-go",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-webhooks",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomnomnom/gron",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rake-compiler/rake-compiler",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-fetch/node-fetch",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-installer",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arangoml/dgl-adapter",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate",
       "text": "release"
     }
@@ -13243,11 +15079,857 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "notomo/vusted"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "actions-oss/gh-rc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "gopasspw/gopass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/DiffSynth-Studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "uccl-project/uccl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/setup-gah"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "semantic-release/error"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TooTallNate/proxy-agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "adobe/spectrum-design-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/gateway-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipshipyard/dnslink-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "panva/jose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/filament"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "parcel-bundler/parcel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "npm/abbrev-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Defuser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Evalution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/LogBar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/webtorrent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-java-formatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arkohut/pensieve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pnnx/pnnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/pipx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "patrick-kidger/optimistix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pnkraemer/matfree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/moon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "di/packaging_legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "pypa/virtualenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-graal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4e554c4c/base16-halloy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "diegomura/react-pdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dotansimha/graphql-code-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/svelte-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "npm/node-semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/vscode-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/ruff-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "astral-sh/ruff-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/jetbrains-npm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/node-build-prerelease"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aspect-build/rules_cypress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aspect-build/rules_esbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aspect-build/rules_jasmine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asonnleitner/highwayhash-wasm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spacemeshos/poet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rose-pine/rose-pine-bloom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NiklasRosenstein/pbzx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "skim-rs/skim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "high-moctane/nextword"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pvdlg/conventional-changelog-metahub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mstange/samply"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-pack/nvim-spectre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringZilla"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "smol-rs/async-executor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "REditorSupport/vscode-R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/koryphe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mozilla/grcov"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arkworks-rs/spongefish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "angr/angr-management"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "angr/angrop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eth-act/ere"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "smol-rs/smol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gulpjs/glob-parent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "apollographql/apollo-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "newrelic/opensource-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "python-semantic-release/python-semantic-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abhinav/tmux-fastcopy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "celo-org/social-connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ClickHouse/clickhouse-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "EventSource/eventsource"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "octokit/openapi-webhooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "octokit/webhooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "octokit/webhooks-methods.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tomnomnom/gron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rake-compiler/rake-compiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/melange"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "node-fetch/node-fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gr2m/before-after-hook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/windows-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/transcoder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/supports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "donderom/llm4s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arangoml/dgl-adapter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "doom-neovim/doom-nvim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

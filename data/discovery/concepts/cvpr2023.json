@@ -19,6 +19,18 @@
       "source_repo": "Advocate99/DiffGesture",
       "status": "candidate-context",
       "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/OSX",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] Official implementation of the paper \"One-Stage 3D Whole-Body Mesh Recovery with Component Aware Transformer\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/OSX",
+      "status": "candidate-context",
+      "text": "[Jing Lin](https://jinglin7.github.io), [Ailing Zeng](https://ailingzeng.site/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm), [Lei Zhang](https://www.leizhang.org/), [Yu Li](https://yu-li.github.io/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Advocate99/DiffGesture",
       "status": "candidate",
       "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/OSX",
+      "status": "candidate",
+      "text": "[Jing Lin](https://jinglin7.github.io), [Ailing Zeng](https://ailingzeng.site/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm), [Lei Zhang](https://www.leizhang.org/), [Yu Li](https://yu-li.github.io/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Advocate99/DiffGesture"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/OSX"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

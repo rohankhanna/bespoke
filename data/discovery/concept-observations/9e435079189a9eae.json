@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust bindings for the latest stable release of PROJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "proj ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "proj ci"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4664,
+      "status": "candidate",
+      "text": "rea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4554,
+      "status": "candidate",
+      "text": "abm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4554,
+      "status": "candidate",
+      "text": "air gun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4554,
+      "status": "candidate",
+      "text": "air rifle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "proj ci",
+      "sense_id": "proj-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "proj-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proj-ci",
+  "observation_id": "9e435079189a9eae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "proj ci",
+  "source_context_snippet": "proj ci",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "georust/proj",
+  "source_repo_description": "Rust bindings for the latest stable release of PROJ"
+}

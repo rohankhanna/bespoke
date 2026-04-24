@@ -309,6 +309,120 @@
       "source_repo": "clice-io/clice",
       "status": "candidate-context",
       "text": "vscode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "status": "candidate-context",
+      "text": "Indent and format MATLAB code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Julia docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab MAX/Mojo docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Python docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab R docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Extension for React/Javascript snippets with search supporting ES7+ and babel features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "R Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate-context",
+      "text": "A plugin simplifying the task of working with VS Code codicons in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate-context",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "Playwright Test Visual Studio Code integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cstrap/python-snippets",
+      "status": "candidate-context",
+      "text": "Python snippets for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cstrap/python-snippets",
+      "status": "candidate-context",
+      "text": "Python snippets collections."
     }
   ],
   "candidate_glosses": [
@@ -461,6 +575,66 @@
       "source_repo": "clice-io/clice",
       "status": "candidate",
       "text": "vscode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "status": "candidate",
+      "text": "Indent and format MATLAB code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-r-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cstrap/python-snippets",
+      "status": "candidate",
+      "text": "Python snippets collections."
     }
   ],
   "candidate_related_terms": [],
@@ -642,11 +816,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "affenwiesel/matlab-formatter-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-julia-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-python-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-r-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "REditorSupport/vscode-R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mortepau/codicons.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "cstrap/python-snippets"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

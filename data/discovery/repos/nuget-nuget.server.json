@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NuGet/NuGet.Server",
+      "target": "nuget/nugetgallery",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:57:45.713403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NuGet Server is a lightweight standalone NuGet server",
+    "fork": false,
+    "full_name": "NuGet/NuGet.Server",
+    "html_url": "https://github.com/NuGet/NuGet.Server",
+    "language": "C#",
+    "pushed_at": "2025-03-11T20:28:15Z",
+    "stargazers_count": 609,
+    "topics": [],
+    "updated_at": "2026-04-20T13:19:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuget/nugetgallery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

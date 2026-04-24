@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:57:37.217533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 72
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Default community health files for the Autofac organization.",
+    "fork": false,
+    "full_name": "autofac/.github",
+    "html_url": "https://github.com/autofac/.github",
+    "language": null,
+    "pushed_at": "2025-09-25T18:29:17Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-25T18:29:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

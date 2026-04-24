@@ -126,11 +126,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "if-node-version",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "jimp",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -252,13 +247,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ajv-validator/ajv",
-      "target": "simplex-chat/simplex-chat",
-      "target_type": "repository"
-    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -439,13 +427,6 @@
       "source_file": "package.json",
       "source_repo": "ajv-validator/ajv",
       "target": "husky",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ajv-validator/ajv",
-      "target": "if-node-version",
       "target_type": "component"
     },
     {
@@ -645,7 +626,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:53:44.034748+00:00",
+  "fetched_at": "2026-04-24T09:11:37.475008+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -653,11 +634,11 @@
     },
     {
       "path": "package.json",
-      "size": 4481
+      "size": 4405
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 979
+      "size": 985
     },
     {
       "path": ".github/workflows/publish.yml",
@@ -673,24 +654,19 @@
     "full_name": "ajv-validator/ajv",
     "html_url": "https://github.com/ajv-validator/ajv",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T18:48:45Z",
-    "stargazers_count": 14685,
+    "pushed_at": "2026-04-24T07:57:18Z",
+    "stargazers_count": 14686,
     "topics": [
       "ajv",
       "json-schema",
       "validator"
     ],
-    "updated_at": "2026-04-23T23:35:05Z"
+    "updated_at": "2026-04-24T07:38:01Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "pandastrike/jsck",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "simplex-chat/simplex-chat",
       "source_file": "README.md"
     }
   ],

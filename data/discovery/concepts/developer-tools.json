@@ -253,6 +253,66 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate-context",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "Streamlit \u2014 A faster way to build and share data apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5\ufe0f Reproducible development environment for humans and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/developer-tooling",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0\ufe0f SDKs and CLI for interacting with Celo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/developer-tooling",
+      "status": "candidate-context",
+      "text": "This repository contains the source code for various JS/TS developer tools and CLI(s) released by cLabs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_glosses": [
@@ -375,6 +435,36 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/developer-tooling",
+      "status": "candidate",
+      "text": "This repository contains the source code for various JS/TS developer tools and CLI(s) released by cLabs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -532,11 +622,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/developer-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-dev-gallery"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

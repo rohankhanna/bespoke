@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remove disabled packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "status": "candidate-context",
+      "text": "Remove disabled packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "status": "candidate",
+      "text": "Remove disabled packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20637,
+      "status": "candidate",
+      "text": "dismantle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20637,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20516,
+      "status": "candidate",
+      "text": "collapse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20516,
+      "status": "candidate",
+      "text": "deflocculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20516,
+      "status": "candidate",
+      "text": "demolish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remove disabled packages",
+  "concept_id": "remove-disabled-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove disabled packages",
+      "sense_id": "remove-disabled-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

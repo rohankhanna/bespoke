@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library for building excellent user experiences with Stacks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "styled-components",
+      "sense_id": "styled-components#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "styled-components",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "styled-components",
+  "observation_id": "cad5f2e532fb7741",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "styled-components",
+  "source_context_snippet": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect).",
+  "source_file": null,
+  "source_repo": "stx-labs/connect",
+  "source_repo_description": "A library for building excellent user experiences with Stacks."
+}

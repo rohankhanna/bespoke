@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@alrra/travis-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-class-fields",
+      "target": "littledan/proposal-new-initialize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-class-fields",
+      "target": "erights/orthogonal-classes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-class-fields",
+      "target": "littledan/proposal-decorators",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-class-fields",
+      "target": "littledan/proposal-private-methods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-class-fields",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-class-fields",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-class-fields",
+      "target": "@alrra/travis-scripts",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:11.679346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17752
+    },
+    {
+      "path": "package.json",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Orthogonally-informed combination of public and private fields proposals",
+    "fork": false,
+    "full_name": "tc39/proposal-class-fields",
+    "html_url": "https://github.com/tc39/proposal-class-fields",
+    "language": "HTML",
+    "pushed_at": "2022-01-24T20:55:32Z",
+    "stargazers_count": 1727,
+    "topics": [],
+    "updated_at": "2026-04-18T05:04:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erights/orthogonal-classes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littledan/proposal-decorators",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littledan/proposal-new-initialize",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littledan/proposal-private-methods",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

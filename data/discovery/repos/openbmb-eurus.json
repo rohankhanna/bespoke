@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:20:57.884218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenBMB/Eurus",
+    "html_url": "https://github.com/OpenBMB/Eurus",
+    "language": "Python",
+    "pushed_at": "2024-09-18T15:55:39Z",
+    "stargazers_count": 323,
+    "topics": [],
+    "updated_at": "2026-04-03T01:55:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

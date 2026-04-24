@@ -1,0 +1,1019 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "acpopescu/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Build All Wheels for Repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "jlumbroso/free-disk-space@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-experimental.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-experimental.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Build bitsandbytes experimental",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Jimver/cuda-toolkit@v0.2.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Build bitsandbytes Linux Wheel Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Batch Build Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Jimver/cuda-toolkit@v0.2.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.37.2-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Jimver/cuda-toolkit@v0.2.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.38.1-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Jimver/cuda-toolkit@v0.2.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-0.39.0-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Jimver/cuda-toolkit@v0.2.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA12.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "Jimver/cuda-toolkit@v0.2.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-noCUDA122.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:26.321286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1694
+    },
+    {
+      "path": ".github/workflows/build-all-repo.yml",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/build-experimental.yml",
+      "size": 7220
+    },
+    {
+      "path": ".github/workflows/build-linux-latest.yml",
+      "size": 6621
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch.yml",
+      "size": 3180
+    },
+    {
+      "path": ".github/workflows/build-windows-0.37.2-repo.yml",
+      "size": 11908
+    },
+    {
+      "path": ".github/workflows/build-windows-0.38.1-repo.yml",
+      "size": 11865
+    },
+    {
+      "path": ".github/workflows/build-windows-0.39.0-repo.yml",
+      "size": 11865
+    },
+    {
+      "path": ".github/workflows/build-windows-noCUDA12.yml",
+      "size": 12907
+    },
+    {
+      "path": ".github/workflows/build-windows-noCUDA122.yml",
+      "size": 12933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Windows compile of bitsandbytes for use in text-generation-webui.",
+    "fork": false,
+    "full_name": "jllllll/bitsandbytes-windows-webui",
+    "html_url": "https://github.com/jllllll/bitsandbytes-windows-webui",
+    "language": "HTML",
+    "pushed_at": "2023-11-18T15:40:24Z",
+    "stargazers_count": 361,
+    "topics": [],
+    "updated_at": "2026-04-23T11:50:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acpopescu/bitsandbytes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build All Wheels for Repository",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-repo.yml",
+      "term": "Build All Wheels for Repository"
+    },
+    {
+      "context_snippet": "Build bitsandbytes experimental",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-experimental.yml",
+      "term": "Build bitsandbytes experimental"
+    },
+    {
+      "context_snippet": "Build bitsandbytes Linux Wheel Latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "term": "Build bitsandbytes Linux Wheel Latest"
+    },
+    {
+      "context_snippet": "Batch Build Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch.yml",
+      "term": "Batch Build Wheels"
+    }
+  ]
+}

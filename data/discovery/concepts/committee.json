@@ -19,6 +19,18 @@
       "source_repo": "knative/community",
       "status": "candidate-context",
       "text": "![Kuack the Knative Duck](./mascot/kuack.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposals",
+      "status": "candidate-context",
+      "text": "Tracking ECMAScript Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposals",
+      "status": "candidate-context",
+      "text": "* [Stage 1 Proposals](stage-1-proposals.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "knative/community",
       "status": "candidate",
       "text": "![Kuack the Knative Duck](./mascot/kuack.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposals",
+      "status": "candidate",
+      "text": "* [Stage 1 Proposals](stage-1-proposals.md)"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "knative/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposals"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

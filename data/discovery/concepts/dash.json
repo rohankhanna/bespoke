@@ -19,6 +19,30 @@
       "source_repo": "videojs/video.js",
       "status": "candidate-context",
       "text": "[![Video.js logo][logo]][vjs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "status": "candidate-context",
+      "text": "The ad-insertion reference pipeline shows how to integrate various media building blocks, with analytics powered by the OpenVINO\u2122 Toolkit, for intelligent server-side ad insertion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/dash",
+      "status": "candidate-context",
+      "text": "Data Apps & Dashboards for Python. No JavaScript Required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/dash",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/github/plotly/dash/master.svg)](https://circleci.com/gh/plotly/dash)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "videojs/video.js",
       "status": "candidate",
       "text": "[![Video.js logo][logo]][vjs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/dash",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/github/plotly/dash/master.svg)](https://circleci.com/gh/plotly/dash)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "videojs/video.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "plotly/dash"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

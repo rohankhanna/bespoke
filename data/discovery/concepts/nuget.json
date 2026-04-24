@@ -43,6 +43,30 @@
       "source_repo": "cake-build/cake",
       "status": "candidate-context",
       "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "Client Tools for NuGet - including Visual Studio extensions, command line tools, and msbuild support. (Open issues on https://github.com/nuget/home/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "BCrypt.Net - Bringing updates to the original bcrypt package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "cake-build/cake",
       "status": "candidate",
       "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +166,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/NuGet.Client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BcryptNet/bcrypt.net"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

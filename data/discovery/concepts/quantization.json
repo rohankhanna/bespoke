@@ -175,6 +175,66 @@
       "source_repo": "huggingface/optimum-quanto",
       "status": "candidate-context",
       "text": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "OpenMMLab Model Compression Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "INT4/INT5/INT8 and FP16 inference on CPU for RWKV language model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate-context",
+      "text": "Palette quantization library that powers pngquant and other PNG optimizers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate-context",
+      "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate-context",
+      "text": "TinyChatEngine: On-Device LLM Inference Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate-context",
+      "text": "![tinychat_logo](assets/figures/tinychat_logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "huggingface/optimum-quanto",
       "status": "candidate",
       "text": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate",
+      "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate",
+      "text": "![tinychat_logo](assets/figures/tinychat_logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -408,11 +498,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmrazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "diffusion-transformer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "Lumina-T2X is a unified framework for Text to Any Modality Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "diffusion-transformer",
+  "concept_id": "diffusion-transformer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diffusion-transformer",
+      "sense_id": "diffusion-transformer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

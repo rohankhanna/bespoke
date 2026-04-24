@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Freeze (package) Python programs into stand-alone executables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate new news entries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate new news entries"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35737,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35475,
+      "status": "candidate",
+      "text": "seats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34717,
+      "status": "candidate",
+      "text": "old"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34581,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34569,
+      "status": "candidate",
+      "text": "perspective"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate new news entries",
+      "sense_id": "validate-new-news-entries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-new-news-entries",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-new-news-entries",
+  "observation_id": "7a23587d8bc706cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Validate new news entries",
+  "source_context_snippet": "Validate new news entries",
+  "source_file": ".github/workflows/validate-new-news.yml",
+  "source_repo": "pyinstaller/pyinstaller",
+  "source_repo_description": "Freeze (package) Python programs into stand-alone executables"
+}

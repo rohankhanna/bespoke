@@ -175,6 +175,54 @@
       "source_repo": "Advocate99/DiffGesture",
       "status": "candidate-context",
       "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "Lumina-T2X is a unified framework for Text to Any Modality Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/diffusion-fast",
+      "status": "candidate-context",
+      "text": "Faster generation with text-to-image diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusion-fast",
+      "status": "candidate-context",
+      "text": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "konpatp/diffae",
+      "status": "candidate-context",
+      "text": "Official implementation of Diffusion Autoencoders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konpatp/diffae",
+      "status": "candidate-context",
+      "text": "A CVPR 2022 (ORAL) paper ([paper](https://openaccess.thecvf.com/content/CVPR2022/html/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.html), [site](https://diff-ae.github.io/), [5-min video](https://youtu.be/i3rjEsiHoUU)):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +309,30 @@
       "source_repo": "Advocate99/DiffGesture",
       "status": "candidate",
       "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusion-fast",
+      "status": "candidate",
+      "text": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konpatp/diffae",
+      "status": "candidate",
+      "text": "A CVPR 2022 (ORAL) paper ([paper](https://openaccess.thecvf.com/content/CVPR2022/html/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.html), [site](https://diff-ae.github.io/), [5-min video](https://youtu.be/i3rjEsiHoUU)):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +436,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Advocate99/DiffGesture"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/diffusion-fast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "konpatp/diffae"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "finegrain-ai/refiners"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

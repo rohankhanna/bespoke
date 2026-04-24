@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "Milly/runtray-ps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "Milly/runtray-ps",
+      "target": "github/codeql-action/upload-sarif@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "Milly/runtray-ps",
+      "target": "Code Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Milly/runtray-ps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Milly/runtray-ps",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Milly/runtray-ps",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:40.528677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4261
+    },
+    {
+      "path": ".github/workflows/code-analysis.yml",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run any console program in the notification area.",
+    "fork": false,
+    "full_name": "Milly/runtray-ps",
+    "html_url": "https://github.com/Milly/runtray-ps",
+    "language": "PowerShell",
+    "pushed_at": "2023-07-19T14:39:24Z",
+    "stargazers_count": 7,
+    "topics": [
+      "cli",
+      "gui",
+      "windows"
+    ],
+    "updated_at": "2024-09-01T06:13:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "term": "Code Analysis"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "A long-running console program can be run in the notification area.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

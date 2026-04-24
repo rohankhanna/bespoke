@@ -1,0 +1,308 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "rmacklin/fetch-through-merge-base@bfe4d03a86f9afa52bc1a70e9814fc92a07f7b75",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "aminya/setup-cpp@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions-js/push@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-checker.yml"
+    },
+    {
+      "component": "jadrol/pr-description-checker-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-checker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "rmacklin/fetch-through-merge-base@bfe4d03a86f9afa52bc1a70e9814fc92a07f7b75",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "aminya/setup-cpp@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions-js/push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "Check code formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "jadrol/pr-description-checker-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-description-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "PR description checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "directx-shader-compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "dxil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "hlsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "target": "shader-programs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:55.668811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5994
+    },
+    {
+      "path": ".github/workflows/clang-format-checker.yml",
+      "size": 5998
+    },
+    {
+      "path": ".github/workflows/coverage-gh-pages.yml",
+      "size": 1931
+    },
+    {
+      "path": ".github/workflows/pr-description-checker.yml",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang.",
+    "fork": false,
+    "full_name": "microsoft/DirectXShaderCompiler",
+    "html_url": "https://github.com/microsoft/DirectXShaderCompiler",
+    "language": "C++",
+    "pushed_at": "2026-04-23T21:07:38Z",
+    "stargazers_count": 3548,
+    "topics": [
+      "directx-shader-compiler",
+      "dxil",
+      "hlsl",
+      "shader-programs"
+    ],
+    "updated_at": "2026-04-23T21:07:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Check code formatting\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "term": "Check code formatting"
+    },
+    {
+      "context_snippet": "'PR description checker'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-description-checker.yml",
+      "term": "PR description checker"
+    },
+    {
+      "context_snippet": "The DirectX Shader Compiler project includes a compiler and related tools used to compile High-Level Shader Language (HLSL) programs into DirectX Intermediate Language (DXIL) representation. Applications that make use of DirectX for graphics, games, and computation can use it to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx-shader-compiler"
+    },
+    {
+      "context_snippet": "The DirectX Shader Compiler project includes a compiler and related tools used to compile High-Level Shader Language (HLSL) programs into DirectX Intermediate Language (DXIL) representation. Applications that make use of DirectX for graphics, games, and computation can use it to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dxil"
+    },
+    {
+      "context_snippet": "The DirectX Shader Compiler project includes a compiler and related tools used to compile High-Level Shader Language (HLSL) programs into DirectX Intermediate Language (DXIL) representation. Applications that make use of DirectX for graphics, games, and computation can use it to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hlsl"
+    },
+    {
+      "context_snippet": "The DirectX Shader Compiler project includes a compiler and related tools used to compile High-Level Shader Language (HLSL) programs into DirectX Intermediate Language (DXIL) representation. Applications that make use of DirectX for graphics, games, and computation can use it to\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shader-programs"
+    }
+  ]
+}

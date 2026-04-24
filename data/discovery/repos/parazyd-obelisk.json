@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "parazyd/obelisk",
+      "target": "libbitcoin/libbitcoin-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "parazyd/obelisk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "parazyd/obelisk",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "parazyd/obelisk",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "parazyd/obelisk",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "parazyd/obelisk",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yaml",
+      "source_repo": "parazyd/obelisk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yaml",
+      "source_repo": "parazyd/obelisk",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yaml",
+      "source_repo": "parazyd/obelisk",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "agpl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "electrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "electrum-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "libbitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk",
+      "target": "zeromq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:23.886418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2149
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2349
+    },
+    {
+      "path": ".github/workflows/py.yaml",
+      "size": 931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Electrum server using zeromq libbitcoin as backend",
+    "fork": false,
+    "full_name": "parazyd/obelisk",
+    "html_url": "https://github.com/parazyd/obelisk",
+    "language": "Python",
+    "pushed_at": "2021-05-12T04:55:42Z",
+    "stargazers_count": 16,
+    "topics": [
+      "agpl",
+      "async",
+      "asyncio",
+      "bitcoin",
+      "electrum",
+      "electrum-server",
+      "libbitcoin",
+      "python",
+      "zeromq",
+      "zmq"
+    ],
+    "updated_at": "2024-10-30T03:08:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libbitcoin/libbitcoin-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agpl"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum-server"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libbitcoin"
+    },
+    {
+      "context_snippet": "obelisk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zeromq"
+    }
+  ]
+}

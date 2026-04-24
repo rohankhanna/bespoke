@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Build one"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf0 Binary distribution of PDFium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate-context",
+      "text": "Build one"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate",
+      "text": "Build one"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110091919,
+      "status": "candidate",
+      "text": "erect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110090919,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110089919,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 109991914,
+      "status": "candidate",
+      "text": "inaugural"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build one",
+  "concept_id": "build-one",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-one.yml",
+      "source_repo": "bblanchon/pdfium-binaries"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build one",
+      "sense_id": "build-one#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

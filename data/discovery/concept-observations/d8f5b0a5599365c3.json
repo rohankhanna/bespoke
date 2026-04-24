@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Test Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Test Docker Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32828,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25747,
+      "status": "candidate",
+      "text": "inkblot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25722,
+      "status": "candidate",
+      "text": "captcha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22133,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17652,
+      "status": "candidate",
+      "text": "loader"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test Docker Image",
+      "sense_id": "build-and-test-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test-docker-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test-docker-image",
+  "observation_id": "d8f5b0a5599365c3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Build and Test Docker Image",
+  "source_context_snippet": "Build and Test Docker Image",
+  "source_file": ".github/workflows/build-docker-image.yml",
+  "source_repo": "inclusionAI/AReaL",
+  "source_repo_description": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible."
+}

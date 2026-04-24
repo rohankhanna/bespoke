@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:02:15.924479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Website for Elixir",
+    "fork": false,
+    "full_name": "elixir-lang/elixir-lang.github.com",
+    "html_url": "https://github.com/elixir-lang/elixir-lang.github.com",
+    "language": "CSS",
+    "pushed_at": "2026-04-18T09:48:32Z",
+    "stargazers_count": 362,
+    "topics": [],
+    "updated_at": "2026-04-18T09:48:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

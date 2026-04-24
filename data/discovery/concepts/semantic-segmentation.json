@@ -91,6 +91,54 @@
       "source_repo": "CSAILVision/semantic-segmentation-pytorch",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "WB color augmenter improves the accuracy of image classification and image semantic segmentation methods by emulating different WB effects  (ICCV 2019) [Python & Matlab]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a fast open framework for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "EfficientFormerV2 [ICCV 2023] & EfficientFormer [NeurIPs 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "CSAILVision/semantic-segmentation-pytorch",
       "status": "candidate",
       "text": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +256,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "CSAILVision/semantic-segmentation-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "weiliu89/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "snap-research/EfficientFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

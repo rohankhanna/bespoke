@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "harbor-framework/harbor-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "harbor-framework/harbor-cookbook",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:08.211005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2584
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 354
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Realistic examples of building evals and optimizing agents with Harbor",
+    "fork": false,
+    "full_name": "harbor-framework/harbor-cookbook",
+    "html_url": "https://github.com/harbor-framework/harbor-cookbook",
+    "language": "Python",
+    "pushed_at": "2026-04-23T02:30:06Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-04-23T07:30:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

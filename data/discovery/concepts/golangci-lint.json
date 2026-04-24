@@ -340,6 +340,198 @@
       "source_repo": "kubernetes-sigs/controller-tools",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "The slightly more awesome standard unix password manager for teams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for Milvus(Deprecated)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate-context",
+      "text": "A repository to host examples and tutorials for Gin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cli",
+      "status": "candidate-context",
+      "text": "The official command line client for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cli",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "Aligned is a verification layer for zero-knowledge proofs using EigenLayer. Our mission is to accelerate the adoption of zero-knowledge and validity proofs on Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transparency-dev/tessera",
+      "status": "candidate-context",
+      "text": "Go library for building tile-based transparency logs (tlogs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/tessera",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "SQL-first Golang ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate-context",
+      "text": "Golang HTTP router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "die-net/lrucache",
+      "status": "candidate-context",
+      "text": "LruCache is a thread-safe, in-memory, byte-size-limited httpcache.Cache implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "die-net/lrucache",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "99designs/keyring",
+      "status": "candidate-context",
+      "text": "Go library providing a uniform interface across a range of secure credential stores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/keyring",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "weather app for the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/git-credential-gopass",
+      "status": "candidate-context",
+      "text": "Gopass git-credentials helper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/git-credential-gopass",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass-hibp",
+      "status": "candidate-context",
+      "text": "Gopass haveibeenpwnd.com integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-hibp",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass-jsonapi",
+      "status": "candidate-context",
+      "text": "Gopass Browser Bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-jsonapi",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass-summon-provider",
+      "status": "candidate-context",
+      "text": "Gopass Summon Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-summon-provider",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -496,6 +688,102 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubernetes-sigs/controller-tools",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cli",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/tessera",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "die-net/lrucache",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/keyring",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/git-credential-gopass",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-hibp",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-jsonapi",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-summon-provider",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -715,11 +1003,125 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "kubernetes-sigs/controller-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gopasspw/gopass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "milvus-io/milvus-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gin-gonic/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "cloudfoundry/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "yetanotherco/aligned_layer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/tessera"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "uptrace/bun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "uptrace/bunrouter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "die-net/lrucache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "99designs/keyring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "schachmat/wego"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gopasspw/git-credential-gopass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gopasspw/gopass-hibp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gopasspw/gopass-jsonapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gopasspw/gopass-summon-provider"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

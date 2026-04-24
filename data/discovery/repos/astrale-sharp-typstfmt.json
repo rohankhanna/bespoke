@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "enter-tainer/typstyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-fmt.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "Rustfmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-test.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-test.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-test.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-test.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "Run cargo test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astrale-sharp/typstfmt",
+      "target": "Build Release Binaries",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:54.478316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5154
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 848
+    },
+    {
+      "path": ".github/workflows/cargo-fmt.yml",
+      "size": 174
+    },
+    {
+      "path": ".github/workflows/cargo-test.yml",
+      "size": 338
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "astrale-sharp/typstfmt",
+    "html_url": "https://github.com/astrale-sharp/typstfmt",
+    "language": "Rust",
+    "pushed_at": "2024-06-08T08:38:55Z",
+    "stargazers_count": 248,
+    "topics": [],
+    "updated_at": "2026-03-08T05:58:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enter-tainer/typstyle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rustfmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-fmt.yml",
+      "term": "Rustfmt"
+    },
+    {
+      "context_snippet": "Run cargo test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-test.yml",
+      "term": "Run cargo test"
+    },
+    {
+      "context_snippet": "Build Release Binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build Release Binaries"
+    }
+  ]
+}

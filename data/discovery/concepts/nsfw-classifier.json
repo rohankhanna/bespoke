@@ -19,6 +19,18 @@
       "source_repo": "bhky/opennsfw2",
       "status": "candidate-context",
       "text": "![logo](logo/opennsfw2_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate-context",
+      "text": "Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate-context",
+      "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bhky/opennsfw2",
       "status": "candidate",
       "text": "![logo](logo/opennsfw2_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate",
+      "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "bhky/opennsfw2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

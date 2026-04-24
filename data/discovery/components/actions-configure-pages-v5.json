@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -262,6 +262,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/static.yml",
       "source_repo": "fschutt/printpdf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "inclusionAI/AReaL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "redai-infra/Relax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "adobe/spectrum-design-data"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "Birch-san/box2d3-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage-gh-pages.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "CLIUtils/CLI11"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "salsa-rs/salsa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml",
+      "source_repo": "bshoshany/OGRePy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "aiden0z/pptx-renderer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels"
     }
   ]
 }

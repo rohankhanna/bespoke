@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "unmaintained"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "simple tool to count SLOC (source lines of code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "Create stats of your source code:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate",
+      "text": "Create stats of your source code:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020972,
+      "status": "candidate",
+      "text": "remissions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020971,
+      "status": "candidate",
+      "text": "unmaintainable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020970,
+      "status": "candidate",
+      "text": "nonmaintainable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020969,
+      "status": "candidate",
+      "text": "unmanaged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020968,
+      "status": "candidate",
+      "text": "untended"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "unmaintained",
+  "concept_id": "unmaintained",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flosse/sloc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unmaintained",
+      "sense_id": "unmaintained#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

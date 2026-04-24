@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-metadata.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-metadata.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-metadata.yml",
+      "source_repo": "Azure/aaz",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-metadata.yml",
+      "source_repo": "Azure/aaz",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-metadata.yml",
+      "source_repo": "Azure/aaz",
+      "target": "Verify Metadata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:19:20.730410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/verify-metadata.yml",
+      "size": 548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Atomic Azure CLI",
+    "fork": false,
+    "full_name": "Azure/aaz",
+    "html_url": "https://github.com/Azure/aaz",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T06:29:54Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-24T06:29:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Verify Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-metadata.yml",
+      "term": "Verify Metadata"
+    }
+  ]
+}

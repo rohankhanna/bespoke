@@ -79,6 +79,30 @@
       "source_repo": "InternLM/xtuner",
       "status": "candidate-context",
       "text": "Issue Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Issue Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "Issue Triage"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +139,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "InternLM/xtuner",
+      "status": "candidate",
+      "text": "Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate",
+      "text": "Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate",
       "text": "Issue Triage"
     }
@@ -220,11 +256,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/issue-triage.yaml",
+      "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "microsoft/ai-dev-gallery"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

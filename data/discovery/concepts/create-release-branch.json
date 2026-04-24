@@ -31,6 +31,30 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate-context",
       "text": "Create Release Branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Create Release Branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate-context",
+      "text": "A flexible library for writing functional operations in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate-context",
+      "text": "Create Release Branch"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gchq/Gaffer",
+      "status": "candidate",
+      "text": "Create Release Branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate",
+      "text": "Create Release Branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/koryphe",
       "status": "candidate",
       "text": "Create Release Branch"
     }
@@ -100,11 +136,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/create-release-branch.yaml",
       "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/koryphe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create_release_branch.yml",
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

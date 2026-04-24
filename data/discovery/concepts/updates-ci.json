@@ -19,12 +19,30 @@
       "source_repo": "searxng/searx-instances-uptime",
       "status": "candidate-context",
       "text": "Updates CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "upptime/upptime",
+      "status": "candidate-context",
+      "text": "\u2b06\ufe0f GitHub Actions uptime monitor & status page by @AnandChowdhary"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "upptime/upptime",
+      "status": "candidate-context",
+      "text": "Updates CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate",
+      "text": "Updates CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "upptime/upptime",
       "status": "candidate",
       "text": "Updates CI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/updates.yml",
       "source_repo": "searxng/searx-instances-uptime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/updates.yml",
+      "source_repo": "upptime/upptime"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

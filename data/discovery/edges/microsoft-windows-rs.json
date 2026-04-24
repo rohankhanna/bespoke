@@ -23,20 +23,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmd_fmt.yml",
-      "source_repo": "microsoft/windows-rs",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmd_kick.yml",
-      "source_repo": "microsoft/windows-rs",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cross.yml",
       "source_repo": "microsoft/windows-rs",
       "target": "actions/checkout@v6",
@@ -141,6 +127,34 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "miri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv-windows.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msrv-windows.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "msrv-windows",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/windows-rs",
@@ -155,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "microsoft/windows-rs"
 }

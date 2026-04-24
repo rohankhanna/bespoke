@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parallel t-SNE implementation with Python and Torch wrappers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "py-bh-tsne",
+      "sense_id": "py-bh-tsne#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "py-bh-tsne",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "py-bh-tsne",
+  "observation_id": "382befd91b40ed1d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "py-bh-tsne",
+  "source_context_snippet": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18).",
+  "source_file": null,
+  "source_repo": "DmitryUlyanov/Multicore-TSNE",
+  "source_repo_description": "Parallel t-SNE implementation with Python and Torch wrappers."
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Tag Release"
+    "Tag Release",
+    "tag-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "kubernetes/kops",
       "status": "candidate-context",
       "text": "'Tag Release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "The zero configuration build tool for the web. \ud83d\udce6\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "tag-release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "kubernetes/kops",
       "status": "candidate",
       "text": "'Tag Release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate",
+      "text": "tag-release"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/tag-release.yml",
       "source_repo": "kubernetes/kops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "parcel-bundler/parcel"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

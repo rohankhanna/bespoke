@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Major Version Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Official JavaScript repository for Clerk authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Major Version Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate",
+      "text": "Major Version Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19213,
+      "status": "candidate",
+      "text": "overhaul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18163,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18071,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18071,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Major Version Check",
+  "concept_id": "major-version-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/major-version-check.yml",
+      "source_repo": "clerk/javascript"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Major Version Check",
+      "sense_id": "major-version-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

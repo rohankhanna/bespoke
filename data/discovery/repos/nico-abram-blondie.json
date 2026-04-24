@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "scherermichael-oss/action-has-permission@1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nico-abram/blondie",
+      "target": "bootandy/dust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blondie.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blondie.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "blondie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "scherermichael-oss/action-has-permission@1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "nico-abram/blondie",
+      "target": "Clippy check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:12.402508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 294255
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1613
+    },
+    {
+      "path": ".github/workflows/blondie.yml",
+      "size": 1635
+    },
+    {
+      "path": ".github/workflows/clippy.yml",
+      "size": 1159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collect CPU callstack samples from a windows process",
+    "fork": false,
+    "full_name": "nico-abram/blondie",
+    "html_url": "https://github.com/nico-abram/blondie",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T05:01:42Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-04-22T05:01:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bootandy/dust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "blondie",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blondie.yml",
+      "term": "blondie"
+    },
+    {
+      "context_snippet": "Clippy check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "term": "Clippy check"
+    }
+  ]
+}

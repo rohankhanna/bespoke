@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "all-in-one"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allweonedev/presentation-ai",
+      "status": "candidate-context",
+      "text": "ALLWEONE\u00ae Open source AI presentation generator Gamma Alternative. Create professional slides with customizable themes and AI-generated content in minutes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allweonedev/presentation-ai",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allweonedev/presentation-ai",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993443,
+      "status": "candidate",
+      "text": "aio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986945,
+      "status": "candidate",
+      "text": "end-to-end"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986915,
+      "status": "candidate",
+      "text": "multipurpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985270,
+      "status": "candidate",
+      "text": "multifunction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985194,
+      "status": "candidate",
+      "text": "multi-purpose"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "all-in-one",
+  "concept_id": "all-in-one",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "allweonedev/presentation-ai"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "all-in-one",
+      "sense_id": "all-in-one#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

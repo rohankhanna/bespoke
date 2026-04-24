@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "All"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "All"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027106,
+      "status": "candidate",
+      "text": "totally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026459,
+      "status": "candidate",
+      "text": "wholly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026430,
+      "status": "candidate",
+      "text": "entirely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026104,
+      "status": "candidate",
+      "text": "completely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025050,
+      "status": "candidate",
+      "text": "altogether"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "All",
+      "sense_id": "all#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28052,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12033,
+      "status": "candidate",
+      "text": "wholly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "totally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "altogether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8049,
+      "status": "candidate",
+      "text": "whole"
+    }
+  ],
+  "concept_id": "all",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "all",
+  "observation_id": "5d17a8aea654422f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "All",
+  "source_context_snippet": "All",
+  "source_file": ".github/workflows/workspace.yml",
+  "source_repo": "dalek-cryptography/curve25519-dalek",
+  "source_repo_description": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+}

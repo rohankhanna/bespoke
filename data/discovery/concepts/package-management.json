@@ -55,6 +55,18 @@
       "source_repo": "bioconda/bioconda-recipes",
       "status": "candidate-context",
       "text": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "Client Tools for NuGet - including Visual Studio extensions, command line tools, and msbuild support. (Open issues on https://github.com/nuget/home/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "bioconda/bioconda-recipes",
       "status": "candidate",
       "text": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bioconda/bioconda-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/NuGet.Client"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

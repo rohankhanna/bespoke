@@ -126,21 +126,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "apache/netbeans",
+      "target": "eclipse/corrosion",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "angelozerr/ec4e",
+      "target": "eclipse/acute",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "dart4e/dart4e",
+      "target": "eclipse/dartboard",
       "target_type": "repository"
     },
     {
@@ -354,7 +354,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:52:00.434650+00:00",
+  "fetched_at": "2026-04-24T08:16:17.489596+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -408,22 +408,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "angelozerr/ec4e",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "angelozerr/typescript.java",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/netbeans",
+      "full_name": "eclipse/acute",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dart4e/dart4e",
+      "full_name": "eclipse/corrosion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/dartboard",
       "source_file": "README.md"
     }
   ],

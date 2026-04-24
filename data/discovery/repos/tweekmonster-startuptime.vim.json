@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweekmonster/startuptime.vim",
+      "target": "mattn/gist-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tweekmonster/startuptime.vim",
+      "target": "profiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tweekmonster/startuptime.vim",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:02:29.386602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Breakdown Vim's --startuptime output",
+    "fork": false,
+    "full_name": "tweekmonster/startuptime.vim",
+    "html_url": "https://github.com/tweekmonster/startuptime.vim",
+    "language": "Vim script",
+    "pushed_at": "2022-12-10T13:58:01Z",
+    "stargazers_count": 279,
+    "topics": [
+      "profiler",
+      "vim-plugins"
+    ],
+    "updated_at": "2026-02-25T23:31:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattn/gist-vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![startuptime](https://cloud.githubusercontent.com/assets/111942/23541408/35607a3e-ffb5-11e6-9bf8-1e59b8ae06ef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiler"
+    },
+    {
+      "context_snippet": "![startuptime](https://cloud.githubusercontent.com/assets/111942/23541408/35607a3e-ffb5-11e6-9bf8-1e59b8ae06ef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

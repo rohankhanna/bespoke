@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-chronicles",
+      "target": "status-im/nim-json-serialization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nim-chronicles",
+      "target": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:59:05.177495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30874
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A crafty implementation of structured logging for Nim.",
+    "fork": false,
+    "full_name": "status-im/nim-chronicles",
+    "html_url": "https://github.com/status-im/nim-chronicles",
+    "language": "Nim",
+    "pushed_at": "2025-12-11T07:15:45Z",
+    "stargazers_count": 174,
+    "topics": [],
+    "updated_at": "2026-04-05T16:33:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-json-serialization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

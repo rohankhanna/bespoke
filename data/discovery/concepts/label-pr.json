@@ -43,6 +43,18 @@
       "source_repo": "decaporg/decap-cms",
       "status": "candidate-context",
       "text": "Label PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate-context",
+      "text": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate-context",
+      "text": "\"Label PR\""
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "decaporg/decap-cms",
       "status": "candidate",
       "text": "Label PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate",
+      "text": "\"Label PR\""
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nix-community/home-manager"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

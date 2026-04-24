@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-regexp-named-groups",
+      "target": "moddable-opensource/moddable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-regexp-named-groups",
+      "target": "dmitrysoshnikov/babel-plugin-transform-modern-regexp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:17.218534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Named capture groups for JavaScript RegExps",
+    "fork": true,
+    "full_name": "tc39/proposal-regexp-named-groups",
+    "html_url": "https://github.com/tc39/proposal-regexp-named-groups",
+    "language": "HTML",
+    "pushed_at": "2022-01-24T21:29:45Z",
+    "stargazers_count": 222,
+    "topics": [],
+    "updated_at": "2026-01-28T15:57:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmitrysoshnikov/babel-plugin-transform-modern-regexp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moddable-opensource/moddable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -202,6 +202,78 @@
       "source_repo": "LuaLS/vscode-lua",
       "status": "candidate-context",
       "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "Apollo GraphQL VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "AI Code Completions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Extension for React/Javascript snippets with search supporting ES7+ and babel features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "R Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension to prettify markdown tables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate-context",
+      "text": "[![Test Status](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "Playwright Test Visual Studio Code integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +372,42 @@
       "source_repo": "LuaLS/vscode-lua",
       "status": "candidate",
       "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
     }
   ],
   "candidate_related_terms": [],
@@ -421,11 +529,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/vscode-graphql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "REditorSupport/vscode-R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright-vscode"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

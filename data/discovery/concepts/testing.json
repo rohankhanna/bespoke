@@ -574,6 +574,102 @@
       "source_repo": "rusty1s/pytorch_sparse",
       "status": "candidate-context",
       "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Native Node bindings to Git."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate-context",
+      "text": "Evalution: evolve your LLMs with better evals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate-context",
+      "text": "Comprehensive, language independent Test Suite for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate-context",
+      "text": "yaml-test-suite Repository Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "Playwright Test Visual Studio Code integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "Elegant Lua unit testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "busted"
     }
   ],
   "candidate_glosses": [
@@ -858,6 +954,54 @@
       "source_repo": "rusty1s/pytorch_sparse",
       "status": "candidate",
       "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate",
+      "text": "yaml-test-suite Repository Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate",
+      "text": "busted"
     }
   ],
   "candidate_related_terms": [
@@ -1215,11 +1359,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "rusty1s/pytorch_sparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "evalplus/evalplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodegit/nodegit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ModelCloud/Evalution"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dotansimha/graphql-code-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yaml/yaml-test-suite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lunarmodules/busted"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

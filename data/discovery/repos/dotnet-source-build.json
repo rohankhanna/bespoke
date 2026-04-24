@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "umbrelladocs/action-linkspector@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "github/issue-labeler@v3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    },
+    {
+      "component": "github/super-linter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "github/issue-labeler@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "github/super-linter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/source-build",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:50.633787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6762
+    },
+    {
+      "path": ".github/workflows/check-markdown-links.yml",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/lint-code-base.yml",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository to track efforts to produce a source tarball of the .NET Core SDK and all its components",
+    "fork": false,
+    "full_name": "dotnet/source-build",
+    "html_url": "https://github.com/dotnet/source-build",
+    "language": null,
+    "pushed_at": "2026-03-24T16:57:01Z",
+    "stargazers_count": 286,
+    "topics": [],
+    "updated_at": "2026-03-25T20:21:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Issue Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Issue Labeler"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "term": "Lint Code Base"
+    }
+  ]
+}

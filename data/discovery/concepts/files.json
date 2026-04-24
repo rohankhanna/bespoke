@@ -43,6 +43,18 @@
       "source_repo": "hackerb9/lsix",
       "status": "candidate-context",
       "text": "<img align=\"right\" src=\"README.md.d/thumb.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelroy/Zip",
+      "status": "candidate-context",
+      "text": "Swift framework for zipping and unzipping files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelroy/Zip",
+      "status": "candidate-context",
+      "text": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hackerb9/lsix",
       "status": "candidate",
       "text": "<img align=\"right\" src=\"README.md.d/thumb.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelroy/Zip",
+      "status": "candidate",
+      "text": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hackerb9/lsix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "marmelroy/Zip"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

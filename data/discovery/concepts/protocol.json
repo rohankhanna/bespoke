@@ -190,6 +190,54 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate-context",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ergochat/ircdog",
+      "status": "candidate-context",
+      "text": "a tool for sending and receiving raw IRC protocol lines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ergochat/ircdog",
+      "status": "candidate-context",
+      "text": "`ircdog` is a tool for connecting to IRC servers and sending and receiving raw IRC protocol lines, similar to telnet or netcat, but with additional features:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Browser extension that simplifies access to IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate-context",
+      "text": "Industry Working Group on Automated Cryptographic Algorithm Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate-context",
+      "text": "The [Automated Cryptographic Validation Protocol](https://pages.nist.gov/ACVP/draft-fussell-acvp-spec.html) (ACVP) is a protocol to support a new National Voluntary Laboratory Accreditation Program (NVLAP) testing scope at the [National Institute of Standards and Technology (NIS\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate-context",
+      "text": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps \ud83d\udcf1!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +330,30 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ergochat/ircdog",
+      "status": "candidate",
+      "text": "`ircdog` is a tool for connecting to IRC servers and sending and receiving raw IRC protocol lines, similar to telnet or netcat, but with additional features:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP",
+      "status": "candidate",
+      "text": "The [Automated Cryptographic Validation Protocol](https://pages.nist.gov/ACVP/draft-fussell-acvp-spec.html) (ACVP) is a protocol to support a new National Voluntary Laboratory Accreditation Program (NVLAP) testing scope at the [National Institute of Standards and Technology (NIS\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate",
+      "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -465,11 +537,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "lightningnetwork/lnd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ergochat/ircdog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "simplex-chat/simplex-chat"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

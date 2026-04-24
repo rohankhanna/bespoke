@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "robustness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bethgelab/model-vs-human",
+      "status": "candidate-context",
+      "text": "Benchmark your model on out-of-distribution datasets with carefully collected human comparison data (NeurIPS 2021 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bethgelab/model-vs-human",
+      "status": "candidate-context",
+      "text": "![header](./assets/header/header.png \"header\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bethgelab/model-vs-human",
+      "status": "candidate",
+      "text": "![header](./assets/header/header.png \"header\")"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017249,
+      "status": "candidate",
+      "text": "lustiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39759785,
+      "status": "candidate",
+      "text": "hardiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041613,
+      "status": "candidate",
+      "text": "strong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041327,
+      "status": "candidate",
+      "text": "strength"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040719,
+      "status": "candidate",
+      "text": "toughness"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2033,
+      "status": "candidate",
+      "text": "hardiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "lustiness"
+    }
+  ],
+  "canonical_name": "robustness",
+  "concept_id": "robustness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robustness",
+      "sense_id": "robustness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "bytedance/lightseq",
       "status": "candidate-context",
       "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate-context",
+      "text": "Connectionist Temporal Classification (CTC) decoding algorithms: best path, beam search, lexicon search, prefix search, and token passing. Implemented in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate-context",
+      "text": "**Update 2021: installable Python package**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bytedance/lightseq",
       "status": "candidate",
       "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate",
+      "text": "**Update 2021: installable Python package**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bytedance/lightseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

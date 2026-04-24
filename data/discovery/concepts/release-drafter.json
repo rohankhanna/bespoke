@@ -308,6 +308,78 @@
       "source_repo": "aws-powertools/powertools-lambda-java",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/hiredis-rb",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for hiredis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/hiredis-rb",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "A Python utility / library to sort imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate-context",
+      "text": "Object mapping, and more, for Redis and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-node",
+      "status": "candidate-context",
+      "text": "Object mapping, and more, for Redis and Node.js. Written in TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-node",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "The friendly PIL fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "Release drafter"
     }
   ],
   "candidate_glosses": [
@@ -460,6 +532,42 @@
       "source_repo": "aws-powertools/powertools-lambda-java",
       "status": "candidate",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/hiredis-rb",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-node",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate",
+      "text": "Release drafter"
     }
   ],
   "candidate_related_terms": [
@@ -683,11 +791,89 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/hiredis-rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "astral-sh/ruff-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter-bloom.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter-entraid.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter-json.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter-search.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter-time-series.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "uploadcare/pillow-simd"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

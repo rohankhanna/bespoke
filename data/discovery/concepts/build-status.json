@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Status"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mafintosh/streamx",
+      "status": "candidate-context",
+      "text": "An iteration of the Node.js core streams with a series of improvements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mafintosh/streamx",
+      "status": "candidate-context",
+      "text": "Build Status"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mafintosh/streamx",
+      "status": "candidate",
+      "text": "Build Status"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "constitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "elevate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "establish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Status",
+  "concept_id": "build-status",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mafintosh/streamx"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Status",
+      "sense_id": "build-status#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

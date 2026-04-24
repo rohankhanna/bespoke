@@ -91,6 +91,18 @@
       "source_repo": "karancode/asdf-aws-vault",
       "status": "candidate-context",
       "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-community/asdf-kubectl",
+      "status": "candidate-context",
+      "text": "Kubectl plugin for the asdf version manager [maintainer=@DustinChaloupka]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-kubectl",
+      "status": "candidate-context",
+      "text": "Kubectl plugin for [asdf](https://github.com/asdf-vm/asdf) version manager"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "karancode/asdf-aws-vault",
       "status": "candidate",
       "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-kubectl",
+      "status": "candidate",
+      "text": "Kubectl plugin for [asdf](https://github.com/asdf-vm/asdf) version manager"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "karancode/asdf-aws-vault"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-kubectl"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

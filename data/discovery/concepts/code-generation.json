@@ -94,6 +94,54 @@
       "source_repo": "apollographql/apollo-tooling",
       "status": "candidate-context",
       "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollographql/apollo-tooling/master/LICENSE) [![npm](https://img.shields.io/npm/v/apollo.svg)](https://www.npmjs.com/package/apollo) [![Get on Slack](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/pymbolic",
+      "status": "candidate-context",
+      "text": "A simple package to do symbolic math (focus on code gen and DSLs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pymbolic",
+      "status": "candidate-context",
+      "text": "Pymbolic: Easy Expression Trees and Term Rewriting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "Utilities for efficient fine-tuning, inference and evaluation of code generation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "Meta-programming for Swift, stop writing boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "status": "candidate-context",
+      "text": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "status": "candidate-context",
+      "text": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\""
     }
   ],
   "candidate_glosses": [
@@ -138,6 +186,30 @@
       "source_repo": "apollographql/apollo-tooling",
       "status": "candidate",
       "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollographql/apollo-tooling/master/LICENSE) [![npm](https://img.shields.io/npm/v/apollo.svg)](https://www.npmjs.com/package/apollo) [![Get on Slack](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pymbolic",
+      "status": "candidate",
+      "text": "Pymbolic: Easy Expression Trees and Term Rewriting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate",
+      "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "status": "candidate",
+      "text": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\""
     }
   ],
   "candidate_related_terms": [
@@ -253,11 +325,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "inducer/pymbolic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/code-generation.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LiveCodeBench/LiveCodeBench"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

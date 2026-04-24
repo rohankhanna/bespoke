@@ -19,6 +19,18 @@
       "source_repo": "FMInference/H2O",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "Running large language models on a single GPU for throughput-oriented scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "FMInference/H2O",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "FMInference/H2O"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "instruction-set"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LianjiaTech/BELLE",
+      "status": "candidate-context",
+      "text": "BELLE: Be Everyone's Large Language model Engine\uff08\u5f00\u6e90\u4e2d\u6587\u5bf9\u8bdd\u5927\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LianjiaTech/BELLE",
+      "status": "candidate-context",
+      "text": "*Read this in [English](README_en.md).*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LianjiaTech/BELLE",
+      "status": "candidate",
+      "text": "*Read this in [English](README_en.md).*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "instruction-set",
+  "concept_id": "instruction-set",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LianjiaTech/BELLE"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instruction-set",
+      "sense_id": "instruction-set#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

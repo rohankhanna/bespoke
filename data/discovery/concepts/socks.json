@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "socks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29933305,
+      "status": "candidate",
+      "text": "whap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932804,
+      "status": "candidate",
+      "text": "bop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29925580,
+      "status": "candidate",
+      "text": "bonk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29918431,
+      "status": "candidate",
+      "text": "whop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "socks",
+  "concept_id": "socks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "TooTallNate/proxy-agents"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "socks",
+      "sense_id": "socks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

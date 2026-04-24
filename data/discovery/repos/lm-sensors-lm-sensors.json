@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "hramrach/lcov-reporter-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "lm-sensors/lm-sensors",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "lm-sensors/lm-sensors",
+      "target": "hramrach/lcov-reporter-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "lm-sensors/lm-sensors",
+      "target": "\ud83c\udfd4\ufe0f Display coverage data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "lm-sensors/lm-sensors",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "lm-sensors/lm-sensors",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "lm-sensors/lm-sensors",
+      "target": "\ud83c\udf65GitHub Action Debian",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:01.173001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6388
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1551
+    },
+    {
+      "path": ".github/workflows/debian.yml",
+      "size": 2901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "lm-sensors repository",
+    "fork": false,
+    "full_name": "lm-sensors/lm-sensors",
+    "html_url": "https://github.com/lm-sensors/lm-sensors",
+    "language": "Perl",
+    "pushed_at": "2026-04-24T07:01:28Z",
+    "stargazers_count": 1103,
+    "topics": [],
+    "updated_at": "2026-04-24T07:01:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udfd4\ufe0f Display coverage data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "\ud83c\udfd4\ufe0f Display coverage data"
+    },
+    {
+      "context_snippet": "\ud83c\udf65GitHub Action Debian",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yml",
+      "term": "\ud83c\udf65GitHub Action Debian"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
       "status": "candidate-context",
       "text": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "Virtual Python Environment builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
       "status": "candidate",
       "text": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pypa/virtualenv"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

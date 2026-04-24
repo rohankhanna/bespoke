@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "thorsten-voice"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate-context",
+      "text": "Thorsten-Voice: A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate-context",
+      "text": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate",
+      "text": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "thorsten-voice",
+  "concept_id": "thorsten-voice",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "thorsten-voice",
+      "sense_id": "thorsten-voice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

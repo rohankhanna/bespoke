@@ -32,6 +32,30 @@
       "source_repo": "microsoft/vcpkg-tool",
       "status": "candidate-context",
       "text": "PR Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "An easy-to-use framework for modular RAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate-context",
+      "text": "AWS Distro for OpenTelemetry Collector (see ADOT Roadmap at https://github.com/orgs/aws-observability/projects/4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate-context",
+      "text": "PR Build"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/vcpkg-tool",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-collector",
       "status": "candidate",
       "text": "PR Build"
     }
@@ -101,11 +137,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/pr.yaml",
       "source_repo": "microsoft/vcpkg-tool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aigc-apps/PAI-RAG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/PR-build.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

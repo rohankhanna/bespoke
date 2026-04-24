@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:50:30.799373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Template-DQN and DRRN agent implementations",
+    "fork": false,
+    "full_name": "microsoft/tdqn",
+    "html_url": "https://github.com/microsoft/tdqn",
+    "language": "Python",
+    "pushed_at": "2023-06-12T19:32:17Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-11-06T17:45:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,320 @@
+{
+  "components": [
+    {
+      "component": "github-slugger",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "handlebars",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hubdown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marky-deep-links",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-demo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ecstatic",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/standard-www",
+      "target": "andrewbelt/witex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/standard-www",
+      "target": "mixu/markdown-styles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "github-slugger",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "handlebars",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "hubdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "marky-deep-links",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "standard-demo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "ecstatic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "shelljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-www",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-www",
+      "target": "style-guide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:03:10.906347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1388
+    },
+    {
+      "path": "package.json",
+      "size": 1458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":point_up_2: Website for JavaScript Standard Style (@standard)",
+    "fork": false,
+    "full_name": "standard/standard-www",
+    "html_url": "https://github.com/standard/standard-www",
+    "language": "CSS",
+    "pushed_at": "2025-07-11T08:51:09Z",
+    "stargazers_count": 33,
+    "topics": [
+      "development",
+      "ecmascript",
+      "es6",
+      "eslint",
+      "javascript",
+      "linter",
+      "nodejs",
+      "standard",
+      "static-code-analysis",
+      "style",
+      "style-guide"
+    ],
+    "updated_at": "2026-02-08T15:52:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewbelt/witex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mixu/markdown-styles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    }
+  ]
+}

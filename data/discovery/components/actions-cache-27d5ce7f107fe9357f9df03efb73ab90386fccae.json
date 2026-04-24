@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -332,6 +332,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_doc.yml",
       "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "openvinotoolkit/openvino_tokenizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-develop.yml",
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "composer/composer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "gopasspw/git-credential-gopass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gopasspw/git-credential-gopass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "gopasspw/gopass-hibp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gopasspw/gopass-hibp"
     }
   ]
 }

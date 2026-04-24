@@ -247,6 +247,78 @@
       "source_repo": "microsoft/Swin-Transformer",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aim-uofa/AdelaiDet",
+      "status": "candidate-context",
+      "text": "AdelaiDet is an open source toolbox for multiple instance-level detection and recognition tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/AdelaiDet",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a fast open framework for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS",
+      "status": "candidate-context",
+      "text": "YOLOX + ROS2 object detection package (C++ only support)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MegEngine/YOLOX",
+      "status": "candidate-context",
+      "text": "MegEngine implementation of YOLOX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/YOLOX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WXinlong/SOLO",
+      "status": "candidate-context",
+      "text": "SOLO and SOLOv2 for instance segmentation, ECCV 2020 & NeurIPS 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WXinlong/SOLO",
+      "status": "candidate-context",
+      "text": "This project hosts the code for implementing the SOLO algorithms for instance segmentation."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +441,42 @@
       "source_repo": "microsoft/Swin-Transformer",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/AdelaiDet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/YOLOX",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WXinlong/SOLO",
+      "status": "candidate",
+      "text": "This project hosts the code for implementing the SOLO algorithms for instance segmentation."
     }
   ],
   "candidate_related_terms": [],
@@ -508,11 +616,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/Swin-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aim-uofa/AdelaiDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "weiliu89/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/YOLOX-ROS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MegEngine/YOLOX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "WXinlong/SOLO"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

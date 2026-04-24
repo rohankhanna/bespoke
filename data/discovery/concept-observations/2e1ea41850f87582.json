@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recursively merge values in a JavaScript object. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Recursively merge values in a javascript object."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Recursively merge values in a javascript object."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956690,
+      "status": "candidate",
+      "text": "mix-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956689,
+      "status": "candidate",
+      "text": "inheritance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956688,
+      "status": "candidate",
+      "text": "metaclass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956687,
+      "status": "candidate",
+      "text": "derived class"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956686,
+      "status": "candidate",
+      "text": "wrapper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mixin",
+      "sense_id": "mixin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mixin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mixin",
+  "observation_id": "2e1ea41850f87582",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "mixin",
+  "source_context_snippet": "> Recursively merge values in a javascript object.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/merge-deep",
+  "source_repo_description": "Recursively merge values in a JavaScript object. "
+}

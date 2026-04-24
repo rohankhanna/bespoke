@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:11:05.571439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 966
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Overlay for Gentoo",
+    "fork": false,
+    "full_name": "aaaaadrien/adrien-overlay",
+    "html_url": "https://github.com/aaaaadrien/adrien-overlay",
+    "language": "Shell",
+    "pushed_at": "2025-06-25T07:46:42Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-06-25T07:46:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -247,6 +247,42 @@
       "source_repo": "twardoch/fonttools-opentype-feature-freezer",
       "status": "candidate-context",
       "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "\ud83e\uddc1 A font quality assurance tool for everyone "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fontsource/fontsource",
+      "status": "candidate-context",
+      "text": "Self-host Open Source fonts in neatly bundled NPM packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fontsource/fontsource",
+      "status": "candidate-context",
+      "text": "[![Generic badge](https://img.shields.io/badge/fontsource-passing-brightgreen)](https://github.com/fontsource/fontsource) [![Monthly NPM Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmain%2Fdata%2\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "Versatile typeface for code, from code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "twardoch/fonttools-opentype-feature-freezer",
       "status": "candidate",
       "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate",
+      "text": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fontsource/fontsource",
+      "status": "candidate",
+      "text": "[![Generic badge](https://img.shields.io/badge/fontsource-passing-brightgreen)](https://github.com/fontsource/fontsource) [![Monthly NPM Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmain%2Fdata%2\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +622,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "twardoch/fonttools-opentype-feature-freezer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fontsource/fontsource"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "PR Title"
+    "PR Title",
+    "PR title"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -73,6 +74,42 @@
       "source_repo": "teacher-zhou/ComponentBuilder",
       "status": "candidate-context",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenh/ts-proto",
+      "status": "candidate-context",
+      "text": "An idiomatic protobuf generator for TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenh/ts-proto",
+      "status": "candidate-context",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate-context",
+      "text": "Faster LuaLS setup for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate-context",
+      "text": "PR Title"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +146,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenh/ts-proto",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/lazydev.nvim",
       "status": "candidate",
       "text": "PR Title"
     }
@@ -196,11 +251,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pr-title-commit.yml",
       "source_repo": "teacher-zhou/ComponentBuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "stephenh/ts-proto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check_pr_title.yml",
+      "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/lazydev.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

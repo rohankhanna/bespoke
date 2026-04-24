@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lwpyh/Awesome-MLLM-Reasoning-Collection",
+      "target": "accio-lab/swimbird",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lwpyh/Awesome-MLLM-Reasoning-Collection",
+      "target": "aadsah/converseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lwpyh/Awesome-MLLM-Reasoning-Collection",
+      "target": "agents-x-project/pyvision-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lwpyh/Awesome-MLLM-Reasoning-Collection",
+      "target": "acechq/mmiq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:52:09.210249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 204384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of multimodal reasoning papers, codes, datasets, benchmarks and resources.",
+    "fork": false,
+    "full_name": "lwpyh/Awesome-MLLM-Reasoning-Collection",
+    "html_url": "https://github.com/lwpyh/Awesome-MLLM-Reasoning-Collection",
+    "language": null,
+    "pushed_at": "2026-04-01T19:32:31Z",
+    "stargazers_count": 591,
+    "topics": [],
+    "updated_at": "2026-04-21T14:33:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aadsah/converseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accio-lab/swimbird",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acechq/mmiq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agents-x-project/pyvision-rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

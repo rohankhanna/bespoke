@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kyubyong/dc_tts",
+      "target": "kyubyong/deepvoice3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/dc_tts",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/dc_tts",
+      "target": "speech-to-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:13.259525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TensorFlow Implementation of DC-TTS: yet another text-to-speech model",
+    "fork": false,
+    "full_name": "Kyubyong/dc_tts",
+    "html_url": "https://github.com/Kyubyong/dc_tts",
+    "language": "Python",
+    "pushed_at": "2023-04-14T14:54:06Z",
+    "stargazers_count": 1157,
+    "topics": [
+      "speech",
+      "speech-to-text",
+      "tts"
+    ],
+    "updated_at": "2026-04-21T20:42:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyubyong/deepvoice3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "I implement yet another text-to-speech model, dc-tts, introduced in [Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969). My goal, however, is not just replicating the paper. Rather, I'd like t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "I implement yet another text-to-speech model, dc-tts, introduced in [Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969). My goal, however, is not just replicating the paper. Rather, I'd like t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    }
+  ]
+}

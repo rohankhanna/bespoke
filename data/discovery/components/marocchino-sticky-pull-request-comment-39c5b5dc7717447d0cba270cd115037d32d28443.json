@@ -1,12 +1,17 @@
 {
   "component": "marocchino/sticky-pull-request-comment@39c5b5dc7717447d0cba270cd115037d32d28443",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/post-ci.yml",
       "source_repo": "ethereum/EIPs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-ci.yml",
+      "source_repo": "ethereum/ERCs"
     }
   ]
 }

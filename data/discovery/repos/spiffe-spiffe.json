@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spiffe/spiffe",
+      "target": "spiffe/spire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spiffe/spiffe",
+      "target": "spiffe/go-spiffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spiffe/spiffe",
+      "target": "spiffe/java-spiffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiffe/spiffe",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiffe/spiffe",
+      "target": "identity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiffe/spiffe",
+      "target": "spiffe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:07:11.442013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The SPIFFE Project",
+    "fork": false,
+    "full_name": "spiffe/spiffe",
+    "html_url": "https://github.com/spiffe/spiffe",
+    "language": "Shell",
+    "pushed_at": "2026-04-13T17:10:08Z",
+    "stargazers_count": 1746,
+    "topics": [
+      "cncf",
+      "identity",
+      "spiffe"
+    ],
+    "updated_at": "2026-04-23T18:43:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spiffe/go-spiffe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spiffe/java-spiffe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spiffe/spire",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![SPIFFE Logo](https://github.com/spiffe/spiffe/blob/main/community/logo/256x1024.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "![SPIFFE Logo](https://github.com/spiffe/spiffe/blob/main/community/logo/256x1024.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "identity"
+    },
+    {
+      "context_snippet": "![SPIFFE Logo](https://github.com/spiffe/spiffe/blob/main/community/logo/256x1024.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spiffe"
+    }
+  ]
+}

@@ -55,6 +55,42 @@
       "source_repo": "dimforge/nalgebra",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for Milvus(Deprecated)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/hexpm/l/plug.svg?color=green)](https://github.com/milvus-io/milvus-sdk-go/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "Java SDK for Milvus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "OpenGL Mathematics (GLM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "ci"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "dimforge/nalgebra",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-go",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/hexpm/l/plug.svg?color=green)](https://github.com/milvus-io/milvus-sdk-go/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate",
+      "text": "ci"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +208,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dimforge/nalgebra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "g-truc/glm"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

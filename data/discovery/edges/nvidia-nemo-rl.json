@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVIDIA-NeMo/RL",
-      "target": "nvidia/nemo-aligner",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVIDIA-NeMo/RL",
       "target": "volcengine/verl",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "NVIDIA-NeMo/RL",
-      "target": "deepseek-ai/deepep",
+      "target": "nvidia-nemo/run",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "NVIDIA-NeMo/RL",
-      "target": "dao-ailab/causal-conv1d",
+      "target": "fanshiqing/grouped_gemm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "logpai/drain3",
       "target_type": "repository"
     },
     {
@@ -204,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "NVIDIA-NeMo/RL"
 }

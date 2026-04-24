@@ -55,6 +55,18 @@
       "source_repo": "microsoft/onnxruntime-inference-examples",
       "status": "candidate-context",
       "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "The Java gRPC implementation. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
       "status": "candidate",
       "text": "\"Validate Gradle Wrapper\""
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "microsoft/onnxruntime-inference-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "grpc/grpc-java"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

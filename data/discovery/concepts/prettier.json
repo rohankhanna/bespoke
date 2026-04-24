@@ -19,6 +19,30 @@
       "source_repo": "prettier/prettier",
       "status": "candidate-context",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Extension for React/Javascript snippets with search supporting ES7+ and babel features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "prettier/prettier",
       "status": "candidate",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "diffplug/spotless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

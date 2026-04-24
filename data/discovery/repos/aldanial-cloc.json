@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ready.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ready.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ready.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-staging.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-staging.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-staging.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlDanial/cloc",
+      "target": "cgag/loc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlDanial/cloc",
+      "target": "blackducksoftware/ohcount",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlDanial/cloc",
+      "target": "aaronepower/tokei",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlDanial/cloc",
+      "target": "dannyloweatx/checkmarx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "Run all tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ready.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ready.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ready.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-ready.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-staging.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-staging.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-staging.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "peter-evans/create-or-update-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-staging.yml",
+      "source_repo": "AlDanial/cloc",
+      "target": "Build Windows executable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlDanial/cloc",
+      "target": "cloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlDanial/cloc",
+      "target": "count-lines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlDanial/cloc",
+      "target": "programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:30.102905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 170689
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1329
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/release-ready.yml",
+      "size": 3126
+    },
+    {
+      "path": ".github/workflows/release-staging.yml",
+      "size": 7600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.",
+    "fork": false,
+    "full_name": "AlDanial/cloc",
+    "html_url": "https://github.com/AlDanial/cloc",
+    "language": "Perl",
+    "pushed_at": "2026-04-24T02:11:09Z",
+    "stargazers_count": 22932,
+    "topics": [
+      "cloc",
+      "count-lines",
+      "programming-language"
+    ],
+    "updated_at": "2026-04-24T07:25:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronepower/tokei",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blackducksoftware/ohcount",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgag/loc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dannyloweatx/checkmarx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run all tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Run all tests"
+    },
+    {
+      "context_snippet": "Create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-ready.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "Build Windows executable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-staging.yml",
+      "term": "Build Windows executable"
+    },
+    {
+      "context_snippet": "*Count Lines of Code*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloc"
+    },
+    {
+      "context_snippet": "*Count Lines of Code*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "count-lines"
+    },
+    {
+      "context_snippet": "*Count Lines of Code*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    }
+  ]
+}

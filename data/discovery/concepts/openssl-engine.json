@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "openssl-engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/QAT_Engine",
+      "status": "candidate-context",
+      "text": "Intel QuickAssist Technology( QAT) OpenSSL Engine (an OpenSSL Plug-In Engine) which provides cryptographic acceleration for both hardware and optimized software using Intel QuickAssist Technology enabled Intel platforms. https://developer.intel.com/quickassist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/QAT_Engine",
+      "status": "candidate-context",
+      "text": "Intel&reg; QuickAssist Technology OpenSSL\\* Engine (QAT_Engine) supports"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/QAT_Engine",
+      "status": "candidate",
+      "text": "Intel&reg; QuickAssist Technology OpenSSL\\* Engine (QAT_Engine) supports"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "openssl-engine",
+  "concept_id": "openssl-engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "intel/QAT_Engine"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openssl-engine",
+      "sense_id": "openssl-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

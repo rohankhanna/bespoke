@@ -31,6 +31,42 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate-context",
       "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typicode/husky",
+      "status": "candidate-context",
+      "text": "Git hooks made easy \ud83d\udc36 woof!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/husky",
+      "status": "candidate-context",
+      "text": "https://typicode.github.io/husky"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Extension for React/Javascript snippets with search supporting ES7+ and babel features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "wrap methods with before/after hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "> asynchronous hooks for internal functionality"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate",
       "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/husky",
+      "status": "candidate",
+      "text": "https://typicode.github.io/husky"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate",
+      "text": "> asynchronous hooks for internal functionality"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +160,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "typicode/husky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gr2m/before-after-hook"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

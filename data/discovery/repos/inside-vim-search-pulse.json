@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inside/vim-search-pulse",
+      "target": "haya14busa/incsearch.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inside/vim-search-pulse",
+      "target": "haya14busa/vim-asterisk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inside/vim-search-pulse",
+      "target": "ivyl/vim-bling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inside/vim-search-pulse",
+      "target": "lstinson/vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inside/vim-search-pulse",
+      "target": "vim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inside/vim-search-pulse",
+      "target": "viml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:06:15.186840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily locate the cursor after a search",
+    "fork": false,
+    "full_name": "inside/vim-search-pulse",
+    "html_url": "https://github.com/inside/vim-search-pulse",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-07T07:51:35Z",
+    "stargazers_count": 132,
+    "topics": [
+      "vim-plugins",
+      "viml"
+    ],
+    "updated_at": "2026-03-15T23:46:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haya14busa/incsearch.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haya14busa/vim-asterisk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ivyl/vim-bling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lstinson/vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "When you perform a search, the cursor jumps to the closest match. It's often",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    },
+    {
+      "context_snippet": "When you perform a search, the cursor jumps to the closest match. It's often",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/resta",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/resta",
+      "target": "arcee-ai/mergekit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/resta",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/resta",
+      "target": "alignment-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/resta",
+      "target": "llm-safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/resta",
+      "target": "llm-safety-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/resta",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/resta",
+      "target": "llms-benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/resta",
+      "target": "safety",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:37.880362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9129
+    },
+    {
+      "path": "requirements.txt",
+      "size": 641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Restore safety in fine-tuned language models through task arithmetic",
+    "fork": false,
+    "full_name": "declare-lab/resta",
+    "html_url": "https://github.com/declare-lab/resta",
+    "language": "Python",
+    "pushed_at": "2024-03-28T11:58:42Z",
+    "stargazers_count": 32,
+    "topics": [
+      "alignment",
+      "alignment-algorithm",
+      "llm",
+      "llm-safety",
+      "llm-safety-benchmark",
+      "llms",
+      "llms-benchmarking",
+      "safety"
+    ],
+    "updated_at": "2026-02-09T13:03:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcee-ai/mergekit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment-algorithm"
+    },
+    {
+      "context_snippet": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-safety"
+    },
+    {
+      "context_snippet": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-safety-benchmark"
+    },
+    {
+      "context_snippet": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms-benchmarking"
+    },
+    {
+      "context_snippet": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safety"
+    }
+  ]
+}

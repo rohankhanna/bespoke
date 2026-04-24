@@ -19,6 +19,30 @@
       "source_repo": "luarocks/luarocks",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate-context",
+      "text": "Customized Lua parser for [lua-language-server](https://github.com/sumneko/lua-language-server)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate-context",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "romgrk/fzy-lua-native",
+      "status": "candidate-context",
+      "text": "Luajit FFI bindings to FZY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romgrk/fzy-lua-native",
+      "status": "candidate-context",
+      "text": "Luajit FFI bindings to FZY."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "luarocks/luarocks",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romgrk/fzy-lua-native",
+      "status": "candidate",
+      "text": "Luajit FFI bindings to FZY."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "luarocks/luarocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "romgrk/fzy-lua-native"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -175,6 +175,66 @@
       "source_repo": "Level/memory-level",
       "status": "candidate-context",
       "text": "**In-memory [`abstract-level`][abstract-level] database for Node.js and browsers, backed by a [fully persistent red-black tree](https://www.npmjs.com/package/functional-red-black-tree).** The successor to [`memdown`](https://github.com/Level/memdown) and [`level-mem`](https://gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "Encode data with built-in or custom encodings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "**Encode data with built-in or custom encodings.** The successor to [`level-codec`][level-codec] that transcodes encodings from and to internal data formats supported by a database. This allows a database to store data in a format of its choice (Buffer, Uint8Array or String) wit\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "Create a manifest describing the abilities of an abstract-level database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "**Create a manifest describing the abilities of an [`abstract-level`](https://github.com/Level/abstract-level) database.** No longer compatible with [`levelup`](https://github.com/Level/levelup) or [`abstract-leveldown`](https://github.com/Level/abstract-leveldown) since version\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "Superseded by many-level. Multilevel implemented using leveldowns with reconnect support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`many-level`](https://github.com/Level/many-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate-context",
+      "text": "Demonstrates bundling level for browsers using browserify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate-context",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`browserify`](https://github.com/browserify/browserify).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "Demonstrates bundling level for browsers using webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "Level/memory-level",
       "status": "candidate",
       "text": "**In-memory [`abstract-level`][abstract-level] database for Node.js and browsers, backed by a [fully persistent red-black tree](https://www.npmjs.com/package/functional-red-black-tree).** The successor to [`memdown`](https://github.com/Level/memdown) and [`level-mem`](https://gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate",
+      "text": "**Encode data with built-in or custom encodings.** The successor to [`level-codec`][level-codec] that transcodes encodings from and to internal data formats supported by a database. This allows a database to store data in a format of its choice (Buffer, Uint8Array or String) wit\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate",
+      "text": "**Create a manifest describing the abilities of an [`abstract-level`](https://github.com/Level/abstract-level) database.** No longer compatible with [`levelup`](https://github.com/Level/levelup) or [`abstract-leveldown`](https://github.com/Level/abstract-leveldown) since version\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate",
+      "text": "**Superseded by [`many-level`](https://github.com/Level/many-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`browserify`](https://github.com/browserify/browserify).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +514,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Level/memory-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/transcoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/supports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/browserify-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

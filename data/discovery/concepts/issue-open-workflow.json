@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Open Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/docformatter",
+      "status": "candidate-context",
+      "text": "Formats docstrings to follow PEP 257"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/docformatter",
+      "status": "candidate-context",
+      "text": "Issue Open Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/docformatter",
+      "status": "candidate",
+      "text": "Issue Open Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35501,
+      "status": "candidate",
+      "text": "debouch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26515,
+      "status": "candidate",
+      "text": "question"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26115,
+      "status": "candidate",
+      "text": "questioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26115,
+      "status": "candidate",
+      "text": "questions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22688,
+      "status": "candidate",
+      "text": "emanate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Open Workflow",
+  "concept_id": "issue-open-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/on-issue-open.yml",
+      "source_repo": "PyCQA/docformatter"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Open Workflow",
+      "sense_id": "issue-open-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

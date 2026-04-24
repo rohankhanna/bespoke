@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools to help create flutter apps in neovim using the native lsp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flutter-apps",
+      "sense_id": "flutter-apps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flutter-apps",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flutter-apps",
+  "observation_id": "9c3426785d22c1a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "flutter-apps",
+  "source_context_snippet": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily",
+  "source_file": null,
+  "source_repo": "nvim-flutter/flutter-tools.nvim",
+  "source_repo_description": "Tools to help create flutter apps in neovim using the native lsp"
+}

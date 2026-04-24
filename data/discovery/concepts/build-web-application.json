@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Web Application"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "open-source agentic AI data assistant for the next generation of AI + Data products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "Build Web Application"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate",
+      "text": "Build Web Application"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33872,
+      "status": "candidate",
+      "text": "applet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26356,
+      "status": "candidate",
+      "text": "silk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17975,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17969,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17969,
+      "status": "candidate",
+      "text": "cast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Web Application",
+  "concept_id": "build-web-application",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-web.yml",
+      "source_repo": "eosphoros-ai/DB-GPT"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Web Application",
+      "sense_id": "build-web-application#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

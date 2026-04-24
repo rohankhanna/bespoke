@@ -1,0 +1,172 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yfeng95/DECA",
+      "target": "1adrianb/2d-and-3d-face-alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yfeng95/DECA",
+      "target": "1adrianb/face-alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yfeng95/DECA",
+      "target": "cleardusk/3ddfa_v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yfeng95/DECA",
+      "target": "anhttran/extreme_3d_faces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA",
+      "target": "depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA",
+      "target": "model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA",
+      "target": "reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:24.521994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8569
+    },
+    {
+      "path": "Dockerfile",
+      "size": 870
+    },
+    {
+      "path": "requirements.txt",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DECA: Detailed Expression Capture and Animation (SIGGRAPH 2021)",
+    "fork": false,
+    "full_name": "yfeng95/DECA",
+    "html_url": "https://github.com/yfeng95/DECA",
+    "language": "Python",
+    "pushed_at": "2023-07-23T11:15:26Z",
+    "stargazers_count": 2478,
+    "topics": [
+      "3d",
+      "alignment",
+      "depth",
+      "face",
+      "flame",
+      "model",
+      "reconstruction"
+    ],
+    "updated_at": "2026-04-23T19:07:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1adrianb/2d-and-3d-face-alignment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1adrianb/face-alignment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anhttran/extreme_3d_faces",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cleardusk/3ddfa_v2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reconstruction"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "45gfg9/mirai-release-watcher-plugin",
+      "target": "mirai-console",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "45gfg9/mirai-release-watcher-plugin"
+}

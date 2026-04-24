@@ -1,0 +1,657 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-bootnodes.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-bootnodes.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-bootnodes.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evmc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evmc.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-generate-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-generate-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etclabscore/core-geth",
+      "target": "ellaism/specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etclabscore/core-geth",
+      "target": "paritytech/parity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-bootnodes.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-bootnodes.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-bootnodes.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit-bootnodes.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "Audit Bootnodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-core.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-core.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "Benchmark Core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-trie.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-trie.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "Benchmark Trie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-vm.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-vm.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "Benchmark VM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "Publish docs via GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evmc.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evmc.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evmc.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "EVMC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-generate-check.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-generate-check.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-generate-check.yml",
+      "source_repo": "etclabscore/core-geth",
+      "target": "Developer helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "ethereum-classic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "ethereum-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "ethereum-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "geth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "openrpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth",
+      "target": "rpc-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:59:14.359087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7009
+    },
+    {
+      "path": "Dockerfile",
+      "size": 897
+    },
+    {
+      "path": "go.mod",
+      "size": 8888
+    },
+    {
+      "path": ".github/workflows/audit-bootnodes.yml",
+      "size": 2289
+    },
+    {
+      "path": ".github/workflows/bench-core.yml",
+      "size": 2393
+    },
+    {
+      "path": ".github/workflows/bench-trie.yml",
+      "size": 2350
+    },
+    {
+      "path": ".github/workflows/bench-vm.yml",
+      "size": 2846
+    },
+    {
+      "path": ".github/workflows/docs-deploy.yml",
+      "size": 576
+    },
+    {
+      "path": ".github/workflows/evmc.yml",
+      "size": 1770
+    },
+    {
+      "path": ".github/workflows/go-generate-check.yml",
+      "size": 2772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A highly configurable Go implementation of the Ethereum protocol.",
+    "fork": false,
+    "full_name": "etclabscore/core-geth",
+    "html_url": "https://github.com/etclabscore/core-geth",
+    "language": "Go",
+    "pushed_at": "2026-04-21T06:50:51Z",
+    "stargazers_count": 305,
+    "topics": [
+      "crypto",
+      "docker",
+      "ethereum",
+      "ethereum-classic",
+      "ethereum-network",
+      "ethereum-protocol",
+      "geth",
+      "openrpc",
+      "rpc",
+      "rpc-library"
+    ],
+    "updated_at": "2026-04-14T16:07:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ellaism/specs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paritytech/parity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Audit Bootnodes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit-bootnodes.yml",
+      "term": "Audit Bootnodes"
+    },
+    {
+      "context_snippet": "Benchmark Core",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-core.yml",
+      "term": "Benchmark Core"
+    },
+    {
+      "context_snippet": "Benchmark Trie",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-trie.yml",
+      "term": "Benchmark Trie"
+    },
+    {
+      "context_snippet": "Benchmark VM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-vm.yml",
+      "term": "Benchmark VM"
+    },
+    {
+      "context_snippet": "Publish docs via GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "term": "Publish docs via GitHub Pages"
+    },
+    {
+      "context_snippet": "EVMC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evmc.yml",
+      "term": "EVMC"
+    },
+    {
+      "context_snippet": "Developer helper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-generate-check.yml",
+      "term": "Developer helper"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-classic"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-network"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-protocol"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geth"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openrpc"
+    },
+    {
+      "context_snippet": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-library"
+    }
+  ]
+}

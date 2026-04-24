@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Synchronous multiroom audio player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956393,
+      "status": "candidate",
+      "text": "synchronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956321,
+      "status": "candidate",
+      "text": "concurrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956256,
+      "status": "candidate",
+      "text": "coincident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956244,
+      "status": "candidate",
+      "text": "simultaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956234,
+      "status": "candidate",
+      "text": "coexistent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synchronous",
+      "sense_id": "synchronous#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46037,
+      "status": "candidate",
+      "text": "contemporary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37042,
+      "status": "candidate",
+      "text": "concurrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17058,
+      "status": "candidate",
+      "text": "parallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "simultaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "synchronic"
+    }
+  ],
+  "concept_id": "synchronous",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "synchronous",
+  "observation_id": "eb5eecfeb2279ac8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "synchronous",
+  "source_context_snippet": "<picture>",
+  "source_file": null,
+  "source_repo": "snapcast/snapcast",
+  "source_repo_description": "Synchronous multiroom audio player"
+}

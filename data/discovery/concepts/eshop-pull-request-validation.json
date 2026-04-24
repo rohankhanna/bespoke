@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "eShop Pull Request Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/eShop",
+      "status": "candidate-context",
+      "text": "A reference .NET application implementing an eCommerce site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/eShop",
+      "status": "candidate-context",
+      "text": "eShop Pull Request Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/eShop",
+      "status": "candidate",
+      "text": "eShop Pull Request Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24455,
+      "status": "candidate",
+      "text": "a priori"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24416,
+      "status": "candidate",
+      "text": "invoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23455,
+      "status": "candidate",
+      "text": "a posteriori"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22557,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22517,
+      "status": "candidate",
+      "text": "bringing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "eShop Pull Request Validation",
+  "concept_id": "eshop-pull-request-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "dotnet/eShop"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "eShop Pull Request Validation",
+      "sense_id": "eshop-pull-request-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch media decoding and encoding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reference resource generation tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reference resource generation tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27690,
+      "status": "candidate",
+      "text": "oppressor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27690,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27559,
+      "status": "candidate",
+      "text": "powered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27559,
+      "status": "candidate",
+      "text": "warrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27530,
+      "status": "candidate",
+      "text": "specialist"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reference resource generation tests",
+      "sense_id": "reference-resource-generation-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reference-resource-generation-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reference-resource-generation-tests",
+  "observation_id": "270ae1970e449c75",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Reference resource generation tests",
+  "source_context_snippet": "Reference resource generation tests",
+  "source_file": ".github/workflows/reference_resources.yaml",
+  "source_repo": "meta-pytorch/torchcodec",
+  "source_repo_description": "PyTorch media decoding and encoding"
+}

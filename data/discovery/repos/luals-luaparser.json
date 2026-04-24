@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/LuaParser",
+      "target": "sumneko/lua-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser",
+      "target": "lpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser",
+      "target": "lpeglabel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser",
+      "target": "luajit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser",
+      "target": "syntax-checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:41.931767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Customized Lua parser for [lua-language-server](https://github.com/sumneko/lua-language-server).",
+    "fork": false,
+    "full_name": "LuaLS/LuaParser",
+    "html_url": "https://github.com/LuaLS/LuaParser",
+    "language": "Lua",
+    "pushed_at": "2025-07-24T08:05:50Z",
+    "stargazers_count": 76,
+    "topics": [
+      "lpeg",
+      "lpeglabel",
+      "lua",
+      "luajit",
+      "parser",
+      "syntax-checker"
+    ],
+    "updated_at": "2026-04-23T16:39:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sumneko/lua-language-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lpeg"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lpeglabel"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-checker"
+    }
+  ]
+}

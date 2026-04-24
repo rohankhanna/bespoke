@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "EXPERIMENTAL -- Update artifacts branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc",
+      "status": "candidate-context",
+      "text": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc",
+      "status": "candidate-context",
+      "text": "EXPERIMENTAL -- Update artifacts branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc",
+      "status": "candidate",
+      "text": "EXPERIMENTAL -- Update artifacts branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38807,
+      "status": "candidate",
+      "text": "artifact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32336,
+      "status": "candidate",
+      "text": "article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31493,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31449,
+      "status": "candidate",
+      "text": "science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31427,
+      "status": "candidate",
+      "text": "data"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "EXPERIMENTAL -- Update artifacts branch",
+  "concept_id": "experimental----update-artifacts-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-artifacts-branch.yaml",
+      "source_repo": "grpc/grpc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "EXPERIMENTAL -- Update artifacts branch",
+      "sense_id": "experimental----update-artifacts-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

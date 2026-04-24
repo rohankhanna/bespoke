@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A drop-in replacement for Python's zlib and gzip modules using zlib-ng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zlib-ng",
+      "sense_id": "zlib-ng#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zlib-ng",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zlib-ng",
+  "observation_id": "5a45d589ef8e125a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "zlib-ng",
+  "source_context_snippet": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg",
+  "source_file": null,
+  "source_repo": "pycompression/python-zlib-ng",
+  "source_repo_description": "A drop-in replacement for Python's zlib and gzip modules using zlib-ng"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java SDK for Milvus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "web-content - Dispatch new release event"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "web-content - Dispatch new release event"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49984,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47467,
+      "status": "candidate",
+      "text": "flash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44449,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38292,
+      "status": "candidate",
+      "text": "reschedule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35146,
+      "status": "candidate",
+      "text": "shoot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "web-content - Dispatch new release event",
+      "sense_id": "web-content---dispatch-new-release-event#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "web-content---dispatch-new-release-event",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "web-content---dispatch-new-release-event",
+  "observation_id": "709dca6e9c872970",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "web-content - Dispatch new release event",
+  "source_context_snippet": "web-content - Dispatch new release event",
+  "source_file": ".github/workflows/release_event.yml",
+  "source_repo": "milvus-io/milvus-sdk-java",
+  "source_repo_description": "Java SDK for Milvus."
+}

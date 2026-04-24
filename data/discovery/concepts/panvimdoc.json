@@ -19,12 +19,30 @@
       "source_repo": "willothy/nvim-cokeline",
       "status": "candidate-context",
       "text": "panvimdoc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate-context",
+      "text": "Find the enemy and replace them with dark power."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate-context",
+      "text": "panvimdoc"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate",
+      "text": "panvimdoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-pack/nvim-spectre",
       "status": "candidate",
       "text": "panvimdoc"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/panvimdoc.yml",
       "source_repo": "willothy/nvim-cokeline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "nvim-pack/nvim-spectre"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

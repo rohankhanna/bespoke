@@ -121,13 +121,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "harbor-framework/harbor",
-      "target": "harbor-framework/harbor-cookbook",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "harbor-framework/harbor",
       "target": "laude-institute/terminal-bench-2",
       "target_type": "repository"
     },
@@ -314,7 +307,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:54:40.253874+00:00",
+  "fetched_at": "2026-04-24T06:57:12.528369+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -366,21 +359,16 @@
     "full_name": "harbor-framework/harbor",
     "html_url": "https://github.com/harbor-framework/harbor",
     "language": "Python",
-    "pushed_at": "2026-04-23T21:38:42Z",
-    "stargazers_count": 1616,
+    "pushed_at": "2026-04-24T05:51:57Z",
+    "stargazers_count": 1626,
     "topics": [
       "evals",
       "rl-environments",
       "terminal-bench"
     ],
-    "updated_at": "2026-04-23T21:38:59Z"
+    "updated_at": "2026-04-24T06:49:50Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "harbor-framework/harbor-cookbook",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "laude-institute/terminal-bench-2",

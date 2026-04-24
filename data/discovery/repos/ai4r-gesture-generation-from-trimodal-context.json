@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4r/Gesture-Generation-from-Trimodal-Context",
+      "target": "lowerquality/gentle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4r/Gesture-Generation-from-Trimodal-Context",
+      "target": "youngwoo-yoon/youtube-gesture-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4r/Gesture-Generation-from-Trimodal-Context",
+      "target": "facebookresearch/videopose3d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:26.437393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7160
+    },
+    {
+      "path": "requirements.txt",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity (SIGGRAPH Asia 2020)",
+    "fork": false,
+    "full_name": "ai4r/Gesture-Generation-from-Trimodal-Context",
+    "html_url": "https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context",
+    "language": "Python",
+    "pushed_at": "2021-12-14T15:43:41Z",
+    "stargazers_count": 273,
+    "topics": [],
+    "updated_at": "2025-12-24T08:03:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/videopose3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lowerquality/gentle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "youngwoo-yoon/youtube-gesture-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

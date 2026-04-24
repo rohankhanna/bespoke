@@ -778,6 +778,150 @@
       "source_repo": "operator-framework/operator-sdk",
       "status": "candidate-context",
       "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "OpenMMLab Model Compression Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/mdBook",
+      "status": "candidate-context",
+      "text": "Create book from markdown files. Like Gitbook but implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/mdBook",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate-context",
+      "text": "A Python implementation of John Gruber\u2019s Markdown with Extension support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Swin Transformer using TorchServe "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/compiler-team",
+      "status": "candidate-context",
+      "text": "A home for compiler team planning documents, meeting minutes, and other such things."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/compiler-team",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate-context",
+      "text": "LR(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imjasonh/kontain.me",
+      "status": "candidate-context",
+      "text": "Container image registry that serves images built fresh when you ask for them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imjasonh/kontain.me",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "Elegant Lua unit testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate-context",
+      "text": "OpenMMLab Rotated Object Detection Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmselfsup",
+      "status": "candidate-context",
+      "text": "OpenMMLab Self-Supervised Learning Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmselfsup",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmtracking",
+      "status": "candidate-context",
+      "text": "OpenMMLab Video Perception Toolbox. It supports Video Object Detection (VID), Multiple Object Tracking (MOT), Single Object Tracking (SOT), Video Instance Segmentation (VIS) with a unified framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmtracking",
+      "status": "candidate-context",
+      "text": "deploy"
     }
   ],
   "candidate_glosses": [
@@ -1168,6 +1312,78 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/mdBook",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/compiler-team",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imjasonh/kontain.me",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmselfsup",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmtracking",
       "status": "candidate",
       "text": "deploy"
     }
@@ -1633,11 +1849,107 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "operator-framework/operator-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmrazor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/mdBook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Python-Markdown/markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "diffplug/spotless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "mozilla/cbindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/compiler-team"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lalrpop/lalrpop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "imjasonh/kontain.me"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/busted"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmrotate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmselfsup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmtracking"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

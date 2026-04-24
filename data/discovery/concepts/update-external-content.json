@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update External Content"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "Arbitrum Docs! Content + Webapp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "Update External Content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate",
+      "text": "Update External Content"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25742,
+      "status": "candidate",
+      "text": "formal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18675,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18614,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18340,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18340,
+      "status": "candidate",
+      "text": "filk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update External Content",
+  "concept_id": "update-external-content",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-external-content.yml",
+      "source_repo": "OffchainLabs/arbitrum-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update External Content",
+      "sense_id": "update-external-content#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

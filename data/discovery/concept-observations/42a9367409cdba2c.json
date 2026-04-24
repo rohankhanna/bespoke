@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple, modern libpng alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39705075,
+      "status": "candidate",
+      "text": "mesotron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29663192,
+      "status": "candidate",
+      "text": "pseudoscalar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856822,
+      "status": "candidate",
+      "text": "mi-parti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856821,
+      "status": "candidate",
+      "text": "semilens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856820,
+      "status": "candidate",
+      "text": "hemibody"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meson",
+      "sense_id": "meson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "mesotron"
+    }
+  ],
+  "concept_id": "meson",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "meson",
+  "observation_id": "42a9367409cdba2c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "meson",
+  "source_context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+  "source_file": null,
+  "source_repo": "randy408/libspng",
+  "source_repo_description": "Simple, modern libpng alternative"
+}

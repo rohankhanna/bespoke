@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "envoyproxy/toolshed/gh-actions/appauth@80a2b0325d086b0dee546bb89496763cd11c7f8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@012739e5082ff0c22ca6d6ab32e07c36df03c4a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "envoyproxy/toolshed/gh-actions/appauth@80a2b0325d086b0dee546bb89496763cd11c7f8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "Sync Envoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "github/codeql-action/upload-sarif@012739e5082ff0c22ca6d6ab32e07c36df03c4a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:12:58.048188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1408
+    },
+    {
+      "path": ".github/workflows/envoy-sync.yaml",
+      "size": 1270
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 1094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example of consuming Envoy and adding a custom filter",
+    "fork": false,
+    "full_name": "envoyproxy/envoy-filter-example",
+    "html_url": "https://github.com/envoyproxy/envoy-filter-example",
+    "language": "C++",
+    "pushed_at": "2025-04-14T18:44:17Z",
+    "stargazers_count": 361,
+    "topics": [],
+    "updated_at": "2026-04-01T11:51:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Sync Envoy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "term": "Sync Envoy"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    }
+  ]
+}

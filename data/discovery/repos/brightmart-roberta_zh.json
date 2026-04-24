@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brightmart/roberta_zh",
+      "target": "brightmart/xlnet_zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brightmart/roberta_zh",
+      "target": "guoday/ccf-bdci-sentiment-analysis-baseline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brightmart/roberta_zh",
+      "target": "ymcui/chinese-bert-wwm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brightmart/roberta_zh",
+      "target": "ewrfcas/bert_cn_finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh",
+      "target": "gpt2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh",
+      "target": "pre-trained",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh",
+      "target": "pre-trained-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh",
+      "target": "roberta",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:26.396231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RoBERTa\u4e2d\u6587\u9884\u8bad\u7ec3\u6a21\u578b: RoBERTa for Chinese ",
+    "fork": false,
+    "full_name": "brightmart/roberta_zh",
+    "html_url": "https://github.com/brightmart/roberta_zh",
+    "language": "Python",
+    "pushed_at": "2024-07-22T15:02:06Z",
+    "stargazers_count": 2785,
+    "topics": [
+      "bert",
+      "chinese",
+      "gpt2",
+      "pre-trained",
+      "pre-trained-language-models",
+      "roberta"
+    ],
+    "updated_at": "2026-04-18T17:36:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brightmart/xlnet_zh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ewrfcas/bert_cn_finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guoday/ccf-bdci-sentiment-analysis-baseline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-bert-wwm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RoBERTa for Chinese, TensorFlow & PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "RoBERTa for Chinese, TensorFlow & PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "RoBERTa for Chinese, TensorFlow & PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt2"
+    },
+    {
+      "context_snippet": "RoBERTa for Chinese, TensorFlow & PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained"
+    },
+    {
+      "context_snippet": "RoBERTa for Chinese, TensorFlow & PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-language-models"
+    },
+    {
+      "context_snippet": "RoBERTa for Chinese, TensorFlow & PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roberta"
+    }
+  ]
+}

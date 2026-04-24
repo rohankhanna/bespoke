@@ -1,0 +1,361 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "Build Production Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "Cherry pick PR commits for label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "Client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "Load KurrentDB Runtime Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "client-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "cqrs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "event-sourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "eventsourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "eventstore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "eventstoredb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "target": "grpc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:24.849779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2211
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 254
+    },
+    {
+      "path": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/dotnet.yml",
+      "size": 318
+    },
+    {
+      "path": ".github/workflows/load-configuration.yml",
+      "size": 1975
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 3951
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "KurrentDB .NET Client",
+    "fork": false,
+    "full_name": "kurrent-io/KurrentDB-Client-Dotnet",
+    "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Dotnet",
+    "language": "C#",
+    "pushed_at": "2026-04-23T21:47:24Z",
+    "stargazers_count": 174,
+    "topics": [
+      "client-libraries",
+      "cqrs",
+      "dotnet",
+      "event-sourcing",
+      "eventsourcing",
+      "eventstore",
+      "eventstoredb",
+      "grpc"
+    ],
+    "updated_at": "2026-04-14T06:44:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Production Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Production Site"
+    },
+    {
+      "context_snippet": "Cherry pick PR commits for label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "term": "Cherry pick PR commits for label"
+    },
+    {
+      "context_snippet": "Client",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet.yml",
+      "term": "Client"
+    },
+    {
+      "context_snippet": "Load KurrentDB Runtime Configuration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "term": "Load KurrentDB Runtime Configuration"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client-libraries"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cqrs"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-sourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventsourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventstore"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventstoredb"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Returns true if the value is a finite number."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Returns true if the value is a finite number."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037993,
+      "status": "candidate",
+      "text": "very"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037906,
+      "status": "candidate",
+      "text": "veridical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037133,
+      "status": "candidate",
+      "text": "true"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036386,
+      "status": "candidate",
+      "text": "really"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036274,
+      "status": "candidate",
+      "text": "factual"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "real",
+      "sense_id": "real#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 77038,
+      "status": "candidate",
+      "text": "substantial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51040,
+      "status": "candidate",
+      "text": "tangible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35040,
+      "status": "candidate",
+      "text": "serious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31027,
+      "status": "candidate",
+      "text": "veridical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27050,
+      "status": "candidate",
+      "text": "true"
+    }
+  ],
+  "concept_id": "real",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "real",
+  "observation_id": "a9b829d73e94ed76",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "real",
+  "source_context_snippet": "> Returns true if the value is a finite number.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/is-number",
+  "source_repo_description": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. "
+}

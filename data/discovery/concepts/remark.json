@@ -34,6 +34,18 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate-context",
       "text": "remark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imcuttle/remark-heading-id",
+      "status": "candidate-context",
+      "text": "The remark plugin for supporting custom heading id"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imcuttle/remark-heading-id",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate",
       "text": "remark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imcuttle/remark-heading-id",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "remarkjs/remark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "remarkjs/remark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "imcuttle/remark-heading-id"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

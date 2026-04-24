@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firefly: \u5927\u6a21\u578b\u8bad\u7ec3\u5de5\u5177\uff0c\u652f\u6301\u8bad\u7ec3Qwen2.5\u3001Qwen2\u3001Yi1.5\u3001Phi-3\u3001Llama3\u3001Gemma\u3001MiniCPM\u3001Yi\u3001Deepseek\u3001Orion\u3001Xverse\u3001Mixtral-8x7B\u3001Zephyr\u3001Mistral\u3001Baichuan2\u3001Llma2\u3001Llama\u3001Qwen\u3001Baichuan\u3001ChatGLM2\u3001InternLM\u3001Ziya2\u3001Vicuna\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029711,
+      "status": "candidate",
+      "text": "gemmule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029710,
+      "status": "candidate",
+      "text": "gemmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029709,
+      "status": "candidate",
+      "text": "gemmification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029708,
+      "status": "candidate",
+      "text": "gemmiparity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029707,
+      "status": "candidate",
+      "text": "gemmulation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemma",
+      "sense_id": "gemma#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemma",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemma",
+  "observation_id": "f153f255c3152feb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "gemma",
+  "source_context_snippet": "<div align=\"left\">",
+  "source_file": null,
+  "source_repo": "yangjianxin1/Firefly",
+  "source_repo_description": "Firefly: \u5927\u6a21\u578b\u8bad\u7ec3\u5de5\u5177\uff0c\u652f\u6301\u8bad\u7ec3Qwen2.5\u3001Qwen2\u3001Yi1.5\u3001Phi-3\u3001Llama3\u3001Gemma\u3001MiniCPM\u3001Yi\u3001Deepseek\u3001Orion\u3001Xverse\u3001Mixtral-8x7B\u3001Zephyr\u3001Mistral\u3001Baichuan2\u3001Llma2\u3001Llama\u3001Qwen\u3001Baichuan\u3001ChatGLM2\u3001InternLM\u3001Ziya2\u3001Vicuna\u3001Bloom\u7b49\u5927\u6a21\u578b"
+}

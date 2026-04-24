@@ -1,0 +1,12 @@
+{
+  "component": "styfle/cancel-workflow-action@3155a141048f8f89c06b4cdae32e7853e97536bc",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc"
+    }
+  ]
+}

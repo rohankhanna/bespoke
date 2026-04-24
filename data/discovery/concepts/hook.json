@@ -19,6 +19,18 @@
       "source_repo": "bshuster-repo/logrus-logstash-hook",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/bshuster-repo/logrus-logstash-hook.svg?branch=master)](https://travis-ci.org/bshuster-repo/logrus-logstash-hook)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "A maven plugin that automatically deploys code formatters as pre-commit git hook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bshuster-repo/logrus-logstash-hook",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/bshuster-repo/logrus-logstash-hook.svg?branch=master)](https://travis-ci.org/bshuster-repo/logrus-logstash-hook)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "bshuster-repo/logrus-logstash-hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "yaml/yaml-test-suite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "yaml/yaml-test-suite",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaml/yaml-test-suite",
+      "target": "test-suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaml/yaml-test-suite",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaml/yaml-test-suite",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:43.742579+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Comprehensive, language independent Test Suite for YAML",
+    "fork": false,
+    "full_name": "yaml/yaml-test-suite",
+    "html_url": "https://github.com/yaml/yaml-test-suite",
+    "language": "Perl",
+    "pushed_at": "2025-12-25T21:01:26Z",
+    "stargazers_count": 246,
+    "topics": [
+      "test-suite",
+      "testing",
+      "yaml"
+    ],
+    "updated_at": "2026-04-23T11:29:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "yaml-test-suite Repository Testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-suite"
+    },
+    {
+      "context_snippet": "yaml-test-suite Repository Testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "yaml-test-suite Repository Testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "aliases": [
     "Tests",
     "tests",
-    "\ud83d\udcc4 Tests"
+    "\ud83d\udcc4 Tests",
+    "\ud83e\uddea tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -2237,6 +2238,288 @@
       "source_repo": "alexmojaki/cheap_repr",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aesara-devs/aesara",
+      "status": "candidate-context",
+      "text": "Aesara is a Python library for defining, optimizing, and efficiently evaluating mathematical expressions involving multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesara-devs/aesara",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/open-r1",
+      "status": "candidate-context",
+      "text": "Fully open reproduction of DeepSeek-R1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/open-r1",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "High throughput synchronous and asynchronous reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate-context",
+      "text": "Migrations for the filesystem repository of ipfs clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate-context",
+      "text": "KurrentDB Go Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "Install and Run Python Applications in Isolated Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "Structured Outputs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate-context",
+      "text": "Fish shell like syntax highlighting for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "status": "candidate-context",
+      "text": "A Generic Repository AnALyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "Binary version of the SwiftLint Swift Package Manager plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/clojurescript",
+      "status": "candidate-context",
+      "text": "Clojure to JS compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/clojurescript",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate-context",
+      "text": "Find the enemy and replace them with dark power."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate-context",
+      "text": "Basic linear algebra subroutines for embedded optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate-context",
+      "text": "Generate beautiful changelogs from your Git commit history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension to prettify markdown tables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate-context",
+      "text": "markdown-it js library rewritten in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "Arbitrum Docs! Content + Webapp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Uniswap/v3-periphery",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Peripheral smart contracts for interacting with Uniswap v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-periphery",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": ":fire_engine: The guts of `standard` modularized for reuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": "'tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/vault-ruby",
+      "status": "candidate-context",
+      "text": "The official Ruby client for HashiCorp's Vault"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault-ruby",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "regro/cf-graph-countyfair",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsspec/sshfs",
+      "status": "candidate-context",
+      "text": "sshfs - SSH/SFTP implementation for fsspec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/sshfs",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sterlind/peft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sterlind/peft",
+      "status": "candidate-context",
+      "text": "tests"
     }
   ],
   "candidate_glosses": [
@@ -3367,6 +3650,150 @@
       "source_repo": "alexmojaki/cheap_repr",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesara-devs/aesara",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/open-r1",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate",
+      "text": "\ud83e\uddea tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/clojurescript",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-pack/nvim-spectre",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-periphery",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate",
+      "text": "'tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault-ruby",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "regro/cf-graph-countyfair",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/sshfs",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sterlind/peft",
+      "status": "candidate",
+      "text": "tests"
     }
   ],
   "candidate_related_terms": [
@@ -4741,11 +5168,227 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "alexmojaki/cheap_repr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aesara-devs/aesara"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "anthropics/claude-quickstarts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/open-r1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "vwxyzjn/cleanrl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ipfs/fs-repo-migrations"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pypa/pipx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dottxt-ai/outlines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zsh-users/zsh-syntax-highlighting"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "clojure/clojurescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-pack/nvim-spectre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "giaf/blasfeo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "markdown-it-rust/markdown-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "OffchainLabs/arbitrum-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "standard/standard-engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "hashicorp/vault-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "regro/cf-graph-countyfair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fsspec/sshfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sterlind/peft"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

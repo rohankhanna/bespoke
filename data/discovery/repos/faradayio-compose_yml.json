@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:10:56.249440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2564
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Read and write docker-compose.yml files using Rust",
+    "fork": true,
+    "full_name": "faradayio/compose_yml",
+    "html_url": "https://github.com/faradayio/compose_yml",
+    "language": "Rust",
+    "pushed_at": "2025-11-11T00:03:44Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-11T00:03:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,244 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_gnat.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_gnat.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml"
+    },
+    {
+      "component": "alire-project/setup-alire@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "alire-project/setup-alire@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/vss-text",
+      "target": "adacore/vss-extra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_gnat.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_gnat.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_gnat.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "Build GNAT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "alire-project/setup-alire@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gnatdoc.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "Make Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "alire-project/setup-alire@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "AdaCore/vss-text",
+      "target": "Spell checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:47.122686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2955
+    },
+    {
+      "path": "Dockerfile",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/build_gnat.yml",
+      "size": 3084
+    },
+    {
+      "path": ".github/workflows/gnatdoc.yml",
+      "size": 1842
+    },
+    {
+      "path": ".github/workflows/gps.qs",
+      "size": 979
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3253
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AdaCore/vss-text",
+    "html_url": "https://github.com/AdaCore/vss-text",
+    "language": "Ada",
+    "pushed_at": "2026-02-16T11:03:35Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-16T11:03:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/vss-extra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build GNAT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_gnat.yml",
+      "term": "Build GNAT"
+    },
+    {
+      "context_snippet": "Make Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gnatdoc.yml",
+      "term": "Make Docs"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Spell checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "Spell checks"
+    }
+  ]
+}

@@ -51,6 +51,30 @@
       "source_repo": "icip-cas/PPTAgent",
       "status": "candidate-context",
       "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nice-mee/WindowsAgentArena",
+      "status": "candidate-context",
+      "text": "This is a modified version of Windows Agent Arena optimized for interacting with UFO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nice-mee/WindowsAgentArena",
+      "status": "candidate-context",
+      "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate-context",
+      "text": "Spacemesh PoET service reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate-context",
+      "text": "Docker Build and Push"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +93,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate",
+      "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nice-mee/WindowsAgentArena",
+      "status": "candidate",
+      "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/poet",
       "status": "candidate",
       "text": "Docker Build and Push"
     }
@@ -144,11 +180,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "icip-cas/PPTAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "nice-mee/WindowsAgentArena"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/poet"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

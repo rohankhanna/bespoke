@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pymc-devs/sunode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pymc-devs/sunode",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/sunode",
+      "target": "autodiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/sunode",
+      "target": "ordinary-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/sunode",
+      "target": "pymc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/sunode",
+      "target": "sundials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:40.714744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8118
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Solve ODEs fast, with support for PyMC",
+    "fork": false,
+    "full_name": "pymc-devs/sunode",
+    "html_url": "https://github.com/pymc-devs/sunode",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-13T19:51:41Z",
+    "stargazers_count": 120,
+    "topics": [
+      "autodiff",
+      "ordinary-differential-equations",
+      "pymc",
+      "sundials"
+    ],
+    "updated_at": "2026-02-09T21:20:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autodiff"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ordinary-differential-equations"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pymc"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sundials"
+    }
+  ]
+}

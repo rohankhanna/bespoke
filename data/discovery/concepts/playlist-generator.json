@@ -19,6 +19,18 @@
       "source_repo": "teticio/Deej-AI",
       "status": "candidate-context",
       "text": "![](MBIT_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "ReactJS website to automatically generate playlists based on how the music sounds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "teticio/Deej-AI",
       "status": "candidate",
       "text": "![](MBIT_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "teticio/Deej-AI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "teticio/deej-ai.online-app"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

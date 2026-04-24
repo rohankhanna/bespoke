@@ -198,13 +198,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "mudler/localai-examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mudler/LocalAI",
       "target": "ggerganov/llama.cpp",
       "target_type": "repository"
     },
@@ -213,6 +206,13 @@
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
       "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/LocalAI",
+      "target": "rhasspy/piper",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:10:50.776482+00:00",
+  "fetched_at": "2026-04-24T07:53:59.978484+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -583,8 +583,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-04-23T21:26:50Z",
-    "stargazers_count": 45748,
+    "pushed_at": "2026-04-24T07:35:25Z",
+    "stargazers_count": 45765,
     "topics": [
       "agents",
       "ai",
@@ -605,7 +605,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-04-23T21:26:56Z"
+    "updated_at": "2026-04-24T07:50:41Z"
   },
   "repo_links": [
     {
@@ -625,7 +625,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mudler/localai-examples",
+      "full_name": "rhasspy/piper",
       "source_file": "README.md"
     }
   ],

@@ -241,14 +241,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apollographql/apollo-tooling",
-      "target": "apollographql/vscode-graphql",
+      "target": "oclif/plugin-help",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apollographql/apollo-tooling",
-      "target": "apollographql/apollo-ios",
+      "target": "oclif/plugin-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/apollo-tooling",
+      "target": "someuser/someplugin",
       "target_type": "repository"
     },
     {
@@ -256,13 +263,6 @@
       "source_file": "README.md",
       "source_repo": "apollographql/apollo-tooling",
       "target": "apollographql/react-apollo-scalajs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apollographql/apollo-tooling",
-      "target": "nock/nock",
       "target_type": "repository"
     },
     {
@@ -630,7 +630,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:39:46.157714+00:00",
+  "fetched_at": "2026-04-24T08:07:36.361358+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -668,22 +668,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apollographql/apollo-ios",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "apollographql/react-apollo-scalajs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apollographql/vscode-graphql",
+      "full_name": "oclif/plugin-help",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nock/nock",
+      "full_name": "oclif/plugin-plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "someuser/someplugin",
       "source_file": "README.md"
     }
   ],

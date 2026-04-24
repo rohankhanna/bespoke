@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "agiresearch/openagi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "adapter-hub/adapter-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "adamdad/dery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "albarji/mixture-of-diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "composability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "compositional-generalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "compositionality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "target": "model-reuse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:50.110458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of Composable AI methods: Building AI system by composing modules.",
+    "fork": false,
+    "full_name": "Adamdad/Awesome-ComposableAI",
+    "html_url": "https://github.com/Adamdad/Awesome-ComposableAI",
+    "language": null,
+    "pushed_at": "2023-11-24T04:51:12Z",
+    "stargazers_count": 197,
+    "topics": [
+      "ai",
+      "composability",
+      "compositional-generalization",
+      "compositionality",
+      "model-reuse"
+    ],
+    "updated_at": "2025-11-04T15:23:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamdad/dery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adapter-hub/adapter-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agiresearch/openagi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albarji/mixture-of-diffusers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"logo.jpg\" alt=\"Paris\" class=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composability"
+    },
+    {
+      "context_snippet": "<img src=\"logo.jpg\" alt=\"Paris\" class=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compositional-generalization"
+    },
+    {
+      "context_snippet": "<img src=\"logo.jpg\" alt=\"Paris\" class=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compositionality"
+    },
+    {
+      "context_snippet": "<img src=\"logo.jpg\" alt=\"Paris\" class=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-reuse"
+    }
+  ]
+}

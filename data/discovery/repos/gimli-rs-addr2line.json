@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gimli-rs/addr2line",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gimli-rs/addr2line",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gimli-rs/addr2line",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line",
+      "target": "addr2line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line",
+      "target": "debug-symbols",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line",
+      "target": "symbolicate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line",
+      "target": "symbolication",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:07.824172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2481
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2751
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 4560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cross-platform `addr2line` clone written in Rust, using `gimli`",
+    "fork": false,
+    "full_name": "gimli-rs/addr2line",
+    "html_url": "https://github.com/gimli-rs/addr2line",
+    "language": "Rust",
+    "pushed_at": "2026-03-29T10:25:00Z",
+    "stargazers_count": 414,
+    "topics": [
+      "addr2line",
+      "cross-platform",
+      "debug-symbols",
+      "rust",
+      "symbolicate",
+      "symbolication"
+    ],
+    "updated_at": "2026-04-10T09:33:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "addr2line"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug-symbols"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbolicate"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbolication"
+    }
+  ]
+}

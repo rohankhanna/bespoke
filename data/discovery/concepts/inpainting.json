@@ -55,6 +55,18 @@
       "source_repo": "advimman/lama",
       "status": "candidate-context",
       "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sanster/IOPaint",
+      "status": "candidate-context",
+      "text": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/IOPaint",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">IOPaint</h1>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "advimman/lama",
       "status": "candidate",
       "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/IOPaint",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">IOPaint</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

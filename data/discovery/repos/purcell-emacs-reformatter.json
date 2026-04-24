@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "purcell/emacs-reformatter",
+      "target": "psibi/dhall-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "purcell/emacs-reformatter",
+      "target": "jcollard/elm-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "purcell/emacs-reformatter",
+      "target": "purcell/emacs.d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "purcell/emacs-reformatter",
+      "target": "lassik/emacs-format-all-the-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/emacs-reformatter",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/emacs-reformatter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/emacs-reformatter",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:57.126168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5889
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Define commands which run reformatters on the current Emacs buffer",
+    "fork": false,
+    "full_name": "purcell/emacs-reformatter",
+    "html_url": "https://github.com/purcell/emacs-reformatter",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-22T12:23:54Z",
+    "stargazers_count": 306,
+    "topics": [],
+    "updated_at": "2026-04-23T08:33:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcollard/elm-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lassik/emacs-format-all-the-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psibi/dhall-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "purcell/emacs.d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

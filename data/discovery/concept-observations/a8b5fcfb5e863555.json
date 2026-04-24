@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Java gRPC implementation. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GitHub Actions Branch Testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GitHub Actions Branch Testing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34736,
+      "status": "candidate",
+      "text": "psychopharmacology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26036,
+      "status": "candidate",
+      "text": "photodynamics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18564,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18505,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18413,
+      "status": "candidate",
+      "text": "science"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GitHub Actions Branch Testing",
+      "sense_id": "github-actions-branch-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-actions-branch-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-actions-branch-testing",
+  "observation_id": "a8b5fcfb5e863555",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "GitHub Actions Branch Testing",
+  "source_context_snippet": "GitHub Actions Branch Testing",
+  "source_file": ".github/workflows/branch-testing.yml",
+  "source_repo": "grpc/grpc-java",
+  "source_repo_description": "The Java gRPC implementation. HTTP/2 based RPC"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notification on push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "\ud83e\uddb9\u200d\u2642\ufe0f Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "Notification on push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate",
+      "text": "Notification on push"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11982,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11982,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10959,
+      "status": "candidate",
+      "text": "advertisement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10959,
+      "status": "candidate",
+      "text": "advertising"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10959,
+      "status": "candidate",
+      "text": "alert"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notification on push",
+  "concept_id": "notification-on-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ben-rogerson/twin.macro"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notification on push",
+      "sense_id": "notification-on-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

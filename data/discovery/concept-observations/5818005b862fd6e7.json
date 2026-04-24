@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++11 Cross-platform infrastructure for OMS(order management system)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040411,
+      "status": "candidate",
+      "text": "beholder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999405,
+      "status": "candidate",
+      "text": "commentator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040850,
+      "status": "candidate",
+      "text": "perceiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040849,
+      "status": "candidate",
+      "text": "observing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040829,
+      "status": "candidate",
+      "text": "observe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "observer",
+      "sense_id": "observer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9026,
+      "status": "candidate",
+      "text": "beholder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1023,
+      "status": "candidate",
+      "text": "perceiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "commentator"
+    }
+  ],
+  "concept_id": "observer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "observer",
+  "observation_id": "5818005b862fd6e7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "observer",
+  "source_context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+  "source_file": null,
+  "source_repo": "fonwin/libfon9",
+  "source_repo_description": "C++11 Cross-platform infrastructure for OMS(order management system)."
+}

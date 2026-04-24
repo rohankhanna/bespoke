@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:00:36.103356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository with which to explore k-diffusion and diffusers, and within which changes to said packages may be tested.",
+    "fork": false,
+    "full_name": "Birch-san/diffusers-play",
+    "html_url": "https://github.com/Birch-san/diffusers-play",
+    "language": "Python",
+    "pushed_at": "2024-01-28T01:56:59Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-01-26T08:01:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

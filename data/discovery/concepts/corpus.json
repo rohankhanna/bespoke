@@ -31,6 +31,30 @@
       "source_repo": "PlexPt/chatgpt-corpus",
       "status": "candidate-context",
       "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "PlexPt/chatgpt-corpus",
       "status": "candidate",
       "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +151,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PlexPt/chatgpt-corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "mlc-ai/web-llm-assistant",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Browser extension that simplifies access to IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "Use your IAM role (from instance metadata) to open the AWS console "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "mlc-ai/web-llm-assistant",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +136,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

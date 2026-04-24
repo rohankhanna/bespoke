@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neosnippet.vim",
+      "target": "shougo/deoppet.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neosnippet.vim",
+      "target": "shougo/neosnippet-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/neosnippet.vim",
+      "target": "ddc-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/neosnippet.vim",
+      "target": "ddc-vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:02:30.842257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "neo-snippet plugin",
+    "fork": false,
+    "full_name": "Shougo/neosnippet.vim",
+    "html_url": "https://github.com/Shougo/neosnippet.vim",
+    "language": "Vim Script",
+    "pushed_at": "2023-07-23T01:36:46Z",
+    "stargazers_count": 1115,
+    "topics": [
+      "ddc-source",
+      "ddc-vim"
+    ],
+    "updated_at": "2026-04-24T00:48:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/deoppet.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neosnippet-snippets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Neosnippet",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddc-source"
+    },
+    {
+      "context_snippet": "Neosnippet",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddc-vim"
+    }
+  ]
+}

@@ -69,6 +69,30 @@
       "source_repo": "chainguard-dev/apko",
       "status": "candidate-context",
       "text": "Go Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "build APKs from source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "Go Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-go",
+      "status": "candidate-context",
+      "text": "This SDK has reached end-of-support. The AWS SDK for Go v2 is available here: https://github.com/aws/aws-sdk-go-v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go",
+      "status": "candidate-context",
+      "text": "Go Tests"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chainguard-dev/apko",
+      "status": "candidate",
+      "text": "Go Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate",
+      "text": "Go Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go",
       "status": "candidate",
       "text": "Go Tests"
     }
@@ -174,11 +210,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/go-tests.yaml",
       "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/go-tests.yaml",
+      "source_repo": "chainguard-dev/melange"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/aws-sdk-go"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

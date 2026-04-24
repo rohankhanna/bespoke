@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml"
+    },
+    {
+      "component": "chainguard-dev/actions/setup-gitsign@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml"
+    },
+    {
+      "component": "cargo-bins/release-pr@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_build.yml",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_build.yml",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "chainguard-dev/actions/setup-gitsign@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "taiki-e/install-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "cargo-bins/release-pr@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "target": "Open a release PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:14:18.959091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3265
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 184
+    },
+    {
+      "path": ".github/workflows/cargo_build.yml",
+      "size": 866
+    },
+    {
+      "path": ".github/workflows/release_pr.yml",
+      "size": 955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-level, optionally asynchronous Rust bindings to llama.cpp",
+    "fork": false,
+    "full_name": "edgenai/llama_cpp-rs",
+    "html_url": "https://github.com/edgenai/llama_cpp-rs",
+    "language": "Rust",
+    "pushed_at": "2024-06-05T16:11:00Z",
+    "stargazers_count": 246,
+    "topics": [],
+    "updated_at": "2026-04-18T12:05:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_build.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Open a release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pr.yml",
+      "term": "Open a release PR"
+    }
+  ]
+}

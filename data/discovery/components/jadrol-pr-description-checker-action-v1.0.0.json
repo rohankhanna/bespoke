@@ -1,0 +1,12 @@
+{
+  "component": "jadrol/pr-description-checker-action@v1.0.0",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler"
+    }
+  ]
+}

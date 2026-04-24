@@ -19,12 +19,48 @@
       "source_repo": "sachaos/viddy",
       "status": "candidate-context",
       "text": "CI # Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Publish Rust crates from CI with a Release PR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "CI # Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "A very fast, portable and hackable fuzzy finder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "CI # Continuous Integration"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "sachaos/viddy",
+      "status": "candidate",
+      "text": "CI # Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate",
+      "text": "CI # Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
       "status": "candidate",
       "text": "CI # Continuous Integration"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "sachaos/viddy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexpasmantier/television"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

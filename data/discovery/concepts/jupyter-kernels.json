@@ -19,6 +19,18 @@
       "source_repo": "IRkernel/IRkernel",
       "status": "candidate-context",
       "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate-context",
+      "text": "A Jupyter kernel for executing Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate-context",
+      "text": "[![badge](https://img.shields.io/badge/launch-binder-E66581.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAABZCAMAAABi1XidAAAB8lBMVEX///9XmsrmZYH1olJXmsr1olJXmsrmZYH1olJXmsr1olJXmsrmZYH1olL1olJXmsr1olJXmsrmZYH1olL1olJXmsrmZYH1olJXmsr1olL1olJXmsrmZYH1olL1olJXmsrmZYH1\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "IRkernel/IRkernel",
       "status": "candidate",
       "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate",
+      "text": "[![badge](https://img.shields.io/badge/launch-binder-E66581.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAABZCAMAAABi1XidAAAB8lBMVEX///9XmsrmZYH1olJXmsr1olJXmsrmZYH1olJXmsr1olJXmsrmZYH1olL1olJXmsr1olJXmsrmZYH1olL1olJXmsrmZYH1olJXmsr1olL1olJXmsrmZYH1olL1olJXmsrmZYH1\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "IRkernel/IRkernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SpencerPark/IJava"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

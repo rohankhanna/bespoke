@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-analysis.yml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-analysis.yml",
+      "source_repo": "travis-ci/travis-listener",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-analysis.yml",
+      "source_repo": "travis-ci/travis-listener",
+      "target": "aquasecurity/trivy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-analysis.yml",
+      "source_repo": "travis-ci/travis-listener",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy-analysis.yml",
+      "source_repo": "travis-ci/travis-listener",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:45.311807+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/trivy-analysis.yml",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Receives and queues service hook notifications from GitHub for processing.",
+    "fork": false,
+    "full_name": "travis-ci/travis-listener",
+    "html_url": "https://github.com/travis-ci/travis-listener",
+    "language": "Ruby",
+    "pushed_at": "2025-12-23T14:43:07Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-07T13:46:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy-analysis.yml",
+      "term": "build"
+    }
+  ]
+}

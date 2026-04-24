@@ -1,0 +1,469 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "korthout/backport-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "mschilde/auto-label-merge-conflicts@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflicts.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-maintainers.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-maintainers.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-maintainers.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nix-community/home-manager",
+      "target": "nix-darwin/nix-darwin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "korthout/backport-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflicts.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "mschilde/auto-label-merge-conflicts@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "Label PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "Tag Module Maintainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "Update maintainers list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "source_repo": "nix-community/home-manager",
+      "target": "Validate maintainers.nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/home-manager",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/home-manager",
+      "target": "nix-dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/home-manager",
+      "target": "nixos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/home-manager",
+      "target": "nixpkgs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:56.215198+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5276
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1311
+    },
+    {
+      "path": ".github/workflows/conflicts.yml",
+      "size": 367
+    },
+    {
+      "path": ".github/workflows/github_pages.yml",
+      "size": 827
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 1042
+    },
+    {
+      "path": ".github/workflows/tag-maintainers.yml",
+      "size": 3361
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 4928
+    },
+    {
+      "path": ".github/workflows/update-maintainers.yml",
+      "size": 11987
+    },
+    {
+      "path": ".github/workflows/validate-maintainers.yml",
+      "size": 1800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] ",
+    "fork": false,
+    "full_name": "nix-community/home-manager",
+    "html_url": "https://github.com/nix-community/home-manager",
+    "language": "Nix",
+    "pushed_at": "2026-04-24T04:19:59Z",
+    "stargazers_count": 9674,
+    "topics": [
+      "dotfiles",
+      "nix",
+      "nix-dotfiles",
+      "nixos",
+      "nixpkgs"
+    ],
+    "updated_at": "2026-04-24T04:19:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nix-darwin/nix-darwin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_pages.yml",
+      "term": "GitHub Pages"
+    },
+    {
+      "context_snippet": "\"Label PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Label PR"
+    },
+    {
+      "context_snippet": "Tag Module Maintainers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-maintainers.yml",
+      "term": "Tag Module Maintainers"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Update maintainers list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "term": "Update maintainers list"
+    },
+    {
+      "context_snippet": "Validate maintainers.nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "term": "Validate maintainers.nix"
+    },
+    {
+      "context_snippet": "Home Manager using Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "Home Manager using Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nix-dotfiles"
+    },
+    {
+      "context_snippet": "Home Manager using Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    },
+    {
+      "context_snippet": "Home Manager using Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixpkgs"
+    }
+  ]
+}

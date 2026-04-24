@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:05:08.182525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7525
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "message",
+    "description": "The main repo of gluon has been moved to",
+    "fork": true,
+    "full_name": "Marwes/gluon",
+    "html_url": "https://github.com/Marwes/gluon",
+    "language": "Rust",
+    "pushed_at": "2023-09-09T16:20:08Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-07-01T16:22:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

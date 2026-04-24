@@ -82,6 +82,54 @@
       "source_repo": "akuity/awesome-argo",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Backblaze/b2-sdk-python",
+      "status": "candidate-context",
+      "text": "Python library to access B2 cloud storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Backblaze/b2-sdk-python",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nock/nock",
+      "status": "candidate-context",
+      "text": "HTTP server mocking and expectations library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nock/nock",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "CLI tool to create a semantic release, git-cliff powered Changelog, and releases to GitHub all in one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate-context",
+      "text": "Chocolatey package for AWS Vault by ByteNess"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +168,30 @@
       "source_repo": "akuity/awesome-argo",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Backblaze/b2-sdk-python",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nock/nock",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate",
+      "text": "Continuous Delivery"
     }
   ],
   "candidate_related_terms": [
@@ -199,11 +271,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Backblaze/b2-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-delivery.yaml",
+      "source_repo": "nock/nock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-deployment.yml",
+      "source_repo": "favware/cliff-jumper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

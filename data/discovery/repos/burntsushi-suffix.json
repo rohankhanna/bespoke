@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/suffix",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/suffix",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:19.930748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4990
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast suffix arrays for Rust (with Unicode support).",
+    "fork": false,
+    "full_name": "BurntSushi/suffix",
+    "html_url": "https://github.com/BurntSushi/suffix",
+    "language": "Rust",
+    "pushed_at": "2023-10-10T13:44:22Z",
+    "stargazers_count": 280,
+    "topics": [],
+    "updated_at": "2026-04-03T12:05:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

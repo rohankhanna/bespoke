@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "podman-desktop"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "podman-desktop",
+  "concept_id": "podman-desktop",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "podman-desktop",
+      "sense_id": "podman-desktop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

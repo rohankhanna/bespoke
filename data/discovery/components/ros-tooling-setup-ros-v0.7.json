@@ -1,0 +1,32 @@
+{
+  "component": "ros-tooling/setup-ros@v0.7",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_iron.yml",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_jazzy.yml",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_rolling.yml",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bloom.yml",
+      "source_repo": "stevenlovegrove/Pangolin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml",
+      "source_repo": "stevenlovegrove/Pangolin"
+    }
+  ]
+}

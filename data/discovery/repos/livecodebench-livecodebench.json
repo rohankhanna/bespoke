@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "hendrycks/apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "livecodebench/submissions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "code-execution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "code-llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "code-repair",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiveCodeBench/LiveCodeBench",
+      "target": "test-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:56.216562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12807
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\"",
+    "fork": false,
+    "full_name": "LiveCodeBench/LiveCodeBench",
+    "html_url": "https://github.com/LiveCodeBench/LiveCodeBench",
+    "language": "Python",
+    "pushed_at": "2025-07-16T00:58:38Z",
+    "stargazers_count": 850,
+    "topics": [
+      "code-execution",
+      "code-generation",
+      "code-llms",
+      "code-repair",
+      "gpt-4",
+      "test-generation"
+    ],
+    "updated_at": "2026-04-23T22:56:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hendrycks/apps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "livecodebench/submissions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-execution"
+    },
+    {
+      "context_snippet": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-llms"
+    },
+    {
+      "context_snippet": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-repair"
+    },
+    {
+      "context_snippet": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-generation"
+    }
+  ]
+}

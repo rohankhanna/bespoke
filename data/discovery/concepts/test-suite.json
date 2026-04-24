@@ -8,7 +8,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -94,6 +96,30 @@
       "source_repo": "Meteor-Community-Packages/meteor-scss",
       "status": "candidate-context",
       "text": "Test suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate-context",
+      "text": "Comprehensive, language independent Test Suite for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate-context",
+      "text": "yaml-test-suite Repository Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "illusionfield/fourseven-scss",
+      "status": "candidate-context",
+      "text": "Dart-sass wrapped to work with meteor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "illusionfield/fourseven-scss",
+      "status": "candidate-context",
+      "text": "Test suite"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +162,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate",
+      "text": "Test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate",
+      "text": "yaml-test-suite Repository Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "illusionfield/fourseven-scss",
       "status": "candidate",
       "text": "Test suite"
     }
@@ -223,11 +261,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/test_suite.yml",
       "source_repo": "Meteor-Community-Packages/meteor-scss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yaml/yaml-test-suite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "illusionfield/fourseven-scss"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

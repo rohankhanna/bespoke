@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "arr-union",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clone-deep",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "kind-of",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "jonschlinkert/assign-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "jonschlinkert/defaults-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "jonschlinkert/mixin-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "jonschlinkert/omit-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "arr-union",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "clone-deep",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "kind-of",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "deep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "extend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "mixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "objects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "properties",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "recursive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep",
+      "target": "values",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:04.869874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4582
+    },
+    {
+      "path": "package.json",
+      "size": 1435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recursively merge values in a JavaScript object. ",
+    "fork": false,
+    "full_name": "jonschlinkert/merge-deep",
+    "html_url": "https://github.com/jonschlinkert/merge-deep",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-08T19:23:04Z",
+    "stargazers_count": 112,
+    "topics": [
+      "assign",
+      "deep",
+      "extend",
+      "javascript",
+      "jonschlinkert",
+      "merge",
+      "mixin",
+      "node",
+      "nodejs",
+      "objects",
+      "properties",
+      "recursive",
+      "values"
+    ],
+    "updated_at": "2026-01-06T06:09:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/assign-deep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/defaults-deep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/mixin-deep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/omit-deep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assign"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extend"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "merge"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixin"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objects"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "properties"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recursive"
+    },
+    {
+      "context_snippet": "> Recursively merge values in a javascript object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "values"
+    }
+  ]
+}

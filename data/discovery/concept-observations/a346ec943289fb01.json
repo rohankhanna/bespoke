@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code to create Stylized-ImageNet, a stylized version of standard ImageNet (ICLR 2019 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computer-vision",
+      "sense_id": "computer-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "computer-vision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "computer-vision",
+  "observation_id": "a346ec943289fb01",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "computer-vision",
+  "source_context_snippet": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026",
+  "source_file": null,
+  "source_repo": "rgeirhos/Stylized-ImageNet",
+  "source_repo_description": "Code to create Stylized-ImageNet, a stylized version of standard ImageNet (ICLR 2019 Oral)"
+}

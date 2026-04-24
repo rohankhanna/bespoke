@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add new issues to project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate-context",
+      "text": "Type-Safe Rust Wrappers for various ESP-IDF services (WiFi, Network, Httpd, Logging, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44176,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44026,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43970,
+      "status": "candidate",
+      "text": "projects"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43956,
+      "status": "candidate",
+      "text": "projected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43956,
+      "status": "candidate",
+      "text": "projecting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add new issues to project",
+  "concept_id": "add-new-issues-to-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-svc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add new issues to project",
+      "sense_id": "add-new-issues-to-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

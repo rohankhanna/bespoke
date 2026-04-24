@@ -1,12 +1,27 @@
 {
   "component": "TheMrMilchmann/setup-msvc-dev@v3",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "erincatto/box2d"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels"
     }
   ]
 }

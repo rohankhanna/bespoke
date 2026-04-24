@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "numeric"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate-context",
+      "text": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate-context",
+      "text": "> Returns true if the value is a finite number."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate",
+      "text": "> Returns true if the value is a finite number."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019390,
+      "status": "candidate",
+      "text": "numeral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015737,
+      "status": "candidate",
+      "text": "numerical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005145,
+      "status": "candidate",
+      "text": "quantitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987665,
+      "status": "candidate",
+      "text": "denotative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985949,
+      "status": "candidate",
+      "text": "denotive"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4044,
+      "status": "candidate",
+      "text": "quantitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "denotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2037,
+      "status": "candidate",
+      "text": "numeral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "denotative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "numerical"
+    }
+  ],
+  "canonical_name": "numeric",
+  "concept_id": "numeric",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "numeric",
+      "sense_id": "numeric#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

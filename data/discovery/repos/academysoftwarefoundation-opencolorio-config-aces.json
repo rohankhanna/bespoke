@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-quality-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-quality-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-quality-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-static-type-checking.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-static-type-checking.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "imageworks/opencolorio-configs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "academysoftwarefoundation/aswf-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configuration-artifacts.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/configuration-artifacts.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "Configuration Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-quality-unit-tests.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-quality-unit-tests.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-static-type-checking.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-static-type-checking.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-static-type-checking.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "target": "Continuous Integration - Static Type Checking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:14:56.191108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 12969
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1814
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4584
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2689
+    },
+    {
+      "path": ".github/workflows/configuration-artifacts.yml",
+      "size": 2881
+    },
+    {
+      "path": ".github/workflows/continuous-integration-quality-unit-tests.yml",
+      "size": 1876
+    },
+    {
+      "path": ".github/workflows/continuous-integration-static-type-checking.yml",
+      "size": 913
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+    "html_url": "https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+    "language": "Python",
+    "pushed_at": "2026-02-11T17:40:59Z",
+    "stargazers_count": 406,
+    "topics": [],
+    "updated_at": "2026-04-21T07:54:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "academysoftwarefoundation/aswf-docker",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imageworks/opencolorio-configs",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Configuration Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/configuration-artifacts.yml",
+      "term": "Configuration Artifacts"
+    },
+    {
+      "context_snippet": "Continuous Integration - Static Type Checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-static-type-checking.yml",
+      "term": "Continuous Integration - Static Type Checking"
+    }
+  ]
+}

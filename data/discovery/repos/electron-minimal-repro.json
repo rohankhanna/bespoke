@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "dsanders11/project-actions/add-item@2134fe7cc71c58b7ae259c82a8e63c6058255678",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron/minimal-repro",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/minimal-repro",
+      "target": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/minimal-repro",
+      "target": "dsanders11/project-actions/add-item@2134fe7cc71c58b7ae259c82a8e63c6058255678",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/minimal-repro",
+      "target": "Add to Ecosystem WG Project",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:13:27.398360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2341
+    },
+    {
+      "path": "package.json",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clone to try a simple Electron app",
+    "fork": false,
+    "full_name": "electron/minimal-repro",
+    "html_url": "https://github.com/electron/minimal-repro",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T13:35:27Z",
+    "stargazers_count": 11465,
+    "topics": [],
+    "updated_at": "2026-04-24T06:06:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add to Ecosystem WG Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "term": "Add to Ecosystem WG Project"
+    }
+  ]
+}

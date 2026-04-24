@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2026]\ud83c\udf34 ARES is an open-source framework for adaptive multimodal reasoning, featuring a two-stage pipeline\u2014Adaptive Cold-Start and Entropy-Shaped Policy Optimization\u2014to balance reasoning depth and efficiency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adaptive-design",
+      "sense_id": "adaptive-design#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adaptive-design",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adaptive-design",
+  "observation_id": "c6840f0040e59153",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "adaptive-design",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "shawn0728/ARES",
+  "source_repo_description": "[ICLR 2026]\ud83c\udf34 ARES is an open-source framework for adaptive multimodal reasoning, featuring a two-stage pipeline\u2014Adaptive Cold-Start and Entropy-Shaped Policy Optimization\u2014to balance reasoning depth and efficiency."
+}

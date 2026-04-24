@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "pre-commit/action@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_to_pypi.yml",
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/py2app",
+      "target": "standalone",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:44.925841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 439
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3246
+    },
+    {
+      "path": ".github/workflows/extract-notes.py",
+      "size": 196
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 602
+    },
+    {
+      "path": ".github/workflows/release_to_pypi.yml",
+      "size": 1433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "py2app is a Python setuptools command which will allow  you to make standalone Mac OS X application bundles  and plugins from Python scripts.",
+    "fork": false,
+    "full_name": "ronaldoussoren/py2app",
+    "html_url": "https://github.com/ronaldoussoren/py2app",
+    "language": "Python",
+    "pushed_at": "2026-02-13T20:47:57Z",
+    "stargazers_count": 422,
+    "topics": [
+      "macos",
+      "python",
+      "standalone"
+    ],
+    "updated_at": "2026-04-16T22:43:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "py2app is a tool that will create standalone application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "py2app is a tool that will create standalone application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standalone"
+    }
+  ]
+}

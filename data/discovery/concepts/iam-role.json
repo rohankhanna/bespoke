@@ -19,6 +19,18 @@
       "source_repo": "uswitch/kiam",
       "status": "candidate-context",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "Use your IAM role (from instance metadata) to open the AWS console "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "uswitch/kiam",
       "status": "candidate",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bridgewater/holochrome",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "uswitch/kiam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

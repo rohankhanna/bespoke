@@ -31,6 +31,18 @@
       "source_repo": "dani-garcia/bw_web_builds",
       "status": "candidate-context",
       "text": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vaultwarden/vw_web_builds",
+      "status": "candidate-context",
+      "text": "A Fork of the Bitwarden client repo to build only the web-vault for Vaultwarden "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaultwarden/vw_web_builds",
+      "status": "candidate-context",
+      "text": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dani-garcia/bw_web_builds",
+      "status": "candidate",
+      "text": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaultwarden/vw_web_builds",
       "status": "candidate",
       "text": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)"
     }
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dani-garcia/bw_web_builds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vaultwarden/vw_web_builds"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

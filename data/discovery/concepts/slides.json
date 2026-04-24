@@ -43,6 +43,42 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate-context",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2slides/mcp-2slides",
+      "status": "candidate-context",
+      "text": "The MCP Server for 2slides. AI agent for PPT/Presentation/Slides generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2slides/mcp-2slides",
+      "status": "candidate-context",
+      "text": "![2slides](https://2slides.com/images/og_2slides.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiden0z/pptx-renderer",
+      "status": "candidate-context",
+      "text": "Browser-native high-fidelity PPTX renderer: parses Office Open XML, renders slides as HTML/SVG (187+ shapes, 134+ SmartArt, 36+ style variants, 100+ python-pptx cases), with pixel-level visual regression testing against PowerPoint output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiden0z/pptx-renderer",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml/badge.svg)](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/aiden0z/pptx-renderer/graph/badge.svg)](https://codecov.io/gh/aiden0z/pptx-renderer) [![npm](\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allweonedev/presentation-ai",
+      "status": "candidate-context",
+      "text": "ALLWEONE\u00ae Open source AI presentation generator Gamma Alternative. Create professional slides with customizable themes and AI-generated content in minutes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allweonedev/presentation-ai",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2slides/mcp-2slides",
+      "status": "candidate",
+      "text": "![2slides](https://2slides.com/images/og_2slides.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiden0z/pptx-renderer",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml/badge.svg)](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/aiden0z/pptx-renderer/graph/badge.svg)](https://codecov.io/gh/aiden0z/pptx-renderer) [![npm](\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allweonedev/presentation-ai",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +178,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2slides/mcp-2slides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aiden0z/pptx-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "allweonedev/presentation-ai"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

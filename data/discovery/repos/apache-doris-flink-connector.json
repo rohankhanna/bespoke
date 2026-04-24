@@ -1,0 +1,473 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-label.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connector.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connector.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connector.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink1.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink1.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink2.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink2.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink1.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink1.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink2.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label-trigger.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Label when reviewed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-label.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Label when approved workflow run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connector.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connector.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-connector.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Build Connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Code Style Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "apache/skywalking-eyes@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "License Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-e2ecase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Run E2ECases Flink1.x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-e2ecase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Run E2ECases Flink2.x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-itcase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Run ITCases Flink1.x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-itcase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector",
+      "target": "Run ITCases Flink2.x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-flink-connector",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-flink-connector",
+      "target": "connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-flink-connector",
+      "target": "data-warehousing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-flink-connector",
+      "target": "dbms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-flink-connector",
+      "target": "doris",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-flink-connector",
+      "target": "flink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-flink-connector",
+      "target": "olap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:49.300650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6543
+    },
+    {
+      "path": ".github/workflows/approve-label-trigger.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/approve-label.yml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/build-connector.yml",
+      "size": 3581
+    },
+    {
+      "path": ".github/workflows/checkstyle.yaml",
+      "size": 1695
+    },
+    {
+      "path": ".github/workflows/license-eyes.yml",
+      "size": 1191
+    },
+    {
+      "path": ".github/workflows/run-e2ecase-flink1.yml",
+      "size": 1437
+    },
+    {
+      "path": ".github/workflows/run-e2ecase-flink2.yml",
+      "size": 1438
+    },
+    {
+      "path": ".github/workflows/run-itcase-flink1.yml",
+      "size": 1426
+    },
+    {
+      "path": ".github/workflows/run-itcase-flink2.yml",
+      "size": 1428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flink Connector for Apache Doris",
+    "fork": false,
+    "full_name": "apache/doris-flink-connector",
+    "html_url": "https://github.com/apache/doris-flink-connector",
+    "language": "Java",
+    "pushed_at": "2026-04-07T08:22:07Z",
+    "stargazers_count": 376,
+    "topics": [
+      "apache",
+      "connector",
+      "data-warehousing",
+      "dbms",
+      "doris",
+      "flink",
+      "mpp",
+      "olap"
+    ],
+    "updated_at": "2026-04-24T06:26:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Label when reviewed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label-trigger.yml",
+      "term": "Label when reviewed"
+    },
+    {
+      "context_snippet": "Label when approved workflow run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label.yml",
+      "term": "Label when approved workflow run"
+    },
+    {
+      "context_snippet": "Build Connector",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-connector.yml",
+      "term": "Build Connector"
+    },
+    {
+      "context_snippet": "Code Style Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "term": "Code Style Checker"
+    },
+    {
+      "context_snippet": "License Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "term": "License Check"
+    },
+    {
+      "context_snippet": "Run E2ECases Flink1.x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-e2ecase-flink1.yml",
+      "term": "Run E2ECases Flink1.x"
+    },
+    {
+      "context_snippet": "Run E2ECases Flink2.x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-e2ecase-flink2.yml",
+      "term": "Run E2ECases Flink2.x"
+    },
+    {
+      "context_snippet": "Run ITCases Flink1.x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-itcase-flink1.yml",
+      "term": "Run ITCases Flink1.x"
+    },
+    {
+      "context_snippet": "Run ITCases Flink2.x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-itcase-flink2.yml",
+      "term": "Run ITCases Flink2.x"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connector"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-warehousing"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbms"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doris"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flink"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "olap"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepinsight/insightface",
+      "target": "deepinsight/inswapper-512-live",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepinsight/insightface",
+      "target": "auroua/insightface_tf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepinsight/insightface",
+      "target": "aiinai/tf-insightface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepinsight/insightface",
+      "target": "deftruth/lite.ai.toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "age-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "arcface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "mxnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "oneflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepinsight/insightface",
+      "target": "retinaface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:27.447345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14636
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "State-of-the-art 2D and 3D Face Analysis Project",
+    "fork": false,
+    "full_name": "deepinsight/insightface",
+    "html_url": "https://github.com/deepinsight/insightface",
+    "language": "Python",
+    "pushed_at": "2026-03-29T11:01:56Z",
+    "stargazers_count": 28511,
+    "topics": [
+      "age-estimation",
+      "arcface",
+      "face-alignment",
+      "face-detection",
+      "face-recognition",
+      "mxnet",
+      "oneflow",
+      "paddlepaddle",
+      "pytorch",
+      "retinaface"
+    ],
+    "updated_at": "2026-04-24T05:15:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiinai/tf-insightface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auroua/insightface_tf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepinsight/inswapper-512-live",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/lite.ai.toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "age-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcface"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneflow"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retinaface"
+    }
+  ]
+}

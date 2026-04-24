@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "target": "facebookresearch/convnext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "target": "edge-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "target": "hybrid-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "target": "mobile-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:57:07.828942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8360
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CADL'22, ECCVW] Official repository of paper titled \"EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications\".",
+    "fork": false,
+    "full_name": "mmaaz60/EdgeNeXt",
+    "html_url": "https://github.com/mmaaz60/EdgeNeXt",
+    "language": "Python",
+    "pushed_at": "2023-07-25T21:38:25Z",
+    "stargazers_count": 416,
+    "topics": [
+      "classification",
+      "cnn",
+      "edge-computing",
+      "hybrid-model",
+      "mobile-application",
+      "transformers"
+    ],
+    "updated_at": "2026-04-24T02:29:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/convnext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-computing"
+    },
+    {
+      "context_snippet": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hybrid-model"
+    },
+    {
+      "context_snippet": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-application"
+    },
+    {
+      "context_snippet": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

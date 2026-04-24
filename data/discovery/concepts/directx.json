@@ -31,6 +31,18 @@
       "source_repo": "ConfettiFX/The-Forge",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate-context",
+      "text": "DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate-context",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ConfettiFX/The-Forge",
       "status": "candidate",
       "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXMath"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

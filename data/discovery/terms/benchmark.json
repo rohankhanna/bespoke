@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -356,6 +356,71 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "project-miracl/miracl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/BitBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongCite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sierra-research/tau2-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "DOGEwbx/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "evalplus/evalplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "nfrechette/acl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "transparency-dev/tessera"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "actix/actix-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human"
     }
   ],
   "term": "Benchmark"

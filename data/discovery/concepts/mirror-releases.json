@@ -19,12 +19,30 @@
       "source_repo": "aspect-build/rules_js",
       "status": "candidate-context",
       "text": "Mirror Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://esbuild.github.io/ JS bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Mirror Releases"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "aspect-build/rules_js",
+      "status": "candidate",
+      "text": "Mirror Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
       "status": "candidate",
       "text": "Mirror Releases"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/mirror.yaml",
       "source_repo": "aspect-build/rules_js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_esbuild"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

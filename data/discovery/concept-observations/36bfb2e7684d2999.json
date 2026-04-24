@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An implementation of W3C Standard RDF Dataset Canonicalization (RDFC 1.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An implementation of the [W3C Standard RDF Dataset Canonicalization Algorithm (RDFC 1.0)](https://www.w3.org/TR/rdf-canon/) in Java."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An implementation of the [W3C Standard RDF Dataset Canonicalization Algorithm (RDFC 1.0)](https://www.w3.org/TR/rdf-canon/) in Java."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rdf-canonicalization",
+      "sense_id": "rdf-canonicalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rdf-canonicalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rdf-canonicalization",
+  "observation_id": "36bfb2e7684d2999",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "rdf-canonicalization",
+  "source_context_snippet": "An implementation of the [W3C Standard RDF Dataset Canonicalization Algorithm (RDFC 1.0)](https://www.w3.org/TR/rdf-canon/) in Java.",
+  "source_file": null,
+  "source_repo": "filip26/titanium-rdf-canon",
+  "source_repo_description": "An implementation of W3C Standard RDF Dataset Canonicalization (RDFC 1.0)"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/FocalNet-DINO",
+      "target": "idea-research/dino",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:12.732857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2610
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo contains the code and configuration files for reproducing object detection results of FocalNets with DINO",
+    "fork": true,
+    "full_name": "FocalNet/FocalNet-DINO",
+    "html_url": "https://github.com/FocalNet/FocalNet-DINO",
+    "language": "Python",
+    "pushed_at": "2023-03-10T08:02:12Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2025-12-11T00:59:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/dino",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

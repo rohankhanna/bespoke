@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:55:42.837863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1093
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python module for cross-platform clipboard functions.",
+    "fork": false,
+    "full_name": "asweigart/pyperclip",
+    "html_url": "https://github.com/asweigart/pyperclip",
+    "language": "Python",
+    "pushed_at": "2025-09-26T14:41:36Z",
+    "stargazers_count": 1828,
+    "topics": [],
+    "updated_at": "2026-04-24T00:49:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

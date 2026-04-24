@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:14:45.654101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Finetuning InstructLLaMA with portuguese data",
+    "fork": false,
+    "full_name": "22-hours/cabrita",
+    "html_url": "https://github.com/22-hours/cabrita",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-06T20:24:02Z",
+    "stargazers_count": 558,
+    "topics": [],
+    "updated_at": "2026-04-09T07:53:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

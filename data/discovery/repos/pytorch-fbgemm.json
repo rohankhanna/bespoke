@@ -1,0 +1,467 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-nvidia@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_generate_ci_matrix.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_build.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_build.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/actions/setup-nvidia@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_cuda_test.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fbgemm_gpu_generate_ci_matrix.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_fbgemm_gpu_generate_ci_matrix.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "Generate CI Matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "Build FBGEMM GenAI Aarch64 Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "Build FBGEMM GenAI x86 Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_ci.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fbgemm_ci.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "FBGEMM CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml",
+      "source_repo": "pytorch/FBGEMM",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:14:53.404065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3551
+    },
+    {
+      "path": ".github/workflows/_fbgemm_gpu_cuda_build.yml",
+      "size": 4765
+    },
+    {
+      "path": ".github/workflows/_fbgemm_gpu_cuda_test.yml",
+      "size": 7304
+    },
+    {
+      "path": ".github/workflows/_fbgemm_gpu_generate_ci_matrix.yml",
+      "size": 2549
+    },
+    {
+      "path": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "size": 2935
+    },
+    {
+      "path": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "size": 2761
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "size": 2925
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux_x86.yml",
+      "size": 2603
+    },
+    {
+      "path": ".github/workflows/fbgemm_ci.yml",
+      "size": 6287
+    },
+    {
+      "path": ".github/workflows/fbgemm_gpu_benchmark_cpu.yml",
+      "size": 6183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FB (Facebook) + GEMM (General Matrix-Matrix Multiplication) - https://code.fb.com/ml-applications/fbgemm/",
+    "fork": false,
+    "full_name": "pytorch/FBGEMM",
+    "html_url": "https://github.com/pytorch/FBGEMM",
+    "language": "C++",
+    "pushed_at": "2026-04-24T08:11:25Z",
+    "stargazers_count": 1556,
+    "topics": [],
+    "updated_at": "2026-04-24T06:23:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate CI Matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_fbgemm_gpu_generate_ci_matrix.yml",
+      "term": "Generate CI Matrix"
+    },
+    {
+      "context_snippet": "Build FBGEMM GenAI Aarch64 Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "term": "Build FBGEMM GenAI Aarch64 Linux Wheels"
+    },
+    {
+      "context_snippet": "Build FBGEMM GenAI x86 Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "term": "Build FBGEMM GenAI x86 Linux Wheels"
+    },
+    {
+      "context_snippet": "FBGEMM CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fbgemm_ci.yml",
+      "term": "FBGEMM CI"
+    }
+  ]
+}

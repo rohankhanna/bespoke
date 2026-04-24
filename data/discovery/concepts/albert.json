@@ -19,6 +19,18 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate-context",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS, \u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/albert_zh"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

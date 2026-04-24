@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mesosphere"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesos/chronos",
+      "status": "candidate-context",
+      "text": "Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesos/chronos",
+      "status": "candidate-context",
+      "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesos/chronos",
+      "status": "candidate",
+      "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044503,
+      "status": "candidate",
+      "text": "mesopause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044502,
+      "status": "candidate",
+      "text": "mantle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044501,
+      "status": "candidate",
+      "text": "mesozone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044500,
+      "status": "candidate",
+      "text": "meteorol."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044499,
+      "status": "candidate",
+      "text": "methanosphere"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mesosphere",
+  "concept_id": "mesosphere",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mesos/chronos"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mesosphere",
+      "sense_id": "mesosphere#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

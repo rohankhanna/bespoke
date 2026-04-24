@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "stylegan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation\" (CVPR 2021) presenting the pixel2style2pixel (pSp) framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "status": "candidate-context",
+      "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "status": "candidate",
+      "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "generative adversarial network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "google neural machine translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "neural architecture search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "gpt-3"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "tensor processing unit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "stylegan",
+  "concept_id": "stylegan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylegan",
+      "sense_id": "stylegan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

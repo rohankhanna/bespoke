@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Windows Binary Package (Alpha)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Windows Binary Package (Alpha)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17896,
+      "status": "candidate",
+      "text": "slat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17806,
+      "status": "candidate",
+      "text": "curtain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17806,
+      "status": "candidate",
+      "text": "shutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17740,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17740,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Binary Package (Alpha)",
+      "sense_id": "windows-binary-package-alpha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows-binary-package-alpha",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows-binary-package-alpha",
+  "observation_id": "3025154477694adb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Windows Binary Package (Alpha)",
+  "source_context_snippet": "Windows Binary Package (Alpha)",
+  "source_file": ".github/workflows/pyinstaller-win-alpha.yml",
+  "source_repo": "ArkMowers/arknights-mower",
+  "source_repo_description": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+}

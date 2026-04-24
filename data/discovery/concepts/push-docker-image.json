@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Push docker image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 An IPFS website measurement tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "Push docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "open-source agentic AI data assistant for the next generation of AI + Data products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "Push docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate",
+      "text": "Push docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate",
+      "text": "Push docker image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15231,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15079,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "matey"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Push docker image",
+  "concept_id": "push-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "probe-lab/tiros"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker-image-publish.yml",
+      "source_repo": "eosphoros-ai/DB-GPT"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push docker image",
+      "sense_id": "push-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

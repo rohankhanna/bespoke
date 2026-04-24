@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":thought_balloon: Diffusion Probabilistic Models for 3D Point Cloud Generation (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cvpr2021",
+      "sense_id": "cvpr2021#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cvpr2021",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cvpr2021",
+  "observation_id": "ae72ad00a1d95405",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "cvpr2021",
+  "source_context_snippet": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />",
+  "source_file": null,
+  "source_repo": "luost26/diffusion-point-cloud",
+  "source_repo_description": ":thought_balloon: Diffusion Probabilistic Models for 3D Point Cloud Generation (CVPR 2021)"
+}

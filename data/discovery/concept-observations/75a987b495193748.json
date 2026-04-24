@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bubbly statusline for neovim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bubbly statusline for neovim"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999653,
+      "status": "candidate",
+      "text": "guggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985593,
+      "status": "candidate",
+      "text": "ripple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983535,
+      "status": "candidate",
+      "text": "burble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983392,
+      "status": "candidate",
+      "text": "gurgle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963991,
+      "status": "candidate",
+      "text": "belch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bubble",
+      "sense_id": "bubble#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24030,
+      "status": "candidate",
+      "text": "burble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23048,
+      "status": "candidate",
+      "text": "ripple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21039,
+      "status": "candidate",
+      "text": "babble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "gurgle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5037,
+      "status": "candidate",
+      "text": "belch"
+    }
+  ],
+  "concept_id": "bubble",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bubble",
+  "observation_id": "75a987b495193748",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "bubble",
+  "source_context_snippet": "Bubbly statusline for neovim",
+  "source_file": null,
+  "source_repo": "datwaft/bubbly.nvim",
+  "source_repo_description": "Bubbly statusline for neovim"
+}

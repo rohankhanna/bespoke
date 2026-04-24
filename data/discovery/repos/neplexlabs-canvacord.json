@@ -1,0 +1,449 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "micro-docgen",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets.yml"
+    },
+    {
+      "component": "actions/setup-node@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "discordjs/action-docs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "micro-docgen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "actions/setup-node@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "Assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "actions/setup-node@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "discordjs/action-docs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "neplexlabs/canvacord",
+      "target": "Node.js Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "canvacord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "captcha-canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "discord-canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "node-canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "rank-card",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "rank-cards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "rankcard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neplexlabs/canvacord",
+      "target": "react-component-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:12:13.838318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3170
+    },
+    {
+      "path": "package.json",
+      "size": 673
+    },
+    {
+      "path": ".github/workflows/assets.yml",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/label.yml",
+      "size": 532
+    },
+    {
+      "path": ".github/workflows/npm-publish.yml",
+      "size": 412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Easily generate images using react-like components in nodejs. Canvacord is suitable for creating dynamic images such as social media posts, greetings cards, memes, etc. It is also possible to create your own templates and builders to generate images. You are only limited by your imagination.",
+    "fork": false,
+    "full_name": "neplexlabs/canvacord",
+    "html_url": "https://github.com/neplexlabs/canvacord",
+    "language": "TypeScript",
+    "pushed_at": "2025-10-21T17:22:50Z",
+    "stargazers_count": 259,
+    "topics": [
+      "canvacord",
+      "canvas",
+      "captcha-canvas",
+      "discord-canvas",
+      "hacktoberfest",
+      "image-manipulation",
+      "node-canvas",
+      "rank-card",
+      "rank-cards",
+      "rankcard",
+      "react-component-to-image"
+    ],
+    "updated_at": "2026-03-22T22:11:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Assets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assets.yml",
+      "term": "Assets"
+    },
+    {
+      "context_snippet": "Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deployment"
+    },
+    {
+      "context_snippet": "Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "term": "Labeler"
+    },
+    {
+      "context_snippet": "Node.js Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "term": "Node.js Package"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canvacord"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canvas"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captcha-canvas"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord-canvas"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-canvas"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rank-card"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rank-cards"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rankcard"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-component-to-image"
+    }
+  ]
+}

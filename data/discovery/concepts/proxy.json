@@ -55,6 +55,54 @@
       "source_repo": "moul/gotty-client",
       "status": "candidate-context",
       "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate-context",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "status": "candidate-context",
+      "text": "Proxy object polyfill"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "status": "candidate-context",
+      "text": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/confluence",
+      "status": "candidate-context",
+      "text": "Torrent client as a HTTP service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/confluence",
+      "status": "candidate-context",
+      "text": "confluence"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/dnsproxy",
+      "status": "candidate-context",
+      "text": "Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/dnsproxy",
+      "status": "candidate-context",
+      "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/dnsproxy/master.svg)](https://codecov.io/github/AdguardTeam/dnsproxy?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "moul/gotty-client",
       "status": "candidate",
       "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TooTallNate/proxy-agents",
+      "status": "candidate",
+      "text": "Node.js HTTP Proxy Agents Monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/proxy-polyfill",
+      "status": "candidate",
+      "text": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/confluence",
+      "status": "candidate",
+      "text": "confluence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/dnsproxy",
+      "status": "candidate",
+      "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/dnsproxy/master.svg)](https://codecov.io/github/AdguardTeam/dnsproxy?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -169,11 +241,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "moul/gotty-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "TooTallNate/proxy-agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChrome/proxy-polyfill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/confluence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/dnsproxy"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

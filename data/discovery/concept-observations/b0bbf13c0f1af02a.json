@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of nREPL middleware to enhance Clojure editors with common functionality like definition lookup, code completion, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nrepl-middleware",
+      "sense_id": "nrepl-middleware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nrepl-middleware",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nrepl-middleware",
+  "observation_id": "b0bbf13c0f1af02a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "nrepl-middleware",
+  "source_context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)",
+  "source_file": null,
+  "source_repo": "clojure-emacs/cider-nrepl",
+  "source_repo_description": "A collection of nREPL middleware to enhance Clojure editors with common functionality like definition lookup, code completion, etc. "
+}

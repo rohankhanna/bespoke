@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:12:47.863175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "NVIDIA container runtime",
+    "fork": false,
+    "full_name": "NVIDIA/nvidia-container-runtime",
+    "html_url": "https://github.com/NVIDIA/nvidia-container-runtime",
+    "language": null,
+    "pushed_at": "2023-10-27T13:58:59Z",
+    "stargazers_count": 1123,
+    "topics": [],
+    "updated_at": "2026-04-14T03:41:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

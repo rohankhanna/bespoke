@@ -293,6 +293,72 @@
       "source_repo": "Azure/aad-pod-identity",
       "status": "candidate-context",
       "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/eipw",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arnetheduck/nph",
+      "status": "candidate-context",
+      "text": "An opinionated code formatter for Nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnetheduck/nph",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "Github Star History - A stunning star history widget chart generator for Github Repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate-context",
+      "text": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "PHP Framework designed to build IO-intensive web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "github pages"
     }
   ],
   "candidate_glosses": [
@@ -431,6 +497,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/eipw",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnetheduck/nph",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
       "status": "candidate",
       "text": "github pages"
     }
@@ -656,11 +758,59 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "ethereum/eipw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "arnetheduck/nph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "nix-community/home-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/sway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "distantmagic/resonance"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,66 @@
       "source_repo": "hashberg-io/typing-validation",
       "status": "candidate-context",
       "text": "typing-validation: Validation using Type Hints"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/ms",
+      "status": "candidate-context",
+      "text": "Tiny millisecond conversion utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/ms",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux-tea",
+      "status": "candidate-context",
+      "text": "tmux sessions as easy as tea \u2615\ud83e\ude9f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tea",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate-context",
+      "text": "Better tiling for tmux \ud83e\ude9f\ud83e\ude93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "Make tmux powerful and pretty \ud83e\udd4a\ud83d\udc85"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "hashberg-io/typing-validation",
       "status": "candidate",
       "text": "typing-validation: Validation using Type Hints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/ms",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tea",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +226,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hashberg-io/typing-validation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux-tea"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux-tilit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

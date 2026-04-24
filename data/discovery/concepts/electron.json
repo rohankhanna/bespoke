@@ -199,6 +199,66 @@
       "source_repo": "Level/level",
       "status": "candidate-context",
       "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Native Node bindings to Git."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyanSalt/commas",
+      "status": "candidate-context",
+      "text": "A hackable, pluggable terminal, and also a command runner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanSalt/commas",
+      "status": "candidate-context",
+      "text": "<img src=\"https://cdn.jsdelivr.net/gh/CyanSalt/commas@main/resources/images/icon.png\" width=\"96\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfbTerminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "Bitwarden client apps (web, browser extension, desktop, and cli)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-wix-msi",
+      "status": "candidate-context",
+      "text": ":dvd: Create traditional MSI installers for your Electron app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-wix-msi",
+      "status": "candidate-context",
+      "text": "![electron-wix-msi](.github/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "Level/level",
       "status": "candidate",
       "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanSalt/commas",
+      "status": "candidate",
+      "text": "<img src=\"https://cdn.jsdelivr.net/gh/CyanSalt/commas@main/resources/images/icon.png\" width=\"96\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-wix-msi",
+      "status": "candidate",
+      "text": "![electron-wix-msi](.github/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -460,11 +550,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Level/level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nodegit/nodegit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CyanSalt/commas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "electerm/electerm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/clients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

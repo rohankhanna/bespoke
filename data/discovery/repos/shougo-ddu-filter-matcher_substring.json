@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-filter-matcher_substring",
+      "target": "ddu-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-filter-matcher_substring",
+      "target": "ddu-vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:35.451294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Substring matcher for ddu.vim",
+    "fork": false,
+    "full_name": "Shougo/ddu-filter-matcher_substring",
+    "html_url": "https://github.com/Shougo/ddu-filter-matcher_substring",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-14T06:10:23Z",
+    "stargazers_count": 14,
+    "topics": [
+      "ddu-filter",
+      "ddu-vim"
+    ],
+    "updated_at": "2026-03-14T06:10:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Substring matcher for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-filter"
+    },
+    {
+      "context_snippet": "Substring matcher for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-vim"
+    }
+  ]
+}

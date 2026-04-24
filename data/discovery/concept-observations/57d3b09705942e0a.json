@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chineseblue",
+      "sense_id": "chineseblue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chineseblue",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chineseblue",
+  "observation_id": "57d3b09705942e0a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "chineseblue",
+  "source_context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+  "source_file": null,
+  "source_repo": "CBLUEbenchmark/CBLUE",
+  "source_repo_description": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+}

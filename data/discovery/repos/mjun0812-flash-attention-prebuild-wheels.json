@@ -1,0 +1,457 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_arm_self_host.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_no_container.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_no_container.yml"
+    },
+    {
+      "component": "mjun0812/setup-cuda@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_no_container.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_self_host.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_self_host.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml"
+    },
+    {
+      "component": "mjun0812/setup-cuda@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml"
+    },
+    {
+      "component": "TheMrMilchmann/setup-msvc-dev@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml"
+    },
+    {
+      "component": "mjun0812/setup-cuda@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml"
+    },
+    {
+      "component": "TheMrMilchmann/setup-msvc-dev@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml"
+    },
+    {
+      "component": "mjun0812/setup-cuda@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml"
+    },
+    {
+      "component": "TheMrMilchmann/setup-msvc-dev@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_arm_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_no_container.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_no_container.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_no_container.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "mjun0812/setup-cuda@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "mjun0812/setup-cuda@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "TheMrMilchmann/setup-msvc-dev@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "mjun0812/setup-cuda@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "TheMrMilchmann/setup-msvc-dev@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "mjun0812/setup-cuda@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "TheMrMilchmann/setup-msvc-dev@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels",
+      "target": "Deploy GitHub Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:14.447098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7975
+    },
+    {
+      "path": ".github/workflows/_build_linux.yml",
+      "size": 1981
+    },
+    {
+      "path": ".github/workflows/_build_linux_arm_self_host.yml",
+      "size": 5398
+    },
+    {
+      "path": ".github/workflows/_build_linux_no_container.yml",
+      "size": 9421
+    },
+    {
+      "path": ".github/workflows/_build_linux_self_host.yml",
+      "size": 9786
+    },
+    {
+      "path": ".github/workflows/_build_windows.yml",
+      "size": 4802
+    },
+    {
+      "path": ".github/workflows/_build_windows_code_build.yml",
+      "size": 5171
+    },
+    {
+      "path": ".github/workflows/_build_windows_self_host.yml",
+      "size": 11762
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 14277
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provide with pre-build flash-attention 2 and 3 package wheels on Linux and Windows using GitHub Actions",
+    "fork": false,
+    "full_name": "mjun0812/flash-attention-prebuild-wheels",
+    "html_url": "https://github.com/mjun0812/flash-attention-prebuild-wheels",
+    "language": "Python",
+    "pushed_at": "2026-04-24T03:36:32Z",
+    "stargazers_count": 1320,
+    "topics": [],
+    "updated_at": "2026-04-24T07:21:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy GitHub Pages"
+    }
+  ]
+}

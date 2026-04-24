@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/aws-shell",
+      "target": "aws-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/aws-shell",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/aws-shell",
+      "target": "cloud-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:01.500870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 10040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An integrated shell for working with the AWS CLI.",
+    "fork": false,
+    "full_name": "awslabs/aws-shell",
+    "html_url": "https://github.com/awslabs/aws-shell",
+    "language": "Python",
+    "pushed_at": "2024-12-16T22:48:37Z",
+    "stargazers_count": 7348,
+    "topics": [
+      "aws",
+      "aws-cli",
+      "cloud",
+      "cloud-management"
+    ],
+    "updated_at": "2026-04-24T06:08:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "aws-shell - The interactive productivity booster for the AWS CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cli"
+    },
+    {
+      "context_snippet": "aws-shell - The interactive productivity booster for the AWS CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "aws-shell - The interactive productivity booster for the AWS CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-management"
+    }
+  ]
+}

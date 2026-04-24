@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -141,6 +143,42 @@
       "source_repo": "igorlfs/nvim-dap-view",
       "status": "candidate-context",
       "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "GitHub Action that formats Java files following Google Style guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Svelte parser for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "\ud83d\udc54 Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "A Neovim configuration for the advanced martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
+      "status": "candidate-context",
+      "text": "format"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +245,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate",
+      "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate",
+      "text": "\ud83d\udc54 Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate",
       "text": "format"
     }
@@ -461,11 +517,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "axel-op/googlejavaformat-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "sveltejs/svelte-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "doom-neovim/doom-nvim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

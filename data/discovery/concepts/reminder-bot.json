@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reminder Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate-context",
+      "text": "Ascend TileLang adapter "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate-context",
+      "text": "Reminder Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate",
+      "text": "Reminder Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10617,
+      "status": "candidate",
+      "text": "recall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "acute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "adviso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "anchoring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reminder Bot",
+  "concept_id": "reminder-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/reminder.yml",
+      "source_repo": "tile-ai/tilelang-ascend"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reminder Bot",
+      "sense_id": "reminder-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

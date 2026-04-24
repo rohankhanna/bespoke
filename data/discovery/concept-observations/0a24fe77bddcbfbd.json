@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "REPL (interactive shell) for Dart, supporting 3rd party packages, hot reload, and full grammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Post-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Post-release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post-release",
+      "sense_id": "post-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "post-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "post-release",
+  "observation_id": "0a24fe77bddcbfbd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Post-release",
+  "source_context_snippet": "Post-release",
+  "source_file": ".github/workflows/post_release.yml",
+  "source_repo": "fzyzcjy/dart_interactive",
+  "source_repo_description": "REPL (interactive shell) for Dart, supporting 3rd party packages, hot reload, and full grammar"
+}

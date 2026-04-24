@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "thinca/action-setup-vim@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andymass/vim-matchup",
+      "target": "andymass/matchup.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andymass/vim-matchup",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andymass/vim-matchup",
+      "target": "andrewradev/splitjoin.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andymass/vim-matchup",
+      "target": "gregsexton/matchtag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "Linting and style checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "tree-sitter/setup-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "thinca/action-setup-vim@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "Neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "andymass/vim-matchup",
+      "target": "Vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "highlighting-matches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "matching-pairs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "matchparen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "motions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "nvim-treesitter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "parenthesis-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup",
+      "target": "vimscript-5624",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:01.115404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29408
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 796
+    },
+    {
+      "path": ".github/workflows/neovim.yml",
+      "size": 1723
+    },
+    {
+      "path": ".github/workflows/vim.yml",
+      "size": 851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "vim match-up: even better % :facepunch: navigate and highlight matching words :facepunch: modern matchit and matchparen.  Supports both vim and neovim + tree-sitter.",
+    "fork": false,
+    "full_name": "andymass/vim-matchup",
+    "html_url": "https://github.com/andymass/vim-matchup",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-10T13:13:26Z",
+    "stargazers_count": 1899,
+    "topics": [
+      "highlighting-matches",
+      "matching-pairs",
+      "matchparen",
+      "motions",
+      "nvim-treesitter",
+      "parenthesis-matching",
+      "vim",
+      "vim-plugin",
+      "vimscript-5624"
+    ],
+    "updated_at": "2026-04-23T08:31:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewradev/splitjoin.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andymass/matchup.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gregsexton/matchtag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linting and style checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting and style checking"
+    },
+    {
+      "context_snippet": "Neovim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "term": "Neovim"
+    },
+    {
+      "context_snippet": "Vim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vim.yml",
+      "term": "Vim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlighting-matches"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching-pairs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matchparen"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motions"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-treesitter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parenthesis-matching"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimscript-5624"
+    }
+  ]
+}

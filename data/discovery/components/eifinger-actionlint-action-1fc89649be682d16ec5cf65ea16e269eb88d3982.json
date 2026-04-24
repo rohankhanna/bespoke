@@ -1,0 +1,12 @@
+{
+  "component": "eifinger/actionlint-action@1fc89649be682d16ec5cf65ea16e269eb88d3982",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "astral-sh/ruff-action"
+    }
+  ]
+}

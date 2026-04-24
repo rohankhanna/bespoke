@@ -84,7 +84,7 @@
   "normalized_form": "pr-requirements-enforcement",
   "observation_id": "809cf3674ceeff1d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "PR Requirements Enforcement",
   "source_context_snippet": "PR Requirements Enforcement",
   "source_file": ".github/workflows/pr-requirements-enforce.yml",

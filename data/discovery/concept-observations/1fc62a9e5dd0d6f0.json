@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository hosts materials from the CLiC-IT 2023 tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "natural-language-processing",
+      "sense_id": "natural-language-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "natural-language-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "natural-language-processing",
+  "observation_id": "1fc62a9e5dd0d6f0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "natural-language-processing",
+  "source_context_snippet": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:",
+  "source_file": null,
+  "source_repo": "crux82/CLiC-it_2023_tutorial",
+  "source_repo_description": "This repository hosts materials from the CLiC-IT 2023 tutorial"
+}

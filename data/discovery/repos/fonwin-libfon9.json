@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fonwin/libfon9",
+      "target": "noavailablealias/signal-slot-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9",
+      "target": "message-queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9",
+      "target": "observer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9",
+      "target": "signal-slot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9",
+      "target": "strto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9",
+      "target": "timer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9",
+      "target": "tostr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:10.847462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++11 Cross-platform infrastructure for OMS(order management system).",
+    "fork": false,
+    "full_name": "fonwin/libfon9",
+    "html_url": "https://github.com/fonwin/libfon9",
+    "language": "C++",
+    "pushed_at": "2025-10-15T04:04:43Z",
+    "stargazers_count": 0,
+    "topics": [
+      "logging",
+      "message-queue",
+      "observer",
+      "signal-slot",
+      "strto",
+      "timer",
+      "tostr"
+    ],
+    "updated_at": "2025-10-15T04:04:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noavailablealias/signal-slot-benchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "message-queue"
+    },
+    {
+      "context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observer"
+    },
+    {
+      "context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signal-slot"
+    },
+    {
+      "context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strto"
+    },
+    {
+      "context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timer"
+    },
+    {
+      "context_snippet": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tostr"
+    }
+  ]
+}

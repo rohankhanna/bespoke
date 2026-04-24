@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "release-nightly"
+    "release-nightly",
+    "Release (nightly)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "gleam-lang/gleam",
       "status": "candidate-context",
       "text": "release-nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "A feature-rich command-line audio/video downloader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "Release (nightly)"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "gleam-lang/gleam",
       "status": "candidate",
       "text": "release-nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate",
+      "text": "Release (nightly)"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorization"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "release-nightly",
   "concept_id": "release-nightly",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release-nightly.yaml",
       "source_repo": "gleam-lang/gleam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "yt-dlp/yt-dlp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

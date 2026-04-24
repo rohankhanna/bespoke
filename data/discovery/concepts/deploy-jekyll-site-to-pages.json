@@ -25,12 +25,48 @@
       "source_repo": "ethereum/EIPs",
       "status": "candidate-context",
       "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/ERCs",
+      "status": "candidate-context",
+      "text": "The Ethereum Request for Comment repository "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/ERCs",
+      "status": "candidate-context",
+      "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "A visualization grammar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "Deploy Jekyll site to Pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ethereum/EIPs",
+      "status": "candidate",
+      "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/ERCs",
+      "status": "candidate",
+      "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
       "status": "candidate",
       "text": "Deploy Jekyll site to Pages"
     }
@@ -94,11 +130,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/jekyll.yml",
       "source_repo": "ethereum/EIPs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "vega/vega"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

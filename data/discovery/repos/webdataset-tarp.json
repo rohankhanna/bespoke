@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdataset/tarp",
+      "target": "tmbdev/tarp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:46.876546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast and simple stream processing of files in tar files, useful for deep learning, big data, and many other applications.",
+    "fork": false,
+    "full_name": "webdataset/tarp",
+    "html_url": "https://github.com/webdataset/tarp",
+    "language": "Go",
+    "pushed_at": "2023-12-10T21:07:49Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2026-02-17T13:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmbdev/tarp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

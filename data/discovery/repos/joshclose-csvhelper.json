@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-version.yaml"
+    },
+    {
+      "component": "PaulHatch/semantic-version@v5.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-version.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "PaulHatch/semantic-version@v5.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-version.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-version.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "PaulHatch/semantic-version@v5.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-version.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "Check Git Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "PaulHatch/semantic-version@v5.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "Publish NuGet Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoshClose/CsvHelper",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:05.026193+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 540
+    },
+    {
+      "path": ".github/workflows/git-version.yaml",
+      "size": 1404
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library to help reading and writing CSV files",
+    "fork": false,
+    "full_name": "JoshClose/CsvHelper",
+    "html_url": "https://github.com/JoshClose/CsvHelper",
+    "language": "C#",
+    "pushed_at": "2025-06-27T19:49:36Z",
+    "stargazers_count": 5191,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-22T14:46:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Git Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-version.yaml",
+      "term": "Check Git Version"
+    },
+    {
+      "context_snippet": "Publish NuGet Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish NuGet Package"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

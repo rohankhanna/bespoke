@@ -19,12 +19,48 @@
       "source_repo": "microsoft/graphrag",
       "status": "candidate-context",
       "text": "gh-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/specs",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] Old specs repo, moved to https://github.com/ipld/ipld"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/specs",
+      "status": "candidate-context",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate-context",
+      "text": "markdown-it js library rewritten in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate-context",
+      "text": "gh-pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/graphrag",
+      "status": "candidate",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/specs",
+      "status": "candidate",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it-rust/markdown-it",
       "status": "candidate",
       "text": "gh-pages"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "microsoft/graphrag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipld/specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "markdown-it-rust/markdown-it"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

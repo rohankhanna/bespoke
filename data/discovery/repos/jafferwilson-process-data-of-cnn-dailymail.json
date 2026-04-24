@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:54:13.774779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository holds the output of the repository: https://github.com/abisee/cnn-dailymail",
+    "fork": false,
+    "full_name": "JafferWilson/Process-Data-of-CNN-DailyMail",
+    "html_url": "https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail",
+    "language": null,
+    "pushed_at": "2022-06-25T05:33:37Z",
+    "stargazers_count": 382,
+    "topics": [],
+    "updated_at": "2026-03-28T07:46:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

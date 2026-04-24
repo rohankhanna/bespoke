@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mortepau/codicons.nvim",
+      "target": "kyazdani42/nvim-web-devicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mortepau/codicons.nvim",
+      "target": "onsails/lspkind-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mortepau/codicons.nvim",
+      "target": "codicons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mortepau/codicons.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mortepau/codicons.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mortepau/codicons.nvim",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:17.563376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A plugin simplifying the task of working with VS Code codicons in Neovim",
+    "fork": false,
+    "full_name": "mortepau/codicons.nvim",
+    "html_url": "https://github.com/mortepau/codicons.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-01-28T20:00:52Z",
+    "stargazers_count": 41,
+    "topics": [
+      "codicons",
+      "lua",
+      "neovim",
+      "plugin",
+      "vim",
+      "vscode"
+    ],
+    "updated_at": "2026-03-31T12:08:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-web-devicons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onsails/lspkind-nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codicons"
+    },
+    {
+      "context_snippet": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

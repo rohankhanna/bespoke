@@ -311,6 +311,66 @@
       "source_repo": "criterion-rs/criterion.rs",
       "status": "candidate-context",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Apache DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Gnosis Chain Validator Deposit Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate-context",
+      "text": "Generate beautiful changelogs from your Git commit history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Publish Rust crates from CI with a Release PR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/commit",
+      "status": "candidate-context",
+      "text": "Utilities for generating binding commitments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/commit",
+      "status": "candidate-context",
+      "text": "Security audit"
     }
   ],
   "candidate_glosses": [
@@ -461,6 +521,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/commit",
       "status": "candidate",
       "text": "Security audit"
     }
@@ -710,11 +800,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "gnosischain/gbc-deposit-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "EspressoSystems/commit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

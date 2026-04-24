@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PD E2E Testing Farm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PD E2E Testing Farm"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22397,
+      "status": "candidate",
+      "text": "skin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "spade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22362,
+      "status": "candidate",
+      "text": "spades"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22362,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22310,
+      "status": "candidate",
+      "text": "clear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PD E2E Testing Farm",
+      "sense_id": "pd-e2e-testing-farm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pd-e2e-testing-farm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pd-e2e-testing-farm",
+  "observation_id": "6188339a9a1e9e0a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "PD E2E Testing Farm",
+  "source_context_snippet": "PD E2E Testing Farm",
+  "source_file": ".github/workflows/e2e-main-tf.yaml",
+  "source_repo": "podman-desktop/podman-desktop",
+  "source_repo_description": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop."
+}

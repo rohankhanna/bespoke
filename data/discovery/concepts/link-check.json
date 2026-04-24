@@ -68,6 +68,18 @@
       "source_repo": "mirahavel0309/asm",
       "status": "candidate-context",
       "text": "\"Link Check\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5\ufe0f Reproducible development environment for humans and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "Link check"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "mirahavel0309/asm",
       "status": "candidate",
       "text": "\"Link Check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate",
+      "text": "Link check"
     }
   ],
   "candidate_related_terms": [
@@ -227,11 +245,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/links.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "0x7432/asm-ru"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "mirahavel0309/asm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "anthropics/claude-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

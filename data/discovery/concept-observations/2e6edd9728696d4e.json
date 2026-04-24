@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Home Manager using Nix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Home Manager using Nix"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nix-dotfiles",
+      "sense_id": "nix-dotfiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nix-dotfiles",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nix-dotfiles",
+  "observation_id": "2e6edd9728696d4e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "nix-dotfiles",
+  "source_context_snippet": "Home Manager using Nix",
+  "source_file": null,
+  "source_repo": "nix-community/home-manager",
+  "source_repo_description": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] "
+}

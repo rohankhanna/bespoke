@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "ffmpegwasm/ffmpeg.wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "gpac/mp4box.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "goldfire/howler.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "hughfenghen/bloom-shadow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
+      "target": "webcodecs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:53:15.280842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u6574\u7406\uff08\u7d22\u5f15\uff09 Web \u97f3\u89c6\u9891\u76f8\u5173\u7684 API\u3001SDK\u3001\u6587\u7ae0\u3001\u5bf9\u5916\u4ea7\u54c1\uff0c\u5e2e\u52a9\u524d\u7aef\u5f00\u53d1\u8005\u5165\u95e8/\u8fdb\u9636\u97f3\u89c6\u9891\u9886\u57df\uff0c\u63a8\u52a8\u97f3\u89c6\u9891\u6280\u672f\u5728 Web \u5e73\u53f0\u7684\u5e94\u7528\u5b9e\u8df5\u3002",
+    "fork": false,
+    "full_name": "hughfenghen/WebAV-KnowledgeGraph",
+    "html_url": "https://github.com/hughfenghen/WebAV-KnowledgeGraph",
+    "language": null,
+    "pushed_at": "2025-09-25T13:16:16Z",
+    "stargazers_count": 182,
+    "topics": [
+      "audio",
+      "media",
+      "video",
+      "web",
+      "webcodecs"
+    ],
+    "updated_at": "2026-04-22T18:53:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ffmpegwasm/ffmpeg.wasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goldfire/howler.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gpac/mp4box.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hughfenghen/bloom-shadow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u6574\u7406 Web \u97f3\u89c6\u9891\u76f8\u5173\u7684 API\u3001SDK\u3001\u6587\u7ae0\u3001\u5bf9\u5916\u4ea7\u54c1\uff0c\u5e2e\u52a9\u524d\u7aef\u5f00\u53d1\u8005\u5165\u95e8/\u8fdb\u9636\u97f3\u89c6\u9891\u9886\u57df\uff0c\u63a8\u52a8\u97f3\u89c6\u9891\u6280\u672f\u5728 Web \u5e73\u53f0\u7684\u5e94\u7528\u5b9e\u8df5\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "\u6574\u7406 Web \u97f3\u89c6\u9891\u76f8\u5173\u7684 API\u3001SDK\u3001\u6587\u7ae0\u3001\u5bf9\u5916\u4ea7\u54c1\uff0c\u5e2e\u52a9\u524d\u7aef\u5f00\u53d1\u8005\u5165\u95e8/\u8fdb\u9636\u97f3\u89c6\u9891\u9886\u57df\uff0c\u63a8\u52a8\u97f3\u89c6\u9891\u6280\u672f\u5728 Web \u5e73\u53f0\u7684\u5e94\u7528\u5b9e\u8df5\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media"
+    },
+    {
+      "context_snippet": "\u6574\u7406 Web \u97f3\u89c6\u9891\u76f8\u5173\u7684 API\u3001SDK\u3001\u6587\u7ae0\u3001\u5bf9\u5916\u4ea7\u54c1\uff0c\u5e2e\u52a9\u524d\u7aef\u5f00\u53d1\u8005\u5165\u95e8/\u8fdb\u9636\u97f3\u89c6\u9891\u9886\u57df\uff0c\u63a8\u52a8\u97f3\u89c6\u9891\u6280\u672f\u5728 Web \u5e73\u53f0\u7684\u5e94\u7528\u5b9e\u8df5\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "\u6574\u7406 Web \u97f3\u89c6\u9891\u76f8\u5173\u7684 API\u3001SDK\u3001\u6587\u7ae0\u3001\u5bf9\u5916\u4ea7\u54c1\uff0c\u5e2e\u52a9\u524d\u7aef\u5f00\u53d1\u8005\u5165\u95e8/\u8fdb\u9636\u97f3\u89c6\u9891\u9886\u57df\uff0c\u63a8\u52a8\u97f3\u89c6\u9891\u6280\u672f\u5728 Web \u5e73\u53f0\u7684\u5e94\u7528\u5b9e\u8df5\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webcodecs"
+    }
+  ]
+}

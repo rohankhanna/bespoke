@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cLabs managed applications for Kubernetes using Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Helm Charts test and docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Helm Charts test and docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33064,
+      "status": "candidate",
+      "text": "signature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32204,
+      "status": "candidate",
+      "text": "grade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28683,
+      "status": "candidate",
+      "text": "records"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22018,
+      "status": "candidate",
+      "text": "cedilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21995,
+      "status": "candidate",
+      "text": "trier"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Helm Charts test and docs",
+      "sense_id": "helm-charts-test-and-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "helm-charts-test-and-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "helm-charts-test-and-docs",
+  "observation_id": "388976034b87b867",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Helm Charts test and docs",
+  "source_context_snippet": "Helm Charts test and docs",
+  "source_file": ".github/workflows/helm_test.yml",
+  "source_repo": "celo-org/charts",
+  "source_repo_description": "cLabs managed applications for Kubernetes using Helm"
+}

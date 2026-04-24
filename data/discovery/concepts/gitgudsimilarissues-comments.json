@@ -19,12 +19,30 @@
       "source_repo": "MicrosoftDocs/WSL",
       "status": "candidate-context",
       "text": "GitGudSimilarIssues comments"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "GitGudSimilarIssues comments"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "MicrosoftDocs/WSL",
+      "status": "candidate",
+      "text": "GitGudSimilarIssues comments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
       "status": "candidate",
       "text": "GitGudSimilarIssues comments"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/similarissues.yml",
       "source_repo": "MicrosoftDocs/WSL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/similar-issues-bot.yml",
+      "source_repo": "microsoft/microsoft-ui-xaml"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

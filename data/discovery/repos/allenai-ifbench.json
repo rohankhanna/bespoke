@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/IFBench",
+      "target": "allenai/open-instruct",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:25.965071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4494
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 689
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "allenai/IFBench",
+    "html_url": "https://github.com/allenai/IFBench",
+    "language": "Python",
+    "pushed_at": "2026-04-11T22:35:43Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-17T14:26:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/open-instruct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

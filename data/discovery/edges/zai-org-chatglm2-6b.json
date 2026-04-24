@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM2-6B",
-      "target": "metaglm/glm-cookbook",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/ChatGLM2-6B",
       "target": "hazyresearch/flash-attention",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM2-6B",
-      "target": "li-plus/chatglm.cpp",
+      "target": "sophgo/chatglm2-tpu",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM2-6B",
-      "target": "hendrycks/test",
+      "target": "openai/grade-school-math",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "suzgunmirac/big-bench-hard",
       "target_type": "repository"
     },
     {
@@ -50,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "zai-org/ChatGLM2-6B"
 }

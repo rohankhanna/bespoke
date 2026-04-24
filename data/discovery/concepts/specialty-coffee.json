@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "specialty-coffee"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate-context",
+      "text": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "specialty-coffee",
+  "concept_id": "specialty-coffee",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "specialty-coffee",
+      "sense_id": "specialty-coffee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

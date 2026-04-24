@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mower \u662f\u4e3a\u957f\u671f\u8fd0\u884c\u8bbe\u8ba1\u7684\u3001\u5f00\u6e90\u7684\u660e\u65e5\u65b9\u821f\u811a\u672c\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mower \u662f\u4e3a\u957f\u671f\u8fd0\u884c\u8bbe\u8ba1\u7684\u3001\u5f00\u6e90\u7684\u660e\u65e5\u65b9\u821f\u811a\u672c\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "tower of saviors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "atlantica online"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "clash of kings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "shadowgun legends"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "revelation online"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arknights",
+      "sense_id": "arknights#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arknights",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arknights",
+  "observation_id": "3dfa69a519d4b632",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "arknights",
+  "source_context_snippet": "Mower \u662f\u4e3a\u957f\u671f\u8fd0\u884c\u8bbe\u8ba1\u7684\u3001\u5f00\u6e90\u7684\u660e\u65e5\u65b9\u821f\u811a\u672c\u3002",
+  "source_file": null,
+  "source_repo": "ArkMowers/arknights-mower",
+  "source_repo_description": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Neovim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Neovim"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Neovim",
+      "sense_id": "neovim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim",
+  "observation_id": "054b8b448c1f6491",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Neovim",
+  "source_context_snippet": "Neovim",
+  "source_file": ".github/workflows/neovim.yml",
+  "source_repo": "lambdalisue/vim-fern",
+  "source_repo_description": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+}

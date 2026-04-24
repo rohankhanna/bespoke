@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Web terminal and sandbox explorer for your mesos containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047403,
+      "status": "candidate",
+      "text": "web browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047121,
+      "status": "candidate",
+      "text": "server"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041684,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034032,
+      "status": "candidate",
+      "text": "reviewer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010245,
+      "status": "candidate",
+      "text": "bank"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "browser",
+      "sense_id": "browser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "web browser"
+    }
+  ],
+  "concept_id": "browser",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "browser",
+  "observation_id": "83059d8f2d0a96c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "browser",
+  "source_context_snippet": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands",
+  "source_file": null,
+  "source_repo": "criteo/mesos-term",
+  "source_repo_description": "Web terminal and sandbox explorer for your mesos containers"
+}

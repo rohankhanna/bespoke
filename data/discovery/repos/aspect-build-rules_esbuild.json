@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yaml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml"
+    },
+    {
+      "component": "smlx/ccv@7318e2f25a52dcd550e75384b84983973251a1f8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "Buildifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "bazel-contrib/setup-bazel@0.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "Mirror Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "New issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "smlx/ccv@7318e2f25a52dcd550e75384b84983973251a1f8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "Tag a Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aspect-build/rules_esbuild",
+      "target": "bazel-rules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:26.074224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2936
+    },
+    {
+      "path": ".github/workflows/buildifier.yaml",
+      "size": 455
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1520
+    },
+    {
+      "path": ".github/workflows/conventional-commits.yaml",
+      "size": 328
+    },
+    {
+      "path": ".github/workflows/mirror.yaml",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/new_issue.yaml",
+      "size": 1190
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1144
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/tag.yaml",
+      "size": 1690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bazel rules for https://esbuild.github.io/ JS bundler",
+    "fork": false,
+    "full_name": "aspect-build/rules_esbuild",
+    "html_url": "https://github.com/aspect-build/rules_esbuild",
+    "language": "Starlark",
+    "pushed_at": "2026-04-16T20:20:00Z",
+    "stargazers_count": 33,
+    "topics": [
+      "bazel",
+      "bazel-rules"
+    ],
+    "updated_at": "2026-04-16T20:20:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Buildifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "term": "Buildifier"
+    },
+    {
+      "context_snippet": "Mirror Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yaml",
+      "term": "Mirror Releases"
+    },
+    {
+      "context_snippet": "New issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yaml",
+      "term": "New issue"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tag a Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yaml",
+      "term": "Tag a Release"
+    },
+    {
+      "context_snippet": "This is a Bazel rule which wraps the esbuild CLI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "This is a Bazel rule which wraps the esbuild CLI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    }
+  ]
+}

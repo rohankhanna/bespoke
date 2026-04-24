@@ -1,0 +1,194 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "zsh-users/antigen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "b4b4r07/zplug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "lukechilds/zsh-better-npm-completion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "antigen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "oh-my-zsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "version-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "zgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "zplug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "zsh-nvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm",
+      "target": "zsh-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:07:31.772889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Zsh plugin for installing, updating and loading nvm",
+    "fork": false,
+    "full_name": "lukechilds/zsh-nvm",
+    "html_url": "https://github.com/lukechilds/zsh-nvm",
+    "language": "Shell",
+    "pushed_at": "2024-07-03T04:34:11Z",
+    "stargazers_count": 2403,
+    "topics": [
+      "antigen",
+      "nvm",
+      "oh-my-zsh",
+      "version-manager",
+      "zgen",
+      "zim",
+      "zplug",
+      "zsh",
+      "zsh-nvm",
+      "zsh-plugin",
+      "zsh-plugins"
+    ],
+    "updated_at": "2026-04-23T02:05:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b4b4r07/zplug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukechilds/zsh-better-npm-completion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zsh-users/antigen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antigen"
+    },
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oh-my-zsh"
+    },
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-manager"
+    },
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgen"
+    },
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zplug"
+    },
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-nvm"
+    },
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin"
+    },
+    {
+      "context_snippet": "> Zsh plugin for installing, updating and loading `nvm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugins"
+    }
+  ]
+}

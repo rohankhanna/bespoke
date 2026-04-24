@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:54:05.282669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Csharp SDK for ZhiPu AI",
+    "fork": false,
+    "full_name": "MetaGLM/zhipuai-sdk-csharp-v4",
+    "html_url": "https://github.com/MetaGLM/zhipuai-sdk-csharp-v4",
+    "language": "C#",
+    "pushed_at": "2024-03-26T09:28:28Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-03-16T11:26:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

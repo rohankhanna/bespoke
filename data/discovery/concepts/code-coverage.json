@@ -203,6 +203,36 @@
       "source_repo": "apache/casbin-axum-casbin",
       "status": "candidate-context",
       "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate-context",
+      "text": "Port of Facebook's LLaMA model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/atomicstore",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/commit",
+      "status": "candidate-context",
+      "text": "Utilities for generating binding commitments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/commit",
+      "status": "candidate-context",
+      "text": "Code Coverage"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +329,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/atomicstore",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/commit",
       "status": "candidate",
       "text": "Code Coverage"
     }
@@ -452,11 +500,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "DOGEwbx/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/atomicstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/commit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

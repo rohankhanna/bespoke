@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lemire/fastbase64",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lemire/fastbase64",
+      "target": "simd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:05.302105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "SIMD-accelerated base64 codecs",
+    "fork": false,
+    "full_name": "lemire/fastbase64",
+    "html_url": "https://github.com/lemire/fastbase64",
+    "language": "C",
+    "pushed_at": "2024-04-04T15:32:41Z",
+    "stargazers_count": 445,
+    "topics": [
+      "avx2",
+      "simd"
+    ],
+    "updated_at": "2026-04-08T11:35:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**This is an unmaintained software package that was used for research purposes. Do not use in production. [Use the simdutf library instead](https://github.com/simdutf/simdutf).** The simdutf library has superior support for base64.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "**This is an unmaintained software package that was used for research purposes. Do not use in production. [Use the simdutf library instead](https://github.com/simdutf/simdutf).** The simdutf library has superior support for base64.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    }
+  ]
+}

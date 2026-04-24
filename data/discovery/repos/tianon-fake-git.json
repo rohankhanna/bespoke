@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tianon/fake-git",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:01:30.682148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2783
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fake Git (for Go)",
+    "fork": false,
+    "full_name": "tianon/fake-git",
+    "html_url": "https://github.com/tianon/fake-git",
+    "language": "Shell",
+    "pushed_at": "2026-02-11T03:03:12Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-02-11T03:03:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

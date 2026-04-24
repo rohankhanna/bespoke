@@ -1,0 +1,417 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml"
+    },
+    {
+      "component": "libbpf/ci/setup-build-env@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml"
+    },
+    {
+      "component": "libbpf/ci/get-linux-source@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml"
+    },
+    {
+      "component": "libbpf/ci/patch-kernel@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml"
+    },
+    {
+      "component": "libbpf/ci/build-selftests@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml"
+    },
+    {
+      "component": "libbpf/ci/run-vmtest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf/libbpf-bootstrap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libbpf/libbpf",
+      "target": "iovisor/bcc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf-ci-coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ondemand.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "ondemand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf/ci/setup-build-env@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf/ci/get-linux-source@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf/ci/patch-kernel@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf/ci/build-selftests@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmtest.yml",
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf/ci/run-vmtest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libbpf/libbpf",
+      "target": "libbpf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libbpf/libbpf",
+      "target": "tracing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:19.802553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8508
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2324
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1193
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1008
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 926
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 352
+    },
+    {
+      "path": ".github/workflows/ondemand.yml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 632
+    },
+    {
+      "path": ".github/workflows/vmtest.yml",
+      "size": 3163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automated upstream mirror for libbpf stand-alone build.",
+    "fork": false,
+    "full_name": "libbpf/libbpf",
+    "html_url": "https://github.com/libbpf/libbpf",
+    "language": "C",
+    "pushed_at": "2026-04-09T22:12:22Z",
+    "stargazers_count": 2679,
+    "topics": [
+      "bpf",
+      "libbpf",
+      "tracing"
+    ],
+    "updated_at": "2026-04-24T03:15:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iovisor/bcc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libbpf/libbpf-bootstrap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "libbpf-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "libbpf-build"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "libbpf-ci-coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "libbpf-ci-coverity"
+    },
+    {
+      "context_snippet": "\"lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "ondemand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ondemand.yml",
+      "term": "ondemand"
+    },
+    {
+      "context_snippet": "libbpf-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "libbpf-ci"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libbpf"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    }
+  ]
+}

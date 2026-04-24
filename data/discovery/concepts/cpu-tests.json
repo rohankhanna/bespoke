@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CPU tests"
+    "CPU tests",
+    "CPU Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Lightning-AI/litgpt",
       "status": "candidate-context",
       "text": "CPU tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "Agentic RL Training at Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "CPU Tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Lightning-AI/litgpt",
       "status": "candidate",
       "text": "CPU tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate",
+      "text": "CPU Tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cpu-tests.yml",
       "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cpu_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -66,6 +66,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "semantic-release/github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "semantic-release/error"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pvdlg/conventional-changelog-metahub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-semantic-release/python-semantic-release"
     }
   ],
   "term": "semantic-release"

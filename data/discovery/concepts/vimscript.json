@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "vimscript"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "A guide to using Lua in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate-context",
+      "text": "Modern fuzzy finder for Vim with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate-context",
+      "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstein64/vim-startuptime",
+      "status": "candidate-context",
+      "text": "A plugin for viewing Vim and Neovim startup event timing information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstein64/vim-startuptime",
+      "status": "candidate-context",
+      "text": "[![build][badge_thumbnail]][badge_link]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate",
+      "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstein64/vim-startuptime",
+      "status": "candidate",
+      "text": "[![build][badge_thumbnail]][badge_link]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vimscript",
+  "concept_id": "vimscript",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nanotee/nvim-lua-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dstein64/vim-startuptime"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vimscript",
+      "sense_id": "vimscript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

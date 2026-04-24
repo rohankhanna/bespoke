@@ -1,0 +1,632 @@
+{
+  "components": [
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/macos_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/windows_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tests.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-miniconda@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-miniconda@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "seemethere/upload-artifact-s3@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/torchcodec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/macos_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ffmpeg.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/windows_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_ffmpeg.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "Build non-GPL FFmpeg from source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tests.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tests.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_tests.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "CPP tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/actions/setup-miniconda@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "Build and test Linux wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "Build and test MacOS wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "Reference resource generation tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:13.801692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9440
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1298
+    },
+    {
+      "path": ".github/workflows/build_ffmpeg.yaml",
+      "size": 4025
+    },
+    {
+      "path": ".github/workflows/cpp_tests.yaml",
+      "size": 3016
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 2155
+    },
+    {
+      "path": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
+      "size": 3964
+    },
+    {
+      "path": ".github/workflows/linux_cuda_wheel.yaml",
+      "size": 11504
+    },
+    {
+      "path": ".github/workflows/linux_wheel.yaml",
+      "size": 5104
+    },
+    {
+      "path": ".github/workflows/macos_wheel.yaml",
+      "size": 3404
+    },
+    {
+      "path": ".github/workflows/reference_resources.yaml",
+      "size": 2955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch media decoding and encoding",
+    "fork": false,
+    "full_name": "meta-pytorch/torchcodec",
+    "html_url": "https://github.com/meta-pytorch/torchcodec",
+    "language": "Python",
+    "pushed_at": "2026-04-23T11:52:10Z",
+    "stargazers_count": 1056,
+    "topics": [],
+    "updated_at": "2026-04-23T19:01:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/torchcodec",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build non-GPL FFmpeg from source",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_ffmpeg.yaml",
+      "term": "Build non-GPL FFmpeg from source"
+    },
+    {
+      "context_snippet": "CPP tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_tests.yaml",
+      "term": "CPP tests"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Build and test Linux wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "term": "Build and test Linux wheel"
+    },
+    {
+      "context_snippet": "Build and test MacOS wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "term": "Build and test MacOS wheel"
+    },
+    {
+      "context_snippet": "Reference resource generation tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "term": "Reference resource generation tests"
+    }
+  ]
+}

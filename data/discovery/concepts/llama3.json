@@ -115,6 +115,42 @@
       "source_repo": "mbzuai-oryx/VideoGPT-plus",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate-context",
+      "text": "Firefly: \u5927\u6a21\u578b\u8bad\u7ec3\u5de5\u5177\uff0c\u652f\u6301\u8bad\u7ec3Qwen2.5\u3001Qwen2\u3001Yi1.5\u3001Phi-3\u3001Llama3\u3001Gemma\u3001MiniCPM\u3001Yi\u3001Deepseek\u3001Orion\u3001Xverse\u3001Mixtral-8x7B\u3001Zephyr\u3001Mistral\u3001Baichuan2\u3001Llma2\u3001Llama\u3001Qwen\u3001Baichuan\u3001ChatGLM2\u3001InternLM\u3001Ziya2\u3001Vicuna\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "mbzuai-oryx/VideoGPT-plus",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +298,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "mbzuai-oryx/VideoGPT-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

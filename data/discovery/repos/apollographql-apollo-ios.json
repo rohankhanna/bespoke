@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-close.yml"
+    },
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prometheus-project-add.yml"
+    },
+    {
+      "component": "austenstone/project-update@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prometheus-project-add.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/apollo-ios",
+      "target": "apollographql/apollo-ios-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/apollo-ios",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-user-survey.yml",
+      "source_repo": "apollographql/apollo-ios",
+      "target": "Issue Close User Survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prometheus-project-add.yml",
+      "source_repo": "apollographql/apollo-ios",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prometheus-project-add.yml",
+      "source_repo": "apollographql/apollo-ios",
+      "target": "austenstone/project-update@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-ios",
+      "target": "apollo-ios",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-ios",
+      "target": "apollographql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-ios",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-ios",
+      "target": "graphql-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-ios",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:07:25.693294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8847
+    },
+    {
+      "path": ".github/workflows/issue-close-user-survey.yml",
+      "size": 1135
+    },
+    {
+      "path": ".github/workflows/pr-close.yml",
+      "size": 405
+    },
+    {
+      "path": ".github/workflows/prometheus-project-add.yml",
+      "size": 781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcf1 \u00a0A strongly-typed, caching GraphQL client for iOS, written in Swift.",
+    "fork": false,
+    "full_name": "apollographql/apollo-ios",
+    "html_url": "https://github.com/apollographql/apollo-ios",
+    "language": "Swift",
+    "pushed_at": "2026-04-23T17:40:00Z",
+    "stargazers_count": 4036,
+    "topics": [
+      "apollo-ios",
+      "apollographql",
+      "graphql",
+      "graphql-client",
+      "ios",
+      "swift"
+    ],
+    "updated_at": "2026-04-23T17:39:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/apollo-ios-dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue Close User Survey",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-user-survey.yml",
+      "term": "Issue Close User Survey"
+    },
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-close.yml",
+      "term": "Close Pull Request"
+    },
+    {
+      "context_snippet": "<header>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollo-ios"
+    },
+    {
+      "context_snippet": "<header>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollographql"
+    },
+    {
+      "context_snippet": "<header>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "<header>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql-client"
+    },
+    {
+      "context_snippet": "<header>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

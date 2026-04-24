@@ -240,6 +240,18 @@
       "source_repo": "EpicenterHQ/epicenter",
       "status": "candidate-context",
       "text": "Code quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
     }
   ],
   "candidate_glosses": [
@@ -356,6 +368,12 @@
       "source_repo": "EpicenterHQ/epicenter",
       "status": "candidate",
       "text": "Code quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
     }
   ],
   "candidate_related_terms": [
@@ -531,11 +549,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/ci.format.yml",
       "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "realm/SwiftLint"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

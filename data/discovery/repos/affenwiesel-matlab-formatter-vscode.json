@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "target": "vscode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "target": "matlab-formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "affenwiesel/matlab-formatter-vscode",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:50.750700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1065
+    },
+    {
+      "path": "package.json",
+      "size": 3921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "affenwiesel/matlab-formatter-vscode",
+    "html_url": "https://github.com/affenwiesel/matlab-formatter-vscode",
+    "language": "Python",
+    "pushed_at": "2023-07-26T12:36:56Z",
+    "stargazers_count": 56,
+    "topics": [
+      "matlab-formatter",
+      "vscode"
+    ],
+    "updated_at": "2026-01-17T00:11:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Indent and format MATLAB code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab-formatter"
+    },
+    {
+      "context_snippet": "Indent and format MATLAB code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

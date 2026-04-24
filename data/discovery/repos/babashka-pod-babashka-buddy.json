@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:08:42.956948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pod around buddy core (Cryptographic Api for Clojure).",
+    "fork": false,
+    "full_name": "babashka/pod-babashka-buddy",
+    "html_url": "https://github.com/babashka/pod-babashka-buddy",
+    "language": "Clojure",
+    "pushed_at": "2024-06-06T10:16:38Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-07-31T07:53:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

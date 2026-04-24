@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Streamlit \u2014 A faster way to build and share data apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AI Fix Flaky E2E Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AI Fix Flaky E2E Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17406,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17203,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17203,
+      "status": "candidate",
+      "text": "rig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14445,
+      "status": "candidate",
+      "text": "java"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14420,
+      "status": "candidate",
+      "text": "metarule"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Fix Flaky E2E Tests",
+      "sense_id": "ai-fix-flaky-e2e-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-fix-flaky-e2e-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-fix-flaky-e2e-tests",
+  "observation_id": "7f94697d24ccf6cc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "AI Fix Flaky E2E Tests",
+  "source_context_snippet": "AI Fix Flaky E2E Tests",
+  "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+  "source_repo": "streamlit/streamlit",
+  "source_repo_description": "Streamlit \u2014 A faster way to build and share data apps."
+}

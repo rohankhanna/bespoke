@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ant-research/CoDeF",
+      "target": "z-x-yang/segment-and-track-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ant-research/CoDeF",
+      "target": "princeton-vl/raft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ant-research/CoDeF",
+      "target": "lllyasviel/controlnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ant-research/CoDeF",
+      "target": "camenduru/codef-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ant-research/CoDeF",
+      "target": "editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ant-research/CoDeF",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:16.957058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8976
+    },
+    {
+      "path": "requirements.txt",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'24 Highlight] Official PyTorch implementation of CoDeF: Content Deformation Fields for Temporally Consistent Video Processing",
+    "fork": false,
+    "full_name": "ant-research/CoDeF",
+    "html_url": "https://github.com/ant-research/CoDeF",
+    "language": "Python",
+    "pushed_at": "2024-04-07T03:27:29Z",
+    "stargazers_count": 4860,
+    "topics": [
+      "editing",
+      "video"
+    ],
+    "updated_at": "2026-04-23T16:25:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/codef-colab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lllyasviel/controlnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-vl/raft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "z-x-yang/segment-and-track-anything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src='docs/teaser.gif'></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editing"
+    },
+    {
+      "context_snippet": "<img src='docs/teaser.gif'></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

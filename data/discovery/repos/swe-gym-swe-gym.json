@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-Gym/SWE-Gym",
+      "target": "swe-gym/swe-bench-fork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-Gym/SWE-Gym",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:53:21.802909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for Paper: Training Software Engineering Agents and Verifiers with SWE-Gym [ICML 2025]",
+    "fork": false,
+    "full_name": "SWE-Gym/SWE-Gym",
+    "html_url": "https://github.com/SWE-Gym/SWE-Gym",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-07-29T17:38:25Z",
+    "stargazers_count": 671,
+    "topics": [],
+    "updated_at": "2026-04-21T15:01:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-hands-ai/openhands",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-gym/swe-bench-fork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

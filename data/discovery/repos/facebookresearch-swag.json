@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:18:20.507402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for \"Revisiting Weakly Supervised Pre-Training of Visual Perception Models\". https://arxiv.org/abs/2201.08371.",
+    "fork": false,
+    "full_name": "facebookresearch/SWAG",
+    "html_url": "https://github.com/facebookresearch/SWAG",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-04-17T07:43:52Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2025-10-30T11:19:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
     }
   ],
   "term": "Build and Publish"

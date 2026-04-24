@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "ash258/scoop-jetbrains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "h404bi/dorado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "hermanjustnu/scoop-emulators",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "ash258/scoop-sysinternals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:48.164258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of awesome Scoop resources and more.",
+    "fork": false,
+    "full_name": "ScoopInstaller/Awesome",
+    "html_url": "https://github.com/ScoopInstaller/Awesome",
+    "language": null,
+    "pushed_at": "2025-01-14T16:07:55Z",
+    "stargazers_count": 244,
+    "topics": [
+      "awesome",
+      "installer",
+      "package-manager",
+      "scoop",
+      "windows"
+    ],
+    "updated_at": "2026-04-13T23:47:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ash258/scoop-jetbrains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ash258/scoop-sysinternals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h404bi/dorado",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermanjustnu/scoop-emulators",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

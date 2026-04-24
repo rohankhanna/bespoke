@@ -307,6 +307,102 @@
       "source_repo": "ASK-03/Reverse-Chain",
       "status": "candidate-context",
       "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for the paper \"MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "Generative AI Examples is a collection of GenAI examples such as ChatQnA, Copilot, which illustrate the pipeline capabilities of the Open Platform for Enterprise AI (OPEA) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "GenAIExamples are designed to give developers an easy entry into generative AI, featuring microservice-based samples that simplify the processes of deploying, testing, and scaling GenAI applications. All examples are fully compatible with both Docker and Kubernetes, supporting a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "Structured Outputs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin-bottom: 1em;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate-context",
+      "text": "MoH: Multi-Head Attention as Mixture-of-Head Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate-context",
+      "text": "This repository is maintained to release dataset and models for multimodal puzzle reasoning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate-context",
+      "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/red-instruct",
+      "status": "candidate-context",
+      "text": "Codes and datasets of the paper Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/red-instruct",
+      "status": "candidate-context",
+      "text": "[**Paper**](https://arxiv.org/abs/2308.09662) | [**Github**](https://github.com/declare-lab/red-instruct) | [**Dataset**](https://huggingface.co/datasets/declare-lab/HarmfulQA) | [**Model**](https://huggingface.co/declare-lab/starling-7B)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/resta",
+      "status": "candidate-context",
+      "text": "Restore safety in fine-tuned language models through task arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/resta",
+      "status": "candidate-context",
+      "text": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +555,54 @@
       "source_repo": "ASK-03/Reverse-Chain",
       "status": "candidate",
       "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate",
+      "text": "GenAIExamples are designed to give developers an easy entry into generative AI, featuring microservice-based samples that simplify the processes of deploying, testing, and scaling GenAI applications. All examples are fully compatible with both Docker and Kubernetes, supporting a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 1em;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate",
+      "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/red-instruct",
+      "status": "candidate",
+      "text": "[**Paper**](https://arxiv.org/abs/2308.09662) | [**Github**](https://github.com/declare-lab/red-instruct) | [**Dataset**](https://huggingface.co/datasets/declare-lab/HarmfulQA) | [**Model**](https://huggingface.co/declare-lab/starling-7B)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/resta",
+      "status": "candidate",
+      "text": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for **RE**storing **S**afety through **T**ask **A**rithmetic. At it\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +814,77 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ASK-03/Reverse-Chain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dottxt-ai/outlines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoE-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoH"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/red-instruct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/resta"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

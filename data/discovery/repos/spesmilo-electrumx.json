@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spesmilo/electrumx",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spesmilo/electrumx",
+      "target": "electrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spesmilo/electrumx",
+      "target": "electrum-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:26.420131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1404
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Alternative implementation of spesmilo/electrum-server",
+    "fork": false,
+    "full_name": "spesmilo/electrumx",
+    "html_url": "https://github.com/spesmilo/electrumx",
+    "language": "Python",
+    "pushed_at": "2026-03-30T14:52:56Z",
+    "stargazers_count": 555,
+    "topics": [
+      "bitcoin",
+      "electrum",
+      "electrum-server",
+      "python"
+    ],
+    "updated_at": "2026-04-16T14:28:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum-server"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "quickly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cruft/cruft",
+      "status": "candidate-context",
+      "text": "Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of, and fully compatible with, CookieCutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruft/cruft",
+      "status": "candidate-context",
+      "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruft/cruft",
+      "status": "candidate",
+      "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021696,
+      "status": "candidate",
+      "text": "chop-chop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021687,
+      "status": "candidate",
+      "text": "speedily"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021679,
+      "status": "candidate",
+      "text": "apace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021636,
+      "status": "candidate",
+      "text": "rapidly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009041,
+      "status": "candidate",
+      "text": "cursorily"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30027,
+      "status": "candidate",
+      "text": "promptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25020,
+      "status": "candidate",
+      "text": "cursorily"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20029,
+      "status": "candidate",
+      "text": "apace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9026,
+      "status": "candidate",
+      "text": "rapidly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7051,
+      "status": "candidate",
+      "text": "quick"
+    }
+  ],
+  "canonical_name": "quickly",
+  "concept_id": "quickly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "cruft/cruft"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quickly",
+      "sense_id": "quickly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

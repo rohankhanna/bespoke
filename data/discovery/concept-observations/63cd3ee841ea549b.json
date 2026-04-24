@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Uniform API to read/write tree data models - cross-format, cross-library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish to the Maven Central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish to the Maven Central"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23305,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23036,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "numb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "worf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22788,
+      "status": "candidate",
+      "text": "ring"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to the Maven Central",
+      "sense_id": "publish-to-the-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-to-the-maven-central",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-to-the-maven-central",
+  "observation_id": "63cd3ee841ea549b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Publish to the Maven Central",
+  "source_context_snippet": "Publish to the Maven Central",
+  "source_file": ".github/workflows/maven-central-publish.yml",
+  "source_repo": "filip26/tree-io",
+  "source_repo_description": "Uniform API to read/write tree data models - cross-format, cross-library."
+}

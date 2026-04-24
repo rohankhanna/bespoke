@@ -19,6 +19,18 @@
       "source_repo": "BoundaryML/baml",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "Structured Outputs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin-bottom: 1em;\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BoundaryML/baml",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 1em;\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "BoundaryML/baml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dottxt-ai/outlines"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

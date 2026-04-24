@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "open-source agentic AI data assistant for the next generation of AI + Data products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996134,
+      "status": "candidate",
+      "text": "vicugna vicugna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996132,
+      "status": "candidate",
+      "text": "vicu\u00f1a"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996131,
+      "status": "candidate",
+      "text": "vicugna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996130,
+      "status": "candidate",
+      "text": "alpaca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996129,
+      "status": "candidate",
+      "text": "guanaco"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vicuna",
+      "sense_id": "vicuna#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "vicugna vicugna"
+    }
+  ],
+  "concept_id": "vicuna",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vicuna",
+  "observation_id": "dc063e9d94bfc8e4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "vicuna",
+  "source_context_snippet": "<p align=\"left\">",
+  "source_file": null,
+  "source_repo": "eosphoros-ai/DB-GPT",
+  "source_repo_description": "open-source agentic AI data assistant for the next generation of AI + Data products."
+}

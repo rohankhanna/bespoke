@@ -1,0 +1,12 @@
+{
+  "component": "gruntwork-io/terragrunt-action@53dbdc2c3d43e82bf3bae10b734a968196442bec",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml",
+      "source_repo": "transparency-dev/tessera"
+    }
+  ]
+}

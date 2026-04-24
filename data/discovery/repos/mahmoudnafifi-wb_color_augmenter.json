@@ -1,0 +1,266 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "mahmoudnafifi/wb_color_augmenter_python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "mahmoudnafifi/wb_srgb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "color-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "color-constancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "color-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "deep-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "iccv19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "image-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "target": "whitebalance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:20.303247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WB color augmenter improves the accuracy of image classification and image semantic segmentation methods by emulating different WB effects  (ICCV 2019) [Python & Matlab].",
+    "fork": false,
+    "full_name": "mahmoudnafifi/WB_color_augmenter",
+    "html_url": "https://github.com/mahmoudnafifi/WB_color_augmenter",
+    "language": "MATLAB",
+    "pushed_at": "2024-09-20T12:19:07Z",
+    "stargazers_count": 176,
+    "topics": [
+      "cnn",
+      "color-augmentation",
+      "color-constancy",
+      "color-correction",
+      "computer-vision",
+      "data-augmentation",
+      "deep-learning",
+      "deep-neural-network",
+      "deeplearning",
+      "iccv19",
+      "iccv2019",
+      "image-augmentation",
+      "image-classification",
+      "semantic-segmentation",
+      "white-balance",
+      "whitebalance"
+    ],
+    "updated_at": "2026-04-22T14:28:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/wb_color_augmenter_python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/wb_srgb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-augmentation"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-constancy"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-correction"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-augmentation"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-network"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv19"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-augmentation"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "white-balance"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whitebalance"
+    }
+  ]
+}

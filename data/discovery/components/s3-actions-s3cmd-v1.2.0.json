@@ -1,0 +1,37 @@
+{
+  "component": "s3-actions/s3cmd@v1.2.0",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_credential_check.yml",
+      "source_repo": "redis-stack/redis-stack"
+    }
+  ]
+}

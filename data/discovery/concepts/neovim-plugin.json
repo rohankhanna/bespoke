@@ -619,6 +619,42 @@
       "source_repo": "notomo/vusted",
       "status": "candidate-context",
       "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuvyklack/animation.nvim",
+      "status": "candidate-context",
+      "text": "Create animations in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/animation.nvim",
+      "status": "candidate-context",
+      "text": "An OOP library to create animations in Neovim (as far as terminal application"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindrets/diffview.nvim",
+      "status": "candidate-context",
+      "text": "Single tabpage interface for easily cycling through diffs for all modified files for any git rev."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindrets/diffview.nvim",
+      "status": "candidate-context",
+      "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "MIRROR of: https://codeberg.org/mfussenegger/nvim-jdtls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
     }
   ],
   "candidate_glosses": [
@@ -927,6 +963,24 @@
       "source_repo": "notomo/vusted",
       "status": "candidate",
       "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/animation.nvim",
+      "status": "candidate",
+      "text": "An OOP library to create animations in Neovim (as far as terminal application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindrets/diffview.nvim",
+      "status": "candidate",
+      "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
     }
   ],
   "candidate_related_terms": [],
@@ -1276,11 +1330,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "notomo/vusted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anuvyklack/animation.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sindrets/diffview.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-jdtls"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

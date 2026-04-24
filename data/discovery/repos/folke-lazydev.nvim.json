@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "folke/github/.github/workflows/ci.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/labeler.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/pr.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/stale.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/update.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "luals/lls-addons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "folke/github/.github/workflows/ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "folke/github/.github/workflows/labeler.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "folke/github/.github/workflows/pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "folke/github/.github/workflows/stale.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "Stale Issues & PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "folke/github/.github/workflows/update.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/lazydev.nvim",
+      "target": "Update Repo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:13.782657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6090
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 222
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 144
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 275
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 236
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Faster LuaLS setup for Neovim",
+    "fork": false,
+    "full_name": "folke/lazydev.nvim",
+    "html_url": "https://github.com/folke/lazydev.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-03-14T14:05:49Z",
+    "stargazers_count": 1499,
+    "topics": [],
+    "updated_at": "2026-04-21T08:25:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luals/lls-addons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"PR Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Title"
+    },
+    {
+      "context_snippet": "Stale Issues & PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Issues & PRs"
+    },
+    {
+      "context_snippet": "Update Repo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Repo"
+    }
+  ]
+}

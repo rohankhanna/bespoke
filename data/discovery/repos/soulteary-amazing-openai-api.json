@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "goreleaser/goreleaser-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "azure-openai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "azure-openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "gemini-pro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "google-gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "gpt4v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "gpt4vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "yi-34b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api",
+      "target": "yi-34b-chat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:34.526900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6434
+    },
+    {
+      "path": "Dockerfile",
+      "size": 619
+    },
+    {
+      "path": "go.mod",
+      "size": 1822
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1068
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert different model APIs into the OpenAI API format out of the box.",
+    "fork": false,
+    "full_name": "soulteary/amazing-openai-api",
+    "html_url": "https://github.com/soulteary/amazing-openai-api",
+    "language": "Go",
+    "pushed_at": "2024-02-21T07:57:56Z",
+    "stargazers_count": 160,
+    "topics": [
+      "azure-openai",
+      "azure-openai-api",
+      "gemini-pro",
+      "google-gemini",
+      "gpt4v",
+      "gpt4vision",
+      "openai",
+      "openai-api",
+      "yi-34b",
+      "yi-34b-chat"
+    ],
+    "updated_at": "2025-09-19T08:28:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-openai"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-openai-api"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-pro"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-gemini"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt4v"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt4vision"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yi-34b"
+    },
+    {
+      "context_snippet": "![](.github/assets/aoa.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yi-34b-chat"
+    }
+  ]
+}

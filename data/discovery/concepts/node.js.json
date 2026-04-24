@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Node.js"
+    "Node.js",
+    "node.js"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "nodejs/readable-stream",
       "status": "candidate-context",
       "text": "Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dherault/serverless-offline",
+      "status": "candidate-context",
+      "text": "Emulate AWS \u03bb and API Gateway locally when developing your Serverless project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dherault/serverless-offline",
+      "status": "candidate-context",
+      "text": "node.js"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "nodejs/readable-stream",
       "status": "candidate",
       "text": "Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dherault/serverless-offline",
+      "status": "candidate",
+      "text": "node.js"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +167,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/node.yml",
       "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "dherault/serverless-offline"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

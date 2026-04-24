@@ -346,6 +346,102 @@
       "source_repo": "uNetworking/uWebSockets",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate-context",
+      "text": "Pascal bindings to the C API for BGFX, \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate-context",
+      "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anmonteiro/lumo",
+      "status": "candidate-context",
+      "text": "Fast, cross-platform, standalone ClojureScript environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anmonteiro/lumo",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo/full.png\" alt=\"lumo logo\" title=\"lumo\" align=\"right\" width=\"150\" height=\"150\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notify-rs/notify",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2d Cross-platform filesystem notification library for Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notify-rs/notify",
+      "status": "candidate-context",
+      "text": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "Make it easy to use the C++ std::filesystem API across platforms, even those where std::filesystem would otherwise be (conditionally) unavailable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate-context",
+      "text": "A cross-platform `addr2line` clone written in Rust, using `gimli`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate-context",
+      "text": "Cross-Platform OpenGL Doom Source Port with powerful modding features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate-context",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate-context",
+      "text": "Miniscule cross-platform eventing, networking & crypto for async applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate-context",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +612,54 @@
       "source_repo": "uNetworking/uWebSockets",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate",
+      "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anmonteiro/lumo",
+      "status": "candidate",
+      "text": "<img src=\"./logo/full.png\" alt=\"lumo logo\" title=\"lumo\" align=\"right\" width=\"150\" height=\"150\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notify-rs/notify",
+      "status": "candidate",
+      "text": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -810,11 +954,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "uNetworking/uWebSockets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anmonteiro/lumo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "notify-rs/notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uNetworking/uSockets"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

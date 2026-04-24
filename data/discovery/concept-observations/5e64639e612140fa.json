@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Rust"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "aeciospore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "eats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "oxidize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10454,
+      "status": "candidate",
+      "text": "aggravate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Rust",
+      "sense_id": "publish-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-rust",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-rust",
+  "observation_id": "5e64639e612140fa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Publish Rust",
+  "source_context_snippet": "Publish Rust",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "marin-community/kitoken",
+  "source_repo_description": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+}

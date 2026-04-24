@@ -295,6 +295,42 @@
       "source_repo": "bosun-monitor/bosun",
       "status": "candidate-context",
       "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sysstat/sysstat",
+      "status": "candidate-context",
+      "text": "Performance monitoring tools for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sysstat/sysstat",
+      "status": "candidate-context",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4040/badge.svg)](https://scan.coverity.com/projects/sysstat-sysstat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottchiefbaker/dool",
+      "status": "candidate-context",
+      "text": "Linux CLI tool providing real-time system resource monitoring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottchiefbaker/dool",
+      "status": "candidate-context",
+      "text": "Dool is a command line tool to monitor many aspects of your Linux system: CPU,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adinhodovic/argo-cd-mixin",
+      "status": "candidate-context",
+      "text": "Monitoring mixin for ArgoCD. A set of Grafana dashboards and Prometheus rules for ArgoCD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adinhodovic/argo-cd-mixin",
+      "status": "candidate-context",
+      "text": "A set of Grafana dashboards and Prometheus alerts for ArgoCD."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "bosun-monitor/bosun",
       "status": "candidate",
       "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sysstat/sysstat",
+      "status": "candidate",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4040/badge.svg)](https://scan.coverity.com/projects/sysstat-sysstat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottchiefbaker/dool",
+      "status": "candidate",
+      "text": "Dool is a command line tool to monitor many aspects of your Linux system: CPU,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adinhodovic/argo-cd-mixin",
+      "status": "candidate",
+      "text": "A set of Grafana dashboards and Prometheus alerts for ArgoCD."
     }
   ],
   "candidate_related_terms": [
@@ -640,11 +694,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "bosun-monitor/bosun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sysstat/sysstat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "scottchiefbaker/dool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "adinhodovic/argo-cd-mixin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

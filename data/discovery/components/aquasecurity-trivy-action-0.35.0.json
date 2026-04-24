@@ -1,7 +1,7 @@
 {
   "component": "aquasecurity/trivy-action@0.35.0",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trivy-scan.yml",
       "source_repo": "gin-gonic/gin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml",
+      "source_repo": "gin-gonic/examples"
     }
   ]
 }

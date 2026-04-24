@@ -1,0 +1,388 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml"
+    },
+    {
+      "component": "gautamkrishnar/blog-post-workflow@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twitter-workflow.yml"
+    },
+    {
+      "component": "gautamkrishnar/blog-post-workflow@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twitter-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml"
+    },
+    {
+      "component": "jamesgeorge007/github-activity-readme@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/youtube-workflow.yml"
+    },
+    {
+      "component": "gautamkrishnar/blog-post-workflow@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/youtube-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "atlanhq/application-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "dexters-hub/vue-study-jam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "gautamkrishnar/blog-post-workflow@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Latest blog post workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "gautamkrishnar/blog-post-workflow@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Latest Twitter Tweets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "jamesgeorge007/github-activity-readme@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Update README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "gautamkrishnar/blog-post-workflow@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "Latest YouTube Videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "alwinjohn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "awesome-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "badges-markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "dexters-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "shields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "target": "youtube",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:53:28.775484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8064
+    },
+    {
+      "path": ".github/workflows/blog-post-workflow.yml",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/twitter-workflow.yml",
+      "size": 542
+    },
+    {
+      "path": ".github/workflows/update-readme.yml",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/youtube-workflow.yml",
+      "size": 872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f",
+    "fork": false,
+    "full_name": "Dexters-Hub/Dexters-Hub",
+    "html_url": "https://github.com/Dexters-Hub/Dexters-Hub",
+    "language": null,
+    "pushed_at": "2026-04-19T19:41:43Z",
+    "stargazers_count": 16,
+    "topics": [
+      "alwinjohn",
+      "awesome-readme",
+      "badges-markdown",
+      "dexters-hub",
+      "github",
+      "github-profile",
+      "languages",
+      "profile",
+      "profile-readme",
+      "readme",
+      "shields",
+      "youtube"
+    ],
+    "updated_at": "2026-04-19T19:41:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atlanhq/application-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dexters-hub/vue-study-jam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Latest blog post workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "term": "Latest blog post workflow"
+    },
+    {
+      "context_snippet": "Latest Twitter Tweets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "term": "Latest Twitter Tweets"
+    },
+    {
+      "context_snippet": "Update README",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme.yml",
+      "term": "Update README"
+    },
+    {
+      "context_snippet": "Latest YouTube Videos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/youtube-workflow.yml",
+      "term": "Latest YouTube Videos"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alwinjohn"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-readme"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges-markdown"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dexters-hub"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-profile"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languages"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shields"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtube"
+    }
+  ]
+}

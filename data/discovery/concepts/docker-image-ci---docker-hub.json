@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Image CI - Docker Hub"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Build AI Agents, Visually"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Docker Image CI - Docker Hub"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate",
+      "text": "Docker Image CI - Docker Hub"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21368,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21344,
+      "status": "candidate",
+      "text": "pier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21344,
+      "status": "candidate",
+      "text": "screw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21344,
+      "status": "candidate",
+      "text": "screwed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15315,
+      "status": "candidate",
+      "text": "ark"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Image CI - Docker Hub",
+  "concept_id": "docker-image-ci---docker-hub",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker-image-dockerhub.yml",
+      "source_repo": "FlowiseAI/Flowise"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Image CI - Docker Hub",
+      "sense_id": "docker-image-ci---docker-hub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

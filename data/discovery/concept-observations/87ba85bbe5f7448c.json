@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Actor framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951135,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939661,
+      "status": "candidate",
+      "text": "worker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899536,
+      "status": "candidate",
+      "text": "histrion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899052,
+      "status": "candidate",
+      "text": "thespian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39884309,
+      "status": "candidate",
+      "text": "role player"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "actor",
+      "sense_id": "actor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13035,
+      "status": "candidate",
+      "text": "thespian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8031,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6041,
+      "status": "candidate",
+      "text": "player"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5038,
+      "status": "candidate",
+      "text": "worker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "histrion"
+    }
+  ],
+  "concept_id": "actor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "actor",
+  "observation_id": "87ba85bbe5f7448c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "actor",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "actix/actix",
+  "source_repo_description": "Actor framework for Rust."
+}

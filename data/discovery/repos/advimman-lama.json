@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "advimman/lama",
-      "target": "geekyutao/inpaint-anything",
+      "target": "mallman/coremlama",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "advimman/lama",
-      "target": "enesmsahin/simple-lama-inpainting",
+      "target": "moldoteck/magiceraser",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "advimman/lama",
-      "target": "andy971022/auto-lama",
+      "target": "qwopqwop200/lama-with-maskdino",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "advimman/lama",
-      "target": "csailvision/semantic-segmentation-pytorch",
+      "target": "po-hsun-su/pytorch-ssim",
       "target_type": "repository"
     },
     {
@@ -142,7 +142,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:40:25.541147+00:00",
+  "fetched_at": "2026-04-24T09:16:43.343056+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -163,7 +163,7 @@
     "html_url": "https://github.com/advimman/lama",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-02-05T08:41:52Z",
-    "stargazers_count": 9888,
+    "stargazers_count": 9892,
     "topics": [
       "cnn",
       "colab",
@@ -184,27 +184,27 @@
       "inpainting-methods",
       "pytorch"
     ],
-    "updated_at": "2026-04-23T14:45:13Z"
+    "updated_at": "2026-04-24T09:10:11Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "andy971022/auto-lama",
+      "full_name": "mallman/coremlama",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "csailvision/semantic-segmentation-pytorch",
+      "full_name": "moldoteck/magiceraser",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "enesmsahin/simple-lama-inpainting",
+      "full_name": "po-hsun-su/pytorch-ssim",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "geekyutao/inpaint-anything",
+      "full_name": "qwopqwop200/lama-with-maskdino",
       "source_file": "README.md"
     }
   ],

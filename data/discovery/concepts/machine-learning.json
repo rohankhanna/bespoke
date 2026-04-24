@@ -1405,6 +1405,306 @@
       "source_repo": "pytorch/vision",
       "status": "candidate-context",
       "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate-context",
+      "text": "PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate-context",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/stable-baselines3/badges/master/pipeline.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "Streamlit \u2014 A faster way to build and share data apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "INT4/INT5/INT8 and FP16 inference on CPU for RWKV language model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for the paper \"MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "Running large language models on a single GPU for throughput-oriented scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "Open standard for machine learning interoperability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "This repository consists for gpu bootcamp material for HPC and AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/machine-control",
+      "status": "candidate-context",
+      "text": "Automatically detect when a worker is absent using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/machine-control",
+      "status": "candidate-context",
+      "text": "Machine control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice \uff08\u300e\u98de\u6868\u300f\u6838\u5fc3\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60&\u673a\u5668\u5b66\u4e60\u9ad8\u6027\u80fd\u5355\u673a\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u548c\u8de8\u5e73\u53f0\u90e8\u7f72\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "Cross-platform, customizable ML solutions for live and streaming media."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate-context",
+      "text": "Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate-context",
+      "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infinitered/nsfwjs",
+      "status": "candidate-context",
+      "text": "NSFW detection on the client-side via TensorFlow.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infinitered/nsfwjs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "horovod/horovod",
+      "status": "candidate-context",
+      "text": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "horovod/horovod",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/byteps",
+      "status": "candidate-context",
+      "text": "A high performance and generic framework for distributed DNN training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/byteps",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/bytedance/byteps.svg?branch=master)](https://travis-ci.org/bytedance/byteps)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "Useful extra functionality for TensorFlow 2.x maintained by SIG-addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Deploy models in ONNX format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "======="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Julia docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab MAX/Mojo docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Python docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "A scalable inference server for models optimized with OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate-context",
+      "text": "AMD-SHARK Studio -- Web UI for SHARK+IREE High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate-context",
+      "text": "High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/dgl-ke",
+      "status": "candidate-context",
+      "text": "High performance, easy-to-use, and scalable package for learning large-scale knowledge graph embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/dgl-ke",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uber/petastorm",
+      "status": "candidate-context",
+      "text": "Petastorm library enables single machine or distributed training and evaluation of deep learning models from datasets in Apache Parquet format. It supports ML frameworks such as Tensorflow, Pytorch, and PySpark and can be used from pure Python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber/petastorm",
+      "status": "candidate-context",
+      "text": "Petastorm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/Otter",
+      "status": "candidate-context",
+      "text": "\ud83e\udda6 Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following and in-context learning ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/Otter",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -2103,6 +2403,156 @@
       "source_repo": "pytorch/vision",
       "status": "candidate",
       "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate",
+      "text": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/stable-baselines3/badges/master/pipeline.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/machine-control",
+      "status": "candidate",
+      "text": "Machine control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate",
+      "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infinitered/nsfwjs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "horovod/horovod",
+      "status": "candidate",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/byteps",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bytedance/byteps.svg?branch=master)](https://travis-ci.org/bytedance/byteps)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate",
+      "text": "======="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-python-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate",
+      "text": "High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/dgl-ke",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber/petastorm",
+      "status": "candidate",
+      "text": "Petastorm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/Otter",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2980,11 +3430,233 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "DLR-RM/stable-baselines3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "infinitered/nsfwjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "horovod/horovod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/byteps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "audeering/audonnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-julia-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-mojo-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-python-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/model_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/dgl-ke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uber/petastorm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

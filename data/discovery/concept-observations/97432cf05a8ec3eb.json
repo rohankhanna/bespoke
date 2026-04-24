@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The container native, cloud agnostic serverless platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a id=\"top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26729500,
+      "status": "candidate",
+      "text": "bia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26724007,
+      "status": "candidate",
+      "text": "aif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26710175,
+      "status": "candidate",
+      "text": "asf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26690469,
+      "status": "candidate",
+      "text": "aviation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26633834,
+      "status": "candidate",
+      "text": "law"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "faas",
+      "sense_id": "faas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "faas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "faas",
+  "observation_id": "97432cf05a8ec3eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "faas",
+  "source_context_snippet": "<a id=\"top\"></a>",
+  "source_file": null,
+  "source_repo": "fnproject/fn",
+  "source_repo_description": "The container native, cloud agnostic serverless platform."
+}

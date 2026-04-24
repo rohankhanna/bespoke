@@ -151,6 +151,18 @@
       "source_repo": "joseluisq/paket",
       "status": "candidate-context",
       "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "joseluisq/paket",
       "status": "candidate",
       "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

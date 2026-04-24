@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046324,
+      "status": "candidate",
+      "text": "capital of israel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046323,
+      "status": "candidate",
+      "text": "al-quds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046165,
+      "status": "candidate",
+      "text": "hebron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045869,
+      "status": "candidate",
+      "text": "israel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045732,
+      "status": "candidate",
+      "text": "jericho"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jerusalem",
+      "sense_id": "jerusalem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "capital of israel"
+    }
+  ],
+  "concept_id": "jerusalem",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jerusalem",
+  "observation_id": "c24d0cd07082e703",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "jerusalem",
+  "source_context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+  "source_file": null,
+  "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+  "source_repo_description": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor."
+}

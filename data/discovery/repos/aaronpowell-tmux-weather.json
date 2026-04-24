@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:05:40.698729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Display weather information in tmux status bar",
+    "fork": false,
+    "full_name": "aaronpowell/tmux-weather",
+    "html_url": "https://github.com/aaronpowell/tmux-weather",
+    "language": "Shell",
+    "pushed_at": "2024-09-16T01:22:17Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-03-02T06:43:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

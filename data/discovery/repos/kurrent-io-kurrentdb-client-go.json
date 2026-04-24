@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "Build Production Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "Cherry pick PR commits for label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-version.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "Get Go version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "Load KurrentDB Runtime Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "client-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "event-sourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "eventsourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "eventstore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "kurrentdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "target": "stream-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:31.652209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4541
+    },
+    {
+      "path": "go.mod",
+      "size": 709
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 253
+    },
+    {
+      "path": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/go-version.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1742
+    },
+    {
+      "path": ".github/workflows/load-configuration.yml",
+      "size": 1984
+    },
+    {
+      "path": ".github/workflows/qa.yml",
+      "size": 870
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "KurrentDB Go Client",
+    "fork": false,
+    "full_name": "kurrent-io/KurrentDB-Client-Go",
+    "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Go",
+    "language": "Go",
+    "pushed_at": "2026-03-24T12:31:31Z",
+    "stargazers_count": 10,
+    "topics": [
+      "client-libraries",
+      "event-sourcing",
+      "eventsourcing",
+      "eventstore",
+      "go",
+      "grpc",
+      "kurrentdb",
+      "stream-processing"
+    ],
+    "updated_at": "2026-03-24T12:21:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Production Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Production Site"
+    },
+    {
+      "context_snippet": "Cherry pick PR commits for label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "term": "Cherry pick PR commits for label"
+    },
+    {
+      "context_snippet": "Get Go version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-version.yml",
+      "term": "Get Go version"
+    },
+    {
+      "context_snippet": "Load KurrentDB Runtime Configuration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "term": "Load KurrentDB Runtime Configuration"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client-libraries"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-sourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventsourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventstore"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurrentdb"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-processing"
+    }
+  ]
+}

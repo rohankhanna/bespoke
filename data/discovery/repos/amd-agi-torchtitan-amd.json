@@ -1,0 +1,287 @@
+{
+  "components": [
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_whl_and_publish.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_whl_and_publish.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/calculate-docker-image@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_flux.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_h100.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_simple_fsdp.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_torchft.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/torchtune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/torchft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_whl_and_publish.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_whl_and_publish.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/actions/setup-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/actions/calculate-docker-image@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "docker-builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_flux.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_flux.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "Flux 8 GPU Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_h100.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_simple_fsdp.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_simple_fsdp.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "SimpleFSDP 8 GPU Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_torchft.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_torchft.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "target": "TorchFT 8 GPU Integration Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:01.594851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11087
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1281
+    },
+    {
+      "path": "requirements.txt",
+      "size": 150
+    },
+    {
+      "path": ".github/workflows/build_whl_and_publish.yaml",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/docker-builds.yml",
+      "size": 1772
+    },
+    {
+      "path": ".github/workflows/integration_test_8gpu.yaml",
+      "size": 1739
+    },
+    {
+      "path": ".github/workflows/integration_test_8gpu_flux.yaml",
+      "size": 1777
+    },
+    {
+      "path": ".github/workflows/integration_test_8gpu_h100.yaml",
+      "size": 1877
+    },
+    {
+      "path": ".github/workflows/integration_test_8gpu_simple_fsdp.yaml",
+      "size": 1677
+    },
+    {
+      "path": ".github/workflows/integration_test_8gpu_torchft.yaml",
+      "size": 2116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev/primus_turbo",
+    "description": "A PyTorch native platform for training generative AI models",
+    "fork": true,
+    "full_name": "AMD-AGI/torchtitan-amd",
+    "html_url": "https://github.com/AMD-AGI/torchtitan-amd",
+    "language": "Python",
+    "pushed_at": "2026-04-21T09:32:25Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-23T07:15:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/torchft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/torchtune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docker-builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "term": "docker-builds"
+    },
+    {
+      "context_snippet": "Flux 8 GPU Integration Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_flux.yaml",
+      "term": "Flux 8 GPU Integration Test"
+    },
+    {
+      "context_snippet": "SimpleFSDP 8 GPU Integration Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_simple_fsdp.yaml",
+      "term": "SimpleFSDP 8 GPU Integration Test"
+    },
+    {
+      "context_snippet": "TorchFT 8 GPU Integration Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_torchft.yaml",
+      "term": "TorchFT 8 GPU Integration Test"
+    }
+  ]
+}

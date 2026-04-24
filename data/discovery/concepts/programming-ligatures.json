@@ -43,6 +43,18 @@
       "source_repo": "JetBrains/JetBrainsMono",
       "status": "candidate-context",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "Versatile typeface for code, from code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JetBrains/JetBrainsMono",
       "status": "candidate",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JetBrains/JetBrainsMono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

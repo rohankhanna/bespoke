@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awslabs/dgl-ke",
+      "target": "awslabs/graphstorm.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/dgl-ke",
+      "target": "graph-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/dgl-ke",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/dgl-ke",
+      "target": "knowledge-graphs-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/dgl-ke",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:16.168405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High performance, easy-to-use, and scalable package for learning large-scale knowledge graph embeddings.",
+    "fork": false,
+    "full_name": "awslabs/dgl-ke",
+    "html_url": "https://github.com/awslabs/dgl-ke",
+    "language": "Python",
+    "pushed_at": "2025-08-08T05:19:02Z",
+    "stargazers_count": 1327,
+    "topics": [
+      "dgl",
+      "graph-learning",
+      "knowledge-graph",
+      "knowledge-graphs-embeddings",
+      "machine-learning"
+    ],
+    "updated_at": "2026-04-16T01:11:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/graphstorm.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-learning"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graphs-embeddings"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

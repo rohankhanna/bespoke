@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cleanlab/nblint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "anishathalye/proof-html@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cleanlab/examples",
+      "target": "cgnorthcutt/confidentlearning-reproduce",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/examples",
+      "target": "cleanlab/nblint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "cleanlab/examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "cleanlab/examples",
+      "target": "anishathalye/proof-html@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "cleanlab/examples",
+      "target": "Link Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/examples",
+      "target": "data-centric-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/examples",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/examples",
+      "target": "notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/examples",
+      "target": "robust-machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:15.671412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26039
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 1667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Notebooks demonstrating example applications of the cleanlab\u00a0library",
+    "fork": false,
+    "full_name": "cleanlab/examples",
+    "html_url": "https://github.com/cleanlab/examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-20T02:53:48Z",
+    "stargazers_count": 133,
+    "topics": [
+      "data-centric-ai",
+      "data-science",
+      "notebook",
+      "robust-machine-learning"
+    ],
+    "updated_at": "2026-04-02T01:59:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgnorthcutt/confidentlearning-reproduce",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Link Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "term": "Link Checker"
+    },
+    {
+      "context_snippet": "This repo contains code examples of how to use [cleanlab](https://github.com/cleanlab/cleanlab) with specific real-world models/datasets, how its underlying algorithms work, how to get better results via advanced functionality, and how to train certain models used in some cleanl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-centric-ai"
+    },
+    {
+      "context_snippet": "This repo contains code examples of how to use [cleanlab](https://github.com/cleanlab/cleanlab) with specific real-world models/datasets, how its underlying algorithms work, how to get better results via advanced functionality, and how to train certain models used in some cleanl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "This repo contains code examples of how to use [cleanlab](https://github.com/cleanlab/cleanlab) with specific real-world models/datasets, how its underlying algorithms work, how to get better results via advanced functionality, and how to train certain models used in some cleanl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook"
+    },
+    {
+      "context_snippet": "This repo contains code examples of how to use [cleanlab](https://github.com/cleanlab/cleanlab) with specific real-world models/datasets, how its underlying algorithms work, how to get better results via advanced functionality, and how to train certain models used in some cleanl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robust-machine-learning"
+    }
+  ]
+}

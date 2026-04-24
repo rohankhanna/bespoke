@@ -658,6 +658,138 @@
       "source_repo": "celery/celery",
       "status": "candidate-context",
       "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asteroid-team/asteroid",
+      "status": "candidate-context",
+      "text": "The PyTorch-based audio source separation toolkit for researchers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asteroid-team/asteroid",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Deploy models in ONNX format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "Binary version of the SwiftLint Swift Package Manager plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lint-staged/lint-staged",
+      "status": "candidate-context",
+      "text": "\ud83d\udeab\ud83d\udca9 \u2014 Run tasks like formatters and linters against staged git files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lint-staged/lint-staged",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/lint-staged.svg)](https://badge.fury.io/js/lint-staged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PatMyron/cfn-lint-online",
+      "status": "candidate-context",
+      "text": "CloudFormation Linter Online"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PatMyron/cfn-lint-online",
+      "status": "candidate-context",
+      "text": "[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/patmyron/cfn-lint-online)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CppCXY/EmmyLuaCodeStyle",
+      "status": "candidate-context",
+      "text": "fast, powerful, and feature-rich Lua formatting and checking tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CppCXY/EmmyLuaCodeStyle",
+      "status": "candidate-context",
+      "text": "[English doc](README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "A Python utility / library to sort imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "Messaging library for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "Linter"
     }
   ],
   "candidate_glosses": [
@@ -982,6 +1114,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asteroid-team/asteroid",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "A tool to enforce Swift style and conventions, loosely based on the now"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate",
+      "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lint-staged/lint-staged",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/lint-staged.svg)](https://badge.fury.io/js/lint-staged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PatMyron/cfn-lint-online",
+      "status": "candidate",
+      "text": "[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/patmyron/cfn-lint-online)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CppCXY/EmmyLuaCodeStyle",
+      "status": "candidate",
+      "text": "[English doc](README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
       "status": "candidate",
       "text": "Linter"
     }
@@ -1495,11 +1693,113 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_formatting.yml",
+      "source_repo": "asteroid-team/asteroid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "audeering/audonnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SimplyDanny/SwiftLintPlugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PatMyron/cfn-lint-online"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CppCXY/EmmyLuaCodeStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-www"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "celery/kombu"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

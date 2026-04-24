@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v4",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -382,6 +382,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/makefile.yml",
       "source_repo": "chubin/wttr.in"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/dht"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cshum/vipsgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/latestdepth1.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/latestdepth2.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/latestdepth3.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/latestdepth4.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/muzzle.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "dherault/serverless-offline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/aws-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "soulteary/amazing-openai-api"
     }
   ]
 }

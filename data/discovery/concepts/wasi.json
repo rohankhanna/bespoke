@@ -43,6 +43,30 @@
       "source_repo": "WebAssembly/WASI",
       "status": "candidate-context",
       "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/wasi-libc",
+      "status": "candidate-context",
+      "text": "WASI libc implementation for WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/wasi-libc",
+      "status": "candidate-context",
+      "text": "`wasi-libc` is a libc for WebAssembly programs built on top of WASI system"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/wasi-proposal-template",
+      "status": "candidate-context",
+      "text": "Starter template for proposing a new WASI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/wasi-proposal-template",
+      "status": "candidate-context",
+      "text": "This template can be used to start a new proposal, which can then be proposed in the WASI Subgroup meetings."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "WebAssembly/WASI",
       "status": "candidate",
       "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/wasi-libc",
+      "status": "candidate",
+      "text": "`wasi-libc` is a libc for WebAssembly programs built on top of WASI system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/wasi-proposal-template",
+      "status": "candidate",
+      "text": "This template can be used to start a new proposal, which can then be proposed in the WASI Subgroup meetings."
     }
   ],
   "candidate_related_terms": [
@@ -117,11 +153,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/WASI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/wasi-libc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/wasi-proposal-template"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

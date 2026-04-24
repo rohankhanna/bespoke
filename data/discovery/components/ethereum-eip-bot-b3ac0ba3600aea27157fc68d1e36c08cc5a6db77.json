@@ -1,12 +1,17 @@
 {
   "component": "ethereum/EIP-Bot@b3ac0ba3600aea27157fc68d1e36c08cc5a6db77",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-stagnate-bot.yml",
       "source_repo": "ethereum/EIPs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-stagnate-bot.yml",
+      "source_repo": "ethereum/ERCs"
     }
   ]
 }

@@ -43,6 +43,42 @@
       "source_repo": "PlexPt/chatgpt-corpus",
       "status": "candidate-context",
       "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "GraphGen: Enhancing Supervised Fine-Tuning for LLMs with Knowledge-Driven Synthetic Data Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for the paper \"MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "PlexPt/chatgpt-corpus",
       "status": "candidate",
       "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PlexPt/chatgpt-corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MMMU-Benchmark/MMMU"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

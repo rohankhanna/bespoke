@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MNBVC(Massive Never-ending BT Vast Chinese corpus)\u8d85\u5927\u89c4\u6a21\u4e2d\u6587\u8bed\u6599\u96c6\u3002\u5bf9\u6807chatGPT\u8bad\u7ec3\u768440T\u6570\u636e\u3002MNBVC\u6570\u636e\u96c6\u4e0d\u4f46\u5305\u62ec\u4e3b\u6d41\u6587\u5316\uff0c\u4e5f\u5305\u62ec\u5404\u4e2a\u5c0f\u4f17\u6587\u5316\u751a\u81f3\u706b\u661f\u6587\u7684\u6570\u636e\u3002MNBVC\u6570\u636e\u96c6\u5305\u62ec\u65b0\u95fb\u3001\u4f5c\u6587\u3001\u5c0f\u8bf4\u3001\u4e66\u7c4d\u3001\u6742\u5fd7\u3001\u8bba\u6587\u3001\u53f0\u8bcd\u3001\u5e16\u5b50\u3001wiki\u3001\u53e4\u8bd7\u3001\u6b4c\u8bcd\u3001\u5546\u54c1\u4ecb\u7ecd\u3001\u7b11\u8bdd\u3001\u7cd7\u4e8b\u3001\u804a\u5929\u8bb0\u5f55\u7b49\u4e00\u5207\u5f62\u5f0f\u7684\u7eaf\u6587\u672c\u4e2d\u6587\u6570\u636e\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u4e2d\u6587\u4e92\u8054\u7f51\u4e0a\u6700\u53e4\u8001\u6700\u795e\u79d8(\u6ca1\u6709\u4e4b\u4e00)\u7684[MOP\u91cc\u5c4b\u793e\u533a](http://mnbvc.253874.net/)\u4e8e2023.1.1\u5e84\u91cd\u5ba3\u5e03:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u4e2d\u6587\u4e92\u8054\u7f51\u4e0a\u6700\u53e4\u8001\u6700\u795e\u79d8(\u6ca1\u6709\u4e4b\u4e00)\u7684[MOP\u91cc\u5c4b\u793e\u533a](http://mnbvc.253874.net/)\u4e8e2023.1.1\u5e84\u91cd\u5ba3\u5e03:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-simplified",
+      "sense_id": "chinese-simplified#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-simplified",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-simplified",
+  "observation_id": "a42fa67588567135",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "chinese-simplified",
+  "source_context_snippet": "\u4e2d\u6587\u4e92\u8054\u7f51\u4e0a\u6700\u53e4\u8001\u6700\u795e\u79d8(\u6ca1\u6709\u4e4b\u4e00)\u7684[MOP\u91cc\u5c4b\u793e\u533a](http://mnbvc.253874.net/)\u4e8e2023.1.1\u5e84\u91cd\u5ba3\u5e03:",
+  "source_file": null,
+  "source_repo": "esbatmop/MNBVC",
+  "source_repo_description": "MNBVC(Massive Never-ending BT Vast Chinese corpus)\u8d85\u5927\u89c4\u6a21\u4e2d\u6587\u8bed\u6599\u96c6\u3002\u5bf9\u6807chatGPT\u8bad\u7ec3\u768440T\u6570\u636e\u3002MNBVC\u6570\u636e\u96c6\u4e0d\u4f46\u5305\u62ec\u4e3b\u6d41\u6587\u5316\uff0c\u4e5f\u5305\u62ec\u5404\u4e2a\u5c0f\u4f17\u6587\u5316\u751a\u81f3\u706b\u661f\u6587\u7684\u6570\u636e\u3002MNBVC\u6570\u636e\u96c6\u5305\u62ec\u65b0\u95fb\u3001\u4f5c\u6587\u3001\u5c0f\u8bf4\u3001\u4e66\u7c4d\u3001\u6742\u5fd7\u3001\u8bba\u6587\u3001\u53f0\u8bcd\u3001\u5e16\u5b50\u3001wiki\u3001\u53e4\u8bd7\u3001\u6b4c\u8bcd\u3001\u5546\u54c1\u4ecb\u7ecd\u3001\u7b11\u8bdd\u3001\u7cd7\u4e8b\u3001\u804a\u5929\u8bb0\u5f55\u7b49\u4e00\u5207\u5f62\u5f0f\u7684\u7eaf\u6587\u672c\u4e2d\u6587\u6570\u636e\u3002"
+}

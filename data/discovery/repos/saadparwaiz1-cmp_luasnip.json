@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "target": "luasnip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:47:31.168410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "luasnip completion source for nvim-cmp",
+    "fork": false,
+    "full_name": "saadparwaiz1/cmp_luasnip",
+    "html_url": "https://github.com/saadparwaiz1/cmp_luasnip",
+    "language": "Lua",
+    "pushed_at": "2024-11-04T07:58:30Z",
+    "stargazers_count": 777,
+    "topics": [
+      "lua",
+      "luasnip",
+      "neovim",
+      "nvim-cmp"
+    ],
+    "updated_at": "2026-04-08T22:22:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luasnip"
+    },
+    {
+      "context_snippet": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    }
+  ]
+}

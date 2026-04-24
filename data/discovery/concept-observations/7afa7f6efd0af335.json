@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Meta-programming for Swift, stop writing boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-generation",
+      "sense_id": "code-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-generation",
+  "observation_id": "7afa7f6efd0af335",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "code-generation",
+  "source_context_snippet": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)",
+  "source_file": null,
+  "source_repo": "krzysztofzablocki/Sourcery",
+  "source_repo_description": "Meta-programming for Swift, stop writing boilerplate code."
+}

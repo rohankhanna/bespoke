@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/devel-freezer@67aec4a153bd9fca5322e1c4dd4d7c419fb36362",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/differential-shellcheck@91e2582e40236f831458392d905578d680baa138",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gather-pr-metadata.yml"
+    },
+    {
+      "component": "actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gather-pr-metadata.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "Build test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "github/codeql-action/upload-sarif@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "github/codeql-action/init@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "github/codeql-action/autobuild@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "github/codeql-action/analyze@407ffafae6a767df3e0230c3df91b6443ae8df75",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "Coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "redhat-plumbers-in-action/devel-freezer@67aec4a153bd9fca5322e1c4dd4d7c419fb36362",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/development_freeze.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "Development Freeze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "redhat-plumbers-in-action/differential-shellcheck@91e2582e40236f831458392d905578d680baa138",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "Differential ShellCheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gather-pr-metadata.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gather-pr-metadata.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gather-pr-metadata.yml",
+      "source_repo": "systemd/systemd-stable",
+      "target": "Gather Pull Request Metadata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:03:51.683694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3668
+    },
+    {
+      "path": ".github/workflows/build_test.sh",
+      "size": 5368
+    },
+    {
+      "path": ".github/workflows/build_test.yml",
+      "size": 1203
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 1043
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 2459
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1373
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 881
+    },
+    {
+      "path": ".github/workflows/development_freeze.yml",
+      "size": 2437
+    },
+    {
+      "path": ".github/workflows/differential-shellcheck.yml",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/gather-pr-metadata.yml",
+      "size": 971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v255-stable",
+    "description": "Backports of patches from systemd git for stable versions < 256",
+    "fork": false,
+    "full_name": "systemd/systemd-stable",
+    "html_url": "https://github.com/systemd/systemd-stable",
+    "language": "C",
+    "pushed_at": "2025-06-26T14:57:07Z",
+    "stargazers_count": 148,
+    "topics": [],
+    "updated_at": "2026-04-16T05:29:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "term": "Build test"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity"
+    },
+    {
+      "context_snippet": "Development Freeze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/development_freeze.yml",
+      "term": "Development Freeze"
+    },
+    {
+      "context_snippet": "Differential ShellCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "term": "Differential ShellCheck"
+    },
+    {
+      "context_snippet": "Gather Pull Request Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gather-pr-metadata.yml",
+      "term": "Gather Pull Request Metadata"
+    }
+  ]
+}

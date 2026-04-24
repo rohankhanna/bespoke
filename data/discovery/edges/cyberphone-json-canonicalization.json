@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "erdtman/java-json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "dryruby/json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "aywan/php-json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "cyberphone/jws-jcs",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "cyberphone/json-canonicalization"
+}

@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot schema validation.yml"
+    },
+    {
+      "component": "marocchino/validate-dependabot@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot schema validation.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-do-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "mikepenz/action-junit-report@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot schema validation.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot schema validation.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "marocchino/validate-dependabot@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot schema validation.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "dependabot schema validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "on-push-do-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "approval-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "approval-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "podcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "snapshot-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "approvals/ApprovalTests.Net",
+      "target": "verification-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:01.977259+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/dependabot schema validation.yml",
+      "size": 224
+    },
+    {
+      "path": ".github/workflows/on-push-do-docs.yml",
+      "size": 717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ApprovalTest verification library for .Net",
+    "fork": false,
+    "full_name": "approvals/ApprovalTests.Net",
+    "html_url": "https://github.com/approvals/ApprovalTests.Net",
+    "language": "C#",
+    "pushed_at": "2025-10-07T08:56:45Z",
+    "stargazers_count": 585,
+    "topics": [
+      "approval-test",
+      "approval-testing",
+      "podcast",
+      "snapshot-testing",
+      "verification-library"
+    ],
+    "updated_at": "2026-04-01T15:28:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "dependabot schema validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot schema validation.yml",
+      "term": "dependabot schema validation"
+    },
+    {
+      "context_snippet": "on-push-do-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "term": "on-push-do-docs"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approval-test"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approval-testing"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podcast"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot-testing"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification-library"
+    }
+  ]
+}

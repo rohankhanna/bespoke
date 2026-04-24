@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Azure Login Action Negative Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/login",
+      "status": "candidate-context",
+      "text": "Connect to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/login",
+      "status": "candidate-context",
+      "text": "Azure Login Action Negative Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/login",
+      "status": "candidate",
+      "text": "Azure Login Action Negative Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46336,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44366,
+      "status": "candidate",
+      "text": "scoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44015,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44009,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43763,
+      "status": "candidate",
+      "text": "rip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Azure Login Action Negative Test",
+  "concept_id": "azure-login-action-negative-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/azure-login-negative.yml",
+      "source_repo": "Azure/login"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Azure Login Action Negative Test",
+      "sense_id": "azure-login-action-negative-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,12 +1,17 @@
 {
   "component": "peaceiris/actions-hugo@v2",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "Azure/aad-pod-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "yannh/kubeconform"
     }
   ]
 }

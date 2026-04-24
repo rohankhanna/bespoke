@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:00:16.751443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AdGuard Code Guidelines",
+    "fork": false,
+    "full_name": "AdguardTeam/CodeGuidelines",
+    "html_url": "https://github.com/AdguardTeam/CodeGuidelines",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-03T15:15:20Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-03T15:15:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

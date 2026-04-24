@@ -1,0 +1,295 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_run.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_run.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fonttools/fontbakery",
+      "target": "fonttools/fontspector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fonttools/fontbakery",
+      "target": "googlefonts/unified-font-repository",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "googlefonts/gflanguages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "\ud83d\ude80 Build & Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_run.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_run.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_run.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "\u2699\ufe0f Install & Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_test.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_test.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_test.yml",
+      "source_repo": "fonttools/fontbakery",
+      "target": "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery",
+      "target": "quality-assurance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:10.087002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4559
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7875
+    },
+    {
+      "path": ".github/workflows/build_publish.yml",
+      "size": 1874
+    },
+    {
+      "path": ".github/workflows/install_run.yml",
+      "size": 5196
+    },
+    {
+      "path": ".github/workflows/lint_test.yml",
+      "size": 2397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\uddc1 A font quality assurance tool for everyone ",
+    "fork": false,
+    "full_name": "fonttools/fontbakery",
+    "html_url": "https://github.com/fonttools/fontbakery",
+    "language": "Python",
+    "pushed_at": "2025-11-04T18:52:25Z",
+    "stargazers_count": 675,
+    "topics": [
+      "command-line-tool",
+      "font",
+      "quality-assurance"
+    ],
+    "updated_at": "2026-04-24T06:45:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fonttools/fontspector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/unified-font-repository",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/gflanguages",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\ude80 Build & Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish.yml",
+      "term": "\ud83d\ude80 Build & Publish"
+    },
+    {
+      "context_snippet": "\u2699\ufe0f Install & Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_run.yml",
+      "term": "\u2699\ufe0f Install & Run"
+    },
+    {
+      "context_snippet": "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_test.yml",
+      "term": "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test"
+    },
+    {
+      "context_snippet": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality-assurance"
+    }
+  ]
+}

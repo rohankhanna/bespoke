@@ -67,6 +67,30 @@
       "source_repo": "pyOpenSci/software-submission",
       "status": "candidate-context",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate-context",
+      "text": "AWS Distro for OpenTelemetry Collector (see ADOT Roadmap at https://github.com/orgs/aws-observability/projects/4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate-context",
+      "text": "[![C/I](https://github.com/aws-observability/aws-otel-collector/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/aws-observability/aws-otel-collector/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "A collection of small sample games made with raylib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "pyOpenSci/software-submission",
       "status": "candidate",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate",
+      "text": "[![C/I](https://github.com/aws-observability/aws-otel-collector/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/aws-observability/aws-otel-collector/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +280,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

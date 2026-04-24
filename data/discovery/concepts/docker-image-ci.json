@@ -43,6 +43,18 @@
       "source_repo": "NVIDIA/TensorRT",
       "status": "candidate-context",
       "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "kaldi-asr/kaldi is the official location of the Kaldi project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "Docker Image CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
       "status": "candidate",
       "text": "Docker Image CI"
     }
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "NVIDIA/TensorRT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "kaldi-asr/kaldi"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -355,6 +355,54 @@
       "source_repo": "facebookarchive/caffe2",
       "status": "candidate-context",
       "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "Open standard for machine learning interoperability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d The API and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Build AI Agents, Visually"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "AI Code Completions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
     }
   ],
   "candidate_glosses": [
@@ -531,6 +579,30 @@
       "source_repo": "facebookarchive/caffe2",
       "status": "candidate",
       "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +874,77 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Kong/kong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FlowiseAI/Flowise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

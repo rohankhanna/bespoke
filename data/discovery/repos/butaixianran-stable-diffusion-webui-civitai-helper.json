@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+      "target": "zixaphir/stable-diffusion-webui-civitai-helper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+      "target": "blue-pen5805/stable-diffusion-webui-civitai-helper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:50.430230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stable Diffusion Webui Extension for Civitai, to manage your model much more easily.",
+    "fork": false,
+    "full_name": "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+    "html_url": "https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+    "language": "Python",
+    "pushed_at": "2026-04-16T21:02:48Z",
+    "stargazers_count": 2523,
+    "topics": [],
+    "updated_at": "2026-04-22T09:31:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blue-pen5805/stable-diffusion-webui-civitai-helper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zixaphir/stable-diffusion-webui-civitai-helper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "metrics",
   "observation_id": "fe142d6ea6b17f25",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "metrics",
   "source_context_snippet": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026",
   "source_file": null,

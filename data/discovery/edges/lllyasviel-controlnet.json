@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/ControlNet",
+      "target": "camenduru/controlnet-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/ControlNet",
+      "target": "haofanwang/controlnet-for-diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/ControlNet",
+      "target": "damo-vilab/composer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/ControlNet",
+      "target": "haha-lisa/rdm-region-aware-diffusion-model",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "lllyasviel/ControlNet"
+}

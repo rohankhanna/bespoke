@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vimscript-functions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "status": "candidate-context",
+      "text": "Library of Vim functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "status": "candidate-context",
+      "text": "\ufeff# lh-vim-lib [![Last release][Releases-badge]][Releases-url] [![Build Status][gh-action-badge]][gh-action-result] [![Project Stats][openhub-badge]][openhub-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucHermitte/lh-vim-lib",
+      "status": "candidate",
+      "text": "\ufeff# lh-vim-lib [![Last release][Releases-badge]][Releases-url] [![Build Status][gh-action-badge]][gh-action-result] [![Project Stats][openhub-badge]][openhub-url]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vimscript-functions",
+  "concept_id": "vimscript-functions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LucHermitte/lh-vim-lib"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vimscript-functions",
+      "sense_id": "vimscript-functions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

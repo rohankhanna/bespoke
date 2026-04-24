@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-toolchains.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-toolchains.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "Build toolchains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:57.617275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6384
+    },
+    {
+      "path": ".github/workflows/build-toolchains.yml",
+      "size": 4994
+    },
+    {
+      "path": ".github/workflows/continuous-integration-workflow.yml",
+      "size": 5240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A versatile (cross-)toolchain generator.",
+    "fork": false,
+    "full_name": "crosstool-ng/crosstool-ng",
+    "html_url": "https://github.com/crosstool-ng/crosstool-ng",
+    "language": "Shell",
+    "pushed_at": "2026-04-14T00:29:11Z",
+    "stargazers_count": 2452,
+    "topics": [],
+    "updated_at": "2026-04-24T06:25:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build toolchains",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-toolchains.yml",
+      "term": "Build toolchains"
+    }
+  ]
+}

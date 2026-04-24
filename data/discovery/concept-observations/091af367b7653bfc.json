@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044628,
+      "status": "candidate",
+      "text": "executive program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044628,
+      "status": "candidate",
+      "text": "supervisory program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044627,
+      "status": "candidate",
+      "text": "manager"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044230,
+      "status": "candidate",
+      "text": "superintendent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044217,
+      "status": "candidate",
+      "text": "comptrollership"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supervisor",
+      "sense_id": "supervisor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "executive program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "supervisory program"
+    }
+  ],
+  "concept_id": "supervisor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "supervisor",
+  "observation_id": "091af367b7653bfc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "supervisor",
+  "source_context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+  "source_file": null,
+  "source_repo": "FedericoPonzi/Horust",
+  "source_repo_description": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+}

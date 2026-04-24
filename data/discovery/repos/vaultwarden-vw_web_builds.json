@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaultwarden/vw_web_builds",
+      "target": "vaultwarden",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaultwarden/vw_web_builds",
+      "target": "web-vault",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:54.406694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "readme",
+    "description": "A Fork of the Bitwarden client repo to build only the web-vault for Vaultwarden ",
+    "fork": true,
+    "full_name": "vaultwarden/vw_web_builds",
+    "html_url": "https://github.com/vaultwarden/vw_web_builds",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-22T10:58:03Z",
+    "stargazers_count": 20,
+    "topics": [
+      "vaultwarden",
+      "web-vault"
+    ],
+    "updated_at": "2026-04-12T17:15:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vaultwarden"
+    },
+    {
+      "context_snippet": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-vault"
+    }
+  ]
+}

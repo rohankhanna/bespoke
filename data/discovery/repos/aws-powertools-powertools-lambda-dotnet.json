@@ -196,20 +196,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aws-powertools/powertools-lambda-dotnet",
-      "target": "aws-powertools/powertools-lambda-java",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws-powertools/powertools-lambda-dotnet",
-      "target": "aws-powertools/powertools-lambda-typescript",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws-powertools/powertools-lambda-dotnet",
       "target": "getndazn/dazn-lambda-powertools",
       "target_type": "repository"
     },
@@ -445,7 +431,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T02:00:34.753298+00:00",
+  "fetched_at": "2026-04-24T07:59:02.777997+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -512,16 +498,6 @@
     "updated_at": "2026-04-11T08:36:42Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aws-powertools/powertools-lambda-java",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aws-powertools/powertools-lambda-typescript",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "getndazn/dazn-lambda-powertools",

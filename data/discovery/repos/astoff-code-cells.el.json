@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:02:20.169280+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs utilities for code split into cells, including Jupyter notebooks",
+    "fork": false,
+    "full_name": "astoff/code-cells.el",
+    "html_url": "https://github.com/astoff/code-cells.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-06-08T14:39:15Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-04-22T00:12:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

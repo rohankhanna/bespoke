@@ -48,7 +48,7 @@
   "normalized_form": "large-language-models",
   "observation_id": "f0c9824b0baf8851",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "large-language-models",
   "source_context_snippet": "This codebase provides the implementation of the Ring Attention with Blockwise Transformers. The model is described in the paper [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/pdf/2310.01889.pdf) and [Blockwise Parallel Transformer for L\u2026",
   "source_file": null,

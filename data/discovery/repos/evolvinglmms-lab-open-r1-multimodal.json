@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EvolvingLMMs-Lab/open-r1-multimodal",
+      "target": "huggingface/open-r1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:52:14.296233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fork to add multimodal model training to open-r1",
+    "fork": false,
+    "full_name": "EvolvingLMMs-Lab/open-r1-multimodal",
+    "html_url": "https://github.com/EvolvingLMMs-Lab/open-r1-multimodal",
+    "language": "Python",
+    "pushed_at": "2025-02-08T06:59:45Z",
+    "stargazers_count": 1528,
+    "topics": [],
+    "updated_at": "2026-04-16T18:24:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/open-r1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

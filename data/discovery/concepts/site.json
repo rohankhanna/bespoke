@@ -19,12 +19,30 @@
       "source_repo": "oshi/oshi",
       "status": "candidate-context",
       "text": "Site"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Enable drop-in Windows Single Sign On for popular Java web servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Site"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "oshi/oshi",
+      "status": "candidate",
+      "text": "Site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
       "status": "candidate",
       "text": "Site"
     }
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/site.yaml",
       "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "Waffle/waffle"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

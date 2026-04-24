@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -832,6 +832,266 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "enesmsahin/simple-lama-inpainting"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "Azure/aaz-dev-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "Azure/aaz-dev-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aesara-devs/aesara"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "predibase/lorax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/router_tests.yaml",
+      "source_repo": "predibase/lorax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dask-contrib/dask-sql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/labels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml",
+      "source_repo": "AdaCore/vss-text"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/vss-text"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/webtorrent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "kan-bayashi/ParallelWaveGAN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "dottxt-ai/outlines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Rust-GPU/VulkanShaderExamples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "walles/loadviz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "stencilproject/Stencil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CD.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/PR-build.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "michalmuskala/jason"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-pack/nvim-spectre"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apple_m.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arm64_graviton.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c910v.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed-bench.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64_clang.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gnatdoc.yml",
+      "source_repo": "AdaCore/vss-extra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/vss-extra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precompile.yaml",
+      "source_repo": "akash-akya/vix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cshum/vipsgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "mozilla/grcov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mozilla/grcov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lita-xyz/Plonky3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml",
+      "source_repo": "yetanotherco/aligned_layer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "newrelic/opensource-website"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "newrelic/opensource-website"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/APPIMAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ARM_BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/DOCKER_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/REDISINSIGHT_WEB_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/SNAP_REUSABLE.yml",
+      "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "finegrain-ai/refiners"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "uploadcare/pillow-simd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd"
     }
   ]
 }

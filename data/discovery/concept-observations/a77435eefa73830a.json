@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ApprovalTest verification library for .Net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dependabot schema validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dependabot schema validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10562,
+      "status": "candidate",
+      "text": "scenario"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10484,
+      "status": "candidate",
+      "text": "assimilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "acculturation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "adminicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "afterthought"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dependabot schema validation",
+      "sense_id": "dependabot-schema-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependabot-schema-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependabot-schema-validation",
+  "observation_id": "a77435eefa73830a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "dependabot schema validation",
+  "source_context_snippet": "dependabot schema validation",
+  "source_file": ".github/workflows/dependabot schema validation.yml",
+  "source_repo": "approvals/ApprovalTests.Net",
+  "source_repo_description": "ApprovalTest verification library for .Net"
+}

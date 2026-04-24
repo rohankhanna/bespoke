@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Glk",
+      "target": "davidkinder/windows-glulxe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Glk",
+      "target": "davidkinder/libraries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Glk",
+      "target": "libjpeg-turbo/libjpeg-turbo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:16.420823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Windows implementation of Andrew Plotkin's Glk specification.",
+    "fork": false,
+    "full_name": "DavidKinder/Windows-Glk",
+    "html_url": "https://github.com/DavidKinder/Windows-Glk",
+    "language": "C++",
+    "pushed_at": "2026-02-11T17:37:03Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-02-11T17:37:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/libraries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/windows-glulxe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libjpeg-turbo/libjpeg-turbo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

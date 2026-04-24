@@ -5,20 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clj-kondo/configs",
-      "target": "clojure-lsp/clojure-lsp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clj-kondo/configs",
-      "target": "tonsky/rum",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clj-kondo/configs",
       "target": "clj-kondo/clj-kondo.configs",
       "target_type": "repository"
     },
@@ -37,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:42:04.520621+00:00",
+  "fetched_at": "2026-04-24T08:08:48.803489+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,16 +51,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "clj-kondo/clj-kondo.configs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clojure-lsp/clojure-lsp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tonsky/rum",
       "source_file": "README.md"
     }
   ],

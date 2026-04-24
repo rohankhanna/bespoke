@@ -1,0 +1,27 @@
+{
+  "component": "actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-manual-build-test-sign.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-publish-docs.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    }
+  ]
+}

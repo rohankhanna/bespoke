@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattmc3/zephyr",
+      "target": "zsh-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattmc3/zephyr",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattmc3/zephyr",
+      "target": "zsh-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:24.590811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":wind_face: A Zsh framework as nice as a cool summer breeze",
+    "fork": false,
+    "full_name": "mattmc3/zephyr",
+    "html_url": "https://github.com/mattmc3/zephyr",
+    "language": "Shell",
+    "pushed_at": "2026-04-09T23:25:36Z",
+    "stargazers_count": 229,
+    "topics": [
+      "zsh",
+      "zsh-framework",
+      "zsh-plugin",
+      "zsh-plugins"
+    ],
+    "updated_at": "2026-04-21T19:09:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> A Zsh framework as nice as a cool summer breeze",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-framework"
+    },
+    {
+      "context_snippet": "> A Zsh framework as nice as a cool summer breeze",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin"
+    },
+    {
+      "context_snippet": "> A Zsh framework as nice as a cool summer breeze",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugins"
+    }
+  ]
+}

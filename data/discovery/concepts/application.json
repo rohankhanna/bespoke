@@ -55,6 +55,18 @@
       "source_repo": "hapijs/hapi",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate-context",
+      "text": "Tools to support converting a Python project into a standalone native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://beeware.org/project/briefcase/briefcase.png\" width=\"72\" alt=\"logo\" />](https://beeware.org/briefcase)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "hapijs/hapi",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate",
+      "text": "[<img src=\"https://beeware.org/project/briefcase/briefcase.png\" width=\"72\" alt=\"logo\" />](https://beeware.org/briefcase)"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beeware/briefcase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

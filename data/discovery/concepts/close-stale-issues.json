@@ -770,6 +770,198 @@
       "source_repo": "Heap-Hop/if-watch",
       "status": "candidate-context",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alibaba-NLP/qqr",
+      "status": "candidate-context",
+      "text": "qqr is an RL training framework for open-ended agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-NLP/qqr",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-examples/example-fork-go-template",
+      "status": "candidate-context",
+      "text": "This is a template to create a repo to be fork and go based on an example of js-ipfs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/example-fork-go-template",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to automate setting DNSLink record "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate-context",
+      "text": "Standalone, vendor-agnostic Pinning Service API for IPFS ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate-context",
+      "text": "Migrations for the filesystem repository of ipfs clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Browser extension that simplifies access to IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "React components for https://explore.ipld.io and ipfs-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate-context",
+      "text": "IPFS utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate-context",
+      "text": "Composable and future-proof network addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "The zero configuration build tool for the web. \ud83d\udce6\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkohut/pensieve",
+      "status": "candidate-context",
+      "text": "A passive recording project allows you to have complete control over your data. Automatically take screenshots of all your screens, index them, and save them locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkohut/pensieve",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/if-watch",
+      "status": "candidate-context",
+      "text": "Cross platform asynchronous network watcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/if-watch",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-go",
+      "status": "candidate-context",
+      "text": "This SDK has reached end-of-support. The AWS SDK for Go v2 is available here: https://github.com/aws/aws-sdk-go-v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "Application lifecycle orchestration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "'Close Stale Issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "The friendly PIL fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "Close stale issues"
     }
   ],
   "candidate_glosses": [
@@ -1156,6 +1348,102 @@
       "source_repo": "Heap-Hop/if-watch",
       "status": "candidate",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-NLP/qqr",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/example-fork-go-template",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkohut/pensieve",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/if-watch",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate",
+      "text": "'Close Stale Issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate",
+      "text": "Close stale issues"
     }
   ],
   "candidate_related_terms": [
@@ -1625,11 +1913,131 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "inclusionAI/AReaL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Alibaba-NLP/qqr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-examples/example-fork-go-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipshipyard/dnslink-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/pinning-services-api-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/fs-repo-migrations"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipld-explorer-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/js-ipfs-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/go-multiaddr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "parcel-bundler/parcel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/close_tale_issue.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "arkohut/pensieve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/if-watch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "source_repo": "aws/aws-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "uploadcare/pillow-simd"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

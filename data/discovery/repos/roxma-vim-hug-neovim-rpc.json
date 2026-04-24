@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "target": "neovim/python-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "target": "roxma/nvim-completion-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "target": "python-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "target": "rpc-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "target": "vim8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:49.324093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "EXPERIMENTAL",
+    "fork": false,
+    "full_name": "roxma/vim-hug-neovim-rpc",
+    "html_url": "https://github.com/roxma/vim-hug-neovim-rpc",
+    "language": "Python",
+    "pushed_at": "2021-05-15T01:50:28Z",
+    "stargazers_count": 218,
+    "topics": [
+      "neovim",
+      "python-client",
+      "rpc-library",
+      "vim8"
+    ],
+    "updated_at": "2026-01-12T03:43:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/python-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roxma/nvim-completion-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an **experimental project**, trying to build a compatibility layer for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This is an **experimental project**, trying to build a compatibility layer for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-client"
+    },
+    {
+      "context_snippet": "This is an **experimental project**, trying to build a compatibility layer for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-library"
+    },
+    {
+      "context_snippet": "This is an **experimental project**, trying to build a compatibility layer for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim8"
+    }
+  ]
+}

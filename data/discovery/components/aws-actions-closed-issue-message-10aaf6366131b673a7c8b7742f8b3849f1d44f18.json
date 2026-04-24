@@ -1,7 +1,7 @@
 {
   "component": "aws-actions/closed-issue-message@10aaf6366131b673a7c8b7742f8b3849f1d44f18",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/closed-issue-message.yml",
       "source_repo": "boto/botocore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-update.yml",
+      "source_repo": "aws/aws-cli"
     }
   ]
 }

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protocol mapping social identifiers to blockchain addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*For Dev Setup see [CONTRIBUTING.MD](.github/CONTRIBUTING.md)*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*For Dev Setup see [CONTRIBUTING.MD](.github/CONTRIBUTING.md)*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002432,
+      "status": "candidate",
+      "text": "affidavit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928892,
+      "status": "candidate",
+      "text": "deposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003944,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003473,
+      "status": "candidate",
+      "text": "verification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003112,
+      "status": "candidate",
+      "text": "declaration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "attestation",
+      "sense_id": "attestation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3062,
+      "status": "candidate",
+      "text": "affidavit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "deposition"
+    }
+  ],
+  "concept_id": "attestation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "attestation",
+  "observation_id": "5a1d3ea236518305",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "attestation",
+  "source_context_snippet": "*For Dev Setup see [CONTRIBUTING.MD](.github/CONTRIBUTING.md)*",
+  "source_file": null,
+  "source_repo": "celo-org/social-connect",
+  "source_repo_description": "Protocol mapping social identifiers to blockchain addresses"
+}

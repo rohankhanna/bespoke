@@ -88,34 +88,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "doctest/doctest",
-      "target": "unittest-cpp/unittest-cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "doctest/doctest",
-      "target": "cpputest/cpputest",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "doctest/doctest",
-      "target": "martinmoene/catch-lest-other-comparison",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "doctest/doctest",
-      "target": "martinmoene/lest",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel.yml",
       "source_repo": "doctest/doctest",
@@ -361,7 +333,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:49:10.170456+00:00",
+  "fetched_at": "2026-04-24T08:06:19.716241+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -414,7 +386,7 @@
     "html_url": "https://github.com/doctest/doctest",
     "language": "C++",
     "pushed_at": "2026-04-22T08:31:15Z",
-    "stargazers_count": 6695,
+    "stargazers_count": 6696,
     "topics": [
       "c-plus-plus",
       "cpp",
@@ -431,30 +403,9 @@
       "testing-framework",
       "unit-testing"
     ],
-    "updated_at": "2026-04-23T09:28:26Z"
+    "updated_at": "2026-04-24T01:04:05Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cpputest/cpputest",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "martinmoene/catch-lest-other-comparison",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "martinmoene/lest",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "unittest-cpp/unittest-cpp",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "bazel",

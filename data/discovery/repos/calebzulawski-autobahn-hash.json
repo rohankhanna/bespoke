@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "calebzulawski/autobahn-hash",
+      "target": "hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "calebzulawski/autobahn-hash",
+      "target": "hash-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "calebzulawski/autobahn-hash",
+      "target": "hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "calebzulawski/autobahn-hash",
+      "target": "highwayhash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "calebzulawski/autobahn-hash",
+      "target": "simd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:02.277927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1332
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast, safe, and portable implementation of HighwayHash for Rust",
+    "fork": false,
+    "full_name": "calebzulawski/autobahn-hash",
+    "html_url": "https://github.com/calebzulawski/autobahn-hash",
+    "language": "Rust",
+    "pushed_at": "2023-06-06T00:17:24Z",
+    "stargazers_count": 18,
+    "topics": [
+      "hash",
+      "hash-functions",
+      "hashing",
+      "highwayhash",
+      "simd"
+    ],
+    "updated_at": "2025-07-10T19:20:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AutobahnHash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    },
+    {
+      "context_snippet": "AutobahnHash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-functions"
+    },
+    {
+      "context_snippet": "AutobahnHash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashing"
+    },
+    {
+      "context_snippet": "AutobahnHash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highwayhash"
+    },
+    {
+      "context_snippet": "AutobahnHash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    }
+  ]
+}

@@ -163,6 +163,30 @@
       "source_repo": "jtablesaw/tablesaw",
       "status": "candidate-context",
       "text": "Tablesaw"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KlugerLab/FIt-SNE",
+      "status": "candidate-context",
+      "text": "Fast Fourier Transform-accelerated Interpolation-based  t-SNE (FIt-SNE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlugerLab/FIt-SNE",
+      "status": "candidate-context",
+      "text": "t-Stochastic Neighborhood Embedding ([t-SNE](https://lvdmaaten.github.io/tsne/)) is a highly successful method for dimensionality reduction and visualization of high dimensional datasets. A popular [implementation](https://github.com/lvdmaaten/bhtsne) of t-SNE uses the Barnes-Hu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "A visualization grammar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "<a href=\"https://vega.github.io/vega/examples\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "jtablesaw/tablesaw",
       "status": "candidate",
       "text": "Tablesaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlugerLab/FIt-SNE",
+      "status": "candidate",
+      "text": "t-Stochastic Neighborhood Embedding ([t-SNE](https://lvdmaaten.github.io/tsne/)) is a highly successful method for dimensionality reduction and visualization of high dimensional datasets. A popular [implementation](https://github.com/lvdmaaten/bhtsne) of t-SNE uses the Barnes-Hu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
+      "status": "candidate",
+      "text": "<a href=\"https://vega.github.io/vega/examples\">"
     }
   ],
   "candidate_related_terms": [
@@ -385,11 +421,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jtablesaw/tablesaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "KlugerLab/FIt-SNE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vega/vega"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

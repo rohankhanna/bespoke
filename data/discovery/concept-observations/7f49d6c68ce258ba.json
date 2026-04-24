@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library for serializing the GeoJSON vector GIS file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Documentation](https://docs.rs/geojson/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Documentation](https://docs.rs/geojson/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29688089,
+      "status": "candidate",
+      "text": "spatial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705244,
+      "status": "candidate",
+      "text": "geolocational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705243,
+      "status": "candidate",
+      "text": "geographical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705242,
+      "status": "candidate",
+      "text": "geoscientific"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705241,
+      "status": "candidate",
+      "text": "geographic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geospatial",
+      "sense_id": "geospatial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geospatial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geospatial",
+  "observation_id": "7f49d6c68ce258ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "geospatial",
+  "source_context_snippet": "[Documentation](https://docs.rs/geojson/)",
+  "source_file": null,
+  "source_repo": "georust/geojson",
+  "source_repo_description": "Library for serializing the GeoJSON vector GIS file format"
+}

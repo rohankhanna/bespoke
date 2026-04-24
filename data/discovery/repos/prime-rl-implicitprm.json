@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRIME-RL/ImplicitPRM",
+      "target": "test-time-scaling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:58.472960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo of paper \"Free Process Rewards without Process Labels\"",
+    "fork": false,
+    "full_name": "PRIME-RL/ImplicitPRM",
+    "html_url": "https://github.com/PRIME-RL/ImplicitPRM",
+    "language": "Python",
+    "pushed_at": "2025-03-14T04:14:29Z",
+    "stargazers_count": 172,
+    "topics": [
+      "prm",
+      "rl",
+      "test-time-scaling"
+    ],
+    "updated_at": "2026-04-13T20:11:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-time-scaling"
+    }
+  ]
+}

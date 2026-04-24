@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Add Tactics Template On Comment\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Add Tactics Template On Comment\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28922,
+      "status": "candidate",
+      "text": "amplification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28922,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28613,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28613,
+      "status": "candidate",
+      "text": "multiplied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28613,
+      "status": "candidate",
+      "text": "multiply"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add Tactics Template On Comment",
+      "sense_id": "add-tactics-template-on-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-tactics-template-on-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-tactics-template-on-comment",
+  "observation_id": "73a0799b81b6ee20",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Add Tactics Template On Comment",
+  "source_context_snippet": "\"Add Tactics Template On Comment\"",
+  "source_file": ".github/workflows/add-tactics-template-on-comment.lock.yml",
+  "source_repo": "dotnet/sdk",
+  "source_repo_description": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI"
+}

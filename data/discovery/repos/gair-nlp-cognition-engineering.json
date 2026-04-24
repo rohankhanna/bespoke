@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "aidc-ai/marco-o1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "aqa6666/scp-116k-open",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "evolvinglmms-lab/open-r1-multimodal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "deep-agent/r1-v",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:13.741449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generative AI Act II: Test Time Scaling Drives Cognition Engineering",
+    "fork": false,
+    "full_name": "GAIR-NLP/cognition-engineering",
+    "html_url": "https://github.com/GAIR-NLP/cognition-engineering",
+    "language": "Python",
+    "pushed_at": "2025-04-22T16:30:28Z",
+    "stargazers_count": 212,
+    "topics": [],
+    "updated_at": "2026-04-22T01:45:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidc-ai/marco-o1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aqa6666/scp-116k-open",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-agent/r1-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evolvinglmms-lab/open-r1-multimodal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

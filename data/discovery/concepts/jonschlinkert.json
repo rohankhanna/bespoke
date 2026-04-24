@@ -67,6 +67,66 @@
       "source_repo": "verbose/verb-generate-readme",
       "status": "candidate-context",
       "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate-context",
+      "text": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate-context",
+      "text": "> Returns true if the value is a finite number."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "Recursively merge values in a JavaScript object. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "If you use globs, this will make your code faster. Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience. 55+ million downloads. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate-context",
+      "text": "Deeply assign the enumerable properties of source objects to a destination object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate-context",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +159,36 @@
       "source_repo": "verbose/verb-generate-readme",
       "status": "candidate",
       "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/is-number",
+      "status": "candidate",
+      "text": "> Returns true if the value is a finite number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate",
+      "text": "> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +226,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "verbose/verb-generate-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

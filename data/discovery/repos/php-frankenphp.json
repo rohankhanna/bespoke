@@ -281,28 +281,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "php/frankenphp",
-      "target": "dunglas/frankenphp-demo",
+      "target": "php/pie",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "php/frankenphp",
-      "target": "dunglas/frankenphp-drupal",
+      "target": "stephenmiracle/frankenwp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "php/frankenphp",
-      "target": "alexandreelise/frankenphp-joomla",
+      "target": "ochorocho/franken-typo3",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "php/frankenphp",
-      "target": "ekino/frankenphp-magento2",
+      "target": "docker-library/php",
       "target_type": "repository"
     },
     {
@@ -572,7 +572,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:57:10.058032+00:00",
+  "fetched_at": "2026-04-24T09:08:17.211254+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -624,8 +624,8 @@
     "full_name": "php/frankenphp",
     "html_url": "https://github.com/php/frankenphp",
     "language": "Go",
-    "pushed_at": "2026-04-23T14:48:46Z",
-    "stargazers_count": 11008,
+    "pushed_at": "2026-04-24T06:11:52Z",
+    "stargazers_count": 11011,
     "topics": [
       "caddy",
       "frankenphp",
@@ -634,28 +634,28 @@
       "sapi",
       "worker"
     ],
-    "updated_at": "2026-04-23T14:51:29Z"
+    "updated_at": "2026-04-24T08:55:28Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alexandreelise/frankenphp-joomla",
+      "full_name": "ochorocho/franken-typo3",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dunglas/frankenphp-demo",
+      "full_name": "php/pie",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dunglas/frankenphp-drupal",
+      "full_name": "stephenmiracle/frankenwp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ekino/frankenphp-magento2",
-      "source_file": "README.md"
+      "full_name": "docker-library/php",
+      "source_file": "Dockerfile"
     }
   ],
   "terms": [

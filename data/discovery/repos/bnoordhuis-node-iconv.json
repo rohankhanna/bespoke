@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bnoordhuis/node-iconv",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bnoordhuis/node-iconv",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bnoordhuis/node-iconv",
+      "target": "node-iconv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:05.719904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5590
+    },
+    {
+      "path": "package.json",
+      "size": 503
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "node.js iconv bindings - text recoding for fun and profit!",
+    "fork": false,
+    "full_name": "bnoordhuis/node-iconv",
+    "html_url": "https://github.com/bnoordhuis/node-iconv",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-17T09:38:23Z",
+    "stargazers_count": 799,
+    "topics": [],
+    "updated_at": "2026-04-02T21:40:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "node-iconv",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "node-iconv"
+    }
+  ]
+}

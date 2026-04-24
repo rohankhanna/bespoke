@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eyalz800/zpp_bits",
+      "target": "eyalz800/serializer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eyalz800/zpp_bits",
+      "target": "eyalz800/zpp_throwing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "eyalz800/zpp_bits",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "eyalz800/zpp_bits",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/zpp_bits",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/zpp_bits",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/zpp_bits",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:06.697518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52053
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 5125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight C++20 serialization and RPC library",
+    "fork": false,
+    "full_name": "eyalz800/zpp_bits",
+    "html_url": "https://github.com/eyalz800/zpp_bits",
+    "language": "C++",
+    "pushed_at": "2026-03-27T15:18:20Z",
+    "stargazers_count": 956,
+    "topics": [
+      "cpp",
+      "cpp20",
+      "header-only",
+      "rpc",
+      "serialization"
+    ],
+    "updated_at": "2026-04-24T05:01:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyalz800/serializer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyalz800/zpp_throwing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "actions"
+    },
+    {
+      "context_snippet": "zpp::bits",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "zpp::bits",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "zpp::bits",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

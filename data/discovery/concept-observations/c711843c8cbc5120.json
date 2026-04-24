@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Regenerate Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Regenerate Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15815,
+      "status": "candidate",
+      "text": "renew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15815,
+      "status": "candidate",
+      "text": "renewed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15815,
+      "status": "candidate",
+      "text": "renewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15774,
+      "status": "candidate",
+      "text": "reproduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14169,
+      "status": "candidate",
+      "text": "ameliorate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regenerate Test",
+      "sense_id": "regenerate-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "regenerate-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "regenerate-test",
+  "observation_id": "c711843c8cbc5120",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Regenerate Test",
+  "source_context_snippet": "Regenerate Test",
+  "source_file": ".github/workflows/regenerate-test.yml",
+  "source_repo": "dependabot/smoke-tests",
+  "source_repo_description": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+}

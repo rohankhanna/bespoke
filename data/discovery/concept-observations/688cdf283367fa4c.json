@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flink Connector for Apache Doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16741808,
+      "status": "candidate",
+      "text": "flook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16741807,
+      "status": "candidate",
+      "text": "flinchum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16741806,
+      "status": "candidate",
+      "text": "fling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16741805,
+      "status": "candidate",
+      "text": "flinn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16741804,
+      "status": "candidate",
+      "text": "flicker"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flink",
+      "sense_id": "flink#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flink",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flink",
+  "observation_id": "688cdf283367fa4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "flink",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "apache/doris-flink-connector",
+  "source_repo_description": "Flink Connector for Apache Doris"
+}

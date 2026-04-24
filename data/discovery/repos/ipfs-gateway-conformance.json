@@ -1,0 +1,454 @@
+{
+  "components": [
+    {
+      "component": "gray-matter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sqlite3",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "peaceiris/actions-hugo@16361eb4acea8698b220b76c0d4e84e1fd22c61d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "ipdxco/workflow-run-context@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml"
+    },
+    {
+      "component": "ipdxco/changelog-driven-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@3d60a5b2dae89d44e0c6ddc69dd7536aec2071cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipfs/boxo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "protocol/network-measurements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipfs/rainbow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "gray-matter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "sqlite3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "peaceiris/actions-hugo@16361eb4acea8698b220b76c0d4e84e1fd22c61d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "actions/configure-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "Deploy Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "Go Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipdxco/workflow-run-context@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "Release Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipdxco/changelog-driven-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "marocchino/sticky-pull-request-comment@3d60a5b2dae89d44e0c6ddc69dd7536aec2071cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "Close and mark stale issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipfs-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipfs-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/gateway-conformance",
+      "target": "ipfs-http-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:00:46.261250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7725
+    },
+    {
+      "path": "Dockerfile",
+      "size": 464
+    },
+    {
+      "path": "go.mod",
+      "size": 3621
+    },
+    {
+      "path": "package.json",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "size": 1574
+    },
+    {
+      "path": ".github/workflows/go-check.yml",
+      "size": 378
+    },
+    {
+      "path": ".github/workflows/go-test.yml",
+      "size": 437
+    },
+    {
+      "path": ".github/workflows/release-docker.yml",
+      "size": 2946
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1476
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a vendor-agnostic gateway conformance test suite for implementers of IPFS Gateways to ensure compliance with  https://specs.ipfs.tech/http-gateways/",
+    "fork": false,
+    "full_name": "ipfs/gateway-conformance",
+    "html_url": "https://github.com/ipfs/gateway-conformance",
+    "language": "Go",
+    "pushed_at": "2026-04-08T12:58:43Z",
+    "stargazers_count": 18,
+    "topics": [
+      "ipfs",
+      "ipfs-api",
+      "ipfs-gateway",
+      "ipfs-http-client"
+    ],
+    "updated_at": "2026-04-08T12:58:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/boxo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/rainbow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "protocol/network-measurements",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "term": "Deploy Pages"
+    },
+    {
+      "context_snippet": "Go Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "term": "Go Checks"
+    },
+    {
+      "context_snippet": "Go Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "term": "Go Test"
+    },
+    {
+      "context_snippet": "Release Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-docker.yml",
+      "term": "Release Docker"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Close and mark stale issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close and mark stale issue"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs-api"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs-gateway"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs-http-client"
+    }
+  ]
+}

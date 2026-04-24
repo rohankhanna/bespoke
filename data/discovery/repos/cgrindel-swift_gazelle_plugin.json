@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "cgrindel/gha_join_jobs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "agenthunt/conventional-commit-checker-action@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_msg_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "cgrindel/gha_configure_git_user@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "cgrindel/gha_create_release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@0a23c53c2baffdaf2ce8dd23c2c0e45eb3b79093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_bcr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "bazelbuild/bazel-gazelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "cgrindel/gha_join_jobs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "anthropics/claude-code-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "anthropics/claude-code-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_msg_check.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "agenthunt/conventional-commit-checker-action@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_msg_check.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "Commit Message Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "cgrindel/gha_configure_git_user@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "cgrindel/gha_create_release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@0a23c53c2baffdaf2ce8dd23c2c0e45eb3b79093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:17.020173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4100
+    },
+    {
+      "path": "go.mod",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3292
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 3002
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2135
+    },
+    {
+      "path": ".github/workflows/commit_msg_check.yml",
+      "size": 337
+    },
+    {
+      "path": ".github/workflows/create_release.yml",
+      "size": 1109
+    },
+    {
+      "path": ".github/workflows/publish_to_bcr.yml",
+      "size": 733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gazelle plugin for Swift files.",
+    "fork": false,
+    "full_name": "cgrindel/swift_gazelle_plugin",
+    "html_url": "https://github.com/cgrindel/swift_gazelle_plugin",
+    "language": "Go",
+    "pushed_at": "2026-04-22T21:23:01Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-22T21:23:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-gazelle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Commit Message Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_msg_check.yml",
+      "term": "Commit Message Check"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "term": "Publish to BCR"
+    }
+  ]
+}

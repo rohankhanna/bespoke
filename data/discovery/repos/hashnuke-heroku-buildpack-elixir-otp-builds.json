@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:09:35.293711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Erlang OTP build scripts for the Heroku Elixir Buildpack",
+    "fork": false,
+    "full_name": "HashNuke/heroku-buildpack-elixir-otp-builds",
+    "html_url": "https://github.com/HashNuke/heroku-buildpack-elixir-otp-builds",
+    "language": "Shell",
+    "pushed_at": "2021-07-23T14:41:51Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2021-09-03T21:34:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

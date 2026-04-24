@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harbor-framework/terminal-bench-2",
+      "target": "laude-institute/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harbor-framework/terminal-bench-2",
+      "target": "laude-institute/terminal-bench-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harbor-framework/terminal-bench-2",
+      "target": "laude-institute/terminal-bench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:10.038841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "harbor-framework/terminal-bench-2",
+    "html_url": "https://github.com/harbor-framework/terminal-bench-2",
+    "language": "Shell",
+    "pushed_at": "2026-04-01T22:24:19Z",
+    "stargazers_count": 200,
+    "topics": [],
+    "updated_at": "2026-04-24T05:34:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/harbor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/terminal-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/terminal-bench-2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

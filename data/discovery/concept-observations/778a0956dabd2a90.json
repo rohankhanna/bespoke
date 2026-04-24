@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Implementation for \"Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation\" (CVPR 2021) presenting the pixel2style2pixel (pSp) framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pixel2style2pixel",
+      "sense_id": "pixel2style2pixel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pixel2style2pixel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pixel2style2pixel",
+  "observation_id": "778a0956dabd2a90",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "pixel2style2pixel",
+  "source_context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+  "source_file": null,
+  "source_repo": "eladrich/pixel2style2pixel",
+  "source_repo_description": "Official Implementation for \"Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation\" (CVPR 2021) presenting the pixel2style2pixel (pSp) framework"
+}

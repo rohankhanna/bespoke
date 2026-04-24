@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u200bTextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/textworld.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/textworld)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/textworld.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/textworld)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reinforcement-learning",
+      "sense_id": "reinforcement-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reinforcement-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reinforcement-learning",
+  "observation_id": "fb27a7634ca26a38",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "reinforcement-learning",
+  "source_context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/textworld.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/textworld)",
+  "source_file": null,
+  "source_repo": "microsoft/TextWorld",
+  "source_repo_description": "\u200bTextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games."
+}

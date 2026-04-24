@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pesser/stable-diffusion",
+      "target": "lucidrains/x-transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:30.093873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17009
+    },
+    {
+      "path": "requirements.txt",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "pesser/stable-diffusion",
+    "html_url": "https://github.com/pesser/stable-diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-05T22:13:08Z",
+    "stargazers_count": 1034,
+    "topics": [],
+    "updated_at": "2026-04-03T12:06:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/x-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "gaboesquivel/atom-standardjs-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "atom/language-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "extrabacon/atom-turbo-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "timonvs/vscode-react-standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "vscode-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "capaj/vscode-standardjs-snippets"
+}

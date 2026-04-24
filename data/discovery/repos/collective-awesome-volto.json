@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yaml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collective/awesome-volto",
+      "target": "adeweb-be/volto-leaflet-block",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collective/awesome-volto",
+      "target": "codesyntax/volto-cookiebot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collective/awesome-volto",
+      "target": "codesyntax/volto-countup-block",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collective/awesome-volto",
+      "target": "affinitic/volto-icon-selector-widget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yaml",
+      "source_repo": "collective/awesome-volto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yaml",
+      "source_repo": "collective/awesome-volto",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-link-check.yaml",
+      "source_repo": "collective/awesome-volto",
+      "target": "Check README.md links",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:32.311083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38007
+    },
+    {
+      "path": ".github/workflows/readme-link-check.yaml",
+      "size": 576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of everything that makes Volto awesome",
+    "fork": false,
+    "full_name": "collective/awesome-volto",
+    "html_url": "https://github.com/collective/awesome-volto",
+    "language": null,
+    "pushed_at": "2026-04-02T09:47:29Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-02T09:47:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adeweb-be/volto-leaflet-block",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "affinitic/volto-icon-selector-widget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codesyntax/volto-cookiebot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codesyntax/volto-countup-block",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check README.md links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-link-check.yaml",
+      "term": "Check README.md links"
+    }
+  ]
+}

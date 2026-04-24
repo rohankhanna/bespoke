@@ -55,6 +55,42 @@
       "source_repo": "Logiase/MiraiGo-Template",
       "status": "candidate-context",
       "text": "A template for MiraiGo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "985892345/mirai-hotfix",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e Mirai Console \u5b9e\u73b0\u7684\u70ed\u4fee\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "985892345/mirai-hotfix",
+      "status": "candidate-context",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.github.985892345/mirai-hotfix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3ara1n/arcbot",
+      "status": "candidate-context",
+      "text": "HyperaiX \u6700\u4f73\u5b9e\u8df5, \u63d0\u4f9b\u4e00\u4e9b\u6211\u81ea\u5df1\u89c9\u5f97\u6709\u7528\u7684\u529f\u80fd\u548c\u98ce\u63a7\u53ef\u80fd\u6027"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3ara1n/arcbot",
+      "status": "candidate-context",
+      "text": "HyperaiX \u548c Onebot.Net \u6700\u4f73\u5b9e\u8df5\uff01"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamoe/mirai-console",
+      "status": "candidate-context",
+      "text": "mirai \u7684\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u63a7\u5236\u53f0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai-console",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "Logiase/MiraiGo-Template",
       "status": "candidate",
       "text": "A template for MiraiGo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "985892345/mirai-hotfix",
+      "status": "candidate",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.github.985892345/mirai-hotfix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3ara1n/arcbot",
+      "status": "candidate",
+      "text": "HyperaiX \u548c Onebot.Net \u6700\u4f73\u5b9e\u8df5\uff01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai-console",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Logiase/MiraiGo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "985892345/mirai-hotfix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "d3ara1n/arcbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mamoe/mirai-console"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

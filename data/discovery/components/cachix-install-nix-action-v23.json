@@ -1,0 +1,17 @@
+{
+  "component": "cachix/install-nix-action@v23",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2"
+    }
+  ]
+}

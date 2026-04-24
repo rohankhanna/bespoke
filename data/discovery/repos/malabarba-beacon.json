@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:06:15.902314+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A light that follows your cursor around so you don't lose it!",
+    "fork": false,
+    "full_name": "Malabarba/beacon",
+    "html_url": "https://github.com/Malabarba/beacon",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-11-07T11:41:23Z",
+    "stargazers_count": 702,
+    "topics": [],
+    "updated_at": "2026-04-12T14:48:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

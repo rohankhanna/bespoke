@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "front-matter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@zilliz/toolkit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gray-matter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "katex",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remarkable",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remarkable-katex",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_post_medium.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_post_medium.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    },
+    {
+      "component": "borales/actions-yarn@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_medium.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_medium.yml"
+    },
+    {
+      "component": "jitterbit/get-changed-files@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_medium.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "front-matter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "@zilliz/toolkit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "gray-matter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "remarkable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "milvus-io/community",
+      "target": "remarkable-katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "milvus-io/community",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "milvus-io/community",
+      "target": "Trigger milvus.io publish every time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_post_medium.yml",
+      "source_repo": "milvus-io/community",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_post_medium.yml",
+      "source_repo": "milvus-io/community",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_post_medium.yml",
+      "source_repo": "milvus-io/community",
+      "target": "Manual publish to Medium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "milvus-io/community",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "milvus-io/community",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "milvus-io/community",
+      "target": "borales/actions-yarn@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "milvus-io/community",
+      "target": "Translate Milvus Blog Weekly Task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_medium.yml",
+      "source_repo": "milvus-io/community",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_medium.yml",
+      "source_repo": "milvus-io/community",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_medium.yml",
+      "source_repo": "milvus-io/community",
+      "target": "jitterbit/get-changed-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_medium.yml",
+      "source_repo": "milvus-io/community",
+      "target": "Trigger medium publish if new post",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:01.737335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1964
+    },
+    {
+      "path": "package.json",
+      "size": 491
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 440
+    },
+    {
+      "path": ".github/workflows/manual_post_medium.yml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/translate.yml",
+      "size": 960
+    },
+    {
+      "path": ".github/workflows/update_medium.yml",
+      "size": 1768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+    "fork": false,
+    "full_name": "milvus-io/community",
+    "html_url": "https://github.com/milvus-io/community",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-22T04:09:40Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-04-22T04:09:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Trigger milvus.io publish every time",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Trigger milvus.io publish every time"
+    },
+    {
+      "context_snippet": "Manual publish to Medium",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_post_medium.yml",
+      "term": "Manual publish to Medium"
+    },
+    {
+      "context_snippet": "Translate Milvus Blog Weekly Task",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yml",
+      "term": "Translate Milvus Blog Weekly Task"
+    },
+    {
+      "context_snippet": "Trigger medium publish if new post",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_medium.yml",
+      "term": "Trigger medium publish if new post"
+    }
+  ]
+}

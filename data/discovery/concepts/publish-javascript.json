@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish JavaScript"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/kitoken",
+      "status": "candidate-context",
+      "text": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/kitoken",
+      "status": "candidate-context",
+      "text": "Publish JavaScript"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/kitoken",
+      "status": "candidate",
+      "text": "Publish JavaScript"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13328,
+      "status": "candidate",
+      "text": "smap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13328,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13024,
+      "status": "candidate",
+      "text": "adobe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13024,
+      "status": "candidate",
+      "text": "brew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13024,
+      "status": "candidate",
+      "text": "italic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish JavaScript",
+  "concept_id": "publish-javascript",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-javascript.yml",
+      "source_repo": "marin-community/kitoken"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish JavaScript",
+      "sense_id": "publish-javascript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

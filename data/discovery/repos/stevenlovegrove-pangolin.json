@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom.yml"
+    },
+    {
+      "component": "ros-tooling/setup-ros@v0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "lukka/run-vcpkg@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml"
+    },
+    {
+      "component": "ros-tooling/setup-ros@v0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml"
+    },
+    {
+      "component": "ros-tooling/action-ros-ci@v0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml"
+    },
+    {
+      "component": "ros-tooling/action-ros-ci@v0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "ros-tooling/setup-ros@v0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloom.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "bloom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "lukka/run-vcpkg@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "crazy-max/ghaction-github-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "ros-tooling/setup-ros@v0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colcon-workspace.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "ros-tooling/action-ros-ci@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/colcon-workspace.yml",
+      "source_repo": "stevenlovegrove/Pangolin",
+      "target": "colcon workspace",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:57:33.192038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12855
+    },
+    {
+      "path": ".github/workflows/bloom.yml",
+      "size": 1326
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5591
+    },
+    {
+      "path": ".github/workflows/colcon-workspace.yml",
+      "size": 1316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pangolin is a lightweight portable rapid development library for managing OpenGL display / interaction and abstracting video input.",
+    "fork": false,
+    "full_name": "stevenlovegrove/Pangolin",
+    "html_url": "https://github.com/stevenlovegrove/Pangolin",
+    "language": "C++",
+    "pushed_at": "2026-04-10T23:31:55Z",
+    "stargazers_count": 2714,
+    "topics": [],
+    "updated_at": "2026-04-23T19:38:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bloom",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloom.yml",
+      "term": "bloom"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "colcon workspace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/colcon-workspace.yml",
+      "term": "colcon workspace"
+    }
+  ]
+}

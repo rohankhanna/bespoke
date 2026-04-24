@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gherkin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antham/ghokin",
+      "status": "candidate-context",
+      "text": "Parallelized formatter with no external dependencies for gherkin (cucumber, behat...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antham/ghokin",
+      "status": "candidate-context",
+      "text": "Ghokin format and apply transformation on gherkin files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antham/ghokin",
+      "status": "candidate",
+      "text": "Ghokin format and apply transformation on gherkin files."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044536,
+      "status": "candidate",
+      "text": "pickled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045617,
+      "status": "candidate",
+      "text": "gerkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045616,
+      "status": "candidate",
+      "text": "girkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045614,
+      "status": "candidate",
+      "text": "jerkin the gherkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045613,
+      "status": "candidate",
+      "text": "gingerette"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gherkin",
+  "concept_id": "gherkin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "antham/ghokin"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gherkin",
+      "sense_id": "gherkin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

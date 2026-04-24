@@ -19,6 +19,18 @@
       "source_repo": "dgraph-io/badger",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arangodb/arangodb",
+      "status": "candidate-context",
+      "text": "\ud83e\udd51 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arangodb/arangodb",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dgraph-io/badger",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arangodb/arangodb",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "arangodb/arangodb"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

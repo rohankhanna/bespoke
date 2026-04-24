@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ".NET wrapper around the LibSass library with the ability to support a virtual file system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LibSass Host for .NET [![NuGet version](https://img.shields.io/nuget/v/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/) [![Download count](https://img.shields.io/nuget/dt/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LibSass Host for .NET [![NuGet version](https://img.shields.io/nuget/v/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/) [![Download count](https://img.shields.io/nuget/dt/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049750,
+      "status": "candidate",
+      "text": "backtalk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871554,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839817,
+      "status": "candidate",
+      "text": "mouth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047693,
+      "status": "candidate",
+      "text": "impudence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040247,
+      "status": "candidate",
+      "text": "defy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sass",
+      "sense_id": "sass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17066,
+      "status": "candidate",
+      "text": "mouth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6015,
+      "status": "candidate",
+      "text": "backtalk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4078,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "sassing"
+    }
+  ],
+  "concept_id": "sass",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sass",
+  "observation_id": "38b1d18257b90c31",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "sass",
+  "source_context_snippet": "LibSass Host for .NET [![NuGet version](https://img.shields.io/nuget/v/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/) [![Download count](https://img.shields.io/nuget/dt/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/)",
+  "source_file": null,
+  "source_repo": "Taritsyn/LibSassHost",
+  "source_repo_description": ".NET wrapper around the LibSass library with the ability to support a virtual file system."
+}

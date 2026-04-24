@@ -210,6 +210,66 @@
       "source_repo": "stx-labs/stacks.js",
       "status": "candidate-context",
       "text": "pull-request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate-context",
+      "text": "Like ruby's Abbrev module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/node-semver",
+      "status": "candidate-context",
+      "text": "The semver parser for node (the one npm uses)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/node-semver",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "A configuration as code language with rich validation and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/opensource-website",
+      "status": "candidate-context",
+      "text": "Source code for New Relic's Opensource site."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opensource-website",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "A library for building excellent user experiences with Stacks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "pull-request"
     }
   ],
   "candidate_glosses": [
@@ -306,6 +366,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stx-labs/stacks.js",
+      "status": "candidate",
+      "text": "pull-request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/node-semver",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opensource-website",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
       "status": "candidate",
       "text": "pull-request"
     }
@@ -483,11 +573,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "npm/abbrev-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "npm/node-semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/prb.yml",
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "newrelic/opensource-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/connect"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

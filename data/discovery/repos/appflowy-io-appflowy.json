@@ -1,0 +1,978 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "davidB/rust-cargo-make@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_lint.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml"
+    },
+    {
+      "component": "davidB/rust-cargo-make@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml"
+    },
+    {
+      "component": "futureware-tech/simulator-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml"
+    },
+    {
+      "component": "8398a7/action-slack@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja_i18n.yml"
+    },
+    {
+      "component": "opral/ninja-i18n-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja_i18n.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "vimtor/action-zip@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "8398a7/action-slack@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "sagiegurari/cargo-make",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "gradle/gradle-build-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "davidB/rust-cargo-make@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_command.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_lint.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_lint.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "wagoid/commitlint-github-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_lint.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Commit messages lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Docker-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Flutter-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "davidB/rust-cargo-make@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "futureware-tech/simulator-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "iOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "8398a7/action-slack@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mobile_ci.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Mobile-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja_i18n.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja_i18n.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "opral/ninja-i18n-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ninja_i18n.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "Ninja i18n action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "vimtor/action-zip@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "8398a7/action-slack@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "confluence-alternative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "content-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "content-services",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "note-taking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "notion-alternative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "project-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "task-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "team-collaboration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "target": "wiki",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:08:26.374989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8547
+    },
+    {
+      "path": ".github/workflows/android_ci.yaml.bak",
+      "size": 6731
+    },
+    {
+      "path": ".github/workflows/build_command.yml",
+      "size": 1460
+    },
+    {
+      "path": ".github/workflows/commit_lint.yml",
+      "size": 233
+    },
+    {
+      "path": ".github/workflows/docker_ci.yml",
+      "size": 1365
+    },
+    {
+      "path": ".github/workflows/flutter_ci.yaml",
+      "size": 12003
+    },
+    {
+      "path": ".github/workflows/ios_ci.yaml",
+      "size": 2801
+    },
+    {
+      "path": ".github/workflows/mobile_ci.yml",
+      "size": 2951
+    },
+    {
+      "path": ".github/workflows/ninja_i18n.yml",
+      "size": 569
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 20661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+    "fork": false,
+    "full_name": "AppFlowy-IO/AppFlowy",
+    "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
+    "language": "Dart",
+    "pushed_at": "2026-04-08T01:36:22Z",
+    "stargazers_count": 69971,
+    "topics": [
+      "blog",
+      "confluence-alternative",
+      "content-management",
+      "content-services",
+      "documentation",
+      "flutter",
+      "note-taking",
+      "notion-alternative",
+      "project-management",
+      "task-management",
+      "team-collaboration",
+      "wiki"
+    ],
+    "updated_at": "2026-04-24T06:51:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sagiegurari/cargo-make",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "term": "Android CI"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_command.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Commit messages lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_lint.yml",
+      "term": "Commit messages lint"
+    },
+    {
+      "context_snippet": "Docker-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_ci.yml",
+      "term": "Docker-CI"
+    },
+    {
+      "context_snippet": "Flutter-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flutter_ci.yaml",
+      "term": "Flutter-CI"
+    },
+    {
+      "context_snippet": "iOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_ci.yaml",
+      "term": "iOS CI"
+    },
+    {
+      "context_snippet": "Mobile-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mobile_ci.yml",
+      "term": "Mobile-CI"
+    },
+    {
+      "context_snippet": "Ninja i18n action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ninja_i18n.yml",
+      "term": "Ninja i18n action"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluence-alternative"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-management"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-services"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "note-taking"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notion-alternative"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-management"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-management"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "team-collaboration"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wiki"
+    }
+  ]
+}

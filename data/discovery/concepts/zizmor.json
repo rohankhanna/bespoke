@@ -117,6 +117,42 @@
       "source_repo": "docker/setup-qemu-action",
       "status": "candidate-context",
       "text": "zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jedisct1/libsodium",
+      "status": "candidate-context",
+      "text": "A modern, portable, easy to use crypto library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/libsodium",
+      "status": "candidate-context",
+      "text": "Zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff-vscode",
+      "status": "candidate-context",
+      "text": "A Visual Studio Code extension with support for the Ruff linter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-vscode",
+      "status": "candidate-context",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to extract metadata (tags, labels) from Git reference and GitHub events for Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "zizmor"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/setup-qemu-action",
+      "status": "candidate",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/libsodium",
+      "status": "candidate",
+      "text": "Zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-vscode",
+      "status": "candidate",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
       "status": "candidate",
       "text": "zizmor"
     }
@@ -234,11 +288,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "docker/setup-qemu-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "jedisct1/libsodium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "astral-sh/ruff-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "docker/metadata-action"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -67,6 +67,18 @@
       "source_repo": "swiftlang/swift-llbuild",
       "status": "candidate-context",
       "text": "llbuild"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rizsotto/Bear",
+      "status": "candidate-context",
+      "text": "Bear is a tool that generates a compilation database for clang tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rizsotto/Bear",
+      "status": "candidate-context",
+      "text": "[![Packaging status](https://repology.org/badge/tiny-repos/bear-clang.svg)](https://repology.org/project/bear-clang/versions)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "swiftlang/swift-llbuild",
       "status": "candidate",
       "text": "llbuild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rizsotto/Bear",
+      "status": "candidate",
+      "text": "[![Packaging status](https://repology.org/badge/tiny-repos/bear-clang.svg)](https://repology.org/project/bear-clang/versions)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rizsotto/Bear"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

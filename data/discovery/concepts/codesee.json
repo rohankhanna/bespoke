@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "CodeSee"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate-context",
+      "text": "Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate-context",
+      "text": "CodeSee"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate",
+      "text": "CodeSee"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CodeSee",
+  "concept_id": "codesee",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml",
+      "source_repo": "fullstorydev/grpcurl"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CodeSee",
+      "sense_id": "codesee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

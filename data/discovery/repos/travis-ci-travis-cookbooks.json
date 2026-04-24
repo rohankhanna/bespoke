@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-cookbooks",
+      "target": "travis-ci/packer-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-cookbooks",
+      "target": "chef-cookbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-cookbooks",
+      "target": "monorepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-cookbooks",
+      "target": "travis-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:42.969412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chef cookbook monolithic repo :book: :bomb:",
+    "fork": false,
+    "full_name": "travis-ci/travis-cookbooks",
+    "html_url": "https://github.com/travis-ci/travis-cookbooks",
+    "language": "Ruby",
+    "pushed_at": "2025-10-30T15:04:30Z",
+    "stargazers_count": 659,
+    "topics": [
+      "chef-cookbook",
+      "monorepo",
+      "travis-ci"
+    ],
+    "updated_at": "2026-04-07T13:45:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/packer-templates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chef-cookbook"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monorepo"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis-ci"
+    }
+  ]
+}

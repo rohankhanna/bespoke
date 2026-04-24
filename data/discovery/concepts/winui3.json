@@ -43,6 +43,42 @@
       "source_repo": "microsoft/WindowsAppSDK",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "![WinUI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate-context",
+      "text": "Collection of controls, helpers and extension for WinUI 2, WinUI 3, and Uno Platform developers. Simplifies and demonstrates common developer tasks building experiences for Windows with .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate-context",
+      "text": "**/CommunityToolkit.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "microsoft/WindowsAppSDK",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate",
+      "text": "![WinUI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate",
+      "text": "**/CommunityToolkit.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "microsoft/WindowsAppSDK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-ui-xaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-dev-gallery"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

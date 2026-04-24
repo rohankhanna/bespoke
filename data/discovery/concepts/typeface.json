@@ -55,6 +55,18 @@
       "source_repo": "eigilnikolajsen/commit-mono",
       "status": "candidate-context",
       "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "Versatile typeface for code, from code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "eigilnikolajsen/commit-mono",
       "status": "candidate",
       "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
     }
   ],
   "candidate_related_terms": [
@@ -170,11 +188,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "eigilnikolajsen/commit-mono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

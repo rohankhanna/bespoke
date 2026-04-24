@@ -1,0 +1,308 @@
+{
+  "components": [
+    {
+      "component": "srfrnk/current-time@5a4163ad035ccd9a407ec9e519c3b6ba1b633d1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "srfrnk/current-time@5a4163ad035ccd9a407ec9e519c3b6ba1b633d1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@3155a141048f8f89c06b4cdae32e7853e97536bc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-tag.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check-bzlmod-deps.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check-bzlmod-deps.yaml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-bcr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-artifacts-branch.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc",
+      "target": "grpc/grpc-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc",
+      "target": "grpc/grpc-dart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc",
+      "target": "grpc/grpc-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc",
+      "target": "grpc/grpc-kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "srfrnk/current-time@5a4163ad035ccd9a407ec9e519c3b6ba1b633d1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "styfle/cancel-workflow-action@3155a141048f8f89c06b4cdae32e7853e97536bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "PR AutoFix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-tag.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-auto-tag.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "PR Auto Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check-bzlmod-deps.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check-bzlmod-deps.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-artifacts-branch.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-artifacts-branch.yaml",
+      "source_repo": "grpc/grpc",
+      "target": "EXPERIMENTAL -- Update artifacts branch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:03:10.050122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4541
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1892
+    },
+    {
+      "path": "requirements.txt",
+      "size": 157
+    },
+    {
+      "path": ".github/workflows/pr-auto-fix.yaml",
+      "size": 4460
+    },
+    {
+      "path": ".github/workflows/pr-auto-tag.yaml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/pr-check-bzlmod-deps.yaml",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/publish-to-bcr.yaml",
+      "size": 1362
+    },
+    {
+      "path": ".github/workflows/update-artifacts-branch.yaml",
+      "size": 795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
+    "fork": false,
+    "full_name": "grpc/grpc",
+    "html_url": "https://github.com/grpc/grpc",
+    "language": "C++",
+    "pushed_at": "2026-04-24T08:03:06Z",
+    "stargazers_count": 44665,
+    "topics": [],
+    "updated_at": "2026-04-24T04:00:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-dart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-kotlin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR AutoFix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "term": "PR AutoFix"
+    },
+    {
+      "context_snippet": "PR Auto Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-auto-tag.yaml",
+      "term": "PR Auto Tag"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "EXPERIMENTAL -- Update artifacts branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-artifacts-branch.yaml",
+      "term": "EXPERIMENTAL -- Update artifacts branch"
+    }
+  ]
+}

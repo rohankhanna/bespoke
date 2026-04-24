@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zilliztech/attu",
+      "target": "milvus-io/milvus-sdk-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zilliztech/attu",
+      "target": "milvus-io/milvus-sdk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zilliztech/attu",
+      "target": "milvus-io/milvus-sdk-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/attu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/attu",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/attu",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/attu",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/attu",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/attu",
+      "target": "Attu docker build test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zilliztech/attu",
+      "target": "attu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zilliztech/attu",
+      "target": "milvus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zilliztech/attu",
+      "target": "vector-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:03.816106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8541
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Best GUI for Milvus",
+    "fork": false,
+    "full_name": "zilliztech/attu",
+    "html_url": "https://github.com/zilliztech/attu",
+    "language": "Shell",
+    "pushed_at": "2026-04-10T03:30:19Z",
+    "stargazers_count": 2831,
+    "topics": [
+      "attu",
+      "milvus",
+      "vector-database"
+    ],
+    "updated_at": "2026-04-24T07:43:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-sdk-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-sdk-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-sdk-node",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Attu docker build test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Attu docker build test"
+    },
+    {
+      "context_snippet": "![GitHub release](https://img.shields.io/github/v/release/zilliztech/attu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attu"
+    },
+    {
+      "context_snippet": "![GitHub release](https://img.shields.io/github/v/release/zilliztech/attu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "milvus"
+    },
+    {
+      "context_snippet": "![GitHub release](https://img.shields.io/github/v/release/zilliztech/attu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    }
+  ]
+}

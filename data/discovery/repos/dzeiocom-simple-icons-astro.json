@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "simple-icons",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "dzeiocom/lucide-astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "simple-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "Build Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "Build & Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "simple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "simple-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "target": "simpleicons",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:19.391681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1322
+    },
+    {
+      "path": "package.json",
+      "size": 992
+    },
+    {
+      "path": ".github/workflows/build_docker.yml",
+      "size": 1444
+    },
+    {
+      "path": ".github/workflows/build_publish.yml",
+      "size": 1606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Astro library to get the Simple icons to the Astro Framework https://simple-icons-astro.dzeio.com",
+    "fork": false,
+    "full_name": "dzeiocom/simple-icons-astro",
+    "html_url": "https://github.com/dzeiocom/simple-icons-astro",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-07T06:17:35Z",
+    "stargazers_count": 21,
+    "topics": [
+      "astro",
+      "icons",
+      "node",
+      "simple",
+      "simple-icons",
+      "simpleicons"
+    ],
+    "updated_at": "2026-04-11T12:11:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dzeiocom/lucide-astro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yml",
+      "term": "Build Docker image"
+    },
+    {
+      "context_snippet": "Build & Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish.yml",
+      "term": "Build & Package"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.gg/MMbUAptxPr\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astro"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.gg/MMbUAptxPr\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.gg/MMbUAptxPr\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.gg/MMbUAptxPr\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.gg/MMbUAptxPr\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple-icons"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.gg/MMbUAptxPr\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simpleicons"
+    }
+  ]
+}

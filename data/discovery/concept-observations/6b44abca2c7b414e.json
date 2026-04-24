@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AMD-SHARK Studio -- Web UI for SHARK+IREE High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate AMDShark Studio"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate AMDShark Studio"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11577,
+      "status": "candidate",
+      "text": "vet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "okay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "prove"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate AMDShark Studio",
+      "sense_id": "validate-amdshark-studio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-amdshark-studio",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-amdshark-studio",
+  "observation_id": "6b44abca2c7b414e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Validate AMDShark Studio",
+  "source_context_snippet": "Validate AMDShark Studio",
+  "source_file": ".github/workflows/test-studio.yml",
+  "source_repo": "nod-ai/AMD-SHARK-Studio",
+  "source_repo_description": "AMD-SHARK Studio -- Web UI for SHARK+IREE High Performance Machine Learning Distribution"
+}

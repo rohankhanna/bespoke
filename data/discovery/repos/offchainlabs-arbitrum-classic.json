@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-solidity",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OffchainLabs/arbitrum-classic",
+      "target": "offchainlabs/nitro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-classic",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-classic",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-classic",
+      "target": "eslint-plugin-mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-classic",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-classic",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OffchainLabs/arbitrum-classic",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:59:47.429940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 518
+    },
+    {
+      "path": "package.json",
+      "size": 2381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Powers fast, private, decentralized applications",
+    "fork": false,
+    "full_name": "OffchainLabs/arbitrum-classic",
+    "html_url": "https://github.com/OffchainLabs/arbitrum-classic",
+    "language": "Go",
+    "pushed_at": "2026-03-03T15:38:05Z",
+    "stargazers_count": 2004,
+    "topics": [],
+    "updated_at": "2026-04-22T10:26:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "offchainlabs/nitro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

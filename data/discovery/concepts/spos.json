@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "spos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "OpenMMLab Model Compression Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19949424,
+      "status": "candidate",
+      "text": "bps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19869986,
+      "status": "candidate",
+      "text": "ops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9964447,
+      "status": "candidate",
+      "text": "pos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9859697,
+      "status": "candidate",
+      "text": "posh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9789970,
+      "status": "candidate",
+      "text": "sop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "spos",
+  "concept_id": "spos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmrazor"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spos",
+      "sense_id": "spos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

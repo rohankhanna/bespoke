@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "alecthomas/go_serialization_benchmarks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/conda-forge-repodata-patches-feedstock"
     }
   ]
 }

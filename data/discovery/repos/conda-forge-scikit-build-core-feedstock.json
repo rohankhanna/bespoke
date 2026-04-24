@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/scikit-build-core-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:53.851793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6269
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for scikit-build-core.",
+    "fork": false,
+    "full_name": "conda-forge/scikit-build-core-feedstock",
+    "html_url": "https://github.com/conda-forge/scikit-build-core-feedstock",
+    "language": "Batchfile",
+    "pushed_at": "2026-04-23T00:36:17Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-23T00:36:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

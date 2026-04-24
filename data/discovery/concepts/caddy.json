@@ -55,6 +55,18 @@
       "source_repo": "php/frankenphp",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "\ud83d\udd28 Fast and idiomatic client-driven REST APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "php/frankenphp",
       "status": "candidate",
       "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "php/frankenphp"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -286,6 +286,30 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate-context",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
     }
   ],
   "candidate_glosses": [
@@ -426,6 +450,18 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
     }
   ],
   "candidate_related_terms": [
@@ -661,11 +697,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pylint-dev/astroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-www"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

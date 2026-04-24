@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "@bufbuild/protobuf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bufbuild/protoc-gen-es",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@connectrpc/protoc-gen-connect-es",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tsconfig/strictest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsconfig-to-swcconfig",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows-warming.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.8.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "andstor/file-existence-action@076e0072799f4942c8bc574a82233e1e4d13e9d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multitool.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multitool.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_mirrors.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_mirrors.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_mirrors.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "@bufbuild/protobuf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "@bufbuild/protoc-gen-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "@connectrpc/protoc-gen-connect-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "@tsconfig/strictest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "tsconfig-to-swcconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows-warming.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aspect-workflows-warming.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "Aspect Workflows Warming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aspect-workflows.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aspect-workflows.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "Aspect Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "bazel-contrib/setup-bazel@0.8.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "andstor/file-existence-action@076e0072799f4942c8bc574a82233e1e4d13e9d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multitool.yml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multitool.yml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_mirrors.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_mirrors.yaml",
+      "source_repo": "aspect-build/bazel-examples",
+      "target": "Sync Mirrors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:20.229850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 935
+    },
+    {
+      "path": "go.mod",
+      "size": 489
+    },
+    {
+      "path": "package.json",
+      "size": 1044
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/aspect-workflows-warming.yaml",
+      "size": 1256
+    },
+    {
+      "path": ".github/workflows/aspect-workflows.yaml",
+      "size": 7902
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 400
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 5930
+    },
+    {
+      "path": ".github/workflows/multitool.yml",
+      "size": 1131
+    },
+    {
+      "path": ".github/workflows/sync_mirrors.yaml",
+      "size": 2430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bazel examples",
+    "fork": false,
+    "full_name": "aspect-build/bazel-examples",
+    "html_url": "https://github.com/aspect-build/bazel-examples",
+    "language": "Starlark",
+    "pushed_at": "2026-04-20T05:54:40Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-04T18:51:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Aspect Workflows Warming",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aspect-workflows-warming.yaml",
+      "term": "Aspect Workflows Warming"
+    },
+    {
+      "context_snippet": "Aspect Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aspect-workflows.yaml",
+      "term": "Aspect Workflows"
+    },
+    {
+      "context_snippet": "Sync Mirrors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_mirrors.yaml",
+      "term": "Sync Mirrors"
+    }
+  ]
+}

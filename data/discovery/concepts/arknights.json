@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "arknights"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArkMowers/arknights-mower",
+      "status": "candidate-context",
+      "text": "\u300a\u660e\u65e5\u65b9\u821f\u300b\u957f\u8349\u52a9\u624b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArkMowers/arknights-mower",
+      "status": "candidate-context",
+      "text": "Mower \u662f\u4e3a\u957f\u671f\u8fd0\u884c\u8bbe\u8ba1\u7684\u3001\u5f00\u6e90\u7684\u660e\u65e5\u65b9\u821f\u811a\u672c\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArkMowers/arknights-mower",
+      "status": "candidate",
+      "text": "Mower \u662f\u4e3a\u957f\u671f\u8fd0\u884c\u8bbe\u8ba1\u7684\u3001\u5f00\u6e90\u7684\u660e\u65e5\u65b9\u821f\u811a\u672c\u3002"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "tower of saviors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "atlantica online"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "clash of kings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "shadowgun legends"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "revelation online"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "arknights",
+  "concept_id": "arknights",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ArkMowers/arknights-mower"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arknights",
+      "sense_id": "arknights#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-guild-org/Stack",
+      "target": "ardatan/graphql-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-guild-org/Stack",
+      "target": "ardatan/graphql-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-guild-org/Stack",
+      "target": "ardatan/graphql-import",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-guild-org/Stack",
+      "target": "apollographql/apollo-angular",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:07:49.160492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tech Stack developed by The Guild",
+    "fork": false,
+    "full_name": "the-guild-org/Stack",
+    "html_url": "https://github.com/the-guild-org/Stack",
+    "language": null,
+    "pushed_at": "2022-08-11T11:53:52Z",
+    "stargazers_count": 263,
+    "topics": [],
+    "updated_at": "2026-04-08T12:02:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/apollo-angular",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ardatan/graphql-import",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ardatan/graphql-toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ardatan/graphql-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

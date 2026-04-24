@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reference resource generation tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchcodec",
+      "status": "candidate-context",
+      "text": "PyTorch media decoding and encoding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchcodec",
+      "status": "candidate-context",
+      "text": "Reference resource generation tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchcodec",
+      "status": "candidate",
+      "text": "Reference resource generation tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27690,
+      "status": "candidate",
+      "text": "oppressor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27690,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27559,
+      "status": "candidate",
+      "text": "powered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27559,
+      "status": "candidate",
+      "text": "warrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27530,
+      "status": "candidate",
+      "text": "specialist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reference resource generation tests",
+  "concept_id": "reference-resource-generation-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reference resource generation tests",
+      "sense_id": "reference-resource-generation-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

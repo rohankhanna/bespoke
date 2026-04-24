@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "loss"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate-context",
+      "text": "Connectionist Temporal Classification (CTC) decoding algorithms: best path, beam search, lexicon search, prefix search, and token passing. Implemented in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate-context",
+      "text": "**Update 2021: installable Python package**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate",
+      "text": "**Update 2021: installable Python package**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999384,
+      "status": "candidate",
+      "text": "expiration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998497,
+      "status": "candidate",
+      "text": "deprivation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992904,
+      "status": "candidate",
+      "text": "departure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992789,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992638,
+      "status": "candidate",
+      "text": "exit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22065,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18039,
+      "status": "candidate",
+      "text": "deprivation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12049,
+      "status": "candidate",
+      "text": "exit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "departure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9044,
+      "status": "candidate",
+      "text": "passing"
+    }
+  ],
+  "canonical_name": "loss",
+  "concept_id": "loss",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loss",
+      "sense_id": "loss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

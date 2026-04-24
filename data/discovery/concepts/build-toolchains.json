@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Toolchains"
+    "Build Toolchains",
+    "Build toolchains"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "BlackDex/rust-musl",
       "status": "candidate-context",
       "text": "Build Toolchains"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "status": "candidate-context",
+      "text": "A versatile (cross-)toolchain generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "status": "candidate-context",
+      "text": "Build toolchains"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "BlackDex/rust-musl",
       "status": "candidate",
       "text": "Build Toolchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crosstool-ng/crosstool-ng",
+      "status": "candidate",
+      "text": "Build toolchains"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/toolchain.yml",
       "source_repo": "BlackDex/rust-musl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-toolchains.yml",
+      "source_repo": "crosstool-ng/crosstool-ng"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

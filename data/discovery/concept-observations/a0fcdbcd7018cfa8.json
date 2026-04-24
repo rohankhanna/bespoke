@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sentry SDK for Dart and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Changes In High Risk Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Changes In High Risk Code"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43634,
+      "status": "candidate",
+      "text": "hazard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33533,
+      "status": "candidate",
+      "text": "risks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33519,
+      "status": "candidate",
+      "text": "chancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33488,
+      "status": "candidate",
+      "text": "danger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33338,
+      "status": "candidate",
+      "text": "ascii"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Changes In High Risk Code",
+      "sense_id": "changes-in-high-risk-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "changes-in-high-risk-code",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "changes-in-high-risk-code",
+  "observation_id": "a0fcdbcd7018cfa8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Changes In High Risk Code",
+  "source_context_snippet": "Changes In High Risk Code",
+  "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+  "source_repo": "getsentry/sentry-dart",
+  "source_repo_description": "Sentry SDK for Dart and Flutter"
+}

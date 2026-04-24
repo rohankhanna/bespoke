@@ -19,6 +19,18 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate-context",
       "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "MIRROR of: https://codeberg.org/mfussenegger/nvim-jdtls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate",
       "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-jdtls"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "uber/petastorm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "uber/petastorm",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "uber/petastorm",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "uber/petastorm",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "uber/petastorm",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "parquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "parquet-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "pyarrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "pyspark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "sysml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uber/petastorm",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:52.045345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 17482
+    },
+    {
+      "path": ".github/workflows/unittest.yml",
+      "size": 5883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Petastorm library enables single machine or distributed training and evaluation of deep learning models from datasets in Apache Parquet format. It supports ML frameworks such as Tensorflow, Pytorch, and PySpark and can be used from pure Python code.",
+    "fork": false,
+    "full_name": "uber/petastorm",
+    "html_url": "https://github.com/uber/petastorm",
+    "language": "Python",
+    "pushed_at": "2026-01-02T23:08:02Z",
+    "stargazers_count": 1886,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "parquet",
+      "parquet-files",
+      "pyarrow",
+      "pyspark",
+      "pytorch",
+      "sysml",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-22T09:12:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet-files"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyarrow"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyspark"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sysml"
+    },
+    {
+      "context_snippet": "Petastorm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

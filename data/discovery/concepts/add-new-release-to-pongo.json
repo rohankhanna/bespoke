@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add New Release to Pongo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d The API and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "Add New Release to Pongo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate",
+      "text": "Add New Release to Pongo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33837,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33837,
+      "status": "candidate",
+      "text": "insert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33437,
+      "status": "candidate",
+      "text": "retouch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33437,
+      "status": "candidate",
+      "text": "retouching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33437,
+      "status": "candidate",
+      "text": "update"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add New Release to Pongo",
+  "concept_id": "add-new-release-to-pongo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/add-release-pongo.yml",
+      "source_repo": "Kong/kong"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add New Release to Pongo",
+      "sense_id": "add-new-release-to-pongo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

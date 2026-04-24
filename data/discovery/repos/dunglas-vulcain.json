@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dunglas/vulcain",
+      "target": "gabesullice/hades",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dunglas/vulcain",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "caddy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "early-hints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "http2-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "http3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "hypermedia-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "preload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "server-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "vulcain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain",
+      "target": "vulcain-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:30.893607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10520
+    },
+    {
+      "path": "Dockerfile",
+      "size": 85
+    },
+    {
+      "path": "go.mod",
+      "size": 1327
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 1444
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd28 Fast and idiomatic client-driven REST APIs.",
+    "fork": false,
+    "full_name": "dunglas/vulcain",
+    "html_url": "https://github.com/dunglas/vulcain",
+    "language": "Go",
+    "pushed_at": "2026-04-23T00:33:30Z",
+    "stargazers_count": 3574,
+    "topics": [
+      "api",
+      "caddy",
+      "early-hints",
+      "graphql",
+      "hacktoberfest",
+      "http2",
+      "http2-push",
+      "http3",
+      "hypermedia-api",
+      "preload",
+      "rest",
+      "rest-api",
+      "reverse-proxy",
+      "server-push",
+      "vulcain",
+      "vulcain-server"
+    ],
+    "updated_at": "2026-04-24T07:11:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gabesullice/hades",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddy"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "early-hints"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2-push"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hypermedia-api"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preload"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxy"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-push"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulcain"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulcain-server"
+    }
+  ]
+}

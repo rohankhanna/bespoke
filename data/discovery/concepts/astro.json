@@ -43,6 +43,30 @@
       "source_repo": "yassinedoghri/astro-i18next",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "Astro library to get the Simple icons to the Astro Framework https://simple-icons-astro.dzeio.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "<a href=\"https://discord.gg/MMbUAptxPr\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Official JavaScript repository for Clerk authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "yassinedoghri/astro-i18next",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate",
+      "text": "<a href=\"https://discord.gg/MMbUAptxPr\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +190,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "yassinedoghri/astro-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clerk/javascript"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

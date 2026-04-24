@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "4e554c4c/base16-halloy",
+      "target": "squidowl/halloy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4e554c4c/base16-halloy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4e554c4c/base16-halloy",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4e554c4c/base16-halloy",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4e554c4c/base16-halloy",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4e554c4c/base16-halloy",
+      "target": "base16-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4e554c4c/base16-halloy",
+      "target": "halloy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:06:08.374063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Base16 color scheme template for halloy ",
+    "fork": false,
+    "full_name": "4e554c4c/base16-halloy",
+    "html_url": "https://github.com/4e554c4c/base16-halloy",
+    "language": "Mustache",
+    "pushed_at": "2025-06-21T12:42:21Z",
+    "stargazers_count": 6,
+    "topics": [
+      "base16",
+      "base16-template",
+      "halloy",
+      "irc"
+    ],
+    "updated_at": "2026-03-16T05:32:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "squidowl/halloy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "This repository contains [base16][1] templates for the [Halloy][2] IRC client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "This repository contains [base16][1] templates for the [Halloy][2] IRC client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16-template"
+    },
+    {
+      "context_snippet": "This repository contains [base16][1] templates for the [Halloy][2] IRC client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "halloy"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex",
+      "target": "langchain4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex",
+      "target": "spring-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:08:22.986994+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agents-flex is A Lightweight Java AI Application Development Framework.",
+    "fork": false,
+    "full_name": "agents-flex/agents-flex",
+    "html_url": "https://github.com/agents-flex/agents-flex",
+    "language": "Java",
+    "pushed_at": "2026-04-24T05:48:16Z",
+    "stargazers_count": 1031,
+    "topics": [
+      "agent",
+      "ai",
+      "chatbot",
+      "chatgpt",
+      "gpt",
+      "langchain4j",
+      "llama3",
+      "llm",
+      "ollama",
+      "spring-ai"
+    ],
+    "updated_at": "2026-04-24T06:46:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Agents-flex is A Lightweight Java AI Application Development Framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "Agents-flex is A Lightweight Java AI Application Development Framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "Agents-flex is A Lightweight Java AI Application Development Framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain4j"
+    },
+    {
+      "context_snippet": "Agents-flex is A Lightweight Java AI Application Development Framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "Agents-flex is A Lightweight Java AI Application Development Framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "Agents-flex is A Lightweight Java AI Application Development Framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai"
+    }
+  ]
+}

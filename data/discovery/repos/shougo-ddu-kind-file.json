@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu-kind-file",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu-kind-file",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu-kind-file",
+      "target": "jsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-kind-file",
+      "target": "ddu-kind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-kind-file",
+      "target": "ddu-vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:36.643838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 369
+    },
+    {
+      "path": ".github/workflows/jsr.yml",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "File kind for ddu.vim",
+    "fork": false,
+    "full_name": "Shougo/ddu-kind-file",
+    "html_url": "https://github.com/Shougo/ddu-kind-file",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-12T04:18:10Z",
+    "stargazers_count": 29,
+    "topics": [
+      "ddu-kind",
+      "ddu-vim"
+    ],
+    "updated_at": "2026-03-12T04:18:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "jsr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "term": "jsr"
+    },
+    {
+      "context_snippet": "File kind for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-kind"
+    },
+    {
+      "context_snippet": "File kind for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-vim"
+    }
+  ]
+}

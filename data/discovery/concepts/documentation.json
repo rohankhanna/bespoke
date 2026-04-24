@@ -676,6 +676,90 @@
       "source_repo": "openvinotoolkit/openvino",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate-context",
+      "text": "Ascend TileLang adapter "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate-context",
+      "text": "AMD ROCm\u2122 Software - GitHub Home"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Deploy models in ONNX format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "A guide to using Lua in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "Documentation for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
     }
   ],
   "candidate_glosses": [
@@ -1020,6 +1104,48 @@
       "source_repo": "openvinotoolkit/openvino",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
     }
   ],
   "candidate_related_terms": [
@@ -1470,11 +1596,77 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/build_doc.yml",
       "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "tile-ai/tilelang-ascend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "audeering/audonnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nanotee/nvim-lua-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-doc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "redis/node-redis"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

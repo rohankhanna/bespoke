@@ -320,6 +320,66 @@
       "source_repo": "microsoft/CsWin32",
       "status": "candidate-context",
       "text": "\ud83d\udcaa\ud83c\udffc Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "Open standard for machine learning interoperability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-studio",
+      "status": "candidate-context",
+      "text": "A modular, extensible dashboard application framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-studio",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "A tool to enforce Swift style and conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -478,6 +538,36 @@
       "source_repo": "microsoft/CsWin32",
       "status": "candidate",
       "text": "\ud83d\udcaa\ud83c\udffc Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-studio",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realm/SwiftLint",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_related_terms": [
@@ -683,11 +773,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "microsoft/CsWin32"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml.yml",
+      "source_repo": "elsa-workflows/elsa-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "HKUDS/LightRAG"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

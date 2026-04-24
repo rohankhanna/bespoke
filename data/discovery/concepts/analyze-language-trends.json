@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Analyze Language Trends"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "Analyze Language Trends"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate",
+      "text": "Analyze Language Trends"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30270,
+      "status": "candidate",
+      "text": "metalanguage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26425,
+      "status": "candidate",
+      "text": "moves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25889,
+      "status": "candidate",
+      "text": "study"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25529,
+      "status": "candidate",
+      "text": "chartist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25284,
+      "status": "candidate",
+      "text": "ear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Analyze Language Trends",
+  "concept_id": "analyze-language-trends",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/analyze-language-trends.yml",
+      "source_repo": "getsentry/sentry-cocoa"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Analyze Language Trends",
+      "sense_id": "analyze-language-trends#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

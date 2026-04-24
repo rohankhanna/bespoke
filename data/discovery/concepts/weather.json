@@ -19,6 +19,30 @@
       "source_repo": "chubin/wttr.in",
       "status": "candidate-context",
       "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "status": "candidate-context",
+      "text": "Get the ASCII weather, Google Translate, pixel editor and play Mario NES on Mirc!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "status": "candidate-context",
+      "text": "\ud83e\udd41 MIRC Scripts and Bot - 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "weather app for the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "**wego** is a weather client for the terminal."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "chubin/wttr.in",
       "status": "candidate",
       "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "status": "candidate",
+      "text": "\ud83e\udd41 MIRC Scripts and Bot - 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate",
+      "text": "**wego** is a weather client for the terminal."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "chubin/wttr.in"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "schachmat/wego"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

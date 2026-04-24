@@ -31,6 +31,18 @@
       "source_repo": "MetaGLM/glm-cookbook",
       "status": "candidate-context",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/GLM-4",
+      "status": "candidate-context",
+      "text": "GLM-4 series: Open Multilingual Multimodal Chat LMs | \u5f00\u6e90\u591a\u8bed\u8a00\u591a\u6a21\u6001\u5bf9\u8bdd\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/GLM-4",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "MetaGLM/glm-cookbook",
       "status": "candidate",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/GLM-4",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "MetaGLM/glm-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-4"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

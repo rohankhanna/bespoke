@@ -31,6 +31,30 @@
       "source_repo": "ashvardanian/HashEvals",
       "status": "candidate-context",
       "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calebzulawski/autobahn-hash",
+      "status": "candidate-context",
+      "text": "A fast, safe, and portable implementation of HighwayHash for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calebzulawski/autobahn-hash",
+      "status": "candidate-context",
+      "text": "AutobahnHash"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and memory ops \ud83e\udd96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ashvardanian/HashEvals",
       "status": "candidate",
       "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calebzulawski/autobahn-hash",
+      "status": "candidate",
+      "text": "AutobahnHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate",
+      "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/HashEvals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "calebzulawski/autobahn-hash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

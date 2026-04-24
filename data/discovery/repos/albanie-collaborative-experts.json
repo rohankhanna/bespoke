@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "albanie/collaborative-experts",
+      "target": "antoine77340/mixture-of-embedding-experts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "albanie/collaborative-experts",
+      "target": "victoresque/pytorch-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "albanie/collaborative-experts",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "albanie/collaborative-experts",
+      "target": "video-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:59.423274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 123958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Video embeddings for retrieval with natural language queries",
+    "fork": false,
+    "full_name": "albanie/collaborative-experts",
+    "html_url": "https://github.com/albanie/collaborative-experts",
+    "language": "Python",
+    "pushed_at": "2023-02-15T22:06:12Z",
+    "stargazers_count": 344,
+    "topics": [
+      "deep-neural-networks",
+      "video-retrieval"
+    ],
+    "updated_at": "2026-04-17T08:56:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoine77340/mixture-of-embedding-experts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "victoresque/pytorch-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo provides code:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "This repo provides code:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-retrieval"
+    }
+  ]
+}

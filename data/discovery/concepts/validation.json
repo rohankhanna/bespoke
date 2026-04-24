@@ -118,6 +118,30 @@
       "source_repo": "json-schema-org/json-schema-spec",
       "status": "candidate-context",
       "text": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "A configuration as code language with rich validation and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate-context",
+      "text": "A FAST Kubernetes manifests validator, with support for Custom Resources!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate-context",
+      "text": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "json-schema-org/json-schema-spec",
       "status": "candidate",
       "text": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate",
+      "text": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -300,11 +336,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "json-schema-org/json-schema-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yannh/kubeconform"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

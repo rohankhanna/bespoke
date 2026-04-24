@@ -1,7 +1,8 @@
 {
   "aliases": [
     "main-build",
-    "Main build"
+    "Main build",
+    "main build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "apache/camel",
       "status": "candidate-context",
       "text": "Main build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate-context",
+      "text": "Apache Camel Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate-context",
+      "text": "main build"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "apache/camel",
       "status": "candidate",
       "text": "Main build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate",
+      "text": "main build"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +138,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/main-build.yml",
       "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/master-push-build.yml",
+      "source_repo": "apache/camel-examples"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

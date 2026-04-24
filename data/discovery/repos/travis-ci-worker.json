@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/worker",
+      "target": "travis-ci/travis-logs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/worker",
+      "target": "travis-ci/travis-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/worker",
+      "target": "alecthomas/gometalinter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/worker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/worker",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/worker",
+      "target": "travis-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/worker",
+      "target": "vmware-esxi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:40.551188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8770
+    },
+    {
+      "path": "Dockerfile",
+      "size": 767
+    },
+    {
+      "path": "go.mod",
+      "size": 6022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Worker runs your Travis CI jobs",
+    "fork": false,
+    "full_name": "travis-ci/worker",
+    "html_url": "https://github.com/travis-ci/worker",
+    "language": "Go",
+    "pushed_at": "2025-09-03T10:17:04Z",
+    "stargazers_count": 278,
+    "topics": [
+      "docker",
+      "go",
+      "google-cloud",
+      "travis-ci",
+      "vmware-esxi"
+    ],
+    "updated_at": "2025-09-03T10:15:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alecthomas/gometalinter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-hub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-logs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Worker is the component of Travis CI that will run a CI job on some form of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Worker is the component of Travis CI that will run a CI job on some form of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    },
+    {
+      "context_snippet": "Worker is the component of Travis CI that will run a CI job on some form of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis-ci"
+    },
+    {
+      "context_snippet": "Worker is the component of Travis CI that will run a CI job on some form of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmware-esxi"
+    }
+  ]
+}

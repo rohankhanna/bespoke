@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:00:42.721927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Add a delete button for Automatic1111 txt2img and img2img",
+    "fork": false,
+    "full_name": "AlUlkesh/sd_delete_button",
+    "html_url": "https://github.com/AlUlkesh/sd_delete_button",
+    "language": "Python",
+    "pushed_at": "2023-08-31T20:07:24Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2025-11-19T11:32:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

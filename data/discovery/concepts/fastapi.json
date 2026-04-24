@@ -55,6 +55,30 @@
       "source_repo": "Lightning-AI/LitServe",
       "status": "candidate-context",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "ReactJS website to automatically generate playlists based on how the music sounds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "Lightning-AI/LitServe",
       "status": "candidate",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "teticio/deej-ai.online-app"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

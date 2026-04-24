@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "volcengine/volcengine-python-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "volcengine/volcengine-python-sdk",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "volcengine/volcengine-python-sdk",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "volcengine/volcengine-python-sdk",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:43.381092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5840
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 662
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "volcengine/volcengine-python-sdk",
+    "html_url": "https://github.com/volcengine/volcengine-python-sdk",
+    "language": "Python",
+    "pushed_at": "2026-04-23T15:31:27Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-04-23T13:01:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

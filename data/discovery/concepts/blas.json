@@ -43,6 +43,42 @@
       "source_repo": "ashvardanian/NumWars",
       "status": "candidate-context",
       "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate-context",
+      "text": "Basic linear algebra subroutines for embedded optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate-context",
+      "text": "BLASFEO provides a set of basic linear algebra routines, performance-optimized for matrices that fit in cache (i.e. generally up to a couple hundred size in each dimension), as typically encountered in embedded optimization applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "status": "candidate-context",
+      "text": "OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/xianyi/OpenBLAS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xianyi/OpenBLAS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "BLAS-like Library Instantiation Software Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "ashvardanian/NumWars",
       "status": "candidate",
       "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate",
+      "text": "BLASFEO provides a set of basic linear algebra routines, performance-optimized for matrices that fit in cache (i.e. generally up to a couple hundred size in each dimension), as typically encountered in embedded optimization applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/xianyi/OpenBLAS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xianyi/OpenBLAS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +184,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "giaf/blasfeo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flame/blis"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

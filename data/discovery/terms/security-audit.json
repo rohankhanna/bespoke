@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -141,6 +141,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "criterion-rs/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "gnosischain/gbc-deposit-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "EspressoSystems/commit"
     }
   ],
   "term": "Security Audit"

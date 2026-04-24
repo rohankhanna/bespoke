@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly upstream tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Official JavaScript repository for Clerk authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate-context",
+      "text": "Nightly upstream tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clerk/javascript",
+      "status": "candidate",
+      "text": "Nightly upstream tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18843,
+      "status": "candidate",
+      "text": "bath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18843,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18843,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18843,
+      "status": "candidate",
+      "text": "over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18843,
+      "status": "candidate",
+      "text": "pony"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly upstream tests",
+  "concept_id": "nightly-upstream-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nightly-checks.yml",
+      "source_repo": "clerk/javascript"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly upstream tests",
+      "sense_id": "nightly-upstream-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

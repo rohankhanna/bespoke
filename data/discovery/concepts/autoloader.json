@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Autoloader"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "Dependency Manager for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "\"Autoloader\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate",
+      "text": "\"Autoloader\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020516,
+      "status": "candidate",
+      "text": "loadmaster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020515,
+      "status": "candidate",
+      "text": "administrative loading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020514,
+      "status": "candidate",
+      "text": "combat loading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020513,
+      "status": "candidate",
+      "text": "loadout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020512,
+      "status": "candidate",
+      "text": "autocannon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Autoloader",
+  "concept_id": "autoloader",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/autoloader.yml",
+      "source_repo": "composer/composer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Autoloader",
+      "sense_id": "autoloader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

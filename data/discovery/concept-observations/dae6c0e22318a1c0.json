@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JS bindings for browser and Node.js environment of the Rust implementation of HighwayHash, Google's fast, keyed, portable (output is hardware independent) and secure hash function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![highwayhash-wasm](./docs/preview.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![highwayhash-wasm](./docs/preview.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39582684,
+      "status": "candidate",
+      "text": "hashish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29594969,
+      "status": "candidate",
+      "text": "olio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29591651,
+      "status": "candidate",
+      "text": "corned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29589532,
+      "status": "candidate",
+      "text": "mince"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29583252,
+      "status": "candidate",
+      "text": "cannabis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hash",
+      "sense_id": "hash#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "hashish"
+    }
+  ],
+  "concept_id": "hash",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hash",
+  "observation_id": "dae6c0e22318a1c0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "hash",
+  "source_context_snippet": "![highwayhash-wasm](./docs/preview.png)",
+  "source_file": null,
+  "source_repo": "asonnleitner/highwayhash-wasm",
+  "source_repo_description": "JS bindings for browser and Node.js environment of the Rust implementation of HighwayHash, Google's fast, keyed, portable (output is hardware independent) and secure hash function."
+}

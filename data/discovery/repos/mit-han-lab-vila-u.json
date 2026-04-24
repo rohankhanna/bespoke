@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:17:21.303035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4766
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] VILA-U: a Unified Foundation Model Integrating Visual Understanding and Generation",
+    "fork": false,
+    "full_name": "mit-han-lab/vila-u",
+    "html_url": "https://github.com/mit-han-lab/vila-u",
+    "language": "Python",
+    "pushed_at": "2025-04-25T18:45:25Z",
+    "stargazers_count": 422,
+    "topics": [],
+    "updated_at": "2026-04-17T04:13:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

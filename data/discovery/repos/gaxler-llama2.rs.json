@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:04:31.181988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2177
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 36
+    },
+    {
+      "path": "requirements.txt",
+      "size": 123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "llama2-rs",
+    "description": "Inference Llama 2 in one file of pure Rust \ud83e\udd80",
+    "fork": true,
+    "full_name": "gaxler/llama2.rs",
+    "html_url": "https://github.com/gaxler/llama2.rs",
+    "language": "Python",
+    "pushed_at": "2023-09-11T06:21:26Z",
+    "stargazers_count": 235,
+    "topics": [],
+    "updated_at": "2025-11-20T17:25:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

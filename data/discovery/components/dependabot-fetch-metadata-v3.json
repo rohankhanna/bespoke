@@ -1,7 +1,7 @@
 {
   "component": "dependabot/fetch-metadata@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "anexia/k8s-external-dns-webhook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approve-dependabot.yml",
+      "source_repo": "vega/vega"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gopasspw/git-credential-gopass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gopasspw/gopass-hibp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gopasspw/gopass-summon-provider"
     }
   ]
 }

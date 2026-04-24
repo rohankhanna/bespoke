@@ -349,6 +349,102 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate-context",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "\ud83d\udd28 Fast and idiomatic client-driven REST APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate-context",
+      "text": "go generate based graphql server library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate-context",
+      "text": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-yoga",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd8 Rewrite of a fully-featured GraphQL Server with focus on easy setup, performance & great developer experience.  The core of Yoga implements WHATWG Fetch API and can run/deploy on any JS environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-yoga",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/graphql-hive/graphql-yoga/refs/heads/main/website/public/cover.png\" width=\"720\" /></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1 \u00a0A strongly-typed, caching GraphQL client for iOS, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate-context",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate-context",
+      "text": "Use Apollo GraphQL from Scala.js apps!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate-context",
+      "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "Apollo GraphQL VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d \u00a0Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
     }
   ],
   "candidate_glosses": [
@@ -525,6 +621,54 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate",
+      "text": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-yoga",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/graphql-hive/graphql-yoga/refs/heads/main/website/public/cover.png\" width=\"720\" /></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate",
+      "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +886,71 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aws-samples/aws-serverless-airline-booking"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotansimha/graphql-code-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-yoga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/vscode-graphql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-server"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

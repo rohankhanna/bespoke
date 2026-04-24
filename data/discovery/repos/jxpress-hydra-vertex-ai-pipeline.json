@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jxpress/hydra-vertex-ai-pipeline",
+      "target": "reproio/lab_sample_pipelines",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:13.938192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8492
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jxpress/hydra-vertex-ai-pipeline",
+    "html_url": "https://github.com/jxpress/hydra-vertex-ai-pipeline",
+    "language": "Python",
+    "pushed_at": "2022-10-31T02:37:23Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-01-26T04:46:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reproio/lab_sample_pipelines",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

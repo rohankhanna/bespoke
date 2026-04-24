@@ -178,6 +178,66 @@
       "source_repo": "dart4e/dart4e",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "status": "candidate-context",
+      "text": "A step-by-step example/tutorial explaining the benefits of the BLoC architecture and bloc library including tests!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate-context",
+      "text": "Tools to help create flutter apps in neovim using the native lsp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate-context",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart4e/dart4e-studio",
+      "status": "candidate-context",
+      "text": "Eclipse based IDE for the Dart programming language and the Flutter application framework "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e-studio",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "REPL (interactive shell) for Dart, supporting 3rd party packages, hot reload, and full grammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate-context",
+      "text": "Sentry SDK for Dart and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +324,36 @@
       "source_repo": "dart4e/dart4e",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-bloc-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e-studio",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate",
+      "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-dart",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -427,11 +517,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dart4e/dart4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-bloc-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvim-flutter/flutter-tools.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

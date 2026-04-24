@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yannh/kubeconform",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yannh/kubeconform",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yannh/kubeconform",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "yannh/kubeconform",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "yannh/kubeconform",
+      "target": "peaceiris/actions-hugo@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "yannh/kubeconform",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yannh/kubeconform",
+      "target": "compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yannh/kubeconform",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yannh/kubeconform",
+      "target": "validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:42.481929+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 739
+    },
+    {
+      "path": "go.mod",
+      "size": 267
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1276
+    },
+    {
+      "path": ".github/workflows/site.yml",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A FAST Kubernetes manifests validator, with support for Custom Resources!",
+    "fork": false,
+    "full_name": "yannh/kubeconform",
+    "html_url": "https://github.com/yannh/kubeconform",
+    "language": "Go",
+    "pushed_at": "2025-10-13T10:36:27Z",
+    "stargazers_count": 3002,
+    "topics": [
+      "compliance",
+      "kubernetes",
+      "validation"
+    ],
+    "updated_at": "2026-04-23T06:58:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compliance"
+    },
+    {
+      "context_snippet": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    }
+  ]
+}

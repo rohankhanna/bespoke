@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mschwager/cohesion",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mschwager/cohesion",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mschwager/cohesion",
+      "target": "Cohesion CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "class",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "cohesion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "flake8-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "linter-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "measure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion",
+      "target": "quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:04:37.196425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3433
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1388
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool for measuring Python class cohesion.",
+    "fork": false,
+    "full_name": "mschwager/cohesion",
+    "html_url": "https://github.com/mschwager/cohesion",
+    "language": "Python",
+    "pushed_at": "2024-12-09T15:09:55Z",
+    "stargazers_count": 256,
+    "topics": [
+      "class",
+      "code",
+      "cohesion",
+      "flake8",
+      "flake8-plugin",
+      "lint",
+      "linter-plugin",
+      "measure",
+      "module",
+      "oop",
+      "python",
+      "quality"
+    ],
+    "updated_at": "2026-02-24T11:19:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cohesion CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Cohesion CI"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "class"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cohesion"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8-plugin"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-plugin"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "measure"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "module"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality"
+    }
+  ]
+}

@@ -19,6 +19,30 @@
       "source_repo": "mthenw/awesome-layers",
       "status": "candidate-context",
       "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "The container native, cloud agnostic serverless platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/ecommerce-netlify",
+      "status": "candidate-context",
+      "text": "\ud83d\udecd A JAMstack Ecommerce Site built with Nuxt and Netlify Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/ecommerce-netlify",
+      "status": "candidate-context",
+      "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mthenw/awesome-layers",
       "status": "candidate",
       "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/ecommerce-netlify",
+      "status": "candidate",
+      "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "mthenw/awesome-layers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/fn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

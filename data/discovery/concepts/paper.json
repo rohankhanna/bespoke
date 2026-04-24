@@ -43,6 +43,30 @@
       "source_repo": "Paper2Poster/Paper2Poster",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/multiagent-particle-envs",
+      "status": "candidate-context",
+      "text": "Code for a multi-agent particle environment used in the paper \"Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/multiagent-particle-envs",
+      "status": "candidate-context",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "status": "candidate-context",
+      "text": "GitHub page for \"Large Language Model-Brained GUI Agents: A Survey\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Paper2Poster/Paper2Poster",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/multiagent-particle-envs",
+      "status": "candidate",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Paper2Poster/Paper2Poster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openai/multiagent-particle-envs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

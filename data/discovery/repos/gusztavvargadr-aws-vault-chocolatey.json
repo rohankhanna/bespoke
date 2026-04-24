@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-updates.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "Continuous Delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-updates.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-updates.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-updates.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "Check for Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "aws-vault",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "target": "chocolatey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:53.271105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 4480
+    },
+    {
+      "path": ".github/workflows/check-for-updates.yml",
+      "size": 3383
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chocolatey package for AWS Vault by ByteNess",
+    "fork": false,
+    "full_name": "gusztavvargadr/aws-vault-chocolatey",
+    "html_url": "https://github.com/gusztavvargadr/aws-vault-chocolatey",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-20T16:14:25Z",
+    "stargazers_count": 2,
+    "topics": [
+      "aws-vault",
+      "chocolatey"
+    ],
+    "updated_at": "2026-04-20T16:11:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Delivery",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "Continuous Delivery"
+    },
+    {
+      "context_snippet": "Check for Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-updates.yml",
+      "term": "Check for Updates"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![GitHub Actions build](https://github.com/gusztavvargadr/aws-vault-chocolatey/actions/workflows/cd.yml/badge.svg)](https://github.com/gusztavvargadr/aws-vault-chocolatey/actions/workflows/cd.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-vault"
+    },
+    {
+      "context_snippet": "[![GitHub Actions build](https://github.com/gusztavvargadr/aws-vault-chocolatey/actions/workflows/cd.yml/badge.svg)](https://github.com/gusztavvargadr/aws-vault-chocolatey/actions/workflows/cd.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chocolatey"
+    }
+  ]
+}

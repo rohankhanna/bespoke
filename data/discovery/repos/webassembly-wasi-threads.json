@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "WebAssembly/wit-abi-up-to-date@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/wasi-threads",
+      "target": "webassembly/shared-everything-threads",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/wasi-threads",
+      "target": "webassembly/wasi-parallel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-threads",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-threads",
+      "target": "WebAssembly/wit-abi-up-to-date@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:03:35.104218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16053
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "WebAssembly/wasi-threads",
+    "html_url": "https://github.com/WebAssembly/wasi-threads",
+    "language": "WebAssembly",
+    "pushed_at": "2024-07-17T14:07:57Z",
+    "stargazers_count": 172,
+    "topics": [],
+    "updated_at": "2026-04-17T09:08:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/shared-everything-threads",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/wasi-parallel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

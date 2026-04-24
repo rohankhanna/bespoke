@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MhLiao/DB",
+      "target": "mindspore-lab/mindocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MhLiao/DB",
+      "target": "megvii-csg/megreader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MhLiao/DB",
+      "target": "xuannianz/differentiablebinarization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MhLiao/DB",
+      "target": "dbnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MhLiao/DB",
+      "target": "scene-text-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:41.850338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch implementation of \"Real-time Scene Text Detection with Differentiable Binarization\".",
+    "fork": false,
+    "full_name": "MhLiao/DB",
+    "html_url": "https://github.com/MhLiao/DB",
+    "language": "Python",
+    "pushed_at": "2024-03-11T06:19:46Z",
+    "stargazers_count": 2251,
+    "topics": [
+      "dbnet",
+      "scene-text-detection"
+    ],
+    "updated_at": "2026-04-20T13:22:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-csg/megreader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mindspore-lab/mindocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuannianz/differentiablebinarization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* DBNet and DBNet++ are included in [MindOCR](https://github.com/mindspore-lab/mindocr/tree/main/configs/det/dbnet), a MindSpore implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbnet"
+    },
+    {
+      "context_snippet": "* DBNet and DBNet++ are included in [MindOCR](https://github.com/mindspore-lab/mindocr/tree/main/configs/det/dbnet), a MindSpore implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-detection"
+    }
+  ]
+}

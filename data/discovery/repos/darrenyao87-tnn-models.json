@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:55:59.369674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "darrenyao87/tnn-models",
+    "html_url": "https://github.com/darrenyao87/tnn-models",
+    "language": "C++",
+    "pushed_at": "2023-07-17T06:52:58Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-03-12T02:28:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

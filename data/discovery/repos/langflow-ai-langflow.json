@@ -316,7 +316,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:07:09.090137+00:00",
+  "fetched_at": "2026-04-24T07:08:08.722466+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -328,7 +328,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 15293
+      "size": 15493
     },
     {
       "path": ".github/workflows/add-labels.yml",
@@ -368,8 +368,8 @@
     "full_name": "langflow-ai/langflow",
     "html_url": "https://github.com/langflow-ai/langflow",
     "language": "Python",
-    "pushed_at": "2026-04-23T22:05:15Z",
-    "stargazers_count": 147307,
+    "pushed_at": "2026-04-24T04:18:21Z",
+    "stargazers_count": 147326,
     "topics": [
       "agents",
       "chatgpt",
@@ -378,7 +378,7 @@
       "multiagent",
       "react-flow"
     ],
-    "updated_at": "2026-04-23T21:15:56Z"
+    "updated_at": "2026-04-24T06:56:49Z"
   },
   "repo_links": [],
   "terms": [

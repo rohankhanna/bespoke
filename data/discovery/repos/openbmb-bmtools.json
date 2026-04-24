@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/BMTools",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/BMTools",
+      "target": "openbmb/xagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/BMTools",
+      "target": "openbmb/toolbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/BMTools",
+      "target": "openbmb/cpm-bee",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:31.538083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8920
+    },
+    {
+      "path": "requirements.txt",
+      "size": 476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins",
+    "fork": false,
+    "full_name": "OpenBMB/BMTools",
+    "html_url": "https://github.com/OpenBMB/BMTools",
+    "language": "Python",
+    "pushed_at": "2023-12-05T05:25:27Z",
+    "stargazers_count": 2778,
+    "topics": [],
+    "updated_at": "2026-04-23T11:53:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/cpm-bee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/toolbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/xagent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

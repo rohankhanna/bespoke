@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeffffffli/CrowdPose",
+      "target": "mvig-sjtu/alphapose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:53.876966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2911
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark, CVPR 2019, Oral",
+    "fork": false,
+    "full_name": "jeffffffli/CrowdPose",
+    "html_url": "https://github.com/jeffffffli/CrowdPose",
+    "language": "Python",
+    "pushed_at": "2023-01-26T13:06:52Z",
+    "stargazers_count": 334,
+    "topics": [],
+    "updated_at": "2026-03-26T06:41:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mvig-sjtu/alphapose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

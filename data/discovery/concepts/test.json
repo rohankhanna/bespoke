@@ -3395,6 +3395,696 @@
       "source_repo": "conda/conda-lock",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate-context",
+      "text": "Python SDK for ZhiPu AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": ":boom: :speech_balloon: errors but with error code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "IPFS implementation in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "status": "candidate-context",
+      "text": "KurrentDB .NET Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurtmckee/feedparser",
+      "status": "candidate-context",
+      "text": "Parse feeds in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurtmckee/feedparser",
+      "status": "candidate-context",
+      "text": "\"\ud83e\uddea Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "GitHub Action that formats Java files following Google Style guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "herumi/xbyak",
+      "status": "candidate-context",
+      "text": "A JIT assembler for x86/x64 architectures supporting FPU, MMX, SSE (1-4), AVX (1-2, 512), APX, and AVX10.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "herumi/xbyak",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/lang",
+      "status": "candidate-context",
+      "text": "A python API for evaluating language support in the Google Fonts collection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/lang",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/hiredis-rb",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for hiredis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/hiredis-rb",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "A small command line tool to simplify releasing software by updating all version strings in your source code by the correct increment and optionally commit and tag the changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Deploy models in ONNX format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaiNNer-org/spandrel",
+      "status": "candidate-context",
+      "text": "Spandrel gives your project support for various PyTorch architectures meant for AI Super-Resolution, restoration, and inpainting. Based on the model support implemented in chaiNNer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/spandrel",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate-context",
+      "text": "Auto detecting, masking and inpainting with detection model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate-context",
+      "text": "Dkron - Distributed, fault tolerant job scheduling system https://dkron.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/cors",
+      "status": "candidate-context",
+      "text": "CORS net/http middleware for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/cors",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/docgen",
+      "status": "candidate-context",
+      "text": "auto-generate routing documentation in JSON or Markdown for a `chi` Router from your app source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/docgen",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "Configuration manager for Aerokube products"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate-context",
+      "text": "This library provides support for \"legacy\" Python Packaging functionality removed from https://github.com/pypa/packaging."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/ms",
+      "status": "candidate-context",
+      "text": "Tiny millisecond conversion utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/ms",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protobufjs/protobuf.js",
+      "status": "candidate-context",
+      "text": "Protocol Buffers for JavaScript & TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protobufjs/protobuf.js",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate-context",
+      "text": "Compile protocol buffer messages to TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate-context",
+      "text": "Fix IntelliJ/WebStorm's npm integration under nodenv."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate-context",
+      "text": "A nodenv plugin providing node-build definitions for Node.js prereleases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate-context",
+      "text": "A generic framework for on-demand, incrementalized computation. Inspired by adapton, glimmer, and rustc's query system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3-format",
+      "status": "candidate-context",
+      "text": "Format numbers for human consumption."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-format",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate-context",
+      "text": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rose-pine/rose-pine-bloom",
+      "status": "candidate-context",
+      "text": "Generate Ros\u00e9 Pine themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-bloom",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NiklasRosenstein/pbzx",
+      "status": "candidate-context",
+      "text": "Fork of the pbzx stream parser (www.tonymacx86.com/general-help/135458-pbzx-stream-parser.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiklasRosenstein/pbzx",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kikito/inspect.lua",
+      "status": "candidate-context",
+      "text": "Human-readable representation of Lua tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kikito/inspect.lua",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicDuck/grug-far.nvim",
+      "status": "candidate-context",
+      "text": "Find And Replace plugin for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicDuck/grug-far.nvim",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "status": "candidate-context",
+      "text": "Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/eradicate",
+      "status": "candidate-context",
+      "text": "Removes commented-out code from Python files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/eradicate",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate-context",
+      "text": "Go development plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saghen/frizbee",
+      "status": "candidate-context",
+      "text": "Fast typo-resistant fuzzy matching via SIMD smith waterman, similar algorithm to FZF/FZY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/frizbee",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leaktk/gitleaks",
+      "status": "candidate-context",
+      "text": "Protect and discover secrets using Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leaktk/gitleaks",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate-context",
+      "text": "LR(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/bake-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to use Docker Buildx Bake as a high-level build command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/bake-action",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to extract metadata (tags, labels) from Git reference and GitHub events for Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Milly/runtray-ps",
+      "status": "candidate-context",
+      "text": "Run any console program in the notification area."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Milly/runtray-ps",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "engine262/engine262",
+      "status": "candidate-context",
+      "text": "An implementation of ECMA-262 in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engine262/engine262",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dghubble/go-twitter",
+      "status": "candidate-context",
+      "text": "Go Twitter REST and Streaming API v1.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/go-twitter",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate-context",
+      "text": "EventSource client for Node.js, browsers and other JavaScript runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-webhooks",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rake-compiler/rake-compiler",
+      "status": "candidate-context",
+      "text": "Provide a standard and simplified way to build and package Ruby C and Java extensions using Rake as glue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rake-compiler/rake-compiler",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "wrap methods with before/after hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/bypass4netns",
+      "status": "candidate-context",
+      "text": "[Experimental] Accelerates slirp4netns using SECCOMP_IOCTL_NOTIF_ADDFD. As fast as `--net=host`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/bypass4netns",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/windows-installer",
+      "status": "candidate-context",
+      "text": "Build Windows Installers for Electron apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-installer",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "Encode data with built-in or custom encodings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "Create a manifest describing the abilities of an abstract-level database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "Superseded by many-level. Multilevel implemented using leveldowns with reconnect support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate-context",
+      "text": "Demonstrates bundling level for browsers using browserify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "Demonstrates bundling level for browsers using webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiousdannii/asyncglk",
+      "status": "candidate-context",
+      "text": "AsyncGlk: A Typescript Glk library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/asyncglk",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -5099,6 +5789,354 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda/conda-lock",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurtmckee/feedparser",
+      "status": "candidate",
+      "text": "\"\ud83e\uddea Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "herumi/xbyak",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/lang",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/hiredis-rb",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/spandrel",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/cors",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/docgen",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "di/packaging_legacy",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/ms",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protobufjs/protobuf.js",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-prerelease",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-format",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/home-manager",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-bloom",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiklasRosenstein/pbzx",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kikito/inspect.lua",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicDuck/grug-far.nvim",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/eradicate",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/frizbee",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leaktk/gitleaks",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/bake-action",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Milly/runtray-ps",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engine262/engine262",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/go-twitter",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-webhooks",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rake-compiler/rake-compiler",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/bypass4netns",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-installer",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/transcoder",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/supports",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/multileveldown",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browserify-starter",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/asyncglk",
       "status": "candidate",
       "text": "test"
     }
@@ -7117,11 +8155,437 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "semantic-release/error"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ipfs/js-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "panva/jose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kurtmckee/feedparser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "axel-op/googlejavaformat-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "herumi/xbyak"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "googlefonts/lang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "redis/hiredis-rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "callowayproject/bump-my-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "audeering/audonnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "chaiNNer-org/spandrel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Bing-su/adetailer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-chi/cors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-chi/docgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "di/packaging_legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "protobufjs/protobuf.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tqdm/tqdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "astral-sh/ruff-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/jetbrains-npm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build-prerelease"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "salsa-rs/salsa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "d3/d3-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/home-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rose-pine/rose-pine-bloom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nixGL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NiklasRosenstein/pbzx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kikito/inspect.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MagicDuck/grug-far.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carrierwaveuploader/carrierwave"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fatih/vim-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "saghen/frizbee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "leaktk/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "lalrpop/lalrpop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "docker/bake-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "docker/metadata-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Milly/runtray-ps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "engine262/engine262"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/go-twitter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EventSource/eventsource"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/openapi-webhooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/webhooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/webhooks-methods.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rake-compiler/rake-compiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gr2m/before-after-hook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rootless-containers/bypass4netns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/windows-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/transcoder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/supports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/browserify-starter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/webpack-starter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "curiousdannii/asyncglk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

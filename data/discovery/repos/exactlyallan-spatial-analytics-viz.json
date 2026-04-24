@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exactlyallan/Spatial-Analytics-Viz",
+      "target": "ajaythorve/spatial-analytics-viz",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:58.039941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4007
+    },
+    {
+      "path": "Dockerfile",
+      "size": 722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Given a point on map, using CuSpatial, Cugraph to create a polygon (N minutes apart), and analyze all points within",
+    "fork": true,
+    "full_name": "exactlyallan/Spatial-Analytics-Viz",
+    "html_url": "https://github.com/exactlyallan/Spatial-Analytics-Viz",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-03-31T17:19:13Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-09-22T07:59:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajaythorve/spatial-analytics-viz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

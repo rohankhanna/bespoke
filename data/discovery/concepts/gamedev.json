@@ -127,6 +127,30 @@
       "source_repo": "raysan5/raylib",
       "status": "candidate-context",
       "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate-context",
+      "text": "Pascal bindings to the C API for BGFX, \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate-context",
+      "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "A collection of small sample games made with raylib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "raysan5/raylib",
       "status": "candidate",
       "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate",
+      "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "raysan5/raylib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript implementation of Bitcoin IPLD formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**This project is no longer under active development and has been archived. See https://github.com/ipld/js-bitcoin for a newer and more complete implementation of a Bitcoin IPLD codec.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**This project is no longer under active development and has been archived. See https://github.com/ipld/js-bitcoin for a newer and more complete implementation of a Bitcoin IPLD codec.**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipld-format",
+      "sense_id": "ipld-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ipld-format",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ipld-format",
+  "observation_id": "d8e9a6d6d240eaf9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "ipld-format",
+  "source_context_snippet": "**This project is no longer under active development and has been archived. See https://github.com/ipld/js-bitcoin for a newer and more complete implementation of a Bitcoin IPLD codec.**",
+  "source_file": null,
+  "source_repo": "ipld/js-ipld-bitcoin",
+  "source_repo_description": "JavaScript implementation of Bitcoin IPLD formats"
+}

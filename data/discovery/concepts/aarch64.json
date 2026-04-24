@@ -67,6 +67,30 @@
       "source_repo": "simdjson/simdjson",
       "status": "candidate-context",
       "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated UTF-8 validation for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "simdjson/simdjson",
       "status": "candidate",
       "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate",
+      "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -165,11 +201,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bet4it/udbserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rusticstuff/simdutf8"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

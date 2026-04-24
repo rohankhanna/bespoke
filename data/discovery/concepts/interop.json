@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "interop"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate-context",
+      "text": "Pascal bindings to the C API for BGFX, \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate-context",
+      "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akira13641/PasBGFX",
+      "status": "candidate",
+      "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957931,
+      "status": "candidate",
+      "text": "interoperability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957608,
+      "status": "candidate",
+      "text": "interoperable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958517,
+      "status": "candidate",
+      "text": "interworking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958516,
+      "status": "candidate",
+      "text": "interoperation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958515,
+      "status": "candidate",
+      "text": "interface"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "interop",
+  "concept_id": "interop",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interop",
+      "sense_id": "interop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

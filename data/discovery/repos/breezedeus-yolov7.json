@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/yolov7",
+      "target": "linaom1214/tensorrt-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/yolov7",
+      "target": "alexeyab/darknet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/yolov7",
+      "target": "dingxiaoh/repvgg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/yolov7",
+      "target": "jugghm/orepa_cvpr2022",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:40.807116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12874
+    },
+    {
+      "path": "requirements.txt",
+      "size": 950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of paper - YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+    "fork": true,
+    "full_name": "breezedeus/yolov7",
+    "html_url": "https://github.com/breezedeus/yolov7",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-06T04:24:13Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-08-15T01:58:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexeyab/darknet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repvgg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jugghm/orepa_cvpr2022",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linaom1214/tensorrt-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

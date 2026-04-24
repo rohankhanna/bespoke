@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "gitleaks/gitleaks-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@8b122486cedac8393e77aa9734c3528886e4a1a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@dc7b9719a96d48369863986a06765841d7ea23f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "gitleaks/gitleaks-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "gitleaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "docker/setup-qemu-action@8b122486cedac8393e77aa9734c3528886e4a1a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "docker/setup-buildx-action@dc7b9719a96d48369863986a06765841d7ea23f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "Create and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "leaktk/gitleaks",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:17:13.083213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28360
+    },
+    {
+      "path": "Dockerfile",
+      "size": 463
+    },
+    {
+      "path": "go.mod",
+      "size": 3677
+    },
+    {
+      "path": ".github/workflows/gitleaks.yml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1663
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Protect and discover secrets using Gitleaks \ud83d\udd11",
+    "fork": true,
+    "full_name": "leaktk/gitleaks",
+    "html_url": "https://github.com/leaktk/gitleaks",
+    "language": "Go",
+    "pushed_at": "2026-02-13T19:37:18Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-08T21:55:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "gitleaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "term": "gitleaks"
+    },
+    {
+      "context_snippet": "Create and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

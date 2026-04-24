@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Implementation of EAGLE-1 (ICML'24), EAGLE-2 (EMNLP'24), and EAGLE-3 (NeurIPS'25)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-inference",
+      "sense_id": "llm-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llm-inference",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llm-inference",
+  "observation_id": "7def7b7effc552d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "llm-inference",
+  "source_context_snippet": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>",
+  "source_file": null,
+  "source_repo": "SafeAILab/EAGLE",
+  "source_repo_description": "Official Implementation of EAGLE-1 (ICML'24), EAGLE-2 (EMNLP'24), and EAGLE-3 (NeurIPS'25)."
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale-issues.yml",
       "source_repo": "Homebrew/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
     }
   ],
   "term": "Manage stale issues"

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tilt-dev/tilt-apiserver",
+      "target": "tilt-dev/tilt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tilt-dev/tilt-apiserver",
+      "target": "kubernetes-sigs/apiserver-runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tilt-dev/tilt-apiserver",
+      "target": "thetirefire/badidea",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:47.613382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2185
+    },
+    {
+      "path": "go.mod",
+      "size": 5276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tilt apiserver based on kubernetes/apiserver",
+    "fork": false,
+    "full_name": "tilt-dev/tilt-apiserver",
+    "html_url": "https://github.com/tilt-dev/tilt-apiserver",
+    "language": "Go",
+    "pushed_at": "2026-04-09T15:43:05Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-14T11:36:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/apiserver-runtime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thetirefire/badidea",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tilt-dev/tilt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

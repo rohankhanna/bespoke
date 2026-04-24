@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "chinese-corpus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS, \u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chinese-corpus",
+  "concept_id": "chinese-corpus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/albert_zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-corpus",
+      "sense_id": "chinese-corpus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

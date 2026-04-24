@@ -553,6 +553,114 @@
       "source_repo": "Heap-Hop/if-watch",
       "status": "candidate-context",
       "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-examples/example-fork-go-template",
+      "status": "candidate-context",
+      "text": "This is a template to create a repo to be fork and go based on an example of js-ipfs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/example-fork-go-template",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to automate setting DNSLink record "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate-context",
+      "text": "Standalone, vendor-agnostic Pinning Service API for IPFS ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate-context",
+      "text": "Migrations for the filesystem repository of ipfs clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Browser extension that simplifies access to IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "React components for https://explore.ipld.io and ipfs-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate-context",
+      "text": "IPFS utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate-context",
+      "text": "Composable and future-proof network addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/if-watch",
+      "status": "candidate-context",
+      "text": "Cross platform asynchronous network watcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/if-watch",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
     }
   ],
   "candidate_glosses": [
@@ -829,6 +937,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Heap-Hop/if-watch",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/example-fork-go-template",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/dnslink-action",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/fs-repo-migrations",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/if-watch",
       "status": "candidate",
       "text": "Close Generated PRs"
     }
@@ -1168,11 +1330,77 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "Heap-Hop/if-watch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-examples/example-fork-go-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipshipyard/dnslink-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/pinning-services-api-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/fs-repo-migrations"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipld-explorer-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/js-ipfs-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/kubo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/go-multiaddr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/if-watch"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

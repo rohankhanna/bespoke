@@ -33,6 +33,30 @@
       "source_repo": "darccio/mergo",
       "status": "candidate-context",
       "text": "[![GitHub release][5]][6]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "Recursively merge values in a JavaScript object. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate-context",
+      "text": "Deeply assign the enumerable properties of source objects to a destination object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate-context",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
     }
   ],
   "candidate_glosses": [
@@ -47,6 +71,18 @@
       "source_repo": "darccio/mergo",
       "status": "candidate",
       "text": "[![GitHub release][5]][6]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/assign-deep",
+      "status": "candidate",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
     }
   ],
   "candidate_related_terms": [
@@ -138,11 +174,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

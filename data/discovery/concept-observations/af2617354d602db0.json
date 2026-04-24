@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Webpack plugin to enable \"Fast Refresh\" (also previously known as Hot Reloading) for React components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[actions]: https://github.com/pmmmwh/react-refresh-webpack-plugin/actions/workflows/ci.yml"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[actions]: https://github.com/pmmmwh/react-refresh-webpack-plugin/actions/workflows/ci.yml"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hot-reload",
+      "sense_id": "hot-reload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hot-reload",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hot-reload",
+  "observation_id": "af2617354d602db0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "hot-reload",
+  "source_context_snippet": "[actions]: https://github.com/pmmmwh/react-refresh-webpack-plugin/actions/workflows/ci.yml",
+  "source_file": null,
+  "source_repo": "pmmmwh/react-refresh-webpack-plugin",
+  "source_repo_description": "A Webpack plugin to enable \"Fast Refresh\" (also previously known as Hot Reloading) for React components."
+}

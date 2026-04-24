@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dumtux/Allwinner-H616",
+      "target": "bigtreetech/cb1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:26.415176+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "\ud83d\udd25 Linux SDK for Allwinner H616, based on armbian-build",
+    "fork": true,
+    "full_name": "dumtux/Allwinner-H616",
+    "html_url": "https://github.com/dumtux/Allwinner-H616",
+    "language": "C",
+    "pushed_at": "2023-07-09T19:13:25Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-03-25T04:19:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigtreetech/cb1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

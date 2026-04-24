@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Helm Chart linting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Helm Chart linting"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "tidying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9732,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9706,
+      "status": "candidate",
+      "text": "binnacle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9706,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Helm Chart linting",
+      "sense_id": "helm-chart-linting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "helm-chart-linting",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "helm-chart-linting",
+  "observation_id": "b9c285797ac72694",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Helm Chart linting",
+  "source_context_snippet": "Helm Chart linting",
+  "source_file": ".github/workflows/helm-lint.yml",
+  "source_repo": "minio/minio",
+  "source_repo_description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license."
+}

@@ -44,6 +44,18 @@
       "source_repo": "joseluisq/paket",
       "status": "candidate-context",
       "text": "release-docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "a vendor-agnostic gateway conformance test suite for implementers of IPFS Gateways to ensure compliance with  https://specs.ipfs.tech/http-gateways/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "Release Docker"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "joseluisq/paket",
       "status": "candidate",
       "text": "release-docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate",
+      "text": "Release Docker"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/release.docker.yml",
       "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "ipfs/gateway-conformance"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

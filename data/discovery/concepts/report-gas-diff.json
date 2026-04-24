@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Report gas diff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "Aligned is a verification layer for zero-knowledge proofs using EigenLayer. Our mission is to accelerate the adoption of zero-knowledge and validity proofs on Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "Report gas diff"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate",
+      "text": "Report gas diff"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22584,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22473,
+      "status": "candidate",
+      "text": "barometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22473,
+      "status": "candidate",
+      "text": "building block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22473,
+      "status": "candidate",
+      "text": "crust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22473,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Report gas diff",
+  "concept_id": "report-gas-diff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/foundry-gas-diff.yml",
+      "source_repo": "yetanotherco/aligned_layer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Report gas diff",
+      "sense_id": "report-gas-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

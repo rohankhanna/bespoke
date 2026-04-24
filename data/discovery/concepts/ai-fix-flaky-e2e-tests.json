@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AI Fix Flaky E2E Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "Streamlit \u2014 A faster way to build and share data apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "AI Fix Flaky E2E Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate",
+      "text": "AI Fix Flaky E2E Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17406,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17203,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17203,
+      "status": "candidate",
+      "text": "rig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14445,
+      "status": "candidate",
+      "text": "java"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14420,
+      "status": "candidate",
+      "text": "metarule"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AI Fix Flaky E2E Tests",
+  "concept_id": "ai-fix-flaky-e2e-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "source_repo": "streamlit/streamlit"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Fix Flaky E2E Tests",
+      "sense_id": "ai-fix-flaky-e2e-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "target": "hholtmann/smcfancontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "target": "cpu-temperature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "target": "sensors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavoiesl/osx-cpu-temp",
+      "target": "temperature",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:59.468212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 929
+    },
+    {
+      "path": "package.json",
+      "size": 237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Outputs current CPU temperature for OSX",
+    "fork": false,
+    "full_name": "lavoiesl/osx-cpu-temp",
+    "html_url": "https://github.com/lavoiesl/osx-cpu-temp",
+    "language": "C",
+    "pushed_at": "2024-08-20T15:27:31Z",
+    "stargazers_count": 943,
+    "topics": [
+      "cpu-temperature",
+      "macos",
+      "osx",
+      "sensors",
+      "temperature"
+    ],
+    "updated_at": "2026-04-08T16:35:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hholtmann/smcfancontrol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Outputs current CPU temperature for OSX.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpu-temperature"
+    },
+    {
+      "context_snippet": "Outputs current CPU temperature for OSX.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Outputs current CPU temperature for OSX.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensors"
+    },
+    {
+      "context_snippet": "Outputs current CPU temperature for OSX.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temperature"
+    }
+  ]
+}

@@ -19,12 +19,30 @@
       "source_repo": "microsoft/playwright-python",
       "status": "candidate-context",
       "text": "Test Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "The friendly PIL fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "Test Docker"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/playwright-python",
+      "status": "candidate",
+      "text": "Test Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
       "status": "candidate",
       "text": "Test Docker"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test_docker.yml",
       "source_repo": "microsoft/playwright-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test-docker.yml",
+      "source_repo": "uploadcare/pillow-simd"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

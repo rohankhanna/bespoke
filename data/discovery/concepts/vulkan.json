@@ -319,6 +319,54 @@
       "source_repo": "Tobski/simple_vulkan_synchronization",
       "status": "candidate-context",
       "text": "In an effort to make Vulkan synchronization more accessible, I created this"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/filament",
+      "status": "candidate-context",
+      "text": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/filament",
+      "status": "candidate-context",
+      "text": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Making it easier to work with shaders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Slang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "status": "candidate-context",
+      "text": "Minimalist tutorial and code for doing something meaningful with Vulkan in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "status": "candidate-context",
+      "text": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "OpenGL Mathematics (GLM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "ci"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +525,30 @@
       "source_repo": "Tobski/simple_vulkan_synchronization",
       "status": "candidate",
       "text": "In an effort to make Vulkan synchronization more accessible, I created this"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/filament",
+      "status": "candidate",
+      "text": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate",
+      "text": "Slang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "status": "candidate",
+      "text": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate",
+      "text": "ci"
     }
   ],
   "candidate_related_terms": [
@@ -667,11 +739,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Tobski/simple_vulkan_synchronization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google/filament"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shader-slang/slang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SaschaWillems/HowToVulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "g-truc/glm"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

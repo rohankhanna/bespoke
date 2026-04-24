@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "german"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate-context",
+      "text": "Thorsten-Voice: A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate-context",
+      "text": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate",
+      "text": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034800,
+      "status": "candidate",
+      "text": "teutonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034505,
+      "status": "candidate",
+      "text": "germanic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034066,
+      "status": "candidate",
+      "text": "high german"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035087,
+      "status": "candidate",
+      "text": "german language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034976,
+      "status": "candidate",
+      "text": "deutsch"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3030,
+      "status": "candidate",
+      "text": "germanic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "german language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "high german"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "teutonic"
+    }
+  ],
+  "canonical_name": "german",
+  "concept_id": "german",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "german",
+      "sense_id": "german#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

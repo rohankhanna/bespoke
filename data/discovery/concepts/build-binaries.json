@@ -104,6 +104,18 @@
       "source_repo": "j178/prek",
       "status": "candidate-context",
       "text": "\"Build binaries\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "CNCF Jaeger, a Distributed Tracing Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "Build binaries"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +166,12 @@
       "source_repo": "j178/prek",
       "status": "candidate",
       "text": "\"Build binaries\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate",
+      "text": "Build binaries"
     }
   ],
   "candidate_related_terms": [
@@ -263,11 +281,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci-build-binaries.yml",
+      "source_repo": "jaegertracing/jaeger"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

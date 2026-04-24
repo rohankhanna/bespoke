@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:14:57.181597+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Color Configurations for OpenColorIO -- OBSOLETE, use https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+    "fork": false,
+    "full_name": "imageworks/OpenColorIO-Configs",
+    "html_url": "https://github.com/imageworks/OpenColorIO-Configs",
+    "language": "Roff",
+    "pushed_at": "2025-09-09T03:16:44Z",
+    "stargazers_count": 458,
+    "topics": [],
+    "updated_at": "2026-04-21T07:54:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

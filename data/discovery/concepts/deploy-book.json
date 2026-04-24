@@ -32,6 +32,18 @@
       "source_repo": "rust-lang/rust-bindgen",
       "status": "candidate-context",
       "text": "Deploy book"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/lang-team",
+      "status": "candidate-context",
+      "text": "Home of the Rust lang team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/lang-team",
+      "status": "candidate-context",
+      "text": "Deploy book"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate",
+      "text": "Deploy book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/lang-team",
       "status": "candidate",
       "text": "Deploy book"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/deploy-book.yml",
       "source_repo": "rust-lang/rust-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/lang-team"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

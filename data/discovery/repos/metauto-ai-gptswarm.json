@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "openai/swarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "Pytest GPTSwarm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "self-improvement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "society-of-mind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm",
+      "target": "swarm-intelligence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:44.420102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8202
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1750
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc1d  The First Self-Improving Agentic Solution",
+    "fork": false,
+    "full_name": "metauto-ai/GPTSwarm",
+    "html_url": "https://github.com/metauto-ai/GPTSwarm",
+    "language": "Python",
+    "pushed_at": "2026-02-05T10:39:09Z",
+    "stargazers_count": 987,
+    "topics": [
+      "agent",
+      "ai",
+      "gpt",
+      "multi-agent",
+      "python",
+      "reinforcement-learning",
+      "self-improvement",
+      "society-of-mind",
+      "swarm-intelligence"
+    ],
+    "updated_at": "2026-04-22T22:04:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/swarm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pytest GPTSwarm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Pytest GPTSwarm"
+    },
+    {
+      "context_snippet": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-improvement"
+    },
+    {
+      "context_snippet": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "society-of-mind"
+    },
+    {
+      "context_snippet": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swarm-intelligence"
+    }
+  ]
+}

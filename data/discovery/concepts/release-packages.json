@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Packages"
+    "Release Packages",
+    "Release packages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,48 @@
       "source_repo": "rollup/plugins",
       "status": "candidate-context",
       "text": "Release Packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-cpp",
+      "status": "candidate-context",
+      "text": "C++ SDK for Milvus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-cpp",
+      "status": "candidate-context",
+      "text": "Release packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/developer-tooling",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0\ufe0f SDKs and CLI for interacting with Celo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/developer-tooling",
+      "status": "candidate-context",
+      "text": "Release Packages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "rollup/plugins",
+      "status": "candidate",
+      "text": "Release Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-cpp",
+      "status": "candidate",
+      "text": "Release packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/developer-tooling",
       "status": "candidate",
       "text": "Release Packages"
     }
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "rollup/plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "milvus-io/milvus-sdk-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "celo-org/developer-tooling"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

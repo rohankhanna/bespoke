@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:56:56.943698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the safe shutdown script and python pwm fan control sample code.",
+    "fork": true,
+    "full_name": "pimlie/geekworm-x-c1",
+    "html_url": "https://github.com/pimlie/geekworm-x-c1",
+    "language": null,
+    "pushed_at": "2023-07-11T12:23:16Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-07T09:47:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

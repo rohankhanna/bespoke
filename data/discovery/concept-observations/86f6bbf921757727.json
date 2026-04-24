@@ -84,7 +84,7 @@
   "normalized_form": "tests---nightly",
   "observation_id": "86f6bbf921757727",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Tests - Nightly",
   "source_context_snippet": "Tests - Nightly",
   "source_file": ".github/workflows/nightly.yml",

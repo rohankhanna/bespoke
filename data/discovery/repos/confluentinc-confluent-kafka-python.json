@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/confluent-kafka-python",
+      "target": "confluentinc/librdkafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/confluent-kafka-python",
+      "target": "confluentinc/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-python",
+      "target": "confluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-python",
+      "target": "kafka-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-python",
+      "target": "kafka-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-python",
+      "target": "librdkafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-python",
+      "target": "python-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:00:35.674859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16316
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Confluent's Kafka Python Client",
+    "fork": false,
+    "full_name": "confluentinc/confluent-kafka-python",
+    "html_url": "https://github.com/confluentinc/confluent-kafka-python",
+    "language": "Python",
+    "pushed_at": "2026-04-23T06:31:57Z",
+    "stargazers_count": 471,
+    "topics": [
+      "confluent",
+      "kafka-client",
+      "kafka-protocol",
+      "librdkafka",
+      "python-client"
+    ],
+    "updated_at": "2026-04-24T02:30:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confluentinc/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confluentinc/librdkafka",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=tm.plg.cflt-oss-repos\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluent"
+    },
+    {
+      "context_snippet": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=tm.plg.cflt-oss-repos\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-client"
+    },
+    {
+      "context_snippet": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=tm.plg.cflt-oss-repos\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-protocol"
+    },
+    {
+      "context_snippet": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=tm.plg.cflt-oss-repos\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librdkafka"
+    },
+    {
+      "context_snippet": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=tm.plg.cflt-oss-repos\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-client"
+    }
+  ]
+}

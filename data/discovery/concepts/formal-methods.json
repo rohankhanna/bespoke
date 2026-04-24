@@ -19,6 +19,18 @@
       "source_repo": "awslabs/aws-lc-verification",
       "status": "candidate-context",
       "text": "[![.github/workflows/main.yml](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml/badge.svg)](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "the champagne of beta embedded databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "<table style=\"width:100%\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "awslabs/aws-lc-verification",
       "status": "candidate",
       "text": "[![.github/workflows/main.yml](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml/badge.svg)](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate",
+      "text": "<table style=\"width:100%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "awslabs/aws-lc-verification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spacejam/sled"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -261,13 +261,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "eric-haibin-lin/verl-data",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "verl-project/verl",
       "target": "agent-rl/research",
       "target_type": "repository"
     },
@@ -275,14 +268,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "csfufu/revisual-r1",
+      "target": "gair-nlp/torl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "gair-nlp/cognition-engineering",
+      "target": "ganler/code-r1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "gyhdog99/racro2",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T21:47:50.742544+00:00",
+  "fetched_at": "2026-04-24T09:21:00.619858+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-04-23T13:03:24Z",
-    "stargazers_count": 20896,
+    "pushed_at": "2026-04-24T07:20:56Z",
+    "stargazers_count": 20908,
     "topics": [],
-    "updated_at": "2026-04-23T14:55:47Z"
+    "updated_at": "2026-04-24T09:01:38Z"
   },
   "repo_links": [
     {
@@ -596,17 +596,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "csfufu/revisual-r1",
+      "full_name": "gair-nlp/torl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "eric-haibin-lin/verl-data",
+      "full_name": "ganler/code-r1",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gair-nlp/cognition-engineering",
+      "full_name": "gyhdog99/racro2",
       "source_file": "README.md"
     }
   ],

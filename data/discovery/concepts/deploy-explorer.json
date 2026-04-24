@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Explorer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "Aligned is a verification layer for zero-knowledge proofs using EigenLayer. Our mission is to accelerate the adoption of zero-knowledge and validity proofs on Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "\"Deploy Explorer\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate",
+      "text": "\"Deploy Explorer\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11457,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11457,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11447,
+      "status": "candidate",
+      "text": "braun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11436,
+      "status": "candidate",
+      "text": "agora"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11436,
+      "status": "candidate",
+      "text": "ambulate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Explorer",
+  "concept_id": "deploy-explorer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/explorer.yml",
+      "source_repo": "yetanotherco/aligned_layer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Explorer",
+      "sense_id": "deploy-explorer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "rust-nvml/nvml-wrapper",
       "status": "candidate-context",
       "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/polyline-ffi",
+      "status": "candidate-context",
+      "text": "FFI Bindings for the rust-polyline crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/polyline-ffi",
+      "status": "candidate-context",
+      "text": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rust-nvml/nvml-wrapper",
       "status": "candidate",
       "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/polyline-ffi",
+      "status": "candidate",
+      "text": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +70,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "urschrei/polyline-ffi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

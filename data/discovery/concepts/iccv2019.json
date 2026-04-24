@@ -19,6 +19,30 @@
       "source_repo": "tianzhi0549/FCOS",
       "status": "candidate-context",
       "text": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "WB color augmenter improves the accuracy of image classification and image semantic segmentation methods by emulating different WB effects  (ICCV 2019) [Python & Matlab]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "Text recognition (optical character recognition) with deep learning methods, ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "tianzhi0549/FCOS",
       "status": "candidate",
       "text": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "tianzhi0549/FCOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

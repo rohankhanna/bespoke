@@ -1,7 +1,7 @@
 {
   "component": "Homebrew/actions/setup-homebrew@master",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-celocli-executables.yml",
+      "source_repo": "celo-org/developer-tooling"
     }
   ]
 }

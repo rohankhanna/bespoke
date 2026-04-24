@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "count"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "simple tool to count SLOC (source lines of code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate-context",
+      "text": "Create stats of your source code:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flosse/sloc",
+      "status": "candidate",
+      "text": "Create stats of your source code:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039174,
+      "status": "candidate",
+      "text": "enumeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038768,
+      "status": "candidate",
+      "text": "enumerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038347,
+      "status": "candidate",
+      "text": "numeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037032,
+      "status": "candidate",
+      "text": "reckoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036654,
+      "status": "candidate",
+      "text": "reckon"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36035,
+      "status": "candidate",
+      "text": "consider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24036,
+      "status": "candidate",
+      "text": "reckon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13034,
+      "status": "candidate",
+      "text": "enumeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11041,
+      "status": "candidate",
+      "text": "tally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8036,
+      "status": "candidate",
+      "text": "reckoning"
+    }
+  ],
+  "canonical_name": "count",
+  "concept_id": "count",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flosse/sloc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "count",
+      "sense_id": "count#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

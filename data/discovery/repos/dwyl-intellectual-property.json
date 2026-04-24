@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/intellectual-property",
+      "target": "dwyl/time",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:02:55.334343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":thought_balloon: All questions (and answers!) relating to intellectual property.",
+    "fork": false,
+    "full_name": "dwyl/intellectual-property",
+    "html_url": "https://github.com/dwyl/intellectual-property",
+    "language": null,
+    "pushed_at": "2024-08-01T07:23:02Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-04-01T08:01:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/time",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

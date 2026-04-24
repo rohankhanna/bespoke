@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apollographql/vscode-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager"
+    }
+  ],
+  "term": "Run E2E tests"
+}

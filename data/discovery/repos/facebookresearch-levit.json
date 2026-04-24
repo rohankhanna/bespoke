@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/LeViT",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:57:07.270403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "LeViT a Vision Transformer in ConvNet's Clothing for Faster Inference",
+    "fork": false,
+    "full_name": "facebookresearch/LeViT",
+    "html_url": "https://github.com/facebookresearch/LeViT",
+    "language": "Python",
+    "pushed_at": "2022-08-27T21:44:31Z",
+    "stargazers_count": 623,
+    "topics": [],
+    "updated_at": "2026-04-04T20:08:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

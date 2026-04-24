@@ -355,6 +355,42 @@
       "source_repo": "rcarriga/nvim-dap-ui",
       "status": "candidate-context",
       "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "A guide to using Lua in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate-context",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate-context",
+      "text": "Tools to help create flutter apps in neovim using the native lsp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate-context",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +567,24 @@
       "source_repo": "rcarriga/nvim-dap-ui",
       "status": "candidate",
       "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanotee/nvim-lua-guide",
+      "status": "candidate",
+      "text": "**:warning: :warning: :warning: A more up-to-date version of this guide is available in the Neovim documentation, see [`:help lua-guide`](https://neovim.io/doc/user/lua-guide.html#lua-guide) :warning: :warning: :warning:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-flutter/flutter-tools.nvim",
+      "status": "candidate",
+      "text": "Build flutter and dart applications in neovim using the native LSP. It adds the ability to easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate",
+      "text": "Bubbly statusline for neovim"
     }
   ],
   "candidate_related_terms": [],
@@ -718,11 +772,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "rcarriga/nvim-dap-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nanotee/nvim-lua-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvim-flutter/flutter-tools.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

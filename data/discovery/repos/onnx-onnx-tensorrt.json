@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onnx/onnx-tensorrt",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onnx/onnx-tensorrt",
+      "target": "onnx/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onnx/onnx-tensorrt",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onnx/onnx-tensorrt",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onnx/onnx-tensorrt",
+      "target": "onnx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:39.991975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "10.16-GA",
+    "description": "ONNX-TensorRT: TensorRT backend for ONNX",
+    "fork": false,
+    "full_name": "onnx/onnx-tensorrt",
+    "html_url": "https://github.com/onnx/onnx-tensorrt",
+    "language": "C++",
+    "pushed_at": "2026-03-25T00:03:45Z",
+    "stargazers_count": 3205,
+    "topics": [
+      "deep-learning",
+      "nvidia",
+      "onnx"
+    ],
+    "updated_at": "2026-04-22T19:13:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onnx/models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!--- SPDX-License-Identifier: Apache-2.0 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!--- SPDX-License-Identifier: Apache-2.0 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "<!--- SPDX-License-Identifier: Apache-2.0 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "Muzzle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Compile-Time Instrumentation for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "Muzzle"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate",
+      "text": "Muzzle"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39906820,
+      "status": "candidate",
+      "text": "gag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39880004,
+      "status": "candidate",
+      "text": "gunpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013813,
+      "status": "candidate",
+      "text": "gun muzzle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013812,
+      "status": "candidate",
+      "text": "nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004891,
+      "status": "candidate",
+      "text": "mouth"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27045,
+      "status": "candidate",
+      "text": "gag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "gunpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "gun muzzle"
+    }
+  ],
+  "canonical_name": "Muzzle",
+  "concept_id": "muzzle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/muzzle.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Muzzle",
+      "sense_id": "muzzle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

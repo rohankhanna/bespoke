@@ -82,6 +82,18 @@
       "source_repo": "pybind/scikit_build_example",
       "status": "candidate-context",
       "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjakob/nanobind_example",
+      "status": "candidate-context",
+      "text": "A nanobind example project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind_example",
+      "status": "candidate-context",
+      "text": "Wheels"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pybind/scikit_build_example",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind_example",
       "status": "candidate",
       "text": "Wheels"
     }
@@ -223,11 +241,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "wjakob/nanobind_example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "absadiki/pywhispercpp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

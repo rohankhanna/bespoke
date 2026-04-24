@@ -1,0 +1,431 @@
+{
+  "components": [
+    {
+      "component": "@iarna/toml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "deep-equal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "otb-ttc-bundle",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uuid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "verda",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "which",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "patel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-validation.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-validation.yml"
+    },
+    {
+      "component": "Vankka/pr-target-branch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-target-branch-check.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "be5invis/Iosevka",
+      "target": "robertgzr/homebrew-tap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "be5invis/Iosevka",
+      "target": "be5invis/sarasa-gothic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "@iarna/toml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "deep-equal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "otb-ttc-bundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "verda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "which",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Iosevka",
+      "target": "patel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "awalsh128/cache-apt-pkgs-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-daily-build.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "Dev Daily Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-validation.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-validation.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-build-validation.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "PR Font Build Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-target-branch-check.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "Vankka/pr-target-branch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "be5invis/Iosevka",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "iosevka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "monospace-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "opentype-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "programming-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "programming-ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Iosevka",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:21:07.766448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10422
+    },
+    {
+      "path": "package.json",
+      "size": 835
+    },
+    {
+      "path": ".github/workflows/dev-daily-build.yml",
+      "size": 1348
+    },
+    {
+      "path": ".github/workflows/pr-build-validation.yml",
+      "size": 1042
+    },
+    {
+      "path": ".github/workflows/pr-target-branch-check.yml",
+      "size": 498
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Versatile typeface for code, from code.",
+    "fork": false,
+    "full_name": "be5invis/Iosevka",
+    "html_url": "https://github.com/be5invis/Iosevka",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T07:17:19Z",
+    "stargazers_count": 22135,
+    "topics": [
+      "font",
+      "iosevka",
+      "ligatures",
+      "monospace-font",
+      "opentype-features",
+      "programming-font",
+      "programming-ligatures",
+      "typeface"
+    ],
+    "updated_at": "2026-04-24T08:13:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "be5invis/sarasa-gothic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robertgzr/homebrew-tap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Dev Daily Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-daily-build.yml",
+      "term": "Dev Daily Build"
+    },
+    {
+      "context_snippet": "PR Font Build Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-build-validation.yml",
+      "term": "PR Font Build Validation"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iosevka"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ligatures"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monospace-font"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype-features"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-font"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-ligatures"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

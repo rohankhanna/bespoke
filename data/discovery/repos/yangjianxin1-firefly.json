@@ -1,0 +1,337 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "yangjianxin1/unsloth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "yangjianxin1/longqlora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "yangjianxin1/firefly-llama2-chinese",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "yangjianxin1/llmpruner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "alpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "aquila",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "baichuan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "internlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "minicpm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "mixtral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "peft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "qlora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "qwen2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly",
+      "target": "zephyr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:27.266035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21731
+    },
+    {
+      "path": "requirements.txt",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Firefly: \u5927\u6a21\u578b\u8bad\u7ec3\u5de5\u5177\uff0c\u652f\u6301\u8bad\u7ec3Qwen2.5\u3001Qwen2\u3001Yi1.5\u3001Phi-3\u3001Llama3\u3001Gemma\u3001MiniCPM\u3001Yi\u3001Deepseek\u3001Orion\u3001Xverse\u3001Mixtral-8x7B\u3001Zephyr\u3001Mistral\u3001Baichuan2\u3001Llma2\u3001Llama\u3001Qwen\u3001Baichuan\u3001ChatGLM2\u3001InternLM\u3001Ziya2\u3001Vicuna\u3001Bloom\u7b49\u5927\u6a21\u578b",
+    "fork": false,
+    "full_name": "yangjianxin1/Firefly",
+    "html_url": "https://github.com/yangjianxin1/Firefly",
+    "language": "Python",
+    "pushed_at": "2024-10-24T02:27:42Z",
+    "stargazers_count": 6648,
+    "topics": [
+      "alpaca",
+      "aquila",
+      "baichuan",
+      "chatglm",
+      "gemma",
+      "gpt",
+      "internlm",
+      "llama",
+      "llama2",
+      "llama3",
+      "llm",
+      "lora",
+      "minicpm",
+      "mistral",
+      "mixtral",
+      "peft",
+      "qlora",
+      "qwen",
+      "qwen2",
+      "zephyr"
+    ],
+    "updated_at": "2026-04-23T11:53:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangjianxin1/firefly-llama2-chinese",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangjianxin1/llmpruner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangjianxin1/longqlora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangjianxin1/unsloth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpaca"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aquila"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baichuan"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemma"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internlm"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minicpm"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixtral"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peft"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qlora"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen2"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zephyr"
+    }
+  ]
+}

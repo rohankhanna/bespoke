@@ -12,18 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cavedweller509/InternDog",
-      "target": "internlm/xtuner",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cavedweller509/InternDog",
       "target": "bestanhongjun/lmdeploy-jetson",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T21:46:28.786637+00:00",
+  "fetched_at": "2026-04-24T09:20:10.436042+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -57,11 +50,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bestanhongjun/lmdeploy-jetson",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "internlm/xtuner",
       "source_file": "README.md"
     }
   ],

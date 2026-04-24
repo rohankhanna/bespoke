@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "mahmoudnafifi/wb_srgb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "mahmoudnafifi/wb_color_augmenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "color-constancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "color-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "color-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+      "target": "whitebalance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:18.310112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference code for the paper Interactive White Balancing for Camera-Rendered Images Mahmoud Afifi and Michael S. Brown. In Color and Imaging Conference (CIC), 2020. ",
+    "fork": false,
+    "full_name": "mahmoudnafifi/Interactive_WB_correction",
+    "html_url": "https://github.com/mahmoudnafifi/Interactive_WB_correction",
+    "language": "MATLAB",
+    "pushed_at": "2024-04-19T21:46:00Z",
+    "stargazers_count": 33,
+    "topics": [
+      "color-constancy",
+      "color-correction",
+      "color-manipulation",
+      "image-enhancement",
+      "white-balance",
+      "whitebalance"
+    ],
+    "updated_at": "2026-04-22T14:28:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/wb_color_augmenter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/wb_srgb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-constancy"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-correction"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-manipulation"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-enhancement"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "white-balance"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whitebalance"
+    }
+  ]
+}

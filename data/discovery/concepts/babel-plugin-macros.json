@@ -25,6 +25,18 @@
       "source_repo": "evenchange4/graphql.macro-example",
       "status": "candidate-context",
       "text": "> This is a [graphql.macro](https://github.com/evenchange4/graphql.macro) example with [Create React App @2](https://github.com/facebookincubator/create-react-app/issues/3815)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate-context",
+      "text": "A collection of awesome babel macros and related resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate-context",
+      "text": "A collection of awesome babel macros and related resources"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "evenchange4/graphql.macro-example",
       "status": "candidate",
       "text": "> This is a [graphql.macro](https://github.com/evenchange4/graphql.macro) example with [Create React App @2](https://github.com/facebookincubator/create-react-app/issues/3815)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate",
+      "text": "A collection of awesome babel macros and related resources"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "evenchange4/graphql.macro-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

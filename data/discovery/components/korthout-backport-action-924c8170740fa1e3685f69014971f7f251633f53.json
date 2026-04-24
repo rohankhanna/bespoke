@@ -1,0 +1,12 @@
+{
+  "component": "korthout/backport-action@924c8170740fa1e3685f69014971f7f251633f53",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport-v2.yml",
+      "source_repo": "Kong/kong"
+    }
+  ]
+}

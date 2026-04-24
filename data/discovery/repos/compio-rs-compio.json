@@ -1,0 +1,436 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_auto_label.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_auto_label.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_freebsd.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_freebsd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_illumos.yml"
+    },
+    {
+      "component": "vmactions/omnios-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_illumos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_minimal.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-no-dev-deps",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_minimal.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_commitlint.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_commitlint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compio-rs/compio",
+      "target": "compio-rs/compio-logo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compio-rs/compio",
+      "target": "bytedance/monoio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_deploy_docs.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd_deploy_docs.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Deploy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd_release.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_auto_label.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_auto_label.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_auto_label.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Auto Label Issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_freebsd.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_freebsd.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check_freebsd.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Check FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_illumos.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_illumos.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "vmactions/omnios-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check_illumos.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Check Illumos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_minimal.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_check_minimal.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "taiki-e/install-action@cargo-no-dev-deps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check_minimal.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Check (Minimal Versions)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_commitlint.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_commitlint.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "wagoid/commitlint-github-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_commitlint.yml",
+      "source_repo": "compio-rs/compio",
+      "target": "Lint Commit Messages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:56:28.090584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3263
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2643
+    },
+    {
+      "path": ".github/workflows/cd_deploy_docs.yml",
+      "size": 2713
+    },
+    {
+      "path": ".github/workflows/cd_release.yml",
+      "size": 1453
+    },
+    {
+      "path": ".github/workflows/ci_auto_label.yml",
+      "size": 619
+    },
+    {
+      "path": ".github/workflows/ci_check.yml",
+      "size": 1370
+    },
+    {
+      "path": ".github/workflows/ci_check_freebsd.yml",
+      "size": 1264
+    },
+    {
+      "path": ".github/workflows/ci_check_illumos.yml",
+      "size": 1258
+    },
+    {
+      "path": ".github/workflows/ci_check_minimal.yml",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/ci_commitlint.yml",
+      "size": 295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A thread-per-core async Rust runtime with IOCP/io_uring/polling.",
+    "fork": false,
+    "full_name": "compio-rs/compio",
+    "html_url": "https://github.com/compio-rs/compio",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T10:30:22Z",
+    "stargazers_count": 1665,
+    "topics": [],
+    "updated_at": "2026-04-23T12:49:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/monoio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compio-rs/compio-logo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd_deploy_docs.yml",
+      "term": "Deploy Documentation"
+    },
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd_release.yml",
+      "term": "Release-plz"
+    },
+    {
+      "context_snippet": "Auto Label Issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_auto_label.yml",
+      "term": "Auto Label Issues and PRs"
+    },
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "Check FreeBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check_freebsd.yml",
+      "term": "Check FreeBSD"
+    },
+    {
+      "context_snippet": "Check Illumos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check_illumos.yml",
+      "term": "Check Illumos"
+    },
+    {
+      "context_snippet": "Check (Minimal Versions)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_check_minimal.yml",
+      "term": "Check (Minimal Versions)"
+    },
+    {
+      "context_snippet": "Lint Commit Messages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_commitlint.yml",
+      "term": "Lint Commit Messages"
+    }
+  ]
+}

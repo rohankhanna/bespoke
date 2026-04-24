@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:06:05.100552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visual Studio extension",
+    "fork": false,
+    "full_name": "madskristensen/BundlerMinifier",
+    "html_url": "https://github.com/madskristensen/BundlerMinifier",
+    "language": "C#",
+    "pushed_at": "2024-05-03T10:21:02Z",
+    "stargazers_count": 626,
+    "topics": [],
+    "updated_at": "2026-04-22T06:40:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

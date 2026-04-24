@@ -1,7 +1,7 @@
 {
   "component": "mlugg/setup-zig@v2",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "andrewrk/poop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/napi.yml",
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexpasmantier/television"
     }
   ]
 }

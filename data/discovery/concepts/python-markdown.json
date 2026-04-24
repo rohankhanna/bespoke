@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "python-markdown"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate-context",
+      "text": "A Python implementation of John Gruber\u2019s Markdown with Extension support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate-context",
+      "text": "[Python-Markdown][]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate",
+      "text": "[Python-Markdown][]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "python-markdown",
+  "concept_id": "python-markdown",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Python-Markdown/markdown"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python-markdown",
+      "sense_id": "python-markdown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

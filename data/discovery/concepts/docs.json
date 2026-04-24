@@ -875,6 +875,156 @@
       "source_repo": "manim-kindergarten/manim",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "High throughput synchronous and asynchronous reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "predibase/lorax",
+      "status": "candidate-context",
+      "text": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "predibase/lorax",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Apache DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/TaskWeaver",
+      "status": "candidate-context",
+      "text": "The first \"code-first\" agent framework for seamlessly planning and executing data analytics tasks. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TaskWeaver",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate-context",
+      "text": "CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamchainz/blacken-docs",
+      "status": "candidate-context",
+      "text": "Run `black` on python code blocks in documentation files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamchainz/blacken-docs",
+      "status": "candidate-context",
+      "text": "============"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "Official Rust implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "LALR parser for GLSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flatpak/flatpak-docs",
+      "status": "candidate-context",
+      "text": "Flatpak documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flatpak-docs",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/examples",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchft",
+      "status": "candidate-context",
+      "text": "Fault tolerance for PyTorch (HSDP, LocalSGD, DiLoCo, Streaming DiLoCo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchft",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "The friendly PIL fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -1309,6 +1459,84 @@
       "source_repo": "manim-kindergarten/manim",
       "status": "candidate",
       "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "predibase/lorax",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TaskWeaver",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamchainz/blacken-docs",
+      "status": "candidate",
+      "text": "============"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flatpak-docs",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/examples",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchft",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate",
+      "text": "Docs"
     }
   ],
   "candidate_related_terms": [
@@ -1902,11 +2130,137 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "manim-kindergarten/manim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "predibase/lorax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs_pr.yaml",
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/deploy-website.yaml",
+      "source_repo": "microsoft/TaskWeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "CLIUtils/CLI11"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "apache/arrow-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "alixinne/glsl-lang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "FuelLabs/sway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flatpak/flatpak-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "envoyproxy/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "microsoft/windows-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "uploadcare/pillow-simd"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

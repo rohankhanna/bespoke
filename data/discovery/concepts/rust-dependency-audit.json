@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rust dependency audit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "Rust dependency audit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate",
+      "text": "Rust dependency audit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "epidemiology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "oxidimetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "pathology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "periodontics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17763,
+      "status": "candidate",
+      "text": "bacteriology"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rust dependency audit",
+  "concept_id": "rust-dependency-audit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "FedericoPonzi/Horust"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust dependency audit",
+      "sense_id": "rust-dependency-audit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

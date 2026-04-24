@@ -103,6 +103,42 @@
       "source_repo": "Jumpat/SegmentAnythingin3D",
       "status": "candidate-context",
       "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "OpenMMLab Model Compression Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate-context",
+      "text": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate-context",
+      "text": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "Jumpat/SegmentAnythingin3D",
       "status": "candidate",
       "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +334,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Jumpat/SegmentAnythingin3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmrazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

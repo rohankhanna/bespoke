@@ -1,0 +1,581 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AGENTS.md"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issue-triage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issue-triage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "streamlit/streamlit",
+      "target": "pytest-dev/pytest-rerunfailures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AGENTS.md",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "AI Fix Flaky E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issue-triage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issue-triage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issue-triage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-issue-triage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "AI Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-pr-review.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "AI PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-test-coverage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-test-coverage.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "AI Test Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-update-docs.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-update-docs.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "AI Update Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "streamlit/streamlit",
+      "target": "Autofix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit",
+      "target": "streamlit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:53:33.489416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6192
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 16731
+    },
+    {
+      "path": ".github/workflows/AGENTS.md",
+      "size": 9233
+    },
+    {
+      "path": ".github/workflows/CLAUDE.md",
+      "size": 13
+    },
+    {
+      "path": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "size": 9857
+    },
+    {
+      "path": ".github/workflows/ai-issue-triage.yml",
+      "size": 9815
+    },
+    {
+      "path": ".github/workflows/ai-pr-review.yml",
+      "size": 23961
+    },
+    {
+      "path": ".github/workflows/ai-test-coverage.yml",
+      "size": 17442
+    },
+    {
+      "path": ".github/workflows/ai-update-docs.yml",
+      "size": 15258
+    },
+    {
+      "path": ".github/workflows/autofix.yml",
+      "size": 6368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Streamlit \u2014 A faster way to build and share data apps.",
+    "fork": false,
+    "full_name": "streamlit/streamlit",
+    "html_url": "https://github.com/streamlit/streamlit",
+    "language": "Python",
+    "pushed_at": "2026-04-23T21:31:22Z",
+    "stargazers_count": 44336,
+    "topics": [
+      "data-analysis",
+      "data-science",
+      "data-visualization",
+      "deep-learning",
+      "developer-tools",
+      "machine-learning",
+      "python",
+      "streamlit"
+    ],
+    "updated_at": "2026-04-24T03:36:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytest-dev/pytest-rerunfailures",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AI Fix Flaky E2E Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-fix-flaky-e2e-tests.yml",
+      "term": "AI Fix Flaky E2E Tests"
+    },
+    {
+      "context_snippet": "AI Issue Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-issue-triage.yml",
+      "term": "AI Issue Triage"
+    },
+    {
+      "context_snippet": "AI PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-pr-review.yml",
+      "term": "AI PR Review"
+    },
+    {
+      "context_snippet": "AI Test Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-test-coverage.yml",
+      "term": "AI Test Coverage"
+    },
+    {
+      "context_snippet": "AI Update Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-update-docs.yml",
+      "term": "AI Update Docs"
+    },
+    {
+      "context_snippet": "Autofix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yml",
+      "term": "Autofix"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streamlit"
+    }
+  ]
+}

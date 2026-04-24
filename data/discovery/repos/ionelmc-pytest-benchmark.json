@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "vstinner/misc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark",
+      "target": "pytest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:58.044536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6909
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3959
+    },
+    {
+      "path": ".github/workflows/github-actions.yml",
+      "size": 32554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pytest fixture for benchmarking code",
+    "fork": false,
+    "full_name": "ionelmc/pytest-benchmark",
+    "html_url": "https://github.com/ionelmc/pytest-benchmark",
+    "language": "Python",
+    "pushed_at": "2026-03-26T12:10:25Z",
+    "stargazers_count": 1427,
+    "topics": [
+      "benchmark",
+      "benchmarking",
+      "performance",
+      "pytest",
+      "python"
+    ],
+    "updated_at": "2026-04-24T01:13:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vstinner/misc",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    }
+  ]
+}

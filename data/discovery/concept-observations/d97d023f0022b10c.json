@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unified zkVM Interface & Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Push SemVer image tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Push SemVer image tag"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18914,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18210,
+      "status": "candidate",
+      "text": "tick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18210,
+      "status": "candidate",
+      "text": "ticked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18210,
+      "status": "candidate",
+      "text": "tig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18174,
+      "status": "candidate",
+      "text": "mark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push SemVer image tag",
+      "sense_id": "push-semver-image-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "push-semver-image-tag",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "push-semver-image-tag",
+  "observation_id": "d97d023f0022b10c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Push SemVer image tag",
+  "source_context_snippet": "Push SemVer image tag",
+  "source_file": ".github/workflows/push-semver-image-tag.yml",
+  "source_repo": "eth-act/ere",
+  "source_repo_description": "Unified zkVM Interface & Toolkit"
+}

@@ -139,6 +139,30 @@
       "source_repo": "tensorflow/datasets",
       "status": "candidate-context",
       "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "NumPy aware dynamic Python compiler using LLVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate-context",
+      "text": "*****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numpy/numpy",
+      "status": "candidate-context",
+      "text": "The fundamental package for scientific computing with Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numpy/numpy",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "tensorflow/datasets",
       "status": "candidate",
       "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numba/numba",
+      "status": "candidate",
+      "text": "*****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numpy/numpy",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +358,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "numpy/numpy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

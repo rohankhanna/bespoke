@@ -562,6 +562,138 @@
       "source_repo": "pnpm/pnpm",
       "status": "candidate-context",
       "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "`jose` is a JavaScript module for JSON Object Signing and Encryption, providing support for JSON Web Tokens (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), JSON Web Key Set (JWKS), and more. The module is designed to work across various Web-intero\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Native Node bindings to Git."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "Astro library to get the Simple icons to the Astro Framework https://simple-icons-astro.dzeio.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "<a href=\"https://discord.gg/MMbUAptxPr\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "Static file serving and directory listing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "serve \u2014 Static file serving and directory listing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nock/nock",
+      "status": "candidate-context",
+      "text": "HTTP server mocking and expectations library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nock/nock",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/nock.svg)][npmjs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "i18next-fs-backend is a backend layer for i18next using in Node.js and for Deno to load translations from the filesystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "i18next-http-backend is a backend layer for i18next using in Node.js, in the browser and for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "Recursively merge values in a JavaScript object. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate-context",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "If you use globs, this will make your code faster. Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience. 55+ million downloads. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate-context",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d \u00a0Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
     }
   ],
   "candidate_glosses": [
@@ -840,6 +972,72 @@
       "source_repo": "pnpm/pnpm",
       "status": "candidate",
       "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate",
+      "text": "`jose` is a JavaScript module for JSON Object Signing and Encryption, providing support for JSON Web Tokens (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), JSON Web Key Set (JWKS), and more. The module is designed to work across various Web-intero\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate",
+      "text": "<a href=\"https://discord.gg/MMbUAptxPr\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate",
+      "text": "serve \u2014 Static file serving and directory listing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nock/nock",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/nock.svg)][npmjs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/merge-deep",
+      "status": "candidate",
+      "text": "> Recursively merge values in a javascript object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate",
+      "text": "> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/repeat-string",
+      "status": "candidate",
+      "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
     }
   ],
   "candidate_related_terms": [
@@ -1279,11 +1477,113 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pnpm/pnpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "panva/jose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nodegit/nodegit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nock/nock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "i18next/i18next-fs-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "i18next/i18next-http-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/merge-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/repeat-string"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

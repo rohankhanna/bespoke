@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "fasthttp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "Authorization middleware for fasthttp based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 implementation for fasthttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket for fasthttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate",
+      "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate",
+      "text": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate",
+      "text": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fasthttp",
+  "concept_id": "fasthttp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dgrr/http2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dgrr/websocket"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fasthttp",
+      "sense_id": "fasthttp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

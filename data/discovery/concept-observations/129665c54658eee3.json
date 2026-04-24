@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly load test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly load test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24459,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22506,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22506,
+      "status": "candidate",
+      "text": "grinds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22448,
+      "status": "candidate",
+      "text": "sit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly load test",
+      "sense_id": "nightly-load-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-load-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-load-test",
+  "observation_id": "129665c54658eee3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Nightly load test",
+  "source_context_snippet": "Nightly load test",
+  "source_file": ".github/workflows/load_test.yaml",
+  "source_repo": "predibase/lorax",
+  "source_repo_description": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs"
+}

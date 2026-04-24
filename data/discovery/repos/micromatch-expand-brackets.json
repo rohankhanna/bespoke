@@ -72,20 +72,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/expand-brackets",
-      "target": "micromatch/nanomatch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/expand-brackets",
-      "target": "verbose/verb-generate-readme",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "micromatch/expand-brackets",
@@ -240,7 +226,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:42:47.992573+00:00",
+  "fetched_at": "2026-04-24T09:00:58.584041+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -251,7 +237,6 @@
       "size": 1878
     }
   ],
-  "metadata_refreshed_at": "2026-04-24T05:24:07.826616+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -288,16 +273,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "micromatch/extglob",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "micromatch/nanomatch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "verbose/verb-generate-readme",
       "source_file": "README.md"
     }
   ],

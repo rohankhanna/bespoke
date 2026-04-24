@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "goto-bus-stop/setup-zig@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clebert/llama2.zig",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clebert/llama2.zig",
+      "target": "goto-bus-stop/setup-zig@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:30.314293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10073
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Inference Llama 2 in pure Zig",
+    "fork": false,
+    "full_name": "clebert/llama2.zig",
+    "html_url": "https://github.com/clebert/llama2.zig",
+    "language": "Zig",
+    "pushed_at": "2023-12-20T21:13:25Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2025-12-08T14:00:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

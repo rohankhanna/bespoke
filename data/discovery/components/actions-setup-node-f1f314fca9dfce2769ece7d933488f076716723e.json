@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "CVEProject/cve-services"
+    }
+  ]
+}

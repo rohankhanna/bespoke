@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Render PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/template-for-proposals",
+      "status": "candidate-context",
+      "text": "A template for ECMAScript proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/template-for-proposals",
+      "status": "candidate-context",
+      "text": "Render PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/template-for-proposals",
+      "status": "candidate",
+      "text": "Render PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12580,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12580,
+      "status": "candidate",
+      "text": "impregnate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12580,
+      "status": "candidate",
+      "text": "prostrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11701,
+      "status": "candidate",
+      "text": "dystocia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11701,
+      "status": "candidate",
+      "text": "plot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Render PR",
+  "concept_id": "render-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/template-for-proposals"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Render PR",
+      "sense_id": "render-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

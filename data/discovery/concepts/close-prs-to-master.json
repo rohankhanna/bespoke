@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close PRs to master"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Issue tracker and new submissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Close PRs to master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate",
+      "text": "Close PRs to master"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26177,
+      "status": "candidate",
+      "text": "heel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26177,
+      "status": "candidate",
+      "text": "heeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26177,
+      "status": "candidate",
+      "text": "heels"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26129,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26129,
+      "status": "candidate",
+      "text": "grinds"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close PRs to master",
+  "concept_id": "close-prs-to-master",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/close-master-prs.yml",
+      "source_repo": "flathub/flathub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close PRs to master",
+      "sense_id": "close-prs-to-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

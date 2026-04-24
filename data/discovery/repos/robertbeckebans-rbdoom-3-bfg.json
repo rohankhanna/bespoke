@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "robertbeckebans/trenchbroombfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "ispc/ispc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "advancedfx/ffmpeg.zeranoe.com-builds-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "auriamg/macdylibbundler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "64-bit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "doom3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "gaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "idtech4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "modding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "rbdoom3bfg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "trenchbroom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:12.788509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Doom 3 BFG Edition source port with updated DX12 / Vulkan renderer and modern game engine features",
+    "fork": true,
+    "full_name": "RobertBeckebans/RBDOOM-3-BFG",
+    "html_url": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
+    "language": "C++",
+    "pushed_at": "2026-02-10T11:30:41Z",
+    "stargazers_count": 1785,
+    "topics": [
+      "64-bit",
+      "doom3",
+      "gaming",
+      "idtech4",
+      "modding",
+      "pbr",
+      "portable",
+      "rbdoom3bfg",
+      "trenchbroom"
+    ],
+    "updated_at": "2026-04-23T17:57:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "advancedfx/ffmpeg.zeranoe.com-builds-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auriamg/macdylibbundler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ispc/ispc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robertbeckebans/trenchbroombfg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "64-bit"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doom3"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaming"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idtech4"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modding"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portable"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbdoom3bfg"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trenchbroom"
+    }
+  ]
+}

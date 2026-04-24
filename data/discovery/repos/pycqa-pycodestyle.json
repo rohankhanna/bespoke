@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "deadsnakes/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "deadsnakes/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "flake8-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "linter-flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "linter-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "pep8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "style-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pycodestyle",
+      "target": "styleguide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:52.197091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3462
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple Python style checker in one Python file",
+    "fork": false,
+    "full_name": "PyCQA/pycodestyle",
+    "html_url": "https://github.com/PyCQA/pycodestyle",
+    "language": "Python",
+    "pushed_at": "2025-12-22T21:54:22Z",
+    "stargazers_count": 5156,
+    "topics": [
+      "flake8-plugin",
+      "linter-flake8",
+      "linter-plugin",
+      "pep8",
+      "python",
+      "style-guide",
+      "styleguide"
+    ],
+    "updated_at": "2026-04-23T13:06:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "pycodestyle (formerly called pep8) - Python style guide checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8-plugin"
+    },
+    {
+      "context_snippet": "pycodestyle (formerly called pep8) - Python style guide checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-flake8"
+    },
+    {
+      "context_snippet": "pycodestyle (formerly called pep8) - Python style guide checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-plugin"
+    },
+    {
+      "context_snippet": "pycodestyle (formerly called pep8) - Python style guide checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pep8"
+    },
+    {
+      "context_snippet": "pycodestyle (formerly called pep8) - Python style guide checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    },
+    {
+      "context_snippet": "pycodestyle (formerly called pep8) - Python style guide checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styleguide"
+    }
+  ]
+}

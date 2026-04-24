@@ -19,6 +19,18 @@
       "source_repo": "alexandresanlim/Badges4-README.md-Profile",
       "status": "candidate-context",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alexandresanlim/Badges4-README.md-Profile",
       "status": "candidate",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check code formatting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "status": "candidate-context",
+      "text": "This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "status": "candidate-context",
+      "text": "\"Check code formatting\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "status": "candidate",
+      "text": "\"Check code formatting\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24229,
+      "status": "candidate",
+      "text": "blink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23229,
+      "status": "candidate",
+      "text": "tab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22629,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22492,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22492,
+      "status": "candidate",
+      "text": "hit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check code formatting",
+  "concept_id": "check-code-formatting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/clang-format-checker.yml",
+      "source_repo": "microsoft/DirectXShaderCompiler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check code formatting",
+      "sense_id": "check-code-formatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

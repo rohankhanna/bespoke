@@ -175,6 +175,30 @@
       "source_repo": "bufbuild/protovalidate-python",
       "status": "candidate-context",
       "text": "[![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protobufjs/protobuf.js",
+      "status": "candidate-context",
+      "text": "Protocol Buffers for JavaScript & TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protobufjs/protobuf.js",
+      "status": "candidate-context",
+      "text": "<h1><p align=\"center\"><img alt=\"protobuf.js\" src=\"https://github.com/protobufjs/protobuf.js/raw/master/pbjs.svg\" height=\"100\" /><br/>protobuf.js</p></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate-context",
+      "text": "Compile protocol buffer messages to TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate-context",
+      "text": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "bufbuild/protovalidate-python",
       "status": "candidate",
       "text": "[![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protobufjs/protobuf.js",
+      "status": "candidate",
+      "text": "<h1><p align=\"center\"><img alt=\"protobuf.js\" src=\"https://github.com/protobufjs/protobuf.js/raw/master/pbjs.svg\" height=\"100\" /><br/>protobuf.js</p></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "status": "candidate",
+      "text": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)"
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +418,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "bufbuild/protovalidate-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "protobufjs/protobuf.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

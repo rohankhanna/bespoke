@@ -19,6 +19,18 @@
       "source_repo": "JaidedAI/EasyOCR",
       "status": "candidate-context",
       "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "Text recognition (optical character recognition) with deep learning methods, ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JaidedAI/EasyOCR",
       "status": "candidate",
       "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "JaidedAI/EasyOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

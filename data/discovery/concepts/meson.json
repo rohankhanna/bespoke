@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "meson"
+    "meson",
+    "Meson"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,42 @@
       "source_repo": "theimpossibleastronaut/rmw",
       "status": "candidate-context",
       "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate-context",
+      "text": "Lightweight C++ command line option parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate-context",
+      "text": "Meson"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randy408/libspng",
+      "status": "candidate-context",
+      "text": "Simple, modern libpng alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy408/libspng",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-c/json-c",
+      "status": "candidate-context",
+      "text": "https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-c/json-c",
+      "status": "candidate-context",
+      "text": "meson"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +102,24 @@
       "source_repo": "theimpossibleastronaut/rmw",
       "status": "candidate",
       "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate",
+      "text": "Meson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy408/libspng",
+      "status": "candidate",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-c/json-c",
+      "status": "candidate",
+      "text": "meson"
     }
   ],
   "candidate_related_terms": [
@@ -134,11 +189,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "theimpossibleastronaut/rmw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "jarro2783/cxxopts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "randy408/libspng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "json-c/json-c"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -127,6 +127,30 @@
       "source_repo": "actix/actix-net",
       "status": "candidate-context",
       "text": "> A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mypyc/librt",
+      "status": "candidate-context",
+      "text": "Mypyc runtime library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/librt",
+      "status": "candidate-context",
+      "text": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "A small and fast async runtime for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "actix/actix-net",
       "status": "candidate",
       "text": "> A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/librt",
+      "status": "candidate",
+      "text": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +370,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mypyc/librt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/smol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "wa-lang/wa",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wa-lang/nes",
+      "status": "candidate-context",
+      "text": "A NES emulator in Wa. \u51f9\u8bed\u8a00 NES \u6a21\u62df\u5668"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/nes",
+      "status": "candidate-context",
+      "text": "A NES emulator in Wa. \u51f9\u8bed\u8a00 NES \u6a21\u62df\u5668"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wa-lang/webgpu",
+      "status": "candidate-context",
+      "text": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/webgpu",
+      "status": "candidate-context",
+      "text": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "wa-lang/wa",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/nes",
+      "status": "candidate",
+      "text": "A NES emulator in Wa. \u51f9\u8bed\u8a00 NES \u6a21\u62df\u5668"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/webgpu",
+      "status": "candidate",
+      "text": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "wa-lang/wa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "wa-lang/nes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "wa-lang/webgpu"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

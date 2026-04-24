@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solve ODEs fast, with support for PyMC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autodiff",
+      "sense_id": "autodiff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autodiff",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autodiff",
+  "observation_id": "9b5a27ec1d5e0b9c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "autodiff",
+  "source_context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)",
+  "source_file": null,
+  "source_repo": "pymc-devs/sunode",
+  "source_repo_description": "Solve ODEs fast, with support for PyMC"
+}

@@ -1,0 +1,238 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "meijieru/crnn.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "marvis/ocr_attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "grcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "ocr-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "r2am",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "rare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "rosetta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "scene-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "scene-text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "star-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "target": "text-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:50.475380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Text recognition (optical character recognition) with deep learning methods, ICCV 2019",
+    "fork": false,
+    "full_name": "clovaai/deep-text-recognition-benchmark",
+    "html_url": "https://github.com/clovaai/deep-text-recognition-benchmark",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-04T10:24:54Z",
+    "stargazers_count": 3928,
+    "topics": [
+      "crnn",
+      "deep-learning",
+      "grcnn",
+      "iccv2019",
+      "ocr",
+      "ocr-recognition",
+      "r2am",
+      "rare",
+      "recognition",
+      "rosetta",
+      "scene-text",
+      "scene-text-recognition",
+      "star-net",
+      "text-recognition"
+    ],
+    "updated_at": "2026-04-22T05:32:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marvis/ocr_attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meijieru/crnn.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grcnn"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-recognition"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r2am"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rare"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rosetta"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-recognition"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "star-net"
+    },
+    {
+      "context_snippet": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-recognition"
+    }
+  ]
+}

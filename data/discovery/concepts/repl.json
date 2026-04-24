@@ -58,6 +58,42 @@
       "source_repo": "gluon-lang/gluon",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deivid-rodriguez/byebug",
+      "status": "candidate-context",
+      "text": "Debugging in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/byebug",
+      "status": "candidate-context",
+      "text": "[![Version][gem]][gem_url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anmonteiro/lumo",
+      "status": "candidate-context",
+      "text": "Fast, cross-platform, standalone ClojureScript environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anmonteiro/lumo",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo/full.png\" alt=\"lumo logo\" title=\"lumo\" align=\"right\" width=\"150\" height=\"150\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "REPL (interactive shell) for Dart, supporting 3rd party packages, hot reload, and full grammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +120,24 @@
       "source_repo": "gluon-lang/gluon",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/byebug",
+      "status": "candidate",
+      "text": "[![Version][gem]][gem_url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anmonteiro/lumo",
+      "status": "candidate",
+      "text": "<img src=\"./logo/full.png\" alt=\"lumo logo\" title=\"lumo\" align=\"right\" width=\"150\" height=\"150\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate",
+      "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +205,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "gluon-lang/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/byebug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anmonteiro/lumo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

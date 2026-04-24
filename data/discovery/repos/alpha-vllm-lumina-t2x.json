@@ -1,0 +1,175 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "kijai/comfyui-luminawrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "camenduru/lumina-next-jupyter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "diffusion-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "generation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:13.792182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27448
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2061
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lumina-T2X is a unified framework for Text to Any Modality Generation",
+    "fork": false,
+    "full_name": "Alpha-VLLM/Lumina-T2X",
+    "html_url": "https://github.com/Alpha-VLLM/Lumina-T2X",
+    "language": "Python",
+    "pushed_at": "2025-02-16T11:34:43Z",
+    "stargazers_count": 2253,
+    "topics": [
+      "aigc",
+      "diffusion",
+      "diffusion-model",
+      "diffusion-models",
+      "diffusion-transformer",
+      "generation-models",
+      "transformer",
+      "transformers"
+    ],
+    "updated_at": "2026-04-20T03:22:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/lumina-next-jupyter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-luminawrapper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-model"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-transformer"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generation-models"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

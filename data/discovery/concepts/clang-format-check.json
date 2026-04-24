@@ -1,7 +1,8 @@
 {
   "aliases": [
     "clang-format check",
-    "clang-format Check"
+    "clang-format Check",
+    "Clang Format Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,30 @@
       "source_repo": "Solo5/solo5",
       "status": "candidate-context",
       "text": "clang-format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "Clang Format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "Optimized JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "clang-format Check"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +69,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Solo5/solo5",
+      "status": "candidate",
+      "text": "clang-format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate",
+      "text": "Clang Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
       "status": "candidate",
       "text": "clang-format Check"
     }
@@ -83,6 +120,41 @@
       "score": 26424,
       "status": "candidate",
       "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21685,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21685,
+      "status": "candidate",
+      "text": "jit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21661,
+      "status": "candidate",
+      "text": "breakdown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21661,
+      "status": "candidate",
+      "text": "clap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21661,
+      "status": "candidate",
+      "text": "ditch"
     }
   ],
   "candidate_synonyms": [],
@@ -101,11 +173,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "Solo5/solo5"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "uccl-project/uccl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ohler55/oj"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

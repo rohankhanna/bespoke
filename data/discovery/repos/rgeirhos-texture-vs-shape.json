@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "rgeirhos/generalisation-humans-dnns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "leongatys/pytorchneuralstyletransfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "human-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "object-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "psychophysics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "target": "texture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:19:59.783866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pre-trained models, data, code & materials from the paper \"ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness\" (ICLR 2019 Oral)",
+    "fork": false,
+    "full_name": "rgeirhos/texture-vs-shape",
+    "html_url": "https://github.com/rgeirhos/texture-vs-shape",
+    "language": "R",
+    "pushed_at": "2023-05-02T13:43:26Z",
+    "stargazers_count": 812,
+    "topics": [
+      "deep-learning",
+      "features",
+      "human-vision",
+      "object-recognition",
+      "psychophysics",
+      "shape",
+      "texture"
+    ],
+    "updated_at": "2026-04-19T13:54:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leongatys/pytorchneuralstyletransfer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rgeirhos/generalisation-humans-dnns",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "features"
+    },
+    {
+      "context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-vision"
+    },
+    {
+      "context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-recognition"
+    },
+    {
+      "context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psychophysics"
+    },
+    {
+      "context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape"
+    },
+    {
+      "context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture"
+    }
+  ]
+}

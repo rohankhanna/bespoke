@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/conda-forge-repodata-patches-feedstock",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/conda-forge-repodata-patches-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:00:34.659705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6590
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 3630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for conda-forge-repodata-patches.",
+    "fork": false,
+    "full_name": "conda-forge/conda-forge-repodata-patches-feedstock",
+    "html_url": "https://github.com/conda-forge/conda-forge-repodata-patches-feedstock",
+    "language": "Python",
+    "pushed_at": "2026-04-23T05:44:08Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-23T05:44:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

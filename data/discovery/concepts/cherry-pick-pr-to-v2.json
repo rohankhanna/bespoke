@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Cherry-Pick PR to v2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "Universal Command Line Interface for Amazon Web Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "Cherry-Pick PR to v2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate",
+      "text": "Cherry-Pick PR to v2"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Cherry-Pick PR to v2",
+  "concept_id": "cherry-pick-pr-to-v2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/doc-pr-cherry-pick.yml",
+      "source_repo": "aws/aws-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cherry-Pick PR to v2",
+      "sense_id": "cherry-pick-pr-to-v2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

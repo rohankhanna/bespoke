@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neovim plugin that provides snippets for the LuaSnip plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snippets-collection",
+      "sense_id": "snippets-collection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snippets-collection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snippets-collection",
+  "observation_id": "4563eda5c61b50b7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "snippets-collection",
+  "source_context_snippet": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim",
+  "source_file": null,
+  "source_repo": "molleweide/LuaSnip-snippets.nvim",
+  "source_repo_description": "Neovim plugin that provides snippets for the LuaSnip plugin."
+}

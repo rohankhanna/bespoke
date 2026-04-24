@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ko-build/ko",
-      "target": "bazelbuild/rules_docker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ko-build/ko",
-      "target": "bazelbuild/rules_k8s",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analyze.yaml",
       "source_repo": "ko-build/ko",
@@ -274,6 +260,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "ko-build/ko"
 }

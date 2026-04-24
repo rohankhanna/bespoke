@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepseek-r1",
+      "sense_id": "deepseek-r1#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deepseek-r1",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deepseek-r1",
+  "observation_id": "94afcb3d49f3c4ff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "deepseek-r1",
+  "source_context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+  "source_file": null,
+  "source_repo": "beehive-lab/GPULlama3.java",
+  "source_repo_description": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+}

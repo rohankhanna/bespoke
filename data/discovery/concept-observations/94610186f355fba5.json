@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A plugin simplifying the task of working with VS Code codicons in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim",
+      "sense_id": "neovim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim",
+  "observation_id": "94610186f355fba5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "neovim",
+  "source_context_snippet": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)",
+  "source_file": null,
+  "source_repo": "mortepau/codicons.nvim",
+  "source_repo_description": "A plugin simplifying the task of working with VS Code codicons in Neovim"
+}

@@ -19,6 +19,30 @@
       "source_repo": "libvips/libvips",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf0 Binary distribution of PDFium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate-context",
+      "text": "Go binding generator for libvips image processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "libvips/libvips",
       "status": "candidate",
       "text": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "libvips/libvips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bblanchon/pdfium-binaries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "cshum/vipsgen"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

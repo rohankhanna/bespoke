@@ -55,6 +55,18 @@
       "source_repo": "alecazam/kram",
       "status": "candidate-context",
       "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randy408/libspng",
+      "status": "candidate-context",
+      "text": "Simple, modern libpng alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy408/libspng",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "alecazam/kram",
       "status": "candidate",
       "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy408/libspng",
+      "status": "candidate",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "alecazam/kram"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "randy408/libspng"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

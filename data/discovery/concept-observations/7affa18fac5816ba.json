@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BCrypt.Net - Bringing updates to the original bcrypt package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048073,
+      "status": "candidate",
+      "text": "cypher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048068,
+      "status": "candidate",
+      "text": "cryptograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048033,
+      "status": "candidate",
+      "text": "encipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047926,
+      "status": "candidate",
+      "text": "encrypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047361,
+      "status": "candidate",
+      "text": "encode"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cipher",
+      "sense_id": "cipher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24036,
+      "status": "candidate",
+      "text": "reckon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23063,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18034,
+      "status": "candidate",
+      "text": "nought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "aught"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15034,
+      "status": "candidate",
+      "text": "zilch"
+    }
+  ],
+  "concept_id": "cipher",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cipher",
+  "observation_id": "7affa18fac5816ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "cipher",
+  "source_context_snippet": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0",
+  "source_file": null,
+  "source_repo": "BcryptNet/bcrypt.net",
+  "source_repo_description": "BCrypt.Net - Bringing updates to the original bcrypt package"
+}

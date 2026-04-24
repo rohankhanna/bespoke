@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shikras/shikra",
+      "target": "hiyouga/chatglm-efficient-tuning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:43.899396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7390
+    },
+    {
+      "path": "requirements.txt",
+      "size": 242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "shikras/shikra",
+    "html_url": "https://github.com/shikras/shikra",
+    "language": "Python",
+    "pushed_at": "2024-07-08T16:14:12Z",
+    "stargazers_count": 806,
+    "topics": [],
+    "updated_at": "2026-04-18T13:25:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/chatglm-efficient-tuning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

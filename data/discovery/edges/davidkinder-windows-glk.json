@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Glk",
+      "target": "davidkinder/windows-glulxe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Glk",
+      "target": "davidkinder/libraries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Glk",
+      "target": "libjpeg-turbo/libjpeg-turbo",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "DavidKinder/Windows-Glk"
+}

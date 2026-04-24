@@ -1,0 +1,534 @@
+{
+  "components": [
+    {
+      "component": "@parcel/transformer-pug",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "av/harbor",
+      "target": "@parcel/transformer-pug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml",
+      "source_repo": "av/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml",
+      "source_repo": "av/harbor",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml",
+      "source_repo": "av/harbor",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml",
+      "source_repo": "av/harbor",
+      "target": "tauri-apps/tauri-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-release.yml",
+      "source_repo": "av/harbor",
+      "target": "Harbor App Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "Harbor Bench Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "source_repo": "av/harbor",
+      "target": "Harbor Boost Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "av/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "av/harbor",
+      "target": "denoland/setup-deno@v2.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "av/harbor",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "av/harbor",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "homelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "local",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "safetensors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:08:35.001205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25291
+    },
+    {
+      "path": "package.json",
+      "size": 409
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 60857
+    },
+    {
+      "path": ".github/workflows/app-release.yml",
+      "size": 2205
+    },
+    {
+      "path": ".github/workflows/bench-docker.yml",
+      "size": 2574
+    },
+    {
+      "path": ".github/workflows/boost-docker.yml",
+      "size": 2574
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "One command brings a complete pre-wired LLM stack with hundreds of services to explore.",
+    "fork": false,
+    "full_name": "av/harbor",
+    "html_url": "https://github.com/av/harbor",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-16T23:33:47Z",
+    "stargazers_count": 2862,
+    "topics": [
+      "ai",
+      "automation",
+      "bash",
+      "cli",
+      "container",
+      "docker",
+      "docker-compose",
+      "homelab",
+      "llm",
+      "local",
+      "mcp",
+      "npm",
+      "package",
+      "pypi",
+      "safetensors",
+      "self-hosted",
+      "server",
+      "tool",
+      "tools"
+    ],
+    "updated_at": "2026-04-24T03:08:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Harbor App Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-release.yml",
+      "term": "Harbor App Release"
+    },
+    {
+      "context_snippet": "Harbor Bench Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "term": "Harbor Bench Docker image"
+    },
+    {
+      "context_snippet": "Harbor Boost Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "term": "Harbor Boost Docker image"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homelab"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safetensors"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

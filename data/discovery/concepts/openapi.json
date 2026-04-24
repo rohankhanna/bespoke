@@ -142,6 +142,30 @@
       "source_repo": "Azure/autorest",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-h/rest",
+      "status": "candidate-context",
+      "text": "Generate OpenAPI 3.0 specifications from Go code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/rest",
+      "status": "candidate-context",
+      "text": "Document a REST API with an OpenAPI 3.0 specification."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate-context",
+      "text": "Lightweight, blazing fast, cross-platform OpenAPI 3 mock server with validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +234,18 @@
       "source_repo": "Azure/autorest",
       "status": "candidate",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/rest",
+      "status": "candidate",
+      "text": "Document a REST API with an OpenAPI 3.0 specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/apisprout",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -283,11 +319,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Azure/autorest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "a-h/rest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "release-plz/action@v0.5",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "criterion-rs/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd_release.yml",
+      "source_repo": "compio-rs/compio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "salsa-rs/salsa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-rust.yml",
+      "source_repo": "bet4it/udbserver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arkworks-rs/spongefish"
     }
   ]
 }

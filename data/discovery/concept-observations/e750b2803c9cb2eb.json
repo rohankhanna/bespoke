@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "YOLOX + ROS2 object detection package (C++ only support)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023185,
+      "status": "candidate",
+      "text": "computer vision annotation tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023184,
+      "status": "candidate",
+      "text": "openvx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023183,
+      "status": "candidate",
+      "text": "point cloud library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023182,
+      "status": "candidate",
+      "text": "outline of object recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023181,
+      "status": "candidate",
+      "text": "keras"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opencv",
+      "sense_id": "opencv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opencv",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opencv",
+  "observation_id": "e750b2803c9cb2eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "opencv",
+  "source_context_snippet": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)",
+  "source_file": null,
+  "source_repo": "Ar-Ray-code/YOLOX-ROS",
+  "source_repo_description": "YOLOX + ROS2 object detection package (C++ only support)"
+}

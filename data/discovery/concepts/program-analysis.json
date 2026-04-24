@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "program-analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "The official angr GUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "angr-management is a cross-platform, open-source, graphical binary analysis tool powered by the [angr](https://angr.io) binary analysis platform! See [here](https://angr-management.readthedocs.io/en/latest/) for more information."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate",
+      "text": "angr-management is a cross-platform, open-source, graphical binary analysis tool powered by the [angr](https://angr.io) binary analysis platform! See [here](https://angr-management.readthedocs.io/en/latest/) for more information."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "program-analysis",
+  "concept_id": "program-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "angr/angr-management"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "program-analysis",
+      "sense_id": "program-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

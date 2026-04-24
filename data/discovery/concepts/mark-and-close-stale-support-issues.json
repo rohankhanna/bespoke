@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mark and close stale support issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "Dependency Manager for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "Mark and close stale support issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate",
+      "text": "Mark and close stale support issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43641,
+      "status": "candidate",
+      "text": "flagged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42388,
+      "status": "candidate",
+      "text": "stake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42354,
+      "status": "candidate",
+      "text": "badge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42142,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42093,
+      "status": "candidate",
+      "text": "chalk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mark and close stale support issues",
+  "concept_id": "mark-and-close-stale-support-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/close-stale-support.yml",
+      "source_repo": "composer/composer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark and close stale support issues",
+      "sense_id": "mark-and-close-stale-support-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

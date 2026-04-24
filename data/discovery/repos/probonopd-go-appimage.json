@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "tonyhallett/artifacts-url-comments@0965ff1a7ae03c5c1644d3c30f956effea4e05ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "probonopd/go-appimage",
+      "target": "probonopd/static-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "probonopd/go-appimage",
+      "target": "golang-standards/project-layout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "marvinpinto/action-automatic-releases@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "Build All Architectures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "tonyhallett/artifacts-url-comments@0965ff1a7ae03c5c1644d3c30f956effea4e05ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "probonopd/go-appimage",
+      "target": "Add artifact links to pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "probonopd/go-appimage",
+      "target": "appimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "probonopd/go-appimage",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "probonopd/go-appimage",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:00:39.489575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2444
+    },
+    {
+      "path": "go.mod",
+      "size": 3077
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1271
+    },
+    {
+      "path": ".github/workflows/pr-comment.yml",
+      "size": 982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go implementation of AppImage tools",
+    "fork": false,
+    "full_name": "probonopd/go-appimage",
+    "html_url": "https://github.com/probonopd/go-appimage",
+    "language": "Go",
+    "pushed_at": "2026-03-30T16:15:29Z",
+    "stargazers_count": 1130,
+    "topics": [
+      "appimage",
+      "go",
+      "golang",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-23T11:34:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang-standards/project-layout",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "probonopd/static-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build All Architectures",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build All Architectures"
+    },
+    {
+      "context_snippet": "Add artifact links to pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "term": "Add artifact links to pull request"
+    },
+    {
+      "context_snippet": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage"
+    },
+    {
+      "context_snippet": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

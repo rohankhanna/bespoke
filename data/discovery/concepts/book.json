@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "book"
+    "book",
+    "Book"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -91,6 +92,18 @@
       "source_repo": "succinctlabs/op-succinct",
       "status": "candidate-context",
       "text": "book"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate-context",
+      "text": "A generic framework for on-demand, incrementalized computation. Inspired by adapton, glimmer, and rustc's query system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate-context",
+      "text": "Book"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +148,12 @@
       "source_repo": "succinctlabs/op-succinct",
       "status": "candidate",
       "text": "book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate",
+      "text": "Book"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +275,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/book.yml",
       "source_repo": "succinctlabs/op-succinct"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "salsa-rs/salsa"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

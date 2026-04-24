@@ -31,6 +31,42 @@
       "source_repo": "yassinedoghri/astro-i18next",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "i18next-fs-backend is a backend layer for i18next using in Node.js and for Deno to load translations from the filesystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "i18next-http-backend is a backend layer for i18next using in Node.js, in the browser and for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/next-i18next",
+      "status": "candidate-context",
+      "text": "The easiest way to translate your NextJs apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/next-i18next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/next-i18next.svg?style=flat-square)](https://www.npmjs.com/package/next-i18next)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "yassinedoghri/astro-i18next",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/next-i18next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/next-i18next.svg?style=flat-square)](https://www.npmjs.com/package/next-i18next)"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +154,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "yassinedoghri/astro-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-fs-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-http-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/next-i18next"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

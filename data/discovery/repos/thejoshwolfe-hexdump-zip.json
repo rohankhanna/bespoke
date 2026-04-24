@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:05:10.572399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "produce an annotated hexdump of a zipfile",
+    "fork": false,
+    "full_name": "thejoshwolfe/hexdump-zip",
+    "html_url": "https://github.com/thejoshwolfe/hexdump-zip",
+    "language": "Zig",
+    "pushed_at": "2025-03-30T02:35:56Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-06-28T03:47:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

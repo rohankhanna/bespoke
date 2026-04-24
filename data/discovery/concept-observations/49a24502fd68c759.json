@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flink Connector for Apache Doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "License Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "License Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "certify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "leave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "licence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "male"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Check",
+      "sense_id": "license-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "license-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license-check",
+  "observation_id": "49a24502fd68c759",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "License Check",
+  "source_context_snippet": "License Check",
+  "source_file": ".github/workflows/license-eyes.yml",
+  "source_repo": "apache/doris-flink-connector",
+  "source_repo_description": "Flink Connector for Apache Doris"
+}

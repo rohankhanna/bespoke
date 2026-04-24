@@ -1,0 +1,491 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "invertase/github-action-dart-analyzer@e981b01a458d0bab71ee5da182e5b26687b7101b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "axel-op/dart-package-analyzer@56afb7e6737bd2b7cee05382ae7f0e8111138080",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-preview.yml"
+    },
+    {
+      "component": "getsentry/craft/.github/workflows/changelog-preview.yml@97d0c4286f32a80d09c8b89366d762fecc3e27b6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-preview.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagrams.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagrams.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dio.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/drift.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "invertase/github-action-dart-analyzer@e981b01a458d0bab71ee5da182e5b26687b7101b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "axel-op/dart-package-analyzer@56afb7e6737bd2b7cee05382ae7f0e8111138080",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-preview.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-preview.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "getsentry/craft/.github/workflows/changelog-preview.yml@97d0c4286f32a80d09c8b89366d762fecc3e27b6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-preview.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "Changelog Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "Changes In High Risk Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "sentry-dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagrams.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagrams.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagrams.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "diagrams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dio.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dio.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "sentry-dio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/drift.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/drift.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "sentry-drift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_dart.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_dart.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e_dart.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "e2e-sentry-dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/file.yml",
+      "source_repo": "getsentry/sentry-dart",
+      "target": "sentry-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart",
+      "target": "crash-reporting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart",
+      "target": "sentry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart",
+      "target": "tag-production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-dart",
+      "target": "team-mobile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:35.303378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12357
+    },
+    {
+      "path": ".github/workflows/analyze.yml",
+      "size": 3154
+    },
+    {
+      "path": ".github/workflows/changelog-preview.yml",
+      "size": 389
+    },
+    {
+      "path": ".github/workflows/changes-in-high-risk-code.yml",
+      "size": 2632
+    },
+    {
+      "path": ".github/workflows/dart.yml",
+      "size": 1755
+    },
+    {
+      "path": ".github/workflows/diagrams.yml",
+      "size": 2831
+    },
+    {
+      "path": ".github/workflows/dio.yml",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/drift.yml",
+      "size": 1982
+    },
+    {
+      "path": ".github/workflows/e2e_dart.yml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/file.yml",
+      "size": 1511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sentry SDK for Dart and Flutter",
+    "fork": false,
+    "full_name": "getsentry/sentry-dart",
+    "html_url": "https://github.com/getsentry/sentry-dart",
+    "language": "Dart",
+    "pushed_at": "2026-04-23T13:01:23Z",
+    "stargazers_count": 859,
+    "topics": [
+      "crash-reporting",
+      "dart",
+      "flutter",
+      "hacktoberfest",
+      "sdk",
+      "sentry",
+      "tag-production",
+      "team-mobile"
+    ],
+    "updated_at": "2026-04-23T01:31:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Changelog Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-preview.yml",
+      "term": "Changelog Preview"
+    },
+    {
+      "context_snippet": "Changes In High Risk Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changes-in-high-risk-code.yml",
+      "term": "Changes In High Risk Code"
+    },
+    {
+      "context_snippet": "sentry-dart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "term": "sentry-dart"
+    },
+    {
+      "context_snippet": "diagrams",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagrams.yml",
+      "term": "diagrams"
+    },
+    {
+      "context_snippet": "sentry-dio",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dio.yml",
+      "term": "sentry-dio"
+    },
+    {
+      "context_snippet": "sentry-drift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/drift.yml",
+      "term": "sentry-drift"
+    },
+    {
+      "context_snippet": "e2e-sentry-dart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e_dart.yml",
+      "term": "e2e-sentry-dart"
+    },
+    {
+      "context_snippet": "sentry-file",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/file.yml",
+      "term": "sentry-file"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crash-reporting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentry"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tag-production"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "team-mobile"
+    }
+  ]
+}

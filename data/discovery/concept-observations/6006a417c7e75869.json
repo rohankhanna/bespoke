@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "HTML documentation build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "HTML documentation build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22758,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22758,
+      "status": "candidate",
+      "text": "xml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21946,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18159,
+      "status": "candidate",
+      "text": "code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18159,
+      "status": "candidate",
+      "text": "format"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "HTML documentation build",
+      "sense_id": "html-documentation-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "html-documentation-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "html-documentation-build",
+  "observation_id": "6006a417c7e75869",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "HTML documentation build",
+  "source_context_snippet": "HTML documentation build",
+  "source_file": ".github/workflows/build_html_doc.yml",
+  "source_repo": "openvinotoolkit/nncf",
+  "source_repo_description": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+}

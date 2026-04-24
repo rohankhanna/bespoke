@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close Flathubbot Failure Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Issue tracker and new submissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Close Flathubbot Failure Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate",
+      "text": "Close Flathubbot Failure Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18771,
+      "status": "candidate",
+      "text": "safety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18202,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18161,
+      "status": "candidate",
+      "text": "fatal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18072,
+      "status": "candidate",
+      "text": "pragmatism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "beat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close Flathubbot Failure Issues",
+  "concept_id": "close-flathubbot-failure-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/close-job-failure-issues.yml",
+      "source_repo": "flathub/flathub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close Flathubbot Failure Issues",
+      "sense_id": "close-flathubbot-failure-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

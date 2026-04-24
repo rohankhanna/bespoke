@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Staging area for Claude Code bug reports and feature requests before filing upstream at anthropics/claude-code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Staging area for Claude Code issues before filing upstream at [anthropics/claude-code](https://github.com/anthropics/claude-code/issues), plus a backfill of items already filed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Staging area for Claude Code issues before filing upstream at [anthropics/claude-code](https://github.com/anthropics/claude-code/issues), plus a backfill of items already filed."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-code",
+      "sense_id": "claude-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-code",
+  "observation_id": "f69a2df73a111291",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "claude-code",
+  "source_context_snippet": "Staging area for Claude Code issues before filing upstream at [anthropics/claude-code](https://github.com/anthropics/claude-code/issues), plus a backfill of items already filed.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Code-Bugs-And-FRs",
+  "source_repo_description": "Staging area for Claude Code bug reports and feature requests before filing upstream at anthropics/claude-code"
+}

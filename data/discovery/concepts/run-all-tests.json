@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Run all tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Supervisor/supervisor",
+      "status": "candidate-context",
+      "text": "Supervisor process control system for Unix (supervisord)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Supervisor/supervisor",
+      "status": "candidate-context",
+      "text": "Run all tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlDanial/cloc",
+      "status": "candidate-context",
+      "text": "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlDanial/cloc",
+      "status": "candidate-context",
+      "text": "Run all tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Supervisor/supervisor",
+      "status": "candidate",
+      "text": "Run all tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlDanial/cloc",
+      "status": "candidate",
+      "text": "Run all tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39923,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37110,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30584,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30584,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966,
+      "status": "candidate",
+      "text": "assays"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run all tests",
+  "concept_id": "run-all-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Supervisor/supervisor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AlDanial/cloc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run all tests",
+      "sense_id": "run-all-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

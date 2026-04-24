@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:34:08.762760+00:00",
+  "fetched_at": "2026-04-24T08:04:06.835361+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -496,8 +496,8 @@
     "full_name": "GitoxideLabs/gitoxide",
     "html_url": "https://github.com/GitoxideLabs/gitoxide",
     "language": "Rust",
-    "pushed_at": "2026-04-23T13:54:00Z",
-    "stargazers_count": 11205,
+    "pushed_at": "2026-04-24T07:56:10Z",
+    "stargazers_count": 11207,
     "topics": [
       "blazingly-fast",
       "built-with-rust",
@@ -505,7 +505,7 @@
       "git",
       "version-control"
     ],
-    "updated_at": "2026-04-23T20:38:49Z"
+    "updated_at": "2026-04-24T07:16:37Z"
   },
   "repo_links": [
     {

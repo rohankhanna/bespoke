@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create release, push container image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "Signature Transparency Log designed for ease of use, low cost, and minimal maintenance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "Create release, push container image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate",
+      "text": "Create release, push container image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55066,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54666,
+      "status": "candidate",
+      "text": "molded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43165,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43017,
+      "status": "candidate",
+      "text": "mould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42788,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create release, push container image",
+  "concept_id": "create-release-push-container-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sigstore/rekor-tiles"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create release, push container image",
+      "sense_id": "create-release-push-container-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

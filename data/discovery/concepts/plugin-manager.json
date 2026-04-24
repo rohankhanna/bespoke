@@ -115,6 +115,30 @@
       "source_repo": "agkozak/zcomet",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marlonrichert/zsh-snap",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Znap! Fast, easy-to-use tools for Zsh dotfiles & plugins, plus git repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marlonrichert/zsh-snap",
+      "status": "candidate-context",
+      "text": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/antigen",
+      "status": "candidate-context",
+      "text": "The plugin manager for zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/antigen",
+      "status": "candidate-context",
+      "text": "The plugin manager for zsh."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "agkozak/zcomet",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marlonrichert/zsh-snap",
+      "status": "candidate",
+      "text": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/antigen",
+      "status": "candidate",
+      "text": "The plugin manager for zsh."
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +274,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "agkozak/zcomet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zsh-users/antigen"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-job-failure-issues.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-data-checker.yml"
+    },
+    {
+      "component": "flathub-infra/merge-action@e568854827645bbe5b2bb83c8eec97220626a285",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flathub/flathub",
+      "target": "flathub-infra/website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "flathub/flathub",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "flathub/flathub",
+      "target": "Archive EOL repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flathub/flathub",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flathub/flathub",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-job-failure-issues.yml",
+      "source_repo": "flathub/flathub",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-job-failure-issues.yml",
+      "source_repo": "flathub/flathub",
+      "target": "Close Flathubbot Failure Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-master-prs.yml",
+      "source_repo": "flathub/flathub",
+      "target": "Close PRs to master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-data-checker.yml",
+      "source_repo": "flathub/flathub",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-prs.yml",
+      "source_repo": "flathub/flathub",
+      "target": "Lock closed PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yml",
+      "source_repo": "flathub/flathub",
+      "target": "flathub-infra/merge-action@e568854827645bbe5b2bb83c8eec97220626a285",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge.yml",
+      "source_repo": "flathub/flathub",
+      "target": "Automatic application merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "flathub/flathub",
+      "target": "Check PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub/flathub",
+      "target": "flathub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub/flathub",
+      "target": "flatpak",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:00.192599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/archive.yml",
+      "size": 1050
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 747
+    },
+    {
+      "path": ".github/workflows/close-job-failure-issues.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/close-master-prs.yml",
+      "size": 1653
+    },
+    {
+      "path": ".github/workflows/external-data-checker.yml",
+      "size": 586
+    },
+    {
+      "path": ".github/workflows/lock-prs.yml",
+      "size": 1162
+    },
+    {
+      "path": ".github/workflows/lock-spams.yml",
+      "size": 1463
+    },
+    {
+      "path": ".github/workflows/merge.yml",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/pr-check.yml",
+      "size": 14996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Issue tracker and new submissions",
+    "fork": false,
+    "full_name": "flathub/flathub",
+    "html_url": "https://github.com/flathub/flathub",
+    "language": null,
+    "pushed_at": "2026-04-22T12:55:34Z",
+    "stargazers_count": 1432,
+    "topics": [
+      "flathub",
+      "flatpak"
+    ],
+    "updated_at": "2026-04-22T17:01:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flathub-infra/website",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Archive EOL repositories",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archive.yml",
+      "term": "Archive EOL repositories"
+    },
+    {
+      "context_snippet": "Close Flathubbot Failure Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-job-failure-issues.yml",
+      "term": "Close Flathubbot Failure Issues"
+    },
+    {
+      "context_snippet": "Close PRs to master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-master-prs.yml",
+      "term": "Close PRs to master"
+    },
+    {
+      "context_snippet": "\"Lock closed PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-prs.yml",
+      "term": "Lock closed PRs"
+    },
+    {
+      "context_snippet": "Automatic application merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge.yml",
+      "term": "Automatic application merge"
+    },
+    {
+      "context_snippet": "Check PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "term": "Check PRs"
+    },
+    {
+      "context_snippet": "Flathub is the central place for building and hosting Flatpak builds.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flathub"
+    },
+    {
+      "context_snippet": "Flathub is the central place for building and hosting Flatpak builds.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flatpak"
+    }
+  ]
+}

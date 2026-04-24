@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Meta-programming for Swift, stop writing boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rake docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rake docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10961,
+      "status": "candidate",
+      "text": "diapason"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10961,
+      "status": "candidate",
+      "text": "kymograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10961,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10840,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10840,
+      "status": "candidate",
+      "text": "rive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rake docs",
+      "sense_id": "rake-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rake-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rake-docs",
+  "observation_id": "03128761f1444240",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "rake docs",
+  "source_context_snippet": "rake docs",
+  "source_file": ".github/workflows/jazzy.yml",
+  "source_repo": "krzysztofzablocki/Sourcery",
+  "source_repo_description": "Meta-programming for Swift, stop writing boilerplate code."
+}

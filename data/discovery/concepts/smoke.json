@@ -58,6 +58,18 @@
       "source_repo": "dependabot/cli",
       "status": "candidate-context",
       "text": "Smoke"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "Smoke"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dependabot/cli",
+      "status": "candidate",
+      "text": "Smoke"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
       "status": "candidate",
       "text": "Smoke"
     }
@@ -187,11 +205,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/smoke.yml",
       "source_repo": "dependabot/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "dependabot/smoke-tests"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

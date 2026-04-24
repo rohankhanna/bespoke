@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "release gopass summon provider"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass-summon-provider",
+      "status": "candidate-context",
+      "text": "Gopass Summon Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-summon-provider",
+      "status": "candidate-context",
+      "text": "release gopass summon provider"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass-summon-provider",
+      "status": "candidate",
+      "text": "release gopass summon provider"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18128,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18128,
+      "status": "candidate",
+      "text": "muster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18128,
+      "status": "candidate",
+      "text": "mustering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "deliver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "delivered"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "release gopass summon provider",
+  "concept_id": "release-gopass-summon-provider",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "gopasspw/gopass-summon-provider"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release gopass summon provider",
+      "sense_id": "release-gopass-summon-provider#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

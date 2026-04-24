@@ -214,13 +214,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql-hive/graphql-eslint",
-      "target": "the-guild-org/stack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "graphql-hive/graphql-eslint",
       "target": "dimamachina/graphql-eslint",
@@ -577,7 +570,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:39:57.140958+00:00",
+  "fetched_at": "2026-04-24T08:07:50.401934+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -628,11 +621,6 @@
     "updated_at": "2026-03-17T12:29:52Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "the-guild-org/stack",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "dimamachina/graphql-eslint",

@@ -118,6 +118,30 @@
       "source_repo": "RoaringBitmap/CRoaring",
       "status": "candidate-context",
       "text": "emscripten"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate-context",
+      "text": "Cross-Platform OpenGL Doom Source Port with powerful modding features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate-context",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiousdannii/emglken",
+      "status": "candidate-context",
+      "text": "Glk meets Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/emglken",
+      "status": "candidate-context",
+      "text": "Emglken: Glk meets Emscripten"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "RoaringBitmap/CRoaring",
       "status": "candidate",
       "text": "emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/emglken",
+      "status": "candidate",
+      "text": "Emglken: Glk meets Emscripten"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +307,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/emscripten.yml",
       "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "curiousdannii/emglken"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

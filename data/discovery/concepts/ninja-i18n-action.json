@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ninja i18n action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "Ninja i18n action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate",
+      "text": "Ninja i18n action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "chop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "sewer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "stealth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "stealthy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "anime"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ninja i18n action",
+  "concept_id": "ninja-i18n-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ninja_i18n.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ninja i18n action",
+      "sense_id": "ninja-i18n-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

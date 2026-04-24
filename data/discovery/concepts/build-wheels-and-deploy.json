@@ -43,6 +43,30 @@
       "source_repo": "deepseek-ai/DeepGEMM",
       "status": "candidate-context",
       "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/Block-Sparse-Attention",
+      "status": "candidate-context",
+      "text": "A sparse attention kernel supporting mix sparse patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/Block-Sparse-Attention",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/flash-attention",
+      "status": "candidate-context",
+      "text": "Fast and memory-efficient exact attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/flash-attention",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "deepseek-ai/DeepGEMM",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/Block-Sparse-Attention",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/flash-attention",
       "status": "candidate",
       "text": "Build wheels and deploy"
     }
@@ -142,11 +178,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "deepseek-ai/DeepGEMM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mit-han-lab/Block-Sparse-Attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vllm-project/flash-attention"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

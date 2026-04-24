@@ -1,0 +1,411 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/draco",
+      "target": "atteneder/dracounity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/draco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/draco",
+      "target": "draco-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/draco",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/draco",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/draco",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/draco",
+      "target": "\ud83d\udcac Gemini CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/draco",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/draco",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/draco",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/draco",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/draco",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/draco",
+      "target": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/draco",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/draco",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/draco",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/draco",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/draco",
+      "target": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/draco",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/draco",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/draco",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/draco",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/draco",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/draco",
+      "target": "\ud83e\uddd0 Gemini Pull Request Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/draco",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/draco",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/draco",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/draco",
+      "target": "point-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:40.873901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24920
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 13020
+    },
+    {
+      "path": ".github/workflows/gemini-cli.yml",
+      "size": 10362
+    },
+    {
+      "path": ".github/workflows/gemini-issue-automated-triage.yml",
+      "size": 5053
+    },
+    {
+      "path": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "size": 4575
+    },
+    {
+      "path": ".github/workflows/gemini-pr-review.yml",
+      "size": 24378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.",
+    "fork": false,
+    "full_name": "google/draco",
+    "html_url": "https://github.com/google/draco",
+    "language": "C++",
+    "pushed_at": "2026-04-08T18:57:47Z",
+    "stargazers_count": 7237,
+    "topics": [
+      "3d-graphics",
+      "compression",
+      "mesh",
+      "point-cloud"
+    ],
+    "updated_at": "2026-04-23T17:33:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atteneder/dracounity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "draco-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "draco-ci"
+    },
+    {
+      "context_snippet": "'\ud83d\udcac Gemini CLI'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "term": "\ud83d\udcac Gemini CLI"
+    },
+    {
+      "context_snippet": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "term": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage"
+    },
+    {
+      "context_snippet": "'\ud83d\udccb Gemini Scheduled Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "term": "\ud83d\udccb Gemini Scheduled Issue Triage"
+    },
+    {
+      "context_snippet": "'\ud83e\uddd0 Gemini Pull Request Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "term": "\ud83e\uddd0 Gemini Pull Request Review"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    }
+  ]
+}

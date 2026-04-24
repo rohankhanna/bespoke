@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "rustsec/audit-check@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "Rust dependency audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "init-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "operating-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust",
+      "target": "supervisor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:34.222057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7343
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 240
+    },
+    {
+      "path": "Dockerfile",
+      "size": 823
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 7162
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Horust is a supervisor / init system written in rust and designed to run inside containers.",
+    "fork": false,
+    "full_name": "FedericoPonzi/Horust",
+    "html_url": "https://github.com/FedericoPonzi/Horust",
+    "language": "Rust",
+    "pushed_at": "2026-04-07T22:15:28Z",
+    "stargazers_count": 275,
+    "topics": [
+      "docker",
+      "init",
+      "init-system",
+      "operating-system",
+      "rust",
+      "rust-lang",
+      "supervisor"
+    ],
+    "updated_at": "2026-04-20T17:50:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust dependency audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Rust dependency audit"
+    },
+    {
+      "context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "init"
+    },
+    {
+      "context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "init-system"
+    },
+    {
+      "context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-system"
+    },
+    {
+      "context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supervisor"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome",
+      "target": "aws-iam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome",
+      "target": "chrome-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome",
+      "target": "iam-role",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome",
+      "target": "instance-metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bridgewater/holochrome",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:49.162927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Use your IAM role (from instance metadata) to open the AWS console ",
+    "fork": false,
+    "full_name": "Bridgewater/holochrome",
+    "html_url": "https://github.com/Bridgewater/holochrome",
+    "language": "JavaScript",
+    "pushed_at": "2021-12-02T20:04:35Z",
+    "stargazers_count": 104,
+    "topics": [
+      "aws",
+      "aws-iam",
+      "chrome",
+      "chrome-extension",
+      "iam-role",
+      "instance-metadata",
+      "security"
+    ],
+    "updated_at": "2025-11-30T14:54:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-iam"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-extension"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iam-role"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-metadata"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

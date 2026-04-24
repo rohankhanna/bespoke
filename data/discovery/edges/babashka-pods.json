@@ -4,7 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/pods",
-      "target": "babashka/babashka",
+      "target": "borkdude/sci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pods",
+      "target": "edn-format/edn",
       "target_type": "repository"
     },
     {
@@ -18,17 +25,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/pods",
-      "target": "babashka/pod-registry",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/pods",
-      "target": "babashka/pod-babashka-filewatcher",
+      "target": "borkdude/pod-babashka-hsqldb",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "babashka/pods"
 }

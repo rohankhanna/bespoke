@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dsnet/compress",
+      "target": "brotli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dsnet/compress",
+      "target": "bzip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dsnet/compress",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dsnet/compress",
+      "target": "deflate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dsnet/compress",
+      "target": "xflate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:41.804833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4440
+    },
+    {
+      "path": "go.mod",
+      "size": 275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of compression related Go packages.",
+    "fork": false,
+    "full_name": "dsnet/compress",
+    "html_url": "https://github.com/dsnet/compress",
+    "language": "Go",
+    "pushed_at": "2023-09-04T18:41:57Z",
+    "stargazers_count": 416,
+    "topics": [
+      "brotli",
+      "bzip2",
+      "compression",
+      "deflate",
+      "go",
+      "xflate"
+    ],
+    "updated_at": "2026-02-20T11:48:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brotli"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bzip2"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deflate"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/dsnet/compress/cmp?status.svg)](https://godoc.org/github.com/dsnet/compress)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xflate"
+    }
+  ]
+}

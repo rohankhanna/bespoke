@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly upstream testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask-contrib/dask-sql",
+      "status": "candidate-context",
+      "text": "Distributed SQL Engine in Python using Dask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-sql",
+      "status": "candidate-context",
+      "text": "Nightly upstream testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-sql",
+      "status": "candidate",
+      "text": "Nightly upstream testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19844,
+      "status": "candidate",
+      "text": "pony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "bath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "sleep"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly upstream testing",
+  "concept_id": "nightly-upstream-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test-upstream.yml",
+      "source_repo": "dask-contrib/dask-sql"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly upstream testing",
+      "sense_id": "nightly-upstream-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

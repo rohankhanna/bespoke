@@ -3,7 +3,8 @@
     "build-test",
     "Build Test",
     "Build & Test",
-    "Build test"
+    "Build test",
+    "Build, Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -304,6 +305,96 @@
       "source_repo": "preactjs/preact",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d The API and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-lambda-builders",
+      "status": "candidate-context",
+      "text": "Python library to compile, build & package AWS Lambda functions for several runtimes & framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lambda-builders",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate-context",
+      "text": "Backports of patches from systemd git for stable versions < 256"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate-context",
+      "text": "Build test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dtcooper/raspotify",
+      "status": "candidate-context",
+      "text": "A Spotify Connect client that mostly Just Works\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtcooper/raspotify",
+      "status": "candidate-context",
+      "text": "Build test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "Fuzzy Finder in rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-sdk",
+      "status": "candidate-context",
+      "text": "Build, Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/developer-tooling",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0\ufe0f SDKs and CLI for interacting with Celo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/developer-tooling",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -454,6 +545,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "preactjs/preact",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lambda-builders",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate",
+      "text": "Build test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtcooper/raspotify",
+      "status": "candidate",
+      "text": "Build test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-sdk",
+      "status": "candidate",
+      "text": "Build, Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/developer-tooling",
       "status": "candidate",
       "text": "Build & Test"
     }
@@ -739,11 +878,95 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-and-test-skip.yml",
+      "source_repo": "cure53/DOMPurify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "cure53/DOMPurify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-lambda-builders"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "systemd/systemd-stable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "dtcooper/raspotify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "skim-rs/skim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "OffchainLabs/arbitrum-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "celo-org/developer-tooling"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v2",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_windows.yml",
       "source_repo": "raysan5/raylib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Evalution"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "git-for-windows/git"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_code_build.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows_self_host.yml",
+      "source_repo": "mjun0812/flash-attention-prebuild-wheels"
     }
   ]
 }

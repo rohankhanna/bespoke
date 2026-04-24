@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "blynkkk/blynkkk.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "cellular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "esp32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "esp8266",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "espressif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "ethernet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "hardware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "internet-of-things",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "iot-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "particle-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "platformio-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blynk-Technologies/blynk-library",
+      "target": "wifi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:12:06.559160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4380
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 14048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Blynk library for IoT boards. Works with Arduino, ESP32, ESP8266, Raspberry Pi, Particle, etc.",
+    "fork": false,
+    "full_name": "Blynk-Technologies/blynk-library",
+    "html_url": "https://github.com/Blynk-Technologies/blynk-library",
+    "language": "C++",
+    "pushed_at": "2026-04-23T20:49:57Z",
+    "stargazers_count": 3965,
+    "topics": [
+      "arduino",
+      "cellular",
+      "embedded",
+      "esp32",
+      "esp8266",
+      "espressif",
+      "ethernet",
+      "gsm",
+      "hardware",
+      "internet-of-things",
+      "iot",
+      "iot-platform",
+      "lte",
+      "ota",
+      "particle-io",
+      "platformio-library",
+      "raspberry-pi",
+      "wifi"
+    ],
+    "updated_at": "2026-04-24T01:15:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blynkkk/blynkkk.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cellular"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp32"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8266"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "espressif"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethernet"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internet-of-things"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iot-platform"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "particle-io"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "platformio-library"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://img.shields.io/github/release/Blynk-Technologies/blynk-library.svg)](https://github.com/Blynk-Technologies/blynk-library/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wifi"
+    }
+  ]
+}

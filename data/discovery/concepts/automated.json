@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "automated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "Configuration manager for Aerokube products"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/aerokube/cm/workflows/build/badge.svg)](https://github.com/aerokube/cm/actions?query=workflow%3Abuild)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/aerokube/cm/workflows/build/badge.svg)](https://github.com/aerokube/cm/actions?query=workflow%3Abuild)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935912,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034021,
+      "status": "candidate",
+      "text": "machine-controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034021,
+      "status": "candidate",
+      "text": "machine-driven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034020,
+      "status": "candidate",
+      "text": "automatically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032677,
+      "status": "candidate",
+      "text": "robotic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7047,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "machine-driven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "machine-controlled"
+    }
+  ],
+  "canonical_name": "automated",
+  "concept_id": "automated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aerokube/cm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "automated",
+      "sense_id": "automated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

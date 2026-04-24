@@ -31,6 +31,18 @@
       "source_repo": "jandamm/zgenom",
       "status": "candidate-context",
       "text": "A lightweight yet powerful plugin manager for Zsh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukechilds/zsh-nvm",
+      "status": "candidate-context",
+      "text": "Zsh plugin for installing, updating and loading nvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukechilds/zsh-nvm",
+      "status": "candidate-context",
+      "text": "> Zsh plugin for installing, updating and loading `nvm`"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jandamm/zgenom",
       "status": "candidate",
       "text": "A lightweight yet powerful plugin manager for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukechilds/zsh-nvm",
+      "status": "candidate",
+      "text": "> Zsh plugin for installing, updating and loading `nvm`"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jandamm/zgenom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

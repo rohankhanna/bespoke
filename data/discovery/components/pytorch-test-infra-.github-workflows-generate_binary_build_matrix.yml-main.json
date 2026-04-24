@@ -1,7 +1,7 @@
 {
   "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_wheel_windows_arm64.yml",
       "source_repo": "pytorch/vision"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/FBGEMM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_whl_and_publish.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reference_resources.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
     }
   ]
 }

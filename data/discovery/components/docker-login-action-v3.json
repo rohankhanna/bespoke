@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -887,6 +887,146 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "icip-cas/PPTAgent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "uccl-project/uccl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "uccl-project/uccl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/k8s.yml",
+      "source_repo": "apache/datafusion-ray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dask-contrib/dask-sql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plugins-tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/boost-docker.yml",
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "ArkMowers/arknights-mower"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-frontend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "kaldi-asr/kaldi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "horovod/horovod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "dzeiocom/simple-icons-astro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "dunglas/vulcain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "krzysztofzablocki/Sourcery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CD.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/PR-build.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/poet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_static.yml",
+      "source_repo": "EspressoSystems/espresso-example-l2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml",
+      "source_repo": "eth-act/ere"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-semver-image-tag.yml",
+      "source_repo": "eth-act/ere"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flatpak/flat-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mssql-container.yml",
+      "source_repo": "uptrace/bun"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yml",
+      "source_repo": "jaegertracing/docker-protobuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-publish-openai.yml",
+      "source_repo": "eosphoros-ai/DB-GPT"
     }
   ]
 }

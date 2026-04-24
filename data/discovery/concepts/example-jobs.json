@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Example jobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "Generative AI Examples is a collection of GenAI examples such as ChatQnA, Copilot, which illustrate the pipeline capabilities of the Open Platform for Enterprise AI (OPEA) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "Example jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate",
+      "text": "Example jobs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12393,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12393,
+      "status": "candidate",
+      "text": "exercise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12393,
+      "status": "candidate",
+      "text": "exercising"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12393,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12393,
+      "status": "candidate",
+      "text": "idle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Example jobs",
+  "concept_id": "example-jobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/_example-workflow.yml",
+      "source_repo": "opea-project/GenAIExamples"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Example jobs",
+      "sense_id": "example-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

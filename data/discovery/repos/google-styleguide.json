@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/styleguide",
+      "target": "cpplint/cpplint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/styleguide",
+      "target": "cpplint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/styleguide",
+      "target": "style-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/styleguide",
+      "target": "styleguide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:45.136803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Style guides for Google-originated open-source projects",
+    "fork": false,
+    "full_name": "google/styleguide",
+    "html_url": "https://github.com/google/styleguide",
+    "language": "HTML",
+    "pushed_at": "2026-04-09T16:35:19Z",
+    "stargazers_count": 39230,
+    "topics": [
+      "cpplint",
+      "style-guide",
+      "styleguide"
+    ],
+    "updated_at": "2026-04-24T06:06:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpplint/cpplint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Every major open-source project has its own style guide: a set of conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpplint"
+    },
+    {
+      "context_snippet": "Every major open-source project has its own style guide: a set of conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    },
+    {
+      "context_snippet": "Every major open-source project has its own style guide: a set of conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styleguide"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools to support converting a Python project into a standalone native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img src=\"https://beeware.org/project/briefcase/briefcase.png\" width=\"72\" alt=\"logo\" />](https://beeware.org/briefcase)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img src=\"https://beeware.org/project/briefcase/briefcase.png\" width=\"72\" alt=\"logo\" />](https://beeware.org/briefcase)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033156,
+      "status": "candidate",
+      "text": "diligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972092,
+      "status": "candidate",
+      "text": "covering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957862,
+      "status": "candidate",
+      "text": "application program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941195,
+      "status": "candidate",
+      "text": "coating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904566,
+      "status": "candidate",
+      "text": "lotion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "application",
+      "sense_id": "application#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30046,
+      "status": "candidate",
+      "text": "diligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5055,
+      "status": "candidate",
+      "text": "coating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4043,
+      "status": "candidate",
+      "text": "covering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "lotion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "applications programme"
+    }
+  ],
+  "concept_id": "application",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "application",
+  "observation_id": "762db1d07a892276",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "application",
+  "source_context_snippet": "[<img src=\"https://beeware.org/project/briefcase/briefcase.png\" width=\"72\" alt=\"logo\" />](https://beeware.org/briefcase)",
+  "source_file": null,
+  "source_repo": "beeware/briefcase",
+  "source_repo_description": "Tools to support converting a Python project into a standalone native application."
+}

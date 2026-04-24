@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocaml-ci",
+      "target": "apps/ocaml-ci",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:06:17.281029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7075
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CI for OCaml projects",
+    "fork": false,
+    "full_name": "ocurrent/ocaml-ci",
+    "html_url": "https://github.com/ocurrent/ocaml-ci",
+    "language": "OCaml",
+    "pushed_at": "2026-03-06T17:06:03Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-03-06T17:06:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apps/ocaml-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

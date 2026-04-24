@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectX-Specs",
+      "target": "microsoft/directxshadercompiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectX-Specs",
+      "target": "microsoft/directx-graphics-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectX-Specs",
+      "target": "microsoft/directxtk12",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectX-Specs",
+      "target": "microsoft/directx-debugging-tools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:54.729507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Engineering specs for DirectX features.",
+    "fork": false,
+    "full_name": "microsoft/DirectX-Specs",
+    "html_url": "https://github.com/microsoft/DirectX-Specs",
+    "language": "HTML",
+    "pushed_at": "2026-04-16T20:44:16Z",
+    "stargazers_count": 830,
+    "topics": [],
+    "updated_at": "2026-04-22T02:43:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directx-debugging-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directx-graphics-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directxshadercompiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directxtk12",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

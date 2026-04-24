@@ -19,6 +19,30 @@
       "source_repo": "commitizen/cz-cli",
       "status": "candidate-context",
       "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "commitizen/cz-cli",
       "status": "candidate",
       "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "commitizen/cz-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tqdm/tqdm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

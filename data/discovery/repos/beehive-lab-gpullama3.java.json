@@ -1,0 +1,558 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-run.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-run.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-central.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finalize-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finalize-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finalize-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-quarkus-langchain4j.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun-workflow.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun-workflow.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun-workflow.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun-workflow.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun-workflow.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "mukel/llama3.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "mikepapadim/llama2.tornadovm.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "beehive-lab/docker-gpullama3.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-run.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-run.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "GPULlama3 Build & Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-central.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-maven-central.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "Deploy to Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finalize-release.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finalize-release.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/finalize-release.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "Finalize GPULlama3 Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-quarkus-langchain4j.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-quarkus-langchain4j.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "Integration Quarkus-LangChain4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "Prepare GPULlama3 Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun-workflow.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rerun-workflow.yml",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "Rerun Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "accelerators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "compilers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "deepseek-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "granite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "ibm-granite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "java21",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "mistral-7b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "phi-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "phi-3-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "qwen2-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "qwen3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "target": "tornadovm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:21.810040+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22868
+    },
+    {
+      "path": ".github/workflows/build-and-run.yml",
+      "size": 7545
+    },
+    {
+      "path": ".github/workflows/deploy-maven-central.yml",
+      "size": 3996
+    },
+    {
+      "path": ".github/workflows/finalize-release.yml",
+      "size": 5710
+    },
+    {
+      "path": ".github/workflows/integration-quarkus-langchain4j.yml",
+      "size": 9568
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "size": 10913
+    },
+    {
+      "path": ".github/workflows/rerun-workflow.yml",
+      "size": 7213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. ",
+    "fork": false,
+    "full_name": "beehive-lab/GPULlama3.java",
+    "html_url": "https://github.com/beehive-lab/GPULlama3.java",
+    "language": "Java",
+    "pushed_at": "2026-04-23T09:33:03Z",
+    "stargazers_count": 253,
+    "topics": [
+      "accelerators",
+      "compilers",
+      "deepseek-r1",
+      "gguf",
+      "gpu",
+      "granite",
+      "ibm-granite",
+      "java",
+      "java21",
+      "llama3",
+      "llm",
+      "mistral",
+      "mistral-7b",
+      "nvidia",
+      "phi-3",
+      "phi-3-mini",
+      "qwen2-5",
+      "qwen3",
+      "tornadovm"
+    ],
+    "updated_at": "2026-04-23T18:12:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beehive-lab/docker-gpullama3.java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikepapadim/llama2.tornadovm.java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mukel/llama3.java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GPULlama3 Build & Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-run.yml",
+      "term": "GPULlama3 Build & Run"
+    },
+    {
+      "context_snippet": "Deploy to Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-maven-central.yml",
+      "term": "Deploy to Maven Central"
+    },
+    {
+      "context_snippet": "Finalize GPULlama3 Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/finalize-release.yml",
+      "term": "Finalize GPULlama3 Release"
+    },
+    {
+      "context_snippet": "Integration Quarkus-LangChain4j",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-quarkus-langchain4j.yml",
+      "term": "Integration Quarkus-LangChain4j"
+    },
+    {
+      "context_snippet": "Prepare GPULlama3 Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "term": "Prepare GPULlama3 Release"
+    },
+    {
+      "context_snippet": "Rerun Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rerun-workflow.yml",
+      "term": "Rerun Workflows"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accelerators"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compilers"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek-r1"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "granite"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ibm-granite"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java21"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral-7b"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi-3"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi-3-mini"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen2-5"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen3"
+    },
+    {
+      "context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tornadovm"
+    }
+  ]
+}

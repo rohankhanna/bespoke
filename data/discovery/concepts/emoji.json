@@ -73,6 +73,18 @@
       "source_repo": "frinyvonnick/gitmoji-changelog",
       "status": "candidate-context",
       "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appfigures/react-easy-emoji",
+      "status": "candidate-context",
+      "text": "Super minimal emoji rendering utility for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appfigures/react-easy-emoji",
+      "status": "candidate-context",
+      "text": "react-easy-emoji \u2014 A super minimal emoji rendering library for React"
     }
   ],
   "candidate_glosses": [
@@ -105,6 +117,12 @@
       "source_repo": "frinyvonnick/gitmoji-changelog",
       "status": "candidate",
       "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appfigures/react-easy-emoji",
+      "status": "candidate",
+      "text": "react-easy-emoji \u2014 A super minimal emoji rendering library for React"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "appfigures/react-easy-emoji"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

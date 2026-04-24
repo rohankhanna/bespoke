@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "mvig-sjtu/alphapose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "haoyizhu/halpecocoapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "jin-s13/coco-wholebody",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "s-gupta/v-coco",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "Fang-Haoshu/Halpe-FullBody"
+}

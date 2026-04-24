@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Flatpak Builder docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flatpak/flatpak-docs",
+      "status": "candidate-context",
+      "text": "Flatpak documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flatpak-docs",
+      "status": "candidate-context",
+      "text": "Update Flatpak Builder docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flatpak-docs",
+      "status": "candidate",
+      "text": "Update Flatpak Builder docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19218,
+      "status": "candidate",
+      "text": "dior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11306,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11306,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11160,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11160,
+      "status": "candidate",
+      "text": "gps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Flatpak Builder docs",
+  "concept_id": "update-flatpak-builder-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-flatpak-builder-docs.yml",
+      "source_repo": "flatpak/flatpak-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Flatpak Builder docs",
+      "sense_id": "update-flatpak-builder-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "halloy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4e554c4c/base16-halloy",
+      "status": "candidate-context",
+      "text": " Base16 color scheme template for halloy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4e554c4c/base16-halloy",
+      "status": "candidate-context",
+      "text": "This repository contains [base16][1] templates for the [Halloy][2] IRC client."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4e554c4c/base16-halloy",
+      "status": "candidate",
+      "text": "This repository contains [base16][1] templates for the [Halloy][2] IRC client."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "halloy",
+  "concept_id": "halloy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "4e554c4c/base16-halloy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "halloy",
+      "sense_id": "halloy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

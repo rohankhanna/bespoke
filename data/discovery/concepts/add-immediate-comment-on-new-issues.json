@@ -19,12 +19,30 @@
       "source_repo": "Meteor-Community-Packages/meteor-scss",
       "status": "candidate-context",
       "text": "Add immediate comment on new issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "illusionfield/fourseven-scss",
+      "status": "candidate-context",
+      "text": "Dart-sass wrapped to work with meteor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "illusionfield/fourseven-scss",
+      "status": "candidate-context",
+      "text": "Add immediate comment on new issues"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate",
+      "text": "Add immediate comment on new issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "illusionfield/fourseven-scss",
       "status": "candidate",
       "text": "Add immediate comment on new issues"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/comment-issue.yml",
       "source_repo": "Meteor-Community-Packages/meteor-scss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "illusionfield/fourseven-scss"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,22 @@
 {
-  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alebcay/awesome-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "av/harbor"
+    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -10,17 +25,12 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "micromatch/micromatch"
+      "source_repo": "babashka/bbin"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "micromatch/nanomatch"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "89luca89/distrobox"
+      "source_repo": "codota/TabNine"
     }
   ],
   "term": "bash"

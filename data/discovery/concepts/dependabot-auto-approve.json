@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Dependabot auto-approve"
+    "Dependabot auto-approve",
+    "Dependabot Auto-approve"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,30 @@
       "source_repo": "aws-actions/configure-aws-credentials",
       "status": "candidate-context",
       "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Dependabot Auto-approve"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "A visualization grammar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "Dependabot auto-approve"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate",
+      "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate",
+      "text": "Dependabot Auto-approve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
       "status": "candidate",
       "text": "Dependabot auto-approve"
     }
@@ -64,11 +101,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/dependabot-autoapprove.yml",
       "source_repo": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dependabot.yaml",
+      "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/approve-dependabot.yml",
+      "source_repo": "vega/vega"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

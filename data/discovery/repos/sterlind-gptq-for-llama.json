@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sterlind/GPTQ-for-LLaMa",
+      "target": "fminference/flexgen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:17.539428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8688
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "4 bits quantization of LLaMa using GPTQ",
+    "fork": true,
+    "full_name": "sterlind/GPTQ-for-LLaMa",
+    "html_url": "https://github.com/sterlind/GPTQ-for-LLaMa",
+    "language": "Python",
+    "pushed_at": "2023-06-02T07:50:03Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-01-16T10:51:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fminference/flexgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "All"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "All"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate",
+      "text": "All"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027106,
+      "status": "candidate",
+      "text": "totally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026459,
+      "status": "candidate",
+      "text": "wholly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026430,
+      "status": "candidate",
+      "text": "entirely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026104,
+      "status": "candidate",
+      "text": "completely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025050,
+      "status": "candidate",
+      "text": "altogether"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28052,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12033,
+      "status": "candidate",
+      "text": "wholly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "totally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "altogether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8049,
+      "status": "candidate",
+      "text": "whole"
+    }
+  ],
+  "canonical_name": "All",
+  "concept_id": "all",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "dalek-cryptography/curve25519-dalek"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "All",
+      "sense_id": "all#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

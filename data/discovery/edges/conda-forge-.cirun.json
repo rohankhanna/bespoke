@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yml",
+      "source_repo": "conda-forge/.cirun",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yml",
+      "source_repo": "conda-forge/.cirun",
+      "target": "hashicorp/setup-packer@1aa358be5cf73883762b302a3a03abd66e75b232",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yml",
+      "source_repo": "conda-forge/.cirun",
+      "target": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-image.yml",
+      "source_repo": "conda-forge/.cirun",
+      "target": "Build Azure Windows Image",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "conda-forge/.cirun"
+}

@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "opea-project/genaicomps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "opea-project/genaiinfra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "opea-project/genaieval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "opea-project/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_comps_base_image.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "opea-project/validation/actions/image-build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_comps_base_image.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "Build Comps Base Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_image.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_image.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "opea-project/validation/actions/image-build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_image.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "Build Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_example-workflow.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "Example jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-image-list.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-image-list.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "Get Image List",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "opea-project/validation/actions/check-cmd@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "Get Test Matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-e2e.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-workflow.yml",
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "chatqna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "gaudi2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opea-project/GenAIExamples",
+      "target": "xeon",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "opea-project/GenAIExamples"
+}

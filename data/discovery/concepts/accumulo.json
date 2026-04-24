@@ -19,6 +19,30 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "Python API for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate",
+      "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gafferpy"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

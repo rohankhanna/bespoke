@@ -1,0 +1,639 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-focal:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-focal:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml"
+    },
+    {
+      "component": "microsoft/msvc-code-analysis-action@v0.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nfrechette/acl",
+      "target": "nfrechette/acl-ue4-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nfrechette/acl",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "docker://ghcr.io/nfrechette/toolchain-amd64-focal:v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "build pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_push.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "docker://ghcr.io/nfrechette/toolchain-amd64-linux-emscripten:v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_push.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "build push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "microsoft/msvc-code-analysis-action@v0.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc-analysis.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msvc-analysis.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "msvc analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cpp_versions.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "docker://ghcr.io/nfrechette/toolchain-amd64-lunar:v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_cpp_versions.yml",
+      "source_repo": "nfrechette/acl",
+      "target": "test cpp versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl",
+      "target": "animation-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl",
+      "target": "animation-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl",
+      "target": "game-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:13.799368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11646
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/build_pull_request.yml",
+      "size": 7959
+    },
+    {
+      "path": ".github/workflows/build_push.yml",
+      "size": 7505
+    },
+    {
+      "path": ".github/workflows/msvc-analysis.yml",
+      "size": 1611
+    },
+    {
+      "path": ".github/workflows/test_cpp_versions.yml",
+      "size": 3154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Animation Compression Library",
+    "fork": false,
+    "full_name": "nfrechette/acl",
+    "html_url": "https://github.com/nfrechette/acl",
+    "language": "C++",
+    "pushed_at": "2025-11-26T02:28:49Z",
+    "stargazers_count": 1550,
+    "topics": [
+      "animation-3d",
+      "animation-compression",
+      "c-plus-plus",
+      "compression",
+      "cpp",
+      "game-development",
+      "game-engine"
+    ],
+    "updated_at": "2026-04-23T17:32:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nfrechette/acl-ue4-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "build pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "term": "build pull request"
+    },
+    {
+      "context_snippet": "build push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_push.yml",
+      "term": "build push"
+    },
+    {
+      "context_snippet": "msvc analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msvc-analysis.yml",
+      "term": "msvc analysis"
+    },
+    {
+      "context_snippet": "test cpp versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_cpp_versions.yml",
+      "term": "test cpp versions"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation-3d"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation-compression"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    }
+  ]
+}

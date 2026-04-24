@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Superseded by many-level. Multilevel implemented using leveldowns with reconnect support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Superseded by [`many-level`](https://github.com/Level/many-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Superseded by [`many-level`](https://github.com/Level/many-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodejs",
+      "sense_id": "nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodejs",
+  "observation_id": "75b92f0f2b8f099a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "nodejs",
+  "source_context_snippet": "**Superseded by [`many-level`](https://github.com/Level/many-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+  "source_file": null,
+  "source_repo": "Level/multileveldown",
+  "source_repo_description": "Superseded by many-level. Multilevel implemented using leveldowns with reconnect support."
+}

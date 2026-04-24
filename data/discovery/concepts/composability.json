@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "composability"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "status": "candidate-context",
+      "text": "A curated list of Composable AI methods: Building AI system by composing modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "status": "candidate-context",
+      "text": "<img src=\"logo.jpg\" alt=\"Paris\" class=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/Awesome-ComposableAI",
+      "status": "candidate",
+      "text": "<img src=\"logo.jpg\" alt=\"Paris\" class=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933594,
+      "status": "candidate",
+      "text": "supermodularity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933593,
+      "status": "candidate",
+      "text": "comodule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933592,
+      "status": "candidate",
+      "text": "indecomposability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933591,
+      "status": "candidate",
+      "text": "submodularity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933590,
+      "status": "candidate",
+      "text": "multimodeness"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "composability",
+  "concept_id": "composability",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Adamdad/Awesome-ComposableAI"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "composability",
+      "sense_id": "composability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -55,6 +55,18 @@
       "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
       "status": "candidate-context",
       "text": "[![main build status](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml/badge.svg)](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate-context",
+      "text": "Collection of controls, helpers and extension for WinUI 2, WinUI 3, and Uno Platform developers. Simplifies and demonstrates common developer tasks building experiences for Windows with .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate-context",
+      "text": "**/CommunityToolkit.*"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
       "status": "candidate",
       "text": "[![main build status](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml/badge.svg)](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/Windows",
+      "status": "candidate",
+      "text": "**/CommunityToolkit.*"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/microsoft-performance-toolkit-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

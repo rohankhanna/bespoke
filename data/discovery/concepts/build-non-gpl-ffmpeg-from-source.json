@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build non-GPL FFmpeg from source"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchcodec",
+      "status": "candidate-context",
+      "text": "PyTorch media decoding and encoding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchcodec",
+      "status": "candidate-context",
+      "text": "Build non-GPL FFmpeg from source"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchcodec",
+      "status": "candidate",
+      "text": "Build non-GPL FFmpeg from source"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22895,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22895,
+      "status": "candidate",
+      "text": "grow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22895,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22895,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22871,
+      "status": "candidate",
+      "text": "basis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build non-GPL FFmpeg from source",
+  "concept_id": "build-non-gpl-ffmpeg-from-source",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_ffmpeg.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build non-GPL FFmpeg from source",
+      "sense_id": "build-non-gpl-ffmpeg-from-source#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

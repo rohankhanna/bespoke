@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "kong/ngx_wasm_module",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "mosn/mosn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "api7/wasm-nginx-module",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/spec",
+      "target": "mosn/proxy-wasm-go-host",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:17:26.395605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebAssembly for Proxies (ABI specification)",
+    "fork": false,
+    "full_name": "proxy-wasm/spec",
+    "html_url": "https://github.com/proxy-wasm/spec",
+    "language": null,
+    "pushed_at": "2025-10-30T12:58:24Z",
+    "stargazers_count": 597,
+    "topics": [],
+    "updated_at": "2026-04-24T03:30:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "api7/wasm-nginx-module",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kong/ngx_wasm_module",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosn/mosn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosn/proxy-wasm-go-host",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

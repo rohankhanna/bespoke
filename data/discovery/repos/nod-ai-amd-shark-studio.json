@@ -1,0 +1,332 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@d91a481090679876dfc4178fef17f286781251df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "ncipollo/release-action@440c8c1cb0ed28b9f43e4d1d670870f059653174",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "dwenegar/upload-release-assets@fe47e06814723c7b1bea3a7e46cf93d5f020d0c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "eregon/publish-release@01df127f5e9a3c26935118e22e738d95b59d10ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-studio.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-studio.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "iree-org/iree-turbine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "llvm/torch-mlir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "google/iree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "iree-org/iree-turbine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "ad-m/github-push-action@d91a481090679876dfc4178fef17f286781251df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "Publish releases page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "ncipollo/release-action@440c8c1cb0ed28b9f43e4d1d670870f059653174",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "dwenegar/upload-release-assets@fe47e06814723c7b1bea3a7e46cf93d5f020d0c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "eregon/publish-release@01df127f5e9a3c26935118e22e738d95b59d10ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "Nightly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-studio.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-studio.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-studio.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "Validate AMDShark Studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "apple-silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "mlir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:14:57.821316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17020
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 443
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1134
+    },
+    {
+      "path": ".github/workflows/gh-pages-releases.yml",
+      "size": 1309
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 3038
+    },
+    {
+      "path": ".github/workflows/test-studio.yml",
+      "size": 2879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AMD-SHARK Studio -- Web UI for SHARK+IREE High Performance Machine Learning Distribution",
+    "fork": false,
+    "full_name": "nod-ai/AMD-SHARK-Studio",
+    "html_url": "https://github.com/nod-ai/AMD-SHARK-Studio",
+    "language": "Python",
+    "pushed_at": "2025-12-15T05:40:50Z",
+    "stargazers_count": 1456,
+    "topics": [
+      "amd",
+      "apple-silicon",
+      "deep-learning",
+      "machine-learning",
+      "mlir",
+      "nvidia",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-21T11:05:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/iree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iree-org/iree-turbine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llvm/torch-mlir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iree-org/iree-turbine",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish releases page",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "term": "Publish releases page"
+    },
+    {
+      "context_snippet": "Nightly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly Release"
+    },
+    {
+      "context_snippet": "Validate AMDShark Studio",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-studio.yml",
+      "term": "Validate AMDShark Studio"
+    },
+    {
+      "context_snippet": "High Performance Machine Learning Distribution",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple-silicon"
+    },
+    {
+      "context_snippet": "High Performance Machine Learning Distribution",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "High Performance Machine Learning Distribution",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "High Performance Machine Learning Distribution",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlir"
+    },
+    {
+      "context_snippet": "High Performance Machine Learning Distribution",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "High Performance Machine Learning Distribution",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

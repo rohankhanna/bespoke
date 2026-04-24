@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "unist-util-visit",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pretty-quick",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rehype-stringify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-rehype",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "unist-util-visit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "conventional-changelog-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "pretty-quick",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "rehype-stringify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "remark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "remark-rehype",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "remark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imcuttle/remark-heading-id",
+      "target": "remark-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:41.063376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3265
+    },
+    {
+      "path": "package.json",
+      "size": 1450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The remark plugin for supporting custom heading id",
+    "fork": false,
+    "full_name": "imcuttle/remark-heading-id",
+    "html_url": "https://github.com/imcuttle/remark-heading-id",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-11T10:18:47Z",
+    "stargazers_count": 39,
+    "topics": [
+      "markdown",
+      "remark",
+      "remark-plugin"
+    ],
+    "updated_at": "2025-12-08T05:13:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remark"
+    },
+    {
+      "context_snippet": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remark-plugin"
+    }
+  ]
+}

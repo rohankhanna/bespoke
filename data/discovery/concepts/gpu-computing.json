@@ -79,6 +79,18 @@
       "source_repo": "ashvardanian/ParallelReductionsBenchmark",
       "status": "candidate-context",
       "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate-context",
+      "text": "Docker build scripts for TornadoVM on GPUs: https://github.com/beehive-lab/TornadoVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ashvardanian/ParallelReductionsBenchmark",
       "status": "candidate",
       "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ParallelReductionsBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/docker-tornadovm"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

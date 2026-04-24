@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gazelle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate-context",
+      "text": "Gazelle language plugin for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate-context",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891152,
+      "status": "candidate",
+      "text": "goitered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29663271,
+      "status": "candidate",
+      "text": "ghazal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29564554,
+      "status": "candidate",
+      "text": "ariel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29494529,
+      "status": "candidate",
+      "text": "goa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038220,
+      "status": "candidate",
+      "text": "admi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gazelle",
+  "concept_id": "gazelle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Calsign/gazelle_rust"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gazelle",
+      "sense_id": "gazelle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nuxt/nuxt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/argos.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov-next.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-testing-build.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-main.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
     }
   ]
 }

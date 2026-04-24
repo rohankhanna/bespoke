@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/tuning_playbook",
+      "target": "google/vizier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/tuning_playbook",
+      "target": "google/commonlooputils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/tuning_playbook",
+      "target": "mlcommons/algorithmic-efficiency",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:55.821433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 119887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A playbook for systematically maximizing the performance of deep learning models.",
+    "fork": false,
+    "full_name": "google-research/tuning_playbook",
+    "html_url": "https://github.com/google-research/tuning_playbook",
+    "language": null,
+    "pushed_at": "2024-06-18T00:25:53Z",
+    "stargazers_count": 30048,
+    "topics": [],
+    "updated_at": "2026-04-24T06:20:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/commonlooputils",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/vizier",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlcommons/algorithmic-efficiency",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

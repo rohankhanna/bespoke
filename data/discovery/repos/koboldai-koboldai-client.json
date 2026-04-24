@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KoboldAI/KoboldAI-Client",
+      "target": "radeonopencompute/rocm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "KoboldAI/KoboldAI-Client",
+      "target": "ve-forbryderne/mkultra",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:20.531393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37430
+    },
+    {
+      "path": "requirements.txt",
+      "size": 448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "For GGUF support, see KoboldCPP: https://github.com/LostRuins/koboldcpp",
+    "fork": false,
+    "full_name": "KoboldAI/KoboldAI-Client",
+    "html_url": "https://github.com/KoboldAI/KoboldAI-Client",
+    "language": "Python",
+    "pushed_at": "2025-01-16T17:01:49Z",
+    "stargazers_count": 3881,
+    "topics": [],
+    "updated_at": "2026-04-23T15:21:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radeonopencompute/rocm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ve-forbryderne/mkultra",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

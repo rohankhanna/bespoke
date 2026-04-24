@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KurrentDB Go Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Get Go version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Get Go version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35763,
+      "status": "candidate",
+      "text": "cote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35485,
+      "status": "candidate",
+      "text": "gin rummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35363,
+      "status": "candidate",
+      "text": "getup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34714,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34314,
+      "status": "candidate",
+      "text": "err"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Get Go version",
+      "sense_id": "get-go-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "get-go-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "get-go-version",
+  "observation_id": "780d824fc29aa7c1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Get Go version",
+  "source_context_snippet": "Get Go version",
+  "source_file": ".github/workflows/go-version.yml",
+  "source_repo": "kurrent-io/KurrentDB-Client-Go",
+  "source_repo_description": "KurrentDB Go Client"
+}

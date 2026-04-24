@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Base64 encoding / decoding with SIMD-support, also base64Url"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Base64 encoding / decoding with SIMD-support, also base64Url"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Base64 encoding / decoding with SIMD-support, also base64Url"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "base64url",
+      "sense_id": "base64url#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "base64url",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "base64url",
+  "observation_id": "99e50bda7de3744a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "base64url",
+  "source_context_snippet": "Base64 encoding / decoding with SIMD-support, also base64Url",
+  "source_file": null,
+  "source_repo": "gfoidl/Base64",
+  "source_repo_description": "Base64 encoding / decoding with SIMD-support, also base64Url"
+}

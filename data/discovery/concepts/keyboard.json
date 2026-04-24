@@ -19,6 +19,18 @@
       "source_repo": "enigo-rs/enigo",
       "status": "candidate-context",
       "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ysbing/YADB",
+      "status": "candidate-context",
+      "text": "YADB is a utility tool that extends ADB, with its keyboard input feature being superior to ADBKeyboard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ysbing/YADB",
+      "status": "candidate-context",
+      "text": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "enigo-rs/enigo",
       "status": "candidate",
       "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ysbing/YADB",
+      "status": "candidate",
+      "text": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "enigo-rs/enigo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ysbing/YADB"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

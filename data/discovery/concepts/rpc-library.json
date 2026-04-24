@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "rpc-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "status": "candidate-context",
+      "text": "EXPERIMENTAL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "status": "candidate-context",
+      "text": "This is an **experimental project**, trying to build a compatibility layer for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate-context",
+      "text": "A highly configurable Go implementation of the Ethereum protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate-context",
+      "text": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roxma/vim-hug-neovim-rpc",
+      "status": "candidate",
+      "text": "This is an **experimental project**, trying to build a compatibility layer for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate",
+      "text": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rpc-library",
+  "concept_id": "rpc-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "roxma/vim-hug-neovim-rpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rpc-library",
+      "sense_id": "rpc-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

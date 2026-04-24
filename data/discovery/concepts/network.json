@@ -67,6 +67,18 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate-context",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Event-driven networking engine written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Twisted"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate",
+      "text": "Twisted"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +256,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "twisted/twisted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

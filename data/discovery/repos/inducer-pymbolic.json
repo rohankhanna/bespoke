@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/pymbolic",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/pymbolic",
+      "target": "Gitlab mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/pymbolic",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/pymbolic",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/pymbolic",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pymbolic",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pymbolic",
+      "target": "computer-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pymbolic",
+      "target": "expression-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pymbolic",
+      "target": "symbolic-computation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pymbolic",
+      "target": "term-rewriting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:49:28.116050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1799
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3616
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    },
+    {
+      "path": ".github/workflows/autopush.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple package to do symbolic math (focus on code gen and DSLs)",
+    "fork": false,
+    "full_name": "inducer/pymbolic",
+    "html_url": "https://github.com/inducer/pymbolic",
+    "language": "Python",
+    "pushed_at": "2026-04-19T20:28:05Z",
+    "stargazers_count": 127,
+    "topics": [
+      "code-generation",
+      "computer-algebra",
+      "expression-tree",
+      "python",
+      "symbolic-computation",
+      "term-rewriting"
+    ],
+    "updated_at": "2026-04-19T20:28:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gitlab mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "term": "Gitlab mirror"
+    },
+    {
+      "context_snippet": "Pymbolic: Easy Expression Trees and Term Rewriting",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "Pymbolic: Easy Expression Trees and Term Rewriting",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-algebra"
+    },
+    {
+      "context_snippet": "Pymbolic: Easy Expression Trees and Term Rewriting",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expression-tree"
+    },
+    {
+      "context_snippet": "Pymbolic: Easy Expression Trees and Term Rewriting",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbolic-computation"
+    },
+    {
+      "context_snippet": "Pymbolic: Easy Expression Trees and Term Rewriting",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "term-rewriting"
+    }
+  ]
+}

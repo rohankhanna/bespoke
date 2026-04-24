@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Files existence"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Files existence"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "Files existence"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11789,
+      "status": "candidate",
+      "text": "matter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11789,
+      "status": "candidate",
+      "text": "root"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11789,
+      "status": "candidate",
+      "text": "roots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11777,
+      "status": "candidate",
+      "text": "them"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10813,
+      "status": "candidate",
+      "text": "agent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Files existence",
+  "concept_id": "files-existence",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/files_existence.yml",
+      "source_repo": "datreeio/datree"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Files existence",
+      "sense_id": "files-existence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

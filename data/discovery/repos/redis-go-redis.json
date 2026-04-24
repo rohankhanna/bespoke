@@ -98,27 +98,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/go-redis",
-      "target": "redis/redis-specifications",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/go-redis",
-      "target": "uptrace/go-clickhouse",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/go-redis",
-      "target": "uptrace/uptrace",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/go-redis",
@@ -315,7 +294,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:56:24.085478+00:00",
+  "fetched_at": "2026-04-24T09:07:37.498783+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -367,8 +346,8 @@
     "full_name": "redis/go-redis",
     "html_url": "https://github.com/redis/go-redis",
     "language": "Go",
-    "pushed_at": "2026-04-23T18:38:28Z",
-    "stargazers_count": 22058,
+    "pushed_at": "2026-04-24T07:16:15Z",
+    "stargazers_count": 22056,
     "topics": [
       "go",
       "golang",
@@ -376,25 +355,9 @@
       "redis-client",
       "redis-cluster"
     ],
-    "updated_at": "2026-04-23T18:38:30Z"
+    "updated_at": "2026-04-24T07:16:21Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis/redis-specifications",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "uptrace/go-clickhouse",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "uptrace/uptrace",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",

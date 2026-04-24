@@ -1,0 +1,12 @@
+{
+  "component": "Homebrew/actions/remove-disabled-packages@master",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    }
+  ]
+}

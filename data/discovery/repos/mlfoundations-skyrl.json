@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "charliefruan/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "SkyRL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "SkyRL-GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL",
+      "target": "SkyRL-GPU-E2E-CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:37.500329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4173
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1313
+    },
+    {
+      "path": ".github/workflows/cpu_ci.yaml",
+      "size": 2634
+    },
+    {
+      "path": ".github/workflows/gpu_ci.yaml",
+      "size": 1381
+    },
+    {
+      "path": ".github/workflows/gpu_e2e_ci.yaml",
+      "size": 1632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dcagent",
+    "description": "SkyRL: A Modular Full-stack RL Library for LLMs",
+    "fork": true,
+    "full_name": "mlfoundations/SkyRL",
+    "html_url": "https://github.com/mlfoundations/SkyRL",
+    "language": "Python",
+    "pushed_at": "2026-02-04T22:42:59Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-12-08T22:34:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliefruan/harbor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SkyRL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_ci.yaml",
+      "term": "SkyRL"
+    },
+    {
+      "context_snippet": "SkyRL-GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_ci.yaml",
+      "term": "SkyRL-GPU"
+    },
+    {
+      "context_snippet": "SkyRL-GPU-E2E-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "term": "SkyRL-GPU-E2E-CI"
+    }
+  ]
+}

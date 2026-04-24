@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-Platform OpenGL Doom Source Port with powerful modding features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "idtech1",
+      "sense_id": "idtech1#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "idtech1",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "idtech1",
+  "observation_id": "4d016dd9cb2dce40",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "idtech1",
+  "source_context_snippet": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)",
+  "source_file": null,
+  "source_repo": "edge-classic/EDGE-classic",
+  "source_repo_description": "Cross-Platform OpenGL Doom Source Port with powerful modding features"
+}

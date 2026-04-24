@@ -127,6 +127,30 @@
       "source_repo": "camenduru/stable-diffusion-webui-colab",
       "status": "candidate-context",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate-context",
+      "text": "Janky implementation of HiDiffusion for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate-context",
+      "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "camenduru/stable-diffusion-webui-colab",
       "status": "candidate",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate",
+      "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "camenduru/stable-diffusion-webui-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "finegrain-ai/refiners"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

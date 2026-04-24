@@ -1,0 +1,22 @@
+{
+  "component": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_flux.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_h100.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_simple_fsdp.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd"
+    }
+  ]
+}

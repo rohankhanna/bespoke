@@ -19,6 +19,18 @@
       "source_repo": "crytic/pyevmasm",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "herumi/xbyak",
+      "status": "candidate-context",
+      "text": "A JIT assembler for x86/x64 architectures supporting FPU, MMX, SSE (1-4), AVX (1-2, 512), APX, and AVX10.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "herumi/xbyak",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "crytic/pyevmasm",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "herumi/xbyak",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -102,11 +120,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "herumi/xbyak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

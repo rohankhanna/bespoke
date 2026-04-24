@@ -439,6 +439,30 @@
       "source_repo": "TechEmpower/FrameworkBenchmarks",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "Cross-platform, customizable ML solutions for live and streaming media."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "PHP Framework designed to build IO-intensive web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
     }
   ],
   "candidate_glosses": [
@@ -657,6 +681,18 @@
       "source_repo": "TechEmpower/FrameworkBenchmarks",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate",
+      "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
     }
   ],
   "candidate_related_terms": [
@@ -988,11 +1024,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "TechEmpower/FrameworkBenchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "distantmagic/resonance"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

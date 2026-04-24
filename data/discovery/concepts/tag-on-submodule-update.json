@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tag on Submodule Update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carstencodes/simplepycons",
+      "status": "candidate-context",
+      "text": "Python wrappers for simple-icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carstencodes/simplepycons",
+      "status": "candidate-context",
+      "text": "Tag on Submodule Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carstencodes/simplepycons",
+      "status": "candidate",
+      "text": "Tag on Submodule Update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18419,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "enzyme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "actuality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9669,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tag on Submodule Update",
+  "concept_id": "tag-on-submodule-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create_tag.yml",
+      "source_repo": "carstencodes/simplepycons"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag on Submodule Update",
+      "sense_id": "tag-on-submodule-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

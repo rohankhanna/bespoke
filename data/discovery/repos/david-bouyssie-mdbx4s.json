@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "actions/setup-java@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "Run CI and tests on Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "actions/setup-java@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-windows.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests-windows.yml",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "target": "Run CI and tests on Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:35.384848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2434
+    },
+    {
+      "path": ".github/workflows/run-tests-linux.yml",
+      "size": 2764
+    },
+    {
+      "path": ".github/workflows/run-tests-windows.yml",
+      "size": 2046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Scala wrapper of the libmdbx C library",
+    "fork": false,
+    "full_name": "david-bouyssie/mdbx4s",
+    "html_url": "https://github.com/david-bouyssie/mdbx4s",
+    "language": "Scala",
+    "pushed_at": "2025-01-21T10:02:49Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-02-17T12:04:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run CI and tests on Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "term": "Run CI and tests on Linux"
+    },
+    {
+      "context_snippet": "Run CI and tests on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests-windows.yml",
+      "term": "Run CI and tests on Windows"
+    }
+  ]
+}

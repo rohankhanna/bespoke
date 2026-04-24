@@ -139,6 +139,66 @@
       "source_repo": "bytedance/lightseq",
       "status": "candidate-context",
       "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS, \u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate-context",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate-context",
+      "text": "RoBERTa\u4e2d\u6587\u9884\u8bad\u7ec3\u6a21\u578b: RoBERTa for Chinese "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate-context",
+      "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +267,36 @@
       "source_repo": "bytedance/lightseq",
       "status": "candidate",
       "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/albert_zh",
+      "status": "candidate",
+      "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/roberta_zh",
+      "status": "candidate",
+      "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +406,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bytedance/lightseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/albert_zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/roberta_zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/clip-as-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Cyb3r-Jak3/html5validator-action@v7.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/dwyl-site",
+      "target": "dwyl/learn-tachyons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/dwyl-site",
+      "target": "dwyl/learn-progressive-web-apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/dwyl-site",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/dwyl-site",
+      "target": "Cyb3r-Jak3/html5validator-action@v7.2.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:02:53.759941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5066
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":eyes: The dwyl website (please tell us what you think!)",
+    "fork": false,
+    "full_name": "dwyl/dwyl-site",
+    "html_url": "https://github.com/dwyl/dwyl-site",
+    "language": "HTML",
+    "pushed_at": "2024-08-15T10:27:18Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2024-08-15T10:37:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-progressive-web-apps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-tachyons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

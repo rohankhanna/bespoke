@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build bitsandbytes Linux Wheel Latest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "status": "candidate-context",
+      "text": "Windows compile of bitsandbytes for use in text-generation-webui."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "status": "candidate-context",
+      "text": "Build bitsandbytes Linux Wheel Latest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "status": "candidate",
+      "text": "Build bitsandbytes Linux Wheel Latest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31656,
+      "status": "candidate",
+      "text": "sprocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26575,
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22544,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21980,
+      "status": "candidate",
+      "text": "interwiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21451,
+      "status": "candidate",
+      "text": "copula"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build bitsandbytes Linux Wheel Latest",
+  "concept_id": "build-bitsandbytes-linux-wheel-latest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-linux-latest.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build bitsandbytes Linux Wheel Latest",
+      "sense_id": "build-bitsandbytes-linux-wheel-latest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

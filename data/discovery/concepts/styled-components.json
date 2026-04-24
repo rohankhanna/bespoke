@@ -31,6 +31,30 @@
       "source_repo": "styled-components/babel-plugin-styled-components",
       "status": "candidate-context",
       "text": "This plugin is a highly recommended supplement to the base styled-components library, offering some useful features:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "\ud83e\uddb9\u200d\u2642\ufe0f Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "A library for building excellent user experiences with Stacks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "styled-components/babel-plugin-styled-components",
       "status": "candidate",
       "text": "This plugin is a highly recommended supplement to the base styled-components library, offering some useful features:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate",
+      "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "styled-components/babel-plugin-styled-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.macro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

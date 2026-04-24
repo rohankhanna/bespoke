@@ -55,6 +55,30 @@
       "source_repo": "boto/botocore",
       "status": "candidate-context",
       "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "Universal Command Line Interface for Amazon Web Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-go",
+      "status": "candidate-context",
+      "text": "This SDK has reached end-of-support. The AWS SDK for Go v2 is available here: https://github.com/aws/aws-sdk-go-v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go",
+      "status": "candidate-context",
+      "text": "HandleStaleDiscussions"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "boto/botocore",
+      "status": "candidate",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go",
       "status": "candidate",
       "text": "HandleStaleDiscussions"
     }
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/handle-stale-discussions.yml",
       "source_repo": "boto/botocore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-sdk-go"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

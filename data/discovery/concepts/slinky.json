@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "slinky"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate-context",
+      "text": "Use Apollo GraphQL from Scala.js apps!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate-context",
+      "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate",
+      "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028143,
+      "status": "candidate",
+      "text": "feline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028142,
+      "status": "candidate",
+      "text": "surreptitious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028141,
+      "status": "candidate",
+      "text": "slithy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028140,
+      "status": "candidate",
+      "text": "furtive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028139,
+      "status": "candidate",
+      "text": "slithery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "slinky",
+  "concept_id": "slinky",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slinky",
+      "sense_id": "slinky#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

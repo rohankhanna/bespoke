@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bump casks on schedule or request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bump casks on schedule or request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28491,
+      "status": "candidate",
+      "text": "tapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28491,
+      "status": "candidate",
+      "text": "tapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28460,
+      "status": "candidate",
+      "text": "swell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28142,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19108,
+      "status": "candidate",
+      "text": "broach"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump casks on schedule or request",
+      "sense_id": "bump-casks-on-schedule-or-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-casks-on-schedule-or-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-casks-on-schedule-or-request",
+  "observation_id": "d8e3bd26a502fe38",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Bump casks on schedule or request",
+  "source_context_snippet": "Bump casks on schedule or request",
+  "source_file": ".github/workflows/autobump.yml",
+  "source_repo": "XcodesOrg/homebrew-cask",
+  "source_repo_description": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd8d The API and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Forward failed backport alert to Slack"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Forward failed backport alert to Slack"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27861,
+      "status": "candidate",
+      "text": "locknut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27861,
+      "status": "candidate",
+      "text": "safety nut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27716,
+      "status": "candidate",
+      "text": "sleep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27654,
+      "status": "candidate",
+      "text": "slow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27565,
+      "status": "candidate",
+      "text": "break"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Forward failed backport alert to Slack",
+      "sense_id": "forward-failed-backport-alert-to-slack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "forward-failed-backport-alert-to-slack",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "forward-failed-backport-alert-to-slack",
+  "observation_id": "9b4557b316d25bfe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Forward failed backport alert to Slack",
+  "source_context_snippet": "Forward failed backport alert to Slack",
+  "source_file": ".github/workflows/backport-fail-bot.yml",
+  "source_repo": "Kong/kong",
+  "source_repo_description": "\ud83e\udd8d The API and AI Gateway"
+}

@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Gottox/irc-message-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "target": "Gottox/irc-message-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "target": "screenshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "target": "zsh-syntax-highlighting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:27.974256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3779
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fish shell like syntax highlighting for Zsh.",
+    "fork": false,
+    "full_name": "zsh-users/zsh-syntax-highlighting",
+    "html_url": "https://github.com/zsh-users/zsh-syntax-highlighting",
+    "language": "Shell",
+    "pushed_at": "2026-02-08T16:50:52Z",
+    "stargazers_count": 22552,
+    "topics": [
+      "screenshot",
+      "shell",
+      "syntax-highlighting",
+      "zsh",
+      "zsh-syntax-highlighting"
+    ],
+    "updated_at": "2026-04-24T07:03:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    },
+    {
+      "context_snippet": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    },
+    {
+      "context_snippet": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-syntax-highlighting"
+    }
+  ]
+}

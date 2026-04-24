@@ -31,6 +31,18 @@
       "source_repo": "martinmoene/lest",
       "status": "candidate-context",
       "text": "lest &ndash; lest errors escape testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate-context",
+      "text": "CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate-context",
+      "text": "![CLI11 Logo](./docs/CLI11_300.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "martinmoene/lest",
       "status": "candidate",
       "text": "lest &ndash; lest errors escape testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate",
+      "text": "![CLI11 Logo](./docs/CLI11_300.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "martinmoene/lest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CLIUtils/CLI11"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

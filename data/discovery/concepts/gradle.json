@@ -19,6 +19,18 @@
       "source_repo": "fwcd/kotlin-quick-start",
       "status": "candidate-context",
       "text": "An empty Kotlin project using Gradle."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fwcd/kotlin-quick-start",
       "status": "candidate",
       "text": "An empty Kotlin project using Gradle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "fwcd/kotlin-quick-start"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "diffplug/spotless"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

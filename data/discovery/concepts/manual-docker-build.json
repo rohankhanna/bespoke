@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual Docker Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "Manual Docker Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate",
+      "text": "Manual Docker Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22571,
+      "status": "candidate",
+      "text": "roustabout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "screw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "screwed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22098,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22098,
+      "status": "candidate",
+      "text": "knot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Docker Build",
+  "concept_id": "manual-docker-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/force-docker-build.yml",
+      "source_repo": "jina-ai/clip-as-service"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Docker Build",
+      "sense_id": "manual-docker-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

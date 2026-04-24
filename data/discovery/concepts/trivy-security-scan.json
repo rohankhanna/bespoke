@@ -55,6 +55,18 @@
       "source_repo": "gin-gonic/gin",
       "status": "candidate-context",
       "text": "Trivy Security Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate-context",
+      "text": "A repository to host examples and tutorials for Gin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate-context",
+      "text": "Trivy Security Scan"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gin-gonic/gin",
+      "status": "candidate",
+      "text": "Trivy Security Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/examples",
       "status": "candidate",
       "text": "Trivy Security Scan"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/trivy-scan.yml",
       "source_repo": "gin-gonic/gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/trivy-scan.yml",
+      "source_repo": "gin-gonic/examples"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

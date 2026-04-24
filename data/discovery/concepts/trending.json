@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "trending"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "Github Star History - A stunning star history widget chart generator for Github Repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986305,
+      "status": "candidate",
+      "text": "tendency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977799,
+      "status": "candidate",
+      "text": "vogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972498,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960080,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954009,
+      "status": "candidate",
+      "text": "slue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "trending",
+  "concept_id": "trending",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trending",
+      "sense_id": "trending#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

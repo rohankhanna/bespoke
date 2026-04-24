@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "incredibly-spicy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "the champagne of beta embedded databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "<table style=\"width:100%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate",
+      "text": "<table style=\"width:100%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "incredibly-spicy",
+  "concept_id": "incredibly-spicy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spacejam/sled"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "incredibly-spicy",
+      "sense_id": "incredibly-spicy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

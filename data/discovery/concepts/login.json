@@ -31,6 +31,18 @@
       "source_repo": "openssh/openssh-portable",
       "status": "candidate-context",
       "text": "[![C/C++ CI](../../actions/workflows/c-cpp.yml/badge.svg)](../../actions/workflows/c-cpp.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/login",
+      "status": "candidate-context",
+      "text": "Connect to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/login",
+      "status": "candidate-context",
+      "text": "- [Azure Login Action](#azure-login-action)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "openssh/openssh-portable",
       "status": "candidate",
       "text": "[![C/C++ CI](../../actions/workflows/c-cpp.yml/badge.svg)](../../actions/workflows/c-cpp.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/login",
+      "status": "candidate",
+      "text": "- [Azure Login Action](#azure-login-action)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "openssh/openssh-portable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Azure/login"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

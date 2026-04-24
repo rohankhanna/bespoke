@@ -79,6 +79,18 @@
       "source_repo": "mybigday/whisper.rn",
       "status": "candidate-context",
       "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "mybigday/whisper.rn",
       "status": "candidate",
       "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_related_terms": [
@@ -272,11 +290,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-dev-gallery"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

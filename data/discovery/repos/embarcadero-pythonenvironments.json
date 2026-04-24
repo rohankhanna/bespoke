@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Embarcadero/PythonEnvironments",
+      "target": "embarcadero/pythonenviroments",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:07.716612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Components to simplify the deployment for Python environments for Delphi applications using Python4Delphi.",
+    "fork": false,
+    "full_name": "Embarcadero/PythonEnvironments",
+    "html_url": "https://github.com/Embarcadero/PythonEnvironments",
+    "language": "Python",
+    "pushed_at": "2026-02-27T10:20:06Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-03-26T01:20:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarcadero/pythonenviroments",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

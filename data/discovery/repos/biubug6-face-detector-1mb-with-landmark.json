@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Face-Detector-1MB-with-landmark",
+      "target": "linzaer/ultra-light-fast-generic-face-detector-1mb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Face-Detector-1MB-with-landmark",
+      "target": "wondervictor/widerface-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Face-Detector-1MB-with-landmark",
+      "target": "zisianw/faceboxes.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Face-Detector-1MB-with-landmark",
+      "target": "deepinsight/insightface",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:26.845751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "1M\u4eba\u8138\u68c0\u6d4b\u6a21\u578b(\u542b\u5173\u952e\u70b9)",
+    "fork": false,
+    "full_name": "biubug6/Face-Detector-1MB-with-landmark",
+    "html_url": "https://github.com/biubug6/Face-Detector-1MB-with-landmark",
+    "language": "Python",
+    "pushed_at": "2022-08-08T03:41:04Z",
+    "stargazers_count": 1104,
+    "topics": [],
+    "updated_at": "2026-04-22T09:52:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepinsight/insightface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linzaer/ultra-light-fast-generic-face-detector-1mb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wondervictor/widerface-evaluation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zisianw/faceboxes.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

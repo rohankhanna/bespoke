@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "high-moctane/nextword-data",
+      "target": "high-moctane/mocword",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/nextword-data",
+      "target": "english",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/nextword-data",
+      "target": "nextword",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:31.719500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Dataset for nextword.",
+    "fork": false,
+    "full_name": "high-moctane/nextword-data",
+    "html_url": "https://github.com/high-moctane/nextword-data",
+    "language": null,
+    "pushed_at": "2022-02-19T16:39:16Z",
+    "stargazers_count": 37,
+    "topics": [
+      "english",
+      "nextword"
+    ],
+    "updated_at": "2025-12-07T09:40:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "high-moctane/mocword",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english"
+    },
+    {
+      "context_snippet": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextword"
+    }
+  ]
+}

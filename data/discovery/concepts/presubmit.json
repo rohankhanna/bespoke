@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Presubmit"
+    "Presubmit",
+    "PreSubmit"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "KhronosGroup/SPIRV-Headers",
       "status": "candidate-context",
       "text": "Presubmit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "Web terminal and sandbox explorer for your mesos containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "PreSubmit"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "KhronosGroup/SPIRV-Headers",
       "status": "candidate",
       "text": "Presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate",
+      "text": "PreSubmit"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +83,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/presubmit.yml",
       "source_repo": "KhronosGroup/SPIRV-Headers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

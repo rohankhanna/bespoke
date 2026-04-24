@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DevTagPublishing.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DevTagPublishing.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ReleasePublishing.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ReleasePublishing.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagRelease.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagRelease.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mamoe/mirai-console",
+      "target": "mzdluo123/miraiandroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mamoe/mirai-console",
+      "target": "project-mirai/chat-command",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mamoe/mirai-console",
+      "target": "project-mirai/mirai-api-http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DevTagPublishing.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DevTagPublishing.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DevTagPublishing.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "Dev Tag Publishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "Gradle CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ReleasePublishing.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ReleasePublishing.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ReleasePublishing.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "Bintray Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagRelease.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagRelease.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagRelease.yml",
+      "source_repo": "mamoe/mirai-console",
+      "target": "TagRelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamoe/mirai-console",
+      "target": "mirai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamoe/mirai-console",
+      "target": "qqbot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:37.115838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2065
+    },
+    {
+      "path": ".github/workflows/DevTagPublishing.yml",
+      "size": 3093
+    },
+    {
+      "path": ".github/workflows/Gradle CI.yml",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/ReleasePublishing.yml",
+      "size": 3061
+    },
+    {
+      "path": ".github/workflows/TagRelease.yml",
+      "size": 841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "mirai \u7684\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u63a7\u5236\u53f0",
+    "fork": false,
+    "full_name": "mamoe/mirai-console",
+    "html_url": "https://github.com/mamoe/mirai-console",
+    "language": "Kotlin",
+    "pushed_at": "2022-06-22T06:47:08Z",
+    "stargazers_count": 1197,
+    "topics": [
+      "mirai",
+      "qq",
+      "qqbot"
+    ],
+    "updated_at": "2026-04-15T13:56:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mzdluo123/miraiandroid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-mirai/chat-command",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-mirai/mirai-api-http",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dev Tag Publishing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DevTagPublishing.yml",
+      "term": "Dev Tag Publishing"
+    },
+    {
+      "context_snippet": "Gradle CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "term": "Gradle CI"
+    },
+    {
+      "context_snippet": "Bintray Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ReleasePublishing.yml",
+      "term": "Bintray Publish"
+    },
+    {
+      "context_snippet": "TagRelease",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagRelease.yml",
+      "term": "TagRelease"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqbot"
+    }
+  ]
+}

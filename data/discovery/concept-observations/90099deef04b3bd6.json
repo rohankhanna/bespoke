@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This package is a placeholder for a tool which filters linter messages from various Python linters to only those which were caused by recent changes to the code base being linted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "help-in-readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "help-in-readme"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "help-in-readme",
+      "sense_id": "help-in-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "help-in-readme",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "help-in-readme",
+  "observation_id": "90099deef04b3bd6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "help-in-readme",
+  "source_context_snippet": "help-in-readme",
+  "source_file": ".github/workflows/help-in-readme.yml",
+  "source_repo": "akaihola/graylint",
+  "source_repo_description": "This package is a placeholder for a tool which filters linter messages from various Python linters to only those which were caused by recent changes to the code base being linted."
+}

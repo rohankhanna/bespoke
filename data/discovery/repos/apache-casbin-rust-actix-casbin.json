@@ -45,14 +45,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/casbin-rust-actix-casbin",
-      "target": "actix/actix",
+      "target": "casbin-rs/actix-casbin-auth",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "apache/casbin-rust-actix-casbin",
-      "target": "casbin-rs/actix-casbin-auth",
+      "target": "casbin-rs/actix-casbin",
       "target_type": "repository"
     },
     {
@@ -189,7 +189,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:47:53.786246+00:00",
+  "fetched_at": "2026-04-24T09:06:53.319062+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -242,11 +242,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "actix/actix",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "casbin-rs/actix-casbin",
       "source_file": "README.md"
     },
@@ -259,6 +254,11 @@
       "edge_type": "explicit-github-link",
       "full_name": "casbin/casbin-rs",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/actix-casbin",
+      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

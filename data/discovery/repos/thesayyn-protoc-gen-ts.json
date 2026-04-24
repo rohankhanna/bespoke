@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml"
+    },
+    {
+      "component": "jetli/wasm-pack-action@v0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "jetli/wasm-pack-action@v0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "jetli/wasm-pack-action@v0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_at_head.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_at_head.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "Publish at Head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "arduino/setup-protoc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "jetli/wasm-pack-action@v0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "enums",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "grpc-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "grpc-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "grpc-typescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "grpc-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "proto-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "protoc-gen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "protoc-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thesayyn/protoc-gen-ts",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:06.594913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3290
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1481
+    },
+    {
+      "path": ".github/workflows/publish_at_head.yaml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 902
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compile protocol buffer messages to TypeScript.",
+    "fork": false,
+    "full_name": "thesayyn/protoc-gen-ts",
+    "html_url": "https://github.com/thesayyn/protoc-gen-ts",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-19T00:09:38Z",
+    "stargazers_count": 405,
+    "topics": [
+      "enums",
+      "grpc",
+      "grpc-client",
+      "grpc-node",
+      "grpc-typescript",
+      "grpc-web",
+      "proto-files",
+      "protoc-gen",
+      "protoc-plugin",
+      "protocol-buffers",
+      "typescript"
+    ],
+    "updated_at": "2026-04-17T06:27:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish at Head",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_at_head.yaml",
+      "term": "Publish at Head"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enums"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-client"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-node"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-typescript"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-web"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proto-files"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protoc-gen"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protoc-plugin"
+    },
+    {
+      "context_snippet": "![conformance](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthesayyn%2Fprotoc-gen-ts%2Frust-rewrite%2Finfra%2Fstats.json&query=percentile&suffix=%25&label=conformance)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    }
+  ]
+}

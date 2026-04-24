@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/testall.yaml",
       "source_repo": "pyodide/pytest-pyodide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flathub/flathub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-studio.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio"
     }
   ]
 }

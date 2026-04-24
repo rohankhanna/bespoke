@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate action typings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "GitHub Action that formats Java files following Google Style guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "Validate action typings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate",
+      "text": "Validate action typings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27324,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19254,
+      "status": "candidate",
+      "text": "now"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19254,
+      "status": "candidate",
+      "text": "wpm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16424,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16424,
+      "status": "candidate",
+      "text": "prove"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate action typings",
+  "concept_id": "validate-action-typings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/validate-action-typings.yml",
+      "source_repo": "axel-op/googlejavaformat-action"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate action typings",
+      "sense_id": "validate-action-typings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

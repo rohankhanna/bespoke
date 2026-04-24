@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "hadronized/glsl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadronized/glsl",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadronized/glsl",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadronized/glsl",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadronized/glsl",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadronized/glsl",
+      "target": "spir-v",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:28.839062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 132
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 118
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 3367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "GLSL parser for Rust",
+    "fork": false,
+    "full_name": "hadronized/glsl",
+    "html_url": "https://github.com/hadronized/glsl",
+    "language": "Rust",
+    "pushed_at": "2025-02-06T00:07:58Z",
+    "stargazers_count": 198,
+    "topics": [
+      "compiler",
+      "glsl",
+      "opengl",
+      "parser",
+      "spir-v"
+    ],
+    "updated_at": "2026-01-27T13:12:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spir-v"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "aws-cli"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "Universal Command Line Interface for Amazon Web Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "aws-cli"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/aws-shell",
+      "status": "candidate-context",
+      "text": "An integrated shell for working with the AWS CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aws-shell",
+      "status": "candidate-context",
+      "text": "aws-shell - The interactive productivity booster for the AWS CLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate",
+      "text": "aws-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aws-shell",
+      "status": "candidate",
+      "text": "aws-shell - The interactive productivity booster for the AWS CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aws-cli",
+  "concept_id": "aws-cli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/aws-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-cli",
+      "sense_id": "aws-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

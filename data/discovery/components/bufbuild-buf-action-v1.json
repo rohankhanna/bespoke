@@ -1,7 +1,7 @@
 {
   "component": "bufbuild/buf-action@v1",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/buf.yaml",
       "source_repo": "bufbuild/protovalidate-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "dkron-io/dkron"
     }
   ]
 }

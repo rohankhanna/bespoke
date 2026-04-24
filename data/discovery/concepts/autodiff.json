@@ -31,6 +31,18 @@
       "source_repo": "chelsea0x3b/dfdx",
       "status": "candidate-context",
       "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/sunode",
+      "status": "candidate-context",
+      "text": "Solve ODEs fast, with support for PyMC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/sunode",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "chelsea0x3b/dfdx",
       "status": "candidate",
       "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/sunode",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4058330.svg)](https://doi.org/10.5281/zenodo.4058330)"
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/sunode"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

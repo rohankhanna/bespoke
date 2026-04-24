@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "aibasel/downward-benchmarks",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "aibasel/downward-benchmarks",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "aibasel/downward-benchmarks",
+      "target": "Ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:21:17.716972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1214
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 956
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "aibasel/downward-benchmarks",
+    "html_url": "https://github.com/aibasel/downward-benchmarks",
+    "language": "PDDL",
+    "pushed_at": "2024-11-18T16:42:48Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-19T11:52:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Ubuntu"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Weekly check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/clever-f.vim",
+      "status": "candidate-context",
+      "text": "Extended f, F, t and T key mappings for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/clever-f.vim",
+      "status": "candidate-context",
+      "text": "Weekly check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/clever-f.vim",
+      "status": "candidate",
+      "text": "Weekly check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110096190,
+      "status": "candidate",
+      "text": "paycheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110095190,
+      "status": "candidate",
+      "text": "salary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110094190,
+      "status": "candidate",
+      "text": "wages"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 109996187,
+      "status": "candidate",
+      "text": "rise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Weekly check",
+  "concept_id": "weekly-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "rhysd/clever-f.vim"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Weekly check",
+      "sense_id": "weekly-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

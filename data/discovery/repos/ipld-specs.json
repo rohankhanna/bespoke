@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "vuepress",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v2.5.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/specs",
+      "target": "vuepress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipld/specs",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipld/specs",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipld/specs",
+      "target": "peaceiris/actions-gh-pages@v2.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipld/specs",
+      "target": "gh-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/specs",
+      "target": "content-addressed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/specs",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/specs",
+      "target": "hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/specs",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/specs",
+      "target": "ipld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/specs",
+      "target": "linked-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:17.640246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10382
+    },
+    {
+      "path": "package.json",
+      "size": 905
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[ARCHIVED] Old specs repo, moved to https://github.com/ipld/ipld",
+    "fork": false,
+    "full_name": "ipld/specs",
+    "html_url": "https://github.com/ipld/specs",
+    "language": "JavaScript",
+    "pushed_at": "2022-06-28T23:04:58Z",
+    "stargazers_count": 586,
+    "topics": [
+      "content-addressed",
+      "graph",
+      "hash",
+      "ipfs",
+      "ipld",
+      "linked-data"
+    ],
+    "updated_at": "2026-03-30T02:09:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "gh-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "gh-pages"
+    },
+    {
+      "context_snippet": "!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-addressed"
+    },
+    {
+      "context_snippet": "!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    },
+    {
+      "context_snippet": "!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipld"
+    },
+    {
+      "context_snippet": "!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linked-data"
+    }
+  ]
+}

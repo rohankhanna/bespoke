@@ -138,20 +138,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/node-redis",
-      "target": "redis-stack/redis-stack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/node-redis",
-      "target": "redis/redis-om-node",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "redis/node-redis",
@@ -432,7 +418,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:49:16.133765+00:00",
+  "fetched_at": "2026-04-24T09:08:10.009975+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -495,18 +481,7 @@
     ],
     "updated_at": "2026-04-24T01:05:40Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-stack/redis-stack",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis/redis-om-node",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",

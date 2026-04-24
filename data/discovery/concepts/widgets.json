@@ -19,6 +19,18 @@
       "source_repo": "ratatui/ratatui",
       "status": "candidate-context",
       "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "Github Star History - A stunning star history widget chart generator for Github Repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ratatui/ratatui",
       "status": "candidate",
       "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "canvas",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chart.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chartjs-adapter-dayjs-4",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dayjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "helmet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-emoji",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "canvas",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "chart.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "chartjs-adapter-dayjs-4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "dayjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "helmet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "node-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucabubi/star-history",
+      "target": "node-emoji",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "github-readme-stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "readme-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "readme-stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "star-history",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "stars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "stars-history",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "trending",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "trending-repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "widget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history",
+      "target": "widgets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:23.043201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2986
+    },
+    {
+      "path": "package.json",
+      "size": 834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Github Star History - A stunning star history widget chart generator for Github Repositories",
+    "fork": false,
+    "full_name": "lucabubi/star-history",
+    "html_url": "https://github.com/lucabubi/star-history",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-17T12:29:09Z",
+    "stargazers_count": 9,
+    "topics": [
+      "github",
+      "github-pages",
+      "github-readme-stats",
+      "readme",
+      "readme-md",
+      "readme-stats",
+      "star-history",
+      "stars",
+      "stars-history",
+      "statistics",
+      "trending",
+      "trending-repositories",
+      "widget",
+      "widgets"
+    ],
+    "updated_at": "2026-03-17T12:29:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-readme-stats"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-md"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-stats"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "star-history"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stars"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stars-history"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trending"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trending-repositories"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widget"
+    },
+    {
+      "context_snippet": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widgets"
+    }
+  ]
+}

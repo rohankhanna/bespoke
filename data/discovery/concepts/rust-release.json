@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Rust Release"
+    "Rust Release",
+    "rust-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "safetensors/safetensors",
       "status": "candidate-context",
       "text": "Rust Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kimahriman/hdfs-native",
+      "status": "candidate-context",
+      "text": "rust-release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +34,12 @@
       "source_repo": "safetensors/safetensors",
       "status": "candidate",
       "text": "Rust Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kimahriman/hdfs-native",
+      "status": "candidate",
+      "text": "rust-release"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +113,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/rust-release.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "Kimahriman/hdfs-native"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

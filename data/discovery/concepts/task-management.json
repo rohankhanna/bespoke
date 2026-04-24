@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/Agent-Handover-Demo",
       "status": "candidate-context",
       "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/Agent-Handover-Demo",
       "status": "candidate",
       "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Agent-Handover-Demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AppFlowy-IO/AppFlowy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

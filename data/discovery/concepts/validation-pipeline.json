@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validation Pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Automating Releases via SemVer and Commit Message Conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Validation Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate",
+      "text": "Validation Pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10679,
+      "status": "candidate",
+      "text": "approval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10679,
+      "status": "candidate",
+      "text": "commit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10679,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10679,
+      "status": "candidate",
+      "text": "recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10679,
+      "status": "candidate",
+      "text": "support"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validation Pipeline",
+  "concept_id": "validation-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "python-semantic-release/python-semantic-release"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validation Pipeline",
+      "sense_id": "validation-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

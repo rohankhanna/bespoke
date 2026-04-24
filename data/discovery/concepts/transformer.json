@@ -277,6 +277,102 @@
       "source_repo": "NVlabs/SegFormer",
       "status": "candidate-context",
       "text": "[![NVIDIA Source Code License](https://img.shields.io/badge/license-NSCL-blue.svg)](https://github.com/NVlabs/SegFormer/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "myhub/tr",
+      "status": "candidate-context",
+      "text": "Free Offline OCR \u79bb\u7ebf\u7684\u4e2d\u6587\u6587\u672c\u68c0\u6d4b+\u8bc6\u522bSDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myhub/tr",
+      "status": "candidate-context",
+      "text": "\u4e00\u6b3e\u9488\u5bf9\u626b\u63cf\u6587\u6863\u7684\u79bb\u7ebf\u6587\u672c\u8bc6\u522bSDK\uff0c\u6838\u5fc3\u4ee3\u7801\u5168\u90e8\u91c7\u7528C++\u5f00\u53d1\uff0c\u5e76\u63d0\u4f9bPython\u63a5\u53e3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/SwinIR",
+      "status": "candidate-context",
+      "text": "SwinIR: Image Restoration Using Swin Transformer (official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/SwinIR",
+      "status": "candidate-context",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "EfficientFormerV2 [ICCV 2023] & EfficientFormer [NeurIPs 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "Lumina-T2X is a unified framework for Text to Any Modality Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "botaoye/OSTrack",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botaoye/OSTrack",
+      "status": "candidate-context",
+      "text": "The official implementation for the **ECCV 2022** paper [_Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework_](https://arxiv.org/abs/2203.11991)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "researchmm/STTN",
+      "status": "candidate-context",
+      "text": "[ECCV'2020] STTN: Learning Joint Spatial-Temporal Transformations for Video Inpainting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/STTN",
+      "status": "candidate-context",
+      "text": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "givkashi/Focal-Unet",
+      "status": "candidate-context",
+      "text": "Focal-Unet: Unet-like Focal Modulation for Medical Image Segmentation https://arxiv.org/abs/2212.09263"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "givkashi/Focal-Unet",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate-context",
+      "text": "MoH: Multi-Head Attention as Mixture-of-Head Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -411,6 +507,54 @@
       "source_repo": "NVlabs/SegFormer",
       "status": "candidate",
       "text": "[![NVIDIA Source Code License](https://img.shields.io/badge/license-NSCL-blue.svg)](https://github.com/NVlabs/SegFormer/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myhub/tr",
+      "status": "candidate",
+      "text": "\u4e00\u6b3e\u9488\u5bf9\u626b\u63cf\u6587\u6863\u7684\u79bb\u7ebf\u6587\u672c\u8bc6\u522bSDK\uff0c\u6838\u5fc3\u4ee3\u7801\u5168\u90e8\u91c7\u7528C++\u5f00\u53d1\uff0c\u5e76\u63d0\u4f9bPython\u63a5\u53e3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/SwinIR",
+      "status": "candidate",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botaoye/OSTrack",
+      "status": "candidate",
+      "text": "The official implementation for the **ECCV 2022** paper [_Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework_](https://arxiv.org/abs/2203.11991)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/STTN",
+      "status": "candidate",
+      "text": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "givkashi/Focal-Unet",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -640,11 +784,71 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "NVlabs/SegFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "myhub/tr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/SwinIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "snap-research/EfficientFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "botaoye/OSTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "researchmm/STTN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoH"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

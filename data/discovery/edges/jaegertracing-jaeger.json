@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "jaegertracing/jaeger-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "jaegertracing/documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "jaegertracing/security-audits.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ai-sidecar-gemini.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ai-sidecar-gemini.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ai-sidecar-gemini.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-ai-sidecar-gemini.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "AI Sidecar Gemini Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-binaries.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-binaries.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build-binaries.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "Build binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy-demo.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "oracle-actions/configure-kubectl-oke@77a733d79446dabe7bf0e58eb56197d33ce4dc58",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy-demo.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy-demo.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy-demo.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "rtCamp/action-slack-notify@4e5fb42d249be6a45a298f3c9543b111b02f7907",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-deploy-demo.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "Deploy Jaeger Demo to OKE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-all-in-one.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-all-in-one.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-all-in-one.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-all-in-one.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docker-all-in-one.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "Build all-in-one",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-build.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-build.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-build.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docker-build.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "Build docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-hotrod.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-hotrod.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-hotrod.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-hotrod.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "azure/setup-kubectl@15650b3ad78fff148532a140b8a4c821796b2d7b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-hotrod.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "helm/kind-action@a1b0e391336a6ee6713a0583f8c6240d70863de3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docker-hotrod.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "CIT Hotrod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-e2e-all.yml",
+      "source_repo": "jaegertracing/jaeger",
+      "target": "E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger",
+      "target": "distributed-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger",
+      "target": "jaeger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger",
+      "target": "tracing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "jaegertracing/jaeger"
+}

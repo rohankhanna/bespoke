@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:57:36.277060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nanothread \u2014 Minimal thread pool for task parallelism",
+    "fork": false,
+    "full_name": "mitsuba-renderer/nanothread",
+    "html_url": "https://github.com/mitsuba-renderer/nanothread",
+    "language": "C++",
+    "pushed_at": "2026-04-17T23:57:42Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-04-19T10:55:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

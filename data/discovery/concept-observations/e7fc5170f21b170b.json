@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19893044,
+      "status": "candidate",
+      "text": "defend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892240,
+      "status": "candidate",
+      "text": "defence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892129,
+      "status": "candidate",
+      "text": "regina"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19891917,
+      "status": "candidate",
+      "text": "protect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19836484,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gina",
+      "sense_id": "gina#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gina",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gina",
+  "observation_id": "e7fc5170f21b170b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "gina",
+  "source_context_snippet": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)",
+  "source_file": null,
+  "source_repo": "lambdalisue/vim-gina",
+  "source_repo_description": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+}

@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "uNetworking/uSockets",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "uNetworking/uSockets",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uSockets",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uSockets",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uSockets",
+      "target": "miniscule",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:39.251919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1501
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 1959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Miniscule cross-platform eventing, networking & crypto for async applications",
+    "fork": false,
+    "full_name": "uNetworking/uSockets",
+    "html_url": "https://github.com/uNetworking/uSockets",
+    "language": "C",
+    "pushed_at": "2026-04-13T15:18:07Z",
+    "stargazers_count": 1450,
+    "topics": [
+      "async",
+      "cross-platform",
+      "miniscule",
+      "ssl",
+      "tcp"
+    ],
+    "updated_at": "2026-04-19T18:00:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "miniscule"
+    }
+  ]
+}

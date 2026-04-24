@@ -1,0 +1,190 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "beam-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "best-path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "ctc-loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "handwriting-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "prefix-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "recurrent-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder",
+      "target": "token-passing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:53.691733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5137
+    },
+    {
+      "path": "requirements.txt",
+      "size": 25
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Connectionist Temporal Classification (CTC) decoding algorithms: best path, beam search, lexicon search, prefix search, and token passing. Implemented in Python.",
+    "fork": false,
+    "full_name": "githubharald/CTCDecoder",
+    "html_url": "https://github.com/githubharald/CTCDecoder",
+    "language": "Python",
+    "pushed_at": "2026-01-31T16:05:37Z",
+    "stargazers_count": 835,
+    "topics": [
+      "beam-search",
+      "best-path",
+      "ctc",
+      "ctc-loss",
+      "handwriting-recognition",
+      "language-model",
+      "loss",
+      "opencl",
+      "prefix-search",
+      "python",
+      "recurrent-neural-networks",
+      "speech-recognition",
+      "token-passing"
+    ],
+    "updated_at": "2026-04-05T14:06:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beam-search"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-path"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctc-loss"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handwriting-recognition"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loss"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prefix-search"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recurrent-neural-networks"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "**Update 2021: installable Python package**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "token-passing"
+    }
+  ]
+}

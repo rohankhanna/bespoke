@@ -1,0 +1,280 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "rreverser/wasm-bindgen-rayon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "callback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "image-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "image-pixels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "minification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "palette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "palette-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "pixel-array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "pngquant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "rgba-pixels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant",
+      "target": "visual-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:19.987555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7084
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1925
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Palette quantization library that powers pngquant and other PNG optimizers",
+    "fork": false,
+    "full_name": "ImageOptim/libimagequant",
+    "html_url": "https://github.com/ImageOptim/libimagequant",
+    "language": "Rust",
+    "pushed_at": "2026-02-11T02:56:21Z",
+    "stargazers_count": 906,
+    "topics": [
+      "callback",
+      "conversion",
+      "image-optimization",
+      "image-pixels",
+      "minification",
+      "palette",
+      "palette-generation",
+      "pixel-array",
+      "pngquant",
+      "quality",
+      "quantization",
+      "rgba-pixels",
+      "visual-studio"
+    ],
+    "updated_at": "2026-04-19T21:07:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rreverser/wasm-bindgen-rayon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "callback"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversion"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-optimization"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-pixels"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minification"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "palette"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "palette-generation"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-array"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pngquant"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rgba-pixels"
+    },
+    {
+      "context_snippet": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "antham/go-workflow-github-action/.github/workflows/build.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "antham/go-workflow-github-action/.github/workflows/create-release.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antham/ghokin",
+      "target": "antham/go-workflow-github-action/.github/workflows/build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "antham/ghokin",
+      "target": "antham/go-workflow-github-action/.github/workflows/create-release.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "antham/ghokin",
+      "target": "Create the release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antham/ghokin",
+      "target": "behat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antham/ghokin",
+      "target": "cucumber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antham/ghokin",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antham/ghokin",
+      "target": "gherkin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:26.535581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3221
+    },
+    {
+      "path": "go.mod",
+      "size": 1426
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parallelized formatter with no external dependencies for gherkin (cucumber, behat...)",
+    "fork": false,
+    "full_name": "antham/ghokin",
+    "html_url": "https://github.com/antham/ghokin",
+    "language": "Go",
+    "pushed_at": "2026-04-12T19:48:17Z",
+    "stargazers_count": 52,
+    "topics": [
+      "behat",
+      "cucumber",
+      "formatter",
+      "gherkin"
+    ],
+    "updated_at": "2026-04-12T19:48:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create the release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create the release"
+    },
+    {
+      "context_snippet": "Ghokin format and apply transformation on gherkin files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "behat"
+    },
+    {
+      "context_snippet": "Ghokin format and apply transformation on gherkin files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cucumber"
+    },
+    {
+      "context_snippet": "Ghokin format and apply transformation on gherkin files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "Ghokin format and apply transformation on gherkin files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gherkin"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "craft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/CRAFT-pytorch",
+      "status": "candidate-context",
+      "text": "Official implementation of Character Region Awareness for Text Detection (CRAFT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/CRAFT-pytorch",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/CRAFT-pytorch",
+      "status": "candidate",
+      "text": "Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970952,
+      "status": "candidate",
+      "text": "wiliness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970118,
+      "status": "candidate",
+      "text": "craftiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969591,
+      "status": "candidate",
+      "text": "cunning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968117,
+      "status": "candidate",
+      "text": "slyness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967155,
+      "status": "candidate",
+      "text": "guile"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61038,
+      "status": "candidate",
+      "text": "cunning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11068,
+      "status": "candidate",
+      "text": "trade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9028,
+      "status": "candidate",
+      "text": "craftsmanship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7023,
+      "status": "candidate",
+      "text": "craftiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6030,
+      "status": "candidate",
+      "text": "workmanship"
+    }
+  ],
+  "canonical_name": "craft",
+  "concept_id": "craft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/CRAFT-pytorch"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "craft",
+      "sense_id": "craft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

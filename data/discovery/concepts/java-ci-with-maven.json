@@ -43,6 +43,60 @@
       "source_repo": "lanthale/LibHeifFX",
       "status": "candidate-context",
       "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codelibs/fess",
+      "status": "candidate-context",
+      "text": "Fess is very powerful and easily deployable Enterprise Search Server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "Java SDK for Milvus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caprica/vlcj",
+      "status": "candidate-context",
+      "text": "Java framework for the vlc media player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caprica/vlcj",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/rococoa",
+      "status": "candidate-context",
+      "text": "Rococoa allows you to call Objective-C code through Java classes and interfaces that you define."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/rococoa",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgileadi/dg.jdt.ls.decompiler",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +115,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lanthale/LibHeifFX",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caprica/vlcj",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/rococoa",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgileadi/dg.jdt.ls.decompiler",
       "status": "candidate",
       "text": "Java CI with Maven"
     }
@@ -130,11 +214,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "milvus-io/milvus-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "caprica/vlcj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterate-ch/rococoa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "dgileadi/dg.jdt.ls.decompiler"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

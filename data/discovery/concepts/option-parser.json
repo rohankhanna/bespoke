@@ -19,6 +19,18 @@
       "source_repo": "jakeheis/SwiftCLI",
       "status": "candidate-context",
       "text": "SwiftCLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate-context",
+      "text": "Lightweight C++ command line option parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jakeheis/SwiftCLI",
       "status": "candidate",
       "text": "SwiftCLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jakeheis/SwiftCLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jarro2783/cxxopts"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

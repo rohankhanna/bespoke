@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "rare"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "Text recognition (optical character recognition) with deep learning methods, ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037786,
+      "status": "candidate",
+      "text": "infrequent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033032,
+      "status": "candidate",
+      "text": "uncommon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031485,
+      "status": "candidate",
+      "text": "extraordinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025670,
+      "status": "candidate",
+      "text": "rarefied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025180,
+      "status": "candidate",
+      "text": "scarce"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46038,
+      "status": "candidate",
+      "text": "extraordinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25057,
+      "status": "candidate",
+      "text": "raw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19055,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16033,
+      "status": "candidate",
+      "text": "uncommon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14029,
+      "status": "candidate",
+      "text": "rarefied"
+    }
+  ],
+  "canonical_name": "rare",
+  "concept_id": "rare",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rare",
+      "sense_id": "rare#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

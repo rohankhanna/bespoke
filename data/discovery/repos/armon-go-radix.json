@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "armon/go-radix",
+      "target": "hashicorp/go-immutable-radix",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:46.410879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1074
+    },
+    {
+      "path": "go.mod",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Golang implementation of Radix trees",
+    "fork": false,
+    "full_name": "armon/go-radix",
+    "html_url": "https://github.com/armon/go-radix",
+    "language": "Go",
+    "pushed_at": "2024-07-06T07:38:33Z",
+    "stargazers_count": 936,
+    "topics": [],
+    "updated_at": "2026-04-10T06:14:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/go-immutable-radix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

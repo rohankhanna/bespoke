@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -146,6 +146,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-inactive-issues.yml",
       "source_repo": "LDLINGLINGLING/sglang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close_inactive.yml",
+      "source_repo": "hpcaitech/ColossalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "DOGEwbx/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "eosphoros-ai/DB-GPT"
     }
   ],
   "term": "Close inactive issues"

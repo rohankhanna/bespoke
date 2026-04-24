@@ -1,0 +1,153 @@
+{
+  "aliases": [
+    "restoration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/SwinIR",
+      "status": "candidate-context",
+      "text": "SwinIR: Image Restoration Using Swin Transformer (official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/SwinIR",
+      "status": "candidate-context",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sczhou/CodeFormer",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sczhou/CodeFormer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/SwinIR",
+      "status": "candidate",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sczhou/CodeFormer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997174,
+      "status": "candidate",
+      "text": "renovation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997120,
+      "status": "candidate",
+      "text": "regaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996199,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986308,
+      "status": "candidate",
+      "text": "restitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997397,
+      "status": "candidate",
+      "text": "restored"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28053,
+      "status": "candidate",
+      "text": "restitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22071,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "regaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "renovation"
+    }
+  ],
+  "canonical_name": "restoration",
+  "concept_id": "restoration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/SwinIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sczhou/CodeFormer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "restoration",
+      "sense_id": "restoration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/wg",
+      "target": "pftbest/msp430-quickstart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/wg",
+      "target": "pftbest/msp430-rt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/wg",
+      "target": "pftbest/msp430",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/wg",
+      "target": "esp-rs/rust",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:03:15.398434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Coordination repository of the embedded devices Working Group",
+    "fork": false,
+    "full_name": "rust-embedded/wg",
+    "html_url": "https://github.com/rust-embedded/wg",
+    "language": null,
+    "pushed_at": "2026-04-21T19:12:58Z",
+    "stargazers_count": 2122,
+    "topics": [],
+    "updated_at": "2026-04-22T03:17:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esp-rs/rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pftbest/msp430",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pftbest/msp430-quickstart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pftbest/msp430-rt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

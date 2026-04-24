@@ -142,6 +142,18 @@
       "source_repo": "open-policy-agent/opa",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate-context",
+      "text": "A FAST Kubernetes manifests validator, with support for Custom Resources!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate-context",
+      "text": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "open-policy-agent/opa",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate",
+      "text": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +373,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yannh/kubeconform"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

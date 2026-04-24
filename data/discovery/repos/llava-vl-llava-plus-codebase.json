@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "google-research-datasets/hiertext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "ux-decoder/semantic-sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "microsoft/llava-med",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "luodian/otter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "large-multimodal-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "target": "tool-use",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:07.358204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11191
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLaVA-Plus: Large Language and Vision Assistants that Plug and Learn to Use Skills",
+    "fork": false,
+    "full_name": "LLaVA-VL/LLaVA-Plus-Codebase",
+    "html_url": "https://github.com/LLaVA-VL/LLaVA-Plus-Codebase",
+    "language": "Python",
+    "pushed_at": "2024-02-01T12:51:10Z",
+    "stargazers_count": 766,
+    "topics": [
+      "agent",
+      "large-language-models",
+      "large-multimodal-models",
+      "multimodal-large-language-models",
+      "tool-use"
+    ],
+    "updated_at": "2026-04-09T11:04:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/hiertext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luodian/otter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/llava-med",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ux-decoder/semantic-sam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Learning to Use Tools For Creating Multimodal Agents.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "**Learning to Use Tools For Creating Multimodal Agents.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-multimodal-models"
+    },
+    {
+      "context_snippet": "**Learning to Use Tools For Creating Multimodal Agents.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "**Learning to Use Tools For Creating Multimodal Agents.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-use"
+    }
+  ]
+}

@@ -19,6 +19,30 @@
       "source_repo": "girishji/vimcomplete",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"> VimComplete </h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate-context",
+      "text": "Auto-completion for Vim's command-line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate-context",
+      "text": "> **This plugin is obsolete and will no longer be maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate-context",
+      "text": "Modern fuzzy finder for Vim with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate-context",
+      "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "girishji/vimcomplete",
       "status": "candidate",
       "text": "<h2 align=\"center\"> VimComplete </h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate",
+      "text": "> **This plugin is obsolete and will no longer be maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate",
+      "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "girishji/vimcomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "girishji/vimsuggest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

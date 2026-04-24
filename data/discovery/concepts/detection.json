@@ -79,6 +79,54 @@
       "source_repo": "chuanqi305/MobileNet-SSD",
       "status": "candidate-context",
       "text": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "OpenMMLab Model Compression Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/CRAFT-pytorch",
+      "status": "candidate-context",
+      "text": "Official implementation of Character Region Awareness for Text Detection (CRAFT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/CRAFT-pytorch",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "EfficientFormerV2 [ICCV 2023] & EfficientFormer [NeurIPs 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate-context",
+      "text": "OpenMMLab Rotated Object Detection Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "chuanqi305/MobileNet-SSD",
       "status": "candidate",
       "text": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrazor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/CRAFT-pytorch",
+      "status": "candidate",
+      "text": "Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmrotate",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +304,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "chuanqi305/MobileNet-SSD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmrazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/CRAFT-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "snap-research/EfficientFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmrotate"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -46,6 +46,42 @@
       "source_repo": "m2e-code-quality/m2e-code-quality",
       "status": "candidate-context",
       "text": "This project provides Eclipse plugins that bridge the Maven and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/ms",
+      "status": "candidate-context",
+      "text": "Tiny millisecond conversion utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/ms",
+      "status": "candidate-context",
+      "text": "Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate-context",
+      "text": "A tool for measuring Python class cohesion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate-context",
+      "text": "Palette quantization library that powers pngquant and other PNG optimizers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate-context",
+      "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
     }
   ],
   "candidate_glosses": [
@@ -66,6 +102,24 @@
       "source_repo": "m2e-code-quality/m2e-code-quality",
       "status": "candidate",
       "text": "This project provides Eclipse plugins that bridge the Maven and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/ms",
+      "status": "candidate",
+      "text": "Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mschwager/cohesion",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/libimagequant",
+      "status": "candidate",
+      "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +217,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "m2e-code-quality/m2e-code-quality"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mschwager/cohesion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ImageOptim/libimagequant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/quality.yaml",
+      "source_repo": "simd-lite/simd-json"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

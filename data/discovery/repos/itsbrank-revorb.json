@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ItsBrank/ReVorb",
+      "target": "gcp/libogg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ItsBrank/ReVorb",
+      "target": "xiph/vorbis",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:18.882153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Recomputes page granule positions in Ogg Vorbis files.",
+    "fork": false,
+    "full_name": "ItsBrank/ReVorb",
+    "html_url": "https://github.com/ItsBrank/ReVorb",
+    "language": "C",
+    "pushed_at": "2022-12-05T00:59:01Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-18T13:26:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gcp/libogg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiph/vorbis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

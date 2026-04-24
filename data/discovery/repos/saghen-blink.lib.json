@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/blink.lib",
+      "target": "byron/gitoxide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/blink.lib",
+      "target": "lewis6991/async.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:59.505786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Shared library for blink.* neovim plugins",
+    "fork": false,
+    "full_name": "saghen/blink.lib",
+    "html_url": "https://github.com/saghen/blink.lib",
+    "language": "Lua",
+    "pushed_at": "2026-04-23T21:15:47Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-04-23T21:15:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byron/gitoxide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewis6991/async.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

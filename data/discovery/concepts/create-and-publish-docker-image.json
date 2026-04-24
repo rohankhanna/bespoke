@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create and publish Docker image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "Signature Transparency Log designed for ease of use, low cost, and minimal maintenance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "Create and publish Docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate",
+      "text": "Create and publish Docker image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33595,
+      "status": "candidate",
+      "text": "represent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33195,
+      "status": "candidate",
+      "text": "imagine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33195,
+      "status": "candidate",
+      "text": "imagining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33195,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33195,
+      "status": "candidate",
+      "text": "represented"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create and publish Docker image",
+  "concept_id": "create-and-publish-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_container.yml",
+      "source_repo": "sigstore/rekor-tiles"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create and publish Docker image",
+      "sense_id": "create-and-publish-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

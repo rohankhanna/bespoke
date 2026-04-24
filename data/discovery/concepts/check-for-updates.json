@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check for Updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate-context",
+      "text": "Chocolatey package for AWS Vault by ByteNess"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate-context",
+      "text": "Check for Updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey",
+      "status": "candidate",
+      "text": "Check for Updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15656,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15656,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15656,
+      "status": "candidate",
+      "text": "refresher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15656,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15656,
+      "status": "candidate",
+      "text": "updating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check for Updates",
+  "concept_id": "check-for-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check-for-updates.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check for Updates",
+      "sense_id": "check-for-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

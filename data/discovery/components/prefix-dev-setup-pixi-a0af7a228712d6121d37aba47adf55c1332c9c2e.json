@@ -1,0 +1,12 @@
+{
+  "component": "prefix-dev/setup-pixi@a0af7a228712d6121d37aba47adf55c1332c9c2e",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_urls.yml",
+      "source_repo": "onnx/onnx"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rust dependency audit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rust dependency audit"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "epidemiology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "oxidimetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "pathology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17854,
+      "status": "candidate",
+      "text": "periodontics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17763,
+      "status": "candidate",
+      "text": "bacteriology"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust dependency audit",
+      "sense_id": "rust-dependency-audit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-dependency-audit",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-dependency-audit",
+  "observation_id": "b6a7921376ab835c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Rust dependency audit",
+  "source_context_snippet": "Rust dependency audit",
+  "source_file": ".github/workflows/audit.yml",
+  "source_repo": "FedericoPonzi/Horust",
+  "source_repo_description": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+}

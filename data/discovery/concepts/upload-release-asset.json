@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload Release Asset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate-context",
+      "text": "Nim implementation of the Ethereum Beacon Chain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate-context",
+      "text": "Upload Release Asset"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate",
+      "text": "Upload Release Asset"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23352,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22537,
+      "status": "candidate",
+      "text": "deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22525,
+      "status": "candidate",
+      "text": "deliver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22525,
+      "status": "candidate",
+      "text": "delivered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22525,
+      "status": "candidate",
+      "text": "dump"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload Release Asset",
+  "concept_id": "upload-release-asset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "status-im/nimbus-eth2"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload Release Asset",
+      "sense_id": "upload-release-asset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

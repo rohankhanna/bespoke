@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Monitor component updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate-context",
+      "text": "A fork of Git containing Windows-specific patches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate-context",
+      "text": "Monitor component updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate",
+      "text": "Monitor component updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23724,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23724,
+      "status": "candidate",
+      "text": "upgrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23701,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22762,
+      "status": "candidate",
+      "text": "blogger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22335,
+      "status": "candidate",
+      "text": "afternoon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Monitor component updates",
+  "concept_id": "monitor-component-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/monitor-components.yml",
+      "source_repo": "git-for-windows/git"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monitor component updates",
+      "sense_id": "monitor-component-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

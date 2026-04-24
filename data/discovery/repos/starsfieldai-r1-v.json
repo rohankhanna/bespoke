@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "StarsfieldAI/R1-V",
-      "target": "chenllliang/g1",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "StarsfieldAI/R1-V",
       "target": "deep-agent/r1-v",
       "target_type": "repository"
     },
@@ -28,9 +21,16 @@
       "source_repo": "StarsfieldAI/R1-V",
       "target": "evolvinglmms-lab/open-r1-multimodal",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StarsfieldAI/R1-V",
+      "target": "lizw14/super-clevr",
+      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T21:49:20.551010+00:00",
+  "fetched_at": "2026-04-24T06:52:13.659646+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,11 +54,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chenllliang/g1",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "deep-agent/r1-v",
       "source_file": "README.md"
     },
@@ -70,6 +65,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "huggingface/open-r1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lizw14/super-clevr",
       "source_file": "README.md"
     }
   ],

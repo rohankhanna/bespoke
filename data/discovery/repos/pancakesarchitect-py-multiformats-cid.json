@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "PancakesArchitect/py-multiformats-cid",
+      "target": "pinnaculum/py-multiformats-cid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "PancakesArchitect/py-multiformats-cid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "PancakesArchitect/py-multiformats-cid",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "PancakesArchitect/py-multiformats-cid",
+      "target": "py-multiformats-cid-build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:01.044343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3086
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Self-describing content-addressed identifiers for distributed systems implementation in Python (fork of the deprecated ipld/py-cid)",
+    "fork": false,
+    "full_name": "PancakesArchitect/py-multiformats-cid",
+    "html_url": "https://github.com/PancakesArchitect/py-multiformats-cid",
+    "language": "Python",
+    "pushed_at": "2022-11-23T18:44:15Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-01-14T10:05:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pinnaculum/py-multiformats-cid",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "py-multiformats-cid-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "term": "py-multiformats-cid-build"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailhog/MailHog",
+      "target": "mailhog/mhsendmail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailhog/MailHog",
+      "target": "ian-kent/mailhog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailhog/MailHog",
+      "target": "ian-kent/m3mta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "mailhog/MailHog",
+      "target": "boot2docker/boot2docker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:36.395927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4235
+    },
+    {
+      "path": "Dockerfile",
+      "size": 634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Web and API based SMTP testing",
+    "fork": false,
+    "full_name": "mailhog/MailHog",
+    "html_url": "https://github.com/mailhog/MailHog",
+    "language": "Go",
+    "pushed_at": "2024-02-13T18:38:41Z",
+    "stargazers_count": 15939,
+    "topics": [],
+    "updated_at": "2026-04-24T01:28:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ian-kent/m3mta",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ian-kent/mailhog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mailhog/mhsendmail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boot2docker/boot2docker",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "apple/swift-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:06:46.888459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2384
+    },
+    {
+      "path": ".github/workflows/Package.swift",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1753
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 4530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Binary version of the SwiftLint Swift Package Manager plugins.",
+    "fork": false,
+    "full_name": "SimplyDanny/SwiftLintPlugins",
+    "html_url": "https://github.com/SimplyDanny/SwiftLintPlugins",
+    "language": "Swift",
+    "pushed_at": "2026-04-17T11:17:37Z",
+    "stargazers_count": 74,
+    "topics": [
+      "linter",
+      "plugin",
+      "swift",
+      "swift-package-manager"
+    ],
+    "updated_at": "2026-04-17T11:17:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-syntax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package-manager"
+    }
+  ]
+}

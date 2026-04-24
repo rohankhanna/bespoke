@@ -31,6 +31,18 @@
       "source_repo": "r-lib/styler",
       "status": "candidate-context",
       "text": "pkgdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-spatial/sf",
+      "status": "candidate-context",
+      "text": "Simple Features for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/sf",
+      "status": "candidate-context",
+      "text": "pkgdown"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-lib/styler",
+      "status": "candidate",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/sf",
       "status": "candidate",
       "text": "pkgdown"
     }
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pkgdown.yaml",
       "source_repo": "r-lib/styler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/sf"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

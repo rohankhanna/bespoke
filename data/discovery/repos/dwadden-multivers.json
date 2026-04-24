@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwadden/multivers",
+      "target": "asaakyan/covidfact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwadden/multivers",
+      "target": "sarrouti/healthver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwadden/multivers",
+      "target": "allenai/longformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwadden/multivers",
+      "target": "allenai/scifact-evaluator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:00.459336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6031
+    },
+    {
+      "path": "requirements.txt",
+      "size": 257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and model checkpoints for the MultiVerS model for scientific claim verification.",
+    "fork": false,
+    "full_name": "dwadden/multivers",
+    "html_url": "https://github.com/dwadden/multivers",
+    "language": "Python",
+    "pushed_at": "2023-08-16T06:59:58Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-07T06:08:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/longformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/scifact-evaluator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asaakyan/covidfact",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sarrouti/healthver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

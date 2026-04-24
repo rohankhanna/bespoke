@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PHP Framework designed to build IO-intensive web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swoole",
+      "sense_id": "swoole#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "swoole",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swoole",
+  "observation_id": "1e78183aca5cf867",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "swoole",
+  "source_context_snippet": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp).",
+  "source_file": null,
+  "source_repo": "distantmagic/resonance",
+  "source_repo_description": "PHP Framework designed to build IO-intensive web applications."
+}

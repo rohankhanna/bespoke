@@ -118,6 +118,18 @@
       "source_repo": "untitaker/hyperlink",
       "status": "candidate-context",
       "text": "A command-line tool to find broken links in your static site."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bpython/bpython",
+      "status": "candidate-context",
+      "text": "bpython - A fancy curses interface to the Python interactive interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpython/bpython",
+      "status": "candidate-context",
+      "text": "Linters"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "untitaker/hyperlink",
       "status": "candidate",
       "text": "A command-line tool to find broken links in your static site."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpython/bpython",
+      "status": "candidate",
+      "text": "Linters"
     }
   ],
   "candidate_related_terms": [
@@ -277,11 +295,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "bpython/bpython"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

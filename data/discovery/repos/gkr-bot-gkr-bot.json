@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-master.yml"
+    },
+    {
+      "component": "gautamkrishnar/blog-post-workflow@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-master.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack-oveflow-workflow.yml"
+    },
+    {
+      "component": "gautamkrishnar/blog-post-workflow@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack-oveflow-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-master.yml",
+      "source_repo": "gkr-bot/gkr-bot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-master.yml",
+      "source_repo": "gkr-bot/gkr-bot",
+      "target": "gautamkrishnar/blog-post-workflow@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-master.yml",
+      "source_repo": "gkr-bot/gkr-bot",
+      "target": "Latest blog post workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack-oveflow-workflow.yml",
+      "source_repo": "gkr-bot/gkr-bot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack-oveflow-workflow.yml",
+      "source_repo": "gkr-bot/gkr-bot",
+      "target": "gautamkrishnar/blog-post-workflow@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stack-oveflow-workflow.yml",
+      "source_repo": "gkr-bot/gkr-bot",
+      "target": "Latest stack oveflow activity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:53:34.694991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2935
+    },
+    {
+      "path": ".github/workflows/blog-master.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/stack-oveflow-workflow.yml",
+      "size": 517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "gkr-bot/gkr-bot",
+    "html_url": "https://github.com/gkr-bot/gkr-bot",
+    "language": null,
+    "pushed_at": "2026-04-13T07:27:58Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-13T07:28:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Latest blog post workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-master.yml",
+      "term": "Latest blog post workflow"
+    },
+    {
+      "context_snippet": "Latest stack oveflow activity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stack-oveflow-workflow.yml",
+      "term": "Latest stack oveflow activity"
+    }
+  ]
+}

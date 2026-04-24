@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anacrolix/dht",
+      "target": "anacrolix/btlink",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/dht",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/dht",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/dht",
+      "target": "bittorrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/dht",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/dht",
+      "target": "kademlia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/dht",
+      "target": "kademlia-dht",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/dht",
+      "target": "torrent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:03:04.443836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1065
+    },
+    {
+      "path": "go.mod",
+      "size": 4577
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "dht is used by anacrolix/torrent, and is intended for use as a library in other projects both torrent related and otherwise",
+    "fork": false,
+    "full_name": "anacrolix/dht",
+    "html_url": "https://github.com/anacrolix/dht",
+    "language": "Go",
+    "pushed_at": "2026-03-07T00:16:45Z",
+    "stargazers_count": 354,
+    "topics": [
+      "bittorrent",
+      "dht",
+      "go",
+      "golang",
+      "kademlia",
+      "kademlia-dht",
+      "torrent"
+    ],
+    "updated_at": "2026-04-03T02:07:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anacrolix/btlink",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kademlia"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kademlia-dht"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torrent"
+    }
+  ]
+}

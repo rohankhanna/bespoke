@@ -117,6 +117,54 @@
       "source_repo": "alecazam/kram",
       "status": "candidate-context",
       "text": "\"pre-release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "Install and Run Python Applications in Isolated Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "Virtual Python Environment builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate-context",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and memory ops \ud83e\udd96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "\"Pre-Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "R Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "pre-release"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +221,30 @@
       "source_repo": "alecazam/kram",
       "status": "candidate",
       "text": "\"pre-release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/virtualenv",
+      "status": "candidate",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate",
+      "text": "\"Pre-Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate",
+      "text": "pre-release"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +360,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "pypa/pipx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-release.yaml",
+      "source_repo": "pypa/virtualenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/StringZilla"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "REditorSupport/vscode-R"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "NovaSky-AI/SkyRL",
       "status": "candidate-context",
       "text": "SkyRL-GPU"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlfoundations/SkyRL",
+      "status": "candidate-context",
+      "text": "SkyRL: A Modular Full-stack RL Library for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/SkyRL",
+      "status": "candidate-context",
+      "text": "SkyRL-GPU"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NovaSky-AI/SkyRL",
+      "status": "candidate",
+      "text": "SkyRL-GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/SkyRL",
       "status": "candidate",
       "text": "SkyRL-GPU"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/gpu_skyrl.yaml",
       "source_repo": "NovaSky-AI/SkyRL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gpu_ci.yaml",
+      "source_repo": "mlfoundations/SkyRL"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

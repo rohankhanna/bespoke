@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/bwa",
+      "target": "lh3/minimap2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/bwa",
+      "target": "bwa-mem2/bwa-mem2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "lh3/bwa",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "lh3/bwa",
+      "target": "uraimo/run-on-arch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/bwa",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/bwa",
+      "target": "fm-index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/bwa",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/bwa",
+      "target": "sequence-alignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:56:33.270742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10030
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read alignment)",
+    "fork": false,
+    "full_name": "lh3/bwa",
+    "html_url": "https://github.com/lh3/bwa",
+    "language": "C",
+    "pushed_at": "2025-03-22T19:05:09Z",
+    "stargazers_count": 1731,
+    "topics": [
+      "bioinformatics",
+      "fm-index",
+      "genomics",
+      "sequence-alignment"
+    ],
+    "updated_at": "2026-04-20T04:09:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwa-mem2/bwa-mem2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/minimap2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/lh3/bwa/actions/workflows/ci.yaml/badge.svg)](https://github.com/lh3/bwa/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/lh3/bwa/actions/workflows/ci.yaml/badge.svg)](https://github.com/lh3/bwa/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fm-index"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/lh3/bwa/actions/workflows/ci.yaml/badge.svg)](https://github.com/lh3/bwa/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/lh3/bwa/actions/workflows/ci.yaml/badge.svg)](https://github.com/lh3/bwa/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-alignment"
+    }
+  ]
+}

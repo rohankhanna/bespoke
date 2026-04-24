@@ -19,6 +19,18 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arangodb/arangodb",
+      "status": "candidate-context",
+      "text": "\ud83e\udd51 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arangodb/arangodb",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arangodb/arangodb",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "arangodb/arangodb"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

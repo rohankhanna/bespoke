@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/ai-reference-models",
+      "target": "intel/ai-containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/ai-reference-models",
+      "target": "intel/intel-extension-for-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/ai-reference-models",
+      "target": "intelai/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:29.322542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19507
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Intel\u00ae AI Reference Models: contains Intel optimizations for running deep learning workloads on Intel\u00ae Xeon\u00ae Scalable processors and Intel\u00ae Data Center GPUs",
+    "fork": false,
+    "full_name": "intel/ai-reference-models",
+    "html_url": "https://github.com/intel/ai-reference-models",
+    "language": "Python",
+    "pushed_at": "2026-02-11T17:53:04Z",
+    "stargazers_count": 731,
+    "topics": [
+      "ai",
+      "cpu",
+      "deep-learning",
+      "deep-neural-networks",
+      "inference",
+      "performance",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-21T05:12:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/ai-containers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/intel-extension-for-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelai/models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://scan.coverity.com/projects/intel-models\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<a href=\"https://scan.coverity.com/projects/intel-models\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "<a href=\"https://scan.coverity.com/projects/intel-models\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<a href=\"https://scan.coverity.com/projects/intel-models\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<a href=\"https://scan.coverity.com/projects/intel-models\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

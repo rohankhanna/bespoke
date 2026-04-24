@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Slack Notify Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Gnosis Chain Validator Deposit Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Slack Notify Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate",
+      "text": "Slack Notify Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19217,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19096,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19096,
+      "status": "candidate",
+      "text": "loosen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19072,
+      "status": "candidate",
+      "text": "gape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19047,
+      "status": "candidate",
+      "text": "letup"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slack Notify Release",
+  "concept_id": "slack-notify-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/slack_release_notification.yml",
+      "source_repo": "gnosischain/gbc-deposit-ui"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slack Notify Release",
+      "sense_id": "slack-notify-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

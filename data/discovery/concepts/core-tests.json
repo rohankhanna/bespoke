@@ -19,12 +19,30 @@
       "source_repo": "lz4/lz4",
       "status": "candidate-context",
       "text": "Core Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "A feature-rich command-line audio/video downloader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
+      "status": "candidate-context",
+      "text": "Core Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "lz4/lz4",
+      "status": "candidate",
+      "text": "Core Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/yt-dlp",
       "status": "candidate",
       "text": "Core Tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/core-tests.yml",
       "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "yt-dlp/yt-dlp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

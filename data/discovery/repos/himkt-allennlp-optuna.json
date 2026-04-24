@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "optuna/optuna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "allennlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "allennlp-subcommand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "hyperparameter-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "hyperparameters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "jsonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "himkt/allennlp-optuna",
+      "target": "optuna",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:08.493350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7243
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 623
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1\ufe0f AllenNLP plugin for adding subcommands to use Optuna, making hyperparameter optimization easy",
+    "fork": false,
+    "full_name": "himkt/allennlp-optuna",
+    "html_url": "https://github.com/himkt/allennlp-optuna",
+    "language": "Python",
+    "pushed_at": "2021-11-23T12:30:02Z",
+    "stargazers_count": 33,
+    "topics": [
+      "allennlp",
+      "allennlp-subcommand",
+      "hyperparameter-optimization",
+      "hyperparameters",
+      "jsonnet",
+      "optuna"
+    ],
+    "updated_at": "2026-04-24T06:14:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "optuna/optuna",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allennlp"
+    },
+    {
+      "context_snippet": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allennlp-subcommand"
+    },
+    {
+      "context_snippet": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-optimization"
+    },
+    {
+      "context_snippet": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameters"
+    },
+    {
+      "context_snippet": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonnet"
+    },
+    {
+      "context_snippet": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optuna"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "aliases": [
+    "ecma262"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "Status, process, and documents for ECMA-262"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "'ecma262'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "engine262/engine262",
+      "status": "candidate-context",
+      "text": "An implementation of ECMA-262 in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engine262/engine262",
+      "status": "candidate-context",
+      "text": "An implementation of ECMA-262 in JavaScript"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate",
+      "text": "'ecma262'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engine262/engine262",
+      "status": "candidate",
+      "text": "An implementation of ECMA-262 in JavaScript"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ecma262",
+  "concept_id": "ecma262",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "tc39/ecma262"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "engine262/engine262"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ecma262",
+      "sense_id": "ecma262#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

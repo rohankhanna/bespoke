@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gina"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19893044,
+      "status": "candidate",
+      "text": "defend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892240,
+      "status": "candidate",
+      "text": "defence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892129,
+      "status": "candidate",
+      "text": "regina"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19891917,
+      "status": "candidate",
+      "text": "protect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19836484,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gina",
+  "concept_id": "gina",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gina",
+      "sense_id": "gina#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

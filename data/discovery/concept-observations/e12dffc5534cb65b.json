@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936805,
+      "status": "candidate",
+      "text": "valuation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925830,
+      "status": "candidate",
+      "text": "rating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946753,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944233,
+      "status": "candidate",
+      "text": "revaluation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944044,
+      "status": "candidate",
+      "text": "stocktake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evaluation",
+      "sense_id": "evaluation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4050,
+      "status": "candidate",
+      "text": "valuation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1052,
+      "status": "candidate",
+      "text": "rating"
+    }
+  ],
+  "concept_id": "evaluation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "evaluation",
+  "observation_id": "e12dffc5534cb65b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "evaluation",
+  "source_context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+  "source_file": null,
+  "source_repo": "CBLUEbenchmark/CBLUE",
+  "source_repo_description": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+}

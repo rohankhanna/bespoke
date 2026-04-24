@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build&publishtoDockerHub"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphistry/graph-app-kit",
+      "status": "candidate-context",
+      "text": "Go from graph data to a secure and interactive visual graph app in 15 minutes. Batteries-included self-hosting of graph data apps with Streamlit, Graphistry, RAPIDS, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphistry/graph-app-kit",
+      "status": "candidate-context",
+      "text": "build&publishtoDockerHub"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphistry/graph-app-kit",
+      "status": "candidate",
+      "text": "build&publishtoDockerHub"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build&publishtoDockerHub",
+  "concept_id": "build-publishtodockerhub",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dockerhubpublish.yml",
+      "source_repo": "graphistry/graph-app-kit"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build&publishtoDockerHub",
+      "sense_id": "build-publishtodockerhub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

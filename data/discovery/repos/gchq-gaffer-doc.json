@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "tkt-actions/add-issue-links@v1.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml"
+    },
+    {
+      "component": "repo-sync/pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "jimporter/mike",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "Build docs using MkDocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "Build and Publish using MkDocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "tkt-actions/add-issue-links@v1.8.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "Issue Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "repo-sync/pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "source_repo": "gchq/gaffer-doc",
+      "target": "Update v1docs Gaffer Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-doc",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-doc",
+      "target": "gaffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gaffer-doc",
+      "target": "gitbook",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:39.970002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1710
+    },
+    {
+      "path": "requirements.txt",
+      "size": 908
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 2731
+    },
+    {
+      "path": ".github/workflows/link-issue.yml",
+      "size": 322
+    },
+    {
+      "path": ".github/workflows/mlc_config.json",
+      "size": 96
+    },
+    {
+      "path": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "size": 2276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "v2docs",
+    "description": "Documentation for Gaffer",
+    "fork": false,
+    "full_name": "gchq/gaffer-doc",
+    "html_url": "https://github.com/gchq/gaffer-doc",
+    "language": null,
+    "pushed_at": "2025-06-06T10:17:48Z",
+    "stargazers_count": 10,
+    "topics": [
+      "documentation",
+      "gaffer",
+      "gitbook"
+    ],
+    "updated_at": "2025-10-22T16:28:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jimporter/mike",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build docs using MkDocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build docs using MkDocs"
+    },
+    {
+      "context_snippet": "Build and Publish using MkDocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Build and Publish using MkDocs"
+    },
+    {
+      "context_snippet": "'Issue Links'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "term": "Issue Links"
+    },
+    {
+      "context_snippet": "Update v1docs Gaffer Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "term": "Update v1docs Gaffer Version"
+    },
+    {
+      "context_snippet": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaffer"
+    },
+    {
+      "context_snippet": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitbook"
+    }
+  ]
+}

@@ -19,12 +19,30 @@
       "source_repo": "typescript-eslint/typescript-eslint",
       "status": "candidate-context",
       "text": "Nx Migrate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gridatek/semantic-icons",
+      "status": "candidate-context",
+      "text": "A collection of free and open-source icons, ready for seamless integration into your Angular projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gridatek/semantic-icons",
+      "status": "candidate-context",
+      "text": "Nx Migrate"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate",
+      "text": "Nx Migrate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gridatek/semantic-icons",
       "status": "candidate",
       "text": "Nx Migrate"
     }
@@ -62,11 +80,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/nx-migrate.yml",
       "source_repo": "typescript-eslint/typescript-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nx-migrate.yml",
+      "source_repo": "gridatek/semantic-icons"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

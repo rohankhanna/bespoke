@@ -1,12 +1,17 @@
 {
   "component": "vmactions/openbsd-vm@v0",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reusable-vm-build.yml",
       "source_repo": "microsoft/snmalloc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "source_repo": "randy408/libspng"
     }
   ]
 }

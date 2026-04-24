@@ -19,6 +19,18 @@
       "source_repo": "centrifugal/centrifugo",
       "status": "candidate-context",
       "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate-context",
+      "text": "EventSource client for Node.js, browsers and other JavaScript runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/eventsource.svg?style=flat-square)](https://www.npmjs.com/package/eventsource)[![npm bundle size](https://img.shields.io/bundlephobia/minzip/eventsource?style=flat-square)](https://bundlephobia.com/result?p=eventsource)[![npm weekly d\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "centrifugal/centrifugo",
       "status": "candidate",
       "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EventSource/eventsource",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/eventsource.svg?style=flat-square)](https://www.npmjs.com/package/eventsource)[![npm bundle size](https://img.shields.io/bundlephobia/minzip/eventsource?style=flat-square)](https://bundlephobia.com/result?p=eventsource)[![npm weekly d\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "centrifugal/centrifugo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "EventSource/eventsource"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -235,6 +235,78 @@
       "source_repo": "openvinotoolkit/openvino",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/ColossalAI",
+      "status": "candidate-context",
+      "text": "Making large AI models cheaper, faster and more accessible"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/ColossalAI",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate-context",
+      "text": "PyTriton is a Flask/FastAPI-like interface that simplifies Triton's deployment in Python environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "Utilities for efficient fine-tuning, inference and evaluation of code generation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "Intel\u00ae AI Reference Models: contains Intel optimizations for running deep learning workloads on Intel\u00ae Xeon\u00ae Scalable processors and Intel\u00ae Data Center GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "Cross-platform, customizable ML solutions for live and streaming media."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "A scalable inference server for models optimized with OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +423,42 @@
       "source_repo": "openvinotoolkit/openvino",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/ColossalAI",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -570,11 +678,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/pytriton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/model_server"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

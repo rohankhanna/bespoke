@@ -1645,6 +1645,498 @@
       "source_repo": "sthalles/PyTorch-BYOL",
       "status": "candidate-context",
       "text": "![Image of Yaktocat](./assets/arch.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "status": "candidate-context",
+      "text": "Code to create Stylized-ImageNet, a stylized version of standard ImageNet (ICLR 2019 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "status": "candidate-context",
+      "text": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate-context",
+      "text": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/ColossalAI",
+      "status": "candidate-context",
+      "text": "Making large AI models cheaper, faster and more accessible"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/ColossalAI",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatsu-lab/alpaca_eval",
+      "status": "candidate-context",
+      "text": "An automatic evaluator for instruction-following language models. Human-validated, high-quality, cheap, and fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_eval",
+      "status": "candidate-context",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/alpaca_farm/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "Streamlit \u2014 A faster way to build and share data apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "INT4/INT5/INT8 and FP16 inference on CPU for RWKV language model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for the paper \"MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate-context",
+      "text": "PyTriton is a Flask/FastAPI-like interface that simplifies Triton's deployment in Python environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "Running large language models on a single GPU for throughput-oriented scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "Open standard for machine learning interoperability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/onnx-tensorrt",
+      "status": "candidate-context",
+      "text": "ONNX-TensorRT: TensorRT backend for ONNX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx-tensorrt",
+      "status": "candidate-context",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "This repository consists for gpu bootcamp material for HPC and AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "WB color augmenter improves the accuracy of image classification and image semantic segmentation methods by emulating different WB effects  (ICCV 2019) [Python & Matlab]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "status": "candidate-context",
+      "text": "The multilingual variant of GLM, a general language model trained with autoregressive blank infilling objective "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "status": "candidate-context",
+      "text": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "Intel\u00ae AI Reference Models: contains Intel optimizations for running deep learning workloads on Intel\u00ae Xeon\u00ae Scalable processors and Intel\u00ae Data Center GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a fast open framework for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice \uff08\u300e\u98de\u6868\u300f\u6838\u5fc3\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60&\u673a\u5668\u5b66\u4e60\u9ad8\u6027\u80fd\u5355\u673a\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u548c\u8de8\u5e73\u53f0\u90e8\u7f72\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "Text recognition (optical character recognition) with deep learning methods, ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "Cross-platform, customizable ML solutions for live and streaming media."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "EfficientFormerV2 [ICCV 2023] & EfficientFormer [NeurIPs 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/big_transfer",
+      "status": "candidate-context",
+      "text": "Official repository for the \"Big Transfer (BiT): General Visual Representation Learning\" paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/big_transfer",
+      "status": "candidate-context",
+      "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate-context",
+      "text": "Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate-context",
+      "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate-context",
+      "text": "A high performance I/O library for deep learning in Julia, based on the PyTorch WebDataset library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate-context",
+      "text": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asteroid-team/asteroid",
+      "status": "candidate-context",
+      "text": "The PyTorch-based audio source separation toolkit for researchers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asteroid-team/asteroid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "horovod/horovod",
+      "status": "candidate-context",
+      "text": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "horovod/horovod",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/byteps",
+      "status": "candidate-context",
+      "text": "A high performance and generic framework for distributed DNN training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/byteps",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/bytedance/byteps.svg?branch=master)](https://travis-ci.org/bytedance/byteps)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "Useful extra functionality for TensorFlow 2.x maintained by SIG-addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "Nonlinear optimisation (root-finding, least squares, ...) in JAX+Equinox. https://docs.kidger.site/optimistix/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Optimistix</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "API to run VirtualHome, a Multi-Agent Household Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "A scalable inference server for models optimized with OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate-context",
+      "text": "AMD-SHARK Studio -- Web UI for SHARK+IREE High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate-context",
+      "text": "High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "konpatp/diffae",
+      "status": "candidate-context",
+      "text": "Official implementation of Diffusion Autoencoders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konpatp/diffae",
+      "status": "candidate-context",
+      "text": "A CVPR 2022 (ORAL) paper ([paper](https://openaccess.thecvf.com/content/CVPR2022/html/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.html), [site](https://diff-ae.github.io/), [5-min video](https://youtu.be/i3rjEsiHoUU)):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HakamShams/Focal_TSMP",
+      "status": "candidate-context",
+      "text": "[GMD'24] Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HakamShams/Focal_TSMP",
+      "status": "candidate-context",
+      "text": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate-context",
+      "text": "TinyChatEngine: On-Device LLM Inference Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate-context",
+      "text": "![tinychat_logo](assets/figures/tinychat_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uber/petastorm",
+      "status": "candidate-context",
+      "text": "Petastorm library enables single machine or distributed training and evaluation of deep learning models from datasets in Apache Parquet format. It supports ML frameworks such as Tensorflow, Pytorch, and PySpark and can be used from pure Python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber/petastorm",
+      "status": "candidate-context",
+      "text": "Petastorm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/Otter",
+      "status": "candidate-context",
+      "text": "\ud83e\udda6 Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following and in-context learning ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/Otter",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "status": "candidate-context",
+      "text": "Pre-trained models, data, code & materials from the paper \"ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness\" (ICLR 2019 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "status": "candidate-context",
+      "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "status": "candidate-context",
+      "text": "A memory efficient DLRM training solution using ColossalAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "status": "candidate-context",
+      "text": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory."
     }
   ],
   "candidate_glosses": [
@@ -2463,6 +2955,252 @@
       "source_repo": "sthalles/PyTorch-BYOL",
       "status": "candidate",
       "text": "![Image of Yaktocat](./assets/arch.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/Stylized-ImageNet",
+      "status": "candidate",
+      "text": "Interested to see how well your model copes with challenging stylized images? Check out the comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human), which supports stylized data (complete with human comparison data) and comes with code to\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesq34/pointnet2",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/ColossalAI",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_eval",
+      "status": "candidate",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/alpaca_farm/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate",
+      "text": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamlit/streamlit",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/onnx-tensorrt",
+      "status": "candidate",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_color_augmenter",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "status": "candidate",
+      "text": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiliu89/caffe",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/big_transfer",
+      "status": "candidate",
+      "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex000kim/nsfw_data_scraper",
+      "status": "candidate",
+      "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate",
+      "text": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asteroid-team/asteroid",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "horovod/horovod",
+      "status": "candidate",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/byteps",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bytedance/byteps.svg?branch=master)](https://travis-ci.org/bytedance/byteps)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/addons",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate",
+      "text": "<h1 align='center'>Optimistix</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate",
+      "text": "High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konpatp/diffae",
+      "status": "candidate",
+      "text": "A CVPR 2022 (ORAL) paper ([paper](https://openaccess.thecvf.com/content/CVPR2022/html/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.html), [site](https://diff-ae.github.io/), [5-min video](https://youtu.be/i3rjEsiHoUU)):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HakamShams/Focal_TSMP",
+      "status": "candidate",
+      "text": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate",
+      "text": "![tinychat_logo](assets/figures/tinychat_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber/petastorm",
+      "status": "candidate",
+      "text": "Petastorm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/Otter",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "status": "candidate",
+      "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "status": "candidate",
+      "text": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory."
     }
   ],
   "candidate_related_terms": [],
@@ -3364,11 +4102,335 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "sthalles/PyTorch-BYOL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rgeirhos/Stylized-ImageNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "streamlit/streamlit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/pytriton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "onnx/onnx-tensorrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_color_augmenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/Multilingual-GLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "weiliu89/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "snap-research/EfficientFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-research/big_transfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/WebDataset.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "asteroid-team/asteroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "horovod/horovod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/byteps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/clip-as-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/optimistix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "xavierpuigf/virtualhome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/model_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "konpatp/diffae"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "HakamShams/Focal_TSMP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uber/petastorm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/CachedEmbedding"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

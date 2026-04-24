@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration-test.yml",
       "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/numba_linux-64_conda_builder.yml",
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/numba_linux-aarch64_conda_builder.yml",
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/numba_osx-arm64_conda_builder.yml",
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/numba_osx-arm64_wheel_builder.yml",
+      "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/numba_win-64_conda_builder.yml",
+      "source_repo": "numba/numba"
     }
   ]
 }

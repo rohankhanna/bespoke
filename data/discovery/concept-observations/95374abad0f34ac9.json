@@ -84,7 +84,7 @@
   "normalized_form": "changelog",
   "observation_id": "95374abad0f34ac9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Changelog",
   "source_context_snippet": "Changelog",
   "source_file": ".github/workflows/changelog.yml",

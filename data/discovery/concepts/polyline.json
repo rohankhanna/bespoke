@@ -19,6 +19,30 @@
       "source_repo": "urschrei/pypolyline",
       "status": "candidate-context",
       "text": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/polyline-ffi",
+      "status": "candidate-context",
+      "text": "FFI Bindings for the rust-polyline crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/polyline-ffi",
+      "status": "candidate-context",
+      "text": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/simplification",
+      "status": "candidate-context",
+      "text": "Very fast Python line simplification using either the RDP or Visvalingam-Whyatt algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/simplification",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/urschrei/simplification/actions/workflows/wheels.yml/badge.svg)](https://github.com/urschrei/simplification/actions/workflows/wheels.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/simplification/badge.svg?branch=master)](h\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "urschrei/pypolyline",
       "status": "candidate",
       "text": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/polyline-ffi",
+      "status": "candidate",
+      "text": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/simplification",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/urschrei/simplification/actions/workflows/wheels.yml/badge.svg)](https://github.com/urschrei/simplification/actions/workflows/wheels.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/simplification/badge.svg?branch=master)](h\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "urschrei/pypolyline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "urschrei/polyline-ffi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "urschrei/simplification"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

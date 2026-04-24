@@ -55,6 +55,42 @@
       "source_repo": "mit-ll-responsible-ai/hydra-zen",
       "status": "candidate-context",
       "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "Configuration manager for Aerokube products"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/aerokube/cm/workflows/build/badge.svg)](https://github.com/aerokube/cm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "A configuration as code language with rich validation and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "Configuration support for Autofac IoC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "Configuration support for [Autofac](https://autofac.org)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "mit-ll-responsible-ai/hydra-zen",
       "status": "candidate",
       "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/aerokube/cm/workflows/build/badge.svg)](https://github.com/aerokube/cm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate",
+      "text": "Configuration support for [Autofac](https://autofac.org)."
     }
   ],
   "candidate_related_terms": [
@@ -177,11 +231,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "autofac/Autofac.Configuration"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

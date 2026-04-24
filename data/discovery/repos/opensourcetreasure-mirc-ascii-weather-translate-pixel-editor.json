@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "@iamtraction/google-translate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitalets/google-translate-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cheerio",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-translate-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-translate-open-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "irc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "forerosantiago/irc-translate-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "forerosantiago/irc-translate-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "@iamtraction/google-translate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "@vitalets/google-translate-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "cheerio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "google-translate-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "google-translate-open-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "irc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "ascii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "google-translate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "irc-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "mirc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "mirc-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "target": "weather",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:13.438179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2672
+    },
+    {
+      "path": "README.txt",
+      "size": 1037
+    },
+    {
+      "path": "package.json",
+      "size": 768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Get the ASCII weather, Google Translate, pixel editor and play Mario NES on Mirc!",
+    "fork": false,
+    "full_name": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+    "html_url": "https://github.com/OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+    "language": "mIRC Script",
+    "pushed_at": "2024-12-07T10:42:07Z",
+    "stargazers_count": 9,
+    "topics": [
+      "ascii",
+      "google-translate",
+      "irc-bot",
+      "mirc",
+      "mirc-script",
+      "self-hosted",
+      "weather"
+    ],
+    "updated_at": "2026-03-18T20:48:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "forerosantiago/irc-translate-bot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "forerosantiago/irc-translate-bot",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udd41 MIRC Scripts and Bot - 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii"
+    },
+    {
+      "context_snippet": "\ud83e\udd41 MIRC Scripts and Bot - 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-translate"
+    },
+    {
+      "context_snippet": "\ud83e\udd41 MIRC Scripts and Bot - 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "irc-bot"
+    },
+    {
+      "context_snippet": "\ud83e\udd41 MIRC Scripts and Bot - 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirc"
+    },
+    {
+      "context_snippet": "\ud83e\udd41 MIRC Scripts and Bot - 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirc-script"
+    },
+    {
+      "context_snippet": "\ud83e\udd41 MIRC Scripts and Bot - 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    },
+    {
+      "context_snippet": "\ud83e\udd41 MIRC Scripts and Bot - 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weather"
+    }
+  ]
+}

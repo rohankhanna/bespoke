@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/maven-publish.yml",
       "source_repo": "lanthale/LibHeifFX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "milvus-io/milvus-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "caprica/vlcj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterate-ch/rococoa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "dgileadi/dg.jdt.ls.decompiler"
     }
   ],
   "term": "Java CI with Maven"

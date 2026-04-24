@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ada-url/url-various-datasets",
+      "target": "kasztp/url_shortener",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ada-url/url-various-datasets",
+      "target": "userbait/phishing_sites_detector",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:46.738730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Various URL datasets",
+    "fork": false,
+    "full_name": "ada-url/url-various-datasets",
+    "html_url": "https://github.com/ada-url/url-various-datasets",
+    "language": null,
+    "pushed_at": "2026-03-25T20:07:19Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-10-24T10:15:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kasztp/url_shortener",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "userbait/phishing_sites_detector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

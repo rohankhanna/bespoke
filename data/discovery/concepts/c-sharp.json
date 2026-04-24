@@ -103,6 +103,30 @@
       "source_repo": "aws-powertools/powertools-lambda-dotnet",
       "status": "candidate-context",
       "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "Configuration support for Autofac IoC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "Configuration support for [Autofac](https://autofac.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "BCrypt.Net - Bringing updates to the original bcrypt package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "aws-powertools/powertools-lambda-dotnet",
       "status": "candidate",
       "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate",
+      "text": "Configuration support for [Autofac](https://autofac.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +280,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "autofac/Autofac.Configuration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BcryptNet/bcrypt.net"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

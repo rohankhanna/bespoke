@@ -140,6 +140,66 @@
       "source_repo": "gulpjs/glob-stream",
       "status": "candidate-context",
       "text": "dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ballista Distributed Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Apache DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "If you use globs, this will make your code faster. Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience. 55+ million downloads. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate-context",
+      "text": "dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "Official Rust implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gulpjs/glob-parent",
+      "status": "candidate-context",
+      "text": "Extract the non-magic parent path from a glob string."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/glob-parent",
+      "status": "candidate-context",
+      "text": "dev"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +266,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gulpjs/glob-stream",
+      "status": "candidate",
+      "text": "dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/is-glob",
+      "status": "candidate",
+      "text": "dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate",
+      "text": "dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/glob-parent",
       "status": "candidate",
       "text": "dev"
     }
@@ -317,11 +407,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "gulpjs/glob-stream"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/glob-parent"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Hugo module for the Simple Icons icon set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hugo-mod",
+      "sense_id": "hugo-mod#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hugo-mod",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hugo-mod",
+  "observation_id": "884b1717ffbf4245",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "hugo-mod",
+  "source_context_snippet": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15",
+  "source_file": null,
+  "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+  "source_repo_description": "A Hugo module for the Simple Icons icon set."
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:57:06.697889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9109
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main-v",
+    "description": "[ICCV'23] Official repository of paper SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+    "fork": true,
+    "full_name": "escorciav/SwiftFormer",
+    "html_url": "https://github.com/escorciav/SwiftFormer",
+    "language": "Python",
+    "pushed_at": "2024-01-12T10:33:47Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-05-09T02:47:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

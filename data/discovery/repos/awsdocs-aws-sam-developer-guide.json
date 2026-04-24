@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:59:00.836083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "archived",
+    "description": "The open source version of the Developer Guide for AWS Serverless Application Model (AWS SAM). You can submit feedback and requests for changes by submitting issues in this repo or by making proposed changes and submitting a pull request.",
+    "fork": false,
+    "full_name": "awsdocs/aws-sam-developer-guide",
+    "html_url": "https://github.com/awsdocs/aws-sam-developer-guide",
+    "language": null,
+    "pushed_at": "2023-06-15T23:21:51Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2025-11-10T12:47:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

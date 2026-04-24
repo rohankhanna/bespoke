@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PyTorch implementation of \"Real-time Scene Text Detection with Differentiable Binarization\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* DBNet and DBNet++ are included in [MindOCR](https://github.com/mindspore-lab/mindocr/tree/main/configs/det/dbnet), a MindSpore implementation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* DBNet and DBNet++ are included in [MindOCR](https://github.com/mindspore-lab/mindocr/tree/main/configs/det/dbnet), a MindSpore implementation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dbnet",
+      "sense_id": "dbnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dbnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dbnet",
+  "observation_id": "7b8ef829fe046738",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "dbnet",
+  "source_context_snippet": "* DBNet and DBNet++ are included in [MindOCR](https://github.com/mindspore-lab/mindocr/tree/main/configs/det/dbnet), a MindSpore implementation.",
+  "source_file": null,
+  "source_repo": "MhLiao/DB",
+  "source_repo_description": "A PyTorch implementation of \"Real-time Scene Text Detection with Differentiable Binarization\"."
+}

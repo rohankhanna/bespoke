@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/eft",
+      "target": "akanazawa/hmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/eft",
+      "target": "jhugestar/jhugestar.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/eft",
+      "target": "facebookresearch/frankmocap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/eft",
+      "target": "liruilong940607/ochumanapi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:53.299587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6430
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "visualization code for 3D human body annotation by EFT (Exemplar Fine-tuning)",
+    "fork": false,
+    "full_name": "facebookresearch/eft",
+    "html_url": "https://github.com/facebookresearch/eft",
+    "language": "Python",
+    "pushed_at": "2022-01-16T09:57:12Z",
+    "stargazers_count": 404,
+    "topics": [],
+    "updated_at": "2026-04-17T10:30:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akanazawa/hmr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/frankmocap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhugestar/jhugestar.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liruilong940607/ochumanapi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

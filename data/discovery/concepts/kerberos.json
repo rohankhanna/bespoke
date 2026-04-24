@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kerberos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Enable drop-in Windows Single Sign On for popular Java web servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "WAFFLE - Windows Authentication Framework"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate",
+      "text": "WAFFLE - Windows Authentication Framework"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9976445,
+      "status": "candidate",
+      "text": "authentication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9976444,
+      "status": "candidate",
+      "text": "web of trust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9976443,
+      "status": "candidate",
+      "text": "keyserver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9976442,
+      "status": "candidate",
+      "text": "authenticator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9976441,
+      "status": "candidate",
+      "text": "smart ticket"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kerberos",
+  "concept_id": "kerberos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Waffle/waffle"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kerberos",
+      "sense_id": "kerberos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

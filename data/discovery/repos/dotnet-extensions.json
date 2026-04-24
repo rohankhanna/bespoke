@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@1912d9f4fc410d421a01b5a09131aae234b603fa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locker.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sdk.yml"
+    },
+    {
+      "component": "martincostello/update-dotnet-sdk@76e2c0df2303d4f6a404228105ebb7d60ace0556",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sdk.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@1912d9f4fc410d421a01b5a09131aae234b603fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "Labeler: Cache Retention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "Labeler: Predict (Issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "Labeler: Predict (Pulls)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "Labeler: Promotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "Labeler: Training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locker.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sdk.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sdk.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "martincostello/update-dotnet-sdk@76e2c0df2303d4f6a404228105ebb7d60ace0556",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-sdk.yml",
+      "source_repo": "dotnet/extensions",
+      "target": "update-dotnet-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/extensions",
+      "target": "dotnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:56.938681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4579
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1062
+    },
+    {
+      "path": ".github/workflows/labeler-cache-retention.yml",
+      "size": 988
+    },
+    {
+      "path": ".github/workflows/labeler-predict-issues.yml",
+      "size": 1948
+    },
+    {
+      "path": ".github/workflows/labeler-predict-pulls.yml",
+      "size": 5655
+    },
+    {
+      "path": ".github/workflows/labeler-promote.yml",
+      "size": 1561
+    },
+    {
+      "path": ".github/workflows/labeler-train.yml",
+      "size": 6029
+    },
+    {
+      "path": ".github/workflows/locker.yml",
+      "size": 1096
+    },
+    {
+      "path": ".github/workflows/update-sdk.yml",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains a suite of libraries that provide facilities commonly needed when creating production-ready applications.",
+    "fork": false,
+    "full_name": "dotnet/extensions",
+    "html_url": "https://github.com/dotnet/extensions",
+    "language": "C#",
+    "pushed_at": "2026-04-24T03:12:42Z",
+    "stargazers_count": 3146,
+    "topics": [
+      "dotnet"
+    ],
+    "updated_at": "2026-04-24T03:12:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "\"Labeler: Cache Retention\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "term": "Labeler: Cache Retention"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Issues)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "term": "Labeler: Predict (Issues)"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Pulls)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "term": "Labeler: Predict (Pulls)"
+    },
+    {
+      "context_snippet": "\"Labeler: Promotion\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "term": "Labeler: Promotion"
+    },
+    {
+      "context_snippet": "\"Labeler: Training\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "term": "Labeler: Training"
+    },
+    {
+      "context_snippet": "update-dotnet-sdk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-sdk.yml",
+      "term": "update-dotnet-sdk"
+    },
+    {
+      "context_snippet": "This repository contains a suite of libraries that provide facilities commonly needed when creating production-ready applications. Initially developed to support high-scale and high-availability services within Microsoft, such as Microsoft Teams, these libraries deliver function\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    }
+  ]
+}

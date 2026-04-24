@@ -19,6 +19,18 @@
       "source_repo": "akavel/rumbac",
       "status": "candidate-context",
       "text": "`rumbac` is a simple commandline tool for uploading .bin files with compiled"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shumatech/BOSSA",
+      "status": "candidate-context",
+      "text": "BOSSA is a flash programming utility for Atmel's SAM family of flash-based ARM microcontrollers.  The motivation behind BOSSA is to create a simple, easy-to-use, open source utility to replace Atmel's SAM-BA software.  BOSSA is an acronym for Basic Open Source SAM-BA Application to reflect that goal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shumatech/BOSSA",
+      "status": "candidate-context",
+      "text": "BOSSA 1.9.1"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "akavel/rumbac",
       "status": "candidate",
       "text": "`rumbac` is a simple commandline tool for uploading .bin files with compiled"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shumatech/BOSSA",
+      "status": "candidate",
+      "text": "BOSSA 1.9.1"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "akavel/rumbac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

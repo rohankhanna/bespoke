@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:05:55.708825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "All the images used throughout Gooey's documentation",
+    "fork": false,
+    "full_name": "chriskiehl/GooeyImages",
+    "html_url": "https://github.com/chriskiehl/GooeyImages",
+    "language": null,
+    "pushed_at": "2022-01-23T22:51:03Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-09-08T17:58:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

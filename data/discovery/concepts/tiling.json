@@ -19,6 +19,18 @@
       "source_repo": "BarutSRB/OmniWM",
       "status": "candidate-context",
       "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate-context",
+      "text": "Better tiling for tmux \ud83e\ude9f\ud83e\ude93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BarutSRB/OmniWM",
       "status": "candidate",
       "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "BarutSRB/OmniWM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux-tilit"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

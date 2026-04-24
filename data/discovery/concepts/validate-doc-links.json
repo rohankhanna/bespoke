@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate doc links"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate-context",
+      "text": "Validate doc links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-ui-xaml",
+      "status": "candidate",
+      "text": "Validate doc links"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20311,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20295,
+      "status": "candidate",
+      "text": "vet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20165,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19479,
+      "status": "candidate",
+      "text": "bearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19479,
+      "status": "candidate",
+      "text": "holder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate doc links",
+  "concept_id": "validate-doc-links",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/microsoft-ui-xaml"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate doc links",
+      "sense_id": "validate-doc-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

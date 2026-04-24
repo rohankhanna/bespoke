@@ -331,6 +331,114 @@
       "source_repo": "haoliuhl/ringattention",
       "status": "candidate-context",
       "text": "This codebase provides the implementation of the Ring Attention with Blockwise Transformers. The model is described in the paper [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/pdf/2310.01889.pdf) and [Blockwise Parallel Transformer for L\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "predibase/lorax",
+      "status": "candidate-context",
+      "text": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "predibase/lorax",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "Utilities for efficient fine-tuning, inference and evaluation of code generation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate-context",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "status": "candidate-context",
+      "text": "[CADL'22, ECCVW] Official repository of paper titled \"EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "status": "candidate-context",
+      "text": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "EfficientFormerV2 [ICCV 2023] & EfficientFormer [NeurIPs 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate-context",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "Lumina-T2X is a unified framework for Text to Any Modality Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "Neural Network Compression Framework for enhanced OpenVINO\u2122 inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/gpt-neo",
+      "status": "candidate-context",
+      "text": "An implementation of model parallel GPT-2 and GPT-3-style models using the mesh-tensorflow library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/gpt-neo",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5297715.svg)](https://doi.org/10.5281/zenodo.5297715) [![arXiv](https://img.shields.io/badge/arXiv-2101.00027-f9f107.svg)](https://arxiv.org/abs/2101.00027)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "status": "candidate-context",
+      "text": "A Framework of Small-scale Large Multimodal Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/flan-alpaca",
+      "status": "candidate-context",
+      "text": "This repository contains code for extending the Stanford Alpaca synthetic instruction tuning to existing instruction-tuned models such as Flan-T5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/flan-alpaca",
+      "status": "candidate-context",
+      "text": "\ud83d\udce3 We developed Flacuna by fine-tuning Vicuna-13B on the Flan collection. Flacuna is better than Vicuna at problem-solving. Access the model here [https://huggingface.co/declare-lab/flacuna-13b-v1.0](https://huggingface.co/declare-lab/flacuna-13b-v1.0)."
     }
   ],
   "candidate_glosses": [
@@ -495,6 +603,60 @@
       "source_repo": "haoliuhl/ringattention",
       "status": "candidate",
       "text": "This codebase provides the implementation of the Ring Attention with Blockwise Transformers. The model is described in the paper [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/pdf/2310.01889.pdf) and [Blockwise Parallel Transformer for L\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "predibase/lorax",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naman-ntc/FastCode",
+      "status": "candidate",
+      "text": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmaaz60/EdgeNeXt",
+      "status": "candidate",
+      "text": "[Muhammad Maaz](https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl=en&authuser=1&oi=sra),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/EfficientFormer",
+      "status": "candidate",
+      "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-VLLM/Lumina-T2X",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/nncf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/gpt-neo",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5297715.svg)](https://doi.org/10.5281/zenodo.5297715) [![arXiv](https://img.shields.io/badge/arXiv-2101.00027-f9f107.svg)](https://arxiv.org/abs/2101.00027)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2402.14289\">TinyLLaVA Factory</a><h5 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/flan-alpaca",
+      "status": "candidate",
+      "text": "\ud83d\udce3 We developed Flacuna by fine-tuning Vicuna-13B on the Flan collection. Flacuna is better than Vicuna at problem-solving. Access the model here [https://huggingface.co/declare-lab/flacuna-13b-v1.0](https://huggingface.co/declare-lab/flacuna-13b-v1.0)."
     }
   ],
   "candidate_related_terms": [
@@ -712,11 +874,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "haoliuhl/ringattention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "predibase/lorax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mmaaz60/EdgeNeXt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "snap-research/EfficientFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Alpha-VLLM/Lumina-T2X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "haoliuhl/ringattention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/flan-alpaca"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

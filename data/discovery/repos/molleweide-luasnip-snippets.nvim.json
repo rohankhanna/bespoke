@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "molleweide/LuaSnip-snippets.nvim",
+      "target": "ntbbloodbath/doom-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "molleweide/LuaSnip-snippets.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "molleweide/LuaSnip-snippets.nvim",
+      "target": "snippets-collection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:47:24.702761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neovim plugin that provides snippets for the LuaSnip plugin.",
+    "fork": false,
+    "full_name": "molleweide/LuaSnip-snippets.nvim",
+    "html_url": "https://github.com/molleweide/LuaSnip-snippets.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-01-04T14:29:40Z",
+    "stargazers_count": 145,
+    "topics": [
+      "lua",
+      "neovim",
+      "snippets-collection"
+    ],
+    "updated_at": "2026-04-10T12:20:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntbbloodbath/doom-nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets-collection"
+    }
+  ]
+}

@@ -175,6 +175,102 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate-context",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-iterator/go",
+      "status": "candidate-context",
+      "text": "A high-performance 100% compatible drop-in replacement of \"encoding/json\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-iterator/go",
+      "status": "candidate-context",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/json-iterator/go/-/badge.svg)](https://sourcegraph.com/github.com/json-iterator/go?badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Svelte parser for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "[![NPM license](https://img.shields.io/npm/l/svelte-eslint-parser.svg)](https://www.npmjs.com/package/svelte-eslint-parser)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate-context",
+      "text": "Customized Lua parser for [lua-language-server](https://github.com/sumneko/lua-language-server)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate-context",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and memory ops \ud83e\udd96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "LALR parser for GLSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/alixinne/glsl-lang/workflows/build/badge.svg?branch=master)](https://github.com/alixinne/glsl-lang/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate-context",
+      "text": "GLSL parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate-context",
+      "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "Node.js body parsing middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "Julia grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +357,54 @@
       "source_repo": "pylint-dev/astroid",
       "status": "candidate",
       "text": "Astroid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-iterator/go",
+      "status": "candidate",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/json-iterator/go/-/badge.svg)](https://sourcegraph.com/github.com/json-iterator/go?badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate",
+      "text": "[![NPM license](https://img.shields.io/npm/l/svelte-eslint-parser.svg)](https://www.npmjs.com/package/svelte-eslint-parser)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LuaParser",
+      "status": "candidate",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/w0xne7u1ppij6pg4?svg=true)](https://ci.appveyor.com/project/sumneko/luaparser)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate",
+      "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/alixinne/glsl-lang/workflows/build/badge.svg?branch=master)](https://github.com/alixinne/glsl-lang/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadronized/glsl",
+      "status": "candidate",
+      "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +532,59 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "pylint-dev/astroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "json-iterator/go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sveltejs/svelte-eslint-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/LuaParser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alixinne/glsl-lang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hadronized/glsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "expressjs/body-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter-julia"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

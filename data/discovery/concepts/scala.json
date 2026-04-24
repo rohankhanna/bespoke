@@ -115,6 +115,54 @@
       "source_repo": "blemale/scaffeine",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/blemale/scaffeine/actions/workflows/ci.yml/badge.svg)](https://github.com/blemale/scaffeine/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate-context",
+      "text": "Use Apollo GraphQL from Scala.js apps!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate-context",
+      "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate-context",
+      "text": "Beaker Extensions for Jupyter Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate-context",
+      "text": "Scala 3 bindings for llama.cpp \ud83e\udd99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate-context",
+      "text": "[![Maven Central Version](https://img.shields.io/maven-central/v/com.donderom/llm4s_3?style=flat-square&logo=scala&color=dbf1ff)](https://central.sonatype.com/artifact/com.donderom/llm4s_3)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "blemale/scaffeine",
       "status": "candidate",
       "text": "[![CI](https://github.com/blemale/scaffeine/actions/workflows/ci.yml/badge.svg)](https://github.com/blemale/scaffeine/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-scalajs",
+      "status": "candidate",
+      "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donderom/llm4s",
+      "status": "candidate",
+      "text": "[![Maven Central Version](https://img.shields.io/maven-central/v/com.donderom/llm4s_3?style=flat-square&logo=scala&color=dbf1ff)](https://central.sonatype.com/artifact/com.donderom/llm4s_3)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +340,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "blemale/scaffeine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "diffplug/spotless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "twosigma/beakerx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donderom/llm4s"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,17 @@
 {
   "component": "egor-tensin/setup-clang@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pybind/pybind11"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install-tests.yml",
+      "source_repo": "CLIUtils/CLI11"
     }
   ]
 }

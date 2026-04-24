@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/multiagent-particle-envs",
+      "target": "paper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:53:06.589931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Code for a multi-agent particle environment used in the paper \"Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments\"",
+    "fork": false,
+    "full_name": "openai/multiagent-particle-envs",
+    "html_url": "https://github.com/openai/multiagent-particle-envs",
+    "language": "Python",
+    "pushed_at": "2024-04-09T01:15:17Z",
+    "stargazers_count": 2758,
+    "topics": [
+      "paper"
+    ],
+    "updated_at": "2026-04-19T08:19:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    }
+  ]
+}

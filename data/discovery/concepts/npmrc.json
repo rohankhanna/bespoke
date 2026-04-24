@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "npmrc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deiga/nodenv-default-npmrc",
+      "status": "candidate-context",
+      "text": "nodenv plugin to install a root npmrc for each node version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deiga/nodenv-default-npmrc",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/deiga/nodenv-default-npmrc/main.yml?label=tests&logo=github)](https://github.com/deiga/nodenv-default-npmrc/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deiga/nodenv-default-npmrc",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/deiga/nodenv-default-npmrc/main.yml?label=tests&logo=github)](https://github.com/deiga/nodenv-default-npmrc/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "npmrc",
+  "concept_id": "npmrc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "deiga/nodenv-default-npmrc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "npmrc",
+      "sense_id": "npmrc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

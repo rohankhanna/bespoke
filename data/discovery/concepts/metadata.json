@@ -79,6 +79,18 @@
       "source_repo": "pypa/setuptools-scm",
       "status": "candidate-context",
       "text": "This is the monorepo for the setuptools-scm ecosystem, containing two main projects:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to extract metadata (tags, labels) from Git reference and GitHub events for Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "pypa/setuptools-scm",
       "status": "candidate",
       "text": "This is the monorepo for the setuptools-scm ecosystem, containing two main projects:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/metadata-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "docker/metadata-action"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

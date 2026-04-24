@@ -43,6 +43,18 @@
       "source_repo": "arkworks-rs/curves",
       "status": "candidate-context",
       "text": "This repository is no longer maintained, and PRs to add or modify curves should instead be made against [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra); all the curves implemented here have moved to the [`curves` folder](https://github.com/arkworks-rs/algebra/tree/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "arkworks-rs/curves",
       "status": "candidate",
       "text": "This repository is no longer maintained, and PRs to add or modify curves should instead be made against [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra); all the curves implemented here have moved to the [`curves` folder](https://github.com/arkworks-rs/algebra/tree/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "arkworks-rs/curves"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/curve25519-dalek"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

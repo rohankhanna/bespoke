@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "concurrent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "the champagne of beta embedded databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "<table style=\"width:100%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate",
+      "text": "<table style=\"width:100%\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026194,
+      "status": "candidate",
+      "text": "simultaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026148,
+      "status": "candidate",
+      "text": "coincident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026106,
+      "status": "candidate",
+      "text": "synchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026091,
+      "status": "candidate",
+      "text": "coinciding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026070,
+      "status": "candidate",
+      "text": "synchronic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "simultaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "synchronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13052,
+      "status": "candidate",
+      "text": "synchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10029,
+      "status": "candidate",
+      "text": "coincident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7021,
+      "status": "candidate",
+      "text": "synchronal"
+    }
+  ],
+  "canonical_name": "concurrent",
+  "concept_id": "concurrent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spacejam/sled"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "concurrent",
+      "sense_id": "concurrent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

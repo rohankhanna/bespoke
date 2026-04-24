@@ -79,6 +79,18 @@
       "source_repo": "arkworks-rs/crypto-primitives",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calebzulawski/autobahn-hash",
+      "status": "candidate-context",
+      "text": "A fast, safe, and portable implementation of HighwayHash for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calebzulawski/autobahn-hash",
+      "status": "candidate-context",
+      "text": "AutobahnHash"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "arkworks-rs/crypto-primitives",
       "status": "candidate",
       "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calebzulawski/autobahn-hash",
+      "status": "candidate",
+      "text": "AutobahnHash"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "arkworks-rs/crypto-primitives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "calebzulawski/autobahn-hash"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

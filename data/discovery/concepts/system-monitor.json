@@ -19,6 +19,18 @@
       "source_repo": "vladkens/macmon",
       "status": "candidate-context",
       "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacker1024/coretemp",
+      "status": "candidate-context",
+      "text": "Outputs current CPU core and package temperatures on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacker1024/coretemp",
+      "status": "candidate-context",
+      "text": "Outputs current CPU core and package temperatures on macOS."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vladkens/macmon",
       "status": "candidate",
       "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacker1024/coretemp",
+      "status": "candidate",
+      "text": "Outputs current CPU core and package temperatures on macOS."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "vladkens/macmon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hacker1024/coretemp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

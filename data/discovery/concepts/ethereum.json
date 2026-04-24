@@ -763,6 +763,102 @@
       "source_repo": "celo-org/celo-monorepo",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/eip-review-bot",
+      "status": "candidate-context",
+      "text": "Request reviewers for EIP modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/eip-review-bot",
+      "status": "candidate-context",
+      "text": "Automatically request reviewers for the `ethereum/EIPs` repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/staking-launchpad",
+      "status": "candidate-context",
+      "text": "The deposit launchpad for staking on Ethereum \ud83e\udd8f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/staking-launchpad",
+      "status": "candidate-context",
+      "text": "[![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/ethereum/staking-launchpad/badge)](https://www.gitpoap.io/gh/ethereum/staking-launchpad)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "Unified zkVM Interface & Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "Aligned is a verification layer for zero-knowledge proofs using EigenLayer. Our mission is to accelerate the adoption of zero-knowledge and validity proofs on Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate-context",
+      "text": "Nim implementation of the Ethereum Beacon Chain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate-context",
+      "text": "[![Github Actions CI](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml/badge.svg?branch=stable)](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml?query=branch%3Astable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate-context",
+      "text": "A highly configurable Go implementation of the Ethereum protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate-context",
+      "text": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/aleth",
+      "status": "candidate-context",
+      "text": "Aleth \u2013 Ethereum C++ client, tools and libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/aleth",
+      "status": "candidate-context",
+      "text": "> The collection of C++ libraries and tools for Ethereum,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Uniswap/v3-periphery",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Peripheral smart contracts for interacting with Uniswap v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-periphery",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/Uniswap/uniswap-v3-periphery/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-v3-periphery/actions?query=workflow%3ATests)"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1239,54 @@
       "source_repo": "celo-org/celo-monorepo",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/eip-review-bot",
+      "status": "candidate",
+      "text": "Automatically request reviewers for the `ethereum/EIPs` repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/staking-launchpad",
+      "status": "candidate",
+      "text": "[![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/ethereum/staking-launchpad/badge)](https://www.gitpoap.io/gh/ethereum/staking-launchpad)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yetanotherco/aligned_layer",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth2",
+      "status": "candidate",
+      "text": "[![Github Actions CI](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml/badge.svg?branch=stable)](https://github.com/status-im/nimbus-eth2/actions/workflows/ci.yml?query=branch%3Astable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etclabscore/core-geth",
+      "status": "candidate",
+      "text": "> An [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) downstream effort to make the Ethereum Protocol accessible and extensible for a diverse ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/aleth",
+      "status": "candidate",
+      "text": "> The collection of C++ libraries and tools for Ethereum,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-periphery",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/Uniswap/uniswap-v3-periphery/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-v3-periphery/actions?query=workflow%3ATests)"
     }
   ],
   "candidate_related_terms": [
@@ -1750,11 +1894,131 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/eip-review-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/staking-launchpad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eth-act/ere"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yetanotherco/aligned_layer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "etclabscore/core-geth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/aleth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "ably",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "ably",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "p2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "ably",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "phaser3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+      "target": "realtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:58.190021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1527
+    },
+    {
+      "path": "package.json",
+      "size": 697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Realtime Multiplayer Space Invaders Game with Phaser 3 and Ably",
+    "fork": false,
+    "full_name": "ably-labs/realtime-multiplayer-space-invaders",
+    "html_url": "https://github.com/ably-labs/realtime-multiplayer-space-invaders",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-06T11:30:22Z",
+    "stargazers_count": 76,
+    "topics": [
+      "ably",
+      "demo",
+      "game",
+      "javascript",
+      "phaser3",
+      "realtime"
+    ],
+    "updated_at": "2026-03-06T11:30:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ably"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phaser3"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    }
+  ]
+}

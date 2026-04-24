@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim",
+      "target": "bubble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim",
+      "target": "bubbles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim",
+      "target": "statusline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:50.381780+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Bubbly statusline for neovim",
+    "fork": false,
+    "full_name": "datwaft/bubbly.nvim",
+    "html_url": "https://github.com/datwaft/bubbly.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-01-07T00:41:20Z",
+    "stargazers_count": 178,
+    "topics": [
+      "bubble",
+      "bubbles",
+      "neovim",
+      "nvim",
+      "plugin",
+      "statusline"
+    ],
+    "updated_at": "2025-11-22T17:17:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bubbly statusline for neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bubble"
+    },
+    {
+      "context_snippet": "Bubbly statusline for neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bubbles"
+    },
+    {
+      "context_snippet": "Bubbly statusline for neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Bubbly statusline for neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "Bubbly statusline for neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Bubbly statusline for neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "gjtorikian/actions/.github/workflows/automerge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_gem_release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_and_release.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_rust_test_suite.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_rust_test_build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "kivikakk/comrak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "tats-u/markdown-cjk-friendly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "gjtorikian/actions/.github/workflows/automerge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "gjtorikian/actions/.github/workflows/ruby_gem_release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "Tag and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "gjtorikian/actions/.github/workflows/ruby_rust_test_suite.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "gjtorikian/actions/.github/workflows/ruby_rust_test_build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "Test Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "commonmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjtorikian/commonmarker",
+      "target": "libcmark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:57:55.364299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17312
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1096
+    },
+    {
+      "path": ".github/workflows/tag_and_release.yml",
+      "size": 840
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 214
+    },
+    {
+      "path": ".github/workflows/test_build.yml",
+      "size": 293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby wrapper for the comrak (CommonMark parser) Rust crate",
+    "fork": false,
+    "full_name": "gjtorikian/commonmarker",
+    "html_url": "https://github.com/gjtorikian/commonmarker",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T04:26:55Z",
+    "stargazers_count": 546,
+    "topics": [
+      "commonmark",
+      "html",
+      "libcmark"
+    ],
+    "updated_at": "2026-04-23T04:25:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kivikakk/comrak",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tats-u/markdown-cjk-friendly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Tag and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "term": "Tag and Release"
+    },
+    {
+      "context_snippet": "Test Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_build.yml",
+      "term": "Test Build"
+    },
+    {
+      "context_snippet": "Ruby wrapper for Rust's [comrak](https://github.com/kivikakk/comrak) crate.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonmark"
+    },
+    {
+      "context_snippet": "Ruby wrapper for Rust's [comrak](https://github.com/kivikakk/comrak) crate.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "Ruby wrapper for Rust's [comrak](https://github.com/kivikakk/comrak) crate.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libcmark"
+    }
+  ]
+}

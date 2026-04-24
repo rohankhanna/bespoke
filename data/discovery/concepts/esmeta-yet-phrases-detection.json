@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "esmeta yet phrases detection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "Status, process, and documents for ECMA-262"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "'esmeta yet phrases detection'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate",
+      "text": "'esmeta yet phrases detection'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "fossil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "inferior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18057,
+      "status": "candidate",
+      "text": "but"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18057,
+      "status": "candidate",
+      "text": "dut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18049,
+      "status": "candidate",
+      "text": "browser"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "esmeta yet phrases detection",
+  "concept_id": "esmeta-yet-phrases-detection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/esmeta-yetcheck.yml",
+      "source_repo": "tc39/ecma262"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "esmeta yet phrases detection",
+      "sense_id": "esmeta-yet-phrases-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

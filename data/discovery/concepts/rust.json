@@ -3604,6 +3604,504 @@
       "source_repo": "huggingface/hf-hub",
       "status": "candidate-context",
       "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x676e67/wreq",
+      "status": "candidate-context",
+      "text": "An ergonomic Rust HTTP Client with TLS fingerprint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/0x676e67/wreq/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ballista Distributed Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "Apache DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/opendal-ofs",
+      "status": "candidate-context",
+      "text": "A userspace filesystem backing by Apache OpenDAL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal-ofs",
+      "status": "candidate-context",
+      "text": "[![Build Status]][actions] [![Latest Version]][crates.io] [![Crate Downloads]][crates.io] [![chat]][discord]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/opendal-oli",
+      "status": "candidate-context",
+      "text": "`oli` stands for OpenDAL Command Line Interface. It aims to provide a unified and user-friendly way to manipulate data stored in various storage service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal-oli",
+      "status": "candidate-context",
+      "text": "[![Build Status]][actions] [![Latest Version]][crates.io] [![Crate Downloads]][crates.io] [![chat]][discord]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "Horust is a supervisor / init system written in rust and designed to run inside containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piotrostr/listen",
+      "status": "candidate-context",
+      "text": "DeFAI Swiss Army Knife"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piotrostr/listen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate-context",
+      "text": "Type-Safe Rust Wrappers for various ESP-IDF services (WiFi, Network, Httpd, Logging, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/esp-rs/esp-idf-svc/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/esp-idf-svc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/loadviz",
+      "status": "candidate-context",
+      "text": "Library + macOS app for showing system load"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/loadviz",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notify-rs/notify",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2d Cross-platform filesystem notification library for Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notify-rs/notify",
+      "status": "candidate-context",
+      "text": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate-context",
+      "text": "Gazelle language plugin for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate-context",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "Fuzzy Finder in rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate-context",
+      "text": "A cross-platform `addr2line` clone written in Rust, using `gimli`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mstange/samply",
+      "status": "candidate-context",
+      "text": "Command-line sampling profiler for macOS, Linux, and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstange/samply",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "the champagne of beta embedded databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate-context",
+      "text": "Async executor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/async-executor/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "Official Rust implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "briansmith/ring",
+      "status": "candidate-context",
+      "text": "An experiment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "briansmith/ring",
+      "status": "candidate-context",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\" AND BRIAN SMITH AND THE AUTHORS DISCLAIM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/geocoding",
+      "status": "candidate-context",
+      "text": "Geocoding library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geocoding",
+      "status": "candidate-context",
+      "text": "Rust utilities to enrich addresses, cities, countries, and landmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/geojson",
+      "status": "candidate-context",
+      "text": "Library for serializing the GeoJSON vector GIS file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geojson",
+      "status": "candidate-context",
+      "text": "[Documentation](https://docs.rs/geojson/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/gpx",
+      "status": "candidate-context",
+      "text": "Rust read/write support for GPS Exchange Format (GPX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/gpx",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/proj",
+      "status": "candidate-context",
+      "text": "Rust bindings for the latest stable release of PROJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/proj",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "AI Code Completions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Publish Rust crates from CI with a Release PR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "[![release-plz-logo](website/static/img/release-plz-social-card.png)](https://release-plz.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "LALR parser for GLSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/alixinne/glsl-lang/workflows/build/badge.svg?branch=master)](https://github.com/alixinne/glsl-lang/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate-context",
+      "text": "LR(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/lalrpop/Lobby](https://badges.gitter.im/lalrpop/Lobby.svg)](https://gitter.im/lalrpop/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "A small and fast async runtime for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/std",
+      "status": "candidate-context",
+      "text": "A standard library wrapper for use in the `arkworks` ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/std",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">arkworks::std</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated UTF-8 validation for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rls",
+      "status": "candidate-context",
+      "text": "Repository for the Rust Language Server (aka RLS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rls",
+      "status": "candidate-context",
+      "text": "RLS has been deprecated and is no longer supported."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "A very fast, portable and hackable fuzzy finder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/psmux",
+      "status": "candidate-context",
+      "text": "Tmux on Windows Powershell - tmux for PowerShell, Windows Terminal, cmd.exe. Includes psmux, pmux, and tmux commands. This is native Powershell Tmux designed for Windows in Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/psmux",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "Actor framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate-context",
+      "text": "A lightweight wallet indexer for Bitcoin, available as an Electrum RPC server and a modern HTTP REST API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/xargo",
+      "status": "candidate-context",
+      "text": "The sysroot manager that lets you build and customize `std`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/xargo",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "status": "candidate-context",
+      "text": "High-level, optionally asynchronous Rust bindings to llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "algesten/ureq",
+      "status": "candidate-context",
+      "text": "A simple, safe HTTP client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "algesten/ureq",
+      "status": "candidate-context",
+      "text": "[comment]: # (README.md is autogenerated from src/lib.rs by `cargo readme > README.md`)"
     }
   ],
   "candidate_glosses": [
@@ -5448,6 +5946,264 @@
       "source_repo": "huggingface/hf-hub",
       "status": "candidate",
       "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/0x676e67/wreq/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal-ofs",
+      "status": "candidate",
+      "text": "[![Build Status]][actions] [![Latest Version]][crates.io] [![Crate Downloads]][crates.io] [![chat]][discord]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal-oli",
+      "status": "candidate",
+      "text": "[![Build Status]][actions] [![Latest Version]][crates.io] [![Crate Downloads]][crates.io] [![chat]][discord]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FedericoPonzi/Horust",
+      "status": "candidate",
+      "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piotrostr/listen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/esp-rs/esp-idf-svc/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/esp-idf-svc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/loadviz",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notify-rs/notify",
+      "status": "candidate",
+      "text": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstange/samply",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate",
+      "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/async-executor/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "briansmith/ring",
+      "status": "candidate",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\" AND BRIAN SMITH AND THE AUTHORS DISCLAIM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geocoding",
+      "status": "candidate",
+      "text": "Rust utilities to enrich addresses, cities, countries, and landmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geojson",
+      "status": "candidate",
+      "text": "[Documentation](https://docs.rs/geojson/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/gpx",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/proj",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate",
+      "text": "[![release-plz-logo](website/static/img/release-plz-social-card.png)](https://release-plz.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixinne/glsl-lang",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/alixinne/glsl-lang/workflows/build/badge.svg?branch=master)](https://github.com/alixinne/glsl-lang/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lalrpop/lalrpop",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/lalrpop/Lobby](https://badges.gitter.im/lalrpop/Lobby.svg)](https://gitter.im/lalrpop/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/std",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">arkworks::std</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rls",
+      "status": "candidate",
+      "text": "RLS has been deprecated and is no longer supported."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/psmux",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/xargo",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edgenai/llama_cpp-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "algesten/ureq",
+      "status": "candidate",
+      "text": "[comment]: # (README.md is autogenerated from src/lib.rs by `cargo readme > README.md`)"
     }
   ],
   "candidate_related_terms": [
@@ -7819,11 +8575,383 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "huggingface/hf-hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/opendal-ofs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/opendal-oli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FedericoPonzi/Horust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "piotrostr/listen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sparckles/Robyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-idf-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "walles/loadviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "notify-rs/notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Calsign/gazelle_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "skim-rs/skim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gimli-rs/addr2line"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "mstange/samply"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "spacejam/sled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spacejam/sled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/async-executor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/arrow-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "briansmith/ring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/geocoding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/geojson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/gpx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/proj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "release-plz/release-plz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alixinne/glsl-lang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lalrpop/lalrpop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tikv/grpc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/smol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rusticstuff/simdutf8"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bwt-dev/bwt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "japaric/xargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cargo_build.yml",
+      "source_repo": "edgenai/llama_cpp-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "algesten/ureq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/windows-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

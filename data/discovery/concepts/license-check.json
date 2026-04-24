@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "License check"
+    "License check",
+    "License Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,42 @@
       "source_repo": "eclipse-tm4e/tm4e",
       "status": "candidate-context",
       "text": "License check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "Signature Transparency Log designed for ease of use, low cost, and minimal maintenance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate-context",
+      "text": "License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris-flink-connector",
+      "status": "candidate-context",
+      "text": "Flink Connector for Apache Doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-flink-connector",
+      "status": "candidate-context",
+      "text": "License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris-spark-connector",
+      "status": "candidate-context",
+      "text": "Spark Connector for Apache Doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-spark-connector",
+      "status": "candidate-context",
+      "text": "License Check"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +100,24 @@
       "source_repo": "eclipse-tm4e/tm4e",
       "status": "candidate",
       "text": "License check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate",
+      "text": "License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-flink-connector",
+      "status": "candidate",
+      "text": "License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-spark-connector",
+      "status": "candidate",
+      "text": "License Check"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +197,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/licensecheck.yml",
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "sigstore/rekor-tiles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-flink-connector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-spark-connector"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

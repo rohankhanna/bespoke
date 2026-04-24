@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games",
+      "target": "2d-games",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games",
+      "target": "game-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games",
+      "target": "games",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games",
+      "target": "learn-gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games",
+      "target": "opensource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games",
+      "target": "raylib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:06:15.697727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of small sample games made with raylib",
+    "fork": false,
+    "full_name": "raysan5/raylib-games",
+    "html_url": "https://github.com/raysan5/raylib-games",
+    "language": "C",
+    "pushed_at": "2026-03-18T15:25:44Z",
+    "stargazers_count": 786,
+    "topics": [
+      "2d-games",
+      "c",
+      "game-examples",
+      "gamedev",
+      "games",
+      "learn-gamedev",
+      "opensource",
+      "raylib"
+    ],
+    "updated_at": "2026-04-24T07:05:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-games"
+    },
+    {
+      "context_snippet": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-examples"
+    },
+    {
+      "context_snippet": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "games"
+    },
+    {
+      "context_snippet": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learn-gamedev"
+    },
+    {
+      "context_snippet": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    },
+    {
+      "context_snippet": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raylib"
+    }
+  ]
+}

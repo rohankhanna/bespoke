@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marianfoo/ztoad",
+      "target": "larshp/abapgit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marianfoo/ztoad",
+      "target": "abap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:04:46.863791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ABAP Open SQL Editor",
+    "fork": false,
+    "full_name": "marianfoo/ztoad",
+    "html_url": "https://github.com/marianfoo/ztoad",
+    "language": "ABAP",
+    "pushed_at": "2022-06-15T08:30:21Z",
+    "stargazers_count": 56,
+    "topics": [
+      "abap",
+      "sql"
+    ],
+    "updated_at": "2026-04-14T20:48:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Open SQL Editor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    }
+  ]
+}

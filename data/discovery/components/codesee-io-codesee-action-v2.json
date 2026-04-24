@@ -1,0 +1,12 @@
+{
+  "component": "Codesee-io/codesee-action@v2",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml",
+      "source_repo": "fullstorydev/grpcurl"
+    }
+  ]
+}

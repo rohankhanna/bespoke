@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/upload-rust-binary-action@10c1cf6a3da113ad4e60018e386570529aa5f1d3",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "release-plz/release-plz"
+    }
+  ]
+}

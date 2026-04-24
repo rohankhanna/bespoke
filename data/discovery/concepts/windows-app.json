@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "windows-app"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfbTerminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "windows-app",
+  "concept_id": "windows-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "electerm/electerm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windows-app",
+      "sense_id": "windows-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

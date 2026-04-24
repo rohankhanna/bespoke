@@ -2,7 +2,7 @@
   "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -159,6 +159,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_test.yml",
       "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "helm-unittest/helm-unittest"
     }
   ]
 }

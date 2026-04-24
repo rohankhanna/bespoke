@@ -1,0 +1,12 @@
+{
+  "component": "oracle-actions/configure-kubectl-oke@77a733d79446dabe7bf0e58eb56197d33ce4dc58",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy-demo.yml",
+      "source_repo": "jaegertracing/jaeger"
+    }
+  ]
+}

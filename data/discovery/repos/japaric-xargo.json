@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/xargo",
+      "target": "rust3ds/rust3ds-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/xargo",
+      "target": "japaric/utest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/xargo",
+      "target": "rust3ds/ctru-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "japaric/xargo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "japaric/xargo",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "japaric/xargo",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "japaric/xargo",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/xargo",
+      "target": "bare-metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/xargo",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/xargo",
+      "target": "cross-compilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/xargo",
+      "target": "no-std",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/xargo",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/xargo",
+      "target": "sysroot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:59.565539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16255
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 790
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The sysroot manager that lets you build and customize `std`",
+    "fork": false,
+    "full_name": "japaric/xargo",
+    "html_url": "https://github.com/japaric/xargo",
+    "language": "Rust",
+    "pushed_at": "2023-05-02T22:57:39Z",
+    "stargazers_count": 1132,
+    "topics": [
+      "bare-metal",
+      "cargo",
+      "cross-compilation",
+      "no-std",
+      "rust",
+      "sysroot"
+    ],
+    "updated_at": "2026-04-10T18:14:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "japaric/utest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust3ds/ctru-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust3ds/rust3ds-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bare-metal"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compilation"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-std"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sysroot"
+    }
+  ]
+}

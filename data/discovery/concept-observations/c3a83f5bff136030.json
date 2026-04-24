@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recursively merge values in a JavaScript object. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Recursively merge values in a javascript object."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Recursively merge values in a javascript object."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938143,
+      "status": "candidate",
+      "text": "knob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864146,
+      "status": "candidate",
+      "text": "guest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39826653,
+      "status": "candidate",
+      "text": "lymph gland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39823130,
+      "status": "candidate",
+      "text": "lymph node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39784466,
+      "status": "candidate",
+      "text": "client"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "node",
+      "sense_id": "node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14069,
+      "status": "candidate",
+      "text": "client"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9044,
+      "status": "candidate",
+      "text": "knob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38,
+      "status": "candidate",
+      "text": "lymph node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "lymph gland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "guest"
+    }
+  ],
+  "concept_id": "node",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "node",
+  "observation_id": "c3a83f5bff136030",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "node",
+  "source_context_snippet": "> Recursively merge values in a javascript object.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/merge-deep",
+  "source_repo_description": "Recursively merge values in a JavaScript object. "
+}

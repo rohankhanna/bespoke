@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates",
+      "target": "afulgens/base16-console2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates",
+      "target": "afulgens/base16-consolez",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates",
+      "target": "adilosa/base16-jetbrains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates",
+      "target": "afq984/base16-xfce4-terminal",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:06:13.213644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "chriskempson/base16-templates",
+    "html_url": "https://github.com/chriskempson/base16-templates",
+    "language": null,
+    "pushed_at": "2022-07-09T11:32:20Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-01-18T18:47:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adilosa/base16-jetbrains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afq984/base16-xfce4-terminal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afulgens/base16-console2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afulgens/base16-consolez",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

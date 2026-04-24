@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "simple-icons"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "Astro library to get the Simple icons to the Astro Framework https://simple-icons-astro.dzeio.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate-context",
+      "text": "<a href=\"https://discord.gg/MMbUAptxPr\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "status": "candidate-context",
+      "text": "A Hugo module for the Simple Icons icon set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "status": "candidate-context",
+      "text": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/simple-icons-astro",
+      "status": "candidate",
+      "text": "<a href=\"https://discord.gg/MMbUAptxPr\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "status": "candidate",
+      "text": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "simple-icons",
+  "concept_id": "simple-icons",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dzeiocom/simple-icons-astro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simple-icons",
+      "sense_id": "simple-icons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

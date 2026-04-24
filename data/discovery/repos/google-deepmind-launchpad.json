@@ -14,16 +14,9 @@
       "source_repo": "google-deepmind/launchpad",
       "target": "deepmind/launchpad",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/launchpad",
-      "target": "tensorflow/agents",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T22:14:12.108737+00:00",
+  "fetched_at": "2026-04-24T07:56:42.546688+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -53,11 +46,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "deepmind/reverb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tensorflow/agents",
       "source_file": "README.md"
     }
   ],

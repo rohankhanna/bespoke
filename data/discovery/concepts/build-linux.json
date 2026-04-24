@@ -31,6 +31,18 @@
       "source_repo": "lmbelo/python3-embeddable",
       "status": "candidate-context",
       "text": "Build Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BabylonJS/BabylonNative",
+      "status": "candidate-context",
+      "text": "Build cross-platform native applications with the power of the Babylon.js JavaScript framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BabylonJS/BabylonNative",
+      "status": "candidate-context",
+      "text": "Build Linux"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate",
+      "text": "Build Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BabylonJS/BabylonNative",
       "status": "candidate",
       "text": "Build Linux"
     }
@@ -136,11 +154,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "BabylonJS/BabylonNative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,54 @@
       "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
       "status": "candidate-context",
       "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate-context",
+      "text": "Firefly: \u5927\u6a21\u578b\u8bad\u7ec3\u5de5\u5177\uff0c\u652f\u6301\u8bad\u7ec3Qwen2.5\u3001Qwen2\u3001Yi1.5\u3001Phi-3\u3001Llama3\u3001Gemma\u3001MiniCPM\u3001Yi\u3001Deepseek\u3001Orion\u3001Xverse\u3001Mixtral-8x7B\u3001Zephyr\u3001Mistral\u3001Baichuan2\u3001Llma2\u3001Llama\u3001Qwen\u3001Baichuan\u3001ChatGLM2\u3001InternLM\u3001Ziya2\u3001Vicuna\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
       "status": "candidate",
       "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +334,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

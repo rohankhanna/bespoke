@@ -19,6 +19,30 @@
       "source_repo": "apache/mesos",
       "status": "candidate-context",
       "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesos/chronos",
+      "status": "candidate-context",
+      "text": "Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesos/chronos",
+      "status": "candidate-context",
+      "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "Web terminal and sandbox explorer for your mesos containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "apache/mesos",
       "status": "candidate",
       "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesos/chronos",
+      "status": "candidate",
+      "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "apache/mesos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mesos/chronos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

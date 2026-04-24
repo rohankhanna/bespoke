@@ -967,6 +967,126 @@
       "source_repo": "chubin/wttr.in",
       "status": "candidate-context",
       "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/textual-web",
+      "status": "candidate-context",
+      "text": "Run TUIs and terminals in your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual-web",
+      "status": "candidate-context",
+      "text": "Textual Web publishes [Textual](https://github.com/Textualize/textual) apps and terminals on the web."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akermu/emacs-libvterm",
+      "status": "candidate-context",
+      "text": "Emacs libvterm integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akermu/emacs-libvterm",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "Web terminal and sandbox explorer for your mesos containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate-context",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyanSalt/commas",
+      "status": "candidate-context",
+      "text": "A hackable, pluggable terminal, and also a command runner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanSalt/commas",
+      "status": "candidate-context",
+      "text": "<img src=\"https://cdn.jsdelivr.net/gh/CyanSalt/commas@main/resources/images/icon.png\" width=\"96\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfbTerminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "A very fast, portable and hackable fuzzy finder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/psmux",
+      "status": "candidate-context",
+      "text": "Tmux on Windows Powershell - tmux for PowerShell, Windows Terminal, cmd.exe. Includes psmux, pmux, and tmux commands. This is native Powershell Tmux designed for Windows in Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/psmux",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "weather app for the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate-context",
+      "text": "**wego** is a weather client for the terminal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_glosses": [
@@ -1449,6 +1569,66 @@
       "source_repo": "chubin/wttr.in",
       "status": "candidate",
       "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual-web",
+      "status": "candidate",
+      "text": "Textual Web publishes [Textual](https://github.com/Textualize/textual) apps and terminals on the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akermu/emacs-libvterm",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/mesos-term",
+      "status": "candidate",
+      "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanSalt/commas",
+      "status": "candidate",
+      "text": "<img src=\"https://cdn.jsdelivr.net/gh/CyanSalt/commas@main/resources/images/icon.png\" width=\"96\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/psmux",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schachmat/wego",
+      "status": "candidate",
+      "text": "**wego** is a weather client for the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -2104,11 +2284,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "chubin/wttr.in"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tqdm/tqdm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/textual-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akermu/emacs-libvterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CyanSalt/commas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "electerm/electerm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "schachmat/wego"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

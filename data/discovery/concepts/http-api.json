@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "http-api"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate-context",
+      "text": "A lightweight wallet indexer for Bitcoin, available as an Electrum RPC server and a modern HTTP REST API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "http-api",
+  "concept_id": "http-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "http-api",
+      "sense_id": "http-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

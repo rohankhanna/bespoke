@@ -43,6 +43,18 @@
       "source_repo": "aws-cloudformation/cloudformation-resource-schema",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PatMyron/cfn-lint-online",
+      "status": "candidate-context",
+      "text": "CloudFormation Linter Online"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PatMyron/cfn-lint-online",
+      "status": "candidate-context",
+      "text": "[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/patmyron/cfn-lint-online)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "aws-cloudformation/cloudformation-resource-schema",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PatMyron/cfn-lint-online",
+      "status": "candidate",
+      "text": "[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/patmyron/cfn-lint-online)"
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +148,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PatMyron/cfn-lint-online"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

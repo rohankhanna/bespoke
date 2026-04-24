@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "robertbeckebans/trenchbroombfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "ispc/ispc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "advancedfx/ffmpeg.zeranoe.com-builds-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "auriamg/macdylibbundler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "64-bit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "doom3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "gaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "idtech4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "modding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "rbdoom3bfg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/RBDOOM-3-BFG",
+      "target": "trenchbroom",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "RobertBeckebans/RBDOOM-3-BFG"
+}

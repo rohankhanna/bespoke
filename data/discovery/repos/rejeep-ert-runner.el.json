@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conao3/setup-cask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "rejeep/cask.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "rejeep/ecukes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "rejeep/commander.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "rejeep/ansi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ert-runner.el",
+      "target": "conao3/setup-cask@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:00:38.439816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2100
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Opinionated Ert testing workflow",
+    "fork": false,
+    "full_name": "rejeep/ert-runner.el",
+    "html_url": "https://github.com/rejeep/ert-runner.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-11-10T13:58:51Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-01-20T15:47:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rejeep/ansi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rejeep/cask.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rejeep/commander.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rejeep/ecukes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

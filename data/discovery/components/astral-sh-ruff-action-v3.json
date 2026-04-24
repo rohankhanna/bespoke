@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/ruff-action@v3",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/style.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "tile-ai/tilelang-ascend"
     }
   ]
 }

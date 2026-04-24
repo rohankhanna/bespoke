@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "envoyproxy/toolshed/actions/bind-mounts@598eacce15ab5f208102a2fd5669292868002701",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_wasm.yml"
+    },
+    {
+      "component": "envoyproxy/toolshed/actions/bind-mounts@598eacce15ab5f208102a2fd5669292868002701",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "envoyproxy/examples",
+      "target": "envoyproxy/artwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "envoyproxy/toolshed/actions/bind-mounts@598eacce15ab5f208102a2fd5669292868002701",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_verify_wasm.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "envoyproxy/toolshed/actions/bind-mounts@598eacce15ab5f208102a2fd5669292868002701",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "envoyproxy/examples",
+      "target": "Verify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:13:02.290747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 167
+    },
+    {
+      "path": "go.mod",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/_verify_examples.yml",
+      "size": 2679
+    },
+    {
+      "path": ".github/workflows/_verify_wasm.yml",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1884
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/requirements.in",
+      "size": 77
+    },
+    {
+      "path": ".github/workflows/requirements.txt",
+      "size": 126002
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "size": 307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "envoyproxy/examples",
+    "html_url": "https://github.com/envoyproxy/examples",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T06:06:00Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-04-20T15:41:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "envoyproxy/artwork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "term": "Verify"
+    }
+  ]
+}

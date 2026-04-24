@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_reusable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "Setuptools Compatibility Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_reusable.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests_reusable.yml",
+      "source_repo": "ModelCloud/Evalution",
+      "target": "Unit Tests Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/Evalution",
+      "target": "eval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/Evalution",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:47.451832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 91433
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1854
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3191
+    },
+    {
+      "path": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "size": 2247
+    },
+    {
+      "path": ".github/workflows/unit_tests.yml",
+      "size": 7053
+    },
+    {
+      "path": ".github/workflows/unit_tests_reusable.yml",
+      "size": 7138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evalution: evolve your LLMs with better evals.",
+    "fork": false,
+    "full_name": "ModelCloud/Evalution",
+    "html_url": "https://github.com/ModelCloud/Evalution",
+    "language": "Python",
+    "pushed_at": "2026-04-23T04:33:35Z",
+    "stargazers_count": 12,
+    "topics": [
+      "eval",
+      "llm",
+      "testing"
+    ],
+    "updated_at": "2026-04-23T12:57:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Setuptools Compatibility Reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "term": "Setuptools Compatibility Reusable"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "Unit Tests Reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests_reusable.yml",
+      "term": "Unit Tests Reusable"
+    },
+    {
+      "context_snippet": "<p align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eval"
+    },
+    {
+      "context_snippet": "<p align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

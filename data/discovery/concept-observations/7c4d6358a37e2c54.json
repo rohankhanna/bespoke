@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gazelle language plugin for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765110,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39736344,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731681,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730257,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39728489,
+      "status": "candidate",
+      "text": "chromatic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust",
+      "sense_id": "rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5037,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "rust fungus"
+    }
+  ],
+  "concept_id": "rust",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust",
+  "observation_id": "7c4d6358a37e2c54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "rust",
+  "source_context_snippet": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with",
+  "source_file": null,
+  "source_repo": "Calsign/gazelle_rust",
+  "source_repo_description": "Gazelle language plugin for Rust."
+}

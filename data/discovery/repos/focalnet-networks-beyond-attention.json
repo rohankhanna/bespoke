@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "atten4vis/demystifylocalvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "dvlab-research/largekernel3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "dk-liang/awesome-visual-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "cmhungsteve/awesome-transformer-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:13.260324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A compilation of network architectures for vision and others without usage of self-attention mechanism",
+    "fork": false,
+    "full_name": "FocalNet/Networks-Beyond-Attention",
+    "html_url": "https://github.com/FocalNet/Networks-Beyond-Attention",
+    "language": null,
+    "pushed_at": "2023-01-18T18:55:46Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2025-11-15T10:09:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atten4vis/demystifylocalvit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmhungsteve/awesome-transformer-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dk-liang/awesome-visual-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/largekernel3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,391 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "shogo82148/actions-setup-redis@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-api.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-api.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-base.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-base.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "shogo82148/actions-setup-redis@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "orgoro/coverage@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "arize-ai/openinference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "shogo82148/actions-setup-redis@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "PAI-RAG CI Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-api.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-api.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-api.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "Publish API-only Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-base.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-base.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-base.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "Publish Base Docker image (Models)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hotfix.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "Release Hotfix image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "shogo82148/actions-setup-redis@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "orgoro/coverage@v3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "PR Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "target": "Release image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:32.481440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7813
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2854
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3228
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1910
+    },
+    {
+      "path": ".github/workflows/docker-api.yml",
+      "size": 2123
+    },
+    {
+      "path": ".github/workflows/docker-base.yml",
+      "size": 2167
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2189
+    },
+    {
+      "path": ".github/workflows/hotfix.yml",
+      "size": 3221
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2281
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "feature",
+    "description": "An easy-to-use framework for modular RAG",
+    "fork": false,
+    "full_name": "aigc-apps/PAI-RAG",
+    "html_url": "https://github.com/aigc-apps/PAI-RAG",
+    "language": "Python",
+    "pushed_at": "2026-04-22T12:50:51Z",
+    "stargazers_count": 458,
+    "topics": [],
+    "updated_at": "2026-04-24T02:23:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arize-ai/openinference",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PAI-RAG CI Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "PAI-RAG CI Build"
+    },
+    {
+      "context_snippet": "Publish API-only Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-api.yml",
+      "term": "Publish API-only Docker image"
+    },
+    {
+      "context_snippet": "Publish Base Docker image (Models)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-base.yml",
+      "term": "Publish Base Docker image (Models)"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "Release Hotfix image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hotfix.yml",
+      "term": "Release Hotfix image"
+    },
+    {
+      "context_snippet": "PR Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "PR Build"
+    },
+    {
+      "context_snippet": "Release image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release image"
+    }
+  ]
+}

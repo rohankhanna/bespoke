@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "skim"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "Fuzzy Finder in rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skim-rs/skim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033311,
+      "status": "candidate",
+      "text": "skim off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028439,
+      "status": "candidate",
+      "text": "skitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028060,
+      "status": "candidate",
+      "text": "skip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022351,
+      "status": "candidate",
+      "text": "run down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002681,
+      "status": "candidate",
+      "text": "glance over"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25028,
+      "status": "candidate",
+      "text": "skitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21061,
+      "status": "candidate",
+      "text": "cream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9060,
+      "status": "candidate",
+      "text": "plane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7063,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6043,
+      "status": "candidate",
+      "text": "skimming"
+    }
+  ],
+  "canonical_name": "skim",
+  "concept_id": "skim",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "skim-rs/skim"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skim",
+      "sense_id": "skim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

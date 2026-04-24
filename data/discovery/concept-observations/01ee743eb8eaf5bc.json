@@ -84,7 +84,7 @@
   "normalized_form": "semantic-pull-request-subject",
   "observation_id": "01ee743eb8eaf5bc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Semantic Pull Request Subject",
   "source_context_snippet": "Semantic Pull Request Subject",
   "source_file": ".github/workflows/contributing.yaml",

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "venv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "Install and Run Python Applications in Isolated Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate-context",
+      "text": "[build-system] build-backend = \"hatchling.build\" requires = [ \"hatch-vcs>=0.4\", \"hatchling>=1.27\", ] [project] name = \"pipx\" description = \"Install and Run Python Applications in Isolated Environments\" readme = \"docs/README.md\" keywords = [ \"cli\", \"install\", \"pip\", \"Virtual Envi\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipx",
+      "status": "candidate",
+      "text": "[build-system] build-backend = \"hatchling.build\" requires = [ \"hatch-vcs>=0.4\", \"hatchling>=1.27\", ] [project] name = \"pipx\" description = \"Install and Run Python Applications in Isolated Environments\" readme = \"docs/README.md\" keywords = [ \"cli\", \"install\", \"pip\", \"Virtual Envi\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "venv",
+  "concept_id": "venv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pypa/pipx"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "venv",
+      "sense_id": "venv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

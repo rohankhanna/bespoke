@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT-Code-Ability",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT-Code-Ability",
+      "target": "Benchmarks Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT-Code-Ability",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT-Code-Ability",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT-Code-Ability",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT-Code-Ability",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT-Code-Ability",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:08:21.038549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18024
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1811
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1436
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 1878
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udda5\ufe0f AutoGPT's Coding Ability - empowering everyone to build software using AI",
+    "fork": false,
+    "full_name": "Significant-Gravitas/AutoGPT-Code-Ability",
+    "html_url": "https://github.com/Significant-Gravitas/AutoGPT-Code-Ability",
+    "language": "Python",
+    "pushed_at": "2024-06-28T15:44:36Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-03-22T10:11:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmarks Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks Workflow"
+    }
+  ]
+}

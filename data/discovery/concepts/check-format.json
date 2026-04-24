@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Check format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "Arbitrum Docs! Content + Webapp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate-context",
+      "text": "Check format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate-context",
+      "text": "Get started developing on Arbitrum "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate-context",
+      "text": "Check format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-docs",
+      "status": "candidate",
+      "text": "Check format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/arbitrum-tutorials",
+      "status": "candidate",
+      "text": "Check format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11961,
+      "status": "candidate",
+      "text": "quiz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11715,
+      "status": "candidate",
+      "text": "prc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "description"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11640,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10838,
+      "status": "candidate",
+      "text": "beta"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check format",
+  "concept_id": "check-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "OffchainLabs/arbitrum-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "OffchainLabs/arbitrum-tutorials"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check format",
+      "sense_id": "check-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

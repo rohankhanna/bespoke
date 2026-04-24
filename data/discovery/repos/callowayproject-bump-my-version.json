@@ -1,0 +1,347 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-final.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml"
+    },
+    {
+      "component": "rossjrw/pr-preview-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-preview.yaml"
+    },
+    {
+      "component": "s-gehring/singleton-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-preview.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "peritus/bumpversion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-final.yml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-final.yml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "Deploy final documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "rossjrw/pr-preview-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "Deploy PR previews",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "Bump the version on merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-preview.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-preview.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "s-gehring/singleton-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-preview.yaml",
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "Display the version hint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "bumpversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "callowayproject/bump-my-version",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:09.437519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12238
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1681
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9187
+    },
+    {
+      "path": ".github/workflows/docs-final.yml",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/docs-preview.yml",
+      "size": 813
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 4296
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 2557
+    },
+    {
+      "path": ".github/workflows/version-preview.yaml",
+      "size": 2733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small command line tool to simplify releasing software by updating all version strings in your source code by the correct increment and optionally commit and tag the changes.",
+    "fork": false,
+    "full_name": "callowayproject/bump-my-version",
+    "html_url": "https://github.com/callowayproject/bump-my-version",
+    "language": "Python",
+    "pushed_at": "2026-04-20T19:40:44Z",
+    "stargazers_count": 599,
+    "topics": [
+      "bumpversion",
+      "hacktoberfest",
+      "version",
+      "versioning"
+    ],
+    "updated_at": "2026-04-21T16:06:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peritus/bumpversion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy final documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-final.yml",
+      "term": "Deploy final documentation"
+    },
+    {
+      "context_snippet": "Deploy PR previews",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "term": "Deploy PR previews"
+    },
+    {
+      "context_snippet": "Bump the version on merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Bump the version on merge"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Display the version hint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-preview.yaml",
+      "term": "Display the version hint"
+    },
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bumpversion"
+    },
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version"
+    },
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

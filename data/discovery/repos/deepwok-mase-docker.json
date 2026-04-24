@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-gpu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-cpu.yml",
+      "source_repo": "DeepWok/mase-docker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-cpu.yml",
+      "source_repo": "DeepWok/mase-docker",
+      "target": "CPU Docker Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-gpu.yml",
+      "source_repo": "DeepWok/mase-docker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-gpu.yml",
+      "source_repo": "DeepWok/mase-docker",
+      "target": "GPU Docker Image Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:14:55.669073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1753
+    },
+    {
+      "path": ".github/workflows/docker-image-cpu.yml",
+      "size": 1005
+    },
+    {
+      "path": ".github/workflows/docker-image-gpu.yml",
+      "size": 968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dockerfile for the MASE container",
+    "fork": false,
+    "full_name": "DeepWok/mase-docker",
+    "html_url": "https://github.com/DeepWok/mase-docker",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T13:43:17Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-22T12:36:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CPU Docker Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-cpu.yml",
+      "term": "CPU Docker Image Build"
+    },
+    {
+      "context_snippet": "GPU Docker Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-gpu.yml",
+      "term": "GPU Docker Image Build"
+    }
+  ]
+}

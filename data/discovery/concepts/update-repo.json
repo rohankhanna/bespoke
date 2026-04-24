@@ -68,6 +68,18 @@
       "source_repo": "vim/vim-win32-installer",
       "status": "candidate-context",
       "text": "Update repo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate-context",
+      "text": "Faster LuaLS setup for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate-context",
+      "text": "Update Repo"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "vim/vim-win32-installer",
       "status": "candidate",
       "text": "Update repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate",
+      "text": "Update Repo"
     }
   ],
   "candidate_related_terms": [
@@ -179,11 +197,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/update-repo.yml",
       "source_repo": "vim/vim-win32-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/lazydev.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

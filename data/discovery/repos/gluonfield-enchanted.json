@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gluonfield/enchanted",
+      "target": "jmorganca/ollama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gluonfield/enchanted",
+      "target": "augustdev/enchanted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted",
+      "target": "large-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted",
+      "target": "ollama-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:08:32.341253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama.",
+    "fork": false,
+    "full_name": "gluonfield/enchanted",
+    "html_url": "https://github.com/gluonfield/enchanted",
+    "language": "Swift",
+    "pushed_at": "2025-03-19T20:19:21Z",
+    "stargazers_count": 5909,
+    "topics": [
+      "ios",
+      "large-language-model",
+      "llama",
+      "llama2",
+      "llm",
+      "mistral",
+      "ollama",
+      "ollama-app",
+      "swift"
+    ],
+    "updated_at": "2026-04-24T06:03:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "augustdev/enchanted",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmorganca/ollama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-model"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama-app"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

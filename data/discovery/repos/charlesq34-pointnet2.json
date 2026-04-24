@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlesq34/pointnet2",
+      "target": "charlesq34/pointnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlesq34/pointnet2",
+      "target": "charlesq34/3dmodel_feature",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2",
+      "target": "3d-shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesq34/pointnet2",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:48:39.716161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space",
+    "fork": false,
+    "full_name": "charlesq34/pointnet2",
+    "html_url": "https://github.com/charlesq34/pointnet2",
+    "language": "Python",
+    "pushed_at": "2022-08-26T00:39:24Z",
+    "stargazers_count": 3640,
+    "topics": [
+      "3d-shape",
+      "classification",
+      "deep-learning",
+      "point-cloud",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-24T06:30:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlesq34/3dmodel_feature",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlesq34/pointnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-shape"
+    },
+    {
+      "context_snippet": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://stanford.edu/~ericyi\">Li (Eric) Yi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" target=\"_blank\">Leonid\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

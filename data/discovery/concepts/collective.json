@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "collective"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uccl-project/uccl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042921,
+      "status": "candidate",
+      "text": "aggregative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042845,
+      "status": "candidate",
+      "text": "aggregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042574,
+      "status": "candidate",
+      "text": "clustered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042155,
+      "status": "candidate",
+      "text": "agglomerative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041790,
+      "status": "candidate",
+      "text": "agglomerate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35069,
+      "status": "candidate",
+      "text": "aggregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29084,
+      "status": "candidate",
+      "text": "joint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20075,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "agglomerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8020,
+      "status": "candidate",
+      "text": "assembled"
+    }
+  ],
+  "canonical_name": "collective",
+  "concept_id": "collective",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uccl-project/uccl"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collective",
+      "sense_id": "collective#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

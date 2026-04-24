@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:21:16.545140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Z-code interpreter for Windows, based on Stefan Jokisch's Frotz interpreter core.",
+    "fork": false,
+    "full_name": "DavidKinder/Windows-Frotz",
+    "html_url": "https://github.com/DavidKinder/Windows-Frotz",
+    "language": "C",
+    "pushed_at": "2026-04-01T19:40:01Z",
+    "stargazers_count": 109,
+    "topics": [],
+    "updated_at": "2026-04-16T23:27:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

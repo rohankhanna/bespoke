@@ -1,12 +1,22 @@
 {
   "component": "pytorch/test-infra/.github/actions/setup-miniconda@main",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dashboard_perf_test.yml",
       "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux_cuda_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The multilingual variant of GLM, a general language model trained with autoregressive blank infilling objective "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-model",
+      "sense_id": "language-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-model",
+  "observation_id": "34b52262069488e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "language-model",
+  "source_context_snippet": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective.",
+  "source_file": null,
+  "source_repo": "THUDM/Multilingual-GLM",
+  "source_repo_description": "The multilingual variant of GLM, a general language model trained with autoregressive blank infilling objective "
+}

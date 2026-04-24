@@ -1,0 +1,12 @@
+{
+  "component": "actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethereum/eip-review-bot"
+    }
+  ]
+}

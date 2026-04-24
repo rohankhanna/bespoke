@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:57:06.670671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Riegeli/records is a file format for storing a sequence of string records, typically serialized protocol buffers.",
+    "fork": false,
+    "full_name": "google/riegeli",
+    "html_url": "https://github.com/google/riegeli",
+    "language": "C++",
+    "pushed_at": "2026-04-22T18:41:33Z",
+    "stargazers_count": 475,
+    "topics": [],
+    "updated_at": "2026-04-24T06:09:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

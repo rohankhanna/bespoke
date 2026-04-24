@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/Megatron-DeepSpeed",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/Megatron-DeepSpeed",
+      "target": "cybertronai/bflm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/Megatron-DeepSpeed",
+      "target": "attardi/wikiextractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/Megatron-DeepSpeed",
+      "target": "eukaryote31/openwebtext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "deepspeedai/Megatron-DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:14.048367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44938
+    },
+    {
+      "path": ".github/workflows/python.yml",
+      "size": 649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ongoing research training transformer language models at scale, including: BERT & GPT-2",
+    "fork": true,
+    "full_name": "deepspeedai/Megatron-DeepSpeed",
+    "html_url": "https://github.com/deepspeedai/Megatron-DeepSpeed",
+    "language": "Python",
+    "pushed_at": "2025-08-14T15:05:19Z",
+    "stargazers_count": 2246,
+    "topics": [],
+    "updated_at": "2026-04-23T12:54:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attardi/wikiextractor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cybertronai/bflm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eukaryote31/openwebtext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

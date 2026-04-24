@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Miniscule cross-platform eventing, networking & crypto for async applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029192,
+      "status": "candidate",
+      "text": "minuscule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028253,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025782,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028762,
+      "status": "candidate",
+      "text": "diminutive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028526,
+      "status": "candidate",
+      "text": "tiny"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "miniscule",
+      "sense_id": "miniscule#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18045,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17037,
+      "status": "candidate",
+      "text": "minuscule"
+    }
+  ],
+  "concept_id": "miniscule",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "miniscule",
+  "observation_id": "7468dcd3e4271a36",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "miniscule",
+  "source_context_snippet": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026",
+  "source_file": null,
+  "source_repo": "uNetworking/uSockets",
+  "source_repo_description": "Miniscule cross-platform eventing, networking & crypto for async applications"
+}

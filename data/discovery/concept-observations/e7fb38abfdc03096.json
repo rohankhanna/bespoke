@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create Wheel from CMake projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test with example"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test with example"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28077,
+      "status": "candidate",
+      "text": "chamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28077,
+      "status": "candidate",
+      "text": "reagent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28077,
+      "status": "candidate",
+      "text": "sample"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28077,
+      "status": "candidate",
+      "text": "sampling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28062,
+      "status": "candidate",
+      "text": "polygraph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test with example",
+      "sense_id": "test-with-example#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-with-example",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-with-example",
+  "observation_id": "e7fb38abfdc03096",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Test with example",
+  "source_context_snippet": "Test with example",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "cmake-wheel/cmeel",
+  "source_repo_description": "Create Wheel from CMake projects"
+}

@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "markdownlint-cli2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/how-we-work",
+      "target": "markdownlint-cli2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tc39/how-we-work",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tc39/how-we-work",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:51.650193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1298
+    },
+    {
+      "path": "package.json",
+      "size": 229
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation of how TC39 operates and how to participate",
+    "fork": false,
+    "full_name": "tc39/how-we-work",
+    "html_url": "https://github.com/tc39/how-we-work",
+    "language": null,
+    "pushed_at": "2026-04-10T16:51:26Z",
+    "stargazers_count": 218,
+    "topics": [],
+    "updated_at": "2026-04-18T22:37:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

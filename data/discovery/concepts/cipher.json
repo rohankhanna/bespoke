@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cipher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "BCrypt.Net - Bringing updates to the original bcrypt package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate",
+      "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048073,
+      "status": "candidate",
+      "text": "cypher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048068,
+      "status": "candidate",
+      "text": "cryptograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048033,
+      "status": "candidate",
+      "text": "encipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047926,
+      "status": "candidate",
+      "text": "encrypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047361,
+      "status": "candidate",
+      "text": "encode"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24036,
+      "status": "candidate",
+      "text": "reckon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23063,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18034,
+      "status": "candidate",
+      "text": "nought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "aught"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15034,
+      "status": "candidate",
+      "text": "zilch"
+    }
+  ],
+  "canonical_name": "cipher",
+  "concept_id": "cipher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BcryptNet/bcrypt.net"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cipher",
+      "sense_id": "cipher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

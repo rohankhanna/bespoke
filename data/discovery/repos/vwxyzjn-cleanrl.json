@@ -1,0 +1,483 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/utils_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/utils_test.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/utils_test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "corl-team/corl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "dlr-rm/stable-baselines3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "openai/baselines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "ikostrikov/jaxrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/utils_test.yaml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/utils_test.yaml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/utils_test.yaml",
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "actor-critic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "advantage-actor-critic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "atari",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "phasic-policy-gradient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "proximal-policy-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl",
+      "target": "wandb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:53:01.874421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15173
+    },
+    {
+      "path": "Dockerfile",
+      "size": 622
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1941
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 581
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 6206
+    },
+    {
+      "path": ".github/workflows/utils_test.yaml",
+      "size": 848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)",
+    "fork": false,
+    "full_name": "vwxyzjn/cleanrl",
+    "html_url": "https://github.com/vwxyzjn/cleanrl",
+    "language": "Python",
+    "pushed_at": "2026-04-20T10:57:15Z",
+    "stargazers_count": 9632,
+    "topics": [
+      "a2c",
+      "actor-critic",
+      "advantage-actor-critic",
+      "ale",
+      "atari",
+      "deep-learning",
+      "deep-reinforcement-learning",
+      "gym",
+      "machine-learning",
+      "phasic-policy-gradient",
+      "ppo",
+      "proximal-policy-optimization",
+      "python",
+      "pytorch",
+      "reinforcement-learning",
+      "wandb"
+    ],
+    "updated_at": "2026-04-24T05:57:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corl-team/corl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlr-rm/stable-baselines3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikostrikov/jaxrl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/baselines",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actor-critic"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "advantage-actor-critic"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atari"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phasic-policy-gradient"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proximal-policy-optimization"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wandb"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "python-semantic-release/publish-action@310a9983a0ae878b29f3aac778d7c77c1db27378",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "python-semantic-release/python-semantic-release"
+    }
+  ]
+}

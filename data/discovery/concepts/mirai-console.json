@@ -19,6 +19,30 @@
       "source_repo": "project-mirai/awesome-mirai",
       "status": "candidate-context",
       "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "45gfg9/mirai-release-watcher-plugin",
+      "status": "candidate-context",
+      "text": "Yet another mirai-console plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "45gfg9/mirai-release-watcher-plugin",
+      "status": "candidate-context",
+      "text": "[![CodeFactor](https://www.codefactor.io/repository/github/45gfg9/mirai-release-watcher-plugin/badge/kt)](https://www.codefactor.io/repository/github/45gfg9/mirai-release-watcher-plugin/overview/kt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "985892345/mirai-hotfix",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e Mirai Console \u5b9e\u73b0\u7684\u70ed\u4fee\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "985892345/mirai-hotfix",
+      "status": "candidate-context",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.github.985892345/mirai-hotfix)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "project-mirai/awesome-mirai",
       "status": "candidate",
       "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "45gfg9/mirai-release-watcher-plugin",
+      "status": "candidate",
+      "text": "[![CodeFactor](https://www.codefactor.io/repository/github/45gfg9/mirai-release-watcher-plugin/badge/kt)](https://www.codefactor.io/repository/github/45gfg9/mirai-release-watcher-plugin/overview/kt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "985892345/mirai-hotfix",
+      "status": "candidate",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.github.985892345/mirai-hotfix)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "project-mirai/awesome-mirai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "45gfg9/mirai-release-watcher-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "985892345/mirai-hotfix"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

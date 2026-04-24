@@ -88,6 +88,42 @@
       "source_repo": "orhun/git-cliff",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/A2A",
+      "status": "candidate-context",
+      "text": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/A2A",
+      "status": "candidate-context",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate-context",
+      "text": "conventional-changelog preset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate-context",
+      "text": "[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "CLI tool to create a semantic release, git-cliff powered Changelog, and releases to GitHub all in one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -132,6 +168,24 @@
       "source_repo": "orhun/git-cliff",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/A2A",
+      "status": "candidate",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate",
+      "text": "[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -217,11 +271,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/A2A"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pvdlg/conventional-changelog-metahub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "favware/cliff-jumper"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

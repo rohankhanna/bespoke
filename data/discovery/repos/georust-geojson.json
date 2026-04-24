@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "georust/geojson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "georust/geojson",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "georust/geojson",
+      "target": "Run Geojson tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/geojson",
+      "target": "geojson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/geojson",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/geojson",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:14:45.193101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1551
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 941
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library for serializing the GeoJSON vector GIS file format",
+    "fork": false,
+    "full_name": "georust/geojson",
+    "html_url": "https://github.com/georust/geojson",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T00:05:14Z",
+    "stargazers_count": 335,
+    "topics": [
+      "geojson",
+      "geospatial",
+      "rust"
+    ],
+    "updated_at": "2026-04-16T10:03:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Geojson tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Run Geojson tests"
+    },
+    {
+      "context_snippet": "[Documentation](https://docs.rs/geojson/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geojson"
+    },
+    {
+      "context_snippet": "[Documentation](https://docs.rs/geojson/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "[Documentation](https://docs.rs/geojson/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

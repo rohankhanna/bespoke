@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BOSSA is a flash programming utility for Atmel's SAM family of flash-based ARM microcontrollers.  The motivation behind BOSSA is to create a simple, easy-to-use, open source utility to replace Atmel's SAM-BA software.  BOSSA is an acronym for Basic Open Source SAM-BA Application to reflect that goal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BOSSA 1.9.1"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BOSSA 1.9.1"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "c-plus-plus",
+      "sense_id": "c-plus-plus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "c-plus-plus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "c-plus-plus",
+  "observation_id": "da6b015f47dc90d4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "c-plus-plus",
+  "source_context_snippet": "BOSSA 1.9.1",
+  "source_file": null,
+  "source_repo": "shumatech/BOSSA",
+  "source_repo_description": "BOSSA is a flash programming utility for Atmel's SAM family of flash-based ARM microcontrollers.  The motivation behind BOSSA is to create a simple, easy-to-use, open source utility to replace Atmel's SAM-BA software.  BOSSA is an acronym for Basic Open Source SAM-BA Application to reflect that goal."
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimalist tutorial and code for doing something meaningful with Vulkan in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulkan-tutorial",
+      "sense_id": "vulkan-tutorial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vulkan-tutorial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulkan-tutorial",
+  "observation_id": "4ba75f5854ead485",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "vulkan-tutorial",
+  "source_context_snippet": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026",
+  "source_file": null,
+  "source_repo": "SaschaWillems/HowToVulkan",
+  "source_repo_description": "Minimalist tutorial and code for doing something meaningful with Vulkan in 2026"
+}

@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kernels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kernels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kernels.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kernels.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-kernels.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels",
+      "target": "Build Kernels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels",
+      "target": "Build and publish DeepSpeed-Kernels release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:14.833529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2196
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 190
+    },
+    {
+      "path": ".github/workflows/build-kernels.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "deepspeedai/DeepSpeed-Kernels",
+    "html_url": "https://github.com/deepspeedai/DeepSpeed-Kernels",
+    "language": "C++",
+    "pushed_at": "2025-03-26T16:18:04Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-03-15T14:36:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Kernels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-kernels.yml",
+      "term": "Build Kernels"
+    },
+    {
+      "context_snippet": "Build and publish DeepSpeed-Kernels release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and publish DeepSpeed-Kernels release"
+    }
+  ]
+}

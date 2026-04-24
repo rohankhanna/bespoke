@@ -1,0 +1,178 @@
+{
+  "aliases": [
+    "Vim",
+    "vim"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "vim match-up: even better % :facepunch: navigate and highlight matching words :facepunch: modern matchit and matchparen.  Supports both vim and neovim + tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "Vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "Vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "vim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate",
+      "text": "Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate",
+      "text": "Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate",
+      "text": "vim"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010698,
+      "status": "candidate",
+      "text": "vigor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010350,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010052,
+      "status": "candidate",
+      "text": "vigour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002892,
+      "status": "candidate",
+      "text": "energy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010556,
+      "status": "candidate",
+      "text": "pep"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 67036,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40043,
+      "status": "candidate",
+      "text": "vigor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35024,
+      "status": "candidate",
+      "text": "vigour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25074,
+      "status": "candidate",
+      "text": "energy"
+    }
+  ],
+  "canonical_name": "Vim",
+  "concept_id": "vim",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vim",
+      "sense_id": "vim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

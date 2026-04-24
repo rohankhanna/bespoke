@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:03:50.255552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 775
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CoffeeScript adapter for the Rails asset pipeline. Also adds support for .coffee views.",
+    "fork": true,
+    "full_name": "rails/coffee-rails",
+    "html_url": "https://github.com/rails/coffee-rails",
+    "language": "Ruby",
+    "pushed_at": "2024-05-14T13:28:16Z",
+    "stargazers_count": 233,
+    "topics": [],
+    "updated_at": "2025-10-02T13:08:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

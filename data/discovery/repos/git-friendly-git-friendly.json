@@ -16,13 +16,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "git-friendly/git-friendly",
-      "target": "git-friendly/homebrew-git-friendly",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "git-friendly/git-friendly",
       "target": "jamiew/git-friendly",
       "target_type": "repository"
     },
@@ -48,7 +41,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-24T00:37:49.815475+00:00",
+  "fetched_at": "2026-04-24T08:06:07.307779+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,11 +71,6 @@
     "updated_at": "2026-04-23T18:03:19Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "git-friendly/homebrew-git-friendly",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "jamiew/git-friendly",

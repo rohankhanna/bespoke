@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SafeAILab/EAGLE",
+      "target": "hemingkx/spec-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SafeAILab/EAGLE",
+      "target": "intel/intel-extension-for-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SafeAILab/EAGLE",
+      "target": "intel-analytics/ipex-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SafeAILab/EAGLE",
+      "target": "fasterdecoding/medusa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SafeAILab/EAGLE",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SafeAILab/EAGLE",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SafeAILab/EAGLE",
+      "target": "speculative-decoding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:05.654073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19656
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Implementation of EAGLE-1 (ICML'24), EAGLE-2 (EMNLP'24), and EAGLE-3 (NeurIPS'25).",
+    "fork": false,
+    "full_name": "SafeAILab/EAGLE",
+    "html_url": "https://github.com/SafeAILab/EAGLE",
+    "language": "Python",
+    "pushed_at": "2026-02-20T02:53:29Z",
+    "stargazers_count": 2297,
+    "topics": [
+      "large-language-models",
+      "llm-inference",
+      "speculative-decoding"
+    ],
+    "updated_at": "2026-04-23T11:04:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasterdecoding/medusa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hemingkx/spec-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-analytics/ipex-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/intel-extension-for-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speculative-decoding"
+    }
+  ]
+}

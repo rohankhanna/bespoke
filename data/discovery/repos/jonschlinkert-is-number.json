@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "ansi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "benchmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/is-number",
+      "target": "jonschlinkert/is-primitive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/is-number",
+      "target": "ansi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/is-number",
+      "target": "benchmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/is-number",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/is-number",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "float",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "integer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "isnan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "negative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "numeric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "real",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/is-number",
+      "target": "zero",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:01.370904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6504
+    },
+    {
+      "path": "package.json",
+      "size": 1598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. ",
+    "fork": false,
+    "full_name": "jonschlinkert/is-number",
+    "html_url": "https://github.com/jonschlinkert/is-number",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-15T14:46:56Z",
+    "stargazers_count": 282,
+    "topics": [
+      "float",
+      "integer",
+      "is",
+      "isnan",
+      "javascript",
+      "jonschlinkert",
+      "nan",
+      "negative",
+      "nodejs",
+      "number",
+      "numeric",
+      "real",
+      "zero"
+    ],
+    "updated_at": "2026-04-12T18:00:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/is-primitive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "float"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integer"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isnan"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "negative"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "number"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numeric"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real"
+    },
+    {
+      "context_snippet": "> Returns true if the value is a finite number.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "clybius/comfyui-extra-samplers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "ace-step/ace-step",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "andychu/pratt-parsing-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "blepping/comfyui-sonar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "experimental",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "sampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:42.726119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 43700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wildly unsound and experimental sampling for ComfyUI",
+    "fork": false,
+    "full_name": "blepping/comfyui_overly_complicated_sampling",
+    "html_url": "https://github.com/blepping/comfyui_overly_complicated_sampling",
+    "language": "Python",
+    "pushed_at": "2025-08-09T13:28:10Z",
+    "stargazers_count": 30,
+    "topics": [
+      "comfyui",
+      "comfyui-nodes",
+      "experimental",
+      "sampling",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-03-23T00:33:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ace-step/ace-step",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andychu/pratt-parsing-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blepping/comfyui-sonar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clybius/comfyui-extra-samplers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "experimental"
+    },
+    {
+      "context_snippet": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sampling"
+    },
+    {
+      "context_snippet": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

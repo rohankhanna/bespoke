@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-pull-request.yml",
       "source_repo": "chromium/chromium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "google/flaxformer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios"
     }
   ],
   "term": "close pull request"

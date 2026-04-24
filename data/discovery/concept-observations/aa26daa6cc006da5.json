@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":dvd: Create traditional MSI installers for your Electron app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![electron-wix-msi](.github/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![electron-wix-msi](.github/logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wix-toolset",
+      "sense_id": "wix-toolset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wix-toolset",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wix-toolset",
+  "observation_id": "aa26daa6cc006da5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "wix-toolset",
+  "source_context_snippet": "![electron-wix-msi](.github/logo.png)",
+  "source_file": null,
+  "source_repo": "electron-userland/electron-wix-msi",
+  "source_repo_description": ":dvd: Create traditional MSI installers for your Electron app"
+}

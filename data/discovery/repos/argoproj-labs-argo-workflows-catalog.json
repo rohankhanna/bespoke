@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-kind-tests.yml"
+    },
+    {
+      "component": "engineerd/setup-kind@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-kind-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "argoproj-labs/argo-workflows-catalog",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "argoproj-labs/argo-workflows-catalog",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "argoproj-labs/argo-workflows-catalog",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-kind-tests.yml",
+      "source_repo": "argoproj-labs/argo-workflows-catalog",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-kind-tests.yml",
+      "source_repo": "argoproj-labs/argo-workflows-catalog",
+      "target": "engineerd/setup-kind@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-kind-tests.yml",
+      "source_repo": "argoproj-labs/argo-workflows-catalog",
+      "target": "Catalog Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:57.600855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 99
+    },
+    {
+      "path": "go.mod",
+      "size": 232
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 493
+    },
+    {
+      "path": ".github/workflows/run-kind-tests.yml",
+      "size": 1847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Argo Workflows Catalog",
+    "fork": false,
+    "full_name": "argoproj-labs/argo-workflows-catalog",
+    "html_url": "https://github.com/argoproj-labs/argo-workflows-catalog",
+    "language": "Go",
+    "pushed_at": "2022-09-13T02:17:09Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-16T07:22:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Catalog Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-kind-tests.yml",
+      "term": "Catalog Integration Tests"
+    }
+  ]
+}

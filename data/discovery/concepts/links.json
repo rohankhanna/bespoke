@@ -91,6 +91,18 @@
       "source_repo": "mosecorg/mosec",
       "status": "candidate-context",
       "text": "Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Publish Rust crates from CI with a Release PR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
+      "status": "candidate-context",
+      "text": "Links"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mosecorg/mosec",
+      "status": "candidate",
+      "text": "Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-plz/release-plz",
       "status": "candidate",
       "text": "Links"
     }
@@ -235,11 +253,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/links.yml",
       "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "release-plz/release-plz"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

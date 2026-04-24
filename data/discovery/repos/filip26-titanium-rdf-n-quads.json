@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "Codacy Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "Java 8 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "Publish JRE8 to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "n-quads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "target": "nquads",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:43.624507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2542
+    },
+    {
+      "path": ".github/workflows/codacy-coverage.yml",
+      "size": 815
+    },
+    {
+      "path": ".github/workflows/java8-build.yml",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/java8-publish.yml",
+      "size": 995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RDF N-Quads stream reader and writer in Java",
+    "fork": false,
+    "full_name": "filip26/titanium-rdf-n-quads",
+    "html_url": "https://github.com/filip26/titanium-rdf-n-quads",
+    "language": "Java",
+    "pushed_at": "2026-02-23T18:53:09Z",
+    "stargazers_count": 1,
+    "topics": [
+      "n-quads",
+      "nquads",
+      "rdf"
+    ],
+    "updated_at": "2026-02-23T18:53:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codacy Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "term": "Codacy Coverage"
+    },
+    {
+      "context_snippet": "Java 8 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "term": "Java 8 CI"
+    },
+    {
+      "context_snippet": "Publish JRE8 to the Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "term": "Publish JRE8 to the Maven Central"
+    },
+    {
+      "context_snippet": "A Java implementation of a streaming RDF N-Quads reader and writer, optimized for efficient parsing, serialization, and handling of large RDF datasets. It enables scalable processing of RDF statements in a memory-efficient, streaming fashion.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "n-quads"
+    },
+    {
+      "context_snippet": "A Java implementation of a streaming RDF N-Quads reader and writer, optimized for efficient parsing, serialization, and handling of large RDF datasets. It enables scalable processing of RDF statements in a memory-efficient, streaming fashion.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nquads"
+    }
+  ]
+}

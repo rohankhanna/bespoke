@@ -31,6 +31,18 @@
       "source_repo": "rails/rails",
       "status": "candidate-context",
       "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "Optimized JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rails/rails",
       "status": "candidate",
       "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/oj"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

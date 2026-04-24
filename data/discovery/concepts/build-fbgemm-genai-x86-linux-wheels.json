@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build FBGEMM GenAI x86 Linux Wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/FBGEMM",
+      "status": "candidate-context",
+      "text": "FB (Facebook) + GEMM (General Matrix-Matrix Multiplication) - https://code.fb.com/ml-applications/fbgemm/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/FBGEMM",
+      "status": "candidate-context",
+      "text": "Build FBGEMM GenAI x86 Linux Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/FBGEMM",
+      "status": "candidate",
+      "text": "Build FBGEMM GenAI x86 Linux Wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20274,
+      "status": "candidate",
+      "text": "cart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18177,
+      "status": "candidate",
+      "text": "computing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17196,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15077,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15077,
+      "status": "candidate",
+      "text": "celestia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build FBGEMM GenAI x86 Linux Wheels",
+  "concept_id": "build-fbgemm-genai-x86-linux-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_wheels_genai_linux_x86.yml",
+      "source_repo": "pytorch/FBGEMM"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build FBGEMM GenAI x86 Linux Wheels",
+      "sense_id": "build-fbgemm-genai-x86-linux-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

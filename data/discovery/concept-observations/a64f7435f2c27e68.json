@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2b06\ufe0f GitHub Actions uptime monitor & status page by @AnandChowdhary"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Uptime CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Uptime CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4514,
+      "status": "candidate",
+      "text": "night"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "absence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "abundance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Uptime CI",
+      "sense_id": "uptime-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "uptime-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "uptime-ci",
+  "observation_id": "a64f7435f2c27e68",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Uptime CI",
+  "source_context_snippet": "Uptime CI",
+  "source_file": ".github/workflows/uptime.yml",
+  "source_repo": "upptime/upptime",
+  "source_repo_description": "\u2b06\ufe0f GitHub Actions uptime monitor & status page by @AnandChowdhary"
+}

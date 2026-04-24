@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "enforce format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "Status, process, and documents for ECMA-262"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "'enforce format'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-temporal",
+      "status": "candidate-context",
+      "text": "Provides standard objects and functions for working with dates and times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-temporal",
+      "status": "candidate-context",
+      "text": "'enforce format'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate",
+      "text": "'enforce format'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-temporal",
+      "status": "candidate",
+      "text": "'enforce format'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "apply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "applying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "coerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "coerced"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "enforce format",
+  "concept_id": "enforce-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/enforce-format.yml",
+      "source_repo": "tc39/ecma262"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/enforce-format.yml",
+      "source_repo": "tc39/proposal-temporal"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "enforce format",
+      "sense_id": "enforce-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

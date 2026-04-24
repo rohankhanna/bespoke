@@ -55,6 +55,30 @@
       "source_repo": "travis-ci/travis-build",
       "status": "candidate-context",
       "text": "Travis Build exposes an API that [Travis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/worker",
+      "status": "candidate-context",
+      "text": "Worker runs your Travis CI jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/worker",
+      "status": "candidate-context",
+      "text": "Worker is the component of Travis CI that will run a CI job on some form of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/travis-cookbooks",
+      "status": "candidate-context",
+      "text": "Chef cookbook monolithic repo :book: :bomb:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-cookbooks",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "travis-ci/travis-build",
       "status": "candidate",
       "text": "Travis Build exposes an API that [Travis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/worker",
+      "status": "candidate",
+      "text": "Worker is the component of Travis CI that will run a CI job on some form of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-cookbooks",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "travis-ci/travis-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/worker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

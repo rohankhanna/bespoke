@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:55:30.677322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc1e Debug Ruby programs using Chrome Devtools",
+    "fork": false,
+    "full_name": "geoffreylitt/ladybug",
+    "html_url": "https://github.com/geoffreylitt/ladybug",
+    "language": "Ruby",
+    "pushed_at": "2021-08-10T13:54:21Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-01-07T16:03:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

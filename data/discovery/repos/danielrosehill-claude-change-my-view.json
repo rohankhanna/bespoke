@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Change-My-View",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Change-My-View",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:07.088202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CMV with AI (pattern/template)",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Change-My-View",
+    "html_url": "https://github.com/danielrosehill/Claude-Change-My-View",
+    "language": null,
+    "pushed_at": "2025-11-13T14:07:47Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-12T13:27:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

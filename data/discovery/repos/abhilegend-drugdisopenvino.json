@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:52:38.492078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2182
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AbhiLegend/DrugDisOpenVINO",
+    "html_url": "https://github.com/AbhiLegend/DrugDisOpenVINO",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-11-19T07:35:00Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-01-22T21:29:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

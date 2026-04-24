@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:52:28.608350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7496
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Tutorials for running models on First-gen Gaudi and Gaudi2 for Training and Inference.  The source files for the tutorials on https://developer.habana.ai/",
+    "fork": false,
+    "full_name": "HabanaAI/Gaudi-tutorials",
+    "html_url": "https://github.com/HabanaAI/Gaudi-tutorials",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-18T19:23:24Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-03-27T10:19:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

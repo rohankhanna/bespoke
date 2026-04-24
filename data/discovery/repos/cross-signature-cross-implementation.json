@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:01:48.556548+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference and optimized implementations of the CROSS post-quantum signature algorithm",
+    "fork": false,
+    "full_name": "CROSS-signature/CROSS-implementation",
+    "html_url": "https://github.com/CROSS-signature/CROSS-implementation",
+    "language": "C",
+    "pushed_at": "2026-03-23T17:42:20Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-17T08:37:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -127,6 +127,18 @@
       "source_repo": "google-gemini/starter-applets",
       "status": "candidate-context",
       "text": "This repository contains the source code for Google AI Studio's"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logankilpatrick/gemini-api-quickstart",
+      "status": "candidate-context",
+      "text": "Get up and running in under 5 minutes with the Google AI Gemini API (in Python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logankilpatrick/gemini-api-quickstart",
+      "status": "candidate-context",
+      "text": "This repository contains a simple Python Flask App running with the Google AI Gemini API, designed to get you started building with Gemini's multi-modal capabilities. The app comes with a basic UI and a Flask backend."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "google-gemini/starter-applets",
       "status": "candidate",
       "text": "This repository contains the source code for Google AI Studio's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logankilpatrick/gemini-api-quickstart",
+      "status": "candidate",
+      "text": "This repository contains a simple Python Flask App running with the Google AI Gemini API, designed to get you started building with Gemini's multi-modal capabilities. The app comes with a basic UI and a Flask backend."
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +286,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "google-gemini/starter-applets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "logankilpatrick/gemini-api-quickstart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/live-api-web-console"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

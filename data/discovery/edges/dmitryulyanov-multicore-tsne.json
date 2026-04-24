@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "lvdmaaten/bhtsne",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "danielfrg/tsne",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "barnes-hut-tsne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "multicore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "py-bh-tsne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "tsne",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "DmitryUlyanov/Multicore-TSNE"
+}

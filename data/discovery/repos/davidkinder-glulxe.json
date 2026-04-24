@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:21:15.494558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Glulx VM reference interpreter",
+    "fork": true,
+    "full_name": "DavidKinder/Glulxe",
+    "html_url": "https://github.com/DavidKinder/Glulxe",
+    "language": "C",
+    "pushed_at": "2026-01-02T10:48:44Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-07T17:13:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

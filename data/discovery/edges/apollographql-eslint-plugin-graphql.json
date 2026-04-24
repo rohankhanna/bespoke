@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apollographql/eslint-plugin-graphql",
-      "target": "cjoudrey/graphql-schema-linter",
+      "target": "graphcool/graphql-cli",
       "target_type": "repository"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "apollographql/eslint-plugin-graphql"
 }

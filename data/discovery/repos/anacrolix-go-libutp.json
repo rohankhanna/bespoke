@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anacrolix/go-libutp",
+      "target": "bittorrent/libutp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/go-libutp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/go-libutp",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "bittorrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "ledbat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "libutp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "packets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "socket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "transport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp",
+      "target": "utp-socket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:03:06.271768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 700
+    },
+    {
+      "path": "go.mod",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go wrapper of libutp reference uTP C implementation",
+    "fork": false,
+    "full_name": "anacrolix/go-libutp",
+    "html_url": "https://github.com/anacrolix/go-libutp",
+    "language": "C++",
+    "pushed_at": "2026-03-21T12:03:05Z",
+    "stargazers_count": 104,
+    "topics": [
+      "bittorrent",
+      "c",
+      "go",
+      "golang",
+      "ledbat",
+      "libutp",
+      "packets",
+      "socket",
+      "transport",
+      "utp",
+      "utp-socket"
+    ],
+    "updated_at": "2026-03-28T15:22:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bittorrent/libutp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ledbat"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libutp"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packets"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socket"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transport"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utp-socket"
+    }
+  ]
+}

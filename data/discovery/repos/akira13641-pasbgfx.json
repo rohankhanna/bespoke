@@ -1,0 +1,255 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "bgfx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "bgfx-graphics-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "free-pascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "freepascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "graphics-api-agnostic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "graphics-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "interop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "object-pascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "objectpascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "pascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "pascal-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akira13641/PasBGFX",
+      "target": "rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:14.865293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 609
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pascal bindings to the C API for BGFX, \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+    "fork": false,
+    "full_name": "Akira13641/PasBGFX",
+    "html_url": "https://github.com/Akira13641/PasBGFX",
+    "language": "Pascal",
+    "pushed_at": "2022-01-12T16:19:42Z",
+    "stargazers_count": 19,
+    "topics": [
+      "bgfx",
+      "bgfx-graphics-library",
+      "cross-platform",
+      "engine",
+      "fpc",
+      "free-pascal",
+      "freepascal",
+      "gamedev",
+      "graphics",
+      "graphics-api-agnostic",
+      "graphics-programming",
+      "interop",
+      "object-pascal",
+      "objectpascal",
+      "pascal",
+      "pascal-bindings",
+      "rendering"
+    ],
+    "updated_at": "2025-12-09T13:36:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bgfx"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bgfx-graphics-library"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "engine"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "free-pascal"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freepascal"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-api-agnostic"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-programming"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interop"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-pascal"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objectpascal"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal-bindings"
+    },
+    {
+      "context_snippet": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    }
+  ]
+}

@@ -601,6 +601,126 @@
       "source_repo": "fastapi/typer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0k/shyaml",
+      "status": "candidate-context",
+      "text": "YAML for command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0k/shyaml",
+      "status": "candidate-context",
+      "text": "================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate-context",
+      "text": "A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "kaldi-asr/kaldi is the official location of the Kaldi project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marlonrichert/zsh-snap",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Znap! Fast, easy-to-use tools for Zsh dotfiles & plugins, plus git repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marlonrichert/zsh-snap",
+      "status": "candidate-context",
+      "text": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/antigen",
+      "status": "candidate-context",
+      "text": "The plugin manager for zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/antigen",
+      "status": "candidate-context",
+      "text": "The plugin manager for zsh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/zsh-completions",
+      "status": "candidate-context",
+      "text": "Additional completion definitions for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-completions",
+      "status": "candidate-context",
+      "text": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate-context",
+      "text": "Fish shell like syntax highlighting for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate-context",
+      "text": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/bbin",
+      "status": "candidate-context",
+      "text": "Install any Babashka script or project with one command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/bbin",
+      "status": "candidate-context",
+      "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "REPL (interactive shell) for Dart, supporting 3rd party packages, hot reload, and full grammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate-context",
+      "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_glosses": [
@@ -897,6 +1017,66 @@
       "source_repo": "fastapi/typer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0k/shyaml",
+      "status": "candidate",
+      "text": "================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marlonrichert/zsh-snap",
+      "status": "candidate",
+      "text": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/antigen",
+      "status": "candidate",
+      "text": "The plugin manager for zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-completions",
+      "status": "candidate",
+      "text": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate",
+      "text": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/bbin",
+      "status": "candidate",
+      "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "status": "candidate",
+      "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -1372,11 +1552,95 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "0k/shyaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alebcay/awesome-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kaldi-asr/kaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zsh-users/antigen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-completions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-syntax-highlighting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "babashka/bbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

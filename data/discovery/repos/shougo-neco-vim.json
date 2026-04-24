@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/neco-vim",
+      "target": "ddc-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/neco-vim",
+      "target": "ddc-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/neco-vim",
+      "target": "deoplete-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:02:31.616787+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Vim Script completion source for neocomplete/deoplete/ddc",
+    "fork": false,
+    "full_name": "Shougo/neco-vim",
+    "html_url": "https://github.com/Shougo/neco-vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-03-06T10:14:55Z",
+    "stargazers_count": 109,
+    "topics": [
+      "ddc-source",
+      "ddc-vim",
+      "deoplete-source"
+    ],
+    "updated_at": "2026-01-27T07:32:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Vim Script completion source for neocomplete/deoplete/ddc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddc-source"
+    },
+    {
+      "context_snippet": "The Vim Script completion source for neocomplete/deoplete/ddc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddc-vim"
+    },
+    {
+      "context_snippet": "The Vim Script completion source for neocomplete/deoplete/ddc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete-source"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "preact-devtools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension for inspection Preact applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension that allows you to inspect a Preact component hierarchy,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate",
+      "text": "Browser extension that allows you to inspect a Preact component hierarchy,"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "preact-devtools",
+  "concept_id": "preact-devtools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preact-devtools",
+      "sense_id": "preact-devtools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

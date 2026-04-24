@@ -91,6 +91,18 @@
       "source_repo": "ddh0/easy-llama",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "PHP Framework designed to build IO-intensive web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "ddh0/easy-llama",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate",
+      "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "distantmagic/resonance"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

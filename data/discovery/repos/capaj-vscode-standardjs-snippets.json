@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "gaboesquivel/atom-standardjs-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "atom/language-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "extrabacon/atom-turbo-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "timonvs/vscode-react-standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "target": "vscode-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:57.641573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18599
+    },
+    {
+      "path": "package.json",
+      "size": 1552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a complete set of Javascript snippets for Visual Studio Code",
+    "fork": false,
+    "full_name": "capaj/vscode-standardjs-snippets",
+    "html_url": "https://github.com/capaj/vscode-standardjs-snippets",
+    "language": null,
+    "pushed_at": "2022-01-09T09:37:50Z",
+    "stargazers_count": 99,
+    "topics": [
+      "javascript",
+      "snippets",
+      "vscode-plugin"
+    ],
+    "updated_at": "2026-01-11T00:33:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atom/language-javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extrabacon/atom-turbo-javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gaboesquivel/atom-standardjs-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timonvs/vscode-react-standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Optinionated set of JS snippets. Originally forked from https://github.com/gaboesquivel/atom-standardjs-snippets, but we've added couple more. Also these are not using special characters because vscode doesn't accept them in the snippets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    },
+    {
+      "context_snippet": "Optinionated set of JS snippets. Originally forked from https://github.com/gaboesquivel/atom-standardjs-snippets, but we've added couple more. Also these are not using special characters because vscode doesn't accept them in the snippets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-plugin"
+    }
+  ]
+}

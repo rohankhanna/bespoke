@@ -1,0 +1,17 @@
+{
+  "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml",
+      "source_repo": "composer/composer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "composer/composer"
+    }
+  ]
+}

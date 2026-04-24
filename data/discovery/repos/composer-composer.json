@@ -1,0 +1,515 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface-comment.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface-comment.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoloader.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoloader.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-support.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conductor.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conductor.yaml"
+    },
+    {
+      "component": "packagist/conductor-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conductor.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php32bit.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php32bit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface-comment.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface-comment.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-surface-comment.yml",
+      "source_repo": "composer/composer",
+      "target": "API Surface Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml",
+      "source_repo": "composer/composer",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml",
+      "source_repo": "composer/composer",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-surface.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-surface.yml",
+      "source_repo": "composer/composer",
+      "target": "API Surface Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoloader.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoloader.yml",
+      "source_repo": "composer/composer",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoloader.yml",
+      "source_repo": "composer/composer",
+      "target": "Autoloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-support.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-support.yml",
+      "source_repo": "composer/composer",
+      "target": "Mark and close stale support issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conductor.yaml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conductor.yaml",
+      "source_repo": "composer/composer",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conductor.yaml",
+      "source_repo": "composer/composer",
+      "target": "packagist/conductor-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conductor.yaml",
+      "source_repo": "composer/composer",
+      "target": "Private Packagist Conductor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "composer/composer",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "composer/composer",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "composer/composer",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "composer/composer",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "composer/composer",
+      "target": "PHP Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php32bit.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php32bit.yml",
+      "source_repo": "composer/composer",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php32bit.yml",
+      "source_repo": "composer/composer",
+      "target": "Continuous Integration (32bit)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "composer/composer",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "composer/composer",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "composer/composer",
+      "target": "PHPStan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "composer/composer",
+      "target": "composer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "composer/composer",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "composer/composer",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "composer/composer",
+      "target": "packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:21.665769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3478
+    },
+    {
+      "path": ".github/workflows/api-surface-comment.yml",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/api-surface.yml",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/autoloader.yml",
+      "size": 1053
+    },
+    {
+      "path": ".github/workflows/close-stale-support.yml",
+      "size": 713
+    },
+    {
+      "path": ".github/workflows/conductor.yaml",
+      "size": 1136
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yml",
+      "size": 5410
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/php32bit.yml",
+      "size": 1578
+    },
+    {
+      "path": ".github/workflows/phpstan.yml",
+      "size": 2120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dependency Manager for PHP",
+    "fork": false,
+    "full_name": "composer/composer",
+    "html_url": "https://github.com/composer/composer",
+    "language": "PHP",
+    "pushed_at": "2026-04-20T21:20:08Z",
+    "stargazers_count": 29380,
+    "topics": [
+      "composer",
+      "dependency-manager",
+      "package-manager",
+      "packages",
+      "php"
+    ],
+    "updated_at": "2026-04-24T08:38:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"API Surface Comment\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-surface-comment.yml",
+      "term": "API Surface Comment"
+    },
+    {
+      "context_snippet": "\"API Surface Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-surface.yml",
+      "term": "API Surface Check"
+    },
+    {
+      "context_snippet": "\"Autoloader\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoloader.yml",
+      "term": "Autoloader"
+    },
+    {
+      "context_snippet": "Mark and close stale support issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-support.yml",
+      "term": "Mark and close stale support issues"
+    },
+    {
+      "context_snippet": "Private Packagist Conductor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conductor.yaml",
+      "term": "Private Packagist Conductor"
+    },
+    {
+      "context_snippet": "\"Continuous Integration\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "\"PHP Lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "PHP Lint"
+    },
+    {
+      "context_snippet": "\"Continuous Integration (32bit)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php32bit.yml",
+      "term": "Continuous Integration (32bit)"
+    },
+    {
+      "context_snippet": "\"PHPStan\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/phpstan.yml",
+      "term": "PHPStan"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composer"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packages"
+    }
+  ]
+}

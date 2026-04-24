@@ -308,6 +308,114 @@
       "source_repo": "rootless-containers/usernetes",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "\"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff-pre-commit",
+      "status": "candidate-context",
+      "text": "A pre-commit hook for Ruff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-pre-commit",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "romgrk/fzy-lua-native",
+      "status": "candidate-context",
+      "text": "Luajit FFI bindings to FZY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romgrk/fzy-lua-native",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rayon-rs/rayon",
+      "status": "candidate-context",
+      "text": "Rayon: A data parallelism library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rayon-rs/rayon",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pycodestyle",
+      "status": "candidate-context",
+      "text": "Simple Python style checker in one Python file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pycodestyle",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "R Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 implementation for fasthttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipikuka/rehype-highlight-code-lines",
+      "status": "candidate-context",
+      "text": "Rehype plugin to add line numbers to code blocks and allow highlighting of desired code lines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/rehype-highlight-code-lines",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipikuka/remark-flexible-containers",
+      "status": "candidate-context",
+      "text": "Remark plugin to add custom containers with customizable properties in markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/remark-flexible-containers",
+      "status": "candidate-context",
+      "text": "main"
     }
   ],
   "candidate_glosses": [
@@ -460,6 +568,60 @@
       "source_repo": "rootless-containers/usernetes",
       "status": "candidate",
       "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate",
+      "text": "\"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-pre-commit",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romgrk/fzy-lua-native",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rayon-rs/rayon",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pycodestyle",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/rehype-highlight-code-lines",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipikuka/remark-flexible-containers",
+      "status": "candidate",
+      "text": "main"
     }
   ],
   "candidate_related_terms": [
@@ -713,11 +875,71 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/main.yaml",
       "source_repo": "rootless-containers/usernetes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "remarkjs/remark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "astral-sh/ruff-pre-commit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "romgrk/fzy-lua-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "rayon-rs/rayon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/pycodestyle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "REditorSupport/vscode-R"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dgrr/http2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipikuka/rehype-highlight-code-lines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipikuka/remark-flexible-containers"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "srfrnk/current-time@5a4163ad035ccd9a407ec9e519c3b6ba1b633d1e",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-fix.yaml",
+      "source_repo": "grpc/grpc"
+    }
+  ]
+}

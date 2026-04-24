@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upstream_protos.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_upstream_protos.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "Check Upstream Proto Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/head_conformance.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/head_conformance.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "Run Protobuf Head Conformance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "apple/swift-nio/.github/actions/pull_request_semver_label_checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "PR label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_protobuf.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_protobuf.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_protobuf.yml",
+      "source_repo": "apple/swift-protobuf",
+      "target": "Update Protobuf and Abseil Dependencies",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "apple/swift-protobuf"
+}

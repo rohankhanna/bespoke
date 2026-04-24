@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PC Music Disk, 9 electro & hip/hop tracks with a 3D interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Marine Melodies by [Resistance](http://resistance.no/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Marine Melodies by [Resistance](http://resistance.no/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019179,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019178,
+      "status": "candidate",
+      "text": "democoder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019177,
+      "status": "candidate",
+      "text": "demomaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019176,
+      "status": "candidate",
+      "text": "megademo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019175,
+      "status": "candidate",
+      "text": "musicdisk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "demoscene",
+      "sense_id": "demoscene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "demoscene",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "demoscene",
+  "observation_id": "5fedb2f6e632a469",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "demoscene",
+  "source_context_snippet": "Marine Melodies by [Resistance](http://resistance.no/).",
+  "source_file": null,
+  "source_repo": "astrofra/demo-marine-melodies",
+  "source_repo_description": "A PC Music Disk, 9 electro & hip/hop tracks with a 3D interface."
+}

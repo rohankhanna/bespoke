@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_release.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "blackhc/dart_repl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "maks/dart_repl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "dart-lang/setup-dart@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_release.yml",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_release.yml",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "dart-lang/setup-dart@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_release.yml",
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "Post-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fzyzcjy/dart_interactive",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:31.452760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13472
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 982
+    },
+    {
+      "path": ".github/workflows/post_release.yml",
+      "size": 418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "REPL (interactive shell) for Dart, supporting 3rd party packages, hot reload, and full grammar",
+    "fork": false,
+    "full_name": "fzyzcjy/dart_interactive",
+    "html_url": "https://github.com/fzyzcjy/dart_interactive",
+    "language": "Dart",
+    "pushed_at": "2026-04-10T09:15:53Z",
+    "stargazers_count": 256,
+    "topics": [
+      "dart",
+      "flutter",
+      "interactive",
+      "repl",
+      "shell"
+    ],
+    "updated_at": "2026-04-23T22:21:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blackhc/dart_repl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maks/dart_repl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Post-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_release.yml",
+      "term": "Post-release"
+    },
+    {
+      "context_snippet": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive"
+    },
+    {
+      "context_snippet": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

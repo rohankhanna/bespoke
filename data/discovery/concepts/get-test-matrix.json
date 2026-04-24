@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Get Test Matrix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "Generative AI Examples is a collection of GenAI examples such as ChatQnA, Copilot, which illustrate the pipeline capabilities of the Open Platform for Enterprise AI (OPEA) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate-context",
+      "text": "Get Test Matrix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIExamples",
+      "status": "candidate",
+      "text": "Get Test Matrix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21213,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21158,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20412,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20287,
+      "status": "candidate",
+      "text": "die"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20162,
+      "status": "candidate",
+      "text": "model"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Get Test Matrix",
+  "concept_id": "get-test-matrix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIExamples"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Get Test Matrix",
+      "sense_id": "get-test-matrix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

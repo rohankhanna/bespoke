@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Super minimal emoji rendering utility for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "react-easy-emoji \u2014 A super minimal emoji rendering library for React"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "react-easy-emoji \u2014 A super minimal emoji rendering library for React"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react-component",
+      "sense_id": "react-component#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "react-component",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "react-component",
+  "observation_id": "04b88a36288a830d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "react-component",
+  "source_context_snippet": "react-easy-emoji \u2014 A super minimal emoji rendering library for React",
+  "source_file": null,
+  "source_repo": "appfigures/react-easy-emoji",
+  "source_repo_description": "Super minimal emoji rendering utility for react"
+}

@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "string-replace-to-array",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "string-replace-to-array",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "react-component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appfigures/react-easy-emoji",
+      "target": "twemoji",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:53:35.643771+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Super minimal emoji rendering utility for react",
+    "fork": false,
+    "full_name": "appfigures/react-easy-emoji",
+    "html_url": "https://github.com/appfigures/react-easy-emoji",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-16T10:40:40Z",
+    "stargazers_count": 102,
+    "topics": [
+      "emoji",
+      "react",
+      "react-component",
+      "twemoji"
+    ],
+    "updated_at": "2025-11-12T20:10:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "react-easy-emoji \u2014 A super minimal emoji rendering library for React",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji"
+    },
+    {
+      "context_snippet": "react-easy-emoji \u2014 A super minimal emoji rendering library for React",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "react-easy-emoji \u2014 A super minimal emoji rendering library for React",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-component"
+    },
+    {
+      "context_snippet": "react-easy-emoji \u2014 A super minimal emoji rendering library for React",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twemoji"
+    }
+  ]
+}

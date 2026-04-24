@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-skynet/go-ggml-transformers.cpp",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-skynet/go-ggml-transformers.cpp",
+      "target": "go-skynet/localai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "go-skynet/go-ggml-transformers.cpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:10.433987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1553
+    },
+    {
+      "path": "go.mod",
+      "size": 583
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Binding to transformers in ggml",
+    "fork": false,
+    "full_name": "go-skynet/go-ggml-transformers.cpp",
+    "html_url": "https://github.com/go-skynet/go-ggml-transformers.cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-07T13:51:50Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-12T11:54:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-skynet/localai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

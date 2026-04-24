@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Component Schema Diff PR Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate-context",
+      "text": "Design data, including design tokens, component schemas, and tooling for Spectrum, Adobe's design system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate-context",
+      "text": "Component Schema Diff PR Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate",
+      "text": "Component Schema Diff PR Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32663,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32537,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32537,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31297,
+      "status": "candidate",
+      "text": "image"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Component Schema Diff PR Comment",
+  "concept_id": "component-schema-diff-pr-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/component-diff-pr-comment.yml",
+      "source_repo": "adobe/spectrum-design-data"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Component Schema Diff PR Comment",
+      "sense_id": "component-schema-diff-pr-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

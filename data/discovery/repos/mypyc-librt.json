@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "pypa/cibuildwheel@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "mypyc/librt",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/librt",
+      "target": "mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/librt",
+      "target": "mypyc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/librt",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/librt",
+      "target": "types",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:03:40.383026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3338
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2098
+    },
+    {
+      "path": ".github/workflows/buildwheels.yml",
+      "size": 4989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mypyc runtime library",
+    "fork": false,
+    "full_name": "mypyc/librt",
+    "html_url": "https://github.com/mypyc/librt",
+    "language": "C",
+    "pushed_at": "2026-04-09T15:44:14Z",
+    "stargazers_count": 9,
+    "topics": [
+      "mypy",
+      "mypyc",
+      "python",
+      "runtime",
+      "types"
+    ],
+    "updated_at": "2026-04-09T14:54:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mypy"
+    },
+    {
+      "context_snippet": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mypyc"
+    },
+    {
+      "context_snippet": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "types"
+    }
+  ]
+}

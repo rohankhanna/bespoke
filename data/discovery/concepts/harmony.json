@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "harmony"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate-context",
+      "text": "Cross-Platform OpenGL Doom Source Port with powerful modding features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate-context",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edge-classic/EDGE-classic",
+      "status": "candidate",
+      "text": "![circle_logo5](https://user-images.githubusercontent.com/58537100/146055272-0deb8163-5828-4f2f-b6e3-34b48f53ea10.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997755,
+      "status": "candidate",
+      "text": "concord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997702,
+      "status": "candidate",
+      "text": "concordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929609,
+      "status": "candidate",
+      "text": "harmoniousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997854,
+      "status": "candidate",
+      "text": "musical harmony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997755,
+      "status": "candidate",
+      "text": "accordance"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "concordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3016,
+      "status": "candidate",
+      "text": "harmoniousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "musical harmony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "concord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "condordance"
+    }
+  ],
+  "canonical_name": "harmony",
+  "concept_id": "harmony",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "harmony",
+      "sense_id": "harmony#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -784,6 +784,162 @@
       "source_repo": "project-miracl/miracl",
       "status": "candidate-context",
       "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] xFinder: Large Language Models as Automated Evaluators for Reliable Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BitBLAS",
+      "status": "candidate-context",
+      "text": "BitBLAS is a library to support mixed-precision matrix multiplications, especially for quantized LLM deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BitBLAS",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/LongCite",
+      "status": "candidate-context",
+      "text": "LongCite: Enabling LLMs to Generate Fine-grained Citations in Long-context QA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongCite",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sierra-research/tau2-bench",
+      "status": "candidate-context",
+      "text": "\u03c4-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sierra-research/tau2-bench",
+      "status": "candidate-context",
+      "text": "[![python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate-context",
+      "text": "Port of Facebook's LLaMA model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in Rust, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate-context",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "pytest fixture for benchmarking code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate-context",
+      "text": "Animation Compression Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transparency-dev/tessera",
+      "status": "candidate-context",
+      "text": "Go library for building tile-based transparency logs (tlogs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/tessera",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bethgelab/model-vs-human",
+      "status": "candidate-context",
+      "text": "Benchmark your model on out-of-distribution datasets with carefully collected human comparison data (NeurIPS 2021 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bethgelab/model-vs-human",
+      "status": "candidate-context",
+      "text": "![header](./assets/header/header.png \"header\")"
     }
   ],
   "candidate_glosses": [
@@ -1176,6 +1332,84 @@
       "source_repo": "project-miracl/miracl",
       "status": "candidate",
       "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BitBLAS",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongCite",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sierra-research/tau2-bench",
+      "status": "candidate",
+      "text": "[![python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate",
+      "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/tessera",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bethgelab/model-vs-human",
+      "status": "candidate",
+      "text": "![header](./assets/header/header.png \"header\")"
     }
   ],
   "candidate_related_terms": [
@@ -1731,11 +1965,113 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "project-miracl/miracl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/BitBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/LongCite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sierra-research/tau2-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "DOGEwbx/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "evalplus/evalplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "nfrechette/acl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "transparency-dev/tessera"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "actix/actix-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

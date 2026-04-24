@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "larsoner/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler_sanitizers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler_sanitizers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler_sanitizers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "egor-tensin/setup-cygwin@fca9069f92361187d4abfaa5d8a7490e435d8349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "egor-tensin/cleanup-path@8cbbf6af9f8cf1d347258e3f6b850622e480d16d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ibm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numpy/numpy",
+      "target": "numpy/numpy.org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "numpy/numpy",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "numpy/numpy",
+      "target": "larsoner/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "numpy/numpy",
+      "target": "CircleCI artifact redirector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numpy/numpy",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numpy/numpy",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numpy/numpy",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numpy/numpy",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler_sanitizers.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compiler_sanitizers.yml",
+      "source_repo": "numpy/numpy",
+      "target": "Test with compiler sanitizers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "numpy/numpy",
+      "target": "egor-tensin/setup-cygwin@fca9069f92361187d4abfaa5d8a7490e435d8349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "numpy/numpy",
+      "target": "egor-tensin/cleanup-path@8cbbf6af9f8cf1d347258e3f6b850622e480d16d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "numpy/numpy",
+      "target": "Test on Cygwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "numpy/numpy",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "numpy/numpy",
+      "target": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "numpy/numpy",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ibm.yml",
+      "source_repo": "numpy/numpy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ibm.yml",
+      "source_repo": "numpy/numpy",
+      "target": "Linux IBM tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numpy/numpy",
+      "target": "numpy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:14:24.054231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4226
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10477
+    },
+    {
+      "path": ".github/workflows/circleci.yml",
+      "size": 893
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2764
+    },
+    {
+      "path": ".github/workflows/compiler_sanitizers.yml",
+      "size": 5898
+    },
+    {
+      "path": ".github/workflows/cygwin.yml",
+      "size": 3328
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 1087
+    },
+    {
+      "path": ".github/workflows/emscripten.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 1269
+    },
+    {
+      "path": ".github/workflows/linux-ibm.yml",
+      "size": 2854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The fundamental package for scientific computing with Python.",
+    "fork": false,
+    "full_name": "numpy/numpy",
+    "html_url": "https://github.com/numpy/numpy",
+    "language": "Python",
+    "pushed_at": "2026-04-24T08:02:48Z",
+    "stargazers_count": 31881,
+    "topics": [
+      "numpy",
+      "python"
+    ],
+    "updated_at": "2026-04-24T08:02:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numpy/numpy.org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CircleCI artifact redirector",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/circleci.yml",
+      "term": "CircleCI artifact redirector"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Test with compiler sanitizers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compiler_sanitizers.yml",
+      "term": "Test with compiler sanitizers"
+    },
+    {
+      "context_snippet": "Test on Cygwin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "term": "Test on Cygwin"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Linux IBM tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ibm.yml",
+      "term": "Linux IBM tests"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    }
+  ]
+}

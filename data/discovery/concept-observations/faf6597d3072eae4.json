@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Emacs libvterm integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terminal-emulator",
+      "sense_id": "terminal-emulator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terminal-emulator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terminal-emulator",
+  "observation_id": "faf6597d3072eae4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "terminal-emulator",
+  "source_context_snippet": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)",
+  "source_file": null,
+  "source_repo": "akermu/emacs-libvterm",
+  "source_repo_description": "Emacs libvterm integration"
+}

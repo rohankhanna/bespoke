@@ -85,6 +85,30 @@
       "source_repo": "adelarsq/neoline.vim",
       "status": "candidate-context",
       "text": "**IMPORTANT: Requires Neovim Nightly**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zefei/vim-wintabs",
+      "status": "candidate-context",
+      "text": "Modern buffer manager for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zefei/vim-wintabs",
+      "status": "candidate-context",
+      "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +147,18 @@
       "source_repo": "adelarsq/neoline.vim",
       "status": "candidate",
       "text": "**IMPORTANT: Requires Neovim Nightly**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zefei/vim-wintabs",
+      "status": "candidate",
+      "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate",
+      "text": "Bubbly statusline for neovim"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +214,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "adelarsq/neoline.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zefei/vim-wintabs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

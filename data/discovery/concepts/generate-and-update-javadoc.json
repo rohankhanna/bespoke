@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate and update Javadoc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "Java SDK for Milvus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "Generate and update Javadoc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate",
+      "text": "Generate and update Javadoc"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18461,
+      "status": "candidate",
+      "text": "xml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18091,
+      "status": "candidate",
+      "text": "customized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10338,
+      "status": "candidate",
+      "text": "archived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10338,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10338,
+      "status": "candidate",
+      "text": "comment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate and update Javadoc",
+  "concept_id": "generate-and-update-javadoc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/generate_javadoc.yml",
+      "source_repo": "milvus-io/milvus-sdk-java"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate and update Javadoc",
+      "sense_id": "generate-and-update-javadoc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -259,6 +259,90 @@
       "source_repo": "teelinsan/camoscio",
       "status": "candidate-context",
       "text": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "INT4/INT5/INT8 and FP16 inference on CPU for RWKV language model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate-context",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "status": "candidate-context",
+      "text": "The multilingual variant of GLM, a general language model trained with autoregressive blank infilling objective "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "status": "candidate-context",
+      "text": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate-context",
+      "text": "Connectionist Temporal Classification (CTC) decoding algorithms: best path, beam search, lexicon search, prefix search, and token passing. Implemented in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate-context",
+      "text": "**Update 2021: installable Python package**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/gpt-neo",
+      "status": "candidate-context",
+      "text": "An implementation of model parallel GPT-2 and GPT-3-style models using the mesh-tensorflow library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/gpt-neo",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5297715.svg)](https://doi.org/10.5281/zenodo.5297715) [![arXiv](https://img.shields.io/badge/arXiv-2101.00027-f9f107.svg)](https://arxiv.org/abs/2101.00027)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/flan-alpaca",
+      "status": "candidate-context",
+      "text": "This repository contains code for extending the Stanford Alpaca synthetic instruction tuning to existing instruction-tuned models such as Flan-T5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/flan-alpaca",
+      "status": "candidate-context",
+      "text": "\ud83d\udce3 We developed Flacuna by fine-tuning Vicuna-13B on the Flan collection. Flacuna is better than Vicuna at problem-solving. Access the model here [https://huggingface.co/declare-lab/flacuna-13b-v1.0](https://huggingface.co/declare-lab/flacuna-13b-v1.0)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate-context",
+      "text": "This repository is maintained to release dataset and models for multimodal puzzle reasoning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate-context",
+      "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +471,48 @@
       "source_repo": "teelinsan/camoscio",
       "status": "candidate",
       "text": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RWKV/rwkv.cpp",
+      "status": "candidate",
+      "text": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "status": "candidate",
+      "text": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubharald/CTCDecoder",
+      "status": "candidate",
+      "text": "**Update 2021: installable Python package**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/gpt-neo",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5297715.svg)](https://doi.org/10.5281/zenodo.5297715) [![arXiv](https://img.shields.io/badge/arXiv-2101.00027-f9f107.svg)](https://arxiv.org/abs/2101.00027)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/flan-alpaca",
+      "status": "candidate",
+      "text": "\ud83d\udce3 We developed Flacuna by fine-tuning Vicuna-13B on the Flan collection. Flacuna is better than Vicuna at problem-solving. Access the model here [https://huggingface.co/declare-lab/flacuna-13b-v1.0](https://huggingface.co/declare-lab/flacuna-13b-v1.0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate",
+      "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -532,11 +658,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "teelinsan/camoscio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/Multilingual-GLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "githubharald/CTCDecoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/flan-alpaca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

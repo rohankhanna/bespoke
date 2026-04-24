@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -452,6 +452,156 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "rom1504/img2dataset"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-submit-android.yml",
+      "source_repo": "bluesky-social/social-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-canon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-canon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-canon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/tree-io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/tree-io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android_ci.yaml.bak",
+      "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/vts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "milvus-io/milvus-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/PR-build.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "clojure/clojurescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-v1docs-gaffer-version.yml",
+      "source_repo": "gchq/gaffer-doc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-gaffer-version.yaml",
+      "source_repo": "gchq/gafferpy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/koryphe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/koryphe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/koryphe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlabs-data/tablesaw-parquet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "dherault/serverless-offline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/branch-testing.yml",
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "snowflakedb/gosnowflake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-aspectj/aspectj"
     }
   ]
 }

@@ -61,6 +61,18 @@
       "source_repo": "multiformats/go-varint",
       "status": "candidate-context",
       "text": "Releaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate-context",
+      "text": "Composable and future-proof network addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate-context",
+      "text": "Releaser"
     }
   ],
   "candidate_glosses": [
@@ -91,6 +103,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "multiformats/go-varint",
+      "status": "candidate",
+      "text": "Releaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-multiaddr",
       "status": "candidate",
       "text": "Releaser"
     }
@@ -196,11 +214,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/releaser.yml",
       "source_repo": "multiformats/go-varint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "multiformats/go-multiaddr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

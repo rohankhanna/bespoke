@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998313,
+      "status": "candidate",
+      "text": "warship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045297,
+      "status": "candidate",
+      "text": "mistrail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045296,
+      "status": "candidate",
+      "text": "tramontana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045295,
+      "status": "candidate",
+      "text": "tramontane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045294,
+      "status": "candidate",
+      "text": "medicane"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mistral",
+      "sense_id": "mistral#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mistral",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mistral",
+  "observation_id": "6ed3f9b271a0ca8b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "mistral",
+  "source_context_snippet": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)",
+  "source_file": null,
+  "source_repo": "beehive-lab/GPULlama3.java",
+  "source_repo_description": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+}

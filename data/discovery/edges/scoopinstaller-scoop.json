@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "aria2/aria2",
+      "target": "scoopinstaller/install",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "calinou/scoop-games",
+      "target": "scoopinstaller/nirsoft",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "matthewjberger/scoop-nerd-fonts",
+      "target": "scoopinstaller/java",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "niheaven/scoop-sysinternals",
+      "target": "scoopinstaller/nonportable",
       "target_type": "repository"
     },
     {
@@ -78,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "ScoopInstaller/Scoop"
 }

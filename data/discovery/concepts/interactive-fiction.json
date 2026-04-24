@@ -31,6 +31,66 @@
       "source_repo": "microsoft/jericho",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiousdannii/parchment",
+      "status": "candidate-context",
+      "text": "The Interactive Fiction web app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/parchment",
+      "status": "candidate-context",
+      "text": "Parchment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "status": "candidate-context",
+      "text": "Agents that build knowledge graphs and explore textual worlds by asking questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "status": "candidate-context",
+      "text": "![Q*BERT](/images/qbertpixel.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiousdannii/asyncglk",
+      "status": "candidate-context",
+      "text": "AsyncGlk: A Typescript Glk library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/asyncglk",
+      "status": "candidate-context",
+      "text": "AsyncGlk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiousdannii/emglken",
+      "status": "candidate-context",
+      "text": "Glk meets Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/emglken",
+      "status": "candidate-context",
+      "text": "Emglken: Glk meets Emscripten"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiousdannii/remglk-rs",
+      "status": "candidate-context",
+      "text": "A Rust port of RemGlk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/remglk-rs",
+      "status": "candidate-context",
+      "text": "RemGlk-rs"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "microsoft/jericho",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/parchment",
+      "status": "candidate",
+      "text": "Parchment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "status": "candidate",
+      "text": "![Q*BERT](/images/qbertpixel.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/asyncglk",
+      "status": "candidate",
+      "text": "AsyncGlk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/emglken",
+      "status": "candidate",
+      "text": "Emglken: Glk meets Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiousdannii/remglk-rs",
+      "status": "candidate",
+      "text": "RemGlk-rs"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +154,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/jericho"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "curiousdannii/parchment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "curiousdannii/asyncglk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "curiousdannii/emglken"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "curiousdannii/remglk-rs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

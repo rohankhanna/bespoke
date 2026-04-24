@@ -55,6 +55,30 @@
       "source_repo": "golang/vscode-go",
       "status": "candidate-context",
       "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate-context",
+      "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension to prettify markdown tables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate-context",
+      "text": "[![Test Status](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "golang/vscode-go",
       "status": "candidate",
       "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-vscode",
+      "status": "candidate",
+      "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

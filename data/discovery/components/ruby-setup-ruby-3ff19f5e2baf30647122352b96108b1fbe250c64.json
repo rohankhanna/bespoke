@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "junegunn/fzf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "hashicorp/vault-ruby"
     }
   ]
 }

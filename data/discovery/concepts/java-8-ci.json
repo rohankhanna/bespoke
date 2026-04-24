@@ -31,6 +31,30 @@
       "source_repo": "filip26/copper-multicodec",
       "status": "candidate-context",
       "text": "Java 8 CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "status": "candidate-context",
+      "text": "An implementation of W3C Standard RDF Dataset Canonicalization (RDFC 1.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "status": "candidate-context",
+      "text": "Java 8 CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "status": "candidate-context",
+      "text": "RDF N-Quads stream reader and writer in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-rdf-n-quads",
+      "status": "candidate-context",
+      "text": "Java 8 CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "filip26/copper-multicodec",
+      "status": "candidate",
+      "text": "Java 8 CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-rdf-canon",
+      "status": "candidate",
+      "text": "Java 8 CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-rdf-n-quads",
       "status": "candidate",
       "text": "Java 8 CI"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/java8-build.yml",
       "source_repo": "filip26/copper-multicodec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-canon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/titanium-rdf-n-quads"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

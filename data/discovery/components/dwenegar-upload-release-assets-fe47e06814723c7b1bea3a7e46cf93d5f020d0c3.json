@@ -1,12 +1,17 @@
 {
   "component": "dwenegar/upload-release-assets@fe47e06814723c7b1bea3a7e46cf93d5f020d0c3",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_package.yml",
       "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio"
     }
   ]
 }

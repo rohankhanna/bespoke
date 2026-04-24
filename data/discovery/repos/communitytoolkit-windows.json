@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "al-cheb/configure-pagefile-action@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "darenm/setup-vstest@3a16d909a1f3bbc65b52f8270d475d905e7d3e44",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "testspace-com/setup-testspace@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "al-cheb/configure-pagefile-action@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "darenm/setup-vstest@3a16d909a1f3bbc65b52f8270d475d905e7d3e44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "testspace-com/setup-testspace@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "uno-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "wasdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "winappsdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "windows-app-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "windows10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "windows11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "winui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "winui-controls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "winui2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "winui3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/Windows",
+      "target": "xaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:24.321994+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/SignClientFileList.txt",
+      "size": 21
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 19216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of controls, helpers and extension for WinUI 2, WinUI 3, and Uno Platform developers. Simplifies and demonstrates common developer tasks building experiences for Windows with .NET.",
+    "fork": false,
+    "full_name": "CommunityToolkit/Windows",
+    "html_url": "https://github.com/CommunityToolkit/Windows",
+    "language": "C#",
+    "pushed_at": "2026-04-12T01:47:44Z",
+    "stargazers_count": 974,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "toolkit",
+      "uno-platform",
+      "uwp",
+      "wasdk",
+      "winappsdk",
+      "windows",
+      "windows-app-sdk",
+      "windows10",
+      "windows11",
+      "winui",
+      "winui-controls",
+      "winui2",
+      "winui3",
+      "xaml"
+    ],
+    "updated_at": "2026-04-23T23:47:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolkit"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uno-platform"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasdk"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winappsdk"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-app-sdk"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows10"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows11"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui-controls"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui2"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui3"
+    },
+    {
+      "context_snippet": "**/CommunityToolkit.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xaml"
+    }
+  ]
+}

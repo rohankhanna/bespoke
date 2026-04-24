@@ -1,0 +1,744 @@
+{
+  "components": [
+    {
+      "component": "Bhacaz/checkout-files@49fc3050859046bf4f4873678d46099985640e89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocopods-deploy.yml"
+    },
+    {
+      "component": "michaelhenry/deploy-to-cocoapods-github-action@745686ab065f90596e0d5cfcf97bb2416d94262e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocopods-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit-main.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status-android.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status-ios.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status-linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocopods-deploy.yml",
+      "source_repo": "google/filament",
+      "target": "Bhacaz/checkout-files@49fc3050859046bf4f4873678d46099985640e89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocopods-deploy.yml",
+      "source_repo": "google/filament",
+      "target": "michaelhenry/deploy-to-cocoapods-github-action@745686ab065f90596e0d5cfcf97bb2416d94262e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocopods-deploy.yml",
+      "source_repo": "google/filament",
+      "target": "CocoaPods Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-deploy.yml",
+      "source_repo": "google/filament",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-deploy.yml",
+      "source_repo": "google/filament",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-deploy.yml",
+      "source_repo": "google/filament",
+      "target": "Npm Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit-main.yml",
+      "source_repo": "google/filament",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit-main.yml",
+      "source_repo": "google/filament",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit-main.yml",
+      "source_repo": "google/filament",
+      "target": "Postsubmit Tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml",
+      "source_repo": "google/filament",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yml",
+      "source_repo": "google/filament",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit.yml",
+      "source_repo": "google/filament",
+      "target": "Postsubmit CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/filament",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/filament",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/filament",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/filament",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/filament",
+      "target": "Presubmit CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/filament",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/filament",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/filament",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/filament",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status-android.yml",
+      "source_repo": "google/filament",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status-android.yml",
+      "source_repo": "google/filament",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status-ios.yml",
+      "source_repo": "google/filament",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status-ios.yml",
+      "source_repo": "google/filament",
+      "target": "iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status-linux.yml",
+      "source_repo": "google/filament",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status-linux.yml",
+      "source_repo": "google/filament",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "gltf-viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "opengl-es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/filament",
+      "target": "webgl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:44.886169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15394
+    },
+    {
+      "path": ".github/workflows/cocopods-deploy.yml",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/npm-deploy.yml",
+      "size": 832
+    },
+    {
+      "path": ".github/workflows/postsubmit-main.yml",
+      "size": 5085
+    },
+    {
+      "path": ".github/workflows/postsubmit.yml",
+      "size": 2877
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 12857
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 12497
+    },
+    {
+      "path": ".github/workflows/status-android.yml",
+      "size": 906
+    },
+    {
+      "path": ".github/workflows/status-ios.yml",
+      "size": 890
+    },
+    {
+      "path": ".github/workflows/status-linux.yml",
+      "size": 898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2",
+    "fork": false,
+    "full_name": "google/filament",
+    "html_url": "https://github.com/google/filament",
+    "language": "C++",
+    "pushed_at": "2026-04-24T06:53:00Z",
+    "stargazers_count": 20007,
+    "topics": [
+      "3d-graphics",
+      "android",
+      "gltf",
+      "gltf-viewer",
+      "graphics",
+      "metal",
+      "opengl",
+      "opengl-es",
+      "pbr",
+      "real-time",
+      "vulkan",
+      "wasm",
+      "webgl"
+    ],
+    "updated_at": "2026-04-24T06:29:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CocoaPods Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocopods-deploy.yml",
+      "term": "CocoaPods Deploy"
+    },
+    {
+      "context_snippet": "Npm Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-deploy.yml",
+      "term": "Npm Deploy"
+    },
+    {
+      "context_snippet": "'Postsubmit Tasks'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit-main.yml",
+      "term": "Postsubmit Tasks"
+    },
+    {
+      "context_snippet": "'Postsubmit CI'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit.yml",
+      "term": "Postsubmit CI"
+    },
+    {
+      "context_snippet": "'Presubmit CI'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit CI"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status-android.yml",
+      "term": "Android"
+    },
+    {
+      "context_snippet": "iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status-ios.yml",
+      "term": "iOS"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status-linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf-viewer"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-es"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgl"
+    }
+  ]
+}

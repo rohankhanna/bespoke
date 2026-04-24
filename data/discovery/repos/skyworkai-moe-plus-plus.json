@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "target": "skyworkai/moh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "target": "skyworkai/skywork-moe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "target": "mixture-of-experts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:38.217081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9809
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts",
+    "fork": false,
+    "full_name": "SkyworkAI/MoE-plus-plus",
+    "html_url": "https://github.com/SkyworkAI/MoE-plus-plus",
+    "language": "Python",
+    "pushed_at": "2024-10-16T06:21:31Z",
+    "stargazers_count": 265,
+    "topics": [
+      "large-language-models",
+      "llms",
+      "mixture-of-experts",
+      "moe"
+    ],
+    "updated_at": "2026-04-14T06:32:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/moh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/skywork-moe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixture-of-experts"
+    }
+  ]
+}

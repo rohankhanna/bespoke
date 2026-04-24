@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@1b549b9259bda1cb5ddde3b41741a82a2d15a841",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "expressjs/body-parser"
+    }
+  ]
+}

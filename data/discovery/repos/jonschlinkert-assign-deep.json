@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "assign-symbols",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "update/update",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "jonschlinkert/assign-symbols",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "jonschlinkert/mixin-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "assign-symbols",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "enumerable-properties",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "extend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/assign-deep",
+      "target": "object",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:12.527682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6124
+    },
+    {
+      "path": "package.json",
+      "size": 1531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deeply assign the enumerable properties of source objects to a destination object.",
+    "fork": false,
+    "full_name": "jonschlinkert/assign-deep",
+    "html_url": "https://github.com/jonschlinkert/assign-deep",
+    "language": "JavaScript",
+    "pushed_at": "2022-02-24T20:10:30Z",
+    "stargazers_count": 78,
+    "topics": [
+      "assign",
+      "enumerable-properties",
+      "extend",
+      "javascript",
+      "jonschlinkert",
+      "merge",
+      "nodejs",
+      "object"
+    ],
+    "updated_at": "2025-08-07T08:41:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/assign-symbols",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/mixin-deep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "update/update",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assign"
+    },
+    {
+      "context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enumerable-properties"
+    },
+    {
+      "context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extend"
+    },
+    {
+      "context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "merge"
+    },
+    {
+      "context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-all.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-all.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-one.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-one.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-one.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dry-run.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dry-run.yml"
+    },
+    {
+      "component": "actions/setup-python@d09bd5e6005b175076f227b13d9730d56e9dcfcb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml"
+    },
+    {
+      "component": "actions/setup-ruby@e932e7af67fc4a8fc77bd86b744acd4e42fe3543",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/list-suites.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-test.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-all.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-all.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-all.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-all.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "Cache all (SLOW!)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-one.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-one.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-one.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-one.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "Cache One",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "Dry run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-python@d09bd5e6005b175076f227b13d9730d56e9dcfcb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-ruby@e932e7af67fc4a8fc77bd86b744acd4e42fe3543",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "Smoke test manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/list-suites.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/list-suites.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "List Suites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-artifacts.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-artifacts.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/refresh-artifacts.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "Refresh artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-test.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-test.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-test.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "Regenerate Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "Smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yamllint.yml",
+      "source_repo": "dependabot/smoke-tests",
+      "target": "yamllint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:21.379831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8662
+    },
+    {
+      "path": ".github/workflows/cache-all.yml",
+      "size": 1366
+    },
+    {
+      "path": ".github/workflows/cache-one.yml",
+      "size": 1217
+    },
+    {
+      "path": ".github/workflows/dry-run.yml",
+      "size": 1113
+    },
+    {
+      "path": ".github/workflows/i-am-a-smoke-test.yml",
+      "size": 442
+    },
+    {
+      "path": ".github/workflows/list-suites.yml",
+      "size": 566
+    },
+    {
+      "path": ".github/workflows/refresh-artifacts.yml",
+      "size": 755
+    },
+    {
+      "path": ".github/workflows/regenerate-test.yml",
+      "size": 9581
+    },
+    {
+      "path": ".github/workflows/smoke.yml",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/yamllint.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot.",
+    "fork": false,
+    "full_name": "dependabot/smoke-tests",
+    "html_url": "https://github.com/dependabot/smoke-tests",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T19:32:53Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-04-23T19:32:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cache all (SLOW!)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-all.yml",
+      "term": "Cache all (SLOW!)"
+    },
+    {
+      "context_snippet": "Cache One",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-one.yml",
+      "term": "Cache One"
+    },
+    {
+      "context_snippet": "Dry run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dry-run.yml",
+      "term": "Dry run"
+    },
+    {
+      "context_snippet": "Smoke test manifest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i-am-a-smoke-test.yml",
+      "term": "Smoke test manifest"
+    },
+    {
+      "context_snippet": "List Suites",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/list-suites.yml",
+      "term": "List Suites"
+    },
+    {
+      "context_snippet": "Refresh artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/refresh-artifacts.yml",
+      "term": "Refresh artifacts"
+    },
+    {
+      "context_snippet": "Regenerate Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-test.yml",
+      "term": "Regenerate Test"
+    },
+    {
+      "context_snippet": "Smoke",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke.yml",
+      "term": "Smoke"
+    },
+    {
+      "context_snippet": "yamllint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yamllint.yml",
+      "term": "yamllint"
+    }
+  ]
+}

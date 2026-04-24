@@ -84,7 +84,7 @@
   "normalized_form": "translate-docs",
   "observation_id": "11c5560f93798341",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Translate Docs",
   "source_context_snippet": "Translate Docs",
   "source_file": ".github/workflows/translate.yaml",

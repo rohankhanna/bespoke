@@ -1,7 +1,8 @@
 {
   "aliases": [
     "CI (Linux)",
-    "CI-Linux"
+    "CI-Linux",
+    "CI Linux"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "pytorch/gloo",
       "status": "candidate-context",
       "text": "CI-Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlblancoc/nanoflann",
+      "status": "candidate-context",
+      "text": "nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/nanoflann",
+      "status": "candidate-context",
+      "text": "CI Linux"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "pytorch/gloo",
       "status": "candidate",
       "text": "CI-Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/nanoflann",
+      "status": "candidate",
+      "text": "CI Linux"
     }
   ],
   "candidate_related_terms": [
@@ -83,6 +102,41 @@
       "score": 6364,
       "status": "candidate",
       "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4718,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4616,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4616,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4616,
+      "status": "candidate",
+      "text": "pasticcio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4616,
+      "status": "candidate",
+      "text": "thousand"
     }
   ],
   "candidate_synonyms": [],
@@ -101,11 +155,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "jlblancoc/nanoflann"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "pytorch/gloo"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

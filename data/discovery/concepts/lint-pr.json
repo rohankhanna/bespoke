@@ -103,6 +103,78 @@
       "source_repo": "vega/vega-embed",
       "status": "candidate-context",
       "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "status": "candidate-context",
+      "text": "Java SDK for Zhipu AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "status": "candidate-context",
+      "text": "NodeJs SDK for ZhiPu AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate-context",
+      "text": "Python SDK for ZhiPu AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "Lint PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "A visualization grammar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
+      "status": "candidate-context",
+      "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "Application lifecycle orchestration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_glosses": [
@@ -153,6 +225,42 @@
       "source_repo": "vega/vega-embed",
       "status": "candidate",
       "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate",
+      "text": "Lint PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega",
+      "status": "candidate",
+      "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +358,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/check-pr.yml",
       "source_repo": "vega/vega-embed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-java-v4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "sparckles/Robyn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/vega"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "akuity/kargo"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

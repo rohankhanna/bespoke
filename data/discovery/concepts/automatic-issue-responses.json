@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automatic issue responses"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "Bitwarden client apps (web, browser extension, desktop, and cli)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate-context",
+      "text": "Automatic issue responses"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/clients",
+      "status": "candidate",
+      "text": "Automatic issue responses"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "answering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "behavior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "behaviour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "input"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "program"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automatic issue responses",
+  "concept_id": "automatic-issue-responses",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/automatic-issue-responses.yml",
+      "source_repo": "bitwarden/clients"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic issue responses",
+      "sense_id": "automatic-issue-responses#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "pr-template-check",
   "observation_id": "849f3b7e9516e29b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "PR Template Check",
   "source_context_snippet": "PR Template Check",
   "source_file": ".github/workflows/pr_template_check.yml",

@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-version.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-version.yml",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-version.yml",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "cachix/install-nix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-version.yml",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "sync-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "hugo-mod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "hugo-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "simple-icons",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:21.911498+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 65
+    },
+    {
+      "path": ".github/workflows/sync-version.yml",
+      "size": 1585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Hugo module for the Simple Icons icon set.",
+    "fork": false,
+    "full_name": "foo-dogsquared/hugo-mod-simple-icons",
+    "html_url": "https://github.com/foo-dogsquared/hugo-mod-simple-icons",
+    "language": "Nix",
+    "pushed_at": "2026-04-22T23:51:23Z",
+    "stargazers_count": 11,
+    "topics": [
+      "hugo-mod",
+      "hugo-module",
+      "simple-icons"
+    ],
+    "updated_at": "2026-04-22T23:51:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "sync-version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-version.yml",
+      "term": "sync-version"
+    },
+    {
+      "context_snippet": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo-mod"
+    },
+    {
+      "context_snippet": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo-module"
+    },
+    {
+      "context_snippet": "module github.com/foo-dogsquared/hugo-mod-simple-icons go 1.15",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple-icons"
+    }
+  ]
+}

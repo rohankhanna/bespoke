@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f AllenNLP plugin for adding subcommands to use Optuna, making hyperparameter optimization easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "parameterization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "parameters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "parametrization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "parameterized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "parameter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperparameters",
+      "sense_id": "hyperparameters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hyperparameters",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hyperparameters",
+  "observation_id": "f015932c068d67a5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "hyperparameters",
+  "source_context_snippet": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for",
+  "source_file": null,
+  "source_repo": "himkt/allennlp-optuna",
+  "source_repo_description": "\u26a1\ufe0f AllenNLP plugin for adding subcommands to use Optuna, making hyperparameter optimization easy"
+}

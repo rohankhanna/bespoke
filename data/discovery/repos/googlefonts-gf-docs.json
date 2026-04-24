@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:58:07.250438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Documentation for things related to github.com/google/fonts",
+    "fork": false,
+    "full_name": "googlefonts/gf-docs",
+    "html_url": "https://github.com/googlefonts/gf-docs",
+    "language": null,
+    "pushed_at": "2022-07-07T13:12:17Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2025-12-21T21:14:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

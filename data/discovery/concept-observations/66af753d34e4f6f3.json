@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Make JSON greppable!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/tomnomnom/gron go 1.24 require ( github.com/fatih/color v1.18.0 github.com/mattn/go-colorable v0.1.14 github.com/nwidger/jsoncolor v0.3.2 github.com/pkg/errors v0.9.1 ) require ( github.com/mattn/go-isatty v0.0.20 // indirect golang.org/x/sys v0.33.0 // indirec\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/tomnomnom/gron go 1.24 require ( github.com/fatih/color v1.18.0 github.com/mattn/go-colorable v0.1.14 github.com/nwidger/jsoncolor v0.3.2 github.com/pkg/errors v0.9.1 ) require ( github.com/mattn/go-isatty v0.0.20 // indirect golang.org/x/sys v0.33.0 // indirec\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022791,
+      "status": "candidate",
+      "text": "ecmascript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022790,
+      "status": "candidate",
+      "text": "cbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022789,
+      "status": "candidate",
+      "text": "javascripting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022788,
+      "status": "candidate",
+      "text": "jsni"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "json",
+      "sense_id": "json#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "json",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "json",
+  "observation_id": "66af753d34e4f6f3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "json",
+  "source_context_snippet": "module github.com/tomnomnom/gron go 1.24 require ( github.com/fatih/color v1.18.0 github.com/mattn/go-colorable v0.1.14 github.com/nwidger/jsoncolor v0.3.2 github.com/pkg/errors v0.9.1 ) require ( github.com/mattn/go-isatty v0.0.20 // indirect golang.org/x/sys v0.33.0 // indirec\u2026",
+  "source_file": null,
+  "source_repo": "tomnomnom/gron",
+  "source_repo_description": "Make JSON greppable!"
+}

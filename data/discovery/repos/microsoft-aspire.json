@@ -193,20 +193,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/aspire",
-      "target": "microsoft/aspire-samples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/aspire",
-      "target": "microsoft/dcp",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
@@ -389,7 +375,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:56:46.477612+00:00",
+  "fetched_at": "2026-04-24T08:09:39.681992+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -441,8 +427,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-04-23T19:42:20Z",
-    "stargazers_count": 5850,
+    "pushed_at": "2026-04-24T08:07:42Z",
+    "stargazers_count": 5851,
     "topics": [
       "cloud",
       "dotnet",
@@ -450,20 +436,9 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-04-23T19:42:22Z"
+    "updated_at": "2026-04-24T04:58:15Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/aspire-samples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/dcp",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Auto rerun transient CI failures",

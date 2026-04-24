@@ -55,6 +55,66 @@
       "source_repo": "Meteor-Community-Packages/meteor-scss",
       "status": "candidate-context",
       "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taritsyn/LibSassHost",
+      "status": "candidate-context",
+      "text": ".NET wrapper around the LibSass library with the ability to support a virtual file system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taritsyn/LibSassHost",
+      "status": "candidate-context",
+      "text": "LibSass Host for .NET [![NuGet version](https://img.shields.io/nuget/v/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/) [![Download count](https://img.shields.io/nuget/dt/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fontsource/fontsource",
+      "status": "candidate-context",
+      "text": "Self-host Open Source fonts in neatly bundled NPM packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fontsource/fontsource",
+      "status": "candidate-context",
+      "text": "[![Generic badge](https://img.shields.io/badge/fontsource-passing-brightgreen)](https://github.com/fontsource/fontsource) [![Monthly NPM Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmain%2Fdata%2\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby",
+      "status": "candidate-context",
+      "text": ":gem: A Ruby library that will communicate with Embedded Dart Sass using the Embedded Sass protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml/badge.svg)](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootscore/bootscore",
+      "status": "candidate-context",
+      "text": "Flexible Bootstrap WordPress starter theme with full WooCommerce support and built-in SCSS compiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootscore/bootscore",
+      "status": "candidate-context",
+      "text": "<br>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +141,36 @@
       "source_repo": "Meteor-Community-Packages/meteor-scss",
       "status": "candidate",
       "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taritsyn/LibSassHost",
+      "status": "candidate",
+      "text": "LibSass Host for .NET [![NuGet version](https://img.shields.io/nuget/v/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/) [![Download count](https://img.shields.io/nuget/dt/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fontsource/fontsource",
+      "status": "candidate",
+      "text": "[![Generic badge](https://img.shields.io/badge/fontsource-passing-brightgreen)](https://github.com/fontsource/fontsource) [![Monthly NPM Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmain%2Fdata%2\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass-contrib/sass-embedded-host-ruby",
+      "status": "candidate",
+      "text": "[![build](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml/badge.svg)](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootscore/bootscore",
+      "status": "candidate",
+      "text": "<br>"
     }
   ],
   "candidate_related_terms": [
@@ -177,11 +267,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Meteor-Community-Packages/meteor-scss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Taritsyn/LibSassHost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "diffplug/spotless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fontsource/fontsource"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sass-contrib/sass-embedded-host-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bootscore/bootscore"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

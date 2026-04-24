@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
+      "target": "hiyouga/fastedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/LlamaFactory",
       "target": "facebookresearch/llama",
       "target_type": "repository"
     },
@@ -18,14 +25,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "conardli/easy-dataset",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hiyouga/LlamaFactory",
-      "target": "deepseek-ai/deepseek-llm",
+      "target": "fudandisc/disc-lawllm",
       "target_type": "repository"
     },
     {
@@ -295,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "hiyouga/LlamaFactory"
 }

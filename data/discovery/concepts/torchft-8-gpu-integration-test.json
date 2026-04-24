@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "TorchFT 8 GPU Integration Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "status": "candidate-context",
+      "text": "A PyTorch native platform for training generative AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "status": "candidate-context",
+      "text": "TorchFT 8 GPU Integration Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMD-AGI/torchtitan-amd",
+      "status": "candidate",
+      "text": "TorchFT 8 GPU Integration Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26123,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26030,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18576,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10520,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10520,
+      "status": "candidate",
+      "text": "advance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "TorchFT 8 GPU Integration Test",
+  "concept_id": "torchft-8-gpu-integration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/integration_test_8gpu_torchft.yaml",
+      "source_repo": "AMD-AGI/torchtitan-amd"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TorchFT 8 GPU Integration Test",
+      "sense_id": "torchft-8-gpu-integration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

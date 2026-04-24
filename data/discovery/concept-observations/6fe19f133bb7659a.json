@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SOLO and SOLOv2 for instance segmentation, ECCV 2020 & NeurIPS 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project hosts the code for implementing the SOLO algorithms for instance segmentation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project hosts the code for implementing the SOLO algorithms for instance segmentation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object-detection",
+      "sense_id": "object-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "object-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "object-detection",
+  "observation_id": "6fe19f133bb7659a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "object-detection",
+  "source_context_snippet": "This project hosts the code for implementing the SOLO algorithms for instance segmentation.",
+  "source_file": null,
+  "source_repo": "WXinlong/SOLO",
+  "source_repo_description": "SOLO and SOLOv2 for instance segmentation, ECCV 2020 & NeurIPS 2020."
+}

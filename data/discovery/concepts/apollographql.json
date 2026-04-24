@@ -19,6 +19,42 @@
       "source_repo": "apollographql/apollo-client",
       "status": "candidate-context",
       "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1 \u00a0A strongly-typed, caching GraphQL client for iOS, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate-context",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "Apollo GraphQL VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d \u00a0Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate-context",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "apollographql/apollo-client",
       "status": "candidate",
       "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/vscode-graphql",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-server",
+      "status": "candidate",
+      "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/vscode-graphql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-server"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

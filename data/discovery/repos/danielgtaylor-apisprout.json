@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout",
+      "target": "mock-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/apisprout",
+      "target": "openapi3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:22.825025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4169
+    },
+    {
+      "path": "Dockerfile",
+      "size": 337
+    },
+    {
+      "path": "go.mod",
+      "size": 657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight, blazing fast, cross-platform OpenAPI 3 mock server with validation",
+    "fork": false,
+    "full_name": "danielgtaylor/apisprout",
+    "html_url": "https://github.com/danielgtaylor/apisprout",
+    "language": "Go",
+    "pushed_at": "2022-11-28T15:41:40Z",
+    "stargazers_count": 719,
+    "topics": [
+      "docker-image",
+      "examples",
+      "hacktoberfest",
+      "mock-server",
+      "openapi",
+      "openapi3"
+    ],
+    "updated_at": "2026-04-15T12:55:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mock-server"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    }
+  ]
+}

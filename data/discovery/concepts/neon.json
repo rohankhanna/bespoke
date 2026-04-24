@@ -139,6 +139,30 @@
       "source_repo": "WojciechMula/base64simd",
       "status": "candidate-context",
       "text": "================================================================================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate-context",
+      "text": "DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate-context",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated UTF-8 validation for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "WojciechMula/base64simd",
       "status": "candidate",
       "text": "================================================================================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXMath",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusticstuff/simdutf8",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -317,11 +353,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "WojciechMula/base64simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rusticstuff/simdutf8"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

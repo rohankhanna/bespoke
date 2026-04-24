@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "optimisation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "Nonlinear optimisation (root-finding, least squares, ...) in JAX+Equinox. https://docs.kidger.site/optimistix/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Optimistix</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/optimistix",
+      "status": "candidate",
+      "text": "<h1 align='center'>Optimistix</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983432,
+      "status": "candidate",
+      "text": "optimizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980652,
+      "status": "candidate",
+      "text": "maximization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978035,
+      "status": "candidate",
+      "text": "streamlining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974847,
+      "status": "candidate",
+      "text": "maximum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972109,
+      "status": "candidate",
+      "text": "enhancement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "optimisation",
+  "concept_id": "optimisation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/optimistix"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimisation",
+      "sense_id": "optimisation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

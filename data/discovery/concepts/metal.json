@@ -115,6 +115,18 @@
       "source_repo": "ashvardanian/ParallelReductionsBenchmark",
       "status": "candidate-context",
       "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/filament",
+      "status": "candidate-context",
+      "text": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/filament",
+      "status": "candidate-context",
+      "text": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "ashvardanian/ParallelReductionsBenchmark",
       "status": "candidate",
       "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/filament",
+      "status": "candidate",
+      "text": "[![Android Build Status](https://github.com/google/filament/actions/workflows/status-android.yml/badge.svg)](https://github.com/google/filament/actions/workflows/status-android.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +313,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ParallelReductionsBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google/filament"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "gregsdennis/dependencies-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependencies.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "source_repo": "json-schema-org/.github",
+      "target": "gregsdennis/dependencies-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "source_repo": "json-schema-org/.github",
+      "target": "Check PR Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "json-schema-org/.github",
+      "target": "openjs-foundation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:45.429287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/pr-dependencies.yml",
+      "size": 251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Our organization-wide Code of Conduct. Also see the community repository.",
+    "fork": false,
+    "full_name": "json-schema-org/.github",
+    "html_url": "https://github.com/json-schema-org/.github",
+    "language": null,
+    "pushed_at": "2025-12-27T15:04:22Z",
+    "stargazers_count": 12,
+    "topics": [
+      "openjs-foundation"
+    ],
+    "updated_at": "2026-01-02T11:30:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check PR Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "term": "Check PR Dependencies"
+    },
+    {
+      "context_snippet": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openjs-foundation"
+    }
+  ]
+}

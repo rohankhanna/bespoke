@@ -1,0 +1,866 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-release-pongo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-grep.yml"
+    },
+    {
+      "component": "toshimaru/auto-author-assign@ebd30f10fb56e46eb0759a14951f36991426fed0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignee.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@8621497c8c39c72f3e2a999a26b4ca1b5058a842",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-fail-bot.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-fail-bot.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-fail-bot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-v2.yml"
+    },
+    {
+      "component": "korthout/backport-action@924c8170740fa1e3685f69014971f7f251633f53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-v2.yml"
+    },
+    {
+      "component": "Kong/action-add-labels@81b0a07d6b2ec64d770be1ca94c31ec827418054",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-v2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "Kong/gh-storage/download@b196a6b94032e56e414227c749e9f96a6afc2b91",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "Kong/gateway-test-scheduler/schedule@69f0c2a562ac44fc3650b8bfa62106b34094b5ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "Kong/gateway-test-scheduler/runner@69f0c2a562ac44fc3650b8bfa62106b34094b5ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kong",
+      "target": "kong/kubernetes-ingress-controller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kong",
+      "target": "kong/docker-kong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kong",
+      "target": "kong/deck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kong",
+      "target": "kong/kong-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-release-pongo.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-release-pongo.yml",
+      "source_repo": "Kong/kong",
+      "target": "Add New Release to Pongo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-grep.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ast-grep.yml",
+      "source_repo": "Kong/kong",
+      "target": "ast-grep lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "source_repo": "Kong/kong",
+      "target": "toshimaru/auto-author-assign@ebd30f10fb56e46eb0759a14951f36991426fed0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "source_repo": "Kong/kong",
+      "target": "Add assignee to PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yml",
+      "source_repo": "Kong/kong",
+      "target": "stefanzweifel/git-auto-commit-action@8621497c8c39c72f3e2a999a26b4ca1b5058a842",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autodocs.yml",
+      "source_repo": "Kong/kong",
+      "target": "Autodocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-fail-bot.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-fail-bot.yml",
+      "source_repo": "Kong/kong",
+      "target": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-fail-bot.yml",
+      "source_repo": "Kong/kong",
+      "target": "Forward failed backport alert to Slack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-v2.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-v2.yml",
+      "source_repo": "Kong/kong",
+      "target": "korthout/backport-action@924c8170740fa1e3685f69014971f7f251633f53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-v2.yml",
+      "source_repo": "Kong/kong",
+      "target": "Kong/action-add-labels@81b0a07d6b2ec64d770be1ca94c31ec827418054",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-v2.yml",
+      "source_repo": "Kong/kong",
+      "target": "Backport v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Kong/kong",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "Kong/gh-storage/download@b196a6b94032e56e414227c749e9f96a6afc2b91",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "Kong/gateway-test-scheduler/schedule@69f0c2a562ac44fc3650b8bfa62106b34094b5ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "Kong/gateway-test-scheduler/runner@69f0c2a562ac44fc3650b8bfa62106b34094b5ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "Kong/kong",
+      "target": "Build & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "Kong/kong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "Kong/kong",
+      "target": "Buildifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "ai-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "api-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "api-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "apis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "kubernetes-ingress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "kubernetes-ingress-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "llm-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "llm-ops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "mcp-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "microservice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "openai-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:18.073889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9314
+    },
+    {
+      "path": ".github/workflows/add-release-pongo.yml",
+      "size": 1743
+    },
+    {
+      "path": ".github/workflows/ast-grep.yml",
+      "size": 4202
+    },
+    {
+      "path": ".github/workflows/auto-assignee.yml",
+      "size": 483
+    },
+    {
+      "path": ".github/workflows/autodocs.yml",
+      "size": 5032
+    },
+    {
+      "path": ".github/workflows/backport-fail-bot.yml",
+      "size": 1946
+    },
+    {
+      "path": ".github/workflows/backport-v2.yml",
+      "size": 1593
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2105
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 16333
+    },
+    {
+      "path": ".github/workflows/buildifier.yml",
+      "size": 1590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd8d The API and AI Gateway",
+    "fork": false,
+    "full_name": "Kong/kong",
+    "html_url": "https://github.com/Kong/kong",
+    "language": "Lua",
+    "pushed_at": "2026-03-27T17:42:51Z",
+    "stargazers_count": 43246,
+    "topics": [
+      "ai",
+      "ai-gateway",
+      "api-gateway",
+      "api-management",
+      "apis",
+      "artificial-intelligence",
+      "cloud-native",
+      "devops",
+      "kubernetes",
+      "kubernetes-ingress",
+      "kubernetes-ingress-controller",
+      "llm-gateway",
+      "llm-ops",
+      "mcp",
+      "mcp-gateway",
+      "microservice",
+      "microservices",
+      "openai-proxy",
+      "reverse-proxy",
+      "serverless"
+    ],
+    "updated_at": "2026-04-24T07:06:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kong/deck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kong/docker-kong",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kong/kong-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kong/kubernetes-ingress-controller",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add New Release to Pongo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-release-pongo.yml",
+      "term": "Add New Release to Pongo"
+    },
+    {
+      "context_snippet": "ast-grep lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ast-grep.yml",
+      "term": "ast-grep lint"
+    },
+    {
+      "context_snippet": "Add assignee to PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "term": "Add assignee to PRs"
+    },
+    {
+      "context_snippet": "Autodocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autodocs.yml",
+      "term": "Autodocs"
+    },
+    {
+      "context_snippet": "Forward failed backport alert to Slack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-fail-bot.yml",
+      "term": "Forward failed backport alert to Slack"
+    },
+    {
+      "context_snippet": "Backport v2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-v2.yml",
+      "term": "Backport v2"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "term": "Build & Test"
+    },
+    {
+      "context_snippet": "Buildifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yml",
+      "term": "Buildifier"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-gateway"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-gateway"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-management"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apis"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-ingress"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-ingress-controller"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-gateway"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-ops"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-gateway"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-proxy"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxy"
+    },
+    {
+      "context_snippet": "[![][kong-logo]][kong-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

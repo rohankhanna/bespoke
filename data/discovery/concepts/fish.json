@@ -271,6 +271,30 @@
       "source_repo": "ddworken/hishtory",
       "status": "candidate-context",
       "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate-context",
+      "text": "A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jorgebucaran/nvm.fish",
+      "status": "candidate-context",
+      "text": "The Node.js version manager you'll adore, crafted just for Fish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/nvm.fish",
+      "status": "candidate-context",
+      "text": "> The Node.js version manager you'll adore, crafted just for [Fish](https://fishshell.com)."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "ddworken/hishtory",
       "status": "candidate",
       "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alebcay/awesome-shell",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/nvm.fish",
+      "status": "candidate",
+      "text": "> The Node.js version manager you'll adore, crafted just for [Fish](https://fishshell.com)."
     }
   ],
   "candidate_related_terms": [
@@ -616,11 +652,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alebcay/awesome-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jorgebucaran/nvm.fish"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

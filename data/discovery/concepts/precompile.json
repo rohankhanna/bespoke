@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "precompile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "Elixir extension for libvips"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "precompile"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate",
+      "text": "precompile"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019229,
+      "status": "candidate",
+      "text": "precache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019228,
+      "status": "candidate",
+      "text": "precompute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019227,
+      "status": "candidate",
+      "text": "precommit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019226,
+      "status": "candidate",
+      "text": "preprocess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019225,
+      "status": "candidate",
+      "text": "prebuild"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "precompile",
+  "concept_id": "precompile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/precompile.yaml",
+      "source_repo": "akash-akya/vix"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "precompile",
+      "sense_id": "precompile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

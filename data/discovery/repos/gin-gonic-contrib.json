@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/contrib",
+      "target": "akhettar/gin-jwt-cognito",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/contrib",
+      "target": "alibaba/opentelemetry-go-auto-instrumentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/contrib",
+      "target": "39george/scs_gin_adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/contrib",
+      "target": "alexedwards/scs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:40.905554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of middlewares created by the community",
+    "fork": false,
+    "full_name": "gin-gonic/contrib",
+    "html_url": "https://github.com/gin-gonic/contrib",
+    "language": "Go",
+    "pushed_at": "2026-01-01T09:16:03Z",
+    "stargazers_count": 2209,
+    "topics": [],
+    "updated_at": "2026-04-21T08:24:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "39george/scs_gin_adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akhettar/gin-jwt-cognito",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexedwards/scs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/opentelemetry-go-auto-instrumentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

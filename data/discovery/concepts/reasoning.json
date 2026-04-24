@@ -55,6 +55,30 @@
       "source_repo": "CJReinforce/PURE",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRIME-RL/PRIME",
+      "status": "candidate-context",
+      "text": "Scalable RL solution for advanced reasoning of language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIME-RL/PRIME",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shawn0728/ARES",
+      "status": "candidate-context",
+      "text": "[ICLR 2026]\ud83c\udf34 ARES is an open-source framework for adaptive multimodal reasoning, featuring a two-stage pipeline\u2014Adaptive Cold-Start and Entropy-Shaped Policy Optimization\u2014to balance reasoning depth and efficiency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/ARES",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "CJReinforce/PURE",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIME-RL/PRIME",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/ARES",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -183,11 +219,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CJReinforce/PURE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PRIME-RL/PRIME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

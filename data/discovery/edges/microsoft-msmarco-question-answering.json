@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "microsoft/msmarco-openkp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "dfcf93/msmarcov2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "baidu/dureader",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "microsoft/MSMARCO-Question-Answering"
+}

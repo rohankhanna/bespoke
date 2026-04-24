@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/STTN",
+      "target": "completing-videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/STTN",
+      "target": "spatial-temporal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/STTN",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/STTN",
+      "target": "video-inpainting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:52.996247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV'2020] STTN: Learning Joint Spatial-Temporal Transformations for Video Inpainting",
+    "fork": false,
+    "full_name": "researchmm/STTN",
+    "html_url": "https://github.com/researchmm/STTN",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-06-18T03:59:02Z",
+    "stargazers_count": 548,
+    "topics": [
+      "completing-videos",
+      "spatial-temporal",
+      "transformer",
+      "video-inpainting"
+    ],
+    "updated_at": "2026-04-17T02:40:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completing-videos"
+    },
+    {
+      "context_snippet": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-temporal"
+    },
+    {
+      "context_snippet": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-inpainting"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ming024/FastSpeech2",
+      "target": "xcmyz/fastspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ming024/FastSpeech2",
+      "target": "rishikksh20/fastspeech2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:37.782166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7299
+    },
+    {
+      "path": "requirements.txt",
+      "size": 289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of Microsoft's \"FastSpeech 2: Fast and High-Quality End-to-End Text to Speech\"",
+    "fork": false,
+    "full_name": "ming024/FastSpeech2",
+    "html_url": "https://github.com/ming024/FastSpeech2",
+    "language": "Python",
+    "pushed_at": "2023-10-27T04:35:58Z",
+    "stargazers_count": 2164,
+    "topics": [],
+    "updated_at": "2026-04-19T02:36:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rishikksh20/fastspeech2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcmyz/fastspeech",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

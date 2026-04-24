@@ -67,6 +67,18 @@
       "source_repo": "acheong08/EdgeGPT",
       "status": "candidate-context",
       "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "acheong08/EdgeGPT",
       "status": "candidate",
       "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate",
+      "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bet4it/udbserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

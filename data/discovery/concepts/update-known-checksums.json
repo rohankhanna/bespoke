@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update known checksums"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate-context",
+      "text": "\"Update known checksums\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff-action",
+      "status": "candidate",
+      "text": "\"Update known checksums\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19825,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19825,
+      "status": "candidate",
+      "text": "password"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11805,
+      "status": "candidate",
+      "text": "audio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11805,
+      "status": "candidate",
+      "text": "hash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11805,
+      "status": "candidate",
+      "text": "url"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update known checksums",
+  "concept_id": "update-known-checksums",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-known-checksums.yml",
+      "source_repo": "astral-sh/ruff-action"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update known checksums",
+      "sense_id": "update-known-checksums#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

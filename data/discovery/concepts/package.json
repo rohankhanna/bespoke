@@ -118,6 +118,54 @@
       "source_repo": "ramasilveyra/gitpkg",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "One command brings a complete pre-wired LLM stack with hundreds of services to explore."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate-context",
+      "text": "Freeze (package) Python programs into stand-alone executables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate-context",
+      "text": "PyInstaller Overview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snapcast/snapcast",
+      "status": "candidate-context",
+      "text": "Synchronous multiroom audio player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapcast",
+      "status": "candidate-context",
+      "text": "Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "Client Tools for NuGet - including Visual Studio extensions, command line tools, and msbuild support. (Open issues on https://github.com/nuget/home/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate-context",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +222,30 @@
       "source_repo": "ramasilveyra/gitpkg",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "av/harbor",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyinstaller/pyinstaller",
+      "status": "candidate",
+      "text": "PyInstaller Overview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapcast",
+      "status": "candidate",
+      "text": "Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGet.Client",
+      "status": "candidate",
+      "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
     }
   ],
   "candidate_related_terms": [
@@ -342,11 +414,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/ci-pkg-install.yml",
       "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/NuGet.Client"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

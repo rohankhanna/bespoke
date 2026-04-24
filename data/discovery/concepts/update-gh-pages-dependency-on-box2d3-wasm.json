@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update gh-pages dependency on box2d3-wasm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Birch-san/box2d3-wasm",
+      "status": "candidate-context",
+      "text": "Box2D v3 for the Web, using WASM + SIMD + Web Workers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Birch-san/box2d3-wasm",
+      "status": "candidate-context",
+      "text": "Update gh-pages dependency on box2d3-wasm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Birch-san/box2d3-wasm",
+      "status": "candidate",
+      "text": "Update gh-pages dependency on box2d3-wasm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "posted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update gh-pages dependency on box2d3-wasm",
+  "concept_id": "update-gh-pages-dependency-on-box2d3-wasm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/update-gh-pages-deps.yml",
+      "source_repo": "Birch-san/box2d3-wasm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update gh-pages dependency on box2d3-wasm",
+      "sense_id": "update-gh-pages-dependency-on-box2d3-wasm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

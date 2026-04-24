@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-nix.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nimbus-build-system",
+      "target": "status-im/nim-status-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nimbus-build-system",
+      "target": "nim-lang/nim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nimbus-build-system",
+      "target": "myorg/my-nim-fork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nimbus-build-system",
+      "target": "status-im/nim-nat-traversal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-nix.yml",
+      "source_repo": "status-im/nimbus-build-system",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nimbus-build-system",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nimbus-build-system",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:59:06.086380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14758
+    },
+    {
+      "path": ".github/workflows/ci-nix.yml",
+      "size": 841
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "common parts of the build system used by Nimbus and related projects",
+    "fork": false,
+    "full_name": "status-im/nimbus-build-system",
+    "html_url": "https://github.com/status-im/nimbus-build-system",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T01:16:01Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-22T01:16:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "myorg/my-nim-fork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nim-lang/nim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-nat-traversal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-status-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

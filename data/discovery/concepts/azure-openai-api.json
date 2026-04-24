@@ -19,6 +19,18 @@
       "source_repo": "songquanpeng/one-api",
       "status": "candidate-context",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate-context",
+      "text": "Convert different model APIs into the OpenAI API format out of the box."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate-context",
+      "text": "![](.github/assets/aoa.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "songquanpeng/one-api",
       "status": "candidate",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate",
+      "text": "![](.github/assets/aoa.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "songquanpeng/one-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -80,6 +80,66 @@
       "source_repo": "rust-bitcoin/rust-miniscript",
       "status": "candidate-context",
       "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apoelstra/rust-jsonrpc",
+      "status": "candidate-context",
+      "text": "Rust JSONRPC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apoelstra/rust-jsonrpc",
+      "status": "candidate-context",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate-context",
+      "text": "CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate-context",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/libssz",
+      "status": "candidate-context",
+      "text": "A fast, zkVM-friendly SSZ library for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/libssz",
+      "status": "candidate-context",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msgpack/msgpack-javascript",
+      "status": "candidate-context",
+      "text": "@msgpack/msgpack - MessagePack for JavaScript / msgpack.org[ECMA-262/JavaScript/TypeScript]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msgpack/msgpack-javascript",
+      "status": "candidate-context",
+      "text": "Fuzz"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +176,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-bitcoin/rust-miniscript",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apoelstra/rust-jsonrpc",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLIUtils/CLI11",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/libssz",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msgpack/msgpack-javascript",
       "status": "candidate",
       "text": "Fuzz"
     }
@@ -251,11 +341,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "apoelstra/rust-jsonrpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "cure53/DOMPurify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "CLIUtils/CLI11"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "lambdaclass/libssz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "msgpack/msgpack-javascript"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "ymcui/chinese-bert-wwm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "sinovation/zen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "acl2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "biomedical-tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "chineseblue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "target": "evaluation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:28.282854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark",
+    "fork": false,
+    "full_name": "CBLUEbenchmark/CBLUE",
+    "html_url": "https://github.com/CBLUEbenchmark/CBLUE",
+    "language": "Python",
+    "pushed_at": "2023-05-03T15:28:49Z",
+    "stargazers_count": 841,
+    "topics": [
+      "acl2022",
+      "benchmark",
+      "biomedical-tasks",
+      "chinese",
+      "chineseblue",
+      "corpus",
+      "dataset",
+      "evaluation"
+    ],
+    "updated_at": "2026-04-22T17:26:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sinovation/zen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-bert-wwm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acl2022"
+    },
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biomedical-tasks"
+    },
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chineseblue"
+    },
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corpus"
+    },
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    }
+  ]
+}

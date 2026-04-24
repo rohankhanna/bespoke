@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:16:23.548751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clone of EditorConfig core written in Java",
+    "fork": false,
+    "full_name": "editorconfig/editorconfig-core-java",
+    "html_url": "https://github.com/editorconfig/editorconfig-core-java",
+    "language": "Java",
+    "pushed_at": "2025-04-21T07:18:10Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-04-19T04:24:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

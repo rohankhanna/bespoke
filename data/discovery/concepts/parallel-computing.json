@@ -43,6 +43,30 @@
       "source_repo": "beehive-lab/TornadoVM",
       "status": "candidate-context",
       "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FEniCS/dolfinx",
+      "status": "candidate-context",
+      "text": "Next generation FEniCS problem solving environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FEniCS/dolfinx",
+      "status": "candidate-context",
+      "text": "[![DOLFINx CI](https://github.com/FEniCS/dolfinx/actions/workflows/ccpp.yml/badge.svg)](https://github.com/FEniCS/dolfinx/actions/workflows/ccpp.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate-context",
+      "text": "A General-purpose Task-parallel Programming System in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate-context",
+      "text": "[![Ubuntu](https://github.com/taskflow/taskflow/workflows/Ubuntu/badge.svg)](https://github.com/taskflow/taskflow/actions?query=workflow%3AUbuntu)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "beehive-lab/TornadoVM",
       "status": "candidate",
       "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FEniCS/dolfinx",
+      "status": "candidate",
+      "text": "[![DOLFINx CI](https://github.com/FEniCS/dolfinx/actions/workflows/ccpp.yml/badge.svg)](https://github.com/FEniCS/dolfinx/actions/workflows/ccpp.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate",
+      "text": "[![Ubuntu](https://github.com/taskflow/taskflow/workflows/Ubuntu/badge.svg)](https://github.com/taskflow/taskflow/actions?query=workflow%3AUbuntu)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FEniCS/dolfinx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "taskflow/taskflow"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -133,6 +133,42 @@
       "source_repo": "criterion-rs/criterion.rs",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate-context",
+      "text": "A thread-per-core async Rust runtime with IOCP/io_uring/polling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/rust-sdk",
+      "status": "candidate-context",
+      "text": "The official Rust SDK for the Model Context Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/rust-sdk",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate-context",
+      "text": "A generic framework for on-demand, incrementalized computation. Inspired by adapton, glimmer, and rustc's query system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salsa-rs/salsa",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -199,6 +235,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/rust-sdk",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salsa-rs/salsa",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -304,11 +358,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "criterion-rs/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cd_release.yml",
+      "source_repo": "compio-rs/compio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "modelcontextprotocol/rust-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "salsa-rs/salsa"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

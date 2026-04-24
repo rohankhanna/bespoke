@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pdf-rs/pdf_render",
+      "target": "s3bk/pdf_fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "pdf-rs/pdf_render",
+      "target": "servo/pathfinder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "pdf-rs/pdf_render",
+      "target": "s3bk/pathfinder_view",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "pdf-rs/pdf_render",
+      "target": "pdf-rs/font",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:26.279981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 729
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "pdf-rs/pdf_render",
+    "html_url": "https://github.com/pdf-rs/pdf_render",
+    "language": "Rust",
+    "pushed_at": "2026-03-02T05:20:36Z",
+    "stargazers_count": 153,
+    "topics": [],
+    "updated_at": "2026-04-16T05:35:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s3bk/pdf_fonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pdf-rs/font",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s3bk/pathfinder_view",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "servo/pathfinder",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

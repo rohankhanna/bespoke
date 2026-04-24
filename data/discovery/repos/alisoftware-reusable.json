@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:04:25.855337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Swift mixin for reusing views easily and in a type-safe way (UITableViewCells, UICollectionViewCells, custom UIViews, ViewControllers, Storyboards\u2026)",
+    "fork": false,
+    "full_name": "AliSoftware/Reusable",
+    "html_url": "https://github.com/AliSoftware/Reusable",
+    "language": "Swift",
+    "pushed_at": "2023-09-11T13:52:18Z",
+    "stargazers_count": 2989,
+    "topics": [],
+    "updated_at": "2026-04-21T13:09:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

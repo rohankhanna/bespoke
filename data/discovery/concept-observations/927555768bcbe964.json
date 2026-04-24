@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides standard objects and functions for working with dates and times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'enforce format'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'enforce format'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "apply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "applying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "coerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10634,
+      "status": "candidate",
+      "text": "coerced"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "enforce format",
+      "sense_id": "enforce-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enforce-format",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enforce-format",
+  "observation_id": "927555768bcbe964",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "enforce format",
+  "source_context_snippet": "'enforce format'",
+  "source_file": ".github/workflows/enforce-format.yml",
+  "source_repo": "tc39/proposal-temporal",
+  "source_repo_description": "Provides standard objects and functions for working with dates and times."
+}

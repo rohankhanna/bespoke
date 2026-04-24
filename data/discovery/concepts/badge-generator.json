@@ -19,6 +19,30 @@
       "source_repo": "badgen/badgen.net",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxy/no-ai-badge",
+      "status": "candidate-context",
+      "text": ":name_badge: Differentiate your project from vibe-coded slop using this badge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxy/no-ai-badge",
+      "status": "candidate-context",
+      "text": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate-context",
+      "text": "Create a badge using GitHub Actions and GitHub Workflow CPU time (no 3rd parties servers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/test.yml](https://github.com/emibcn/badge-action/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/emibcn/badge-action/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "badgen/badgen.net",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxy/no-ai-badge",
+      "status": "candidate",
+      "text": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/badge-action",
+      "status": "candidate",
+      "text": "[![.github/workflows/test.yml](https://github.com/emibcn/badge-action/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/emibcn/badge-action/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "badgen/badgen.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nuxy/no-ai-badge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "emibcn/badge-action"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

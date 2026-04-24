@@ -1,0 +1,747 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluesky-social/indigo",
+      "target": "bluesky-social/goat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluesky-social/indigo",
+      "target": "bluesky-social/social-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-beemo-ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-bluepages-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-collectiondir-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-hepa-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-hepa-ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-palomar-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-palomar-ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "source_repo": "bluesky-social/indigo",
+      "target": "container-rainbow-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/indigo",
+      "target": "atproto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/indigo",
+      "target": "bluesky",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/indigo",
+      "target": "dweb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/indigo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluesky-social/indigo",
+      "target": "social-media",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:24.299757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8980
+    },
+    {
+      "path": "go.mod",
+      "size": 8522
+    },
+    {
+      "path": ".github/workflows/container-beemo-ghcr.yaml",
+      "size": 1450
+    },
+    {
+      "path": ".github/workflows/container-bluepages-aws.yaml",
+      "size": 1593
+    },
+    {
+      "path": ".github/workflows/container-collectiondir-aws.yaml",
+      "size": 1609
+    },
+    {
+      "path": ".github/workflows/container-hepa-aws.yaml",
+      "size": 1573
+    },
+    {
+      "path": ".github/workflows/container-hepa-ghcr.yaml",
+      "size": 1471
+    },
+    {
+      "path": ".github/workflows/container-palomar-aws.yaml",
+      "size": 1585
+    },
+    {
+      "path": ".github/workflows/container-palomar-ghcr.yaml",
+      "size": 1495
+    },
+    {
+      "path": ".github/workflows/container-rainbow-aws.yaml",
+      "size": 1585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go source code for Bluesky's atproto services.",
+    "fork": false,
+    "full_name": "bluesky-social/indigo",
+    "html_url": "https://github.com/bluesky-social/indigo",
+    "language": "Go",
+    "pushed_at": "2026-04-22T19:21:23Z",
+    "stargazers_count": 1329,
+    "topics": [
+      "atproto",
+      "bluesky",
+      "dweb",
+      "go",
+      "golang",
+      "social-media"
+    ],
+    "updated_at": "2026-04-22T19:21:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/goat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/social-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "container-beemo-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-beemo-ghcr.yaml",
+      "term": "container-beemo-ghcr"
+    },
+    {
+      "context_snippet": "container-bluepages-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-bluepages-aws.yaml",
+      "term": "container-bluepages-aws"
+    },
+    {
+      "context_snippet": "container-collectiondir-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-collectiondir-aws.yaml",
+      "term": "container-collectiondir-aws"
+    },
+    {
+      "context_snippet": "container-hepa-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-hepa-aws.yaml",
+      "term": "container-hepa-aws"
+    },
+    {
+      "context_snippet": "container-hepa-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-hepa-ghcr.yaml",
+      "term": "container-hepa-ghcr"
+    },
+    {
+      "context_snippet": "container-palomar-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-palomar-aws.yaml",
+      "term": "container-palomar-aws"
+    },
+    {
+      "context_snippet": "container-palomar-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-palomar-ghcr.yaml",
+      "term": "container-palomar-ghcr"
+    },
+    {
+      "context_snippet": "container-rainbow-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-rainbow-aws.yaml",
+      "term": "container-rainbow-aws"
+    },
+    {
+      "context_snippet": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atproto"
+    },
+    {
+      "context_snippet": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bluesky"
+    },
+    {
+      "context_snippet": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dweb"
+    },
+    {
+      "context_snippet": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "social-media"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/textual-web",
+      "target": "rich",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/textual-web",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/textual-web",
+      "target": "textual",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:31.025700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7009
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run TUIs and terminals in your browser",
+    "fork": false,
+    "full_name": "Textualize/textual-web",
+    "html_url": "https://github.com/Textualize/textual-web",
+    "language": "Python",
+    "pushed_at": "2024-08-30T16:00:35Z",
+    "stargazers_count": 1394,
+    "topics": [
+      "rich",
+      "terminal",
+      "textual"
+    ],
+    "updated_at": "2026-04-24T06:10:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Textual Web publishes [Textual](https://github.com/Textualize/textual) apps and terminals on the web.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rich"
+    },
+    {
+      "context_snippet": "Textual Web publishes [Textual](https://github.com/Textualize/textual) apps and terminals on the web.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "Textual Web publishes [Textual](https://github.com/Textualize/textual) apps and terminals on the web.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textual"
+    }
+  ]
+}

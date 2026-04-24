@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Helm Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler",
+      "status": "candidate-context",
+      "text": "Kubernetes Cluster Proportional Autoscaler Container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler",
+      "status": "candidate-context",
+      "text": "Release Helm Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler",
+      "status": "candidate",
+      "text": "Release Helm Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "citatory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "conceive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "conceiving"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Helm Charts",
+  "concept_id": "release-helm-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/helm-chart-release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-proportional-autoscaler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Helm Charts",
+      "sense_id": "release-helm-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

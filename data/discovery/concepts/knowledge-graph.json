@@ -55,6 +55,42 @@
       "source_repo": "IntelLabs/fastRAG",
       "status": "candidate-context",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "GraphGen: Enhancing Supervised Fine-Tuning for LLMs with Knowledge-Driven Synthetic Data Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/dgl-ke",
+      "status": "candidate-context",
+      "text": "High performance, easy-to-use, and scalable package for learning large-scale knowledge graph embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/dgl-ke",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "IntelLabs/fastRAG",
       "status": "candidate",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/dgl-ke",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +172,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "IntelLabs/fastRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/dgl-ke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/LightRAG"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

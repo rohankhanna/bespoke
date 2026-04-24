@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "dotnet/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "wintoncode/vault-plugin-auth-kerberos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "dotnet-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "hashicorp-vault",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "restclient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajanadar/VaultSharp",
+      "target": "secret",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:08.868306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A comprehensive cross-platform .NET Library for HashiCorp's Vault, a secret management tool",
+    "fork": false,
+    "full_name": "rajanadar/VaultSharp",
+    "html_url": "https://github.com/rajanadar/VaultSharp",
+    "language": "C#",
+    "pushed_at": "2025-10-12T09:10:06Z",
+    "stargazers_count": 536,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "dotnet-standard",
+      "hashicorp-vault",
+      "restclient",
+      "secret"
+    ],
+    "updated_at": "2026-03-21T01:41:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/standard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wintoncode/vault-plugin-auth-kerberos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-standard"
+    },
+    {
+      "context_snippet": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashicorp-vault"
+    },
+    {
+      "context_snippet": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restclient"
+    },
+    {
+      "context_snippet": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret"
+    }
+  ]
+}

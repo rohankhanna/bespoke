@@ -100,6 +100,60 @@
       "source_repo": "89luca89/distrobox",
       "status": "candidate-context",
       "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aibasel/downward",
+      "status": "candidate-context",
+      "text": "The Fast Downward domain-independent classical planning system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deivid-rodriguez/byebug",
+      "status": "candidate-context",
+      "text": "Debugging in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/byebug",
+      "status": "candidate-context",
+      "text": "ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmyczko/fnt",
+      "status": "candidate-context",
+      "text": "apt for fonts, the missing font manager for macOS/linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmyczko/fnt",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate-context",
+      "text": "A General-purpose Task-parallel Programming System in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward-benchmarks",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -150,6 +204,36 @@
       "source_repo": "89luca89/distrobox",
       "status": "candidate",
       "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/byebug",
+      "status": "candidate",
+      "text": "ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmyczko/fnt",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taskflow/taskflow",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward-benchmarks",
+      "status": "candidate",
+      "text": "Ubuntu"
     }
   ],
   "candidate_related_terms": [
@@ -241,11 +325,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "aibasel/downward"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "deivid-rodriguez/byebug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexmyczko/fnt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "taskflow/taskflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "aibasel/downward-benchmarks"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cherry-pick.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-finalize.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cherry-pick.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cherry-pick.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "Release: Cherry-pick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cut.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "Release: Cut",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-finalize.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-finalize.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "Release: Finalize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "Release: Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "google/adk-python-community",
+      "target": "Release: Publish to PyPi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "google/adk-python-community",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "google/adk-python-community",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:59:13.887504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3246
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2983
+    },
+    {
+      "path": ".github/workflows/release-cherry-pick.yml",
+      "size": 1389
+    },
+    {
+      "path": ".github/workflows/release-cut.yml",
+      "size": 1415
+    },
+    {
+      "path": ".github/workflows/release-finalize.yml",
+      "size": 3218
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 1408
+    },
+    {
+      "path": ".github/workflows/release-publish.yml",
+      "size": 1717
+    },
+    {
+      "path": ".github/workflows/unit-tests.yaml",
+      "size": 1018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Community repo for adk-python",
+    "fork": false,
+    "full_name": "google/adk-python-community",
+    "html_url": "https://github.com/google/adk-python-community",
+    "language": "Python",
+    "pushed_at": "2026-02-25T16:33:42Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2026-04-15T22:41:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Release: Cherry-pick\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cherry-pick.yml",
+      "term": "Release: Cherry-pick"
+    },
+    {
+      "context_snippet": "\"Release: Cut\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cut.yml",
+      "term": "Release: Cut"
+    },
+    {
+      "context_snippet": "\"Release: Finalize\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-finalize.yml",
+      "term": "Release: Finalize"
+    },
+    {
+      "context_snippet": "\"Release: Please\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release: Please"
+    },
+    {
+      "context_snippet": "\"Release: Publish to PyPi\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "term": "Release: Publish to PyPi"
+    }
+  ]
+}

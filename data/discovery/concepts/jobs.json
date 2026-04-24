@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Jobs"
+    "Jobs",
+    "jobs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,42 @@
       "source_repo": "stepancheg/grpc-rust",
       "status": "candidate-context",
       "text": "Jobs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate-context",
+      "text": "A list of companies currently using Elixir in production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stepancheg/rust-http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 implementation in Rust/tokio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/rust-http2",
+      "status": "candidate-context",
+      "text": "Jobs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +66,24 @@
       "source_repo": "stepancheg/grpc-rust",
       "status": "candidate",
       "text": "Jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/rust-http2",
+      "status": "candidate",
+      "text": "Jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +133,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "stepancheg/grpc-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stepancheg/rust-http2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

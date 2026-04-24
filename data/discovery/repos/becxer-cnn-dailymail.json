@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:54:13.294533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3037
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code to obtain the CNN / Daily Mail dataset (non-anonymized) for summarization (Python3)",
+    "fork": true,
+    "full_name": "becxer/cnn-dailymail",
+    "html_url": "https://github.com/becxer/cnn-dailymail",
+    "language": "Python",
+    "pushed_at": "2022-06-17T10:18:02Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2025-09-28T09:16:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

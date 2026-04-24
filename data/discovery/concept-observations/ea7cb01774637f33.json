@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Composable and future-proof network addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tag Push Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tag Push Checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18435,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18289,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18289,
+      "status": "candidate",
+      "text": "kong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18289,
+      "status": "candidate",
+      "text": "tick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18289,
+      "status": "candidate",
+      "text": "ticked"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag Push Checker",
+      "sense_id": "tag-push-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tag-push-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tag-push-checker",
+  "observation_id": "ea7cb01774637f33",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Tag Push Checker",
+  "source_context_snippet": "Tag Push Checker",
+  "source_file": ".github/workflows/tagpush.yml",
+  "source_repo": "multiformats/go-multiaddr",
+  "source_repo_description": "Composable and future-proof network addresses"
+}

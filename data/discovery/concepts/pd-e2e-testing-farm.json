@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PD E2E Testing Farm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "PD E2E Testing Farm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate",
+      "text": "PD E2E Testing Farm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22397,
+      "status": "candidate",
+      "text": "skin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "spade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22362,
+      "status": "candidate",
+      "text": "spades"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22362,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22310,
+      "status": "candidate",
+      "text": "clear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PD E2E Testing Farm",
+  "concept_id": "pd-e2e-testing-farm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/e2e-main-tf.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PD E2E Testing Farm",
+      "sense_id": "pd-e2e-testing-farm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

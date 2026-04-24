@@ -1,7 +1,8 @@
 {
   "aliases": [
     "docker-publish",
-    "Docker Publish"
+    "Docker Publish",
+    "Docker publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "PyO3/maturin",
       "status": "candidate-context",
       "text": "Docker Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cruft/cruft",
+      "status": "candidate-context",
+      "text": "Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of, and fully compatible with, CookieCutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruft/cruft",
+      "status": "candidate-context",
+      "text": "Docker publish"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "PyO3/maturin",
       "status": "candidate",
       "text": "Docker Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruft/cruft",
+      "status": "candidate",
+      "text": "Docker publish"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker_publish.yml",
+      "source_repo": "cruft/cruft"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

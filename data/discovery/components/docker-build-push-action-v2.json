@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v2",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "aviggiano/redis-roaring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "nice-mee/WindowsAgentArena"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/force-docker-build-cas.yml",
+      "source_repo": "jina-ai/clip-as-service"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/force-docker-build.yml",
+      "source_repo": "jina-ai/clip-as-service"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "anacrolix/confluence"
     }
   ]
 }

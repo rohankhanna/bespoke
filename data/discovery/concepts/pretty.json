@@ -19,6 +19,18 @@
       "source_repo": "maoueh/zap-pretty",
       "status": "candidate-context",
       "text": "This module provides a basic log prettifier for the [zap](https://github.com/uber-go/zap)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "Make tmux powerful and pretty \ud83e\udd4a\ud83d\udc85"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "maoueh/zap-pretty",
       "status": "candidate",
       "text": "This module provides a basic log prettifier for the [zap](https://github.com/uber-go/zap)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "maoueh/zap-pretty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux2k"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

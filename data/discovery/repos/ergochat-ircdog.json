@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ergochat/ircdog",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ergochat/ircdog",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ergochat/ircdog",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ergochat/ircdog",
+      "target": "debugging-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ergochat/ircdog",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:47:42.067532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1254
+    },
+    {
+      "path": "go.mod",
+      "size": 388
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a tool for sending and receiving raw IRC protocol lines",
+    "fork": false,
+    "full_name": "ergochat/ircdog",
+    "html_url": "https://github.com/ergochat/ircdog",
+    "language": "Go",
+    "pushed_at": "2024-09-15T22:15:18Z",
+    "stargazers_count": 48,
+    "topics": [
+      "debugging-tool",
+      "irc",
+      "protocol"
+    ],
+    "updated_at": "2026-02-17T04:15:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "`ircdog` is a tool for connecting to IRC servers and sending and receiving raw IRC protocol lines, similar to telnet or netcat, but with additional features:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging-tool"
+    },
+    {
+      "context_snippet": "`ircdog` is a tool for connecting to IRC servers and sending and receiving raw IRC protocol lines, similar to telnet or netcat, but with additional features:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:04:29.411996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A real-time ray tracer in Java, accelerated on heterogeneous hardware using TornadoVM",
+    "fork": false,
+    "full_name": "Vinhixus/TornadoVM-Ray-Tracer",
+    "html_url": "https://github.com/Vinhixus/TornadoVM-Ray-Tracer",
+    "language": "Java",
+    "pushed_at": "2024-07-24T12:15:51Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-04-11T15:06:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

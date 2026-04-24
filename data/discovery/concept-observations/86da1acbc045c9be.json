@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manual Hub Push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manual Hub Push"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18038,
+      "status": "candidate",
+      "text": "fan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18014,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18014,
+      "status": "candidate",
+      "text": "roustabout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17990,
+      "status": "candidate",
+      "text": "propeller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17973,
+      "status": "candidate",
+      "text": "axis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Hub Push",
+      "sense_id": "manual-hub-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manual-hub-push",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manual-hub-push",
+  "observation_id": "86da1acbc045c9be",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Manual Hub Push",
+  "source_context_snippet": "Manual Hub Push",
+  "source_file": ".github/workflows/force-hub-push.yml",
+  "source_repo": "jina-ai/clip-as-service",
+  "source_repo_description": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP"
+}

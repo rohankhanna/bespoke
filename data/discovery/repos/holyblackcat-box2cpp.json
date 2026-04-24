@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyBlackCat/box2cpp",
+      "target": "box2d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyBlackCat/box2cpp",
+      "target": "cpp-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyBlackCat/box2cpp",
+      "target": "physics-2d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyBlackCat/box2cpp",
+      "target": "physics-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:33.739216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8001
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ bindings for box2d 3.x physics engine (aka box2c)",
+    "fork": false,
+    "full_name": "HolyBlackCat/box2cpp",
+    "html_url": "https://github.com/HolyBlackCat/box2cpp",
+    "language": "C++",
+    "pushed_at": "2026-02-08T13:21:08Z",
+    "stargazers_count": 46,
+    "topics": [
+      "box2d",
+      "cpp",
+      "cpp-bindings",
+      "physics-2d",
+      "physics-engine"
+    ],
+    "updated_at": "2026-04-12T03:12:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**C++ bindings for [box2d 3.x](https://github.com/erincatto/box2d) physics engine (aka box2c)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "box2d"
+    },
+    {
+      "context_snippet": "**C++ bindings for [box2d 3.x](https://github.com/erincatto/box2d) physics engine (aka box2c)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-bindings"
+    },
+    {
+      "context_snippet": "**C++ bindings for [box2d 3.x](https://github.com/erincatto/box2d) physics engine (aka box2c)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-2d"
+    },
+    {
+      "context_snippet": "**C++ bindings for [box2d 3.x](https://github.com/erincatto/box2d) physics engine (aka box2c)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-engine"
+    }
+  ]
+}

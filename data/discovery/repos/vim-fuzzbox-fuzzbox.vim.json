@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "lambdalisue/vim-nerdfont",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "lambdalisue/vim-glyph-palette",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "tiagofumo/vim-nerdtree-syntax-highlight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "fuzzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "fuzzy-finder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "fuzzy-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "vim9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "vim9-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "vim9script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "target": "vimscript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:20.101003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24198
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modern fuzzy finder for Vim with minimal dependencies",
+    "fork": false,
+    "full_name": "vim-fuzzbox/fuzzbox.vim",
+    "html_url": "https://github.com/vim-fuzzbox/fuzzbox.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-19T09:06:28Z",
+    "stargazers_count": 157,
+    "topics": [
+      "fuzzy",
+      "fuzzy-finder",
+      "fuzzy-search",
+      "vim",
+      "vim-plugin",
+      "vim9",
+      "vim9-plugin",
+      "vim9-script",
+      "vim9script",
+      "vimscript"
+    ],
+    "updated_at": "2026-04-19T09:06:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/vim-glyph-palette",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/vim-nerdfont",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiagofumo/vim-nerdtree-syntax-highlight",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-finder"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-search"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-script"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9script"
+    },
+    {
+      "context_snippet": "A modern fuzzy finder with minimal dependencies. Written in vim9script using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimscript"
+    }
+  ]
+}

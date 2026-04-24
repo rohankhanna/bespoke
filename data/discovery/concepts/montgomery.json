@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "montgomery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/curve25519-dalek",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18589705,
+      "status": "candidate",
+      "text": "capital of alabama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18589704,
+      "status": "candidate",
+      "text": "selma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16450982,
+      "status": "candidate",
+      "text": "truck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8711924,
+      "status": "candidate",
+      "text": "monty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8711923,
+      "status": "candidate",
+      "text": "mgm"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "capital of alabama"
+    }
+  ],
+  "canonical_name": "montgomery",
+  "concept_id": "montgomery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/curve25519-dalek"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "montgomery",
+      "sense_id": "montgomery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

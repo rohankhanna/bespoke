@@ -271,6 +271,18 @@
       "source_repo": "launchbadge/sqlx",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">SQLx</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "SQL-first Golang ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "launchbadge/sqlx",
       "status": "candidate",
       "text": "<h1 align=\"center\">SQLx</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -634,11 +652,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/bun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

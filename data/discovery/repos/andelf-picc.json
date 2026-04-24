@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:57:19.644730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4916
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust macOS automation toolkit \u2014 screenshot, OCR, accessibility CLI, break reminder, and more, built on Apple native frameworks via objc2",
+    "fork": false,
+    "full_name": "andelf/picc",
+    "html_url": "https://github.com/andelf/picc",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T04:42:38Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-04-18T04:42:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

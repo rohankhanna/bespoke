@@ -31,6 +31,18 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate-context",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate-context",
+      "text": "\u2728  Learn how to use AWS Lambda to easily create infinitely scalable web services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate-context",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aws-samples/aws-serverless-airline-booking"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-aws-lambda"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

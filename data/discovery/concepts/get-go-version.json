@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Get Go version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate-context",
+      "text": "KurrentDB Go Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate-context",
+      "text": "Get Go version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go",
+      "status": "candidate",
+      "text": "Get Go version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35763,
+      "status": "candidate",
+      "text": "cote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35485,
+      "status": "candidate",
+      "text": "gin rummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35363,
+      "status": "candidate",
+      "text": "getup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34714,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34314,
+      "status": "candidate",
+      "text": "err"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Get Go version",
+  "concept_id": "get-go-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/go-version.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Go"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Get Go version",
+      "sense_id": "get-go-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

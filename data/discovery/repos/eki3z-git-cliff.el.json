@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eki3z/git-cliff.el",
+      "target": "tarsius/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "eki3z/git-cliff.el",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "eki3z/git-cliff.el",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "eki3z/git-cliff.el",
+      "target": "leotaku/elisp-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eki3z/git-cliff.el",
+      "target": "changelog-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eki3z/git-cliff.el",
+      "target": "git-cliff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eki3z/git-cliff.el",
+      "target": "repository-utilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:17:20.870057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2535
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Genarate and update git repository CHANGELOG.md with git-cliff",
+    "fork": false,
+    "full_name": "eki3z/git-cliff.el",
+    "html_url": "https://github.com/eki3z/git-cliff.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-02-16T22:17:03Z",
+    "stargazers_count": 30,
+    "topics": [
+      "changelog-generator",
+      "git-cliff",
+      "repository-utilities"
+    ],
+    "updated_at": "2026-03-23T15:15:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tarsius/llama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg?style=flat)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "changelog-generator"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg?style=flat)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-cliff"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg?style=flat)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository-utilities"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ntlm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Enable drop-in Windows Single Sign On for popular Java web servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "WAFFLE - Windows Authentication Framework"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate",
+      "text": "WAFFLE - Windows Authentication Framework"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020897,
+      "status": "candidate",
+      "text": "sasl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020896,
+      "status": "candidate",
+      "text": "hmac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020895,
+      "status": "candidate",
+      "text": "kerberos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020894,
+      "status": "candidate",
+      "text": "cifs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020893,
+      "status": "candidate",
+      "text": "saml"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ntlm",
+  "concept_id": "ntlm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Waffle/waffle"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ntlm",
+      "sense_id": "ntlm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

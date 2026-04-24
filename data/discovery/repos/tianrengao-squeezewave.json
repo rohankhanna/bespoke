@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianrengao/SqueezeWave",
+      "target": "nvidia/waveglow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:12.235583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5372
+    },
+    {
+      "path": "requirements.txt",
+      "size": 122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tianrengao/SqueezeWave",
+    "html_url": "https://github.com/tianrengao/SqueezeWave",
+    "language": "Python",
+    "pushed_at": "2023-07-06T21:20:35Z",
+    "stargazers_count": 254,
+    "topics": [],
+    "updated_at": "2026-04-11T12:07:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/waveglow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

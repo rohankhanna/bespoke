@@ -1,0 +1,522 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.net.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Mattraks/delete-workflow-runs@b3018382ca039b53d238908238bd35d1fb14f8ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.net.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.net.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "DotNET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "Mattraks/delete-workflow-runs@b3018382ca039b53d238908238bd35d1fb14f8ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "Cleanup Old Workflow Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "Coveralls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "Coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "SonarCloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "source_repo": "Waffle/waffle",
+      "target": "Sonatype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Waffle/waffle",
+      "target": "activedirectory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Waffle/waffle",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Waffle/waffle",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Waffle/waffle",
+      "target": "kerberos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Waffle/waffle",
+      "target": "ntlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Waffle/waffle",
+      "target": "sspi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Waffle/waffle",
+      "target": "waffle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:41.740322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9334
+    },
+    {
+      "path": ".github/workflows/ci.net.yaml",
+      "size": 403
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1049
+    },
+    {
+      "path": ".github/workflows/cleanup.yaml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 1486
+    },
+    {
+      "path": ".github/workflows/coveralls.yaml",
+      "size": 1517
+    },
+    {
+      "path": ".github/workflows/coverity.yaml",
+      "size": 1728
+    },
+    {
+      "path": ".github/workflows/site.yaml",
+      "size": 1217
+    },
+    {
+      "path": ".github/workflows/sonar.yaml",
+      "size": 1443
+    },
+    {
+      "path": ".github/workflows/sonatype.yaml",
+      "size": 1019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Enable drop-in Windows Single Sign On for popular Java web servers.",
+    "fork": false,
+    "full_name": "Waffle/waffle",
+    "html_url": "https://github.com/Waffle/waffle",
+    "language": "Java",
+    "pushed_at": "2026-04-23T19:41:51Z",
+    "stargazers_count": 503,
+    "topics": [
+      "activedirectory",
+      "authentication",
+      "java",
+      "kerberos",
+      "ntlm",
+      "sspi",
+      "waffle"
+    ],
+    "updated_at": "2026-04-19T02:33:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "DotNET",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.net.yaml",
+      "term": "DotNET"
+    },
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "Cleanup Old Workflow Runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "term": "Cleanup Old Workflow Runs"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coveralls",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "term": "Coveralls"
+    },
+    {
+      "context_snippet": "Coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yaml",
+      "term": "Coverity"
+    },
+    {
+      "context_snippet": "Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yaml",
+      "term": "Site"
+    },
+    {
+      "context_snippet": "SonarCloud",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yaml",
+      "term": "SonarCloud"
+    },
+    {
+      "context_snippet": "Sonatype",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "term": "Sonatype"
+    },
+    {
+      "context_snippet": "WAFFLE - Windows Authentication Framework",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activedirectory"
+    },
+    {
+      "context_snippet": "WAFFLE - Windows Authentication Framework",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "WAFFLE - Windows Authentication Framework",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "WAFFLE - Windows Authentication Framework",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kerberos"
+    },
+    {
+      "context_snippet": "WAFFLE - Windows Authentication Framework",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ntlm"
+    },
+    {
+      "context_snippet": "WAFFLE - Windows Authentication Framework",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sspi"
+    },
+    {
+      "context_snippet": "WAFFLE - Windows Authentication Framework",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waffle"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-v2-with-latest-dependencies.yml",
       "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport-fail-bot.yml",
+      "source_repo": "Kong/kong"
     }
   ]
 }

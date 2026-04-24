@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apollo GraphQL VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bundle Extension as Artifact Download"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bundle Extension as Artifact Download"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28092,
+      "status": "candidate",
+      "text": "bearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28092,
+      "status": "candidate",
+      "text": "rack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28092,
+      "status": "candidate",
+      "text": "seam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27698,
+      "status": "candidate",
+      "text": "attack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27698,
+      "status": "candidate",
+      "text": "attacking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bundle Extension as Artifact Download",
+      "sense_id": "bundle-extension-as-artifact-download#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bundle-extension-as-artifact-download",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bundle-extension-as-artifact-download",
+  "observation_id": "6bbad210bebb181a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Bundle Extension as Artifact Download",
+  "source_context_snippet": "Bundle Extension as Artifact Download",
+  "source_file": ".github/workflows/build-prs.yml",
+  "source_repo": "apollographql/vscode-graphql",
+  "source_repo_description": "Apollo GraphQL VS Code extension"
+}

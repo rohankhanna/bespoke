@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-aws",
+      "target": "grzm/awyeah-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-aws",
+      "target": "cognitect-labs/aws-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-aws",
+      "target": "localstack/localstack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/pod-babashka-aws",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/pod-babashka-aws",
+      "target": "clojure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:08:42.093838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Deprecated, use https://github.com/grzm/awyeah-api",
+    "fork": false,
+    "full_name": "babashka/pod-babashka-aws",
+    "html_url": "https://github.com/babashka/pod-babashka-aws",
+    "language": "Clojure",
+    "pushed_at": "2022-10-06T15:04:21Z",
+    "stargazers_count": 60,
+    "topics": [
+      "aws",
+      "babashka",
+      "clojure"
+    ],
+    "updated_at": "2025-05-06T17:37:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognitect-labs/aws-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grzm/awyeah-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "localstack/localstack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> # pod-babashka-aws <sup>* *deprecated*</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "> # pod-babashka-aws <sup>* *deprecated*</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    }
+  ]
+}

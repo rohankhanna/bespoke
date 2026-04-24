@@ -70,6 +70,30 @@
       "source_repo": "microsoft/playwright",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/moon",
+      "status": "candidate-context",
+      "text": "Browser automation solution for Kubernetes and Openshift supporting Selenium, Playwright, Puppeteer and Cypress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/moon",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/aerokube/moon.svg)](https://hub.docker.com/r/aerokube/moon)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "Playwright Test Visual Studio Code integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "microsoft/playwright",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/moon",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/aerokube/moon.svg)](https://hub.docker.com/r/aerokube/moon)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate",
+      "text": "This extension integrates Playwright into your VS Code workflow. Here is what it can do:"
     }
   ],
   "candidate_related_terms": [
@@ -195,11 +231,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aerokube/moon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright-vscode"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

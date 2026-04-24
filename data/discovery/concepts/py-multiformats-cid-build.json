@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "py-multiformats-cid-build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PancakesArchitect/py-multiformats-cid",
+      "status": "candidate-context",
+      "text": "Self-describing content-addressed identifiers for distributed systems implementation in Python (fork of the deprecated ipld/py-cid)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PancakesArchitect/py-multiformats-cid",
+      "status": "candidate-context",
+      "text": "py-multiformats-cid-build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PancakesArchitect/py-multiformats-cid",
+      "status": "candidate",
+      "text": "py-multiformats-cid-build"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "py-multiformats-cid-build",
+  "concept_id": "py-multiformats-cid-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "PancakesArchitect/py-multiformats-cid"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "py-multiformats-cid-build",
+      "sense_id": "py-multiformats-cid-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

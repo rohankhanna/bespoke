@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mirc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "status": "candidate-context",
+      "text": "Get the ASCII weather, Google Translate, pixel editor and play Mario NES on Mirc!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "status": "candidate-context",
+      "text": "\ud83e\udd41 MIRC Scripts and Bot - 2024"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+      "status": "candidate",
+      "text": "\ud83e\udd41 MIRC Scripts and Bot - 2024"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "internet relay chat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "hexchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "mirc scripting language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "miranda im"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "hipchat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mirc",
+  "concept_id": "mirc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirc",
+      "sense_id": "mirc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

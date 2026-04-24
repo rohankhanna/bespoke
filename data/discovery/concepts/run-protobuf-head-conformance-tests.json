@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Protobuf Head Conformance Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-protobuf",
+      "status": "candidate-context",
+      "text": "Plugin and runtime library for using protobuf with Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-protobuf",
+      "status": "candidate-context",
+      "text": "Run Protobuf Head Conformance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-protobuf",
+      "status": "candidate",
+      "text": "Run Protobuf Head Conformance Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35806,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35806,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35725,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33500,
+      "status": "candidate",
+      "text": "morality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33438,
+      "status": "candidate",
+      "text": "closure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Protobuf Head Conformance Tests",
+  "concept_id": "run-protobuf-head-conformance-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/head_conformance.yml",
+      "source_repo": "apple/swift-protobuf"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Protobuf Head Conformance Tests",
+      "sense_id": "run-protobuf-head-conformance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

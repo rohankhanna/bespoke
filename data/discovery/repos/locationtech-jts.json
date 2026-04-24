@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locationtech/jts",
+      "target": "dr-jts/jts-versions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locationtech/jts",
+      "target": "bjornharrtell/jsts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locationtech/jts",
+      "target": "moovida/dart_jts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locationtech/jts",
+      "target": "geoswift/geoswift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "locationtech/jts",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "locationtech/jts",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "locationtech/jts",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "locationtech/jts",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "geometric-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "geometry-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "geometry-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "java-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "jts-topology-suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "ogc-wkt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "triangulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "locationtech/jts",
+      "target": "voronoi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:06.931740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3610
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The JTS Topology Suite is a Java library for creating and manipulating vector geometry.",
+    "fork": false,
+    "full_name": "locationtech/jts",
+    "html_url": "https://github.com/locationtech/jts",
+    "language": "Java",
+    "pushed_at": "2026-03-06T01:53:09Z",
+    "stargazers_count": 2208,
+    "topics": [
+      "computational-geometry",
+      "geometric-algorithms",
+      "geometry",
+      "geometry-algorithms",
+      "geometry-library",
+      "gis",
+      "java",
+      "java-library",
+      "jts",
+      "jts-topology-suite",
+      "ogc",
+      "ogc-wkt",
+      "triangulation",
+      "voronoi"
+    ],
+    "updated_at": "2026-04-20T14:10:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjornharrtell/jsts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dr-jts/jts-versions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geoswift/geoswift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moovida/dart_jts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometric-algorithms"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry-algorithms"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry-library"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-library"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jts-topology-suite"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ogc-wkt"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triangulation"
+    },
+    {
+      "context_snippet": "JTS Topology Suite",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voronoi"
+    }
+  ]
+}

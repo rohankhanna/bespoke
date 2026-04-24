@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "human-readable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kikito/inspect.lua",
+      "status": "candidate-context",
+      "text": "Human-readable representation of Lua tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kikito/inspect.lua",
+      "status": "candidate-context",
+      "text": "inspect.lua"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kikito/inspect.lua",
+      "status": "candidate",
+      "text": "inspect.lua"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024101,
+      "status": "candidate",
+      "text": "character-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024100,
+      "status": "candidate",
+      "text": "tool-friendly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024099,
+      "status": "candidate",
+      "text": "self-documenting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024098,
+      "status": "candidate",
+      "text": "binary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024097,
+      "status": "candidate",
+      "text": "user-friendly"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "human-readable",
+  "concept_id": "human-readable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kikito/inspect.lua"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "human-readable",
+      "sense_id": "human-readable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

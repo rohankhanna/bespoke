@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "atten4vis/demystifylocalvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "dvlab-research/largekernel3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "dk-liang/awesome-visual-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FocalNet/Networks-Beyond-Attention",
+      "target": "cmhungsteve/awesome-transformer-attention",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "FocalNet/Networks-Beyond-Attention"
+}

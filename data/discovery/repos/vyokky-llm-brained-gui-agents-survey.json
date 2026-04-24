@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "showlab/awesome-gui-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "albzni/awesome-llm-based-web-agent-and-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "opendilab/awesome-ui-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "os-agent-survey/os-agent-survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "webpage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:24.555200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub page for \"Large Language Model-Brained GUI Agents: A Survey\"",
+    "fork": false,
+    "full_name": "vyokky/LLM-Brained-GUI-Agents-Survey",
+    "html_url": "https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey",
+    "language": "CSS",
+    "pushed_at": "2025-06-23T03:29:15Z",
+    "stargazers_count": 229,
+    "topics": [
+      "agent",
+      "gui",
+      "llm",
+      "paper",
+      "survey",
+      "webpage"
+    ],
+    "updated_at": "2026-04-15T07:26:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albzni/awesome-llm-based-web-agent-and-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendilab/awesome-ui-agents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "os-agent-survey/os-agent-survey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "showlab/awesome-gui-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "survey"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpage"
+    }
+  ]
+}

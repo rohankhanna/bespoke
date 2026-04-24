@@ -1,0 +1,244 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "devops-actions/actionlint@469810fd82c015d3c43815cd2b0e4d02eecc4819",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "99designs/gqlgen",
+      "target": "oshalygin/gqlgen-pg-todo-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "99designs/gqlgen",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "99designs/gqlgen",
+      "target": "devops-actions/actionlint@469810fd82c015d3c43815cd2b0e4d02eecc4819",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "99designs/gqlgen",
+      "target": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "99designs/gqlgen",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "99designs/gqlgen",
+      "target": "action-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen",
+      "target": "dataloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen",
+      "target": "gogenerate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen",
+      "target": "schema-first",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen",
+      "target": "subscriptions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:44.276043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6517
+    },
+    {
+      "path": "go.mod",
+      "size": 1124
+    },
+    {
+      "path": ".github/workflows/GOVERSION.txt",
+      "size": 7
+    },
+    {
+      "path": ".github/workflows/actionlint.yaml",
+      "size": 2723
+    },
+    {
+      "path": ".github/workflows/check-coverage",
+      "size": 2375
+    },
+    {
+      "path": ".github/workflows/check-federation",
+      "size": 348
+    },
+    {
+      "path": ".github/workflows/check-fmt",
+      "size": 257
+    },
+    {
+      "path": ".github/workflows/check-generate",
+      "size": 239
+    },
+    {
+      "path": ".github/workflows/check-gomod.sh",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/check-init",
+      "size": 392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "go generate based graphql server library",
+    "fork": false,
+    "full_name": "99designs/gqlgen",
+    "html_url": "https://github.com/99designs/gqlgen",
+    "language": "Go",
+    "pushed_at": "2026-04-23T23:16:39Z",
+    "stargazers_count": 10712,
+    "topics": [
+      "codegen",
+      "dataloader",
+      "gogenerate",
+      "golang",
+      "graphql",
+      "schema-first",
+      "subscriptions"
+    ],
+    "updated_at": "2026-04-24T04:30:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oshalygin/gqlgen-pg-todo-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "action-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "term": "action-lint"
+    },
+    {
+      "context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataloader"
+    },
+    {
+      "context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gogenerate"
+    },
+    {
+      "context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema-first"
+    },
+    {
+      "context_snippet": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subscriptions"
+    }
+  ]
+}

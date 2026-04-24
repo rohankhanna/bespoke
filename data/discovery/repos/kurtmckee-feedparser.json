@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "kurtmckee/github-workflows/.github/workflows/tox.yaml@19c3c069be51d3bfc3ac73e85e81b2b1646e91a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kurtmckee/feedparser",
+      "target": "kurtmckee/github-workflows/.github/workflows/tox.yaml@19c3c069be51d3bfc3ac73e85e81b2b1646e91a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kurtmckee/feedparser",
+      "target": "\ud83e\uddea Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurtmckee/feedparser",
+      "target": "atom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurtmckee/feedparser",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:53:20.622122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 874
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1978
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Parse feeds in Python",
+    "fork": false,
+    "full_name": "kurtmckee/feedparser",
+    "html_url": "https://github.com/kurtmckee/feedparser",
+    "language": "Python",
+    "pushed_at": "2026-04-14T02:44:57Z",
+    "stargazers_count": 2358,
+    "topics": [
+      "atom",
+      "json",
+      "python",
+      "rdf",
+      "rss"
+    ],
+    "updated_at": "2026-04-22T06:07:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"\ud83e\uddea Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "\ud83e\uddea Test"
+    },
+    {
+      "context_snippet": "..",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom"
+    },
+    {
+      "context_snippet": "..",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

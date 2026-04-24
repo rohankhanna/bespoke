@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "clojure-emacs/cider",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "alexander-yakushev/compliment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "clojure-emacs/clj-suitable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "benedekfazekas/mranderson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "cider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "nrepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/cider-nrepl",
+      "target": "nrepl-middleware",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:27.308238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5965
+    },
+    {
+      "path": ".github/workflows/github_release.yml",
+      "size": 820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of nREPL middleware to enhance Clojure editors with common functionality like definition lookup, code completion, etc. ",
+    "fork": false,
+    "full_name": "clojure-emacs/cider-nrepl",
+    "html_url": "https://github.com/clojure-emacs/cider-nrepl",
+    "language": "Clojure",
+    "pushed_at": "2026-04-19T13:43:41Z",
+    "stargazers_count": 741,
+    "topics": [
+      "cider",
+      "clojure",
+      "nrepl",
+      "nrepl-middleware"
+    ],
+    "updated_at": "2026-04-21T14:54:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexander-yakushev/compliment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benedekfazekas/mranderson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/cider",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/clj-suitable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "term": "Create GitHub Release"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cider"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl-middleware"
+    }
+  ]
+}

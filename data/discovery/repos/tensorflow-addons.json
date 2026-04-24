@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "Gaurav0/backport@d69fd1d2469762a7b4007f671857e4f94deed0af",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "tensorflow/addons",
+      "target": "Gaurav0/backport@d69fd1d2469762a7b4007f671857e4f94deed0af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "tensorflow/addons",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "tensorflow/addons",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "tensorflow/addons",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "tensorflow/addons",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/addons",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/addons",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/addons",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/addons",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/addons",
+      "target": "tensorflow-addons",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:47.804046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16748
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 308
+    },
+    {
+      "path": "requirements.txt",
+      "size": 32
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/ci_test.yml",
+      "size": 3580
+    },
+    {
+      "path": ".github/workflows/github_build_dev_container.sh",
+      "size": 132
+    },
+    {
+      "path": ".github/workflows/make_wheel_Linux_x86.sh",
+      "size": 497
+    },
+    {
+      "path": ".github/workflows/make_wheel_Windows_x86.sh",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/make_wheel_macOS_arm64.sh",
+      "size": 1112
+    },
+    {
+      "path": ".github/workflows/make_wheel_macOS_x86.sh",
+      "size": 843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Useful extra functionality for TensorFlow 2.x maintained by SIG-addons",
+    "fork": false,
+    "full_name": "tensorflow/addons",
+    "html_url": "https://github.com/tensorflow/addons",
+    "language": "Python",
+    "pushed_at": "2025-09-04T15:43:46Z",
+    "stargazers_count": 1706,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "neural-network",
+      "python",
+      "tensorflow",
+      "tensorflow-addons"
+    ],
+    "updated_at": "2026-04-14T13:50:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow-addons"
+    }
+  ]
+}

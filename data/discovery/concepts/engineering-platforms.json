@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "engineering-platforms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate-context",
+      "text": "Home to .NET's dependency flow system & tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate-context",
+      "text": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/arcade-services",
+      "status": "candidate",
+      "text": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "engineering-platforms",
+  "concept_id": "engineering-platforms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/arcade-services"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "engineering-platforms",
+      "sense_id": "engineering-platforms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

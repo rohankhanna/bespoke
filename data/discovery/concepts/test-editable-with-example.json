@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test editable with example"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmake-wheel/cmeel",
+      "status": "candidate-context",
+      "text": "Create Wheel from CMake projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-wheel/cmeel",
+      "status": "candidate-context",
+      "text": "Test editable with example"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-wheel/cmeel",
+      "status": "candidate",
+      "text": "Test editable with example"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "chamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "reagent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "sample"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26077,
+      "status": "candidate",
+      "text": "sampling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26062,
+      "status": "candidate",
+      "text": "polygraph"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test editable with example",
+  "concept_id": "test-editable-with-example",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/editable.yml",
+      "source_repo": "cmake-wheel/cmeel"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test editable with example",
+      "sense_id": "test-editable-with-example#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "kayabaNerve/monero-oxide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/svelte-eslint-parser"
     }
   ]
 }

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "target": "hypopg/hypopg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "target": "vonng/pigsty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "target": "shreyashankar/spade-experiments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "target": "diagnosis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TsinghuaDatabaseGroup/DB-GPT",
+      "target": "tuning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "TsinghuaDatabaseGroup/DB-GPT"
+}

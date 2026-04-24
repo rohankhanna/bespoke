@@ -19,6 +19,42 @@
       "source_repo": "ddPn08/kohya-sd-scripts-webui",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bing-su/sd-webui-tunnels",
+      "status": "candidate-context",
+      "text": "Tunneling extension for automatic1111 sd-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/sd-webui-tunnels",
+      "status": "candidate-context",
+      "text": "Tunneling extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate-context",
+      "text": "Auto detecting, masking and inpainting with detection model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate-context",
+      "text": "ADetailer is an extension for the stable diffusion webui that does automatic masking and inpainting. It is similar to the Detection Detailer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bing-su/dddetailer",
+      "status": "candidate-context",
+      "text": "Detection Detailer hijack edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/dddetailer",
+      "status": "candidate-context",
+      "text": "Dotgeo(hijack) Detection Detailer"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "ddPn08/kohya-sd-scripts-webui",
       "status": "candidate",
       "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/sd-webui-tunnels",
+      "status": "candidate",
+      "text": "Tunneling extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate",
+      "text": "ADetailer is an extension for the stable diffusion webui that does automatic masking and inpainting. It is similar to the Detection Detailer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/dddetailer",
+      "status": "candidate",
+      "text": "Dotgeo(hijack) Detection Detailer"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ddPn08/kohya-sd-scripts-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bing-su/sd-webui-tunnels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bing-su/adetailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Bing-su/dddetailer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

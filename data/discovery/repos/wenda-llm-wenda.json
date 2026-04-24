@@ -23,21 +23,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "wenda-LLM/wenda",
-      "target": "codelibs/fess",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wenda-LLM/wenda",
       "target": "saharnooby/rwkv.cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wenda-LLM/wenda",
-      "target": "alanlee1996/wenda-webui",
       "target_type": "repository"
     },
     {
@@ -76,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:51:12.418769+00:00",
+  "fetched_at": "2026-04-24T06:53:59.245527+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -97,25 +83,15 @@
     "html_url": "https://github.com/wenda-LLM/wenda",
     "language": "JavaScript",
     "pushed_at": "2025-01-23T12:55:35Z",
-    "stargazers_count": 6198,
+    "stargazers_count": 6196,
     "topics": [
       "chatglm-6b",
       "chatrwkv",
       "rwkv"
     ],
-    "updated_at": "2026-04-23T11:52:36Z"
+    "updated_at": "2026-04-24T06:22:53Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alanlee1996/wenda-webui",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codelibs/fess",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "l15y/wenda",

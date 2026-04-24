@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\uddc1 A font quality assurance tool for everyone "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u2699\ufe0f Install & Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u2699\ufe0f Install & Run"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "hang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "seat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12923,
+      "status": "candidate",
+      "text": "use"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\u2699\ufe0f Install & Run",
+      "sense_id": "install-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "install-run",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "install-run",
+  "observation_id": "a89e33752bc20305",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "\u2699\ufe0f Install & Run",
+  "source_context_snippet": "\u2699\ufe0f Install & Run",
+  "source_file": ".github/workflows/install_run.yml",
+  "source_repo": "fonttools/fontbakery",
+  "source_repo_description": "\ud83e\uddc1 A font quality assurance tool for everyone "
+}

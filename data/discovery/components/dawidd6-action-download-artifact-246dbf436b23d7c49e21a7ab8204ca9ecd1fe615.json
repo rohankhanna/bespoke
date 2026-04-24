@@ -1,7 +1,7 @@
 {
   "component": "dawidd6/action-download-artifact@246dbf436b23d7c49e21a7ab8204ca9ecd1fe615",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/post-ci.yml",
       "source_repo": "ethereum/EIPs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-review-bot.yml",
+      "source_repo": "ethereum/ERCs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-ci.yml",
+      "source_repo": "ethereum/ERCs"
     }
   ]
 }

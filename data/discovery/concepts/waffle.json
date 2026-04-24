@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "waffle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Enable drop-in Windows Single Sign On for popular Java web servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "WAFFLE - Windows Authentication Framework"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate",
+      "text": "WAFFLE - Windows Authentication Framework"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39600812,
+      "status": "candidate",
+      "text": "bull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39527734,
+      "status": "candidate",
+      "text": "bullshit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39257917,
+      "status": "candidate",
+      "text": "fake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29528892,
+      "status": "candidate",
+      "text": "house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29474069,
+      "status": "candidate",
+      "text": "sway"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15046,
+      "status": "candidate",
+      "text": "fake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7072,
+      "status": "candidate",
+      "text": "bull"
+    }
+  ],
+  "canonical_name": "waffle",
+  "concept_id": "waffle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Waffle/waffle"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "waffle",
+      "sense_id": "waffle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

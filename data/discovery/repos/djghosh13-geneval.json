@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:54:32.050215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4916
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GenEval: An object-focused framework for evaluating text-to-image alignment",
+    "fork": false,
+    "full_name": "djghosh13/geneval",
+    "html_url": "https://github.com/djghosh13/geneval",
+    "language": "HTML",
+    "pushed_at": "2025-03-03T21:01:42Z",
+    "stargazers_count": 447,
+    "topics": [],
+    "updated_at": "2026-04-22T14:17:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

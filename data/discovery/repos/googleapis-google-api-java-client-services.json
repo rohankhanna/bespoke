@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "googleapis/discovery-artifact-manager/.github/workflows/list-services.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "googleapis/google-api-java-client-services/.github/workflows/generate.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "googleapis/google-api-java-client-services/.github/workflows/generate.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "googleapis/code-suggester@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-root-readme.yaml"
+    },
+    {
+      "component": "googleapis/code-suggester@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-root-readme.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "googleapis/google-auth-library-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "googleapis/discovery-artifact-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "googleapis/discovery-artifact-manager/.github/workflows/list-services.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "googleapis/google-api-java-client-services/.github/workflows/generate.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "googleapis/code-suggester@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-root-readme.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-root-readme.yaml",
+      "source_repo": "googleapis/google-api-java-client-services",
+      "target": "googleapis/code-suggester@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:53:14.272192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36534
+    },
+    {
+      "path": ".github/workflows/codegen.yaml",
+      "size": 3245
+    },
+    {
+      "path": ".github/workflows/generate.sh",
+      "size": 1534
+    },
+    {
+      "path": ".github/workflows/generate.yaml",
+      "size": 2010
+    },
+    {
+      "path": ".github/workflows/requirements.in",
+      "size": 72
+    },
+    {
+      "path": ".github/workflows/requirements.txt",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/test.sh",
+      "size": 1815
+    },
+    {
+      "path": ".github/workflows/update-root-readme.py",
+      "size": 5722
+    },
+    {
+      "path": ".github/workflows/update-root-readme.yaml",
+      "size": 1453
+    },
+    {
+      "path": ".github/workflows/utils.sh",
+      "size": 1525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generated Java code for Google APIs",
+    "fork": false,
+    "full_name": "googleapis/google-api-java-client-services",
+    "html_url": "https://github.com/googleapis/google-api-java-client-services",
+    "language": "Java",
+    "pushed_at": "2026-04-22T14:40:14Z",
+    "stargazers_count": 719,
+    "topics": [],
+    "updated_at": "2026-04-21T09:40:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/discovery-artifact-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-auth-library-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "codegen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "generate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yaml",
+      "term": "generate"
+    }
+  ]
+}

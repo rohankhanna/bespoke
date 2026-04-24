@@ -1,0 +1,12 @@
+{
+  "component": "EnricoMi/publish-unit-test-result-action@27d65e188ec43221b20d26de30f4892fad91df2f",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "helm-unittest/helm-unittest"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "ejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caolan/nodeunit",
+      "target": "gerad/nodeunit-dsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caolan/nodeunit",
+      "target": "mishoo/uglifyjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caolan/nodeunit",
+      "target": "lambdalisue/nodeunit.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caolan/nodeunit",
+      "target": "reinh/vim-makegreen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "caolan/nodeunit",
+      "target": "ejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "caolan/nodeunit",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "caolan/nodeunit",
+      "target": "should",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "caolan/nodeunit",
+      "target": "uglify-js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:05:50.820092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17707
+    },
+    {
+      "path": "package.json",
+      "size": 1823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy unit testing in node.js and the browser, based on the assert module.",
+    "fork": false,
+    "full_name": "caolan/nodeunit",
+    "html_url": "https://github.com/caolan/nodeunit",
+    "language": "JavaScript",
+    "pushed_at": "2022-10-21T19:20:51Z",
+    "stargazers_count": 1890,
+    "topics": [],
+    "updated_at": "2026-04-12T02:05:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gerad/nodeunit-dsl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/nodeunit.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mishoo/uglifyjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reinh/vim-makegreen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

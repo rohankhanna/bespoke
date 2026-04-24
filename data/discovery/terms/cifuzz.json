@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -201,6 +201,46 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "valyala/fasthttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "jarro2783/cxxopts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "CLIUtils/CLI11"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd-stable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "jedisct1/libsodium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "openssh/openssh-portable-selfhosted"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz_oss.yml",
+      "source_repo": "Yubico/libfido2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libbpf/libbpf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "randy408/libspng"
     }
   ],
   "term": "CIFuzz"

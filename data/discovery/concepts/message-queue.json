@@ -19,6 +19,42 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonwin/libfon9",
+      "status": "candidate-context",
+      "text": "C++11 Cross-platform infrastructure for OMS(order management system)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonwin/libfon9",
+      "status": "candidate-context",
+      "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis",
+      "status": "candidate-context",
+      "text": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "Messaging library for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "========================================"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonwin/libfon9",
+      "status": "candidate",
+      "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate",
+      "text": "========================================"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celery/kombu"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -109,6 +109,54 @@
       "source_repo": "non-Jedi/eglot-jl",
       "status": "candidate-context",
       "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate-context",
+      "text": "A high performance I/O library for deep learning in Julia, based on the PyTorch WebDataset library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate-context",
+      "text": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "(GPU accelerated) Multi-arch (linux/amd64, linux/arm64/v8) JupyterLab Julia docker images. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate-context",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "An opinionated code formatter for Julia. Plot twist - the opinion is your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "[![Documenter: stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://domluna.github.io/JuliaFormatter.jl/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "Julia grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +213,30 @@
       "source_repo": "non-Jedi/eglot-jl",
       "status": "candidate",
       "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate",
+      "text": "WebDataset is a standard for representing dataset for training deep learning and machine learning models, with other implementation in Python [github.com/tmbdev/webdataset](http://github.com/tmbdev/webdataset) and Go [github.com/tmbdev/tarp](http://github.com/tmbdev/tarp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/jupyterlab-julia-docker-stack",
+      "status": "candidate",
+      "text": "[![minimal-readme compliant](https://img.shields.io/badge/readme%20style-minimal-brightgreen.svg)](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/minimal-readme.md) [![Project Status: Active \u2013 The project has reached a stable, usable state and is bein\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate",
+      "text": "[![Documenter: stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://domluna.github.io/JuliaFormatter.jl/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +340,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "non-Jedi/eglot-jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/WebDataset.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "b-data/jupyterlab-julia-docker-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "domluna/JuliaFormatter.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter-julia"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

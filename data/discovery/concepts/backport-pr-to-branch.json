@@ -127,6 +127,30 @@
       "source_repo": "dotnet/fsharp",
       "status": "candidate-context",
       "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/extensions",
+      "status": "candidate-context",
+      "text": "This repository contains a suite of libraries that provide facilities commonly needed when creating production-ready applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/extensions",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +211,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/fsharp",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/sdk",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/extensions",
       "status": "candidate",
       "text": "Backport PR to branch"
     }
@@ -292,11 +328,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/extensions"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

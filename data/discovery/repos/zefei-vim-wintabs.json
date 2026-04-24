@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zefei/vim-wintabs",
+      "target": "zefei/vim-wintabs-powerline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zefei/vim-wintabs",
+      "target": "xolox/vim-session",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zefei/vim-wintabs",
+      "target": "statusline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zefei/vim-wintabs",
+      "target": "tabline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zefei/vim-wintabs",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:41.161616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern buffer manager for Vim",
+    "fork": false,
+    "full_name": "zefei/vim-wintabs",
+    "html_url": "https://github.com/zefei/vim-wintabs",
+    "language": "Vim script",
+    "pushed_at": "2024-02-16T01:19:01Z",
+    "stargazers_count": 326,
+    "topics": [
+      "statusline",
+      "tabline",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-02-18T04:33:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xolox/vim-session",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zefei/vim-wintabs-powerline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    },
+    {
+      "context_snippet": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabline"
+    },
+    {
+      "context_snippet": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

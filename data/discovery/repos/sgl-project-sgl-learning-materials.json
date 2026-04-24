@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:00:03.015002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Materials for learning SGLang",
+    "fork": false,
+    "full_name": "sgl-project/sgl-learning-materials",
+    "html_url": "https://github.com/sgl-project/sgl-learning-materials",
+    "language": null,
+    "pushed_at": "2026-01-05T04:55:34Z",
+    "stargazers_count": 803,
+    "topics": [],
+    "updated_at": "2026-04-23T13:04:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

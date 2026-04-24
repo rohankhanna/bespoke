@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Proxy object polyfill"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020396,
+      "status": "candidate",
+      "text": "fiberfill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020395,
+      "status": "candidate",
+      "text": "fibrefill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020394,
+      "status": "candidate",
+      "text": "filler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020393,
+      "status": "candidate",
+      "text": "fillup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020392,
+      "status": "candidate",
+      "text": "polyfoam"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polyfill",
+      "sense_id": "polyfill#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "polyfill",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polyfill",
+  "observation_id": "9282135afadedd0a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "polyfill",
+  "source_context_snippet": "*Please note that this polyfill is now in maintenance mode, as of Jan, 2023. We are not planning to add more features or enhancements.*",
+  "source_file": null,
+  "source_repo": "GoogleChrome/proxy-polyfill",
+  "source_repo_description": "Proxy object polyfill"
+}

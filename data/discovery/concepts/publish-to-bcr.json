@@ -187,6 +187,54 @@
       "source_repo": "aspect-build/tools_telemetry",
       "status": "candidate-context",
       "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc",
+      "status": "candidate-context",
+      "text": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/cel-spec",
+      "status": "candidate-context",
+      "text": "Common Expression Language -- specification and binary representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/cel-spec",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate-context",
+      "text": "Gazelle plugin for Swift files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://esbuild.github.io/ JS bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
     }
   ],
   "candidate_glosses": [
@@ -283,6 +331,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aspect-build/tools_telemetry",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/cel-spec",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
       "status": "candidate",
       "text": "Publish to BCR"
     }
@@ -454,11 +526,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "aspect-build/tools_telemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish_to_bcr.yaml",
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "grpc/grpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "source_repo": "google/cel-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_esbuild"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "super-linter/super-linter/slim@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "a2aproject/a2a-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "a2aproject/a2a-inspector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "super-linter/super-linter/slim@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "a2a-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "a2a-mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "a2a-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "a2a-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-samples",
+      "target": "generative-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:59:06.947966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4788
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 867
+    },
+    {
+      "path": ".github/workflows/linter.yaml",
+      "size": 1724
+    },
+    {
+      "path": ".github/workflows/update_notebook_links.py",
+      "size": 4289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Samples using the Agent2Agent (A2A) Protocol",
+    "fork": false,
+    "full_name": "a2aproject/a2a-samples",
+    "html_url": "https://github.com/a2aproject/a2a-samples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-23T14:31:09Z",
+    "stargazers_count": 1523,
+    "topics": [
+      "a2a",
+      "a2a-client",
+      "a2a-mcp",
+      "a2a-protocol",
+      "a2a-server",
+      "agents",
+      "generative-ai"
+    ],
+    "updated_at": "2026-04-24T02:03:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2aproject/a2a-inspector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2aproject/a2a-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "<a href=\"https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-client"
+    },
+    {
+      "context_snippet": "<a href=\"https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-mcp"
+    },
+    {
+      "context_snippet": "<a href=\"https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-protocol"
+    },
+    {
+      "context_snippet": "<a href=\"https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-server"
+    },
+    {
+      "context_snippet": "<a href=\"https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    }
+  ]
+}

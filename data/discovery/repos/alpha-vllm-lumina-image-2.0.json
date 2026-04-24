@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Image-2.0",
+      "target": "chinchyi/ipictures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Image-2.0",
+      "target": "alpha-vllm/lumina-accessory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Image-2.0",
+      "target": "alpha-vllm/lumina-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Image-2.0",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:12.785379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8135
+    },
+    {
+      "path": "requirements.txt",
+      "size": 93
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lumina-Image 2.0: A Unified and Efficient Image Generative Framework",
+    "fork": false,
+    "full_name": "Alpha-VLLM/Lumina-Image-2.0",
+    "html_url": "https://github.com/Alpha-VLLM/Lumina-Image-2.0",
+    "language": "Python",
+    "pushed_at": "2025-11-03T11:12:22Z",
+    "stargazers_count": 864,
+    "topics": [],
+    "updated_at": "2026-04-18T19:53:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-vllm/lumina-accessory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-vllm/lumina-video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chinchyi/ipictures",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

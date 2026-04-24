@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vega/schema",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vega/schema",
+      "target": "schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vega/schema",
+      "target": "vega",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vega/schema",
+      "target": "vega-lite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:29.396428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1001
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON schema for Vega and Vega-Lite",
+    "fork": false,
+    "full_name": "vega/schema",
+    "html_url": "https://github.com/vega/schema",
+    "language": null,
+    "pushed_at": "2026-01-14T00:51:47Z",
+    "stargazers_count": 41,
+    "topics": [
+      "json-schema",
+      "schema",
+      "vega",
+      "vega-lite"
+    ],
+    "updated_at": "2026-04-11T05:15:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "JSON schema for [Vega](https://vega.github.io/schema/vega/v5.json) and [Vega-Lite](https://vega.github.io/schema/vega-lite/v5.json).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-schema"
+    },
+    {
+      "context_snippet": "JSON schema for [Vega](https://vega.github.io/schema/vega/v5.json) and [Vega-Lite](https://vega.github.io/schema/vega-lite/v5.json).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    },
+    {
+      "context_snippet": "JSON schema for [Vega](https://vega.github.io/schema/vega/v5.json) and [Vega-Lite](https://vega.github.io/schema/vega-lite/v5.json).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vega"
+    },
+    {
+      "context_snippet": "JSON schema for [Vega](https://vega.github.io/schema/vega/v5.json) and [Vega-Lite](https://vega.github.io/schema/vega-lite/v5.json).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vega-lite"
+    }
+  ]
+}

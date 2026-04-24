@@ -67,6 +67,42 @@
       "source_repo": "ashvardanian/less_slow.cpp",
       "status": "candidate-context",
       "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate-context",
+      "text": "\u2728  Learn how to use AWS Lambda to easily create infinitely scalable web services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate-context",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "status": "candidate-context",
+      "text": "Minimalist tutorial and code for doing something meaningful with Vulkan in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "status": "candidate-context",
+      "text": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate-context",
+      "text": "This repository hosts materials from the CLiC-IT 2023 tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate-context",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "ashvardanian/less_slow.cpp",
       "status": "candidate",
       "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "status": "candidate",
+      "text": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +226,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/less_slow.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-aws-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SaschaWillems/HowToVulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crux82/CLiC-it_2023_tutorial"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

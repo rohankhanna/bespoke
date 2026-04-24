@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\u2699\ufe0f Install & Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "\ud83e\uddc1 A font quality assurance tool for everyone "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Install & Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate",
+      "text": "\u2699\ufe0f Install & Run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "hang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "seat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12965,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12923,
+      "status": "candidate",
+      "text": "use"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\u2699\ufe0f Install & Run",
+  "concept_id": "install-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/install_run.yml",
+      "source_repo": "fonttools/fontbakery"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\u2699\ufe0f Install & Run",
+      "sense_id": "install-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

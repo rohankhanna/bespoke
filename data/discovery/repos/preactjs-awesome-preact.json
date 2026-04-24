@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs/awesome-preact",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs/awesome-preact",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs/awesome-preact",
+      "target": "preact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs/awesome-preact",
+      "target": "resources",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:02:09.461206+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:",
+    "fork": false,
+    "full_name": "preactjs/awesome-preact",
+    "html_url": "https://github.com/preactjs/awesome-preact",
+    "language": null,
+    "pushed_at": "2026-04-09T10:49:34Z",
+    "stargazers_count": 988,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "jsx",
+      "preact",
+      "resources"
+    ],
+    "updated_at": "2026-04-14T12:06:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact"
+    },
+    {
+      "context_snippet": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resources"
+    }
+  ]
+}

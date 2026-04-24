@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_javadoc.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_javadoc.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_javadoc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_sdk_ci_test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_sdk_ci_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_javadoc.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_javadoc.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_javadoc.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_javadoc.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "Generate and update Javadoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_sdk_ci_test.yaml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_sdk_ci_test.yaml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java_sdk_ci_test.yaml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "Java sdk CI test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_event.yml",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "web-content - Dispatch new release event",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "anns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "milvus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:13.465567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3749
+    },
+    {
+      "path": ".github/workflows/generate_javadoc.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/java_sdk_ci_test.yaml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 792
+    },
+    {
+      "path": ".github/workflows/release_event.yml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java SDK for Milvus.",
+    "fork": false,
+    "full_name": "milvus-io/milvus-sdk-java",
+    "html_url": "https://github.com/milvus-io/milvus-sdk-java",
+    "language": "Java",
+    "pushed_at": "2026-04-24T06:45:15Z",
+    "stargazers_count": 485,
+    "topics": [
+      "anns",
+      "java",
+      "milvus",
+      "sdk",
+      "vector"
+    ],
+    "updated_at": "2026-04-23T09:03:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate and update Javadoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_javadoc.yml",
+      "term": "Generate and update Javadoc"
+    },
+    {
+      "context_snippet": "Java sdk CI test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java_sdk_ci_test.yaml",
+      "term": "Java sdk CI test"
+    },
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "web-content - Dispatch new release event",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_event.yml",
+      "term": "web-content - Dispatch new release event"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anns"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "milvus"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

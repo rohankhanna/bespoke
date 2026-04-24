@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "microsoft/llava-med",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "luodian/otter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "alpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+      "target": "llama",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:05.636392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Instruction Tuning with GPT-4",
+    "fork": false,
+    "full_name": "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+    "html_url": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+    "language": "HTML",
+    "pushed_at": "2023-06-11T13:40:30Z",
+    "stargazers_count": 4337,
+    "topics": [
+      "alpaca",
+      "chatgpt",
+      "gpt-4",
+      "instruction-tuning",
+      "llama"
+    ],
+    "updated_at": "2026-04-19T15:37:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luodian/otter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/llava-med",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Baolin Peng*, Chunyuan Li*, Pengcheng He*, Michel Galley, Jianfeng Gao (*Equal Contribution)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpaca"
+    },
+    {
+      "context_snippet": "Baolin Peng*, Chunyuan Li*, Pengcheng He*, Michel Galley, Jianfeng Gao (*Equal Contribution)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "Baolin Peng*, Chunyuan Li*, Pengcheng He*, Michel Galley, Jianfeng Gao (*Equal Contribution)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "Baolin Peng*, Chunyuan Li*, Pengcheng He*, Michel Galley, Jianfeng Gao (*Equal Contribution)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-tuning"
+    },
+    {
+      "context_snippet": "Baolin Peng*, Chunyuan Li*, Pengcheng He*, Michel Galley, Jianfeng Gao (*Equal Contribution)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "filip26/titanium-json-ld",
       "status": "candidate-context",
       "text": "Publish to the Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/tree-io",
+      "status": "candidate-context",
+      "text": "Uniform API to read/write tree data models - cross-format, cross-library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/tree-io",
+      "status": "candidate-context",
+      "text": "Publish to the Maven Central"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "Publish to the Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/tree-io",
       "status": "candidate",
       "text": "Publish to the Maven Central"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/maven-central-publish.yml",
       "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/tree-io"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/provider-ibmcloud-test-infra",
+      "target": "kubernetes/k8s.io",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:12:55.878060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kubernetes-sigs/provider-ibmcloud-test-infra",
+    "html_url": "https://github.com/kubernetes-sigs/provider-ibmcloud-test-infra",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T07:12:49Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-23T07:12:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/k8s.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

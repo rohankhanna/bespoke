@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Outputs current CPU temperature for OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Outputs current CPU temperature for OSX."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Outputs current CPU temperature for OSX."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cpu-temperature",
+      "sense_id": "cpu-temperature#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cpu-temperature",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cpu-temperature",
+  "observation_id": "459ae9ca5d4c2d91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "cpu-temperature",
+  "source_context_snippet": "Outputs current CPU temperature for OSX.",
+  "source_file": null,
+  "source_repo": "lavoiesl/osx-cpu-temp",
+  "source_repo_description": "Outputs current CPU temperature for OSX"
+}

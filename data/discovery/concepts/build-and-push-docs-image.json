@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and push docs image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "open-source agentic AI data assistant for the next generation of AI + Data products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate-context",
+      "text": "Build and push docs image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate",
+      "text": "Build and push docs image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27752,
+      "status": "candidate",
+      "text": "serve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21693,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21647,
+      "status": "candidate",
+      "text": "jean baptiste racine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21647,
+      "status": "candidate",
+      "text": "jean racine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21647,
+      "status": "candidate",
+      "text": "racine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and push docs image",
+  "concept_id": "build-and-push-docs-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/doc-image-publish.yml",
+      "source_repo": "eosphoros-ai/DB-GPT"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and push docs image",
+      "sense_id": "build-and-push-docs-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,472 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-uwp.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-uwp.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32-shader.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32-shader.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32-shader.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-ios.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-ios.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Build Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Build iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Build Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Build macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-uwp.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-uwp.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-uwp.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Build UWP",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32-shader.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32-shader.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32-shader.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-win32-shader.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Build Win32 Precompiled Shader Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win32.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-win32.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Build Win32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-ios.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-ios.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install-ios.yml",
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "Test Install iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "babylon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BabylonJS/BabylonNative",
+      "target": "native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:58:22.498532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6417
+    },
+    {
+      "path": ".github/workflows/build-android.yml",
+      "size": 923
+    },
+    {
+      "path": ".github/workflows/build-ios.yml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 3018
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 2346
+    },
+    {
+      "path": ".github/workflows/build-uwp.yml",
+      "size": 1471
+    },
+    {
+      "path": ".github/workflows/build-win32-shader.yml",
+      "size": 2400
+    },
+    {
+      "path": ".github/workflows/build-win32.yml",
+      "size": 6634
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3520
+    },
+    {
+      "path": ".github/workflows/test-install-ios.yml",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build cross-platform native applications with the power of the Babylon.js JavaScript framework",
+    "fork": false,
+    "full_name": "BabylonJS/BabylonNative",
+    "html_url": "https://github.com/BabylonJS/BabylonNative",
+    "language": "C++",
+    "pushed_at": "2026-04-23T23:14:39Z",
+    "stargazers_count": 894,
+    "topics": [
+      "babylon",
+      "cpp",
+      "native"
+    ],
+    "updated_at": "2026-04-23T23:14:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "term": "Build Android"
+    },
+    {
+      "context_snippet": "Build iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yml",
+      "term": "Build iOS"
+    },
+    {
+      "context_snippet": "Build Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build Linux"
+    },
+    {
+      "context_snippet": "Build macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build macOS"
+    },
+    {
+      "context_snippet": "Build UWP",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-uwp.yml",
+      "term": "Build UWP"
+    },
+    {
+      "context_snippet": "Build Win32 Precompiled Shader Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-win32-shader.yml",
+      "term": "Build Win32 Precompiled Shader Test"
+    },
+    {
+      "context_snippet": "Build Win32",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-win32.yml",
+      "term": "Build Win32"
+    },
+    {
+      "context_snippet": "Test Install iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install-ios.yml",
+      "term": "Test Install iOS"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml/badge.svg)](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babylon"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml/badge.svg)](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native"
+    }
+  ]
+}

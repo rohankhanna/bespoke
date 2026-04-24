@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Search Israeli restaurants, check availability across date ranges, and get booking links. Agent Skills format for OpenClaw, Claude, Cursor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883244,
+      "status": "candidate",
+      "text": "pointer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999785,
+      "status": "candidate",
+      "text": "updatable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973637,
+      "status": "candidate",
+      "text": "poise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967145,
+      "status": "candidate",
+      "text": "declare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19947473,
+      "status": "candidate",
+      "text": "traveller"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cursor",
+      "sense_id": "cursor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1049,
+      "status": "candidate",
+      "text": "pointer"
+    }
+  ],
+  "concept_id": "cursor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cursor",
+  "observation_id": "d6e3188322a0a377",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "cursor",
+  "source_context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+  "source_file": null,
+  "source_repo": "alexpolonsky/agent-skill-ontopo",
+  "source_repo_description": "Search Israeli restaurants, check availability across date ranges, and get booking links. Agent Skills format for OpenClaw, Claude, Cursor."
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:57:45.798939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HPC container build recipes (Research Computing, University of Virginia)",
+    "fork": false,
+    "full_name": "uvarc/rivanna-docker",
+    "html_url": "https://github.com/uvarc/rivanna-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-22T15:02:15Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-22T15:02:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

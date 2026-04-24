@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "typescript-coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcanessa/typescript-coverage-report",
+      "status": "candidate-context",
+      "text": "Node command tool to generate TypeScript coverage report"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcanessa/typescript-coverage-report",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/typescript-coverage-report.svg)](https://badge.fury.io/js/typescript-coverage-report)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcanessa/typescript-coverage-report",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/typescript-coverage-report.svg)](https://badge.fury.io/js/typescript-coverage-report)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "typescript-coverage",
+  "concept_id": "typescript-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexcanessa/typescript-coverage-report"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typescript-coverage",
+      "sense_id": "typescript-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

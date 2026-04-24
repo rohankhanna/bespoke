@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "target": "openvisualcloud/dockerfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "target": "ad-inserter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "target": "dash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "target": "ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "target": "gstreamer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "target": "server-side-technologies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Ad-Insertion-Sample",
+      "target": "transcoding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:40.638166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "The ad-insertion reference pipeline shows how to integrate various media building blocks, with analytics powered by the OpenVINO\u2122 Toolkit, for intelligent server-side ad insertion.",
+    "fork": false,
+    "full_name": "OpenVisualCloud/Ad-Insertion-Sample",
+    "html_url": "https://github.com/OpenVisualCloud/Ad-Insertion-Sample",
+    "language": "Python",
+    "pushed_at": "2024-12-16T18:26:22Z",
+    "stargazers_count": 98,
+    "topics": [
+      "ad-inserter",
+      "dash",
+      "ffmpeg",
+      "gstreamer",
+      "hls",
+      "server-side-technologies",
+      "transcoding"
+    ],
+    "updated_at": "2025-09-05T14:19:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvisualcloud/dockerfiles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ad-inserter"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dash"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gstreamer"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-side-technologies"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcoding"
+    }
+  ]
+}

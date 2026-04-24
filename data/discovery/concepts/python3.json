@@ -319,6 +319,114 @@
       "source_repo": "gruns/icecream",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate-context",
+      "text": "A Python implementation of John Gruber\u2019s Markdown with Extension support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate-context",
+      "text": "[Python-Markdown][]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Swin Transformer using TorchServe "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate-context",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cruft/cruft",
+      "status": "candidate-context",
+      "text": "Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of, and fully compatible with, CookieCutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruft/cruft",
+      "status": "candidate-context",
+      "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "A Python utility / library to sort imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate-context",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/billiard",
+      "status": "candidate-context",
+      "text": "Multiprocessing Pool Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/billiard",
+      "status": "candidate-context",
+      "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "Messaging library for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "========================================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/py-amqp",
+      "status": "candidate-context",
+      "text": "amqplib fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/py-amqp",
+      "status": "candidate-context",
+      "text": "====================================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/vine",
+      "status": "candidate-context",
+      "text": "Python promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/vine",
+      "status": "candidate-context",
+      "text": "====================================================================="
     }
   ],
   "candidate_glosses": [
@@ -477,6 +585,60 @@
       "source_repo": "gruns/icecream",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Python-Markdown/markdown",
+      "status": "candidate",
+      "text": "[Python-Markdown][]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamalkraj/Swin-Transformer-Serve",
+      "status": "candidate",
+      "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruft/cruft",
+      "status": "candidate",
+      "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/isort",
+      "status": "candidate",
+      "text": "[![isort - isort your imports, so you don't have to.](https://raw.githubusercontent.com/pycqa/isort/main/art/logo_large.png)](https://isort.readthedocs.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/billiard",
+      "status": "candidate",
+      "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate",
+      "text": "========================================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/py-amqp",
+      "status": "candidate",
+      "text": "====================================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/vine",
+      "status": "candidate",
+      "text": "====================================================================="
     }
   ],
   "candidate_related_terms": [],
@@ -670,11 +832,71 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gruns/icecream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Python-Markdown/markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sparckles/Robyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kamalkraj/Swin-Transformer-Serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "cruft/cruft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celery/billiard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celery/kombu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celery/py-amqp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "celery/vine"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

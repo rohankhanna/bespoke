@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x676e67/0x676e67",
+      "target": "0x676e67/gngpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:49.804030+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "0x676e67/0x676e67",
+    "html_url": "https://github.com/0x676e67/0x676e67",
+    "language": null,
+    "pushed_at": "2026-03-05T07:18:48Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-05T07:19:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x676e67/gngpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

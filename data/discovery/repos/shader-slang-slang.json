@@ -1,0 +1,478 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-issue-labels.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-issue-labels.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-pr-to-project.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-pr-to-project.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-cmdline-ref.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-consistency.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-python-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-spirv-generated.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-spirv-generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-spirv-generated.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shader-slang/slang",
+      "target": "shader-slang/slang-rhi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shader-slang/slang",
+      "target": "nvpro-samples/vk_mini_samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shader-slang/slang",
+      "target": "martinus/unordered_dense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shader-slang/slang",
+      "target": "g-truc/glm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-issue-labels.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-issue-labels.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "Add Issue Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-pr-to-project.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-pr-to-project.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "Add PR to Project Board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "MDL Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "Build Missing LLVM Caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-cmdline-ref.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-consistency.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-container-consistency.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "Check Container Image Consistency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-formatting.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-python-core.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-spirv-generated.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-spirv-generated.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-spirv-generated.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-spirv-generated.yml",
+      "source_repo": "shader-slang/slang",
+      "target": "Check SPIRV Generated Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shader-slang/slang",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shader-slang/slang",
+      "target": "d3d12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shader-slang/slang",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shader-slang/slang",
+      "target": "hlsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shader-slang/slang",
+      "target": "shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shader-slang/slang",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:05.139443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11563
+    },
+    {
+      "path": ".github/workflows/add-issue-labels.yml",
+      "size": 2047
+    },
+    {
+      "path": ".github/workflows/add-pr-to-project.yml",
+      "size": 4192
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 2044
+    },
+    {
+      "path": ".github/workflows/build-missing-llvm-caches.yml",
+      "size": 7290
+    },
+    {
+      "path": ".github/workflows/check-cmdline-ref.yml",
+      "size": 1843
+    },
+    {
+      "path": ".github/workflows/check-container-consistency.yml",
+      "size": 2149
+    },
+    {
+      "path": ".github/workflows/check-formatting.yml",
+      "size": 482
+    },
+    {
+      "path": ".github/workflows/check-python-core.yml",
+      "size": 3770
+    },
+    {
+      "path": ".github/workflows/check-spirv-generated.yml",
+      "size": 1461
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Making it easier to work with shaders",
+    "fork": false,
+    "full_name": "shader-slang/slang",
+    "html_url": "https://github.com/shader-slang/slang",
+    "language": "C++",
+    "pushed_at": "2026-04-24T03:48:33Z",
+    "stargazers_count": 5231,
+    "topics": [
+      "cuda",
+      "d3d12",
+      "glsl",
+      "hlsl",
+      "shaders",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-24T03:50:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-truc/glm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martinus/unordered_dense",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvpro-samples/vk_mini_samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shader-slang/slang-rhi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add Issue Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-issue-labels.yml",
+      "term": "Add Issue Labels"
+    },
+    {
+      "context_snippet": "Add PR to Project Board",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-pr-to-project.yml",
+      "term": "Add PR to Project Board"
+    },
+    {
+      "context_snippet": "MDL Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "MDL Benchmark"
+    },
+    {
+      "context_snippet": "Build Missing LLVM Caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-missing-llvm-caches.yml",
+      "term": "Build Missing LLVM Caches"
+    },
+    {
+      "context_snippet": "Check Container Image Consistency",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-container-consistency.yml",
+      "term": "Check Container Image Consistency"
+    },
+    {
+      "context_snippet": "Check SPIRV Generated Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-spirv-generated.yml",
+      "term": "Check SPIRV Generated Files"
+    },
+    {
+      "context_snippet": "Slang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Slang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d3d12"
+    },
+    {
+      "context_snippet": "Slang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "Slang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hlsl"
+    },
+    {
+      "context_snippet": "Slang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaders"
+    },
+    {
+      "context_snippet": "Slang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

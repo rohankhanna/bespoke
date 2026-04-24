@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/heaphopper",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/heaphopper",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/heaphopper",
+      "target": "Nightly CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:58:13.214568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2373
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 161
+    },
+    {
+      "path": ".github/workflows/nightly-ci.yml",
+      "size": 205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " HeapHopper is a bounded model checking framework for Heap-implementations",
+    "fork": false,
+    "full_name": "angr/heaphopper",
+    "html_url": "https://github.com/angr/heaphopper",
+    "language": "Python",
+    "pushed_at": "2025-07-02T21:27:16Z",
+    "stargazers_count": 227,
+    "topics": [],
+    "updated_at": "2026-03-30T03:10:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nightly CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "term": "Nightly CI"
+    }
+  ]
+}

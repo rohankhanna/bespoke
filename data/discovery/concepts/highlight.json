@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "highlight"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/vue-plugin",
+      "status": "candidate-context",
+      "text": "Highlight.js Vue Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/vue-plugin",
+      "status": "candidate-context",
+      "text": "[![latest version](https://badgen.net/npm/v/@highlightjs/vue-plugin/latest?label=latest)](https://www.npmjs.com/package/@highlightjs/vue-plugin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/vue-plugin",
+      "status": "candidate",
+      "text": "[![latest version](https://badgen.net/npm/v/@highlightjs/vue-plugin/latest?label=latest)](https://www.npmjs.com/package/@highlightjs/vue-plugin)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011340,
+      "status": "candidate",
+      "text": "foreground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001205,
+      "status": "candidate",
+      "text": "spotlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907785,
+      "status": "candidate",
+      "text": "play up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023523,
+      "status": "candidate",
+      "text": "high spot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023381,
+      "status": "candidate",
+      "text": "underlining"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20040,
+      "status": "candidate",
+      "text": "spotlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13041,
+      "status": "candidate",
+      "text": "foreground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6023,
+      "status": "candidate",
+      "text": "play up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5019,
+      "status": "candidate",
+      "text": "highlighting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2014,
+      "status": "candidate",
+      "text": "high spot"
+    }
+  ],
+  "canonical_name": "highlight",
+  "concept_id": "highlight",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/vue-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "highlight",
+      "sense_id": "highlight#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

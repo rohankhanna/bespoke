@@ -1,0 +1,188 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "chronos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "chronos-scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "cron-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "crontab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "fault-tolerance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "job-scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "mesos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "mesos-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "mesosphere",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesos/chronos",
+      "target": "scheduled-jobs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:58.452306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3493
+    },
+    {
+      "path": "Dockerfile",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules",
+    "fork": false,
+    "full_name": "mesos/chronos",
+    "html_url": "https://github.com/mesos/chronos",
+    "language": "Scala",
+    "pushed_at": "2022-06-29T19:43:36Z",
+    "stargazers_count": 4384,
+    "topics": [
+      "chronos",
+      "chronos-scheduler",
+      "cron",
+      "cron-jobs",
+      "crontab",
+      "fault-tolerance",
+      "job-scheduler",
+      "mesos",
+      "mesos-framework",
+      "mesosphere",
+      "scheduled-jobs"
+    ],
+    "updated_at": "2026-04-24T01:28:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chronos"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chronos-scheduler"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron-jobs"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crontab"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fault-tolerance"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "job-scheduler"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesos"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesos-framework"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesosphere"
+    },
+    {
+      "context_snippet": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduled-jobs"
+    }
+  ]
+}

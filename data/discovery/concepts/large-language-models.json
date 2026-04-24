@@ -595,6 +595,162 @@
       "source_repo": "haoliuhl/ringattention",
       "status": "candidate-context",
       "text": "This codebase provides the implementation of the Ring Attention with Blockwise Transformers. The model is described in the paper [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/pdf/2310.01889.pdf) and [Blockwise Parallel Transformer for L\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] xFinder: Large Language Models as Automated Evaluators for Reliable Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatsu-lab/alpaca_eval",
+      "status": "candidate-context",
+      "text": "An automatic evaluator for instruction-following language models. Human-validated, high-quality, cheap, and fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_eval",
+      "status": "candidate-context",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/alpaca_farm/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for the paper \"MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "Running large language models on a single GPU for throughput-oriented scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate-context",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "Build AI Agents, Visually"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SafeAILab/EAGLE",
+      "status": "candidate-context",
+      "text": "Official Implementation of EAGLE-1 (ICML'24), EAGLE-2 (EMNLP'24), and EAGLE-3 (NeurIPS'25)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SafeAILab/EAGLE",
+      "status": "candidate-context",
+      "text": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate-context",
+      "text": "This repository hosts materials from the CLiC-IT 2023 tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate-context",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate-context",
+      "text": "TinyChatEngine: On-Device LLM Inference Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate-context",
+      "text": "![tinychat_logo](assets/figures/tinychat_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate-context",
+      "text": "LLaVA-Plus: Large Language and Vision Assistants that Plug and Learn to Use Skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate-context",
+      "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate-context",
+      "text": "This repository is maintained to release dataset and models for multimodal puzzle reasoning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate-context",
+      "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
     }
   ],
   "candidate_glosses": [
@@ -891,6 +1047,84 @@
       "source_repo": "haoliuhl/ringattention",
       "status": "candidate",
       "text": "This codebase provides the implementation of the Ring Attention with Blockwise Transformers. The model is described in the paper [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/pdf/2310.01889.pdf) and [Blockwise Parallel Transformer for L\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_eval",
+      "status": "candidate",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/alpaca_farm/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMMU-Benchmark/MMMU",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/FlexLLMGen",
+      "status": "candidate",
+      "text": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowiseAI/Flowise",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SafeAILab/EAGLE",
+      "status": "candidate",
+      "text": "<img src=\"figs/logo.png\" alt=\"EAGLE\" width=\"220\" align=\"left\"><div align=\"center\"><h1>&nbsp;EAGLE</h1></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crux82/CLiC-it_2023_tutorial",
+      "status": "candidate",
+      "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "status": "candidate",
+      "text": "![tinychat_logo](assets/figures/tinychat_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate",
+      "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/LightRAG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/LLM-PuzzleTest",
+      "status": "candidate",
+      "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1282,11 +1516,161 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "haoliuhl/ringattention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "evalplus/evalplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FlowiseAI/Flowise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SafeAILab/EAGLE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "crux82/CLiC-it_2023_tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoE-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "haoliuhl/ringattention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

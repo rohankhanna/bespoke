@@ -1,15 +1,72 @@
 {
   "aliases": [
-    "Release Image"
+    "Release Image",
+    "Release image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "An easy-to-use framework for modular RAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "Release image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate",
+      "text": "Release image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "enlargement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "flash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "map"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Release Image",
   "concept_id": "release-image",
@@ -20,12 +77,20 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": ".github/workflows/release-image.yaml",
       "source_repo": "korotovsky/slack-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aigc-apps/PAI-RAG"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

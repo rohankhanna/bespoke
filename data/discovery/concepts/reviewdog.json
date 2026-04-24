@@ -92,6 +92,30 @@
       "source_repo": "prabirshrestha/asyncomplete.vim",
       "status": "candidate-context",
       "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +158,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prabirshrestha/asyncomplete.vim",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
       "status": "candidate",
       "text": "reviewdog"
     }
@@ -203,11 +239,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "prabirshrestha/asyncomplete.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/reviewdog.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

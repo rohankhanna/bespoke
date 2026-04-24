@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "New issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_cypress",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://www.cypress.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_cypress",
+      "status": "candidate-context",
+      "text": "New issue"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://esbuild.github.io/ JS bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "New issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_cypress",
+      "status": "candidate",
+      "text": "New issue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate",
+      "text": "New issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73638,
+      "status": "candidate",
+      "text": "magazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73637,
+      "status": "candidate",
+      "text": "publication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73636,
+      "status": "candidate",
+      "text": "new style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73635,
+      "status": "candidate",
+      "text": "editorial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73634,
+      "status": "candidate",
+      "text": "magazines"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "New issue",
+  "concept_id": "new-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/new_issue.yaml",
+      "source_repo": "aspect-build/rules_cypress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/new_issue.yaml",
+      "source_repo": "aspect-build/rules_esbuild"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New issue",
+      "sense_id": "new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

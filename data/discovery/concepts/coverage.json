@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -404,6 +406,102 @@
       "source_repo": "cloudflare/workerd",
       "status": "candidate-context",
       "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "High throughput synchronous and asynchronous reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice \uff08\u300e\u98de\u6868\u300f\u6838\u5fc3\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60&\u673a\u5668\u5b66\u4e60\u9ad8\u6027\u80fd\u5355\u673a\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u548c\u8de8\u5e73\u53f0\u90e8\u7f72\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnnx/pnnx",
+      "status": "candidate-context",
+      "text": "PyTorch Neural Network eXchange"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnnx/pnnx",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcanessa/typescript-coverage-report",
+      "status": "candidate-context",
+      "text": "Node command tool to generate TypeScript coverage report"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcanessa/typescript-coverage-report",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/typescript-coverage-report.svg)](https://badge.fury.io/js/typescript-coverage-report)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate-context",
+      "text": "markdown-it js library rewritten in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "Actor framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Coverage"
     }
   ],
   "candidate_glosses": [
@@ -602,6 +700,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudflare/workerd",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnnx/pnnx",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcanessa/typescript-coverage-report",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/typescript-coverage-report.svg)](https://badge.fury.io/js/typescript-coverage-report)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
       "status": "candidate",
       "text": "Coverage"
     }
@@ -897,11 +1043,71 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cover-ci.yml",
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/Coverage.yml",
+      "source_repo": "PaddlePaddle/Paddle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pnnx/pnnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexcanessa/typescript-coverage-report"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "markdown-it-rust/markdown-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix-web"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

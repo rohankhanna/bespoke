@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "mannaandpoem/OpenManus_Archive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "inclusionAI/AReaL"
     }
   ],
   "term": "Pre-commit checks"

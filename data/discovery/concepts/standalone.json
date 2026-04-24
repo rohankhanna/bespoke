@@ -19,6 +19,18 @@
       "source_repo": "alexpinel/Dot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate-context",
+      "text": "py2app is a Python setuptools command which will allow  you to make standalone Mac OS X application bundles  and plugins from Python scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate-context",
+      "text": "py2app is a tool that will create standalone application"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alexpinel/Dot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate",
+      "text": "py2app is a tool that will create standalone application"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "alexpinel/Dot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/py2app"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

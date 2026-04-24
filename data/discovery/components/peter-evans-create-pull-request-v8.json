@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -237,6 +237,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-flutter-snippets-json.yml",
       "source_repo": "dart4e/dart4e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_protobuf.yml",
+      "source_repo": "apple/swift-protobuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-cable-docs.yml",
+      "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-cli-help.yml",
+      "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-for-updates.yml",
+      "source_repo": "gusztavvargadr/aws-vault-chocolatey"
     }
   ]
 }

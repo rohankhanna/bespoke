@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/unofficial-builds",
+      "target": "rvagg/rpi-newer-crosstools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/unofficial-builds",
+      "target": "rvagg/github-webhook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/unofficial-builds",
+      "target": "nodejs/nodejs-dist-indexer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/unofficial-builds",
+      "target": "dixyes/ghactionsplay",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:22.941941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial binaries for Node.js",
+    "fork": false,
+    "full_name": "nodejs/unofficial-builds",
+    "html_url": "https://github.com/nodejs/unofficial-builds",
+    "language": "Shell",
+    "pushed_at": "2026-02-26T19:59:53Z",
+    "stargazers_count": 380,
+    "topics": [],
+    "updated_at": "2026-04-22T14:57:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dixyes/ghactionsplay",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/nodejs-dist-indexer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rvagg/github-webhook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rvagg/rpi-newer-crosstools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

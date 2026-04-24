@@ -31,6 +31,30 @@
       "source_repo": "Layr-Labs/eigensdk-go",
       "status": "candidate-context",
       "text": "\"Pull Request Workflow\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate-context",
+      "text": "A light weight Python library for the Spotify Web API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate-context",
+      "text": "\"Pull Request Workflow\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Pull Request Workflow"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "Layr-Labs/eigensdk-go",
       "status": "candidate",
       "text": "\"Pull Request Workflow\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate",
+      "text": "\"Pull Request Workflow\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "Pull Request Workflow"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "Layr-Labs/eigensdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "datreeio/datree"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

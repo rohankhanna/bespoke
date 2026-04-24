@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Spellcheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Spellcheck"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023777,
+      "status": "candidate",
+      "text": "spell check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023776,
+      "status": "candidate",
+      "text": "proofreading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023775,
+      "status": "candidate",
+      "text": "spellcasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023774,
+      "status": "candidate",
+      "text": "spell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023773,
+      "status": "candidate",
+      "text": "spelling reform"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spellcheck",
+      "sense_id": "spellcheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spellcheck",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spellcheck",
+  "observation_id": "c839effd16e3a29c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Spellcheck",
+  "source_context_snippet": "Spellcheck",
+  "source_file": ".github/workflows/spellcheck.yml",
+  "source_repo": "FuelLabs/sway",
+  "source_repo_description": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts."
+}

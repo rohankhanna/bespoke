@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp/exllama",
+      "target": "panqiwei/autogptq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp/exllama",
+      "target": "jllllll/exllama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp/exllama",
+      "target": "turboderp/exllamav2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:51.563702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9288
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1134
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights.",
+    "fork": false,
+    "full_name": "turboderp/exllama",
+    "html_url": "https://github.com/turboderp/exllama",
+    "language": "Python",
+    "pushed_at": "2023-09-30T19:06:04Z",
+    "stargazers_count": 2915,
+    "topics": [],
+    "updated_at": "2026-04-24T07:15:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jllllll/exllama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panqiwei/autogptq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turboderp/exllamav2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

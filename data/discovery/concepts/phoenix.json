@@ -43,6 +43,42 @@
       "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
       "status": "candidate-context",
       "text": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate-context",
+      "text": "A list of companies currently using Elixir in production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/auth",
+      "status": "candidate-context",
+      "text": "\ud83d\udeaa \ud83d\udd10 UX-focussed Turnkey Authentication Solution for Web Apps/APIs (Documented, Tested & Maintained)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/auth_plug_example",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd9Example using auth_plug to easily add Authentication to any Phoenix App!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug_example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
       "status": "candidate",
       "text": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug_example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +193,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gjaldon/heroku-buildpack-phoenix-static"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/auth_plug_example"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

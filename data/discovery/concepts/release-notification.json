@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "release-notification"
+    "release-notification",
+    "Release notification"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,24 @@
       "source_repo": "cbrgm/githubevents",
       "status": "candidate-context",
       "text": "release-notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-webhooks",
+      "status": "candidate-context",
+      "text": "Release notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate-context",
+      "text": "Release notification"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +46,57 @@
       "source_repo": "cbrgm/githubevents",
       "status": "candidate",
       "text": "release-notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-webhooks",
+      "status": "candidate",
+      "text": "Release notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks",
+      "status": "candidate",
+      "text": "Release notification"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "disclosure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "publication"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "release-notification",
   "concept_id": "release-notification",
@@ -40,11 +107,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/notify.yml",
       "source_repo": "cbrgm/githubevents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-notification.yml",
+      "source_repo": "octokit/openapi-webhooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-notification.yml",
+      "source_repo": "octokit/webhooks"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

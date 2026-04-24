@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Submissions to S3"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sierra-research/tau2-bench",
+      "status": "candidate-context",
+      "text": "\u03c4-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sierra-research/tau2-bench",
+      "status": "candidate-context",
+      "text": "Sync Submissions to S3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sierra-research/tau2-bench",
+      "status": "candidate",
+      "text": "Sync Submissions to S3"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10857,
+      "status": "candidate",
+      "text": "vii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10209,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10209,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10209,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038,
+      "status": "candidate",
+      "text": "kiss"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Submissions to S3",
+  "concept_id": "sync-submissions-to-s3",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/sync-submissions-s3.yml",
+      "source_repo": "sierra-research/tau2-bench"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Submissions to S3",
+      "sense_id": "sync-submissions-to-s3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

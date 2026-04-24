@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Visual Studio Code extension to prettify markdown tables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Test Status](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "markdown-table",
+      "sense_id": "markdown-table#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "markdown-table",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "markdown-table",
+  "observation_id": "d5a97ac38bbc2435",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "markdown-table",
+  "source_context_snippet": "[![Test Status](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt/actions)",
+  "source_file": null,
+  "source_repo": "darkriszty/MarkdownTablePrettify-VSCodeExt",
+  "source_repo_description": "Visual Studio Code extension to prettify markdown tables."
+}

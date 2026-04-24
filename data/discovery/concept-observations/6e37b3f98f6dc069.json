@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Make it easy to use the C++ std::filesystem API across platforms, even those where std::filesystem would otherwise be (conditionally) unavailable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**What is this project trying to do for me?**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "6e37b3f98f6dc069",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "**What is this project trying to do for me?**",
+  "source_file": null,
+  "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+  "source_repo_description": "Make it easy to use the C++ std::filesystem API across platforms, even those where std::filesystem would otherwise be (conditionally) unavailable."
+}

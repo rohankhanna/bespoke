@@ -138,20 +138,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-py",
-      "target": "redis/redis-om-python",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-py",
-      "target": "redis/redis",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "redis/redis-py",
@@ -341,7 +327,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:49:07.643106+00:00",
+  "fetched_at": "2026-04-24T09:08:05.402362+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -393,8 +379,8 @@
     "full_name": "redis/redis-py",
     "html_url": "https://github.com/redis/redis-py",
     "language": "Python",
-    "pushed_at": "2026-04-23T18:00:38Z",
-    "stargazers_count": 13522,
+    "pushed_at": "2026-04-24T08:54:01Z",
+    "stargazers_count": 13521,
     "topics": [
       "python",
       "redis",
@@ -402,20 +388,9 @@
       "redis-cluster",
       "redis-py"
     ],
-    "updated_at": "2026-04-23T17:59:56Z"
+    "updated_at": "2026-04-24T05:53:53Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis/redis",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis/redis-om-python",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",

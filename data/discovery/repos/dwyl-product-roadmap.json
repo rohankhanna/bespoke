@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/product-roadmap",
+      "target": "dwyl/home",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/product-roadmap",
+      "target": "dwyl/iso-27001-2013-information-technology-security",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/product-roadmap",
+      "target": "dwyl/learn-apple-watch-development",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/product-roadmap",
+      "target": "dwyl/learn-blockchain",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:02:33.735855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":globe_with_meridians: Because why wouldn't you make your company's product roadmap Public on GitHub?",
+    "fork": false,
+    "full_name": "dwyl/product-roadmap",
+    "html_url": "https://github.com/dwyl/product-roadmap",
+    "language": null,
+    "pushed_at": "2023-01-26T07:49:23Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2025-01-25T00:12:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/home",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/iso-27001-2013-information-technology-security",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-apple-watch-development",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-blockchain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

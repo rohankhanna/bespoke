@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wa-lang/webgpu",
+      "target": "wa-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wa-lang/webgpu",
+      "target": "webgpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:18.742099+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)",
+    "fork": false,
+    "full_name": "wa-lang/webgpu",
+    "html_url": "https://github.com/wa-lang/webgpu",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-17T01:30:51Z",
+    "stargazers_count": 3,
+    "topics": [
+      "wa",
+      "wa-lang",
+      "webgpu"
+    ],
+    "updated_at": "2025-02-17T01:30:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wa-lang"
+    },
+    {
+      "context_snippet": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    }
+  ]
+}

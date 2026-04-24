@@ -175,6 +175,42 @@
       "source_repo": "web-infra-dev/rspack",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aackerman/circular-dependency-plugin",
+      "status": "candidate-context",
+      "text": "Detect circular dependencies in modules compiled with Webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aackerman/circular-dependency-plugin",
+      "status": "candidate-context",
+      "text": "Detect modules with circular dependencies when bundling with webpack."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jantimon/html-webpack-plugin",
+      "status": "candidate-context",
+      "text": "Simplifies creation of HTML files to serve your webpack bundles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jantimon/html-webpack-plugin",
+      "status": "candidate-context",
+      "text": "[![npm][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "Demonstrates bundling level for browsers using webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate-context",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "web-infra-dev/rspack",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aackerman/circular-dependency-plugin",
+      "status": "candidate",
+      "text": "Detect modules with circular dependencies when bundling with webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jantimon/html-webpack-plugin",
+      "status": "candidate",
+      "text": "[![npm][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/webpack-starter",
+      "status": "candidate",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +418,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aackerman/circular-dependency-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jantimon/html-webpack-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Level/webpack-starter"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

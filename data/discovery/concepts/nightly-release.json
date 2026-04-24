@@ -63,6 +63,30 @@
       "source_repo": "tensorflow/tensorboard",
       "status": "candidate-context",
       "text": "nightly-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate-context",
+      "text": "Generate beautiful changelogs from your Git commit history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate-context",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate-context",
+      "text": "AMD-SHARK Studio -- Web UI for SHARK+IREE High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate-context",
+      "text": "Nightly Release"
     }
   ],
   "candidate_glosses": [
@@ -95,6 +119,18 @@
       "source_repo": "tensorflow/tensorboard",
       "status": "candidate",
       "text": "nightly-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-cli",
+      "status": "candidate",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "status": "candidate",
+      "text": "Nightly Release"
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +204,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/nightly-release.yml",
       "source_repo": "tensorflow/tensorboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release_nightly.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "nod-ai/AMD-SHARK-Studio"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

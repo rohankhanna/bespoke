@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "clovaai/voxceleb_trainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "joonson/syncnet_python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "fuankarion/active-speakers-context",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "lordmartian/deep_avsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "active-speaker-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "audio-visual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "awesome-asd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "multimedia",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "TaoRuijie/TalkNet-ASD"
+}

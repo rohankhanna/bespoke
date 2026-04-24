@@ -127,6 +127,66 @@
       "source_repo": "blockscout/blockscout",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Blockscout</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate-context",
+      "text": "A list of companies currently using Elixir in production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/auth",
+      "status": "candidate-context",
+      "text": "\ud83d\udeaa \ud83d\udd10 UX-focussed Turnkey Authentication Solution for Web Apps/APIs (Documented, Tested & Maintained)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/auth_plug_example",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd9Example using auth_plug to easily add Authentication to any Phoenix App!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug_example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michalmuskala/jason",
+      "status": "candidate-context",
+      "text": "A blazing fast JSON parser and generator in pure Elixir."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michalmuskala/jason",
+      "status": "candidate-context",
+      "text": "A blazing fast JSON parser and generator in pure Elixir."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "Elixir extension for libvips"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +249,36 @@
       "source_repo": "blockscout/blockscout",
       "status": "candidate",
       "text": "<h1 align=\"center\">Blockscout</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-community/elixir-companies",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug_example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michalmuskala/jason",
+      "status": "candidate",
+      "text": "A blazing fast JSON parser and generator in pure Elixir."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +382,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "blockscout/blockscout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/auth_plug_example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "michalmuskala/jason"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akash-akya/vix"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

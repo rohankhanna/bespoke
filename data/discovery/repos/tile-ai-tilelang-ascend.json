@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reminder.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "DoozyX/clang-format-lint-action@v0.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "AscendC-PTO CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "TileLang-Ascend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "Dependent Bot Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reminder.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reminder.yml",
+      "source_repo": "tile-ai/tilelang-ascend",
+      "target": "Reminder Bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:11.442115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28156
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1557
+    },
+    {
+      "path": "requirements.txt",
+      "size": 238
+    },
+    {
+      "path": ".github/workflows/bot.yml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1889
+    },
+    {
+      "path": ".github/workflows/ci_ascend.yml",
+      "size": 1711
+    },
+    {
+      "path": ".github/workflows/ci_cd.yml",
+      "size": 8985
+    },
+    {
+      "path": ".github/workflows/dependabot.yml",
+      "size": 441
+    },
+    {
+      "path": ".github/workflows/publish_docs.yml",
+      "size": 1523
+    },
+    {
+      "path": ".github/workflows/reminder.yml",
+      "size": 951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "ascendc_pto",
+    "description": "Ascend TileLang adapter ",
+    "fork": false,
+    "full_name": "tile-ai/tilelang-ascend",
+    "html_url": "https://github.com/tile-ai/tilelang-ascend",
+    "language": "C++",
+    "pushed_at": "2026-04-24T02:16:49Z",
+    "stargazers_count": 254,
+    "topics": [],
+    "updated_at": "2026-04-24T06:47:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "term": "Bot"
+    },
+    {
+      "context_snippet": "AscendC-PTO CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "term": "AscendC-PTO CI"
+    },
+    {
+      "context_snippet": "TileLang-Ascend CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "term": "TileLang-Ascend CI"
+    },
+    {
+      "context_snippet": "Dependent Bot Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "term": "Dependent Bot Action"
+    },
+    {
+      "context_snippet": "documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "Reminder Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reminder.yml",
+      "term": "Reminder Bot"
+    }
+  ]
+}

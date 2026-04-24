@@ -19,6 +19,18 @@
       "source_repo": "PaddlePaddle/PaddleDetection",
       "status": "candidate-context",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmtracking",
+      "status": "candidate-context",
+      "text": "OpenMMLab Video Perception Toolbox. It supports Video Object Detection (VID), Multiple Object Tracking (MOT), Single Object Tracking (SOT), Video Instance Segmentation (VIS) with a unified framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmtracking",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "PaddlePaddle/PaddleDetection",
       "status": "candidate",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmtracking",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleDetection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmtracking"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

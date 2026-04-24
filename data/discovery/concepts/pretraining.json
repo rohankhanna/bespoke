@@ -31,6 +31,18 @@
       "source_repo": "AGI-Arena/MARS",
       "status": "candidate-context",
       "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "GraphGen: Enhancing Supervised Fine-Tuning for LLMs with Knowledge-Driven Synthetic Data Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "AGI-Arena/MARS",
       "status": "candidate",
       "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/GraphGen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "AGI-Arena/MARS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/GraphGen"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

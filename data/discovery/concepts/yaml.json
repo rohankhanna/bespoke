@@ -175,6 +175,54 @@
       "source_repo": "robb-j/nova-yaml",
       "status": "candidate-context",
       "text": "A YAML language server/client for [Nova IDE](https://nova.app)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0k/shyaml",
+      "status": "candidate-context",
+      "text": "YAML for command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0k/shyaml",
+      "status": "candidate-context",
+      "text": "================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "A configuration as code language with rich validation and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate-context",
+      "text": "Comprehensive, language independent Test Suite for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate-context",
+      "text": "yaml-test-suite Repository Testing"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +309,30 @@
       "source_repo": "robb-j/nova-yaml",
       "status": "candidate",
       "text": "A YAML language server/client for [Nova IDE](https://nova.app)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0k/shyaml",
+      "status": "candidate",
+      "text": "================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/yaml-test-suite",
+      "status": "candidate",
+      "text": "yaml-test-suite Repository Testing"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +460,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "robb-j/nova-yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "0k/shyaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yaml/yaml-test-suite"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

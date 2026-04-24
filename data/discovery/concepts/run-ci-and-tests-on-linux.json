@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run CI and tests on Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "status": "candidate-context",
+      "text": "A Scala wrapper of the libmdbx C library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "status": "candidate-context",
+      "text": "Run CI and tests on Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "david-bouyssie/mdbx4s",
+      "status": "candidate",
+      "text": "Run CI and tests on Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26816,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26816,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26755,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16308,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16308,
+      "status": "candidate",
+      "text": "debian"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run CI and tests on Linux",
+  "concept_id": "run-ci-and-tests-on-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/run-tests-linux.yml",
+      "source_repo": "david-bouyssie/mdbx4s"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run CI and tests on Linux",
+      "sense_id": "run-ci-and-tests-on-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

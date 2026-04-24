@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "zeroconf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] The most up-to-date open source Spotify client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate-context",
+      "text": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate",
+      "text": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024395,
+      "status": "candidate",
+      "text": "autoconfiguration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024394,
+      "status": "candidate",
+      "text": "zeroization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024393,
+      "status": "candidate",
+      "text": "one-armed router"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024392,
+      "status": "candidate",
+      "text": "config"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024391,
+      "status": "candidate",
+      "text": "microserver"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "zeroconf",
+  "concept_id": "zeroconf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zeroconf",
+      "sense_id": "zeroconf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

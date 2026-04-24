@@ -730,6 +730,270 @@
       "source_repo": "aws-powertools/powertools-lambda-java",
       "status": "candidate-context",
       "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aws-powertools_powertools-lambda-java&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codelibs/fess",
+      "status": "candidate-context",
+      "text": "Fess is very powerful and easily deployable Enterprise Search Server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess",
+      "status": "candidate-context",
+      "text": "[![Java CI with Maven](https://github.com/codelibs/fess/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locationtech/jts",
+      "status": "candidate-context",
+      "text": "The JTS Topology Suite is a Java library for creating and manipulating vector geometry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locationtech/jts",
+      "status": "candidate-context",
+      "text": "JTS Topology Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate-context",
+      "text": "Docker build scripts for TornadoVM on GPUs: https://github.com/beehive-lab/TornadoVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "status": "candidate-context",
+      "text": " \ud83c\udfa5 A Java implementation of Kinect Fusion running on Tornado VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "status": "candidate-context",
+      "text": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Java",
+      "status": "candidate-context",
+      "text": "KurrentDB Java Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Java",
+      "status": "candidate-context",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "Java SDK for Milvus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "GitHub Action that formats Java files following Google Style guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate-context",
+      "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "A maven plugin that automatically deploys code formatters as pre-commit git hook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate-context",
+      "text": "An sbt plugin for formating Java code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate-context",
+      "text": "[sbt-java-formatter]: https://github.com/sbt/sbt-java-formatter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] The most up-to-date open source Spotify client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate-context",
+      "text": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "A configuration as code language with rich validation and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "MIRROR of: https://codeberg.org/mfussenegger/nvim-jdtls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate-context",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart4e/dart4e-studio",
+      "status": "candidate-context",
+      "text": "Eclipse based IDE for the Dart programming language and the Flutter application framework "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e-studio",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "AI Code Completions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate-context",
+      "text": "A Jupyter kernel for executing Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate-context",
+      "text": "[![badge](https://img.shields.io/badge/launch-binder-E66581.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAABZCAMAAABi1XidAAAB8lBMVEX///9XmsrmZYH1olJXmsr1olJXmsrmZYH1olJXmsr1olJXmsrmZYH1olL1olJXmsr1olJXmsrmZYH1olL1olJXmsrmZYH1olJXmsr1olL1olJXmsrmZYH1olL1olJXmsrmZYH1\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate-context",
+      "text": "Beaker Extensions for Jupyter Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "The Java gRPC implementation. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate-context",
+      "text": "gRPC-Java - An RPC library and framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate-context",
+      "text": "Apache Camel Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate-context",
+      "text": "main pr build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Enable drop-in Windows Single Sign On for popular Java web servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "WAFFLE - Windows Authentication Framework"
     }
   ],
   "candidate_glosses": [
@@ -1092,6 +1356,138 @@
       "source_repo": "aws-powertools/powertools-lambda-java",
       "status": "candidate",
       "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aws-powertools_powertools-lambda-java&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess",
+      "status": "candidate",
+      "text": "[![Java CI with Maven](https://github.com/codelibs/fess/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locationtech/jts",
+      "status": "candidate",
+      "text": "JTS Topology Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/docker-tornadovm",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate",
+      "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "status": "candidate",
+      "text": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Java",
+      "status": "candidate",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus-sdk-java",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.milvus/milvus-sdk-java.svg)](https://search.maven.org/artifact/io.milvus/milvus-sdk-java/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axel-op/googlejavaformat-action",
+      "status": "candidate",
+      "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate",
+      "text": "[sbt-java-formatter]: https://github.com/sbt/sbt-java-formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot-java",
+      "status": "candidate",
+      "text": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-jdtls",
+      "status": "candidate",
+      "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e-studio",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate",
+      "text": "[![badge](https://img.shields.io/badge/launch-binder-E66581.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAABZCAMAAABi1XidAAAB8lBMVEX///9XmsrmZYH1olJXmsr1olJXmsrmZYH1olJXmsr1olJXmsrmZYH1olL1olJXmsr1olJXmsrmZYH1olL1olJXmsrmZYH1olJXmsr1olL1olJXmsrmZYH1olL1olJXmsrmZYH1\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-java",
+      "status": "candidate",
+      "text": "gRPC-Java - An RPC library and framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate",
+      "text": "main pr build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate",
+      "text": "WAFFLE - Windows Authentication Framework"
     }
   ],
   "candidate_related_terms": [
@@ -1593,11 +1989,185 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codelibs/fess"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "locationtech/jts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/docker-tornadovm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/GPULlama3.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/kfusion-tornadovm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus-sdk-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "axel-op/googlejavaformat-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "diffplug/spotless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sbt/sbt-java-formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotansimha/graphql-code-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-jdtls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SpencerPark/IJava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "twosigma/beakerx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/camel-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Waffle/waffle"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

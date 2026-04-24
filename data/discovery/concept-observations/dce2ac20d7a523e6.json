@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fiat-Shamir for the masses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sponge FiSh (duplex **sponge** **Fi**at\u2013**Sh**amir) is a permutation-agnostic Fiat\u2013Shamir library that believes in random oracles."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sponge FiSh (duplex **sponge** **Fi**at\u2013**Sh**amir) is a permutation-agnostic Fiat\u2013Shamir library that believes in random oracles."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023558,
+      "status": "candidate",
+      "text": "axiomless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023557,
+      "status": "candidate",
+      "text": "zero-shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023556,
+      "status": "candidate",
+      "text": "zero"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023555,
+      "status": "candidate",
+      "text": "know-nothing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023554,
+      "status": "candidate",
+      "text": "zero-zero"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zero-knowledge",
+      "sense_id": "zero-knowledge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zero-knowledge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zero-knowledge",
+  "observation_id": "dce2ac20d7a523e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "zero-knowledge",
+  "source_context_snippet": "Sponge FiSh (duplex **sponge** **Fi**at\u2013**Sh**amir) is a permutation-agnostic Fiat\u2013Shamir library that believes in random oracles.",
+  "source_file": null,
+  "source_repo": "arkworks-rs/spongefish",
+  "source_repo_description": "Fiat-Shamir for the masses."
+}

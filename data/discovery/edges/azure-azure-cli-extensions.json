@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "azure/azure-cli-dev-tools.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AddIssueComment.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "hasura/comment-progress@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AddIssueCommentWithLabel.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AddIssueCommentWithLabel.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AddIssueCommentWithLabel.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "Comment Issue when labeled non-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AzdevLinter.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AzdevLinter.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "GH Azdev Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AzdevStyle.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AzdevStyle.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "GH Azdev Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BlockPRMerge.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BlockPRMerge.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "Block PR merging on blocked labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CCOA.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CCOA.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "CCOA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CreateReleaseTag.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CreateReleaseTag.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CreateReleaseTag.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "Create Release Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GitHookNotice.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GitHookNotice.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/GitHookNotice.yml",
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "Git Hook Notice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "azure-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-cli-extensions",
+      "target": "azure-cli-extension",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "Azure/azure-cli-extensions"
+}

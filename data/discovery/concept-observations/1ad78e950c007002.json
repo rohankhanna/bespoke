@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Returns true if the value is a finite number."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Returns true if the value is a finite number."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048601,
+      "status": "candidate",
+      "text": "non"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038041,
+      "status": "candidate",
+      "text": "bad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036866,
+      "status": "candidate",
+      "text": "dissentient"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036560,
+      "status": "candidate",
+      "text": "disadvantageous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036461,
+      "status": "candidate",
+      "text": "dissident"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "negative",
+      "sense_id": "negative#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "perverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30037,
+      "status": "candidate",
+      "text": "dissident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28055,
+      "status": "candidate",
+      "text": "bad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25034,
+      "status": "candidate",
+      "text": "harmful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20032,
+      "status": "candidate",
+      "text": "antagonistic"
+    }
+  ],
+  "concept_id": "negative",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "negative",
+  "observation_id": "1ad78e950c007002",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "negative",
+  "source_context_snippet": "> Returns true if the value is a finite number.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/is-number",
+  "source_repo_description": "JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. "
+}

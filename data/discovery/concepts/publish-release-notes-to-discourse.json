@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Release Notes to Discourse"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate-context",
+      "text": "Bayesian Modeling and Probabilistic Programming in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate-context",
+      "text": "Publish Release Notes to Discourse"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate",
+      "text": "Publish Release Notes to Discourse"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32836,
+      "status": "candidate",
+      "text": "footnotes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27896,
+      "status": "candidate",
+      "text": "speak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27841,
+      "status": "candidate",
+      "text": "voice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27803,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27782,
+      "status": "candidate",
+      "text": "utter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Release Notes to Discourse",
+  "concept_id": "publish-release-notes-to-discourse",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish-release-notes-to-discourse.yml",
+      "source_repo": "pymc-devs/pymc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Release Notes to Discourse",
+      "sense_id": "publish-release-notes-to-discourse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

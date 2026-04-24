@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Arbitrum Docs! Content + Webapp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily Dependency Release Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily Dependency Release Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29738,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29696,
+      "status": "candidate",
+      "text": "live"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29696,
+      "status": "candidate",
+      "text": "livelihood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29696,
+      "status": "candidate",
+      "text": "living"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29642,
+      "status": "candidate",
+      "text": "surname"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Dependency Release Check",
+      "sense_id": "daily-dependency-release-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-dependency-release-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-dependency-release-check",
+  "observation_id": "13f808a95edc5815",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Daily Dependency Release Check",
+  "source_context_snippet": "Daily Dependency Release Check",
+  "source_file": ".github/workflows/daily-release-check.yml",
+  "source_repo": "OffchainLabs/arbitrum-docs",
+  "source_repo_description": "Arbitrum Docs! Content + Webapp"
+}

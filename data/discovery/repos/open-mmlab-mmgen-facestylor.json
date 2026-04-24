@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/MMGEN-FaceStylor",
+      "target": "flyingbread-elon/agilegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/MMGEN-FaceStylor",
+      "target": "bryandlee/freezeg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/MMGEN-FaceStylor",
+      "target": "clovaai/stargan-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/MMGEN-FaceStylor",
+      "target": "eladrich/pixel2style2pixel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:48:18.607862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17896
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "open-mmlab/MMGEN-FaceStylor",
+    "html_url": "https://github.com/open-mmlab/MMGEN-FaceStylor",
+    "language": "Python",
+    "pushed_at": "2022-04-22T06:33:29Z",
+    "stargazers_count": 256,
+    "topics": [],
+    "updated_at": "2026-01-07T15:52:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bryandlee/freezeg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/stargan-v2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eladrich/pixel2style2pixel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flyingbread-elon/agilegan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

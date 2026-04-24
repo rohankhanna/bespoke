@@ -48,13 +48,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "etcd-io/bbolt",
-      "target": "ajvb/kala",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/bbolt",
       "target": "abhigupta912/mbuckets",
       "target_type": "repository"
     },
@@ -62,7 +55,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "etcd-io/bbolt",
-      "target": "anacrolix/torrent",
+      "target": "asdine/storm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/bbolt",
+      "target": "benbjohnson/scuttlebutt",
       "target_type": "repository"
     },
     {
@@ -171,7 +171,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:38:28.459407+00:00",
+  "fetched_at": "2026-04-24T08:56:32.287045+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -224,9 +224,9 @@
     "html_url": "https://github.com/etcd-io/bbolt",
     "language": "Go",
     "pushed_at": "2026-04-22T09:21:24Z",
-    "stargazers_count": 9472,
+    "stargazers_count": 9471,
     "topics": [],
-    "updated_at": "2026-04-23T13:52:03Z"
+    "updated_at": "2026-04-24T06:01:17Z"
   },
   "repo_links": [
     {
@@ -236,17 +236,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ajvb/kala",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "anacrolix/torrent",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "andreasbriese/iplocator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asdine/storm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benbjohnson/scuttlebutt",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "microsoft/msmarco-openkp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "dfcf93/msmarcov2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Question-Answering",
+      "target": "baidu/dureader",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:29.868465+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MS MARCO(Microsoft Machine Reading Comprehension) is a large scale dataset focused on machine reading comprehension and question answering",
+    "fork": false,
+    "full_name": "microsoft/MSMARCO-Question-Answering",
+    "html_url": "https://github.com/microsoft/MSMARCO-Question-Answering",
+    "language": "Python",
+    "pushed_at": "2023-06-12T18:21:59Z",
+    "stargazers_count": 227,
+    "topics": [],
+    "updated_at": "2026-03-10T11:24:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu/dureader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dfcf93/msmarcov2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/msmarco-openkp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

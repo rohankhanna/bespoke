@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -146,6 +146,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "microsoft/CsWin32"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml.yml",
+      "source_repo": "elsa-workflows/elsa-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "HKUDS/LightRAG"
     }
   ],
   "term": "Copilot Setup Steps"

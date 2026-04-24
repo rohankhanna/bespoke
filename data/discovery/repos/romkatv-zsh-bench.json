@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/zsh-bench",
+      "target": "romkatv/zsh-prompt-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/zsh-bench",
+      "target": "agnoster/agnoster-zsh-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/zsh-bench",
+      "target": "romkatv/gitstatus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/zsh-bench",
+      "target": "romkatv/zsh-defer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romkatv/zsh-bench",
+      "target": "performance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:23.914931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmark for interactive Zsh",
+    "fork": false,
+    "full_name": "romkatv/zsh-bench",
+    "html_url": "https://github.com/romkatv/zsh-bench",
+    "language": "Shell",
+    "pushed_at": "2026-01-17T07:47:08Z",
+    "stargazers_count": 955,
+    "topics": [
+      "performance",
+      "zsh"
+    ],
+    "updated_at": "2026-04-23T21:00:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agnoster/agnoster-zsh-theme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romkatv/gitstatus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romkatv/zsh-defer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romkatv/zsh-prompt-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark for interactive zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    }
+  ]
+}

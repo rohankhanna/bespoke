@@ -84,7 +84,7 @@
   "normalized_form": "integration-test",
   "observation_id": "6ce7763c57831570",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Integration Test",
   "source_context_snippet": "Integration Test",
   "source_file": ".github/workflows/modules-integration-test.yaml",

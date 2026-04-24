@@ -236,6 +236,30 @@
       "source_repo": "dotnet/docfx",
       "status": "candidate-context",
       "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5\ufe0f Reproducible development environment for humans and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate-context",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgm/pandoc",
+      "status": "candidate-context",
+      "text": "Universal markup converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/pandoc",
+      "status": "candidate-context",
+      "text": "Nightly"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +376,18 @@
       "source_repo": "dotnet/docfx",
       "status": "candidate",
       "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envd",
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/pandoc",
+      "status": "candidate",
+      "text": "Nightly"
     }
   ],
   "candidate_related_terms": [
@@ -524,11 +560,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "jgm/pandoc"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

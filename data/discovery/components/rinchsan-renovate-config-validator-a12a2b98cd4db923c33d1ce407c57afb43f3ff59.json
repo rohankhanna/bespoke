@@ -1,0 +1,12 @@
+{
+  "component": "rinchsan/renovate-config-validator@a12a2b98cd4db923c33d1ce407c57afb43f3ff59",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renovate.yml",
+      "source_repo": "kubecfg/kubecfg"
+    }
+  ]
+}

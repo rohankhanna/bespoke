@@ -245,7 +245,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:50:21.529664+00:00",
+  "fetched_at": "2026-04-24T06:59:18.532878+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -270,7 +270,7 @@
     "html_url": "https://github.com/remarkjs/remark",
     "language": "JavaScript",
     "pushed_at": "2026-02-24T19:08:59Z",
-    "stargazers_count": 8838,
+    "stargazers_count": 8842,
     "topics": [
       "ast",
       "commonmark",
@@ -279,7 +279,7 @@
       "remark",
       "unified"
     ],
-    "updated_at": "2026-04-22T04:09:30Z"
+    "updated_at": "2026-04-24T01:28:17Z"
   },
   "repo_links": [],
   "terms": [

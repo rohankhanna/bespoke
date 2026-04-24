@@ -1,7 +1,7 @@
 {
   "component": "tauri-apps/tauri-action@v0",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app-release.yml",
+      "source_repo": "av/harbor"
     }
   ]
 }

@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "flann-lib/flann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-clang-format.yml",
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-clang-format.yml",
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "CI Check clang-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "CI Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "kd-trees",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "nanoflann",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/nanoflann",
+      "target": "point-clouds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:57:30.790710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17998
+    },
+    {
+      "path": ".github/workflows/check-clang-format.yml",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/ci-linux.yml",
+      "size": 3631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees",
+    "fork": false,
+    "full_name": "jlblancoc/nanoflann",
+    "html_url": "https://github.com/jlblancoc/nanoflann",
+    "language": "C++",
+    "pushed_at": "2025-12-26T08:50:26Z",
+    "stargazers_count": 2620,
+    "topics": [
+      "c-plus-plus",
+      "cpp",
+      "kd-trees",
+      "nanoflann",
+      "point-clouds"
+    ],
+    "updated_at": "2026-04-24T07:09:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flann-lib/flann",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Check clang-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-clang-format.yml",
+      "term": "CI Check clang-format"
+    },
+    {
+      "context_snippet": "CI Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "term": "CI Linux"
+    },
+    {
+      "context_snippet": "![nanoflann](https://raw.githubusercontent.com/jlblancoc/nanoflann/master/doc/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "![nanoflann](https://raw.githubusercontent.com/jlblancoc/nanoflann/master/doc/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kd-trees"
+    },
+    {
+      "context_snippet": "![nanoflann](https://raw.githubusercontent.com/jlblancoc/nanoflann/master/doc/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanoflann"
+    },
+    {
+      "context_snippet": "![nanoflann](https://raw.githubusercontent.com/jlblancoc/nanoflann/master/doc/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-clouds"
+    }
+  ]
+}

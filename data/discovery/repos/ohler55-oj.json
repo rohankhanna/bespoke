@@ -1,0 +1,301 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml.ignore"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml.ignore"
+    },
+    {
+      "component": "r7kamura/rubocop-problem-matchers-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml.ignore"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ohler55/oj",
+      "target": "intridea/multi_json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ohler55/oj",
+      "target": "ohler55/agoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ohler55/oj",
+      "target": "ohler55/agoo-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ohler55/oj",
+      "target": "meinac/oj-introspect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "ohler55/oj",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "ohler55/oj",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ohler55/oj",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ohler55/oj",
+      "target": "jidicula/clang-format-action@v4.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ohler55/oj",
+      "target": "clang-format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml.ignore",
+      "source_repo": "ohler55/oj",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml.ignore",
+      "source_repo": "ohler55/oj",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml.ignore",
+      "source_repo": "ohler55/oj",
+      "target": "r7kamura/rubocop-problem-matchers-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml.ignore",
+      "source_repo": "ohler55/oj",
+      "target": "Rubocop Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj",
+      "target": "json-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj",
+      "target": "marshaller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj",
+      "target": "oj-gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj",
+      "target": "ruby-json-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:42.763040+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4456
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1382
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 589
+    },
+    {
+      "path": ".github/workflows/rubocop.yml.ignore",
+      "size": 1036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Optimized JSON",
+    "fork": false,
+    "full_name": "ohler55/oj",
+    "html_url": "https://github.com/ohler55/oj",
+    "language": "C",
+    "pushed_at": "2026-04-19T23:11:44Z",
+    "stargazers_count": 3205,
+    "topics": [
+      "c",
+      "json",
+      "json-parser",
+      "marshaller",
+      "oj-gem",
+      "rails",
+      "ruby",
+      "ruby-json-parser"
+    ],
+    "updated_at": "2026-04-21T11:17:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intridea/multi_json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meinac/oj-introspect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ohler55/agoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ohler55/agoo-c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clang-format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "clang-format Check"
+    },
+    {
+      "context_snippet": "Rubocop Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml.ignore",
+      "term": "Rubocop Check"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "marshaller"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oj-gem"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-json-parser"
+    }
+  ]
+}

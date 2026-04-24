@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sort-spelling-allowlist.yml",
+      "source_repo": "a2aproject/A2A"
+    }
+  ],
+  "term": "Auto-sort and update spelling allowlist"
+}

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/CnMFD_Dataset",
+      "target": "math-formula-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/CnMFD_Dataset",
+      "target": "mathematical-formula-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:39.752185+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chinese Mathematical Formula Detection (MFD) Dataset \u4e2d\u6587\u6587\u6863\u6570\u5b66\u516c\u5f0f\u68c0\u6d4b\u6570\u636e\u96c6",
+    "fork": false,
+    "full_name": "breezedeus/CnMFD_Dataset",
+    "html_url": "https://github.com/breezedeus/CnMFD_Dataset",
+    "language": "Python",
+    "pushed_at": "2022-12-21T09:52:58Z",
+    "stargazers_count": 34,
+    "topics": [
+      "math-formula-detection",
+      "mathematical-formula-detection",
+      "mfd"
+    ],
+    "updated_at": "2025-12-16T02:43:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-formula-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematical-formula-detection"
+    }
+  ]
+}

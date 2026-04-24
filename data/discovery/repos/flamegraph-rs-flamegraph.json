@@ -33,34 +33,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flamegraph-rs/flamegraph",
-      "target": "mstange/samply",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flamegraph-rs/flamegraph",
-      "target": "nico-abram/blondie",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flamegraph-rs/flamegraph",
-      "target": "gimli-rs/addr2line",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flamegraph-rs/flamegraph",
-      "target": "spacejam/sled",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "flamegraph-rs/flamegraph",
@@ -110,7 +82,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:47:53.782229+00:00",
+  "fetched_at": "2026-04-24T08:58:48.513474+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -143,28 +115,7 @@
     ],
     "updated_at": "2026-04-23T15:12:53Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gimli-rs/addr2line",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mstange/samply",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nico-abram/blondie",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "spacejam/sled",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[![colorized flamegraph output](example_cropped.png)](example.svg)",

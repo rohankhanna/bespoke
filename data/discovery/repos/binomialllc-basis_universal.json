@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "binomialllc/ktx-software-binomial-fork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "arm-software/astc-encoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "0xc0000054/pdn-ddsfiletype-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "13thsymphony/hdrimageviewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "\ud83d\udcca Static Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "gpu-texture-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "jpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "mipmapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal",
+      "target": "texture-compression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:37.897090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 45104
+    },
+    {
+      "path": ".github/workflows/file_format.py",
+      "size": 1296
+    },
+    {
+      "path": ".github/workflows/static_checks.yml",
+      "size": 613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Basis Universal GPU Texture Codec",
+    "fork": false,
+    "full_name": "BinomialLLC/basis_universal",
+    "html_url": "https://github.com/BinomialLLC/basis_universal",
+    "language": "C++",
+    "pushed_at": "2026-04-21T18:19:30Z",
+    "stargazers_count": 3008,
+    "topics": [
+      "compression",
+      "dds",
+      "gpu-texture-compression",
+      "image-processing",
+      "jpeg",
+      "ktx",
+      "mipmapping",
+      "png",
+      "qoi",
+      "texture-compression"
+    ],
+    "updated_at": "2026-04-24T02:20:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xc0000054/pdn-ddsfiletype-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "13thsymphony/hdrimageviewer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arm-software/astc-encoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binomialllc/ktx-software-binomial-fork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udcca Static Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "term": "\ud83d\udcca Static Checks"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2016-2026 Binomial LLC -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2016-2026 Binomial LLC -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-texture-compression"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2016-2026 Binomial LLC -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2016-2026 Binomial LLC -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2016-2026 Binomial LLC -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mipmapping"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2016-2026 Binomial LLC -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-compression"
+    }
+  ]
+}

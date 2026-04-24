@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:00:53.445325+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc5f Apply for a Filecoin devgrant. Help build the Filecoin ecosystem!",
+    "fork": false,
+    "full_name": "filecoin-project/devgrants",
+    "html_url": "https://github.com/filecoin-project/devgrants",
+    "language": null,
+    "pushed_at": "2026-01-06T19:31:35Z",
+    "stargazers_count": 406,
+    "topics": [],
+    "updated_at": "2026-04-16T05:30:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

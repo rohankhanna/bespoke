@@ -307,6 +307,114 @@
       "source_repo": "nfrechette/rtm",
       "status": "candidate-context",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate-context",
+      "text": "Lightweight C++ command line option parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Native Node bindings to Git."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "Cross-platform, customizable ML solutions for live and streaming media."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlblancoc/nanoflann",
+      "status": "candidate-context",
+      "text": "nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/nanoflann",
+      "status": "candidate-context",
+      "text": "![nanoflann](https://raw.githubusercontent.com/jlblancoc/nanoflann/master/doc/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tessil/robin-map",
+      "status": "candidate-context",
+      "text": " C++ implementation of a fast hash map and hash set using robin hood hashing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tessil/robin-map",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/Tessil/robin-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/robin-map/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "kaldi-asr/kaldi is the official location of the Kaldi project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shumatech/BOSSA",
+      "status": "candidate-context",
+      "text": "BOSSA is a flash programming utility for Atmel's SAM family of flash-based ARM microcontrollers.  The motivation behind BOSSA is to create a simple, easy-to-use, open source utility to replace Atmel's SAM-BA software.  BOSSA is an acronym for Basic Open Source SAM-BA Application to reflect that goal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shumatech/BOSSA",
+      "status": "candidate-context",
+      "text": "BOSSA 1.9.1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jimporter/mettle",
+      "status": "candidate-context",
+      "text": "A C++20 unit test framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mettle",
+      "status": "candidate-context",
+      "text": "[![Latest release][release-image]][release-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate-context",
+      "text": "Animation Compression Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +567,60 @@
       "source_repo": "nfrechette/rtm",
       "status": "candidate",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarro2783/cxxopts",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate",
+      "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/nanoflann",
+      "status": "candidate",
+      "text": "![nanoflann](https://raw.githubusercontent.com/jlblancoc/nanoflann/master/doc/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tessil/robin-map",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Tessil/robin-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/robin-map/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaldi-asr/kaldi",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shumatech/BOSSA",
+      "status": "candidate",
+      "text": "BOSSA 1.9.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mettle",
+      "status": "candidate",
+      "text": "[![Latest release][release-image]][release-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
     }
   ],
   "candidate_related_terms": [],
@@ -628,11 +790,77 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "nfrechette/rtm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jarro2783/cxxopts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nodegit/nodegit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jlblancoc/nanoflann"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Tessil/robin-map"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kaldi-asr/kaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jimporter/mettle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nfrechette/acl"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

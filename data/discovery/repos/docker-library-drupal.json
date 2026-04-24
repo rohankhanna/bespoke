@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker-library/bashbrew@HEAD",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/drupal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/drupal",
+      "target": "docker-library/bashbrew@HEAD",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/drupal",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/drupal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/drupal",
+      "target": "Verify Templating",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:25.917540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1728
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/verify-templating.yml",
+      "size": 337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker Official Image packaging for Drupal",
+    "fork": false,
+    "full_name": "docker-library/drupal",
+    "html_url": "https://github.com/docker-library/drupal",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T08:44:57Z",
+    "stargazers_count": 290,
+    "topics": [],
+    "updated_at": "2026-04-20T08:45:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "Verify Templating",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "term": "Verify Templating"
+    }
+  ]
+}

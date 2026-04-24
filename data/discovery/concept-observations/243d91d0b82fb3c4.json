@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4f7f\u7528 MiraiGo-Template \u5b9e\u73b0\u7684\u56fd\u9645\u8c61\u68cb\u673a\u5668\u4eba\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **Warning**\\"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **Warning**\\"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirai-bot",
+      "sense_id": "mirai-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirai-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirai-bot",
+  "observation_id": "243d91d0b82fb3c4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "mirai-bot",
+  "source_context_snippet": "> **Warning**\\",
+  "source_file": null,
+  "source_repo": "aimerneige/MiraiChess",
+  "source_repo_description": "\u4f7f\u7528 MiraiGo-Template \u5b9e\u73b0\u7684\u56fd\u9645\u8c61\u68cb\u673a\u5668\u4eba\u3002"
+}

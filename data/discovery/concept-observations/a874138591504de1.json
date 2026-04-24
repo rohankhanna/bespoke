@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2026]\ud83c\udf34 ARES is an open-source framework for adaptive multimodal reasoning, featuring a two-stage pipeline\u2014Adaptive Cold-Start and Entropy-Shaped Policy Optimization\u2014to balance reasoning depth and efficiency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971510,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969794,
+      "status": "candidate",
+      "text": "introspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968307,
+      "status": "candidate",
+      "text": "thinking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939216,
+      "status": "candidate",
+      "text": "remorse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29930155,
+      "status": "candidate",
+      "text": "rethinking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-reflection",
+      "sense_id": "self-reflection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "self-reflection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "self-reflection",
+  "observation_id": "a874138591504de1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "self-reflection",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "shawn0728/ARES",
+  "source_repo_description": "[ICLR 2026]\ud83c\udf34 ARES is an open-source framework for adaptive multimodal reasoning, featuring a two-stage pipeline\u2014Adaptive Cold-Start and Entropy-Shaped Policy Optimization\u2014to balance reasoning depth and efficiency."
+}

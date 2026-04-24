@@ -21,20 +21,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenBMB/RepoAgent",
-      "target": "openbmb/xagent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenBMB/RepoAgent",
-      "target": "chongminggao/easyrl4rec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "OpenBMB/RepoAgent",
       "target": "logic-10/repoagent",
@@ -132,7 +118,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:43:37.999158+00:00",
+  "fetched_at": "2026-04-24T09:04:37.575294+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +147,7 @@
     "html_url": "https://github.com/OpenBMB/RepoAgent",
     "language": "Python",
     "pushed_at": "2024-12-23T11:48:52Z",
-    "stargazers_count": 948,
+    "stargazers_count": 949,
     "topics": [
       "agent",
       "chatglm",
@@ -177,22 +163,12 @@
       "rag",
       "repo-level-debugging"
     ],
-    "updated_at": "2026-04-23T02:07:55Z"
+    "updated_at": "2026-04-24T07:17:29Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chongminggao/easyrl4rec",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "logic-10/repoagent",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openbmb/xagent",
       "source_file": "README.md"
     },
     {

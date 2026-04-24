@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "georust/gpx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "georust/gpx",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/gpx",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/gpx",
+      "target": "gps-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/gpx",
+      "target": "gpx-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/gpx",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/gpx",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:14:46.997792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3178
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 673
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust read/write support for GPS Exchange Format (GPX)",
+    "fork": false,
+    "full_name": "georust/gpx",
+    "html_url": "https://github.com/georust/gpx",
+    "language": "Rust",
+    "pushed_at": "2025-08-19T15:24:57Z",
+    "stargazers_count": 120,
+    "topics": [
+      "geospatial",
+      "gps-data",
+      "gpx",
+      "gpx-parser",
+      "hacktoberfest",
+      "rust"
+    ],
+    "updated_at": "2026-03-24T06:55:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gps-data"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpx-parser"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/gpx.svg)](https://crates.io/crates/gpx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

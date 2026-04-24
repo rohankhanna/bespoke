@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Embarcadero/python4delphi",
+      "target": "pyscripter/python4delphi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:07.172039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fork of P4D adding FireMonkey wrapper and Android support",
+    "fork": true,
+    "full_name": "Embarcadero/python4delphi",
+    "html_url": "https://github.com/Embarcadero/python4delphi",
+    "language": "Pascal",
+    "pushed_at": "2026-02-27T10:11:39Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-03-26T01:13:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyscripter/python4delphi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "high-moctane/nextword",
+      "target": "high-moctane/mocword",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "high-moctane/nextword",
+      "target": "high-moctane/nextword-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "high-moctane/nextword",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "high-moctane/nextword",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "high-moctane/nextword",
+      "target": "goreleaser/goreleaser-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "high-moctane/nextword",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/nextword",
+      "target": "english",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/nextword",
+      "target": "nextword",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:30.461016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1965
+    },
+    {
+      "path": "go.mod",
+      "size": 101
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Predict next English words.",
+    "fork": false,
+    "full_name": "high-moctane/nextword",
+    "html_url": "https://github.com/high-moctane/nextword",
+    "language": "Go",
+    "pushed_at": "2022-02-19T16:29:49Z",
+    "stargazers_count": 67,
+    "topics": [
+      "english",
+      "nextword"
+    ],
+    "updated_at": "2025-12-07T09:38:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "high-moctane/mocword",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "high-moctane/nextword-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english"
+    },
+    {
+      "context_snippet": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextword"
+    }
+  ]
+}

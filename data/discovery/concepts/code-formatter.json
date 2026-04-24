@@ -58,6 +58,30 @@
       "source_repo": "apache/doris",
       "status": "candidate-context",
       "text": "Code Formatter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "A maven plugin that automatically deploys code formatters as pre-commit git hook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate-context",
+      "text": "An sbt plugin for formating Java code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate-context",
+      "text": "[sbt-java-formatter]: https://github.com/sbt/sbt-java-formatter"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +108,18 @@
       "source_repo": "apache/doris",
       "status": "candidate",
       "text": "Code Formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-java-formatter",
+      "status": "candidate",
+      "text": "[sbt-java-formatter]: https://github.com/sbt/sbt-java-formatter"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +187,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/clang-format.yml",
       "source_repo": "apache/doris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sbt/sbt-java-formatter"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -38,6 +38,18 @@
       "source_repo": "asg017/sqlite-base64",
       "status": "candidate-context",
       "text": "\"test build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gjtorikian/commonmarker",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for the comrak (CommonMark parser) Rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjtorikian/commonmarker",
+      "status": "candidate-context",
+      "text": "Test Build"
     }
   ],
   "candidate_glosses": [
@@ -52,6 +64,12 @@
       "source_repo": "asg017/sqlite-base64",
       "status": "candidate",
       "text": "\"test build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjtorikian/commonmarker",
+      "status": "candidate",
+      "text": "Test Build"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "asg017/sqlite-base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "gjtorikian/commonmarker"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

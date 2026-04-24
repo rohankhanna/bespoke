@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "justinpinkney/nomi",
+      "target": "pypa/setuptools_scm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:30.861250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1577
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 355
+    },
+    {
+      "path": "requirements.txt",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "justinpinkney/nomi",
+    "html_url": "https://github.com/justinpinkney/nomi",
+    "language": "Python",
+    "pushed_at": "2022-07-01T10:49:41Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-01-29T02:32:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/setuptools_scm",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

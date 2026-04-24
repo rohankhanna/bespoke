@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048047,
+      "status": "candidate",
+      "text": "coffee bean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046421,
+      "status": "candidate",
+      "text": "chocolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045154,
+      "status": "candidate",
+      "text": "coffee berry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028071,
+      "status": "candidate",
+      "text": "burnt umber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007203,
+      "status": "candidate",
+      "text": "umber"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coffee",
+      "sense_id": "coffee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27040,
+      "status": "candidate",
+      "text": "umber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4073,
+      "status": "candidate",
+      "text": "java"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "burnt umber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3048,
+      "status": "candidate",
+      "text": "chocolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "coffee tree"
+    }
+  ],
+  "concept_id": "coffee",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coffee",
+  "observation_id": "22e2bb62d34fa4b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "coffee",
+  "source_context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+  "source_file": null,
+  "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+  "source_repo_description": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor."
+}

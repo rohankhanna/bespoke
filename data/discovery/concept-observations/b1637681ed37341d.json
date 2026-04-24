@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bitwarden client apps (web, browser extension, desktop, and cli)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automatic issue responses"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automatic issue responses"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "answering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "behavior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "behaviour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "input"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "program"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic issue responses",
+      "sense_id": "automatic-issue-responses#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automatic-issue-responses",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automatic-issue-responses",
+  "observation_id": "b1637681ed37341d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Automatic issue responses",
+  "source_context_snippet": "Automatic issue responses",
+  "source_file": ".github/workflows/automatic-issue-responses.yml",
+  "source_repo": "bitwarden/clients",
+  "source_repo_description": "Bitwarden client apps (web, browser extension, desktop, and cli)."
+}

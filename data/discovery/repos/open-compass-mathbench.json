@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:49:19.537287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2024 Findings] MathBench: A Comprehensive Multi-Level Difficulty Mathematics Evaluation Dataset",
+    "fork": false,
+    "full_name": "open-compass/MathBench",
+    "html_url": "https://github.com/open-compass/MathBench",
+    "language": null,
+    "pushed_at": "2025-05-22T12:19:04Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2026-04-24T06:31:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

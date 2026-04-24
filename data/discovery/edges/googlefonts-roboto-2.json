@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "googlefonts/roboto-2",
-      "target": "googlefonts/roboto-3-classic",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/roboto-2",
       "target": "google/roboto",
       "target_type": "repository"
     },
@@ -27,8 +20,15 @@
       "source_repo": "googlefonts/roboto-2",
       "target": "googlei18n/nototools",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "googlefonts/roboto-2",
+      "target": "googlei18n/ufo2ft",
+      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "googlefonts/roboto-2"
 }

@@ -55,6 +55,18 @@
       "source_repo": "ms-jpq/coq_nvim",
       "status": "candidate-context",
       "text": "Named after the [famous theorem prover](https://coq.inria.fr/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/zsh-completions",
+      "status": "candidate-context",
+      "text": "Additional completion definitions for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-completions",
+      "status": "candidate-context",
+      "text": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ms-jpq/coq_nvim",
       "status": "candidate",
       "text": "Named after the [famous theorem prover](https://coq.inria.fr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-completions",
+      "status": "candidate",
+      "text": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ms-jpq/coq_nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-completions"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

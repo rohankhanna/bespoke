@@ -43,6 +43,18 @@
       "source_repo": "chrismattmann/tika-python",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml/badge.svg)](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "Text recognition (optical character recognition) with deep learning methods, ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate-context",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "chrismattmann/tika-python",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml/badge.svg)](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/deep-text-recognition-benchmark",
+      "status": "candidate",
+      "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/deep-text-recognition-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

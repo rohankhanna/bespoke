@@ -19,6 +19,18 @@
       "source_repo": "coderaiser/try-to-catch",
       "status": "candidate-context",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": ":boom: :speech_balloon: errors but with error code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": "Error type used by all [semantic-release](https://github.com/semantic-release/semantic-release) packages."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "coderaiser/try-to-catch",
       "status": "candidate",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate",
+      "text": "Error type used by all [semantic-release](https://github.com/semantic-release/semantic-release) packages."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coderaiser/try-to-catch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/error"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

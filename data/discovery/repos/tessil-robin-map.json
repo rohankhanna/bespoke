@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Tessil/robin-map",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/robin-map",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/robin-map",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/robin-map",
+      "target": "hash-map",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/robin-map",
+      "target": "hash-table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/robin-map",
+      "target": "header-only",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:57:36.990853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23185
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " C++ implementation of a fast hash map and hash set using robin hood hashing",
+    "fork": false,
+    "full_name": "Tessil/robin-map",
+    "html_url": "https://github.com/Tessil/robin-map",
+    "language": "C++",
+    "pushed_at": "2025-11-02T19:30:02Z",
+    "stargazers_count": 1467,
+    "topics": [
+      "c-plus-plus",
+      "cpp",
+      "data-structures",
+      "hash-map",
+      "hash-table",
+      "header-only"
+    ],
+    "updated_at": "2026-04-14T23:48:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/robin-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/robin-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/robin-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/robin-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structures"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/robin-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/robin-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-map"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/robin-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/robin-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-table"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/robin-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/robin-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    }
+  ]
+}

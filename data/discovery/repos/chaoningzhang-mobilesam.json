@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChaoningZhang/MobileSAM",
+      "target": "jolibrain/joligen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChaoningZhang/MobileSAM",
+      "target": "akbartus/mobilesam-in-the-browser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChaoningZhang/MobileSAM",
+      "target": "continue-revolution/sd-webui-segment-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChaoningZhang/MobileSAM",
+      "target": "microsoft/cream",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:52.419268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the official code for MobileSAM project that makes SAM lightweight for mobile applications and beyond!",
+    "fork": false,
+    "full_name": "ChaoningZhang/MobileSAM",
+    "html_url": "https://github.com/ChaoningZhang/MobileSAM",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-19T10:42:02Z",
+    "stargazers_count": 5722,
+    "topics": [],
+    "updated_at": "2026-04-23T13:37:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akbartus/mobilesam-in-the-browser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "continue-revolution/sd-webui-segment-anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jolibrain/joligen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cream",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

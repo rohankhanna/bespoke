@@ -19,6 +19,30 @@
       "source_repo": "mahmoudnafifi/Exposure_Correction",
       "status": "candidate-context",
       "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luost26/diffusion-point-cloud",
+      "status": "candidate-context",
+      "text": ":thought_balloon: Diffusion Probabilistic Models for 3D Point Cloud Generation (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luost26/diffusion-point-cloud",
+      "status": "candidate-context",
+      "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation\" (CVPR 2021) presenting the pixel2style2pixel (pSp) framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "status": "candidate-context",
+      "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mahmoudnafifi/Exposure_Correction",
       "status": "candidate",
       "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luost26/diffusion-point-cloud",
+      "status": "candidate",
+      "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "status": "candidate",
+      "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mahmoudnafifi/Exposure_Correction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "luost26/diffusion-point-cloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

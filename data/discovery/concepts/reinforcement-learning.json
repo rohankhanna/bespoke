@@ -259,6 +259,126 @@
       "source_repo": "tensorflow/agents",
       "status": "candidate-context",
       "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/TextWorld",
+      "status": "candidate-context",
+      "text": "\u200bTextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TextWorld",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/textworld.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/textworld)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "status": "candidate-context",
+      "text": "Agents that build knowledge graphs and explore textual worlds by asking questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "status": "candidate-context",
+      "text": "![Q*BERT](/images/qbertpixel.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1d  The First Self-Improving Agentic Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate-context",
+      "text": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shawn0728/ARES",
+      "status": "candidate-context",
+      "text": "[ICLR 2026]\ud83c\udf34 ARES is an open-source framework for adaptive multimodal reasoning, featuring a two-stage pipeline\u2014Adaptive Cold-Start and Entropy-Shaped Policy Optimization\u2014to balance reasoning depth and efficiency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/ARES",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "High throughput synchronous and asynchronous reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/alex-petrenko/sample-factory/actions/workflows/test-ci.yml/badge.svg?branch=master)](https://github.com/alex-petrenko/sample-factory/actions/workflows/test-ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/acme",
+      "status": "candidate-context",
+      "text": "A library of reinforcement learning components and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/acme",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/imgs/acme.png\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate-context",
+      "text": "PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate-context",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/stable-baselines3/badges/master/pipeline.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "API to run VirtualHome, a Multi-Agent Household Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +507,66 @@
       "source_repo": "tensorflow/agents",
       "status": "candidate",
       "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TextWorld",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/textworld.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/textworld)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "status": "candidate",
+      "text": "![Q*BERT](/images/qbertpixel.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate",
+      "text": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/ARES",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate",
+      "text": "[<img src=\"https://img.shields.io/badge/license-MIT-blue\">](https://github.com/vwxyzjn/cleanrl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/alex-petrenko/sample-factory/actions/workflows/test-ci.yml/badge.svg?branch=master)](https://github.com/alex-petrenko/sample-factory/actions/workflows/test-ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/acme",
+      "status": "candidate",
+      "text": "<img src=\"docs/imgs/acme.png\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/stable-baselines3",
+      "status": "candidate",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/stable-baselines3/badges/master/pipeline.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -550,11 +730,83 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "tensorflow/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "inclusionAI/AReaL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/TextWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vwxyzjn/cleanrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "DLR-RM/stable-baselines3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "xavierpuigf/virtualhome"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

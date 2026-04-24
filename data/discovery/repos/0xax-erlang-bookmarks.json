@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:02:16.381824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "All about erlang programming language [powerd by community]",
+    "fork": false,
+    "full_name": "0xAX/erlang-bookmarks",
+    "html_url": "https://github.com/0xAX/erlang-bookmarks",
+    "language": null,
+    "pushed_at": "2021-07-31T10:36:29Z",
+    "stargazers_count": 1158,
+    "topics": [],
+    "updated_at": "2026-04-08T04:34:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

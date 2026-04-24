@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "sebthom/gha-shared/.github/workflows/reusable.maven-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "sebthom/gha-shared/.github/actions/stale@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "sevntu-checkstyle/sevntu.checkstyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "timgifford/maven-buildtime-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "trustin/os-maven-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "sebthom/gha-shared/.github/workflows/reusable.maven-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "sebthom/gha-shared/.github/actions/stale@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "Stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "target": "maven-pom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:33.554190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15354
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3475
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Opinionated best practices Maven parent project.",
+    "fork": false,
+    "full_name": "vegardit/vegardit-maven-parent",
+    "html_url": "https://github.com/vegardit/vegardit-maven-parent",
+    "language": "Java",
+    "pushed_at": "2026-04-20T16:32:58Z",
+    "stargazers_count": 8,
+    "topics": [
+      "maven",
+      "maven-pom"
+    ],
+    "updated_at": "2026-04-20T16:33:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sevntu-checkstyle/sevntu.checkstyle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timgifford/maven-buildtime-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trustin/os-maven-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale issues"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven-pom"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:11:10.287620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Object-orientation for Lua",
+    "fork": true,
+    "full_name": "anuvyklack/middleclass",
+    "html_url": "https://github.com/anuvyklack/middleclass",
+    "language": "Lua",
+    "pushed_at": "2022-09-20T16:51:38Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-01-02T12:55:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

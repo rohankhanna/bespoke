@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "devgianlu/go-librespot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "devgianlu/librespot-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "l3d00m/mmm-librespotjava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "michmich/magicmirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "librespot-org/librespot-java",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java",
+      "target": "librespot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java",
+      "target": "player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java",
+      "target": "spotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java",
+      "target": "spotify-connect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot-java",
+      "target": "zeroconf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:46.197201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4539
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 2395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "[DEPRECATED] The most up-to-date open source Spotify client",
+    "fork": false,
+    "full_name": "librespot-org/librespot-java",
+    "html_url": "https://github.com/librespot-org/librespot-java",
+    "language": "Java",
+    "pushed_at": "2025-11-07T17:10:21Z",
+    "stargazers_count": 418,
+    "topics": [
+      "java",
+      "librespot",
+      "player",
+      "spotify",
+      "spotify-connect",
+      "zeroconf"
+    ],
+    "updated_at": "2026-04-22T17:10:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devgianlu/go-librespot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devgianlu/librespot-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "l3d00m/mmm-librespotjava",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michmich/magicmirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librespot"
+    },
+    {
+      "context_snippet": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "player"
+    },
+    {
+      "context_snippet": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify"
+    },
+    {
+      "context_snippet": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify-connect"
+    },
+    {
+      "context_snippet": "[![Maven build / deploy](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml/badge.svg?branch=dev)](https://github.com/librespot-org/librespot-java/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zeroconf"
+    }
+  ]
+}

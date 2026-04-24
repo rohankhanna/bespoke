@@ -67,6 +67,18 @@
       "source_repo": "rust-lang/libz-sys",
       "status": "candidate-context",
       "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate-context",
+      "text": "A drop-in replacement for Python's zlib and gzip modules using zlib-ng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "rust-lang/libz-sys",
       "status": "candidate",
       "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rust-lang/libz-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-zlib-ng"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

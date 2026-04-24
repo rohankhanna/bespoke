@@ -151,6 +151,42 @@
       "source_repo": "ChargePoint/xcparse",
       "status": "candidate-context",
       "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "\ud83e\uddc1 A font quality assurance tool for everyone "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "A very fast, portable and hackable fuzzy finder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "ChargePoint/xcparse",
       "status": "candidate",
       "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate",
+      "text": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/television",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +364,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ChargePoint/xcparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/television"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

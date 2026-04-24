@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,30 @@
       "source_repo": "AIWintermuteAI/whispercpp",
       "status": "candidate-context",
       "text": "scheduled-jobs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate-context",
+      "text": "Dkron - Distributed, fault tolerant job scheduling system https://dkron.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesos/chronos",
+      "status": "candidate-context",
+      "text": "Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesos/chronos",
+      "status": "candidate-context",
+      "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +71,18 @@
       "source_repo": "AIWintermuteAI/whispercpp",
       "status": "candidate",
       "text": "scheduled-jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkron-io/dkron",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesos/chronos",
+      "status": "candidate",
+      "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +102,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/scheduled-jobs.yml",
       "source_repo": "AIWintermuteAI/whispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mesos/chronos"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

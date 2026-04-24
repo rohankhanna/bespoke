@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:04:25.020736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Context repository for AI tools providing career info to guide agents, assistants, etc",
+    "fork": false,
+    "full_name": "danielrosehill/Career-Data-AI-Context-Repo",
+    "html_url": "https://github.com/danielrosehill/Career-Data-AI-Context-Repo",
+    "language": null,
+    "pushed_at": "2025-04-28T20:34:14Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-28T20:34:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

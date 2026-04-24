@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools to support converting a Python project into a standalone native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dependabot Change Note"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dependabot Change Note"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bends"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "bens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28065,
+      "status": "candidate",
+      "text": "monotone"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependabot Change Note",
+      "sense_id": "dependabot-change-note#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependabot-change-note",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependabot-change-note",
+  "observation_id": "9a446a0a8a826210",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Dependabot Change Note",
+  "source_context_snippet": "Dependabot Change Note",
+  "source_file": ".github/workflows/dependabot-changenote.yml",
+  "source_repo": "beeware/briefcase",
+  "source_repo_description": "Tools to support converting a Python project into a standalone native application."
+}

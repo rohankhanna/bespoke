@@ -19,6 +19,18 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate-context",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "status": "candidate-context",
+      "text": "Parallel t-SNE implementation with Python and Torch wrappers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "status": "candidate-context",
+      "text": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "status": "candidate",
+      "text": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CannyLab/tsne-cuda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

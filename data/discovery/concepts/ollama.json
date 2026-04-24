@@ -211,6 +211,30 @@
       "source_repo": "firstbatchxyz/dkn-compute-node",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "firstbatchxyz/dkn-compute-node",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
     }
   ],
   "candidate_related_terms": [],
@@ -502,11 +538,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

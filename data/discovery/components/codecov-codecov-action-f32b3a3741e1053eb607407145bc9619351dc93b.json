@@ -1,0 +1,12 @@
+{
+  "component": "codecov/codecov-action@f32b3a3741e1053eb607407145bc9619351dc93b",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ipfs/js-ipfs"
+    }
+  ]
+}

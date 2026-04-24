@@ -199,6 +199,102 @@
       "source_repo": "ipfs/js-kubo-rpc-client",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">JavaScript client library for the Kubo RPC API</h3>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "a vendor-agnostic gateway conformance test suite for implementers of IPFS Gateways to ensure compliance with  https://specs.ipfs.tech/http-gateways/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 An IPFS website measurement tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate-context",
+      "text": "Standalone, vendor-agnostic Pinning Service API for IPFS ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://protocol.ai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "Browser extension that simplifies access to IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "React components for https://explore.ipld.io and ipfs-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate-context",
+      "text": "> React components for https://explore.ipld.io (https://github.com/ipfs/explore.ipld.io) and ipfs-webui"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "IPFS implementation in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate-context",
+      "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate-context",
+      "text": "IPFS utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate-context",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/specs",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] Old specs repo, moved to https://github.com/ipld/ipld"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/specs",
+      "status": "candidate-context",
+      "text": "!!!"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +393,54 @@
       "source_repo": "ipfs/js-kubo-rpc-client",
       "status": "candidate",
       "text": "<h3 align=\"center\">JavaScript client library for the Kubo RPC API</h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/gateway-conformance",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/pinning-services-api-spec",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://protocol.ai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipld-explorer-components",
+      "status": "candidate",
+      "text": "> React components for https://explore.ipld.io (https://github.com/ipfs/explore.ipld.io) and ipfs-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs",
+      "status": "candidate",
+      "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/specs",
+      "status": "candidate",
+      "text": "!!!"
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +592,71 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ipfs/js-kubo-rpc-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/gateway-conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "probe-lab/tiros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/pinning-services-api-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipld-explorer-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/js-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/js-ipfs-utils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/kubo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipld/specs"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

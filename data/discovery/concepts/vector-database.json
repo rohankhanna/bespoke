@@ -67,6 +67,30 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zilliztech/attu",
+      "status": "candidate-context",
+      "text": "The Best GUI for Milvus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zilliztech/attu",
+      "status": "candidate-context",
+      "text": "![GitHub release](https://img.shields.io/github/v/release/zilliztech/attu)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zilliztech/vts",
+      "status": "candidate-context",
+      "text": "VTS is a tool designed for the transformation and transportation of vectors and unstructured data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zilliztech/vts",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1160323594396635310?label=Discord&logo=discord&style=social)](https://discord.com/invite/mKc3R95yE5)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zilliztech/attu",
+      "status": "candidate",
+      "text": "![GitHub release](https://img.shields.io/github/v/release/zilliztech/attu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zilliztech/vts",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1160323594396635310?label=Discord&logo=discord&style=social)](https://discord.com/invite/mKc3R95yE5)"
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +184,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zilliztech/attu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zilliztech/vts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

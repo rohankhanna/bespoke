@@ -50,6 +50,30 @@
       "source_repo": "aquasecurity/k8s-node-collector",
       "status": "candidate-context",
       "text": "Release snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate-context",
+      "text": "Design data, including design tokens, component schemas, and tooling for Spectrum, Adobe's design system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate-context",
+      "text": "Release Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "Static file serving and directory listing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "Release Snapshot"
     }
   ],
   "candidate_glosses": [
@@ -76,6 +100,18 @@
       "source_repo": "aquasecurity/k8s-node-collector",
       "status": "candidate",
       "text": "Release snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-design-data",
+      "status": "candidate",
+      "text": "Release Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate",
+      "text": "Release Snapshot"
     }
   ],
   "candidate_related_terms": [
@@ -143,11 +179,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release-snapshot.yaml",
       "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-snapshot.yml",
+      "source_repo": "adobe/spectrum-design-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "vercel/serve"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

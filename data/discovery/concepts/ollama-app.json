@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ollama-app"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluonfield/enchanted",
+      "status": "candidate",
+      "text": "[<img src=\"https://img.shields.io/badge/App_Store-0D96F6?&logo=app-store&logoColor=white\">](https://apps.apple.com/gb/app/enchanted-llm/id6474268307)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ollama-app",
+  "concept_id": "ollama-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ollama-app",
+      "sense_id": "ollama-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

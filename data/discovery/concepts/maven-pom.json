@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "maven-pom"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "status": "candidate-context",
+      "text": "Opinionated best practices Maven parent project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "maven-pom",
+  "concept_id": "maven-pom",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vegardit/vegardit-maven-parent"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maven-pom",
+      "sense_id": "maven-pom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

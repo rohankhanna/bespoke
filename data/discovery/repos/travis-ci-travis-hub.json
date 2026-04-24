@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-hub",
+      "target": "travis-ci/travis-listener",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-hub",
+      "target": "travis-ci/travis-scheduler",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:44.537450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3906
+    },
+    {
+      "path": "Dockerfile",
+      "size": 934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Job State Central Command",
+    "fork": false,
+    "full_name": "travis-ci/travis-hub",
+    "html_url": "https://github.com/travis-ci/travis-hub",
+    "language": "Ruby",
+    "pushed_at": "2026-01-08T09:43:39Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-04-07T13:46:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-listener",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-scheduler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

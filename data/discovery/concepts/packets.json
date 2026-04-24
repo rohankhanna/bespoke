@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "packets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/go-libutp",
+      "status": "candidate-context",
+      "text": "Go wrapper of libutp reference uTP C implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/go-libutp",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/go-libutp",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050979,
+      "status": "candidate",
+      "text": "package"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050631,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050493,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10010125,
+      "status": "candidate",
+      "text": "mailboat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009396,
+      "status": "candidate",
+      "text": "packet boat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "packets",
+  "concept_id": "packets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "packets",
+      "sense_id": "packets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

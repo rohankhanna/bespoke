@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "adaptive-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "adaptive-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "data-efficient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "efficient-length-reward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "multimodal-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "multimodal-reasoning-visual-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/ARES",
+      "target": "self-reflection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:52:10.099877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9469
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2683
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 797
+    },
+    {
+      "path": "requirements.txt",
+      "size": 229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026]\ud83c\udf34 ARES is an open-source framework for adaptive multimodal reasoning, featuring a two-stage pipeline\u2014Adaptive Cold-Start and Entropy-Shaped Policy Optimization\u2014to balance reasoning depth and efficiency.",
+    "fork": false,
+    "full_name": "shawn0728/ARES",
+    "html_url": "https://github.com/shawn0728/ARES",
+    "language": "Python",
+    "pushed_at": "2026-02-03T09:00:35Z",
+    "stargazers_count": 18,
+    "topics": [
+      "adaptive-design",
+      "adaptive-reasoning",
+      "data-efficient",
+      "efficient-length-reward",
+      "multimodal-reasoning",
+      "multimodal-reasoning-visual-reasoning",
+      "open-source",
+      "reasoning",
+      "reinforcement-learning",
+      "self-reflection",
+      "vlm"
+    ],
+    "updated_at": "2026-04-21T02:46:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-design"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-efficient"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-length-reward"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-reasoning-visual-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-reflection"
+    }
+  ]
+}

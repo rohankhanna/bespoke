@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cache One"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cache One"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16873,
+      "status": "candidate",
+      "text": "hoard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16873,
+      "status": "candidate",
+      "text": "salt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16873,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16873,
+      "status": "candidate",
+      "text": "stash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16863,
+      "status": "candidate",
+      "text": "arms"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cache One",
+      "sense_id": "cache-one#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cache-one",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cache-one",
+  "observation_id": "f269bbeacbb1b179",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Cache One",
+  "source_context_snippet": "Cache One",
+  "source_file": ".github/workflows/cache-one.yml",
+  "source_repo": "dependabot/smoke-tests",
+  "source_repo_description": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+}

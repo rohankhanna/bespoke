@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "Infrawaves/DeepEP_ibrc_dual-ports_multiQP",
+      "target": "Notify New Issue to Feishu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:51.835882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3769
+    },
+    {
+      "path": ".github/workflows/issues-notify.yml",
+      "size": 515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Aims to implement dual-port and multi-qp solutions in deepEP ibrc transport",
+    "fork": false,
+    "full_name": "Infrawaves/DeepEP_ibrc_dual-ports_multiQP",
+    "html_url": "https://github.com/Infrawaves/DeepEP_ibrc_dual-ports_multiQP",
+    "language": "Cuda",
+    "pushed_at": "2025-05-09T08:43:14Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-03-20T11:46:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Notify New Issue to Feishu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "term": "Notify New Issue to Feishu"
+    }
+  ]
+}

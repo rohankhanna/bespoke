@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-unit-tests.yaml",
       "source_repo": "hashicorp/go-retryablehttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "adinhodovic/argo-cd-mixin"
     }
   ]
 }

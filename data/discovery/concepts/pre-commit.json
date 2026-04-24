@@ -575,6 +575,186 @@
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
       "status": "candidate-context",
       "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate-context",
+      "text": "The theory of mind module for the SWE agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ascend/TransferQueue",
+      "status": "candidate-context",
+      "text": "An asynchronous streaming data management module for efficient post-training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/TransferQueue",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/SuperSuit",
+      "status": "candidate-context",
+      "text": "A collection of wrappers for Gymnasium and PettingZoo environments (being merged into gymnasium.wrappers and pettingzoo.wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/SuperSuit",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "High throughput synchronous and asynchronous reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/mori",
+      "status": "candidate-context",
+      "text": "Modular RDMA Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/mori",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "status": "candidate-context",
+      "text": "Implementation of popular deep learning networks with TensorRT network definition API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate-context",
+      "text": "py2app is a Python setuptools command which will allow  you to make standalone Mac OS X application bundles  and plugins from Python scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamchainz/blacken-docs",
+      "status": "candidate-context",
+      "text": "Run `black` on python code blocks in documentation files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamchainz/blacken-docs",
+      "status": "candidate-context",
+      "text": "============"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typicode/husky",
+      "status": "candidate-context",
+      "text": "Git hooks made easy \ud83d\udc36 woof!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/husky",
+      "status": "candidate-context",
+      "text": "https://typicode.github.io/husky"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "Configuration support for Autofac IoC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "An opinionated code formatter for Julia. Plot twist - the opinion is your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsspec/sshfs",
+      "status": "candidate-context",
+      "text": "sshfs - SSH/SFTP implementation for fsspec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/sshfs",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -859,6 +1039,96 @@
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
       "status": "candidate",
       "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/ToM-SWE",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/TransferQueue",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vwxyzjn/cleanrl",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/SuperSuit",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/sample-factory",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/mori",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evalplus/evalplus",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/py2app",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamchainz/blacken-docs",
+      "status": "candidate",
+      "text": "============"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/husky",
+      "status": "candidate",
+      "text": "https://typicode.github.io/husky"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/sshfs",
+      "status": "candidate",
+      "text": "pre-commit"
     }
   ],
   "candidate_related_terms": [],
@@ -1244,11 +1514,119 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Ascend/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vwxyzjn/cleanrl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/SuperSuit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ROCm/mori"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "evalplus/evalplus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "wang-xinyu/tensorrtx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ronaldoussoren/py2app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ogx-ai/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "typicode/husky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "autofac/Autofac.Configuration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/PreCommit.yml",
+      "source_repo": "domluna/JuliaFormatter.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fsspec/sshfs"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

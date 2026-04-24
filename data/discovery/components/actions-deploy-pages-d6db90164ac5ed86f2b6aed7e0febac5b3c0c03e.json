@@ -2,7 +2,7 @@
   "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -74,6 +74,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "microsoft/CsWin32"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/svelte-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-publish-docs.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "source_repo": "kubecfg/kubecfg"
     }
   ]
 }

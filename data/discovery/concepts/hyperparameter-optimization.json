@@ -19,6 +19,18 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "himkt/allennlp-optuna",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f AllenNLP plugin for adding subcommands to use Optuna, making hyperparameter optimization easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "himkt/allennlp-optuna",
+      "status": "candidate-context",
+      "text": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "himkt/allennlp-optuna",
+      "status": "candidate",
+      "text": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "himkt/allennlp-optuna"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

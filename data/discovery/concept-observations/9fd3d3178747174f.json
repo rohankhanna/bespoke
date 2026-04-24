@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A feature-rich command-line audio/video downloader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Challenge Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Challenge Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "hardship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "hardships"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "ordeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Challenge Tests",
+      "sense_id": "challenge-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "challenge-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "challenge-tests",
+  "observation_id": "9fd3d3178747174f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Challenge Tests",
+  "source_context_snippet": "Challenge Tests",
+  "source_file": ".github/workflows/challenge-tests.yml",
+  "source_repo": "yt-dlp/yt-dlp",
+  "source_repo_description": "A feature-rich command-line audio/video downloader"
+}

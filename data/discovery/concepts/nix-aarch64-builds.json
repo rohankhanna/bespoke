@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nix aarch64 builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate-context",
+      "text": "Port of Facebook's LLaMA model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate-context",
+      "text": "Nix aarch64 builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate",
+      "text": "Nix aarch64 builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10865,
+      "status": "candidate",
+      "text": "reject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10865,
+      "status": "candidate",
+      "text": "scrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10668,
+      "status": "candidate",
+      "text": "adult-onset diabetes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10668,
+      "status": "candidate",
+      "text": "adult-onset diabetes mellitus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10668,
+      "status": "candidate",
+      "text": "bin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nix aarch64 builds",
+  "concept_id": "nix-aarch64-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nix-ci-aarch64.yml",
+      "source_repo": "DOGEwbx/llama.cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nix aarch64 builds",
+      "sense_id": "nix-aarch64-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

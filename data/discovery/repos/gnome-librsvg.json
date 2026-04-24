@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:15:18.833564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8371
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Read-only mirror of https://gitlab.gnome.org/GNOME/librsvg",
+    "fork": false,
+    "full_name": "GNOME/librsvg",
+    "html_url": "https://github.com/GNOME/librsvg",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T23:00:46Z",
+    "stargazers_count": 385,
+    "topics": [],
+    "updated_at": "2026-04-09T09:34:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "MolotovCherry/tree-sitter-wasm",
+      "target": "cherryleafroad/tree-sitter-wasm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:57:25.116594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 761
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "MolotovCherry/tree-sitter-wasm",
+    "html_url": "https://github.com/MolotovCherry/tree-sitter-wasm",
+    "language": "PowerShell",
+    "pushed_at": "2022-04-10T22:58:05Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-01-27T23:23:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cherryleafroad/tree-sitter-wasm",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml"
+    },
+    {
+      "component": "gautamkrishnar/blog-post-workflow@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "gautamkrishnar/nothing-private",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "gautamkrishnar/motrix-webextension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "gautamkrishnar/refined-github-feeds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "gautamkrishnar/keepalive-workflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "gautamkrishnar/blog-post-workflow@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "Latest blog post workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "github-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/gautamkrishnar",
+      "target": "profile-readme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:53:33.117453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31653
+    },
+    {
+      "path": ".github/workflows/blog-post-workflow.yml",
+      "size": 654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yet another GitHub profile readme :smiley:",
+    "fork": false,
+    "full_name": "gautamkrishnar/gautamkrishnar",
+    "html_url": "https://github.com/gautamkrishnar/gautamkrishnar",
+    "language": null,
+    "pushed_at": "2026-04-16T22:16:28Z",
+    "stargazers_count": 247,
+    "topics": [
+      "github-readme",
+      "profile-readme"
+    ],
+    "updated_at": "2026-04-18T06:26:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gautamkrishnar/keepalive-workflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gautamkrishnar/motrix-webextension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gautamkrishnar/nothing-private",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gautamkrishnar/refined-github-feeds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Latest blog post workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-post-workflow.yml",
+      "term": "Latest blog post workflow"
+    },
+    {
+      "context_snippet": "This is the place where I opensource stuff and break things :rofl:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-readme"
+    },
+    {
+      "context_snippet": "This is the place where I opensource stuff and break things :rofl:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    }
+  ]
+}

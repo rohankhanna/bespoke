@@ -457,6 +457,102 @@
       "source_repo": "celo-org/celo-monorepo",
       "status": "candidate-context",
       "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "The slightly more awesome standard unix password manager for teams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "Node.js body parsing middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "cLabs managed applications for Kubernetes using Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "status": "candidate-context",
+      "text": "Example of consuming Envoy and adding a custom filter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate-context",
+      "text": "Envoy performance testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -685,6 +781,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopass",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cure53/DOMPurify",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-filter-example",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-perf",
       "status": "candidate",
       "text": "Scorecard supply-chain security"
     }
@@ -1048,11 +1192,77 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "gopasspw/gopass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "cure53/DOMPurify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/glslang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "expressjs/body-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-filter-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/envoy-perf"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

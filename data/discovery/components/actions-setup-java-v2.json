@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v2",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-extension.yml",
       "source_repo": "apache/doris"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aragozin/jvm-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Cosium/git-code-format-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "librespot-org/librespot-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-connector.yml",
+      "source_repo": "apache/doris-flink-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris-flink-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink1.yml",
+      "source_repo": "apache/doris-flink-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase-flink2.yml",
+      "source_repo": "apache/doris-flink-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase.yml",
+      "source_repo": "apache/doris-spark-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase.yml",
+      "source_repo": "apache/doris-spark-connector"
     }
   ]
 }

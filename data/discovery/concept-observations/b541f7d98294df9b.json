@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pre-trained models, data, code & materials from the paper \"ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness\" (ICLR 2019 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956470,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955955,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953959,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953835,
+      "status": "candidate",
+      "text": "embodiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952895,
+      "status": "candidate",
+      "text": "influence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shape",
+      "sense_id": "shape#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40076,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40046,
+      "status": "candidate",
+      "text": "soma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36045,
+      "status": "candidate",
+      "text": "influence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29038,
+      "status": "candidate",
+      "text": "physique"
+    }
+  ],
+  "concept_id": "shape",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shape",
+  "observation_id": "b541f7d98294df9b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "shape",
+  "source_context_snippet": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026",
+  "source_file": null,
+  "source_repo": "rgeirhos/texture-vs-shape",
+  "source_repo_description": "Pre-trained models, data, code & materials from the paper \"ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness\" (ICLR 2019 Oral)"
+}

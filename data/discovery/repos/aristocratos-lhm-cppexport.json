@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/LHM-CppExport",
+      "target": "librehardwaremonitor/librehardwaremonitor",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:08.869611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LibreHardwareMonitor CPPdll export",
+    "fork": false,
+    "full_name": "aristocratos/LHM-CppExport",
+    "html_url": "https://github.com/aristocratos/LHM-CppExport",
+    "language": "C#",
+    "pushed_at": "2025-10-12T11:25:57Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-01-31T22:14:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "librehardwaremonitor/librehardwaremonitor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

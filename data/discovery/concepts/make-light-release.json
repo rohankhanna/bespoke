@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Make light release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "OpenGL Mathematics (GLM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate-context",
+      "text": "Make light release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-truc/glm",
+      "status": "candidate",
+      "text": "Make light release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36618,
+      "status": "candidate",
+      "text": "slight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36584,
+      "status": "candidate",
+      "text": "smap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36584,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36169,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36169,
+      "status": "candidate",
+      "text": "freeing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Make light release",
+  "concept_id": "make-light-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/make_light_release.bak",
+      "source_repo": "g-truc/glm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Make light release",
+      "sense_id": "make-light-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

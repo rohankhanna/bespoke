@@ -101,21 +101,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kentcdodds/babel-plugin-macros",
-      "target": "kentcdodds/babel-plugin-preval",
+      "target": "mattphillips/babel-plugin-console",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kentcdodds/babel-plugin-macros",
-      "target": "ben-rogerson/twin.macro",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kentcdodds/babel-plugin-macros",
-      "target": "jgierer12/awesome-babel-macros",
+      "target": "threepointone/babel-plugin-macros",
       "target_type": "repository"
     },
     {
@@ -266,7 +259,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:40:06.868510+00:00",
+  "fetched_at": "2026-04-24T08:08:00.653717+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -307,17 +300,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ben-rogerson/twin.macro",
+      "full_name": "mattphillips/babel-plugin-console",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jgierer12/awesome-babel-macros",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kentcdodds/babel-plugin-preval",
+      "full_name": "threepointone/babel-plugin-macros",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Package Installation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "Test Package Installation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate",
+      "text": "Test Package Installation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "install"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "settlement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Package Installation",
+  "concept_id": "test-package-installation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/install-test.yml",
+      "source_repo": "inclusionAI/AReaL"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Package Installation",
+      "sense_id": "test-package-installation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

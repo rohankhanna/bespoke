@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Threads and Atomics in WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is a clone of github.com/WebAssembly/spec/. It is meant for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is a clone of github.com/WebAssembly/spec/. It is meant for"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014560,
+      "status": "candidate",
+      "text": "proposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014517,
+      "status": "candidate",
+      "text": "offer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proposal",
+      "sense_id": "proposal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1008,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    }
+  ],
+  "concept_id": "proposal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proposal",
+  "observation_id": "fc0f20692ede1db2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "proposal",
+  "source_context_snippet": "This repository is a clone of github.com/WebAssembly/spec/. It is meant for",
+  "source_file": null,
+  "source_repo": "WebAssembly/threads",
+  "source_repo_description": "Threads and Atomics in WebAssembly"
+}

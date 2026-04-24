@@ -1,0 +1,12 @@
+{
+  "component": "BirthdayResearch/oss-governance-bot@3abd2d1fd2376ba9990fbc795e7a4c54254e9c61",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/governance.yaml",
+      "source_repo": "akuity/kargo"
+    }
+  ]
+}

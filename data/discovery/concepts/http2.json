@@ -91,6 +91,66 @@
       "source_repo": "summerwind/h2spec",
       "status": "candidate-context",
       "text": "h2spec is a conformance testing tool for HTTP/2 implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x676e67/wreq",
+      "status": "candidate-context",
+      "text": "An ergonomic Rust HTTP Client with TLS fingerprint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/0x676e67/wreq/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "\ud83d\udd28 Fast and idiomatic client-driven REST APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stepancheg/rust-http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 implementation in Rust/tokio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/rust-http2",
+      "status": "candidate-context",
+      "text": "<!-- https://travis-ci.org/stepancheg/rust-http2.png -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 implementation for fasthttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp)."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +195,36 @@
       "source_repo": "summerwind/h2spec",
       "status": "candidate",
       "text": "h2spec is a conformance testing tool for HTTP/2 implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/0x676e67/wreq/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/vulcain",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"vulcain.svg\" alt=\"Vulcain: Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\" title=\"Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/rust-http2",
+      "status": "candidate",
+      "text": "<!-- https://travis-ci.org/stepancheg/rust-http2.png -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate",
+      "text": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp)."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +274,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "summerwind/h2spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/vulcain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "stepancheg/rust-http2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dgrr/http2"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

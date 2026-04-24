@@ -136,6 +136,66 @@
       "source_repo": "alecthomas/go_serialization_benchmarks",
       "status": "candidate-context",
       "text": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psf/pyperf",
+      "status": "candidate-context",
+      "text": "Toolkit to run Python benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/pyperf",
+      "status": "candidate-context",
+      "text": "******"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in Rust, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate-context",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "pytest fixture for benchmarking code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "The official Sentry SDK for iOS, tvOS, macOS, watchOS, iPadOS and visionOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate-context",
+      "text": "Benchmarking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate-context",
+      "text": "Envoy performance testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy-perf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy-perf)"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +264,36 @@
       "source_repo": "alecthomas/go_serialization_benchmarks",
       "status": "candidate",
       "text": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/pyperf",
+      "status": "candidate",
+      "text": "******"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.rs",
+      "status": "candidate",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate",
+      "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-cocoa",
+      "status": "candidate",
+      "text": "Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy-perf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy-perf)"
     }
   ],
   "candidate_related_terms": [
@@ -313,11 +403,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "alecthomas/go_serialization_benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "psf/pyperf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/benchmarking.yml",
+      "source_repo": "getsentry/sentry-cocoa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy-perf"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -331,6 +331,102 @@
       "source_repo": "liuchengxu/vista.vim",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zefei/vim-wintabs",
+      "status": "candidate-context",
+      "text": "Modern buffer manager for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zefei/vim-wintabs",
+      "status": "candidate-context",
+      "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/vimbits",
+      "status": "candidate-context",
+      "text": "Curated Suite of Lightweight Vim Plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimbits",
+      "status": "candidate-context",
+      "text": "Suite of lightweight Vim plugins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate-context",
+      "text": "Auto-completion for Vim's command-line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate-context",
+      "text": "> **This plugin is obsolete and will no longer be maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate-context",
+      "text": "Modern fuzzy finder for Vim with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate-context",
+      "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/eleline.vim",
+      "status": "candidate-context",
+      "text": ":herb: Another elegant statusline for vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/eleline.vim",
+      "status": "candidate-context",
+      "text": "Another **ele**gant status**line** for vim, extracted from [space-vim](https://github.com/liuchengxu/space-vim)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "vim match-up: even better % :facepunch: navigate and highlight matching words :facepunch: modern matchit and matchparen.  Supports both vim and neovim + tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "AI Code Completions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/clever-f.vim",
+      "status": "candidate-context",
+      "text": "Extended f, F, t and T key mappings for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/clever-f.vim",
+      "status": "candidate-context",
+      "text": "clever-[f][].vim"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +591,54 @@
       "source_repo": "liuchengxu/vista.vim",
       "status": "candidate",
       "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zefei/vim-wintabs",
+      "status": "candidate",
+      "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimbits",
+      "status": "candidate",
+      "text": "Suite of lightweight Vim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimsuggest",
+      "status": "candidate",
+      "text": "> **This plugin is obsolete and will no longer be maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox.vim",
+      "status": "candidate",
+      "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/eleline.vim",
+      "status": "candidate",
+      "text": "Another **ele**gant status**line** for vim, extracted from [space-vim](https://github.com/liuchengxu/space-vim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/clever-f.vim",
+      "status": "candidate",
+      "text": "clever-[f][].vim"
     }
   ],
   "candidate_related_terms": [],
@@ -700,11 +844,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zefei/vim-wintabs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "girishji/vimbits"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "girishji/vimsuggest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/eleline.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rhysd/clever-f.vim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luost26/diffusion-point-cloud",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luost26/diffusion-point-cloud",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luost26/diffusion-point-cloud",
+      "target": "generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luost26/diffusion-point-cloud",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luost26/diffusion-point-cloud",
+      "target": "point-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:28.236391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": ":thought_balloon: Diffusion Probabilistic Models for 3D Point Cloud Generation (CVPR 2021)",
+    "fork": false,
+    "full_name": "luost26/diffusion-point-cloud",
+    "html_url": "https://github.com/luost26/diffusion-point-cloud",
+    "language": "Python",
+    "pushed_at": "2025-11-28T08:00:46Z",
+    "stargazers_count": 784,
+    "topics": [
+      "cvpr",
+      "cvpr2021",
+      "generation",
+      "generative-model",
+      "point-cloud"
+    ],
+    "updated_at": "2026-04-17T09:49:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generation"
+    },
+    {
+      "context_snippet": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    }
+  ]
+}

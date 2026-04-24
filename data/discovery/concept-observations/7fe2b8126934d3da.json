@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Windows compile of bitsandbytes for use in text-generation-webui."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build bitsandbytes experimental"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build bitsandbytes experimental"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11723,
+      "status": "candidate",
+      "text": "reinforce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11536,
+      "status": "candidate",
+      "text": "reinforcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11536,
+      "status": "candidate",
+      "text": "reinforcing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10676,
+      "status": "candidate",
+      "text": "aeronautics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build bitsandbytes experimental",
+      "sense_id": "build-bitsandbytes-experimental#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-bitsandbytes-experimental",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-bitsandbytes-experimental",
+  "observation_id": "7fe2b8126934d3da",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Build bitsandbytes experimental",
+  "source_context_snippet": "Build bitsandbytes experimental",
+  "source_file": ".github/workflows/build-experimental.yml",
+  "source_repo": "jllllll/bitsandbytes-windows-webui",
+  "source_repo_description": "Windows compile of bitsandbytes for use in text-generation-webui."
+}

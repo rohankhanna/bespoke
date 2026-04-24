@@ -1,0 +1,386 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml"
+    },
+    {
+      "component": "egor-tensin/cleanup-path@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mingw.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mingw.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "python-pillow/pillow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "python-pillow/pillow-perf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "Release drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "cygwin/cygwin-install-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "egor-tensin/cleanup-path@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "Test Cygwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docker.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "Test Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mingw.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mingw.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-mingw.yml",
+      "source_repo": "uploadcare/pillow-simd",
+      "target": "Test MinGW",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:22.497241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5871
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 924
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 978
+    },
+    {
+      "path": ".github/workflows/macos-install.sh",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/system-info.py",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/test-cygwin.yml",
+      "size": 3614
+    },
+    {
+      "path": ".github/workflows/test-docker.yml",
+      "size": 2474
+    },
+    {
+      "path": ".github/workflows/test-mingw.yml",
+      "size": 2930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "simd/master",
+    "description": "The friendly PIL fork",
+    "fork": true,
+    "full_name": "uploadcare/pillow-simd",
+    "html_url": "https://github.com/uploadcare/pillow-simd",
+    "language": "Python",
+    "pushed_at": "2024-10-07T11:50:22Z",
+    "stargazers_count": 2282,
+    "topics": [],
+    "updated_at": "2026-04-22T08:39:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-pillow/pillow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-pillow/pillow-perf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Release drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release drafter"
+    },
+    {
+      "context_snippet": "Close stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Test Cygwin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cygwin.yml",
+      "term": "Test Cygwin"
+    },
+    {
+      "context_snippet": "Test Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docker.yml",
+      "term": "Test Docker"
+    },
+    {
+      "context_snippet": "Test MinGW",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-mingw.yml",
+      "term": "Test MinGW"
+    }
+  ]
+}

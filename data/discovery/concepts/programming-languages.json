@@ -19,6 +19,18 @@
       "source_repo": "brendanzab/codespan",
       "status": "candidate-context",
       "text": "[![Continuous integration][actions-badge]][actions-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "status": "candidate-context",
+      "text": "Set of preconfigured snippets for different languages. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "status": "candidate-context",
+      "text": "Snippets collection for a set of different programming languages."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "brendanzab/codespan",
       "status": "candidate",
       "text": "[![Continuous integration][actions-badge]][actions-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "status": "candidate",
+      "text": "Snippets collection for a set of different programming languages."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "brendanzab/codespan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rafamadriz/friendly-snippets"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

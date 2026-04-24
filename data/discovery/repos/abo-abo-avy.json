@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abo-abo/avy",
+      "target": "winterttr/ace-jump-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abo-abo/avy",
+      "target": "lokaltog/vim-easymotion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:57.847568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jump to things in Emacs tree-style",
+    "fork": false,
+    "full_name": "abo-abo/avy",
+    "html_url": "https://github.com/abo-abo/avy",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-11-01T13:57:53Z",
+    "stargazers_count": 1921,
+    "topics": [],
+    "updated_at": "2026-04-22T16:35:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lokaltog/vim-easymotion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "winterttr/ace-jump-mode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

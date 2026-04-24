@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-pre-commit.yml",
       "source_repo": "intel/neural-compressor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_image.yml",
+      "source_repo": "opea-project/GenAIExamples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_get-image-list.yml",
+      "source_repo": "opea-project/GenAIExamples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIExamples"
     }
   ]
 }

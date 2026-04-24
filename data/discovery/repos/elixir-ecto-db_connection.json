@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/db_connection",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/db_connection",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:32.449170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3718
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Database connection behaviour",
+    "fork": false,
+    "full_name": "elixir-ecto/db_connection",
+    "html_url": "https://github.com/elixir-ecto/db_connection",
+    "language": "Elixir",
+    "pushed_at": "2026-04-24T07:46:18Z",
+    "stargazers_count": 349,
+    "topics": [],
+    "updated_at": "2026-04-20T18:38:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

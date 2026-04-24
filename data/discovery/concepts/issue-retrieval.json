@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue retrieval"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate-context",
+      "text": "AMD ROCm\u2122 Software - GitHub Home"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate-context",
+      "text": "Issue retrieval"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCm",
+      "status": "candidate",
+      "text": "Issue retrieval"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13576,
+      "status": "candidate",
+      "text": "research"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13576,
+      "status": "candidate",
+      "text": "researching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12455,
+      "status": "candidate",
+      "text": "descriptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12455,
+      "status": "candidate",
+      "text": "extraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12455,
+      "status": "candidate",
+      "text": "mining"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue retrieval",
+  "concept_id": "issue-retrieval",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/issue_retrieval.yml",
+      "source_repo": "ROCm/ROCm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue retrieval",
+      "sense_id": "issue-retrieval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

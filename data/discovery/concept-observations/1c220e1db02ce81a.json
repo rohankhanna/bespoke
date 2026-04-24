@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deeply assign the enumerable properties of source objects to a destination object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033621,
+      "status": "candidate",
+      "text": "objective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889937,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39880015,
+      "status": "candidate",
+      "text": "target"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033747,
+      "status": "candidate",
+      "text": "physical object"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033616,
+      "status": "candidate",
+      "text": "item"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object",
+      "sense_id": "object#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48065,
+      "status": "candidate",
+      "text": "objective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "physical object"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "target"
+    }
+  ],
+  "concept_id": "object",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "object",
+  "observation_id": "1c220e1db02ce81a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "object",
+  "source_context_snippet": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/assign-deep",
+  "source_repo_description": "Deeply assign the enumerable properties of source objects to a destination object."
+}

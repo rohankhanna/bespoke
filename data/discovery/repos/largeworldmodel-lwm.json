@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:18:00.912372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large World Model -- Modeling Text and Video with Millions Context",
+    "fork": false,
+    "full_name": "LargeWorldModel/LWM",
+    "html_url": "https://github.com/LargeWorldModel/LWM",
+    "language": "Python",
+    "pushed_at": "2024-10-19T03:27:38Z",
+    "stargazers_count": 7410,
+    "topics": [],
+    "updated_at": "2026-04-23T21:02:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,648 @@
+{
+  "components": [
+    {
+      "component": "viem",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tsconfig/node22",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/prompt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-combiner-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-combiner-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-combiner-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-loadtest-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-loadtest-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-loadtest-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-signer-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-signer-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-signer-container.yml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/npm-publish.yaml@develop-npm-publishing-oidc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "peter-evans/find-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/emisianto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/socialconnect-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/socialconnect-reactnative-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/socialconnect-twitter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "viem",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@tsconfig/node22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@types/prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/social-connect",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-combiner-container.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/odis-combiner-container.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "Build ODIS combiner image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-loadtest-container.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/odis-loadtest-container.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "Build ODIS loadtest image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/odis-signer-container.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/odis-signer-container.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "Build ODIS signer image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "celo-org/reusable-workflows/.github/workflows/npm-publish.yaml@develop-npm-publishing-oidc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "peter-evans/find-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-connect.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "celo-org/social-connect",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/social-connect",
+      "target": "attestation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/social-connect",
+      "target": "privacy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:07:21.529016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16219
+    },
+    {
+      "path": "package.json",
+      "size": 2836
+    },
+    {
+      "path": ".github/workflows/odis-combiner-container.yml",
+      "size": 2365
+    },
+    {
+      "path": ".github/workflows/odis-loadtest-container.yml",
+      "size": 2363
+    },
+    {
+      "path": ".github/workflows/odis-signer-container.yml",
+      "size": 2327
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/social-connect.yml",
+      "size": 9395
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protocol mapping social identifiers to blockchain addresses",
+    "fork": false,
+    "full_name": "celo-org/social-connect",
+    "html_url": "https://github.com/celo-org/social-connect",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T12:58:46Z",
+    "stargazers_count": 12,
+    "topics": [
+      "attestation",
+      "privacy"
+    ],
+    "updated_at": "2026-04-21T20:18:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/emisianto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/socialconnect-reactnative-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/socialconnect-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/socialconnect-twitter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build ODIS combiner image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/odis-combiner-container.yml",
+      "term": "Build ODIS combiner image"
+    },
+    {
+      "context_snippet": "Build ODIS loadtest image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/odis-loadtest-container.yml",
+      "term": "Build ODIS loadtest image"
+    },
+    {
+      "context_snippet": "Build ODIS signer image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/odis-signer-container.yml",
+      "term": "Build ODIS signer image"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "*For Dev Setup see [CONTRIBUTING.MD](.github/CONTRIBUTING.md)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attestation"
+    },
+    {
+      "context_snippet": "*For Dev Setup see [CONTRIBUTING.MD](.github/CONTRIBUTING.md)*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    }
+  ]
+}

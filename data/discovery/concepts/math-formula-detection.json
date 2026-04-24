@@ -19,12 +19,30 @@
       "source_repo": "breezedeus/CnSTD",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "breezedeus/CnMFD_Dataset",
+      "status": "candidate-context",
+      "text": "Chinese Mathematical Formula Detection (MFD) Dataset \u4e2d\u6587\u6587\u6863\u6570\u5b66\u516c\u5f0f\u68c0\u6d4b\u6570\u636e\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnMFD_Dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "breezedeus/CnSTD",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnMFD_Dataset",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "breezedeus/CnSTD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "breezedeus/CnMFD_Dataset"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

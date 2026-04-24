@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd2d Cross-platform filesystem notification library for Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filesystem-events",
+      "sense_id": "filesystem-events#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "filesystem-events",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "filesystem-events",
+  "observation_id": "7a9895b54c4b8f1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "filesystem-events",
+  "source_context_snippet": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]",
+  "source_file": null,
+  "source_repo": "notify-rs/notify",
+  "source_repo_description": "\ud83d\udd2d Cross-platform filesystem notification library for Rust. "
+}

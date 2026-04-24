@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Wheels & Release ROCm62"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "turboderp-org/exllamav2",
+      "status": "candidate-context",
+      "text": "A fast inference library for running LLMs locally on modern consumer-class GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "turboderp-org/exllamav2",
+      "status": "candidate-context",
+      "text": "Build Wheels & Release ROCm62"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "turboderp-org/exllamav2",
+      "status": "candidate",
+      "text": "Build Wheels & Release ROCm62"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17879,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17842,
+      "status": "candidate",
+      "text": "building"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17842,
+      "status": "candidate",
+      "text": "create"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17842,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17842,
+      "status": "candidate",
+      "text": "lot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Wheels & Release ROCm62",
+  "concept_id": "build-wheels-release-rocm62",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "turboderp-org/exllamav2"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Wheels & Release ROCm62",
+      "sense_id": "build-wheels-release-rocm62#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

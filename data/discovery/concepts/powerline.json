@@ -55,6 +55,18 @@
       "source_repo": "reujab/silver",
       "status": "candidate-context",
       "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "Make tmux powerful and pretty \ud83e\udd4a\ud83d\udc85"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "reujab/silver",
       "status": "candidate",
       "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "reujab/silver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux2k"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

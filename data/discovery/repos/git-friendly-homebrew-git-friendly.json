@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-friendly/homebrew-git-friendly",
+      "target": "jamiew/git-friendly",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:06:06.331981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Homebrew tap/formula for the simplest git improvements that money can buy",
+    "fork": false,
+    "full_name": "git-friendly/homebrew-git-friendly",
+    "html_url": "https://github.com/git-friendly/homebrew-git-friendly",
+    "language": "Ruby",
+    "pushed_at": "2025-10-02T12:50:20Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-02T12:50:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamiew/git-friendly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

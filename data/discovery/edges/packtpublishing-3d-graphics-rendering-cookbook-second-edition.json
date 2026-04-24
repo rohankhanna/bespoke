@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
+      "target": "jakoch/install-vulkan-sdk-action@v1.2.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
+      "target": "SimenB/github-actions-cpu-cores@v1",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition"
+}

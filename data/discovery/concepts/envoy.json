@@ -43,6 +43,18 @@
       "source_repo": "dgn/oidc-filter",
       "status": "candidate-context",
       "text": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate-context",
+      "text": "Envoy performance testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy-perf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy-perf)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dgn/oidc-filter",
       "status": "candidate",
       "text": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/envoy-perf",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy-perf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy-perf)"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +171,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dgn/oidc-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy-perf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

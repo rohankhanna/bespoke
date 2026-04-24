@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An easy-to-use framework for modular RAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Hotfix image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Hotfix image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22378,
+      "status": "candidate",
+      "text": "eyeball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22378,
+      "status": "candidate",
+      "text": "redact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14359,
+      "status": "candidate",
+      "text": "diaspora"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Hotfix image",
+      "sense_id": "release-hotfix-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-hotfix-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-hotfix-image",
+  "observation_id": "9e420cd709cb27d3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Release Hotfix image",
+  "source_context_snippet": "Release Hotfix image",
+  "source_file": ".github/workflows/hotfix.yml",
+  "source_repo": "aigc-apps/PAI-RAG",
+  "source_repo_description": "An easy-to-use framework for modular RAG"
+}

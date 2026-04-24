@@ -1990,6 +1990,306 @@
       "source_repo": "Azure/autorest",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chzyer/readline",
+      "status": "candidate-context",
+      "text": "Readline is a pure go(golang) implementation for GNU-Readline kind library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chzyer/readline",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/chzyer/readline.svg?branch=master)](https://travis-ci.org/chzyer/readline)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 An IPFS website measurement tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate-context",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluesky-social/indigo",
+      "status": "candidate-context",
+      "text": "Go source code for Bluesky's atproto services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/indigo",
+      "status": "candidate-context",
+      "text": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-iterator/go",
+      "status": "candidate-context",
+      "text": "A high-performance 100% compatible drop-in replacement of \"encoding/json\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-iterator/go",
+      "status": "candidate-context",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/json-iterator/go/-/badge.svg)](https://sourcegraph.com/github.com/json-iterator/go?badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate-context",
+      "text": "go generate based graphql server library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate-context",
+      "text": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate-context",
+      "text": "Go client for the Docker Engine API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fsouza/go-dockerclient/workflows/Build/badge.svg)](https://github.com/fsouza/go-dockerclient/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/dht",
+      "status": "candidate-context",
+      "text": "dht is used by anacrolix/torrent, and is intended for use as a library in other projects both torrent related and otherwise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/dht",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/go-libutp",
+      "status": "candidate-context",
+      "text": "Go wrapper of libutp reference uTP C implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/go-libutp",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate-context",
+      "text": "Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcurl/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcurl/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fullstorydev/grpcui",
+      "status": "candidate-context",
+      "text": "An interactive web UI for gRPC, along the lines of postman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcui",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcui/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcui/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate-context",
+      "text": "Spacemesh PoET service reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate-context",
+      "text": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate-context",
+      "text": "A lightning fast image processing and resizing library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate-context",
+      "text": "Go binding generator for libvips image processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "AI Code Completions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate-context",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate-context",
+      "text": "Go development plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "Authorization middleware for fasthttp based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 implementation for fasthttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate-context",
+      "text": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket for fasthttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/dnsproxy",
+      "status": "candidate-context",
+      "text": "Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/dnsproxy",
+      "status": "candidate-context",
+      "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/dnsproxy/master.svg)](https://codecov.io/github/AdguardTeam/dnsproxy?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/urlfilter",
+      "status": "candidate-context",
+      "text": "AdGuard content blocking library in golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/urlfilter",
+      "status": "candidate-context",
+      "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/urlfilter/master.svg)](https://codecov.io/github/AdguardTeam/urlfilter?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "probonopd/go-appimage",
+      "status": "candidate-context",
+      "text": "Go implementation of AppImage tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probonopd/go-appimage",
+      "status": "candidate-context",
+      "text": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "SQL-first Golang ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate-context",
+      "text": "Golang HTTP router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/uptrace/bunrouter/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bunrouter/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-go",
+      "status": "candidate-context",
+      "text": "Golang driver for ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-go",
+      "status": "candidate-context",
+      "text": "Golang SQL database client for [ClickHouse](https://clickhouse.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snowflakedb/gosnowflake",
+      "status": "candidate-context",
+      "text": "Go Snowflake Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/gosnowflake",
+      "status": "candidate-context",
+      "text": "**Version 2.0.0 of the Go Snowflake Driver was released on March 3rd, 2026.** This major version includes breaking changes that require code updates when migrating from v1.x."
     }
   ],
   "candidate_glosses": [
@@ -2988,6 +3288,156 @@
       "source_repo": "Azure/autorest",
       "status": "candidate",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chzyer/readline",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/chzyer/readline.svg?branch=master)](https://travis-ci.org/chzyer/readline)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/tiros",
+      "status": "candidate",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/indigo",
+      "status": "candidate",
+      "text": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-iterator/go",
+      "status": "candidate",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/json-iterator/go/-/badge.svg)](https://sourcegraph.com/github.com/json-iterator/go?badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate",
+      "text": "![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/go-dockerclient",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fsouza/go-dockerclient/workflows/Build/badge.svg)](https://github.com/fsouza/go-dockerclient/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/dht",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/go-libutp",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcurl/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcurl/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fullstorydev/grpcui",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcui/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcui/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/poet",
+      "status": "candidate",
+      "text": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/TabNine",
+      "status": "candidate",
+      "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/vim-go",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate",
+      "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/http2",
+      "status": "candidate",
+      "text": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate",
+      "text": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/dnsproxy",
+      "status": "candidate",
+      "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/dnsproxy/master.svg)](https://codecov.io/github/AdguardTeam/dnsproxy?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/urlfilter",
+      "status": "candidate",
+      "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/urlfilter/master.svg)](https://codecov.io/github/AdguardTeam/urlfilter?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probonopd/go-appimage",
+      "status": "candidate",
+      "text": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/uptrace/bunrouter/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bunrouter/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-go",
+      "status": "candidate",
+      "text": "Golang SQL database client for [ClickHouse](https://clickhouse.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/gosnowflake",
+      "status": "candidate",
+      "text": "**Version 2.0.0 of the Go Snowflake Driver was released on March 3rd, 2026.** This major version includes breaking changes that require code updates when migrating from v1.x."
     }
   ],
   "candidate_related_terms": [],
@@ -4039,11 +4489,191 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Azure/autorest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "chzyer/readline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "probe-lab/tiros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "json-iterator/go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "99designs/gqlgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fsouza/go-dockerclient"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/dht"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/go-libutp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fullstorydev/grpcurl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fullstorydev/grpcui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/poet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "davidbyttow/govips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "cshum/vipsgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fatih/vim-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dgrr/http2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dgrr/websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/dnsproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/urlfilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "probonopd/go-appimage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/bun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/bunrouter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "snowflakedb/gosnowflake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

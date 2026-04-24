@@ -483,6 +483,90 @@
       "source_repo": "rusty1s/pytorch_sparse",
       "status": "candidate-context",
       "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate-context",
+      "text": "PyTriton is a Flask/FastAPI-like interface that simplifies Triton's deployment in Python environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "Cross-platform, customizable ML solutions for live and streaming media."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate-context",
+      "text": "Auto detecting, masking and inpainting with detection model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate-context",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "Configuration manager for Aerokube products"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Svelte parser for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate-context",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cli",
+      "status": "candidate-context",
+      "text": "The official command line client for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cli",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "Versatile typeface for code, from code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -719,6 +803,48 @@
       "source_repo": "rusty1s/pytorch_sparse",
       "status": "candidate",
       "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/pytriton",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-ai-edge/mediapipe",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bing-su/adetailer",
+      "status": "candidate",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/cm",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte-eslint-parser",
+      "status": "candidate",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cli",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Iosevka",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_related_terms": [
@@ -1026,11 +1152,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "rusty1s/pytorch_sparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "triton-inference-server/pytriton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Bing-su/adetailer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "sveltejs/svelte-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "cloudfoundry/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "be5invis/Iosevka"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

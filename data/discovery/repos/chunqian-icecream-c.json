@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chunqian/icecream-c",
+      "target": "rxi/log.c",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:46.681463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Never use printf to debug again in c99",
+    "fork": false,
+    "full_name": "chunqian/icecream-c",
+    "html_url": "https://github.com/chunqian/icecream-c",
+    "language": "C",
+    "pushed_at": "2021-12-01T03:28:28Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-03-20T17:11:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rxi/log.c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

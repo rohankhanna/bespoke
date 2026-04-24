@@ -1,0 +1,17 @@
+{
+  "component": "peter-evans/close-issue@276d7966e389d888f011539a86c8920025ea0626",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automatic-issue-responses.yml",
+      "source_repo": "bitwarden/clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automatic-pull-request-responses.yml",
+      "source_repo": "bitwarden/clients"
+    }
+  ]
+}

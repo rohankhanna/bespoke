@@ -61,6 +61,18 @@
       "source_repo": "grok-ai/nn-template",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/acme",
+      "status": "candidate-context",
+      "text": "A library of reinforcement learning components and agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/acme",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/imgs/acme.png\" width=\"50%\">"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +105,12 @@
       "source_repo": "grok-ai/nn-template",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/acme",
+      "status": "candidate",
+      "text": "<img src=\"docs/imgs/acme.png\" width=\"50%\">"
     }
   ],
   "candidate_related_terms": [
@@ -201,11 +219,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "grok-ai/nn-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -26,28 +26,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "aria2/aria2",
+      "target": "scoopinstaller/install",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "calinou/scoop-games",
+      "target": "scoopinstaller/nirsoft",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "matthewjberger/scoop-nerd-fonts",
+      "target": "scoopinstaller/java",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "niheaven/scoop-sysinternals",
+      "target": "scoopinstaller/nonportable",
       "target_type": "repository"
     },
     {
@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:43:28.183637+00:00",
+  "fetched_at": "2026-04-24T08:05:49.952520+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,35 +120,35 @@
     "full_name": "ScoopInstaller/Scoop",
     "html_url": "https://github.com/ScoopInstaller/Scoop",
     "language": "PowerShell",
-    "pushed_at": "2026-04-20T08:07:38Z",
-    "stargazers_count": 23987,
+    "pushed_at": "2026-04-24T05:38:03Z",
+    "stargazers_count": 23994,
     "topics": [
       "installer",
       "powershell",
       "scoop",
       "windows"
     ],
-    "updated_at": "2026-04-23T18:49:16Z"
+    "updated_at": "2026-04-24T08:01:08Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aria2/aria2",
+      "full_name": "scoopinstaller/install",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "calinou/scoop-games",
+      "full_name": "scoopinstaller/java",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "matthewjberger/scoop-nerd-fonts",
+      "full_name": "scoopinstaller/nirsoft",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "niheaven/scoop-sysinternals",
+      "full_name": "scoopinstaller/nonportable",
       "source_file": "README.md"
     }
   ],

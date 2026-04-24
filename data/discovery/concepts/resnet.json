@@ -31,6 +31,18 @@
       "source_repo": "huggingface/pytorch-image-models",
       "status": "candidate-context",
       "text": "- [What's New](#whats-new)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "status": "candidate-context",
+      "text": "Implementation of popular deep learning networks with TensorRT network definition API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "status": "candidate-context",
+      "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "huggingface/pytorch-image-models",
       "status": "candidate",
       "text": "- [What's New](#whats-new)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wang-xinyu/tensorrtx",
+      "status": "candidate",
+      "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "wang-xinyu/tensorrtx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

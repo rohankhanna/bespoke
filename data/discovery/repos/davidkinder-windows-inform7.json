@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Inform7",
+      "target": "davidkinder/inform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Inform7",
+      "target": "davidkinder/windows-frotz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Inform7",
+      "target": "davidkinder/glulxe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Windows-Inform7",
+      "target": "davidkinder/libraries",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:22.537271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Front-end for the Windows version of Inform 7.",
+    "fork": false,
+    "full_name": "DavidKinder/Windows-Inform7",
+    "html_url": "https://github.com/DavidKinder/Windows-Inform7",
+    "language": "C++",
+    "pushed_at": "2026-04-18T16:38:14Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2026-04-18T16:38:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/glulxe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/inform",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/libraries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/windows-frotz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

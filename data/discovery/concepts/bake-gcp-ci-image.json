@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bake GCP CI Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "Bake GCP CI Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate",
+      "text": "Bake GCP CI Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23057,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22192,
+      "status": "candidate",
+      "text": "coma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22182,
+      "status": "candidate",
+      "text": "alien"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22182,
+      "status": "candidate",
+      "text": "ennoble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22182,
+      "status": "candidate",
+      "text": "gentle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bake GCP CI Image",
+  "concept_id": "bake-gcp-ci-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/bake-gcp-image.yml",
+      "source_repo": "inclusionAI/AReaL"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bake GCP CI Image",
+      "sense_id": "bake-gcp-ci-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

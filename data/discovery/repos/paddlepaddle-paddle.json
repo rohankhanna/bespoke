@@ -1,0 +1,378 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Approval.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-Windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckPRTemplate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "paddlepaddle/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Api-Benchmark-baseline.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "Api-benchmark-baseline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Approval.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Approval.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "Approval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-Build.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-Build.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "CI-Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-Windows.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-Windows.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "CI-Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "Check PR Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "Codestyle-Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Coverage.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Coverage.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Coverage.yml",
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle",
+      "target": "scalability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:54.449513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5515
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4286
+    },
+    {
+      "path": ".github/workflows/Api-Benchmark-baseline.yml",
+      "size": 2457
+    },
+    {
+      "path": ".github/workflows/Approval.yml",
+      "size": 1362
+    },
+    {
+      "path": ".github/workflows/CI-Build.yml",
+      "size": 4857
+    },
+    {
+      "path": ".github/workflows/CI-Windows.yml",
+      "size": 1539
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 3652
+    },
+    {
+      "path": ".github/workflows/CheckPRTemplate.yml",
+      "size": 2210
+    },
+    {
+      "path": ".github/workflows/Codestyle-Check.yml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/Coverage.yml",
+      "size": 15517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice \uff08\u300e\u98de\u6868\u300f\u6838\u5fc3\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60&\u673a\u5668\u5b66\u4e60\u9ad8\u6027\u80fd\u5355\u673a\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u548c\u8de8\u5e73\u53f0\u90e8\u7f72\uff09",
+    "fork": false,
+    "full_name": "PaddlePaddle/Paddle",
+    "html_url": "https://github.com/PaddlePaddle/Paddle",
+    "language": "C++",
+    "pushed_at": "2026-04-24T07:38:24Z",
+    "stargazers_count": 23850,
+    "topics": [
+      "deep-learning",
+      "distributed-training",
+      "efficiency",
+      "machine-learning",
+      "neural-network",
+      "paddlepaddle",
+      "python",
+      "scalability"
+    ],
+    "updated_at": "2026-04-24T07:38:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Api-benchmark-baseline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Api-Benchmark-baseline.yml",
+      "term": "Api-benchmark-baseline"
+    },
+    {
+      "context_snippet": "Approval",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Approval.yml",
+      "term": "Approval"
+    },
+    {
+      "context_snippet": "CI-Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-Build.yml",
+      "term": "CI-Build"
+    },
+    {
+      "context_snippet": "CI-Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-Windows.yml",
+      "term": "CI-Windows"
+    },
+    {
+      "context_snippet": "Check PR Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "term": "Check PR Template"
+    },
+    {
+      "context_snippet": "Codestyle-Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "term": "Codestyle-Check"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficiency"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalability"
+    }
+  ]
+}

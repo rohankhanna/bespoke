@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-label.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label-trigger.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "Label when reviewed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-label.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "Label when approved workflow run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "Build Extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "apache/skywalking-eyes@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "License Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-e2ecase.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-e2ecase.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "Run E2ECases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-itcase.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-itcase.yml",
+      "source_repo": "apache/doris-spark-connector",
+      "target": "Run ITCases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-spark-connector",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-spark-connector",
+      "target": "connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-spark-connector",
+      "target": "data-warehousing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-spark-connector",
+      "target": "dbms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-spark-connector",
+      "target": "doris",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-spark-connector",
+      "target": "olap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris-spark-connector",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:54.638502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6366
+    },
+    {
+      "path": ".github/workflows/approve-label-trigger.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/approve-label.yml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/build-extension.yml",
+      "size": 2541
+    },
+    {
+      "path": ".github/workflows/license-eyes.yml",
+      "size": 1191
+    },
+    {
+      "path": ".github/workflows/run-e2ecase.yml",
+      "size": 2632
+    },
+    {
+      "path": ".github/workflows/run-itcase.yml",
+      "size": 2619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spark Connector for Apache Doris",
+    "fork": false,
+    "full_name": "apache/doris-spark-connector",
+    "html_url": "https://github.com/apache/doris-spark-connector",
+    "language": "Java",
+    "pushed_at": "2026-04-07T10:43:30Z",
+    "stargazers_count": 104,
+    "topics": [
+      "apache",
+      "connector",
+      "data-warehousing",
+      "dbms",
+      "doris",
+      "mpp",
+      "olap",
+      "spark"
+    ],
+    "updated_at": "2026-04-07T09:18:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Label when reviewed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label-trigger.yml",
+      "term": "Label when reviewed"
+    },
+    {
+      "context_snippet": "Label when approved workflow run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label.yml",
+      "term": "Label when approved workflow run"
+    },
+    {
+      "context_snippet": "Build Extensions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-extension.yml",
+      "term": "Build Extensions"
+    },
+    {
+      "context_snippet": "License Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "term": "License Check"
+    },
+    {
+      "context_snippet": "Run E2ECases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-e2ecase.yml",
+      "term": "Run E2ECases"
+    },
+    {
+      "context_snippet": "Run ITCases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-itcase.yml",
+      "term": "Run ITCases"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connector"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-warehousing"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbms"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doris"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "olap"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

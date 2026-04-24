@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Javascript CBOR-LD processor for web browsers and Node.js apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/digitalbazaar/cborld/main.yml)](https://github.com/digitalbazaar/cborld/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/digitalbazaar/cborld/main.yml)](https://github.com/digitalbazaar/cborld/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jsonld",
+      "sense_id": "jsonld#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jsonld",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jsonld",
+  "observation_id": "b2756ad6816c2959",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "jsonld",
+  "source_context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/digitalbazaar/cborld/main.yml)](https://github.com/digitalbazaar/cborld/actions/workflows/main.yml)",
+  "source_file": null,
+  "source_repo": "digitalbazaar/cborld",
+  "source_repo_description": "A Javascript CBOR-LD processor for web browsers and Node.js apps."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notify New Issue to Feishu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Infrawaves/DeepEP_ibrc_dual-ports_multiQP",
+      "status": "candidate-context",
+      "text": "Aims to implement dual-port and multi-qp solutions in deepEP ibrc transport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Infrawaves/DeepEP_ibrc_dual-ports_multiQP",
+      "status": "candidate-context",
+      "text": "Notify New Issue to Feishu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Infrawaves/DeepEP_ibrc_dual-ports_multiQP",
+      "status": "candidate",
+      "text": "Notify New Issue to Feishu"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39130,
+      "status": "candidate",
+      "text": "stag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35342,
+      "status": "candidate",
+      "text": "reissue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34942,
+      "status": "candidate",
+      "text": "propagate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34942,
+      "status": "candidate",
+      "text": "reissuing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34930,
+      "status": "candidate",
+      "text": "subscribe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notify New Issue to Feishu",
+  "concept_id": "notify-new-issue-to-feishu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "Infrawaves/DeepEP_ibrc_dual-ports_multiQP"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify New Issue to Feishu",
+      "sense_id": "notify-new-issue-to-feishu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

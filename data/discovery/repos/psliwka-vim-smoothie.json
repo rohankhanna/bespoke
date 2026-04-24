@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ludvighz/vint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "terryma/vim-smooth-scroll",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "yuttie/comfortable-motion.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "joeytwiddle/sexy_scroller.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "ludvighz/vint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "Lint vimscript code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psliwka/vim-smoothie",
+      "target": "smooth-scrolling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:11.064534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4817
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Smooth scrolling for Vim done right\ud83e\udd64",
+    "fork": false,
+    "full_name": "psliwka/vim-smoothie",
+    "html_url": "https://github.com/psliwka/vim-smoothie",
+    "language": "Vim script",
+    "pushed_at": "2022-06-10T17:30:41Z",
+    "stargazers_count": 1032,
+    "topics": [
+      "neovim",
+      "smooth-scrolling",
+      "vim"
+    ],
+    "updated_at": "2026-04-18T07:30:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joeytwiddle/sexy_scroller.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terryma/vim-smooth-scroll",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuttie/comfortable-motion.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint vimscript code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint vimscript code"
+    },
+    {
+      "context_snippet": "vim-smoothie: Smooth scrolling for Vim done right\ud83e\udd64",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "vim-smoothie: Smooth scrolling for Vim done right\ud83e\udd64",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smooth-scrolling"
+    }
+  ]
+}

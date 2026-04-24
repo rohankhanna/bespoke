@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cidb.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cidb.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cidb.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "buildbot/buildbot",
+      "target": "buildbot/botherders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "buildbot/buildbot",
+      "target": "buildbot/buildbot-media",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "buildbot/buildbot",
+      "target": "buildbot/buildbot-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cidb.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cidb.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cidb.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "CI (DB)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "buildbot/buildbot",
+      "target": "Build release artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buildbot/buildbot",
+      "target": "ci-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buildbot/buildbot",
+      "target": "continuous-integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:44.950933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1392
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3956
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2754
+    },
+    {
+      "path": ".github/workflows/cidb.yml",
+      "size": 3993
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python-based continuous integration testing framework; your pull requests are more than welcome!",
+    "fork": false,
+    "full_name": "buildbot/buildbot",
+    "html_url": "https://github.com/buildbot/buildbot",
+    "language": "Python",
+    "pushed_at": "2026-04-23T18:40:43Z",
+    "stargazers_count": 5449,
+    "topics": [
+      "ci",
+      "ci-framework",
+      "continuous-integration",
+      "python"
+    ],
+    "updated_at": "2026-04-24T05:57:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildbot/botherders",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildbot/buildbot-media",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildbot/buildbot-website",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI (DB)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cidb.yml",
+      "term": "CI (DB)"
+    },
+    {
+      "context_snippet": "Build release artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build release artifacts"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-framework"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    }
+  ]
+}

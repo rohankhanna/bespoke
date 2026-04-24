@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dgrr/http2",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dgrr/http2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dgrr/http2",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dgrr/http2",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/http2",
+      "target": "fasthttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/http2",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgrr/http2",
+      "target": "http2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:58:24.635237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3125
+    },
+    {
+      "path": "go.mod",
+      "size": 787
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTTP/2 implementation for fasthttp",
+    "fork": false,
+    "full_name": "dgrr/http2",
+    "html_url": "https://github.com/dgrr/http2",
+    "language": "Go",
+    "pushed_at": "2025-07-03T13:01:41Z",
+    "stargazers_count": 239,
+    "topics": [
+      "fasthttp",
+      "golang",
+      "http2"
+    ],
+    "updated_at": "2026-04-24T00:42:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fasthttp"
+    },
+    {
+      "context_snippet": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "http2 is an implementation of HTTP/2 protocol for [fasthttp](https://github.com/valyala/fasthttp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    }
+  ]
+}

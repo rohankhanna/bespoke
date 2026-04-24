@@ -80,6 +80,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compozy/kb",
+      "target": "tobilu/qmd",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "compozy/kb",
@@ -129,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:56:08.154562+00:00",
+  "fetched_at": "2026-04-24T09:13:14.368911+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -166,6 +173,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "pedronauck/kodebase-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tobilu/qmd",
       "source_file": "README.md"
     }
   ],

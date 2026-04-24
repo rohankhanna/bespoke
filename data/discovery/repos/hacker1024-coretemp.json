@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hacker1024/coretemp",
+      "target": "hholtmann/smcfancontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacker1024/coretemp",
+      "target": "cores",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacker1024/coretemp",
+      "target": "iokit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacker1024/coretemp",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacker1024/coretemp",
+      "target": "osx-cpu-temp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacker1024/coretemp",
+      "target": "system-monitor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:11:06.289947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Outputs current CPU core and package temperatures on macOS.",
+    "fork": true,
+    "full_name": "hacker1024/coretemp",
+    "html_url": "https://github.com/hacker1024/coretemp",
+    "language": "C",
+    "pushed_at": "2021-11-26T14:04:30Z",
+    "stargazers_count": 42,
+    "topics": [
+      "c",
+      "cores",
+      "cpu",
+      "iokit",
+      "macos",
+      "osx",
+      "osx-cpu-temp",
+      "smc",
+      "system-monitor"
+    ],
+    "updated_at": "2025-02-16T19:56:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hholtmann/smcfancontrol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Outputs current CPU core and package temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cores"
+    },
+    {
+      "context_snippet": "Outputs current CPU core and package temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iokit"
+    },
+    {
+      "context_snippet": "Outputs current CPU core and package temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Outputs current CPU core and package temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osx-cpu-temp"
+    },
+    {
+      "context_snippet": "Outputs current CPU core and package temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-monitor"
+    }
+  ]
+}

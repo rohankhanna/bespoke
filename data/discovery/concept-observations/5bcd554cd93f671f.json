@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Socially scalable Code REView and recommendation system that we desperately need. See http://github.com/crev-dev/cargo-crev for real implemenation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022856,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022775,
+      "status": "candidate",
+      "text": "reappraisal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022538,
+      "status": "candidate",
+      "text": "reexamine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022380,
+      "status": "candidate",
+      "text": "reexamination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022005,
+      "status": "candidate",
+      "text": "survey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "review",
+      "sense_id": "review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18057,
+      "status": "candidate",
+      "text": "survey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15039,
+      "status": "candidate",
+      "text": "critique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9048,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9034,
+      "status": "candidate",
+      "text": "retrospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6031,
+      "status": "candidate",
+      "text": "recap"
+    }
+  ],
+  "concept_id": "review",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "review",
+  "observation_id": "5bcd554cd93f671f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "review",
+  "source_context_snippet": "* [cargo-crev: Crev for Rust/cargo](https://github.com/crev-dev/cargo-crev) - ready and working",
+  "source_file": null,
+  "source_repo": "crev-dev/crev",
+  "source_repo_description": "Socially scalable Code REView and recommendation system that we desperately need. See http://github.com/crev-dev/cargo-crev for real implemenation."
+}

@@ -103,6 +103,42 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate-context",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbpf/libbpf",
+      "status": "candidate-context",
+      "text": "Automated upstream mirror for libbpf stand-alone build."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbpf/libbpf",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Compile-Time Instrumentation for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "![](docs/public/anim-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "CNCF Jaeger, a Distributed Tracing Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbpf/libbpf",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate",
+      "text": "![](docs/public/anim-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
     }
   ],
   "candidate_related_terms": [
@@ -270,11 +324,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aws-samples/aws-serverless-airline-booking"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "libbpf/libbpf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode",
+      "target": "efficient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode",
+      "target": "finetuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode",
+      "target": "flash-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naman-ntc/FastCode",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:02.652043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4060
+    },
+    {
+      "path": "requirements.txt",
+      "size": 376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Utilities for efficient fine-tuning, inference and evaluation of code generation models",
+    "fork": false,
+    "full_name": "Naman-ntc/FastCode",
+    "html_url": "https://github.com/Naman-ntc/FastCode",
+    "language": "Python",
+    "pushed_at": "2023-10-03T16:13:47Z",
+    "stargazers_count": 21,
+    "topics": [
+      "code-generation",
+      "efficient",
+      "finetuning",
+      "flash-attention",
+      "inference",
+      "transformers"
+    ],
+    "updated_at": "2024-07-23T01:42:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient"
+    },
+    {
+      "context_snippet": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finetuning"
+    },
+    {
+      "context_snippet": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flash-attention"
+    },
+    {
+      "context_snippet": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "FastCode is a powerful set of utilities aimed to enhance the training, inference, and evaluation of code generation Large Language Models (LLMs). It is specifically designed to handle the challenges associated with code generation tasks and to streamline these processes, while o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

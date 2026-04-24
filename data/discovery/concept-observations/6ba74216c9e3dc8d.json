@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of, and fully compatible with, CookieCutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021696,
+      "status": "candidate",
+      "text": "chop-chop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021687,
+      "status": "candidate",
+      "text": "speedily"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021679,
+      "status": "candidate",
+      "text": "apace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021636,
+      "status": "candidate",
+      "text": "rapidly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009041,
+      "status": "candidate",
+      "text": "cursorily"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quickly",
+      "sense_id": "quickly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30027,
+      "status": "candidate",
+      "text": "promptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25020,
+      "status": "candidate",
+      "text": "cursorily"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20029,
+      "status": "candidate",
+      "text": "apace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9026,
+      "status": "candidate",
+      "text": "rapidly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7051,
+      "status": "candidate",
+      "text": "quick"
+    }
+  ],
+  "concept_id": "quickly",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quickly",
+  "observation_id": "6ba74216c9e3dc8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "quickly",
+  "source_context_snippet": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)",
+  "source_file": null,
+  "source_repo": "cruft/cruft",
+  "source_repo_description": "Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of, and fully compatible with, CookieCutter."
+}

@@ -175,7 +175,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dethcrypto/TypeChain",
-      "target": "offchainlabs/arbitrum",
+      "target": "wagmi-dev/abitype",
       "target_type": "repository"
     },
     {
@@ -410,7 +410,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:59:05.112291+00:00",
+  "fetched_at": "2026-04-24T08:59:42.481445+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -465,12 +465,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "offchainlabs/arbitrum",
+      "full_name": "uniswap/uniswap-v3-core",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "uniswap/uniswap-v3-core",
+      "full_name": "wagmi-dev/abitype",
       "source_file": "README.md"
     }
   ],

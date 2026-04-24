@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -111,6 +111,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "aaronlamz/navpress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dwyl/flutter-bloc-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "LaurenzV/hayro"
     }
   ],
   "term": "Deploy to GitHub Pages"

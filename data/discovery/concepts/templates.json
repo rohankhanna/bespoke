@@ -67,6 +67,18 @@
       "source_repo": "SwiftGen/SwiftGen",
       "status": "candidate-context",
       "text": "[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftGen.svg)](https://img.shields.io/cocoapods/v/SwiftGen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "Meta-programming for Swift, stop writing boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "SwiftGen/SwiftGen",
       "status": "candidate",
       "text": "[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftGen.svg)](https://img.shields.io/cocoapods/v/SwiftGen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate",
+      "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "krzysztofzablocki/Sourcery"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abisee/pointer-generator",
+      "target": "becxer/pointer-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abisee/pointer-generator",
+      "target": "abisee/attn_vis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abisee/pointer-generator",
+      "target": "andersjo/pyrouge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:12.719935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the ACL 2017 paper \"Get To The Point: Summarization with Pointer-Generator Networks\"",
+    "fork": false,
+    "full_name": "abisee/pointer-generator",
+    "html_url": "https://github.com/abisee/pointer-generator",
+    "language": "Python",
+    "pushed_at": "2022-06-16T22:05:16Z",
+    "stargazers_count": 2196,
+    "topics": [],
+    "updated_at": "2026-04-22T14:34:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abisee/attn_vis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andersjo/pyrouge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "becxer/pointer-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

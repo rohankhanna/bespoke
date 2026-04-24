@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "yi-34b-chat"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate-context",
+      "text": "Convert different model APIs into the OpenAI API format out of the box."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate-context",
+      "text": "![](.github/assets/aoa.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soulteary/amazing-openai-api",
+      "status": "candidate",
+      "text": "![](.github/assets/aoa.jpg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "yi-34b-chat",
+  "concept_id": "yi-34b-chat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "soulteary/amazing-openai-api"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yi-34b-chat",
+      "sense_id": "yi-34b-chat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

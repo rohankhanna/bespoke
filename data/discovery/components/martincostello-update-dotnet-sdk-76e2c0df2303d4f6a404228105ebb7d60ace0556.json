@@ -1,0 +1,12 @@
+{
+  "component": "martincostello/update-dotnet-sdk@76e2c0df2303d4f6a404228105ebb7d60ace0556",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-sdk.yml",
+      "source_repo": "dotnet/extensions"
+    }
+  ]
+}

@@ -283,6 +283,66 @@
       "source_repo": "PanAeon/vscode-tmgrammar-test",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalbazaar/cborld",
+      "status": "candidate-context",
+      "text": "A Javascript CBOR-LD processor for web browsers and Node.js apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalbazaar/cborld",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typicode/husky",
+      "status": "candidate-context",
+      "text": "Git hooks made easy \ud83d\udc36 woof!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/husky",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3-time-format",
+      "status": "candidate-context",
+      "text": "Parse and format times, inspired by strptime and strftime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-time-format",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kawanet/int64-buffer",
+      "status": "candidate-context",
+      "text": "64bit Long Integer on Buffer/ArrayBuffer in Pure JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kawanet/int64-buffer",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "Playwright Test Visual Studio Code integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -415,6 +475,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PanAeon/vscode-tmgrammar-test",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalbazaar/cborld",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/husky",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-time-format",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kawanet/int64-buffer",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-vscode",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -640,11 +730,65 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "PanAeon/vscode-tmgrammar-test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "digitalbazaar/cborld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "typicode/husky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "d3/d3-time-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kawanet/int64-buffer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/playwright-vscode"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

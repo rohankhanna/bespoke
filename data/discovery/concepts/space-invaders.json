@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "space-invaders"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/job-board",
+      "status": "candidate-context",
+      "text": "have a job? need a job? no jobs? all the jobs! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/job-board",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/travis-ci/job-board.svg?branch=master&cachebust=1)](https://travis-ci.org/travis-ci/job-board)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/job-board",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/travis-ci/job-board.svg?branch=master&cachebust=1)](https://travis-ci.org/travis-ci/job-board)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "space-invaders",
+  "concept_id": "space-invaders",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/job-board"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "space-invaders",
+      "sense_id": "space-invaders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

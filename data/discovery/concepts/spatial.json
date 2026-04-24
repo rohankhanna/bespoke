@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "spatial"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-spatial/sf",
+      "status": "candidate-context",
+      "text": "Simple Features for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/sf",
+      "status": "candidate-context",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/sf",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39842060,
+      "status": "candidate",
+      "text": "spacial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29841488,
+      "status": "candidate",
+      "text": "geographically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29837098,
+      "status": "candidate",
+      "text": "cadastral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29833843,
+      "status": "candidate",
+      "text": "geography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832517,
+      "status": "candidate",
+      "text": "geospatial"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "spacial"
+    }
+  ],
+  "canonical_name": "spatial",
+  "concept_id": "spatial",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "r-spatial/sf"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spatial",
+      "sense_id": "spatial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

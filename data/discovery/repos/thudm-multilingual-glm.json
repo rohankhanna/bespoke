@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "target": "timoschick/pet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "target": "google-research/bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "target": "google-research/multilingual-t5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/Multilingual-GLM",
+      "target": "znlp/ncls-corpora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/Multilingual-GLM",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/Multilingual-GLM",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/Multilingual-GLM",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:27.443537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9066
+    },
+    {
+      "path": "requirements.txt",
+      "size": 204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The multilingual variant of GLM, a general language model trained with autoregressive blank infilling objective ",
+    "fork": false,
+    "full_name": "THUDM/Multilingual-GLM",
+    "html_url": "https://github.com/THUDM/Multilingual-GLM",
+    "language": "Python",
+    "pushed_at": "2022-11-19T16:05:07Z",
+    "stargazers_count": 62,
+    "topics": [
+      "deep-learning",
+      "language-model",
+      "nlp",
+      "pytorch"
+    ],
+    "updated_at": "2024-08-12T20:25:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/bert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/multilingual-t5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timoschick/pet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "znlp/ncls-corpora",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "This repository contains the code of mGLM: a multilingual variant of GLM, a general language model trained with an autoregressive blank infilling objective.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

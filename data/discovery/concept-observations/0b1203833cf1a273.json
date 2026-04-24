@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":boom: :speech_balloon: errors but with error code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Error type used by all [semantic-release](https://github.com/semantic-release/semantic-release) packages."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Error type used by all [semantic-release](https://github.com/semantic-release/semantic-release) packages."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032719,
+      "status": "candidate",
+      "text": "erroneousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032337,
+      "status": "candidate",
+      "text": "mistake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031732,
+      "status": "candidate",
+      "text": "wrongdoing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031475,
+      "status": "candidate",
+      "text": "misplay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030061,
+      "status": "candidate",
+      "text": "fault"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "error",
+      "sense_id": "error#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13071,
+      "status": "candidate",
+      "text": "fault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7053,
+      "status": "candidate",
+      "text": "mistake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5018,
+      "status": "candidate",
+      "text": "erroneousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4031,
+      "status": "candidate",
+      "text": "wrongdoing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "misplay"
+    }
+  ],
+  "concept_id": "error",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "error",
+  "observation_id": "0b1203833cf1a273",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "error",
+  "source_context_snippet": "Error type used by all [semantic-release](https://github.com/semantic-release/semantic-release) packages.",
+  "source_file": null,
+  "source_repo": "semantic-release/error",
+  "source_repo_description": ":boom: :speech_balloon: errors but with error code"
+}

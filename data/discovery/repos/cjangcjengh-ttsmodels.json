@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CjangCjengh/TTSModels",
+      "target": "fumiama/moegoe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CjangCjengh/TTSModels",
+      "target": "fumiama/moegoe-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CjangCjengh/TTSModels",
+      "target": "bshall/hubert",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:55.001289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "CjangCjengh/TTSModels",
+    "html_url": "https://github.com/CjangCjengh/TTSModels",
+    "language": null,
+    "pushed_at": "2022-11-27T13:48:15Z",
+    "stargazers_count": 624,
+    "topics": [],
+    "updated_at": "2026-04-13T17:00:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bshall/hubert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fumiama/moegoe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fumiama/moegoe-android",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

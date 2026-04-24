@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:21:03.228981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8929
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open Large Reasoning Model for Real-World Solutions",
+    "fork": false,
+    "full_name": "AIDC-AI/Marco-o1",
+    "html_url": "https://github.com/AIDC-AI/Marco-o1",
+    "language": "Python",
+    "pushed_at": "2026-02-13T06:01:39Z",
+    "stargazers_count": 1540,
+    "topics": [],
+    "updated_at": "2026-04-22T14:42:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

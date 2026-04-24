@@ -19,6 +19,18 @@
       "source_repo": "angr/angr",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/pypi/v/angr.svg)](https://pypi.python.org/pypi/angr/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "The official angr GUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate-context",
+      "text": "angr-management is a cross-platform, open-source, graphical binary analysis tool powered by the [angr](https://angr.io) binary analysis platform! See [here](https://angr-management.readthedocs.io/en/latest/) for more information."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "angr/angr",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/pypi/v/angr.svg)](https://pypi.python.org/pypi/angr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr-management",
+      "status": "candidate",
+      "text": "angr-management is a cross-platform, open-source, graphical binary analysis tool powered by the [angr](https://angr.io) binary analysis platform! See [here](https://angr-management.readthedocs.io/en/latest/) for more information."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "angr/angr-management"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

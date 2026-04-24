@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "esmeta typecheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "Status, process, and documents for ECMA-262"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate-context",
+      "text": "'esmeta typecheck'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma262",
+      "status": "candidate",
+      "text": "'esmeta typecheck'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "dynamic typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "type inference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "untypecheck"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "esmeta typecheck",
+  "concept_id": "esmeta-typecheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/esmeta-typecheck.yml",
+      "source_repo": "tc39/ecma262"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "esmeta typecheck",
+      "sense_id": "esmeta-typecheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

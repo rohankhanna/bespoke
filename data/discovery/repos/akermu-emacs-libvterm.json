@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "neovim/libvterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "sbozzolo/libvterm-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "dieggsy/eterm-256color",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "jixiuf/vterm-toggle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "libvterm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akermu/emacs-libvterm",
+      "target": "terminal-emulator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:02:18.947044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs libvterm integration",
+    "fork": false,
+    "full_name": "akermu/emacs-libvterm",
+    "html_url": "https://github.com/akermu/emacs-libvterm",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-06T01:34:56Z",
+    "stargazers_count": 1958,
+    "topics": [
+      "emacs",
+      "libvterm",
+      "terminal",
+      "terminal-emulator"
+    ],
+    "updated_at": "2026-04-23T07:22:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dieggsy/eterm-256color",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jixiuf/vterm-toggle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/libvterm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sbozzolo/libvterm-mirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvterm"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-badge.svg)](https://melpa.org/#/vterm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulator"
+    }
+  ]
+}

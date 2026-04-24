@@ -223,6 +223,138 @@
       "source_repo": "async-rs/async-std",
       "status": "candidate-context",
       "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gen-Verse/OpenClaw-RL",
+      "status": "candidate-context",
+      "text": "OpenClaw-RL: Train any agent simply by talking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gen-Verse/OpenClaw-RL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Event-driven networking engine written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Twisted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joerick/pyinstrument",
+      "status": "candidate-context",
+      "text": "\ud83d\udeb4\u00a0Call stack profiler for Python. Shows you why your code is slow!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joerick/pyinstrument",
+      "status": "candidate-context",
+      "text": "pyinstrument"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f General purpose asynchronous tree viewer written in Pure Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate-context",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate-context",
+      "text": "Async executor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/async-executor/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "A small and fast async runtime for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate-context",
+      "text": "Electrum server using zeromq libbitcoin as backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate-context",
+      "text": "obelisk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate-context",
+      "text": "Miniscule cross-platform eventing, networking & crypto for async applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate-context",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "wrap methods with before/after hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate-context",
+      "text": "> asynchronous hooks for internal functionality"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +465,72 @@
       "source_repo": "async-rs/async-std",
       "status": "candidate",
       "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gen-Verse/OpenClaw-RL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate",
+      "text": "Twisted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparckles/Robyn",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Robyn Logo\" src=\"https://user-images.githubusercontent.com/29942790/140995889-5d91dcff-3aa7-4cfb-8a90-2cddf1337dca.png\" width=\"250\" /><p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joerick/pyinstrument",
+      "status": "candidate",
+      "text": "pyinstrument"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern",
+      "status": "candidate",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-executor",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/async-executor/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-web",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate",
+      "text": "obelisk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gr2m/before-after-hook",
+      "status": "candidate",
+      "text": "> asynchronous hooks for internal functionality"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +688,77 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "async-rs/async-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Gen-Verse/OpenClaw-RL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "twisted/twisted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sparckles/Robyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "joerick/pyinstrument"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/async-executor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/smol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uNetworking/uSockets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gr2m/before-after-hook"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

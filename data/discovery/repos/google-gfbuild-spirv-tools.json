@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/gfbuild-SPIRV-Tools",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/gfbuild-SPIRV-Tools",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:05:14.565373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1670
+    },
+    {
+      "path": ".github/workflows/update_commit.yml",
+      "size": 967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A set of scripts for building SPIRV-Tools for the GraphicsFuzz project",
+    "fork": false,
+    "full_name": "google/gfbuild-SPIRV-Tools",
+    "html_url": "https://github.com/google/gfbuild-SPIRV-Tools",
+    "language": "Shell",
+    "pushed_at": "2022-04-20T05:38:57Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-18T05:57:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

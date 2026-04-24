@@ -3,7 +3,8 @@
     "Unit Tests",
     "Unit tests",
     "unit-tests",
-    "\ud83e\uddea Unit Tests"
+    "\ud83e\uddea Unit Tests",
+    "unit tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -256,6 +257,78 @@
       "source_repo": "jaegertracing/jaeger-lib",
       "status": "candidate-context",
       "text": "\"Unit Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate-context",
+      "text": "Model defuser helper for HF Transformers "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate-context",
+      "text": "Evalution: evolve your LLMs with better evals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate-context",
+      "text": "A unified Logger and ProgressBar util with zero dependencies. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate-context",
+      "text": "A light weight Python library for the Spotify Web API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "PHP Framework designed to build IO-intensive web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate-context",
+      "text": "unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchft",
+      "status": "candidate-context",
+      "text": "Fault tolerance for PyTorch (HSDP, LocalSGD, DiLoCo, Streaming DiLoCo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchft",
+      "status": "candidate-context",
+      "text": "Unit Tests"
     }
   ],
   "candidate_glosses": [
@@ -384,6 +457,42 @@
       "source_repo": "jaegertracing/jaeger-lib",
       "status": "candidate",
       "text": "\"Unit Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Defuser",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/Evalution",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/LogBar",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotipy-dev/spotipy",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distantmagic/resonance",
+      "status": "candidate",
+      "text": "unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchft",
+      "status": "candidate",
+      "text": "Unit Tests"
     }
   ],
   "candidate_related_terms": [
@@ -606,11 +715,71 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/unit_tests.yml",
       "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/Defuser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/Evalution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/LogBar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unit_tests.yaml",
+      "source_repo": "distantmagic/resonance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

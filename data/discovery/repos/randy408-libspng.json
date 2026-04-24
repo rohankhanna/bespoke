@@ -1,0 +1,426 @@
+{
+  "components": [
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "randy408/libspng",
+      "target": "glennrp/libpng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "randy408/libspng",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "randy408/libspng",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "randy408/libspng",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "randy408/libspng",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "randy408/libspng",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "randy408/libspng",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "randy408/libspng",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "randy408/libspng",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "randy408/libspng",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "source_repo": "randy408/libspng",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "source_repo": "randy408/libspng",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "source_repo": "randy408/libspng",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "source_repo": "randy408/libspng",
+      "target": "vmactions/freebsd-vm@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "source_repo": "randy408/libspng",
+      "target": "vmactions/openbsd-vm@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "source_repo": "randy408/libspng",
+      "target": "On PRs - meson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "codec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "libpng",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "meson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "optimized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "oss-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "png-decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "png-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy408/libspng",
+      "target": "spng",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:19.871048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7652
+    },
+    {
+      "path": ".github/workflows/ci-fuzz.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2135
+    },
+    {
+      "path": ".github/workflows/on_PR_meson.yaml",
+      "size": 4565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, modern libpng alternative",
+    "fork": false,
+    "full_name": "randy408/libspng",
+    "html_url": "https://github.com/randy408/libspng",
+    "language": "C",
+    "pushed_at": "2024-06-15T13:27:26Z",
+    "stargazers_count": 830,
+    "topics": [
+      "c",
+      "c99",
+      "cmake",
+      "codec",
+      "decoding",
+      "encoder",
+      "libpng",
+      "meson",
+      "optimized",
+      "oss-fuzz",
+      "png",
+      "png-decoder",
+      "png-encoder",
+      "spng"
+    ],
+    "updated_at": "2026-04-21T06:24:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glennrp/libpng",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "On PRs - meson",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_PR_meson.yaml",
+      "term": "On PRs - meson"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codec"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoding"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libpng"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meson"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimized"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oss-fuzz"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "png-decoder"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "png-encoder"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spng"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:12:52.087821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Support for SVN, Git, HG and BZR",
+    "fork": false,
+    "full_name": "juneedahamed/vc.vim",
+    "html_url": "https://github.com/juneedahamed/vc.vim",
+    "language": "Vim script",
+    "pushed_at": "2022-11-16T14:07:40Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2025-04-25T06:55:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

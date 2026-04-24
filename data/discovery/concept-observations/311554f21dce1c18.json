@@ -84,7 +84,7 @@
   "normalized_form": "build-source-snapshot",
   "observation_id": "311554f21dce1c18",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Build Source Snapshot",
   "source_context_snippet": "Build Source Snapshot",
   "source_file": ".github/workflows/source-snapshot.yml",

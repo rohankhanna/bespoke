@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/FR-Spec",
+      "target": "thunlp/blockffn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/FR-Spec",
+      "target": "fasterdecoding/medusa.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/FR-Spec",
+      "target": "hemingkx/spec-bench.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:06.943039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2025 main] FR-Spec: Frequency-Ranked Speculative Sampling",
+    "fork": false,
+    "full_name": "thunlp/FR-Spec",
+    "html_url": "https://github.com/thunlp/FR-Spec",
+    "language": "C++",
+    "pushed_at": "2025-07-15T02:50:08Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-03-19T09:45:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasterdecoding/medusa.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hemingkx/spec-bench.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/blockffn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

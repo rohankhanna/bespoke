@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Libraries",
+      "target": "konstanty/libmodplug",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:21:04.862166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Utility and library code used by my projects.",
+    "fork": false,
+    "full_name": "DavidKinder/Libraries",
+    "html_url": "https://github.com/DavidKinder/Libraries",
+    "language": "C++",
+    "pushed_at": "2026-02-14T11:20:14Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-02-14T11:20:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "konstanty/libmodplug",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

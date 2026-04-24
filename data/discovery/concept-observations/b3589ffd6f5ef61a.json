@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cirun.io configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Azure Windows Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Azure Windows Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33316,
+      "status": "candidate",
+      "text": "desktop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33214,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20978,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19669,
+      "status": "candidate",
+      "text": "star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17330,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Azure Windows Image",
+      "sense_id": "build-azure-windows-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-azure-windows-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-azure-windows-image",
+  "observation_id": "b3589ffd6f5ef61a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Build Azure Windows Image",
+  "source_context_snippet": "Build Azure Windows Image",
+  "source_file": ".github/workflows/build-image.yml",
+  "source_repo": "conda-forge/.cirun",
+  "source_repo_description": "cirun.io configuration"
+}

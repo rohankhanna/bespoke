@@ -86,6 +86,18 @@
       "source_repo": "mannaandpoem/OpenManus_Archive",
       "status": "candidate-context",
       "text": "Pre-commit checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate-context",
+      "text": "Pre-commit Checks"
     }
   ],
   "candidate_glosses": [
@@ -130,6 +142,12 @@
       "source_repo": "mannaandpoem/OpenManus_Archive",
       "status": "candidate",
       "text": "Pre-commit checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AReaL",
+      "status": "candidate",
+      "text": "Pre-commit Checks"
     }
   ],
   "candidate_related_terms": [
@@ -215,11 +233,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "mannaandpoem/OpenManus_Archive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "inclusionAI/AReaL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

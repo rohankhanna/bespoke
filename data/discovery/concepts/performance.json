@@ -430,6 +430,78 @@
       "source_repo": "TechEmpower/FrameworkBenchmarks",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycompression/python-isal",
+      "status": "candidate-context",
+      "text": "Faster zlib and gzip compatible compression and decompression by providing python bindings for the isa-l library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-isal",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/isal.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate-context",
+      "text": "A drop-in replacement for Python's zlib and gzip modules using zlib-ng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "Intel\u00ae AI Reference Models: contains Intel optimizations for running deep learning workloads on Intel\u00ae Xeon\u00ae Scalable processors and Intel\u00ae Data Center GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate-context",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joerick/pyinstrument",
+      "status": "candidate-context",
+      "text": "\ud83d\udeb4\u00a0Call stack profiler for Python. Shows you why your code is slow!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joerick/pyinstrument",
+      "status": "candidate-context",
+      "text": "pyinstrument"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "romkatv/zsh-bench",
+      "status": "candidate-context",
+      "text": "Benchmark for interactive Zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romkatv/zsh-bench",
+      "status": "candidate-context",
+      "text": "Benchmark for interactive zsh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "pytest fixture for benchmarking code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate-context",
+      "text": "========"
     }
   ],
   "candidate_glosses": [
@@ -642,6 +714,42 @@
       "source_repo": "TechEmpower/FrameworkBenchmarks",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-isal",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/isal.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-reference-models",
+      "status": "candidate",
+      "text": "<a href=\"https://scan.coverity.com/projects/intel-models\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joerick/pyinstrument",
+      "status": "candidate",
+      "text": "pyinstrument"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romkatv/zsh-bench",
+      "status": "candidate",
+      "text": "Benchmark for interactive zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionelmc/pytest-benchmark",
+      "status": "candidate",
+      "text": "========"
     }
   ],
   "candidate_related_terms": [
@@ -943,11 +1051,59 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "TechEmpower/FrameworkBenchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-zlib-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "joerick/pyinstrument"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "romkatv/zsh-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ionelmc/pytest-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

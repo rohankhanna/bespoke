@@ -1,0 +1,199 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/fn",
+      "target": "fnproject/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/fn",
+      "target": "fnproject/flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/fn",
+      "target": "fnproject/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/fn",
+      "target": "fnproject/lb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "faas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "serverless-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fn",
+      "target": "swarm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:38.843445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7435
+    },
+    {
+      "path": "Dockerfile",
+      "size": 876
+    },
+    {
+      "path": "go.mod",
+      "size": 4489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The container native, cloud agnostic serverless platform.",
+    "fork": false,
+    "full_name": "fnproject/fn",
+    "html_url": "https://github.com/fnproject/fn",
+    "language": "Go",
+    "pushed_at": "2026-04-07T13:56:48Z",
+    "stargazers_count": 5931,
+    "topics": [
+      "containers",
+      "docker",
+      "faas",
+      "kubernetes",
+      "lambda",
+      "serverless",
+      "serverless-functions",
+      "swarm"
+    ],
+    "updated_at": "2026-04-23T10:00:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/flow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/lb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faas"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-functions"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swarm"
+    }
+  ]
+}

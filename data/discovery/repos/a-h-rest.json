@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-h/rest",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-h/rest",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-h/rest",
+      "target": "openapi3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:21.457365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3097
+    },
+    {
+      "path": "go.mod",
+      "size": 758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate OpenAPI 3.0 specifications from Go code.",
+    "fork": false,
+    "full_name": "a-h/rest",
+    "html_url": "https://github.com/a-h/rest",
+    "language": "Go",
+    "pushed_at": "2024-08-15T14:00:32Z",
+    "stargazers_count": 74,
+    "topics": [
+      "go",
+      "hacktoberfest",
+      "openapi",
+      "openapi3"
+    ],
+    "updated_at": "2025-12-12T13:16:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Document a REST API with an OpenAPI 3.0 specification.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Document a REST API with an OpenAPI 3.0 specification.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "Document a REST API with an OpenAPI 3.0 specification.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    }
+  ]
+}

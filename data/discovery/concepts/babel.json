@@ -175,6 +175,66 @@
       "source_repo": "leoasis/graphql-tag.macro",
       "status": "candidate-context",
       "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grommet/grommet",
+      "status": "candidate-context",
+      "text": "a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grommet/grommet",
+      "status": "candidate-context",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "\ud83e\uddb9\u200d\u2642\ufe0f Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate-context",
+      "text": "A collection of awesome babel macros and related resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate-context",
+      "text": "A collection of awesome babel macros and related resources"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developit/preact-in-es3",
+      "status": "candidate-context",
+      "text": ":horse: How to use Preact without Babel, ES2015 or JSX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/preact-in-es3",
+      "status": "candidate-context",
+      "text": "[Preact] doesn't require that you use any sort of build tooling or transpiler."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "leoasis/graphql-tag.macro",
       "status": "candidate",
       "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grommet/grommet",
+      "status": "candidate",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.macro",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate",
+      "text": "A collection of awesome babel macros and related resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/preact-in-es3",
+      "status": "candidate",
+      "text": "[Preact] doesn't require that you use any sort of build tooling or transpiler."
     }
   ],
   "candidate_related_terms": [
@@ -408,11 +498,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "grommet/grommet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.macro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kentcdodds/babel-plugin-macros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "developit/preact-in-es3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

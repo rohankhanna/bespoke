@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "dawidd6/action-download-artifact@246dbf436b23d7c49e21a7ab8204ca9ecd1fe615",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "ethereum/eip-review-bot@dist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-review-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Auto Review Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review-trigger.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "andstor/file-existence-action@20b4d2e596410855db8f9ca21e96fbe18e12930b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review-trigger.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-review-trigger.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Auto Review Bot Trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stagnate-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stagnate-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/setup-node@d98fa1113850e562f83c7fc3a89c0ecd7a87fbed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stagnate-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "ethereum/EIP-Bot@b3ac0ba3600aea27157fc68d1e36c08cc5a6db77",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-stagnate-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Auto Stagnant Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "chetan/git-restore-mtime-action@d186aca54f8760da4dec55313195e51ed3ebb0b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "ruby/setup-ruby@fb404b9557c186e349162b0d8efb06e2bc36edea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "gaurav-nelson/github-action-markdown-link-check@d53a906aa6b22b8979d33bc86170567e619495ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "codespell-project/actions-codespell@57beb9f38f49d773d641ac555d1565c3b6a59938",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "ethereum/eipw-action@be3fa642ec311d0b8e1fdb811e5c9b4ada3d3d93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "DavidAnson/markdownlint-cli2-action@f5cf187ef11bd3a68a127321b794aa252ff23019",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-label-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Pandapip1/jekyll-label-action@4b7cce7588a8686f5146a8e12aab7269042057ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jekyll-label-bot.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Jekyll Label Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "ruby/setup-ruby@f26937343756480a8cb3ae1f623b9c8d89ed6984",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Deploy Jekyll site to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "dawidd6/action-download-artifact@246dbf436b23d7c49e21a7ab8204ca9ecd1fe615",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "marocchino/sticky-pull-request-comment@39c5b5dc7717447d0cba270cd115037d32d28443",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions-ecosystem/action-add-labels@288072f1a3b596f4350fe135bcfe381a23abadef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions-ecosystem/action-remove-labels@d05162525702062b6bdef750ed8594fc024b3ed7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-ci.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Post CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "actions/stale@03af7c36d33f4905e618fac0a1bb7e6d05f0d41b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/ERCs",
+      "target": "Mark stale PRs & Issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "ethereum/ERCs"
+}

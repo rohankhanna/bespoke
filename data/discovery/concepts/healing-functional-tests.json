@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Healing Functional Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "Healing Functional Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate",
+      "text": "Healing Functional Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25785,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17820,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17750,
+      "status": "candidate",
+      "text": "chiropractic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17750,
+      "status": "candidate",
+      "text": "psychiatry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17750,
+      "status": "candidate",
+      "text": "scab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Healing Functional Tests",
+  "concept_id": "healing-functional-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/go-healing.yml",
+      "source_repo": "minio/minio"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Healing Functional Tests",
+      "sense_id": "healing-functional-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

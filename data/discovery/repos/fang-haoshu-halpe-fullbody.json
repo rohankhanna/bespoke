@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "mvig-sjtu/alphapose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "haoyizhu/halpecocoapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "jin-s13/coco-wholebody",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fang-Haoshu/Halpe-FullBody",
+      "target": "s-gupta/v-coco",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:57.057216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3747
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Halpe: full body human pose estimation and human-object interaction detection dataset",
+    "fork": false,
+    "full_name": "Fang-Haoshu/Halpe-FullBody",
+    "html_url": "https://github.com/Fang-Haoshu/Halpe-FullBody",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-08T04:39:30Z",
+    "stargazers_count": 367,
+    "topics": [],
+    "updated_at": "2026-04-17T07:48:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haoyizhu/halpecocoapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jin-s13/coco-wholebody",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mvig-sjtu/alphapose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s-gupta/v-coco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

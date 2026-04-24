@@ -1,0 +1,449 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-format.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esmeta-typecheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esmeta-typecheck.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esmeta-yetcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ipr.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ipr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "phulsechinmay/rewritable-pr-comment@v0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-biblio.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-biblio.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/ecma262",
+      "target": "tc39/proposals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/ecma262",
+      "target": "tc39/how-we-work",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/ecma262",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/ecma262",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ecma-262",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ecma-262 deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-format.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-format.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-format.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "enforce format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esmeta-typecheck.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esmeta-typecheck.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/esmeta-typecheck.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "esmeta typecheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esmeta-yetcheck.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/esmeta-yetcheck.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "esmeta yet phrases detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ipr.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ipr.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ipr.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ecma-262",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ljharb/actions/node/install@7f214d8efdbdcefc96ad9689663ef387a195deec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "phulsechinmay/rewritable-pr-comment@v0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ecma262",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-biblio.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-biblio.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-biblio.yml",
+      "source_repo": "tc39/ecma262",
+      "target": "ecma-262-biblio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/ecma262",
+      "target": "ecmascript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:06:14.113605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1661
+    },
+    {
+      "path": "package.json",
+      "size": 1315
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 635
+    },
+    {
+      "path": ".github/workflows/enforce-format.yml",
+      "size": 527
+    },
+    {
+      "path": ".github/workflows/esmeta-typecheck.yml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/esmeta-yetcheck.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/ipr.yml",
+      "size": 718
+    },
+    {
+      "path": ".github/workflows/pr-preview.yml",
+      "size": 4335
+    },
+    {
+      "path": ".github/workflows/publish-biblio.yml",
+      "size": 784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Status, process, and documents for ECMA-262",
+    "fork": false,
+    "full_name": "tc39/ecma262",
+    "html_url": "https://github.com/tc39/ecma262",
+    "language": "HTML",
+    "pushed_at": "2026-04-24T06:42:48Z",
+    "stargazers_count": 15617,
+    "topics": [
+      "ecmascript",
+      "javascript"
+    ],
+    "updated_at": "2026-04-24T06:27:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/how-we-work",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposals",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'ecma-262'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "ecma-262"
+    },
+    {
+      "context_snippet": "'ecma-262 deploy'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "ecma-262 deploy"
+    },
+    {
+      "context_snippet": "'enforce format'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-format.yml",
+      "term": "enforce format"
+    },
+    {
+      "context_snippet": "'esmeta typecheck'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/esmeta-typecheck.yml",
+      "term": "esmeta typecheck"
+    },
+    {
+      "context_snippet": "'esmeta yet phrases detection'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/esmeta-yetcheck.yml",
+      "term": "esmeta yet phrases detection"
+    },
+    {
+      "context_snippet": "'ecma-262'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ipr.yml",
+      "term": "ecma-262"
+    },
+    {
+      "context_snippet": "'ecma262'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "term": "ecma262"
+    },
+    {
+      "context_snippet": "'ecma-262-biblio'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-biblio.yml",
+      "term": "ecma-262-biblio"
+    },
+    {
+      "context_snippet": "ECMAScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    }
+  ]
+}

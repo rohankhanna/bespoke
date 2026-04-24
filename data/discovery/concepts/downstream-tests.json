@@ -19,12 +19,30 @@
       "source_repo": "python-poetry/cleo",
       "status": "candidate-context",
       "text": "Downstream Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "The backend\u2014i.e. core services, APIs, and REST endpoints\u2014to Jupyter web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "Downstream Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "python-poetry/cleo",
+      "status": "candidate",
+      "text": "Downstream Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
       "status": "candidate",
       "text": "Downstream Tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/downstream.yaml",
       "source_repo": "python-poetry/cleo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "jupyter-server/jupyter_server"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

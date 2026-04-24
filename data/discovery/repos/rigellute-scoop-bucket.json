@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:10:54.417609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scoop bucket for spotify-tui",
+    "fork": false,
+    "full_name": "Rigellute/scoop-bucket",
+    "html_url": "https://github.com/Rigellute/scoop-bucket",
+    "language": "Shell",
+    "pushed_at": "2022-04-08T14:58:32Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-01-11T00:50:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

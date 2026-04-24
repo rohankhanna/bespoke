@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:53:16.657871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5efa\u8bbe\u4e2d / WIP ... (\u57fa\u4e8e WebAV \u7684\u5546\u4e1a\u7248 SDK)",
+    "fork": false,
+    "full_name": "WebAV-Tech/WebAV-Pro",
+    "html_url": "https://github.com/WebAV-Tech/WebAV-Pro",
+    "language": "HTML",
+    "pushed_at": "2025-11-02T09:29:55Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-03-13T07:19:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

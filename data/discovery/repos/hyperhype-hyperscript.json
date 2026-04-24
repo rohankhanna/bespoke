@@ -48,6 +48,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hyperhype/hyperscript",
+      "target": "twilson63/html2hscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperhype/hyperscript",
       "target": "akeemmclennon/dom2hscript",
       "target_type": "repository"
     },
@@ -56,13 +63,6 @@
       "source_file": "README.md",
       "source_repo": "hyperhype/hyperscript",
       "target": "ohanhi/hyperscript-helpers",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hyperhype/hyperscript",
-      "target": "mlmorg/react-hyperscript",
       "target_type": "repository"
     },
     {
@@ -129,7 +129,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:45:16.584222+00:00",
+  "fetched_at": "2026-04-24T09:02:08.479465+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -165,17 +165,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mlmorg/react-hyperscript",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "ohanhi/hyperscript-helpers",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "raynos/mercury",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twilson63/html2hscript",
       "source_file": "README.md"
     }
   ],

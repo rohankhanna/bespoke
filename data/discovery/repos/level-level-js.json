@@ -110,20 +110,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Level/level-js",
-      "target": "level/levelup",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Level/level-js",
-      "target": "level/level",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "Level/level-js",
@@ -313,7 +299,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:57:07.586744+00:00",
+  "fetched_at": "2026-04-24T09:13:52.286034+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -356,16 +342,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "juliangruber/multilevel",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "level/level",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "level/levelup",
       "source_file": "README.md"
     }
   ],

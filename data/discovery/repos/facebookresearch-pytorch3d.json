@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/pytorch3d",
+      "target": "facebookresearch/synsin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/pytorch3d",
+      "target": "facebookresearch/meshrcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/pytorch3d",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:16:19.116310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11422
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch3D is FAIR's library of reusable components for deep learning with 3D data",
+    "fork": false,
+    "full_name": "facebookresearch/pytorch3d",
+    "html_url": "https://github.com/facebookresearch/pytorch3d",
+    "language": "Python",
+    "pushed_at": "2026-03-18T17:12:51Z",
+    "stargazers_count": 9862,
+    "topics": [],
+    "updated_at": "2026-04-24T07:47:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/meshrcnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/synsin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

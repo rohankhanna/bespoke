@@ -1,0 +1,68 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/antigen",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/antigen",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/antigen",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:25.489104+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The plugin manager for zsh.",
+    "fork": false,
+    "full_name": "zsh-users/antigen",
+    "html_url": "https://github.com/zsh-users/antigen",
+    "language": "Shell",
+    "pushed_at": "2024-02-18T02:39:21Z",
+    "stargazers_count": 8307,
+    "topics": [
+      "package-manager",
+      "plugin-manager",
+      "shell",
+      "zsh"
+    ],
+    "updated_at": "2026-04-24T06:25:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The plugin manager for zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "The plugin manager for zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "The plugin manager for zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

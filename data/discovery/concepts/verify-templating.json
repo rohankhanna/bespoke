@@ -49,6 +49,18 @@
       "source_repo": "docker-library/docker",
       "status": "candidate-context",
       "text": "Verify Templating"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/drupal",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for Drupal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/drupal",
+      "status": "candidate-context",
+      "text": "Verify Templating"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +85,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker-library/docker",
+      "status": "candidate",
+      "text": "Verify Templating"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/drupal",
       "status": "candidate",
       "text": "Verify Templating"
     }
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/verify-templating.yml",
       "source_repo": "docker-library/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/drupal"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -151,6 +151,30 @@
       "source_repo": "nodenv/homebrew-nodenv",
       "status": "candidate-context",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukechilds/zsh-nvm",
+      "status": "candidate-context",
+      "text": "Zsh plugin for installing, updating and loading nvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukechilds/zsh-nvm",
+      "status": "candidate-context",
+      "text": "> Zsh plugin for installing, updating and loading `nvm`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate-context",
+      "text": "Fix IntelliJ/WebStorm's npm integration under nodenv."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate-context",
+      "text": "Fix IntelliJ/WebStorm's npm integration under nodenv."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "nodenv/homebrew-nodenv",
       "status": "candidate",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukechilds/zsh-nvm",
+      "status": "candidate",
+      "text": "> Zsh plugin for installing, updating and loading `nvm`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/jetbrains-npm",
+      "status": "candidate",
+      "text": "Fix IntelliJ/WebStorm's npm integration under nodenv."
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +400,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/jetbrains-npm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/svm-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

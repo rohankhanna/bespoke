@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:52:39.134291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8770
+    },
+    {
+      "path": "go.mod",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Drug Liphophilicty with GO Client and Flask",
+    "fork": false,
+    "full_name": "AbhiLegend/DrugLiphphilicty",
+    "html_url": "https://github.com/AbhiLegend/DrugLiphphilicty",
+    "language": "Python",
+    "pushed_at": "2024-02-09T21:13:58Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-04-04T09:39:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

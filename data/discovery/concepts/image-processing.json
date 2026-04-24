@@ -199,6 +199,54 @@
       "source_repo": "lovell/sharp",
       "status": "candidate-context",
       "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate-context",
+      "text": "White balance camera-rendered sRGB images (CVPR 2019) [Matlab & Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate-context",
+      "text": "Basis Universal GPU Texture Codec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2016-2026 Binomial LLC -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate-context",
+      "text": "A lightning fast image processing and resizing library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "Elixir extension for libvips"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +345,30 @@
       "source_repo": "lovell/sharp",
       "status": "candidate",
       "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate",
+      "text": "<!-- Copyright 2016-2026 Binomial LLC -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +478,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "lovell/sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_sRGB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "davidbyttow/govips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akash-akya/vix"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/elixir-plug-tutorial",
+      "target": "ninenines/cowboy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/elixir-plug-tutorial",
+      "target": "nelsonic/elixir-plug-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/elixir-plug-tutorial",
+      "target": "elixir-plug/plug",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:02:51.201349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udca7Follow the Elixir School Plug Tutorial with extra notes and tests:",
+    "fork": false,
+    "full_name": "dwyl/elixir-plug-tutorial",
+    "html_url": "https://github.com/dwyl/elixir-plug-tutorial",
+    "language": "Elixir",
+    "pushed_at": "2021-10-08T17:05:03Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-02-01T06:39:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-plug/plug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nelsonic/elixir-plug-tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninenines/cowboy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.txt",
+      "source_repo": "erkyrath/cheapglk",
+      "target": "erkyrath/glk-dev",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:23.212150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 11797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cheapass implementation of the Glk API",
+    "fork": false,
+    "full_name": "erkyrath/cheapglk",
+    "html_url": "https://github.com/erkyrath/cheapglk",
+    "language": "C",
+    "pushed_at": "2025-06-05T17:09:32Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-01-12T13:45:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erkyrath/glk-dev",
+      "source_file": "README.txt"
+    }
+  ],
+  "terms": []
+}

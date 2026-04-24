@@ -1,12 +1,17 @@
 {
   "component": "actions/attest-build-provenance@c074443f1aee8d4aeeae555aebba3282517141b2",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "clearbluejar/pyghidra-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slsa-provenance.yml",
+      "source_repo": "cure53/DOMPurify"
     }
   ]
 }

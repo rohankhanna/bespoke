@@ -55,6 +55,30 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate-context",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightninglabs/neutrino",
+      "status": "candidate-context",
+      "text": "Privacy-Preserving Bitcoin Light Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightninglabs/neutrino",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml/badge.svg)](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate-context",
+      "text": "Onion Routed Micropayments for the Lightning Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate-context",
+      "text": "This repository houses an implementation of the [Lightning"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightninglabs/neutrino",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml/badge.svg)](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate",
+      "text": "This repository houses an implementation of the [Lightning"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "lightningnetwork/lnd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightninglabs/neutrino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

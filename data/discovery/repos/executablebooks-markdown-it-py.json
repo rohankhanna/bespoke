@@ -118,13 +118,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "executablebooks/markdown-it-py",
-      "target": "chrisjsewell/markdown-it-pyrs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "executablebooks/markdown-it-py",
@@ -279,7 +272,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:12:19.084870+00:00",
+  "fetched_at": "2026-04-24T08:57:49.171908+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -324,13 +317,7 @@
     ],
     "updated_at": "2026-04-22T15:56:03Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chrisjsewell/markdown-it-pyrs",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "benchmark",

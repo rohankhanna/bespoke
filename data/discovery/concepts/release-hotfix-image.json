@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Hotfix image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "An easy-to-use framework for modular RAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "Release Hotfix image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate",
+      "text": "Release Hotfix image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22378,
+      "status": "candidate",
+      "text": "eyeball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22378,
+      "status": "candidate",
+      "text": "redact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14359,
+      "status": "candidate",
+      "text": "diaspora"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Hotfix image",
+  "concept_id": "release-hotfix-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/hotfix.yml",
+      "source_repo": "aigc-apps/PAI-RAG"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Hotfix image",
+      "sense_id": "release-hotfix-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

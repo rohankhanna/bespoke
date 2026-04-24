@@ -221,7 +221,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:46:52.444933+00:00",
+  "fetched_at": "2026-04-24T08:05:18.565607+00:00",
   "fetched_files": [
     {
       "path": "go.mod",
@@ -258,9 +258,9 @@
     "html_url": "https://github.com/x-motemen/ghq",
     "language": "Go",
     "pushed_at": "2026-04-20T10:22:37Z",
-    "stargazers_count": 3570,
+    "stargazers_count": 3572,
     "topics": [],
-    "updated_at": "2026-04-23T13:43:13Z"
+    "updated_at": "2026-04-24T03:07:19Z"
   },
   "repo_links": [],
   "terms": [

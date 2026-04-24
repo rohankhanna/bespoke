@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Continuous Integration - Static Type Checking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "status": "candidate-context",
+      "text": "Continuous Integration - Static Type Checking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+      "status": "candidate",
+      "text": "Continuous Integration - Static Type Checking"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46635,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46635,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44722,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44722,
+      "status": "candidate",
+      "text": "anchoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44699,
+      "status": "candidate",
+      "text": "catch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Continuous Integration - Static Type Checking",
+  "concept_id": "continuous-integration---static-type-checking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration-static-type-checking.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO-Config-ACES"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Integration - Static Type Checking",
+      "sense_id": "continuous-integration---static-type-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

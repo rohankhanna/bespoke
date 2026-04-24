@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:17:48.456622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4082
+    },
+    {
+      "path": "requirements.txt",
+      "size": 25
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/SparTA",
+    "html_url": "https://github.com/microsoft/SparTA",
+    "language": "Python",
+    "pushed_at": "2024-07-22T05:39:43Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-04-14T19:27:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

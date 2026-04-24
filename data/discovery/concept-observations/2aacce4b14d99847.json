@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tag Module Maintainers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tag Module Maintainers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22552,
+      "status": "candidate",
+      "text": "chair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22552,
+      "status": "candidate",
+      "text": "footboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22552,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22552,
+      "status": "candidate",
+      "text": "rested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22552,
+      "status": "candidate",
+      "text": "stake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag Module Maintainers",
+      "sense_id": "tag-module-maintainers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tag-module-maintainers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tag-module-maintainers",
+  "observation_id": "2aacce4b14d99847",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Tag Module Maintainers",
+  "source_context_snippet": "Tag Module Maintainers",
+  "source_file": ".github/workflows/tag-maintainers.yml",
+  "source_repo": "nix-community/home-manager",
+  "source_repo_description": "Manage a user environment using Nix  [maintainer=@khaneliman, @rycee] "
+}

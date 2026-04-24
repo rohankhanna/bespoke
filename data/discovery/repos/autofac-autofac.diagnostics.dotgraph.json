@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:57:41.835401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Autofac diagnostics support to enable DOT graph visualization of resolve requests.",
+    "fork": false,
+    "full_name": "autofac/Autofac.Diagnostics.DotGraph",
+    "html_url": "https://github.com/autofac/Autofac.Diagnostics.DotGraph",
+    "language": "C#",
+    "pushed_at": "2024-05-24T14:19:06Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-08-08T07:52:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

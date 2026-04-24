@@ -1,0 +1,12 @@
+{
+  "component": "repo-sync/pull-request@7e79a9f5dc3ad0ce53138f01df2fad14a04831c5",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tx-pull.yml",
+      "source_repo": "ipfs/ipld-explorer-components"
+    }
+  ]
+}

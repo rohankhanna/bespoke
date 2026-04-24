@@ -1,0 +1,79 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instrumenta/kubeval",
+      "target": "yannh/kubeconform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "instrumenta/kubeval",
+      "target": "instrumenta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "instrumenta/kubeval",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:41.127310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1117
+    },
+    {
+      "path": "Dockerfile",
+      "size": 276
+    },
+    {
+      "path": "go.mod",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Validate your Kubernetes configuration files, supports multiple Kubernetes versions",
+    "fork": false,
+    "full_name": "instrumenta/kubeval",
+    "html_url": "https://github.com/instrumenta/kubeval",
+    "language": "Go",
+    "pushed_at": "2026-01-29T06:24:31Z",
+    "stargazers_count": 3227,
+    "topics": [
+      "instrumenta",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-07T14:00:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yannh/kubeconform",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**NOTE: This project is [no longer maintained](https://github.com/instrumenta/kubeval/issues/268#issuecomment-902128481), a good replacement is [kubeconform](https://github.com/yannh/kubeconform)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instrumenta"
+    },
+    {
+      "context_snippet": "**NOTE: This project is [no longer maintained](https://github.com/instrumenta/kubeval/issues/268#issuecomment-902128481), a good replacement is [kubeconform](https://github.com/yannh/kubeconform)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

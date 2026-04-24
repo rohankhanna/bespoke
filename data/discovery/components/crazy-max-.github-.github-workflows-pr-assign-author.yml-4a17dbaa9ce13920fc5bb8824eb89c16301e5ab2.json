@@ -1,0 +1,12 @@
+{
+  "component": "crazy-max/.github/.github/workflows/pr-assign-author.yml@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-assign-author.yml",
+      "source_repo": "docker/bake-action"
+    }
+  ]
+}

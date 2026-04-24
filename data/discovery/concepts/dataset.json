@@ -213,6 +213,90 @@
       "source_repo": "rom1504/img2dataset",
       "status": "candidate-context",
       "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] xFinder: Large Language Models as Automated Evaluators for Reliable Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "\u5927\u89c4\u6a21\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bed\u6599  Large Scale Chinese Corpus for NLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate-context",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[CBLUE1] \u4e2d\u6587\u533b\u7597\u4fe1\u606f\u5904\u7406\u57fa\u51c6CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate-context",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate-context",
+      "text": "White balance camera-rendered sRGB images (CVPR 2019) [Matlab & Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "status": "candidate-context",
+      "text": "A synthetic data generator for text recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "status": "candidate-context",
+      "text": "A synthetic data generator for text recognition"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate-context",
+      "text": "Thorsten-Voice: A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate-context",
+      "text": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and memory ops \ud83e\udd96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate-context",
+      "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -317,6 +401,48 @@
       "source_repo": "rom1504/img2dataset",
       "status": "candidate",
       "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAAR-Shanghai/xFinder",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/nlp_chinese_corpus",
+      "status": "candidate",
+      "text": "SuperCLUE\u5b98\u7f51\u66f4\u65b0\uff082026-02-06\uff09\uff1a <a href='https://www.superclueai.com/' target=\"__blank\">www.SuperClueAI.com</a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBLUEbenchmark/CBLUE",
+      "status": "candidate",
+      "text": "[**English**](https://github.com/CBLUEbenchmark/CBLUE) | [**\u4e2d\u6587\u8bf4\u660e**](https://github.com/CBLUEbenchmark/CBLUE/blob/main/README_ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/WB_sRGB",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "status": "candidate",
+      "text": "A synthetic data generator for text recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "status": "candidate",
+      "text": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla",
+      "status": "candidate",
+      "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -462,11 +588,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "rom1504/img2dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "IAAR-Shanghai/xFinder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "CBLUEbenchmark/CBLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/WB_sRGB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

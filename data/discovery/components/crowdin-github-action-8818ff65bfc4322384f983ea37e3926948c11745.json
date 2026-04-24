@@ -1,0 +1,12 @@
+{
+  "component": "crowdin/github-action@8818ff65bfc4322384f983ea37e3926948c11745",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-browser.yml",
+      "source_repo": "bitwarden/clients"
+    }
+  ]
+}

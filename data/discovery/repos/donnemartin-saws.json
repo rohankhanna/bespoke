@@ -1,0 +1,282 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donnemartin/saws",
+      "target": "cmderdev/cmder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donnemartin/saws",
+      "target": "boto/boto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donnemartin/saws",
+      "target": "jonathanslenders/python-prompt-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donnemartin/saws",
+      "target": "j-bennet/wharfee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "aws-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "cloud-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "utility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donnemartin/saws",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:02.676731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16142
+    },
+    {
+      "path": "Dockerfile",
+      "size": 189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A supercharged AWS command line interface (CLI).",
+    "fork": false,
+    "full_name": "donnemartin/saws",
+    "html_url": "https://github.com/donnemartin/saws",
+    "language": "Python",
+    "pushed_at": "2024-04-02T14:14:38Z",
+    "stargazers_count": 5304,
+    "topics": [
+      "aws",
+      "aws-cli",
+      "cli",
+      "client",
+      "cloud",
+      "cloud-management",
+      "developer-tools",
+      "development",
+      "linux",
+      "macos",
+      "programming",
+      "python",
+      "shell",
+      "terminal",
+      "utilities",
+      "utility",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T08:32:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boto/boto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmderdev/cmder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j-bennet/wharfee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonathanslenders/python-prompt-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cli"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-management"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utilities"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    },
+    {
+      "context_snippet": "![](http://i.imgur.com/vzC5zmA.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

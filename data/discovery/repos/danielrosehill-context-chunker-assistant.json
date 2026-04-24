@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:04:26.628748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A n interactive chatbot approach to chunking context data for embedding into RAG",
+    "fork": false,
+    "full_name": "danielrosehill/Context-Chunker-Assistant",
+    "html_url": "https://github.com/danielrosehill/Context-Chunker-Assistant",
+    "language": null,
+    "pushed_at": "2025-03-07T01:03:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-07T01:03:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

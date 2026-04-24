@@ -34,6 +34,18 @@
       "source_repo": "celery/celery",
       "status": "candidate-context",
       "text": "Semgrep"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "Messaging library for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
+      "status": "candidate-context",
+      "text": "Semgrep"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": "Semgrep"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/kombu",
       "status": "candidate",
       "text": "Semgrep"
     }
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/semgrep.yml",
       "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "celery/kombu"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

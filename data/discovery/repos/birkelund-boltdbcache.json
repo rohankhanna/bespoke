@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "birkelund/boltdbcache",
+      "target": "coreos/bbolt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:41.615017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 205
+    },
+    {
+      "path": "go.mod",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package boltdbcache provides a file system based cache backend for Greg Jones' httpcache using coreos/bbolt.",
+    "fork": false,
+    "full_name": "birkelund/boltdbcache",
+    "html_url": "https://github.com/birkelund/boltdbcache",
+    "language": "Go",
+    "pushed_at": "2023-08-01T09:27:43Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2024-02-25T13:50:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/bbolt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

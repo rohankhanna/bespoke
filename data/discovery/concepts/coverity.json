@@ -146,6 +146,42 @@
       "source_repo": "vim/vim",
       "status": "candidate-context",
       "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate-context",
+      "text": "A fork of Git containing Windows-specific patches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate-context",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate-context",
+      "text": "Backports of patches from systemd git for stable versions < 256"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate-context",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Enable drop-in Windows Single Sign On for popular Java web servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
+      "status": "candidate-context",
+      "text": "Coverity"
     }
   ],
   "candidate_glosses": [
@@ -218,6 +254,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vim/vim",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-for-windows/git",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Waffle/waffle",
       "status": "candidate",
       "text": "Coverity"
     }
@@ -335,11 +389,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "vim/vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "git-for-windows/git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "systemd/systemd-stable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "Waffle/waffle"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

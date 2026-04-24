@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "build-publish"
+    "build-publish",
+    "\ud83d\ude80 Build & Publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "Farama-Foundation/PettingZoo",
       "status": "candidate-context",
       "text": "build-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/SuperSuit",
+      "status": "candidate-context",
+      "text": "A collection of wrappers for Gymnasium and PettingZoo environments (being merged into gymnasium.wrappers and pettingzoo.wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/SuperSuit",
+      "status": "candidate-context",
+      "text": "build-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "\ud83e\uddc1 A font quality assurance tool for everyone "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Build & Publish"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +52,57 @@
       "source_repo": "Farama-Foundation/PettingZoo",
       "status": "candidate",
       "text": "build-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/SuperSuit",
+      "status": "candidate",
+      "text": "build-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Build & Publish"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11567,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "bridging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "building"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "build-publish",
   "concept_id": "build-publish",
@@ -40,11 +113,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build-publish.yml",
       "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/SuperSuit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

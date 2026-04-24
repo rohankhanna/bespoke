@@ -1,0 +1,182 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "treb1en/insightface_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "zhaoj9014/face.evolve.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "adam-softmax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "circleloss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "face-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "magface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "masked-face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "megaface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "mv-softmax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/FaceX-Zoo",
+      "target": "semi-siamese-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:43.658097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch Toolbox for Face Recognition",
+    "fork": false,
+    "full_name": "JDAI-CV/FaceX-Zoo",
+    "html_url": "https://github.com/JDAI-CV/FaceX-Zoo",
+    "language": "Python",
+    "pushed_at": "2024-02-16T02:03:57Z",
+    "stargazers_count": 1995,
+    "topics": [
+      "adam-softmax",
+      "circleloss",
+      "face-recognition",
+      "face-sdk",
+      "lfw",
+      "magface",
+      "masked-face-recognition",
+      "megaface",
+      "mv-softmax",
+      "semi-siamese-training"
+    ],
+    "updated_at": "2026-04-21T03:08:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "treb1en/insightface_pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhaoj9014/face.evolve.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adam-softmax"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circleloss"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-sdk"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magface"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "masked-face-recognition"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megaface"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mv-softmax"
+    },
+    {
+      "context_snippet": "<img src=\"./data/images/logo.png\" width=\"150\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-siamese-training"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "habamax/.vim",
+      "target": "habamax/vim-select",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "habamax/.vim",
+      "target": "girishji/scope.vim.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "habamax/.vim",
+      "target": "habamax/vim-habamax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "habamax/.vim",
+      "target": "habamax/vim-nod",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:22.325836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Personal .vim",
+    "fork": false,
+    "full_name": "habamax/.vim",
+    "html_url": "https://github.com/habamax/.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-21T03:38:53Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-04-21T03:38:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/scope.vim.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "habamax/vim-habamax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "habamax/vim-nod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "habamax/vim-select",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

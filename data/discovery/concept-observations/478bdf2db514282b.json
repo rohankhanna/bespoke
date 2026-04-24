@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-sort and update spelling allowlist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-sort and update spelling allowlist"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13113,
+      "status": "candidate",
+      "text": "modernisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13072,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13072,
+      "status": "candidate",
+      "text": "emend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12103,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12103,
+      "status": "candidate",
+      "text": "modernize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-sort and update spelling allowlist",
+      "sense_id": "auto-sort-and-update-spelling-allowlist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-sort-and-update-spelling-allowlist",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-sort-and-update-spelling-allowlist",
+  "observation_id": "478bdf2db514282b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Auto-sort and update spelling allowlist",
+  "source_context_snippet": "Auto-sort and update spelling allowlist",
+  "source_file": ".github/workflows/sort-spelling-allowlist.yml",
+  "source_repo": "a2aproject/A2A",
+  "source_repo_description": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
+}

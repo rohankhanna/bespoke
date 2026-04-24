@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/pyserini",
+      "target": "castorini/mr.tydi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/pyserini",
+      "target": "facebookresearch/kilt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/pyserini",
+      "target": "castorini/anserini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/pyserini",
+      "target": "castorini/anserini-notebooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "castorini/pyserini",
+      "target": "information-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:47.549117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24341
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pyserini is a Python toolkit for reproducible information retrieval research with sparse and dense representations.",
+    "fork": false,
+    "full_name": "castorini/pyserini",
+    "html_url": "https://github.com/castorini/pyserini",
+    "language": "Python",
+    "pushed_at": "2026-04-23T16:55:56Z",
+    "stargazers_count": 2050,
+    "topics": [
+      "information-retrieval"
+    ],
+    "updated_at": "2026-04-23T16:56:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castorini/anserini",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castorini/anserini-notebooks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castorini/mr.tydi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/kilt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pyserini?color=brightgreen)](https://pypi.org/project/pyserini/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    }
+  ]
+}

@@ -415,6 +415,42 @@
       "source_repo": "lambdalisue/vim-gin",
       "status": "candidate-context",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "Github Star History - A stunning star history widget chart generator for Github Repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate-context",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "Protect your secrets using Gitleaks-Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +657,24 @@
       "source_repo": "lambdalisue/vim-gin",
       "status": "candidate",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucabubi/star-history",
+      "status": "candidate",
+      "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks-action",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -904,11 +958,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Dexters-Hub/Dexters-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lucabubi/star-history"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

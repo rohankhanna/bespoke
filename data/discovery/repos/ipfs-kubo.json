@@ -168,34 +168,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/kubo",
-      "target": "ipfs/ipfs-webui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/kubo",
-      "target": "ipfs/helia",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/kubo",
-      "target": "ipfs/ipfs-docs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "ipfs/kubo",
-      "target": "ncopa/su-exec",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "ipfs/kubo",
@@ -406,7 +378,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:38:25.341849+00:00",
+  "fetched_at": "2026-04-24T07:03:14.477737+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -458,35 +430,14 @@
     "full_name": "ipfs/kubo",
     "html_url": "https://github.com/ipfs/kubo",
     "language": "Go",
-    "pushed_at": "2026-04-22T22:33:32Z",
-    "stargazers_count": 16989,
+    "pushed_at": "2026-04-24T00:08:49Z",
+    "stargazers_count": 16992,
     "topics": [
       "ipfs"
     ],
-    "updated_at": "2026-04-22T22:15:53Z"
+    "updated_at": "2026-04-24T06:06:19Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/helia",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/ipfs-docs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/ipfs-webui",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ncopa/su-exec",
-      "source_file": "Dockerfile"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Changelog",

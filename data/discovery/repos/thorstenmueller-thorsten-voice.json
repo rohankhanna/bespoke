@@ -1,0 +1,152 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "rhasspy/piper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "zdisket/tensorvox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "monatis/german-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "deutsch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "german",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "sprachsynthese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice",
+      "target": "thorsten-voice",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:49.910782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Thorsten-Voice: A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.",
+    "fork": false,
+    "full_name": "thorstenMueller/Thorsten-Voice",
+    "html_url": "https://github.com/thorstenMueller/Thorsten-Voice",
+    "language": "Python",
+    "pushed_at": "2026-02-02T17:17:42Z",
+    "stargazers_count": 710,
+    "topics": [
+      "dataset",
+      "deutsch",
+      "german",
+      "speech-synthesis",
+      "sprachsynthese",
+      "thorsten-voice",
+      "tts"
+    ],
+    "updated_at": "2026-04-19T22:22:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monatis/german-tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhasspy/piper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zdisket/tensorvox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deutsch"
+    },
+    {
+      "context_snippet": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "german"
+    },
+    {
+      "context_snippet": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sprachsynthese"
+    },
+    {
+      "context_snippet": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thorsten-voice"
+    }
+  ]
+}

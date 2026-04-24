@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "turboderp-org/exllamav3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "theroyallab/tabbyapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "oobabooga/text-generation-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "parisneo/lollms-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm-torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "Build Wheels & Release ROCm62",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "Jimver/cuda-toolkit@v0.2.23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "Build Wheels & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "Jimver/cuda-toolkit@v0.2.23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "source_repo": "turboderp-org/exllamav2",
+      "target": "Build Wheels & Release latest torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:52.856964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9282
+    },
+    {
+      "path": "requirements.txt",
+      "size": 143
+    },
+    {
+      "path": ".github/workflows/build-wheels-release-rocm-torch_latest.yml",
+      "size": 4851
+    },
+    {
+      "path": ".github/workflows/build-wheels-release-rocm.yml",
+      "size": 7368
+    },
+    {
+      "path": ".github/workflows/build-wheels-release.yml",
+      "size": 43198
+    },
+    {
+      "path": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "size": 30110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast inference library for running LLMs locally on modern consumer-class GPUs",
+    "fork": false,
+    "full_name": "turboderp-org/exllamav2",
+    "html_url": "https://github.com/turboderp-org/exllamav2",
+    "language": "Python",
+    "pushed_at": "2026-03-04T13:12:20Z",
+    "stargazers_count": 4502,
+    "topics": [],
+    "updated_at": "2026-04-22T04:54:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parisneo/lollms-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theroyallab/tabbyapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turboderp-org/exllamav3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Wheels & Release ROCm62",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "term": "Build Wheels & Release ROCm62"
+    },
+    {
+      "context_snippet": "Build Wheels & Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "term": "Build Wheels & Release"
+    },
+    {
+      "context_snippet": "Build Wheels & Release latest torch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release_torch_latest.yml",
+      "term": "Build Wheels & Release latest torch"
+    }
+  ]
+}

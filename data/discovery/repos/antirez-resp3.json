@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:58:28.694272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RESP protocol V3 repository. Contains the specification, and other related resource",
+    "fork": false,
+    "full_name": "antirez/RESP3",
+    "html_url": "https://github.com/antirez/RESP3",
+    "language": null,
+    "pushed_at": "2022-10-25T07:32:57Z",
+    "stargazers_count": 229,
+    "topics": [],
+    "updated_at": "2026-03-05T07:17:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

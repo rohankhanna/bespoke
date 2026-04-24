@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/tox-wheel",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/tox-wheel",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "ionelmc/tox-wheel",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:39.963340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4231
+    },
+    {
+      "path": ".github/workflows/github-actions.yml",
+      "size": 5024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Tox plugin that builds and installs wheels instead of sdist. Note that this plugin is obsolte as tox 4.0 already has wheel support.",
+    "fork": false,
+    "full_name": "ionelmc/tox-wheel",
+    "html_url": "https://github.com/ionelmc/tox-wheel",
+    "language": "Python",
+    "pushed_at": "2022-10-01T10:28:53Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-07T14:02:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions.yml",
+      "term": "build"
+    }
+  ]
+}

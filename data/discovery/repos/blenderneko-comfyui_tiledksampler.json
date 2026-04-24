@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:37.639430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tiled samplers for ComfyUI",
+    "fork": false,
+    "full_name": "BlenderNeko/ComfyUI_TiledKSampler",
+    "html_url": "https://github.com/BlenderNeko/ComfyUI_TiledKSampler",
+    "language": "Python",
+    "pushed_at": "2024-05-22T14:56:49Z",
+    "stargazers_count": 411,
+    "topics": [
+      "comfyui",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-09T10:36:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![panorama of the ocean, sailboats and large moody clouds](https://github.com/BlenderNeko/ComfyUI_TiledKSampler/blob/master/examples/ComfyUI_02010_.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "![panorama of the ocean, sailboats and large moody clouds](https://github.com/BlenderNeko/ComfyUI_TiledKSampler/blob/master/examples/ComfyUI_02010_.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

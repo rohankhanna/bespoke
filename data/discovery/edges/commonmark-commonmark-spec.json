@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "commonmark/commonmark-spec",
-      "target": "commonmark/commonmark.js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "commonmark/commonmark-spec",
       "target": "commonmark/commonmark",
       "target_type": "repository"
     },
@@ -25,10 +18,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "commonmark/commonmark-spec",
-      "target": "jgm/lunamark",
+      "target": "jgm/peg-markdown",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "commonmark/commonmark-spec"
 }

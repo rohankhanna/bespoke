@@ -1,7 +1,7 @@
 {
   "component": "chainguard-dev/actions/setup-gitsign@main",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "rust-lang/rust-bindgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "edgenai/llama_cpp-rs"
     }
   ]
 }

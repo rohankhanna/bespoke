@@ -1,0 +1,12 @@
+{
+  "component": "bdougie/take-action@1439165ac45a7461c2d89a59952cd7d941964b87",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "source_repo": "openvinotoolkit/nncf"
+    }
+  ]
+}

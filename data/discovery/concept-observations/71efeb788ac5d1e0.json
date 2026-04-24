@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PC Music Disk, 9 electro & hip/hop tracks with a 3D interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Marine Melodies by [Resistance](http://resistance.no/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Marine Melodies by [Resistance](http://resistance.no/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "french-touch",
+      "sense_id": "french-touch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "french-touch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "french-touch",
+  "observation_id": "71efeb788ac5d1e0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "french-touch",
+  "source_context_snippet": "Marine Melodies by [Resistance](http://resistance.no/).",
+  "source_file": null,
+  "source_repo": "astrofra/demo-marine-melodies",
+  "source_repo_description": "A PC Music Disk, 9 electro & hip/hop tracks with a 3D interface."
+}

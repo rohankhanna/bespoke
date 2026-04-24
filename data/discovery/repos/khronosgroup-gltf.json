@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "javagl/gltfoverview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "bghgary/gltf-asset-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "khronosgroup/gltf-blender-io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "cesiumgs/3d-tiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "fsfe/reuse-action@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "KhronosGroup/glTF",
+      "target": "REUSE Compliance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:53.131468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25676
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1105
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "glTF \u2013 Runtime 3D Asset Delivery",
+    "fork": false,
+    "full_name": "KhronosGroup/glTF",
+    "html_url": "https://github.com/KhronosGroup/glTF",
+    "language": "HTML",
+    "pushed_at": "2026-04-15T14:15:55Z",
+    "stargazers_count": 7703,
+    "topics": [],
+    "updated_at": "2026-04-24T03:55:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bghgary/gltf-asset-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cesiumgs/3d-tiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "javagl/gltfoverview",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/gltf-blender-io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "REUSE Compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE Compliance"
+    }
+  ]
+}

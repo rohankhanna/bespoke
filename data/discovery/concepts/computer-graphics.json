@@ -43,6 +43,18 @@
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
       "status": "candidate-context",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphdeco-inria/gaussian-splatting",
+      "status": "candidate-context",
+      "text": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphdeco-inria/gaussian-splatting",
+      "status": "candidate-context",
+      "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
       "status": "candidate",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphdeco-inria/gaussian-splatting",
+      "status": "candidate",
+      "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "graphdeco-inria/gaussian-splatting"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

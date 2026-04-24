@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/starlark",
+      "target": "laurentlb/awesome-starlark",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:58:27.748511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Starlark Language",
+    "fork": false,
+    "full_name": "bazelbuild/starlark",
+    "html_url": "https://github.com/bazelbuild/starlark",
+    "language": "Python",
+    "pushed_at": "2026-02-06T18:27:51Z",
+    "stargazers_count": 2957,
+    "topics": [],
+    "updated_at": "2026-04-24T08:24:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laurentlb/awesome-starlark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

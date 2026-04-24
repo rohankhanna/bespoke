@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This package is a placeholder for a tool which filters linter messages from various Python linters to only those which were caused by recent changes to the code base being linted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "darker-black-isort"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "darker-black-isort"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "darker-black-isort",
+      "sense_id": "darker-black-isort#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "darker-black-isort",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "darker-black-isort",
+  "observation_id": "d63f2686aa04999d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "darker-black-isort",
+  "source_context_snippet": "darker-black-isort",
+  "source_file": ".github/workflows/darker-black-isort.yml",
+  "source_repo": "akaihola/graylint",
+  "source_repo_description": "This package is a placeholder for a tool which filters linter messages from various Python linters to only those which were caused by recent changes to the code base being linted."
+}

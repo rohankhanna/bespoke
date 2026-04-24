@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap",
+      "target": "repo-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap",
+      "target": "zsh-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap",
+      "target": "zsh-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marlonrichert/zsh-snap",
+      "target": "zshrc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:22.072362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1\ufe0f Znap! Fast, easy-to-use tools for Zsh dotfiles & plugins, plus git repos",
+    "fork": false,
+    "full_name": "marlonrichert/zsh-snap",
+    "html_url": "https://github.com/marlonrichert/zsh-snap",
+    "language": "Shell",
+    "pushed_at": "2025-08-06T07:48:52Z",
+    "stargazers_count": 1507,
+    "topics": [
+      "git",
+      "plugin-manager",
+      "repo-management",
+      "shell",
+      "zsh",
+      "zsh-configuration",
+      "zsh-plugin",
+      "zsh-plugins",
+      "zshrc"
+    ],
+    "updated_at": "2026-04-23T20:16:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repo-management"
+    },
+    {
+      "context_snippet": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-configuration"
+    },
+    {
+      "context_snippet": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin"
+    },
+    {
+      "context_snippet": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugins"
+    },
+    {
+      "context_snippet": "**Znap** is a fast, light-weight set of tools to ease the use of Zsh plugins &",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zshrc"
+    }
+  ]
+}

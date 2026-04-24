@@ -1,0 +1,414 @@
+{
+  "components": [
+    {
+      "component": "dangoslen/changelog-enforcer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-enforcer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml"
+    },
+    {
+      "component": "mindsers/changelog-reader-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml"
+    },
+    {
+      "component": "mindsers/changelog-reader-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.12.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "mindsers/changelog-reader-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-enforcer.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "dangoslen/changelog-enforcer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-enforcer.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "changelog-enforcer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "mindsers/changelog-reader-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-validator.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-validator.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "changelog-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "pypa/gh-action-pypi-publish@v1.12.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "mindsers/changelog-reader-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_deploy.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "manual deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_check.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_check.yml",
+      "source_repo": "Python-Markdown/markdown",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Python-Markdown/markdown",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Python-Markdown/markdown",
+      "target": "markdown-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Python-Markdown/markdown",
+      "target": "markdown-to-html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Python-Markdown/markdown",
+      "target": "python-markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Python-Markdown/markdown",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:07:44.770777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2590
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3694
+    },
+    {
+      "path": ".github/workflows/changelog-enforcer.yml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/changelog-validator.yml",
+      "size": 1583
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 2509
+    },
+    {
+      "path": ".github/workflows/manual_deploy.yml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/tox.yml",
+      "size": 2226
+    },
+    {
+      "path": ".github/workflows/version_check.yml",
+      "size": 567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python implementation of John Gruber\u2019s Markdown with Extension support.",
+    "fork": false,
+    "full_name": "Python-Markdown/markdown",
+    "html_url": "https://github.com/Python-Markdown/markdown",
+    "language": "Python",
+    "pushed_at": "2026-02-09T14:57:00Z",
+    "stargazers_count": 4195,
+    "topics": [
+      "markdown",
+      "markdown-parser",
+      "markdown-to-html",
+      "python",
+      "python-markdown",
+      "python3"
+    ],
+    "updated_at": "2026-04-24T01:28:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "changelog-enforcer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-enforcer.yml",
+      "term": "changelog-enforcer"
+    },
+    {
+      "context_snippet": "changelog-validator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-validator.yml",
+      "term": "changelog-validator"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "manual deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_deploy.yml",
+      "term": "manual deploy"
+    },
+    {
+      "context_snippet": "[Python-Markdown][]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[Python-Markdown][]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-parser"
+    },
+    {
+      "context_snippet": "[Python-Markdown][]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-to-html"
+    },
+    {
+      "context_snippet": "[Python-Markdown][]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-markdown"
+    },
+    {
+      "context_snippet": "[Python-Markdown][]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

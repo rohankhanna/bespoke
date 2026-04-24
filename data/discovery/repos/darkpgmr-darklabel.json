@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:59:23.239371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Video/Image Labeling and Annotation Tool",
+    "fork": false,
+    "full_name": "darkpgmr/DarkLabel",
+    "html_url": "https://github.com/darkpgmr/DarkLabel",
+    "language": null,
+    "pushed_at": "2021-09-04T10:02:35Z",
+    "stargazers_count": 386,
+    "topics": [],
+    "updated_at": "2026-04-17T16:12:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

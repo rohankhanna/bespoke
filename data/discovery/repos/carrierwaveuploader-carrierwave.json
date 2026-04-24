@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "target": "carrierwaveuploader/carrierwave-datamapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "target": "carrierwaveuploader/carrierwave-mongoid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "target": "carrierwaveuploader/carrierwave-sequel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "target": "carrierwaveuploader/carrierwave-i18n",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carrierwaveuploader/carrierwave",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:38.048155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41017
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2441
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks",
+    "fork": false,
+    "full_name": "carrierwaveuploader/carrierwave",
+    "html_url": "https://github.com/carrierwaveuploader/carrierwave",
+    "language": "Ruby",
+    "pushed_at": "2026-01-10T09:07:14Z",
+    "stargazers_count": 8773,
+    "topics": [],
+    "updated_at": "2026-04-24T03:18:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carrierwaveuploader/carrierwave-datamapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carrierwaveuploader/carrierwave-i18n",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carrierwaveuploader/carrierwave-mongoid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carrierwaveuploader/carrierwave-sequel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

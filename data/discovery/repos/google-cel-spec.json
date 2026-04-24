@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_bcr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "source_repo": "google/cel-spec",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "source_repo": "google/cel-spec",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:13.456561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3009
+    },
+    {
+      "path": "go.mod",
+      "size": 96
+    },
+    {
+      "path": ".github/workflows/publish_to_bcr.yml",
+      "size": 395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Common Expression Language -- specification and binary representation",
+    "fork": false,
+    "full_name": "google/cel-spec",
+    "html_url": "https://github.com/google/cel-spec",
+    "language": "Starlark",
+    "pushed_at": "2026-03-12T16:46:45Z",
+    "stargazers_count": 3776,
+    "topics": [],
+    "updated_at": "2026-04-24T00:50:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_bcr.yml",
+      "term": "Publish to BCR"
+    }
+  ]
+}

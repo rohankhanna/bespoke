@@ -1,0 +1,507 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "benc-uk/workflow-dispatch@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-template.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updates.yml"
+    },
+    {
+      "component": "upptime/updates@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uptime.yml"
+    },
+    {
+      "component": "upptime/uptime-monitor@v1.41.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uptime.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "upptime/upptime",
+      "target": "koj-co/upptime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Graphs CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Response Time CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "upptime/upptime",
+      "target": "benc-uk/workflow-dispatch@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "upptime/upptime",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Setup CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "upptime/upptime",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Static Site CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Summary CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-template.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-template.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/uptime-monitor@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-template.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Update Template CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updates.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updates.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/updates@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updates.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Updates CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uptime.yml",
+      "source_repo": "upptime/upptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uptime.yml",
+      "source_repo": "upptime/upptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uptime.yml",
+      "source_repo": "upptime/upptime",
+      "target": "Uptime CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "upptime/upptime",
+      "target": "incidents-reports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "upptime/upptime",
+      "target": "status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "upptime/upptime",
+      "target": "statuspage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "upptime/upptime",
+      "target": "upptime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "upptime/upptime",
+      "target": "uptime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "upptime/upptime",
+      "target": "uptime-monitor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:07:57.385745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21771
+    },
+    {
+      "path": ".github/workflows/graphs.yml",
+      "size": 1093
+    },
+    {
+      "path": ".github/workflows/response-time.yml",
+      "size": 1167
+    },
+    {
+      "path": ".github/workflows/setup.yml",
+      "size": 2255
+    },
+    {
+      "path": ".github/workflows/site.yml",
+      "size": 1524
+    },
+    {
+      "path": ".github/workflows/summary.yml",
+      "size": 1104
+    },
+    {
+      "path": ".github/workflows/update-template.yml",
+      "size": 1109
+    },
+    {
+      "path": ".github/workflows/updates.yml",
+      "size": 1040
+    },
+    {
+      "path": ".github/workflows/uptime.yml",
+      "size": 1148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2b06\ufe0f GitHub Actions uptime monitor & status page by @AnandChowdhary",
+    "fork": false,
+    "full_name": "upptime/upptime",
+    "html_url": "https://github.com/upptime/upptime",
+    "language": "JSON",
+    "pushed_at": "2026-04-24T03:23:58Z",
+    "stargazers_count": 16997,
+    "topics": [
+      "incidents-reports",
+      "status",
+      "statuspage",
+      "upptime",
+      "uptime",
+      "uptime-monitor"
+    ],
+    "updated_at": "2026-04-24T03:24:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koj-co/upptime",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Graphs CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graphs.yml",
+      "term": "Graphs CI"
+    },
+    {
+      "context_snippet": "Response Time CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/response-time.yml",
+      "term": "Response Time CI"
+    },
+    {
+      "context_snippet": "Setup CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setup.yml",
+      "term": "Setup CI"
+    },
+    {
+      "context_snippet": "Static Site CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yml",
+      "term": "Static Site CI"
+    },
+    {
+      "context_snippet": "Summary CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/summary.yml",
+      "term": "Summary CI"
+    },
+    {
+      "context_snippet": "Update Template CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-template.yml",
+      "term": "Update Template CI"
+    },
+    {
+      "context_snippet": "Updates CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updates.yml",
+      "term": "Updates CI"
+    },
+    {
+      "context_snippet": "Uptime CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uptime.yml",
+      "term": "Uptime CI"
+    },
+    {
+      "context_snippet": "<!--start: description-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "incidents-reports"
+    },
+    {
+      "context_snippet": "<!--start: description-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "status"
+    },
+    {
+      "context_snippet": "<!--start: description-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statuspage"
+    },
+    {
+      "context_snippet": "<!--start: description-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upptime"
+    },
+    {
+      "context_snippet": "<!--start: description-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uptime"
+    },
+    {
+      "context_snippet": "<!--start: description-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uptime-monitor"
+    }
+  ]
+}

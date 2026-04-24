@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/simple_fastfloat_benchmark",
+      "target": "lemire/fast_float",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/simple_fastfloat_benchmark",
+      "target": "lemire/docker_programming_station",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "lemire/simple_fastfloat_benchmark",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs.yml",
+      "source_repo": "lemire/simple_fastfloat_benchmark",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs.yml",
+      "source_repo": "lemire/simple_fastfloat_benchmark",
+      "target": "VS17-CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:15:00.381421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3629
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/vs.yml",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "lemire/simple_fastfloat_benchmark",
+    "html_url": "https://github.com/lemire/simple_fastfloat_benchmark",
+    "language": "C",
+    "pushed_at": "2026-03-10T16:09:34Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-03-10T16:10:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/docker_programming_station",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/fast_float",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "VS17-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs.yml",
+      "term": "VS17-CI"
+    }
+  ]
+}

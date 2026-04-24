@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/netbeans-mavenutils-nbm-maven-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/netbeans-mavenutils-nbm-maven-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/netbeans-mavenutils-nbm-maven-plugin",
+      "target": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/netbeans-mavenutils-nbm-maven-plugin",
+      "target": "Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/netbeans-mavenutils-nbm-maven-plugin",
+      "target": "netbeans",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:16:26.460011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2966
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache NetBeans Maven Utils parent pom",
+    "fork": false,
+    "full_name": "apache/netbeans-mavenutils-nbm-maven-plugin",
+    "html_url": "https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin",
+    "language": "Java",
+    "pushed_at": "2026-04-22T08:22:30Z",
+    "stargazers_count": 16,
+    "topics": [
+      "netbeans"
+    ],
+    "updated_at": "2026-04-22T08:15:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Verify"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netbeans"
+    }
+  ]
+}

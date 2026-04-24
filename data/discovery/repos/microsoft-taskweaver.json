@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yaml",
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yaml",
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yaml",
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-website.yaml",
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "code-interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/TaskWeaver",
+      "target": "data-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:20.980840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14560
+    },
+    {
+      "path": "requirements.txt",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/deploy-website.yaml",
+      "size": 1064
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The first \"code-first\" agent framework for seamlessly planning and executing data analytics tasks. ",
+    "fork": false,
+    "full_name": "microsoft/TaskWeaver",
+    "html_url": "https://github.com/microsoft/TaskWeaver",
+    "language": "Python",
+    "pushed_at": "2026-03-23T06:17:21Z",
+    "stargazers_count": 6150,
+    "topics": [
+      "agent",
+      "ai-agents",
+      "code-interpreter",
+      "copilot",
+      "data-analysis",
+      "llm",
+      "openai"
+    ],
+    "updated_at": "2026-04-23T06:07:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-website.yaml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-interpreter"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    }
+  ]
+}

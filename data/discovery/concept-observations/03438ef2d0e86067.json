@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bazel rules for https://esbuild.github.io/ JS bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "New issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "New issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73638,
+      "status": "candidate",
+      "text": "magazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73637,
+      "status": "candidate",
+      "text": "publication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73636,
+      "status": "candidate",
+      "text": "new style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73635,
+      "status": "candidate",
+      "text": "editorial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73634,
+      "status": "candidate",
+      "text": "magazines"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New issue",
+      "sense_id": "new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "new-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "new-issue",
+  "observation_id": "03438ef2d0e86067",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "New issue",
+  "source_context_snippet": "New issue",
+  "source_file": ".github/workflows/new_issue.yaml",
+  "source_repo": "aspect-build/rules_esbuild",
+  "source_repo_description": "Bazel rules for https://esbuild.github.io/ JS bundler"
+}

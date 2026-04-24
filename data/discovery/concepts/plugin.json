@@ -202,6 +202,162 @@
       "source_repo": "octokit/request.js",
       "status": "candidate-context",
       "text": "> Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3ara1n/arcbot",
+      "status": "candidate-context",
+      "text": "HyperaiX \u6700\u4f73\u5b9e\u8df5, \u63d0\u4f9b\u4e00\u4e9b\u6211\u81ea\u5df1\u89c9\u5f97\u6709\u7528\u7684\u529f\u80fd\u548c\u98ce\u63a7\u53ef\u80fd\u6027"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3ara1n/arcbot",
+      "status": "candidate-context",
+      "text": "HyperaiX \u548c Onebot.Net \u6700\u4f73\u5b9e\u8df5\uff01"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "Binary version of the SwiftLint Swift Package Manager plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate-context",
+      "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "i18next-fs-backend is a backend layer for i18next using in Node.js and for Deno to load translations from the filesystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "i18next-http-backend is a backend layer for i18next using in Node.js, in the browser and for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate-context",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "Authorization middleware for fasthttp based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate-context",
+      "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "\ud83d\udc63  Asynchronously control git repositories in Neovim/Vim 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate-context",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate-context",
+      "text": "A plugin simplifying the task of working with VS Code codicons in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate-context",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux-tea",
+      "status": "candidate-context",
+      "text": "tmux sessions as easy as tea \u2615\ud83e\ude9f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tea",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate-context",
+      "text": "Better tiling for tmux \ud83e\ude9f\ud83e\ude93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "Make tmux powerful and pretty \ud83e\udd4a\ud83d\udc85"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate-context",
+      "text": "> Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/authentication-strategies.js",
+      "status": "candidate-context",
+      "text": "GitHub API authentication strategies for Browsers, Node.js, and Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/authentication-strategies.js",
+      "status": "candidate-context",
+      "text": "> GitHub API authentication strategies for Browsers, Node.js, and Deno"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +456,84 @@
       "source_repo": "octokit/request.js",
       "status": "candidate",
       "text": "> Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3ara1n/arcbot",
+      "status": "candidate",
+      "text": "HyperaiX \u548c Onebot.Net \u6700\u4f73\u5b9e\u8df5\uff01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimplyDanny/SwiftLintPlugins",
+      "status": "candidate",
+      "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-fs-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-fs-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-fs-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-backend/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datwaft/bubbly.nvim",
+      "status": "candidate",
+      "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-fasthttp-auth",
+      "status": "candidate",
+      "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gina",
+      "status": "candidate",
+      "text": "![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mortepau/codicons.nvim",
+      "status": "candidate",
+      "text": "A small library containing the [codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tea",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux-tilit",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks-methods.js",
+      "status": "candidate",
+      "text": "> Methods to handle GitHub Webhook requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/authentication-strategies.js",
+      "status": "candidate",
+      "text": "> GitHub API authentication strategies for Browsers, Node.js, and Deno"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +685,89 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "octokit/request.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "d3ara1n/arcbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SimplyDanny/SwiftLintPlugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-fs-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-http-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datwaft/bubbly.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mortepau/codicons.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux-tea"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux-tilit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tmux2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks-methods.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "octokit/authentication-strategies.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

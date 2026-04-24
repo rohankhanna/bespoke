@@ -84,7 +84,7 @@
   "normalized_form": "pull-requests-can-t-target-master-branch",
   "observation_id": "4c9457f2d19cd613",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Pull requests can't target master branch",
   "source_context_snippet": "Pull requests can't target master branch",
   "source_file": ".github/workflows/warns_merge_master.yml",

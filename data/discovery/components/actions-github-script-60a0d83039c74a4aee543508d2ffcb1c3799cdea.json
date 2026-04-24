@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reminder_comment.yml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/draco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/draco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/development_freeze.yml",
+      "source_repo": "systemd/systemd-stable"
     }
   ]
 }

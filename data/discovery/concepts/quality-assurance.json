@@ -19,6 +19,18 @@
       "source_repo": "agent-sh/audit-project",
       "status": "candidate-context",
       "text": "Multi-agent iterative code review that loops until zero issues remain."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "\ud83e\uddc1 A font quality assurance tool for everyone "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate-context",
+      "text": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "agent-sh/audit-project",
       "status": "candidate",
       "text": "Multi-agent iterative code review that loops until zero issues remain."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontbakery",
+      "status": "candidate",
+      "text": "[![Latest PyPI Version](https://img.shields.io/pypi/v/fontbakery.svg?style=flat)](https://pypi.python.org/pypi/fontbakery/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "agent-sh/audit-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

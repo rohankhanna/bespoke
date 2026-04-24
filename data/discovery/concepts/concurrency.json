@@ -91,6 +91,42 @@
       "source_repo": "bshoshany/thread-pool",
       "status": "candidate-context",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/orleans",
+      "status": "candidate-context",
+      "text": "Cloud Native application framework for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/orleans",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "A small and fast async runtime for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "Actor framework for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "bshoshany/thread-pool",
       "status": "candidate",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/orleans",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/smol",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +280,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "bshoshany/thread-pool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/orleans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/smol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

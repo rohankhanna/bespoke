@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GanymedeNil/document.ai",
+      "target": "shibing624/text2vec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:53:31.493380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u57fa\u4e8e\u5411\u91cf\u6570\u636e\u5e93\u4e0eGPT3.5\u7684\u901a\u7528\u672c\u5730\u77e5\u8bc6\u5e93\u65b9\u6848(A universal local knowledge base solution based on vector database and GPT3.5)",
+    "fork": false,
+    "full_name": "GanymedeNil/document.ai",
+    "html_url": "https://github.com/GanymedeNil/document.ai",
+    "language": "Python",
+    "pushed_at": "2023-05-12T10:31:26Z",
+    "stargazers_count": 3679,
+    "topics": [],
+    "updated_at": "2026-04-23T10:32:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shibing624/text2vec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apple_m.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apple_m.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apple_m.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "apple m",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_graviton.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_graviton.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm64_graviton.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "arm64 graviton cirun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c910v.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c910v.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c910v.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "c910v qemu test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed-bench.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed-bench.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed-bench.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed-bench.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "CodSpeedHQ/action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed-bench.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "Run codspeed benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "Publish docs via GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "continuous build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harmonyos.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/harmonyos.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "harmonyos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "loongarch64 qemu test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64_clang.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64_clang.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/loongarch64_clang.yml",
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "loongarch64 clang qemu test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "lapack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMathLib/OpenBLAS",
+      "target": "lapacke",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "OpenMathLib/OpenBLAS"
+}

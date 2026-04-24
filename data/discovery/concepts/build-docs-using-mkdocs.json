@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build docs using MkDocs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "Documentation for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate-context",
+      "text": "Build docs using MkDocs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-doc",
+      "status": "candidate",
+      "text": "Build docs using MkDocs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26224,
+      "status": "candidate",
+      "text": "jerry-build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26224,
+      "status": "candidate",
+      "text": "wattle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23135,
+      "status": "candidate",
+      "text": "gps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22788,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22598,
+      "status": "candidate",
+      "text": "library"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build docs using MkDocs",
+  "concept_id": "build-docs-using-mkdocs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "gchq/gaffer-doc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build docs using MkDocs",
+      "sense_id": "build-docs-using-mkdocs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

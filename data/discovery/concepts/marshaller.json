@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "marshaller"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "Optimized JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964928,
+      "status": "candidate",
+      "text": "marshal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964927,
+      "status": "candidate",
+      "text": "marshaler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964926,
+      "status": "candidate",
+      "text": "marshlander"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964925,
+      "status": "candidate",
+      "text": "mohrer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964924,
+      "status": "candidate",
+      "text": "mechaniser"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "marshaller",
+  "concept_id": "marshaller",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/oj"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "marshaller",
+      "sense_id": "marshaller#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "mirai \u7684\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u63a7\u5236\u53f0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dev Tag Publishing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dev Tag Publishing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22392,
+      "status": "candidate",
+      "text": "early"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22392,
+      "status": "candidate",
+      "text": "extra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22392,
+      "status": "candidate",
+      "text": "hatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22392,
+      "status": "candidate",
+      "text": "late"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22392,
+      "status": "candidate",
+      "text": "middle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dev Tag Publishing",
+      "sense_id": "dev-tag-publishing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dev-tag-publishing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dev-tag-publishing",
+  "observation_id": "54a5ff3ff004bc88",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Dev Tag Publishing",
+  "source_context_snippet": "Dev Tag Publishing",
+  "source_file": ".github/workflows/DevTagPublishing.yml",
+  "source_repo": "mamoe/mirai-console",
+  "source_repo_description": "mirai \u7684\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u63a7\u5236\u53f0"
+}

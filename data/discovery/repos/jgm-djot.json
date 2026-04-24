@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jgm/djot",
+      "target": "aarroyoc/djota",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jgm/djot",
+      "target": "hellux/jotdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jgm/djot",
+      "target": "dcampbell24/djot-implementations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jgm/djot",
+      "target": "helix-editor/helix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgm/djot",
+      "target": "commonmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgm/djot",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgm/djot",
+      "target": "markup-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgm/djot",
+      "target": "pandoc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:57:51.167915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A light markup language",
+    "fork": false,
+    "full_name": "jgm/djot",
+    "html_url": "https://github.com/jgm/djot",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-29T20:25:14Z",
+    "stargazers_count": 1961,
+    "topics": [
+      "commonmark",
+      "lua",
+      "markdown",
+      "markup-language",
+      "pandoc"
+    ],
+    "updated_at": "2026-04-21T08:49:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarroyoc/djota",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcampbell24/djot-implementations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helix-editor/helix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hellux/jotdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Djot is a light markup syntax. It derives most of its features",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonmark"
+    },
+    {
+      "context_snippet": "Djot is a light markup syntax. It derives most of its features",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "Djot is a light markup syntax. It derives most of its features",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markup-language"
+    },
+    {
+      "context_snippet": "Djot is a light markup syntax. It derives most of its features",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandoc"
+    }
+  ]
+}

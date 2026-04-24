@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "addr2line"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate-context",
+      "text": "A cross-platform `addr2line` clone written in Rust, using `gimli`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gimli-rs/addr2line",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/crates/v/addr2line.svg)](https://crates.io/crates/addr2line)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "addr2line",
+  "concept_id": "addr2line",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gimli-rs/addr2line"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "addr2line",
+      "sense_id": "addr2line#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

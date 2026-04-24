@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archlizheng/frontend-slides-editable",
+      "target": "zarazhangrui/frontend-slides",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:04:17.785128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Editable HTML presentation skill for Codex/Claude Code with drag-resize editing, slide reordering, local save/export, and PPTX-to-web conversion. Shout out to @zarazhangrui ",
+    "fork": false,
+    "full_name": "archlizheng/frontend-slides-editable",
+    "html_url": "https://github.com/archlizheng/frontend-slides-editable",
+    "language": "Python",
+    "pushed_at": "2026-04-04T08:17:58Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-04-24T04:14:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zarazhangrui/frontend-slides",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

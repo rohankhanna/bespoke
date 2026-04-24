@@ -43,6 +43,18 @@
       "source_repo": "jekyll/jekyll",
       "status": "candidate-context",
       "text": "Micro Benchmark Runs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/choosealicense.com",
+      "status": "candidate-context",
+      "text": "A site to provide non-judgmental guidance on choosing a license for your open source project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/choosealicense.com",
+      "status": "candidate-context",
+      "text": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "jekyll/jekyll",
       "status": "candidate",
       "text": "Micro Benchmark Runs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/choosealicense.com",
+      "status": "candidate",
+      "text": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "github/choosealicense.com"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "target": "graphics-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/HowToVulkan",
+      "target": "vulkan-tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:02:16.749478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimalist tutorial and code for doing something meaningful with Vulkan in 2026",
+    "fork": false,
+    "full_name": "SaschaWillems/HowToVulkan",
+    "html_url": "https://github.com/SaschaWillems/HowToVulkan",
+    "language": "C++",
+    "pushed_at": "2026-04-22T17:14:53Z",
+    "stargazers_count": 427,
+    "topics": [
+      "graphics-programming",
+      "tutorial",
+      "vulkan",
+      "vulkan-api",
+      "vulkan-tutorial"
+    ],
+    "updated_at": "2026-04-22T17:14:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-programming"
+    },
+    {
+      "context_snippet": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    },
+    {
+      "context_snippet": "Home of a minimalist tutorial on how to use the Vulkan graphics API in 2026. The idea is to get people started with rasterization in Vulkan using commonly supported features to make the API easier to use. This is a single page tutorial that can be done from top to bottom in a si\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-tutorial"
+    }
+  ]
+}

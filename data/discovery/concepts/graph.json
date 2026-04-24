@@ -67,6 +67,42 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/specs",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] Old specs repo, moved to https://github.com/ipld/ipld"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/specs",
+      "status": "candidate-context",
+      "text": "!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "Python API for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "API to run VirtualHome, a Multi-Agent Household Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/specs",
+      "status": "candidate",
+      "text": "!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +252,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipld/specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gchq/gafferpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "xavierpuigf/virtualhome"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

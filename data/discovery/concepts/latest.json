@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "latest"
+    "latest",
+    "Latest"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ollama/ollama",
       "status": "candidate-context",
       "text": "latest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Compile-Time Instrumentation for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate-context",
+      "text": "Latest"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ollama/ollama",
       "status": "candidate",
       "text": "latest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/loongsuite-go-agent",
+      "status": "candidate",
+      "text": "Latest"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +131,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/latest.yaml",
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/latestdepth1.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/latestdepth2.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/latestdepth3.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/latestdepth4.yml",
+      "source_repo": "alibaba/loongsuite-go-agent"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzfse/lzfse",
+      "target": "dimkr/pylzfse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:47.971551+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LZFSE compression library and command line tool",
+    "fork": false,
+    "full_name": "lzfse/lzfse",
+    "html_url": "https://github.com/lzfse/lzfse",
+    "language": "C",
+    "pushed_at": "2022-09-05T14:32:12Z",
+    "stargazers_count": 1820,
+    "topics": [],
+    "updated_at": "2026-04-24T03:00:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimkr/pylzfse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

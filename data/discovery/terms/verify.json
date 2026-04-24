@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/verify.yaml",
       "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "intel/compute-runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/netbeans-mavenutils-nbm-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "chainguard-dev/melange"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "envoyproxy/examples"
     }
   ],
   "term": "Verify"

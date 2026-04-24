@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "panqiwei/autogptq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "Build AutoGPTQ Wheels with CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "JustinLin610/AutoGPTQ",
+      "target": "Build AutoGPTQ Wheels with ROCm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:41.687721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19930
+    },
+    {
+      "path": ".github/workflows/build_wheels_cuda.yml",
+      "size": 2375
+    },
+    {
+      "path": ".github/workflows/build_wheels_pypi.yml",
+      "size": 2572
+    },
+    {
+      "path": ".github/workflows/build_wheels_rocm.yml",
+      "size": 4039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.",
+    "fork": true,
+    "full_name": "JustinLin610/AutoGPTQ",
+    "html_url": "https://github.com/JustinLin610/AutoGPTQ",
+    "language": "Python",
+    "pushed_at": "2024-01-22T18:27:59Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-03-09T12:46:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panqiwei/autogptq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build AutoGPTQ Wheels with CUDA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "term": "Build AutoGPTQ Wheels with CUDA"
+    },
+    {
+      "context_snippet": "Build AutoGPTQ Wheels with ROCm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "term": "Build AutoGPTQ Wheels with ROCm"
+    }
+  ]
+}

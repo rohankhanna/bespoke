@@ -499,6 +499,138 @@
       "source_repo": "json-schema-org/json-schema-spec",
       "status": "candidate-context",
       "text": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-iterator/go",
+      "status": "candidate-context",
+      "text": "A high-performance 100% compatible drop-in replacement of \"encoding/json\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-iterator/go",
+      "status": "candidate-context",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/json-iterator/go/-/badge.svg)](https://sourcegraph.com/github.com/json-iterator/go?badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurtmckee/feedparser",
+      "status": "candidate-context",
+      "text": "Parse feeds in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurtmckee/feedparser",
+      "status": "candidate-context",
+      "text": ".."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "Structured Outputs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin-bottom: 1em;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate-context",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michalmuskala/jason",
+      "status": "candidate-context",
+      "text": "A blazing fast JSON parser and generator in pure Elixir."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michalmuskala/jason",
+      "status": "candidate-context",
+      "text": "A blazing fast JSON parser and generator in pure Elixir."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "A configuration as code language with rich validation and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate-context",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "Node.js body parsing middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis",
+      "status": "candidate-context",
+      "text": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-c/json-c",
+      "status": "candidate-context",
+      "text": "https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-c/json-c",
+      "status": "candidate-context",
+      "text": "\\mainpage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomnomnom/gron",
+      "status": "candidate-context",
+      "text": "Make JSON greppable!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomnomnom/gron",
+      "status": "candidate-context",
+      "text": "module github.com/tomnomnom/gron go 1.24 require ( github.com/fatih/color v1.18.0 github.com/mattn/go-colorable v0.1.14 github.com/nwidger/jsoncolor v0.3.2 github.com/pkg/errors v0.9.1 ) require ( github.com/mattn/go-isatty v0.0.20 // indirect golang.org/x/sys v0.33.0 // indirec\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "Optimized JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +879,72 @@
       "source_repo": "json-schema-org/json-schema-spec",
       "status": "candidate",
       "text": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-iterator/go",
+      "status": "candidate",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/json-iterator/go/-/badge.svg)](https://sourcegraph.com/github.com/json-iterator/go?badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurtmckee/feedparser",
+      "status": "candidate",
+      "text": ".."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dottxt-ai/outlines",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 1em;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rest-sh/restish",
+      "status": "candidate",
+      "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michalmuskala/jason",
+      "status": "candidate",
+      "text": "A blazing fast JSON parser and generator in pure Elixir."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/pkl",
+      "status": "candidate",
+      "text": "__lockfile__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/body-parser",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-c/json-c",
+      "status": "candidate",
+      "text": "\\mainpage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomnomnom/gron",
+      "status": "candidate",
+      "text": "module github.com/tomnomnom/gron go 1.24 require ( github.com/fatih/color v1.18.0 github.com/mattn/go-colorable v0.1.14 github.com/nwidger/jsoncolor v0.3.2 github.com/pkg/errors v0.9.1 ) require ( github.com/mattn/go-isatty v0.0.20 // indirect golang.org/x/sys v0.33.0 // indirec\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/oj",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1029,11 +1227,83 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "json-schema-org/json-schema-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "json-iterator/go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kurtmckee/feedparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dottxt-ai/outlines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "michalmuskala/jason"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "expressjs/body-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "json-c/json-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tomnomnom/gron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/oj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "simd-lite/simd-json"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

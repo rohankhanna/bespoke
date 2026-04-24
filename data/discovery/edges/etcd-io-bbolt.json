@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "etcd-io/bbolt",
-      "target": "ajvb/kala",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/bbolt",
       "target": "abhigupta912/mbuckets",
       "target_type": "repository"
     },
@@ -25,7 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "etcd-io/bbolt",
-      "target": "anacrolix/torrent",
+      "target": "asdine/storm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/bbolt",
+      "target": "benbjohnson/scuttlebutt",
       "target_type": "repository"
     },
     {
@@ -134,6 +134,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "etcd-io/bbolt"
 }

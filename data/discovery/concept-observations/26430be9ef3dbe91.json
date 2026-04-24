@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modern buffer manager for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "statusline",
+      "sense_id": "statusline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "statusline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "statusline",
+  "observation_id": "26430be9ef3dbe91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "statusline",
+  "source_context_snippet": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each",
+  "source_file": null,
+  "source_repo": "zefei/vim-wintabs",
+  "source_repo_description": "Modern buffer manager for Vim"
+}

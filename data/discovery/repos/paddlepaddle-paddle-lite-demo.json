@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/Paddle-Lite-Demo",
+      "target": "ighibli/ios-devicesupport",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:57.788330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "lib, demo, model, data",
+    "fork": false,
+    "full_name": "PaddlePaddle/Paddle-Lite-Demo",
+    "html_url": "https://github.com/PaddlePaddle/Paddle-Lite-Demo",
+    "language": "C++",
+    "pushed_at": "2025-09-17T06:05:56Z",
+    "stargazers_count": 791,
+    "topics": [],
+    "updated_at": "2026-04-22T09:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ighibli/ios-devicesupport",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

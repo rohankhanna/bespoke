@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "object-recognition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "status": "candidate-context",
+      "text": "Pre-trained models, data, code & materials from the paper \"ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness\" (ICLR 2019 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "status": "candidate-context",
+      "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeirhos/texture-vs-shape",
+      "status": "candidate",
+      "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "object-recognition",
+  "concept_id": "object-recognition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rgeirhos/texture-vs-shape"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object-recognition",
+      "sense_id": "object-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

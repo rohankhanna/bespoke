@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "age-encryption"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FiloSottile/passage",
+      "status": "candidate-context",
+      "text": "A fork of password-store (https://www.passwordstore.org) that uses age (https://age-encryption.org) as backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/passage",
+      "status": "candidate-context",
+      "text": "A fork of password-store (https://www.passwordstore.org) that uses age (https://age-encryption.org) as backend."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/passage",
+      "status": "candidate",
+      "text": "A fork of password-store (https://www.passwordstore.org) that uses age (https://age-encryption.org) as backend."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "age-encryption",
+  "concept_id": "age-encryption",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FiloSottile/passage"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "age-encryption",
+      "sense_id": "age-encryption#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

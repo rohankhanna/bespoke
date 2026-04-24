@@ -141,13 +141,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVIDIA-NeMo/RL",
-      "target": "nvidia/nemo-aligner",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVIDIA-NeMo/RL",
       "target": "volcengine/verl",
       "target_type": "repository"
     },
@@ -155,14 +148,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "NVIDIA-NeMo/RL",
-      "target": "deepseek-ai/deepep",
+      "target": "nvidia-nemo/run",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "NVIDIA-NeMo/RL",
-      "target": "dao-ailab/causal-conv1d",
+      "target": "fanshiqing/grouped_gemm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "logpai/drain3",
       "target_type": "repository"
     },
     {
@@ -341,7 +341,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:42:57.607354+00:00",
+  "fetched_at": "2026-04-24T06:54:46.881005+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -393,17 +393,12 @@
     "full_name": "NVIDIA-NeMo/RL",
     "html_url": "https://github.com/NVIDIA-NeMo/RL",
     "language": "Python",
-    "pushed_at": "2026-04-23T17:23:58Z",
-    "stargazers_count": 1563,
+    "pushed_at": "2026-04-24T06:24:39Z",
+    "stargazers_count": 1565,
     "topics": [],
-    "updated_at": "2026-04-23T13:45:13Z"
+    "updated_at": "2026-04-24T01:36:55Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvidia/nemo-aligner",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "volcengine/verl",
@@ -411,12 +406,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dao-ailab/causal-conv1d",
+      "full_name": "fanshiqing/grouped_gemm",
       "source_file": "pyproject.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "deepseek-ai/deepep",
+      "full_name": "logpai/drain3",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-nemo/run",
       "source_file": "pyproject.toml"
     }
   ],

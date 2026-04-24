@@ -125,14 +125,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/babashka",
-      "target": "babashka/pod-registry",
+      "target": "borkdude/clj-kondo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/babashka",
-      "target": "anmonteiro/lumo",
+      "target": "borkdude/jet",
       "target_type": "repository"
     },
     {
@@ -283,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:41:37.623312+00:00",
+  "fetched_at": "2026-04-24T08:08:34.135190+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -326,11 +326,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "anmonteiro/lumo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "archlinuxfr/yaourt",
       "source_file": "README.md"
     },
@@ -341,7 +336,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "babashka/pod-registry",
+      "full_name": "borkdude/clj-kondo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/jet",
       "source_file": "README.md"
     }
   ],

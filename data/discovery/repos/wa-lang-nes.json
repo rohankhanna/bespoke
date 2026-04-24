@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wa-lang/nes",
+      "target": "wa-lang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:18.163861+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A NES emulator in Wa. \u51f9\u8bed\u8a00 NES \u6a21\u62df\u5668",
+    "fork": false,
+    "full_name": "wa-lang/nes",
+    "html_url": "https://github.com/wa-lang/nes",
+    "language": "HTML",
+    "pushed_at": "2025-06-15T22:15:37Z",
+    "stargazers_count": 11,
+    "topics": [
+      "nes",
+      "wa",
+      "wa-lang"
+    ],
+    "updated_at": "2025-12-10T04:34:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A NES emulator in Wa. \u51f9\u8bed\u8a00 NES \u6a21\u62df\u5668",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wa-lang"
+    }
+  ]
+}

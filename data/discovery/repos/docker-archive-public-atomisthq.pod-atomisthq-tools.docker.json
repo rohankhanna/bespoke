@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "wangyoucao577/go-release-action@v1.35",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+      "target": "wangyoucao577/go-release-action@v1.35",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:08:39.389290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3902
+    },
+    {
+      "path": "Dockerfile",
+      "size": 505
+    },
+    {
+      "path": "go.mod",
+      "size": 11743
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "dockerfile parsing for clojure",
+    "fork": false,
+    "full_name": "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+    "html_url": "https://github.com/docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+    "language": "Go",
+    "pushed_at": "2023-09-09T19:31:26Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-07-18T16:21:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

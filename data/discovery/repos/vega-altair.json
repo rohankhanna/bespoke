@@ -130,13 +130,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "vega/altair",
-      "target": "vega/vega-embed",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-free-threaded.yml",
       "source_repo": "vega/altair",
@@ -319,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:58:23.513856+00:00",
+  "fetched_at": "2026-04-24T08:08:07.371488+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -364,20 +357,15 @@
     "html_url": "https://github.com/vega/altair",
     "language": "Python",
     "pushed_at": "2026-04-21T14:01:47Z",
-    "stargazers_count": 10335,
+    "stargazers_count": 10337,
     "topics": [],
-    "updated_at": "2026-04-23T11:22:22Z"
+    "updated_at": "2026-04-24T06:22:20Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "altair-viz/altair_notebooks",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vega/vega-embed",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

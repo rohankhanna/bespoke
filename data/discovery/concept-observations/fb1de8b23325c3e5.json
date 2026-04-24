@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Ethereum Request for Comment repository "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Review Bot Trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Review Bot Trigger"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28337,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28160,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28160,
+      "status": "candidate",
+      "text": "hydroplane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28050,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28041,
+      "status": "candidate",
+      "text": "linear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Review Bot Trigger",
+      "sense_id": "auto-review-bot-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-review-bot-trigger",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-review-bot-trigger",
+  "observation_id": "fb1de8b23325c3e5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Auto Review Bot Trigger",
+  "source_context_snippet": "Auto Review Bot Trigger",
+  "source_file": ".github/workflows/auto-review-trigger.yml",
+  "source_repo": "ethereum/ERCs",
+  "source_repo_description": "The Ethereum Request for Comment repository "
+}

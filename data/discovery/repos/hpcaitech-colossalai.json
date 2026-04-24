@@ -1,0 +1,513 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v35",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v35",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_schedule.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_schedule.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_dispatch.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_schedule.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_schedule.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_ext_check_before_merge.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_ext_check_before_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "hpcaitech/fastfold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "biomap-research/xtrimomultimer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "facebookresearch/metaseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "hpcaitech/cachedembedding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "tj-actions/changed-files@v35",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_pr.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_on_pr.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "Build on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_on_schedule.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_on_schedule.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "Build on Schedule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_inactive.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_dispatch.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatiblity_test_on_dispatch.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "Compatibility Test on Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_pr.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_pr.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatiblity_test_on_pr.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "Compatibility Test on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_schedule.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatiblity_test_on_schedule.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatiblity_test_on_schedule.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "Compatibility Test on Schedule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_ext_check_before_merge.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_ext_check_before_merge.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda_ext_check_before_merge.yml",
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "Check CUDA Extension Build Before Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "big-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "data-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "heterogeneous-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "large-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "model-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/ColossalAI",
+      "target": "pipeline-parallelism",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:49:14.797566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35327
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 11085
+    },
+    {
+      "path": ".github/workflows/build_on_pr.yml",
+      "size": 7573
+    },
+    {
+      "path": ".github/workflows/build_on_schedule.yml",
+      "size": 3186
+    },
+    {
+      "path": ".github/workflows/close_inactive.yml",
+      "size": 1098
+    },
+    {
+      "path": ".github/workflows/compatiblity_test_on_dispatch.yml",
+      "size": 2877
+    },
+    {
+      "path": ".github/workflows/compatiblity_test_on_pr.yml",
+      "size": 2825
+    },
+    {
+      "path": ".github/workflows/compatiblity_test_on_schedule.yml",
+      "size": 3186
+    },
+    {
+      "path": ".github/workflows/cuda_ext_check_before_merge.yml",
+      "size": 1491
+    },
+    {
+      "path": ".github/workflows/doc_build_on_schedule_after_release.yml",
+      "size": 866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Making large AI models cheaper, faster and more accessible",
+    "fork": false,
+    "full_name": "hpcaitech/ColossalAI",
+    "html_url": "https://github.com/hpcaitech/ColossalAI",
+    "language": "Python",
+    "pushed_at": "2026-04-13T17:31:24Z",
+    "stargazers_count": 41376,
+    "topics": [
+      "ai",
+      "big-model",
+      "data-parallelism",
+      "deep-learning",
+      "distributed-computing",
+      "foundation-models",
+      "heterogeneous-training",
+      "hpc",
+      "inference",
+      "large-scale",
+      "model-parallelism",
+      "pipeline-parallelism"
+    ],
+    "updated_at": "2026-04-24T06:34:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biomap-research/xtrimomultimer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/metaseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpcaitech/cachedembedding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpcaitech/fastfold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_on_pr.yml",
+      "term": "Build on PR"
+    },
+    {
+      "context_snippet": "Build on Schedule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_on_schedule.yml",
+      "term": "Build on Schedule"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_inactive.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Compatibility Test on Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatiblity_test_on_dispatch.yml",
+      "term": "Compatibility Test on Dispatch"
+    },
+    {
+      "context_snippet": "Compatibility Test on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatiblity_test_on_pr.yml",
+      "term": "Compatibility Test on PR"
+    },
+    {
+      "context_snippet": "Compatibility Test on Schedule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatiblity_test_on_schedule.yml",
+      "term": "Compatibility Test on Schedule"
+    },
+    {
+      "context_snippet": "Check CUDA Extension Build Before Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda_ext_check_before_merge.yml",
+      "term": "Check CUDA Extension Build Before Merge"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-model"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-parallelism"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-computing"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heterogeneous-training"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-parallelism"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline-parallelism"
+    }
+  ]
+}

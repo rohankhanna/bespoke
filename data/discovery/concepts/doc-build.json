@@ -19,12 +19,30 @@
       "source_repo": "pytorch/examples",
       "status": "candidate-context",
       "text": "Doc Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/igl",
+      "status": "candidate-context",
+      "text": "Intermediate Graphics Library (IGL) is a cross-platform library that commands the GPU. It provides a single low-level cross-platform interface on top of various graphics APIs (e.g. OpenGL, Metal and Vulkan)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/igl",
+      "status": "candidate-context",
+      "text": "Doc Build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "pytorch/examples",
+      "status": "candidate",
+      "text": "Doc Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/igl",
       "status": "candidate",
       "text": "Doc Build"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/doc-build.yml",
       "source_repo": "pytorch/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "facebook/igl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

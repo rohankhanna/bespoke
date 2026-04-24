@@ -1,0 +1,494 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-new-news.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-new-news.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "name:",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-virustotal@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "Cancel Previous Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "cygwin/cygwin-install-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "dessant/lock-threads@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "Lock Closed Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-new-news.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-new-news.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-new-news.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "Validate new news entries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "name:",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "crazy-max/ghaction-virustotal@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "Virus Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "bundle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "py2app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "py2exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "pyinstaller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "python-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyinstaller/pyinstaller",
+      "target": "python-to-exe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:57.115869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5384
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4160
+    },
+    {
+      "path": ".github/workflows/cancel.yml",
+      "size": 387
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 23007
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/lock-threads.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/validate-new-news.yml",
+      "size": 593
+    },
+    {
+      "path": ".github/workflows/viruscheck.yml",
+      "size": 3281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Freeze (package) Python programs into stand-alone executables",
+    "fork": false,
+    "full_name": "pyinstaller/pyinstaller",
+    "html_url": "https://github.com/pyinstaller/pyinstaller",
+    "language": "Python",
+    "pushed_at": "2026-04-22T21:00:43Z",
+    "stargazers_count": 12966,
+    "topics": [
+      "bundle",
+      "package",
+      "py2app",
+      "py2exe",
+      "pyinstaller",
+      "python",
+      "python-3",
+      "python-to-exe"
+    ],
+    "updated_at": "2026-04-24T04:55:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cancel Previous Runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "term": "Cancel Previous Runs"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Lock Closed Threads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "term": "Lock Closed Threads"
+    },
+    {
+      "context_snippet": "Validate new news entries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-new-news.yml",
+      "term": "Validate new news entries"
+    },
+    {
+      "context_snippet": "Virus Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/viruscheck.yml",
+      "term": "Virus Check"
+    },
+    {
+      "context_snippet": "PyInstaller Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bundle"
+    },
+    {
+      "context_snippet": "PyInstaller Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "PyInstaller Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "py2app"
+    },
+    {
+      "context_snippet": "PyInstaller Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "py2exe"
+    },
+    {
+      "context_snippet": "PyInstaller Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyinstaller"
+    },
+    {
+      "context_snippet": "PyInstaller Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    },
+    {
+      "context_snippet": "PyInstaller Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-to-exe"
+    }
+  ]
+}

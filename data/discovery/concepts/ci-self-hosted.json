@@ -19,12 +19,24 @@
       "source_repo": "openssh/openssh-portable",
       "status": "candidate-context",
       "text": "CI self-hosted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssh/openssh-portable-selfhosted",
+      "status": "candidate-context",
+      "text": "CI self-hosted"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "openssh/openssh-portable",
+      "status": "candidate",
+      "text": "CI self-hosted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssh/openssh-portable-selfhosted",
       "status": "candidate",
       "text": "CI self-hosted"
     }
@@ -76,11 +88,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/selfhosted.yml",
       "source_repo": "openssh/openssh-portable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/selfhosted.yml",
+      "source_repo": "openssh/openssh-portable-selfhosted"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

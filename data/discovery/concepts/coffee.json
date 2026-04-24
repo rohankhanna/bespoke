@@ -19,6 +19,18 @@
       "source_repo": "artisan-roaster-scope/artisan",
       "status": "candidate-context",
       "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate-context",
+      "text": "Search Jerusalem specialty coffee shops by name, amenities, ratings, and opening hours. Agent Skills format for OpenClaw, Claude, Cursor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "artisan-roaster-scope/artisan",
       "status": "candidate",
       "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "artisan-roaster-scope/artisan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-jlm-coffee"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

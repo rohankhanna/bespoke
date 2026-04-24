@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "@libp2p/webrtc-star-signalling-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "ipfs/js-ipfs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "ipfs-examples/example-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "ipfs/roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "ipfs/team-mgmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "@libp2p/webrtc-star-signalling-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipfs-examples/js-ipfs-examples",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:01:15.113467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9380
+    },
+    {
+      "path": "package.json",
+      "size": 1274
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Collection of js-ipfs examples",
+    "fork": false,
+    "full_name": "ipfs-examples/js-ipfs-examples",
+    "html_url": "https://github.com/ipfs-examples/js-ipfs-examples",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-06T12:43:52Z",
+    "stargazers_count": 244,
+    "topics": [],
+    "updated_at": "2026-02-14T01:34:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs-examples/example-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/js-ipfs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/team-mgmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

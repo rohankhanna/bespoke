@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Tutel",
+      "target": "open-webui/open-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Tutel",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Tutel",
+      "target": "mixture-of-experts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Tutel",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:24.598695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tutel MoE: Optimized Mixture-of-Experts Library, Support GptOss/DeepSeek/Kimi-K2/Qwen3 using FP8/NVFP4/MXFP4",
+    "fork": false,
+    "full_name": "microsoft/Tutel",
+    "html_url": "https://github.com/microsoft/Tutel",
+    "language": "C",
+    "pushed_at": "2026-04-11T18:05:17Z",
+    "stargazers_count": 986,
+    "topics": [
+      "deepseek",
+      "llm",
+      "mixture-of-experts",
+      "moe",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T06:25:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-webui/open-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tutel MoE: An Optimized Mixture-of-Experts Implementation, also the first parallel solution proposing [\"No-penalty Parallism/Sparsity/Capacity/.. Switching\"](https://mlsys.org/media/mlsys-2023/Slides/2477.pdf) for modern training and inference that have dynamic behaviors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "Tutel MoE: An Optimized Mixture-of-Experts Implementation, also the first parallel solution proposing [\"No-penalty Parallism/Sparsity/Capacity/.. Switching\"](https://mlsys.org/media/mlsys-2023/Slides/2477.pdf) for modern training and inference that have dynamic behaviors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixture-of-experts"
+    },
+    {
+      "context_snippet": "Tutel MoE: An Optimized Mixture-of-Experts Implementation, also the first parallel solution proposing [\"No-penalty Parallism/Sparsity/Capacity/.. Switching\"](https://mlsys.org/media/mlsys-2023/Slides/2477.pdf) for modern training and inference that have dynamic behaviors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

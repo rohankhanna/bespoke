@@ -1,0 +1,12 @@
+{
+  "component": "marocchino/sticky-pull-request-comment@d4d6b0936434b21bc8345ad45a440c5f7d2c40ff",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website-integrity.yml",
+      "source_repo": "graphql-hive/graphql-yoga"
+    }
+  ]
+}

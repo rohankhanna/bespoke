@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/job-board",
+      "target": "travis-ci/worker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/job-board",
+      "target": "travis-ci/travis-scheduler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/job-board",
+      "target": "travis-ci/gcloud-cleanup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/job-board",
+      "target": "cats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/job-board",
+      "target": "space-invaders",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:38.278019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9931
+    },
+    {
+      "path": "Dockerfile",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "have a job? need a job? no jobs? all the jobs! ",
+    "fork": false,
+    "full_name": "travis-ci/job-board",
+    "html_url": "https://github.com/travis-ci/job-board",
+    "language": "Ruby",
+    "pushed_at": "2025-01-30T11:23:17Z",
+    "stargazers_count": 9,
+    "topics": [
+      "cats",
+      "space-invaders"
+    ],
+    "updated_at": "2024-11-25T10:37:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/gcloud-cleanup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-scheduler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/worker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/travis-ci/job-board.svg?branch=master&cachebust=1)](https://travis-ci.org/travis-ci/job-board)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cats"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/travis-ci/job-board.svg?branch=master&cachebust=1)](https://travis-ci.org/travis-ci/job-board)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-invaders"
+    }
+  ]
+}

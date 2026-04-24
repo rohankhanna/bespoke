@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naoto0804/pytorch-AdaIN",
+      "target": "xunhuang1995/adain-style",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naoto0804/pytorch-AdaIN",
+      "target": "instance-normalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naoto0804/pytorch-AdaIN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naoto0804/pytorch-AdaIN",
+      "target": "style-transfer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:48:23.682514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2705
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Unofficial pytorch implementation of 'Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization' [Huang+, ICCV2017]",
+    "fork": false,
+    "full_name": "naoto0804/pytorch-AdaIN",
+    "html_url": "https://github.com/naoto0804/pytorch-AdaIN",
+    "language": "Python",
+    "pushed_at": "2024-01-23T00:48:00Z",
+    "stargazers_count": 1172,
+    "topics": [
+      "cnn",
+      "instance-normalization",
+      "pytorch",
+      "style-transfer"
+    ],
+    "updated_at": "2026-04-09T03:16:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xunhuang1995/adain-style",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an unofficial pytorch implementation of a paper, Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization [Huang+, ICCV2017].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-normalization"
+    },
+    {
+      "context_snippet": "This is an unofficial pytorch implementation of a paper, Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization [Huang+, ICCV2017].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is an unofficial pytorch implementation of a paper, Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization [Huang+, ICCV2017].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-transfer"
+    }
+  ]
+}

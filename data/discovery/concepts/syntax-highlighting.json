@@ -103,6 +103,18 @@
       "source_repo": "Textualize/rich-cli",
       "status": "candidate-context",
       "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate-context",
+      "text": "Fish shell like syntax highlighting for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate-context",
+      "text": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "Textualize/rich-cli",
       "status": "candidate",
       "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-syntax-highlighting",
+      "status": "candidate",
+      "text": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +232,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-syntax-highlighting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

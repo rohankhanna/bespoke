@@ -56,6 +56,30 @@
       "source_repo": "uptrace/go-clickhouse",
       "status": "candidate-context",
       "text": "Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "SQL-first Golang ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate-context",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate-context",
+      "text": "Golang HTTP router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bunrouter",
+      "status": "candidate-context",
+      "text": "Releases"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +104,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bun",
+      "status": "candidate",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/bunrouter",
       "status": "candidate",
       "text": "Releases"
     }
@@ -149,11 +185,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "uptrace/go-clickhouse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "uptrace/bun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "uptrace/bunrouter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

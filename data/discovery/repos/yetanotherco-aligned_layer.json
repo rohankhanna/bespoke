@@ -1,0 +1,502 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-go.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contracts.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contracts.yml"
+    },
+    {
+      "component": "tailscale/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/explorer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/explorer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml"
+    },
+    {
+      "component": "Rubilmax/foundry-gas-diff@v3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-contracts.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-contracts.yml"
+    },
+    {
+      "component": "yetanotherco/actions/.github/workflows/pr_review_claude.yml@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review_claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "lambdaclass/lambdaworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-go.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-go.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-go.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "foundry-rs/foundry-toolchain@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-go.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "build-go-projects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-rust.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "foundry-rs/foundry-toolchain@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-rust.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "build-and-test-rust-projects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contracts.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contracts.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-contracts.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "Build contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/explorer.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "tailscale/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/explorer.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/explorer.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "Deploy Explorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "foundry-rs/foundry-toolchain@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "Rubilmax/foundry-gas-diff@v3.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-gas-diff.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry-gas-diff.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "Report gas diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-contracts.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-contracts.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-contracts.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "Lint contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review_claude.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "yetanotherco/actions/.github/workflows/pr_review_claude.yml@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_review_claude.yml",
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "eigenlayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "restaking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yetanotherco/aligned_layer",
+      "target": "zero-knowledge-proofs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:58:57.482142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1424
+    },
+    {
+      "path": "go.mod",
+      "size": 5258
+    },
+    {
+      "path": ".github/workflows/build-and-test-go.yml",
+      "size": 963
+    },
+    {
+      "path": ".github/workflows/build-and-test-rust.yml",
+      "size": 3353
+    },
+    {
+      "path": ".github/workflows/build-contracts.yml",
+      "size": 472
+    },
+    {
+      "path": ".github/workflows/explorer.yml",
+      "size": 1392
+    },
+    {
+      "path": ".github/workflows/foundry-gas-diff.yml",
+      "size": 1814
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 1035
+    },
+    {
+      "path": ".github/workflows/lint-contracts.yml",
+      "size": 624
+    },
+    {
+      "path": ".github/workflows/pr_review_claude.yml",
+      "size": 1679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "testnet",
+    "description": "Aligned is a verification layer for zero-knowledge proofs using EigenLayer. Our mission is to accelerate the adoption of zero-knowledge and validity proofs on Ethereum.",
+    "fork": false,
+    "full_name": "yetanotherco/aligned_layer",
+    "html_url": "https://github.com/yetanotherco/aligned_layer",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T17:28:13Z",
+    "stargazers_count": 296,
+    "topics": [
+      "eigenlayer",
+      "ethereum",
+      "restaking",
+      "zero-knowledge-proofs"
+    ],
+    "updated_at": "2026-04-23T05:11:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaclass/lambdaworks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-go-projects",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-go.yml",
+      "term": "build-go-projects"
+    },
+    {
+      "context_snippet": "build-and-test-rust-projects",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-rust.yml",
+      "term": "build-and-test-rust-projects"
+    },
+    {
+      "context_snippet": "Build contracts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-contracts.yml",
+      "term": "Build contracts"
+    },
+    {
+      "context_snippet": "\"Deploy Explorer\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/explorer.yml",
+      "term": "Deploy Explorer"
+    },
+    {
+      "context_snippet": "Report gas diff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry-gas-diff.yml",
+      "term": "Report gas diff"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "Lint contracts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-contracts.yml",
+      "term": "Lint contracts"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_review_claude.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eigenlayer"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restaking"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-knowledge-proofs"
+    }
+  ]
+}

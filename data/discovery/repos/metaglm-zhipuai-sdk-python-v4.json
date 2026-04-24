@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "zai-org/z-ai-sdk-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "tophat/syrupy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "test-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
+      "target": "Lint PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:10.660450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8188
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2894
+    },
+    {
+      "path": ".github/workflows/_integration_test.yml",
+      "size": 1944
+    },
+    {
+      "path": ".github/workflows/_release.yml",
+      "size": 9116
+    },
+    {
+      "path": ".github/workflows/_test.yml",
+      "size": 1665
+    },
+    {
+      "path": ".github/workflows/_test_release.yml",
+      "size": 3117
+    },
+    {
+      "path": ".github/workflows/lint-pr.yaml",
+      "size": 346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python SDK for ZhiPu AI",
+    "fork": false,
+    "full_name": "MetaGLM/zhipuai-sdk-python-v4",
+    "html_url": "https://github.com/MetaGLM/zhipuai-sdk-python-v4",
+    "language": "Python",
+    "pushed_at": "2025-10-21T02:35:17Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2026-04-13T01:05:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zai-org/z-ai-sdk-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tophat/syrupy",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "test-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_release.yml",
+      "term": "test-release"
+    },
+    {
+      "context_snippet": "\"Lint PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "term": "Lint PR"
+    }
+  ]
+}

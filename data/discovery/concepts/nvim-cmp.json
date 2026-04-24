@@ -67,6 +67,18 @@
       "source_repo": "dcampos/cmp-snippy",
       "status": "candidate-context",
       "text": "[nvim-snippy][1] completion source for [nvim-cmp][2]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "status": "candidate-context",
+      "text": "luasnip completion source for nvim-cmp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "status": "candidate-context",
+      "text": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "dcampos/cmp-snippy",
       "status": "candidate",
       "text": "[nvim-snippy][1] completion source for [nvim-cmp][2]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadparwaiz1/cmp_luasnip",
+      "status": "candidate",
+      "text": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dcampos/cmp-snippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "saadparwaiz1/cmp_luasnip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

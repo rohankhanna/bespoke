@@ -1,0 +1,12 @@
+{
+  "component": "rtCamp/action-slack-notify@4e5fb42d249be6a45a298f3c9543b111b02f7907",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy-demo.yml",
+      "source_repo": "jaegertracing/jaeger"
+    }
+  ]
+}

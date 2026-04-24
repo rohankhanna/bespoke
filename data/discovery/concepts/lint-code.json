@@ -43,6 +43,18 @@
       "source_repo": "boto/s3transfer",
       "status": "candidate-context",
       "text": "Lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Argo Rollouts controller."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
+      "status": "candidate-context",
+      "text": "Lint code"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "boto/s3transfer",
+      "status": "candidate",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argo-rollouts-manager",
       "status": "candidate",
       "text": "Lint code"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "boto/s3transfer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argo-rollouts-manager"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

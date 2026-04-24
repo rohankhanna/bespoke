@@ -43,6 +43,18 @@
       "source_repo": "ashvardanian/ParallelReductionsBenchmark",
       "status": "candidate-context",
       "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "This repository consists for gpu bootcamp material for HPC and AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ashvardanian/ParallelReductionsBenchmark",
       "status": "candidate",
       "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openhackathons-org/gpubootcamp",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gpuhackathons-org/gpubootcamp?include_prereleases)](https://git\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ParallelReductionsBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

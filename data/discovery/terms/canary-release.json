@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/canary-release.yml",
       "source_repo": "frinyvonnick/gitmoji-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/canary-release.yml",
+      "source_repo": "parcel-bundler/parcel"
     }
   ],
   "term": "Canary Release"

@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml"
+    },
+    {
+      "component": "azure/setup-helm@b9e51907a09c216f16ebe8536097933489208112",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@0d28d3144d3a25ea2cc349d6e59901c4ff469b3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml"
+    },
+    {
+      "component": "helm/kind-action@a1b0e391336a6ee6713a0583f8c6240d70863de3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@ed74d11c0b343532753ecead8a951bb09bb34bc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reminder_comment.yml"
+    },
+    {
+      "component": "actions/stale@5bef64f19d7facfb25b37b414482c7164d639639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "hiyouga/vllm",
+      "target": "openai/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "Add label on auto-merge enabled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "Cleanup PR Body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm",
+      "target": "azure/setup-helm@b9e51907a09c216f16ebe8536097933489208112",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm",
+      "target": "helm/chart-testing-action@0d28d3144d3a25ea2cc349d6e59901c4ff469b3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm",
+      "target": "helm/kind-action@a1b0e391336a6ee6713a0583f8c6240d70863de3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm",
+      "target": "Lint and Deploy Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "hendrikmuhs/ccache-action@ed74d11c0b343532753ecead8a951bb09bb34bc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "pypa/gh-action-pypi-publish@release/v1.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reminder_comment.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reminder_comment.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "PR Reminder Comment Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "actions/stale@5bef64f19d7facfb25b37b414482c7164d639639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hiyouga/vllm",
+      "target": "Close inactive issues and PRs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:51:09.916920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11168
+    },
+    {
+      "path": "Dockerfile",
+      "size": 14193
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5091
+    },
+    {
+      "path": ".github/workflows/add_label_automerge.yml",
+      "size": 757
+    },
+    {
+      "path": ".github/workflows/cleanup_pr_body.yml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/lint-and-deploy.yaml",
+      "size": 4343
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 4151
+    },
+    {
+      "path": ".github/workflows/reminder_comment.yml",
+      "size": 1589
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 2048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "fork": true,
+    "full_name": "hiyouga/vllm",
+    "html_url": "https://github.com/hiyouga/vllm",
+    "language": "Python",
+    "pushed_at": "2025-03-25T12:25:39Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-12-26T21:31:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add label on auto-merge enabled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "term": "Add label on auto-merge enabled"
+    },
+    {
+      "context_snippet": "Cleanup PR Body",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "term": "Cleanup PR Body"
+    },
+    {
+      "context_snippet": "Lint and Deploy Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "term": "Lint and Deploy Charts"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "PR Reminder Comment Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reminder_comment.yml",
+      "term": "PR Reminder Comment Bot"
+    },
+    {
+      "context_snippet": "'Close inactive issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close inactive issues and PRs"
+    }
+  ]
+}

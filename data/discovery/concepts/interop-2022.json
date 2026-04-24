@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "interop-2022"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/results-analysis",
+      "status": "candidate-context",
+      "text": "Metrics generation for wpt.fyi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/results-analysis",
+      "status": "candidate-context",
+      "text": "This repository contains a set of scripts for doing analysis on results from"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/results-analysis",
+      "status": "candidate",
+      "text": "This repository contains a set of scripts for doing analysis on results from"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "interop-2022",
+  "concept_id": "interop-2022",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/results-analysis"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interop-2022",
+      "sense_id": "interop-2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

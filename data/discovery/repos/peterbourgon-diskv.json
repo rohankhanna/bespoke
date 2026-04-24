@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "peterbourgon/diskv",
+      "target": "google/btree",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:43.661066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6139
+    },
+    {
+      "path": "go.mod",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A disk-backed key-value store.",
+    "fork": false,
+    "full_name": "peterbourgon/diskv",
+    "html_url": "https://github.com/peterbourgon/diskv",
+    "language": "Go",
+    "pushed_at": "2021-11-10T01:12:08Z",
+    "stargazers_count": 1457,
+    "topics": [],
+    "updated_at": "2026-04-11T10:56:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/btree",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

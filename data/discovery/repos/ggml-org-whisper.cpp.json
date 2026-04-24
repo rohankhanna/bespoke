@@ -516,13 +516,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "openvinotoolkit/openvino",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ggml-org/whisper.cpp",
       "target": "ggml-org/whisper.spm",
       "target_type": "repository"
     },
@@ -530,7 +523,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "nickdarvey/whisper",
+      "target": "sandrohanea/whisper.net",
       "target_type": "repository"
     },
     {
@@ -835,7 +828,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:58:01.369625+00:00",
+  "fetched_at": "2026-04-24T09:14:11.383739+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -876,7 +869,7 @@
     "html_url": "https://github.com/ggml-org/whisper.cpp",
     "language": "C++",
     "pushed_at": "2026-04-20T05:12:57Z",
-    "stargazers_count": 48967,
+    "stargazers_count": 48982,
     "topics": [
       "inference",
       "openai",
@@ -885,7 +878,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-04-24T01:29:03Z"
+    "updated_at": "2026-04-24T09:13:31Z"
   },
   "repo_links": [
     {
@@ -900,12 +893,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nickdarvey/whisper",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openvinotoolkit/openvino",
+      "full_name": "sandrohanea/whisper.net",
       "source_file": "README.md"
     }
   ],

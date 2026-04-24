@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Static Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Static Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35976,
+      "status": "candidate",
+      "text": "static library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35975,
+      "status": "candidate",
+      "text": "static variable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35974,
+      "status": "candidate",
+      "text": "object file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35973,
+      "status": "candidate",
+      "text": "software build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35972,
+      "status": "candidate",
+      "text": "library"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static Build",
+      "sense_id": "static-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-build",
+  "observation_id": "41b33d80d480427e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Static Build",
+  "source_context_snippet": "Static Build",
+  "source_file": ".github/workflows/build_static.yml",
+  "source_repo": "EspressoSystems/espresso-example-l2",
+  "source_repo_description": null
+}

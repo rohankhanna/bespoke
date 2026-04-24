@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:20:59.763743+00:00",
+  "fetched_at": "2026-04-24T08:01:32.827320+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -317,7 +317,7 @@
     },
     {
       "path": ".github/workflows/publish_package.yml",
-      "size": 2494
+      "size": 3062
     },
     {
       "path": ".github/workflows/pytest.yml",
@@ -349,7 +349,7 @@
     "full_name": "Comfy-Org/comfy-cli",
     "html_url": "https://github.com/Comfy-Org/comfy-cli",
     "language": "Python",
-    "pushed_at": "2026-04-21T20:00:14Z",
+    "pushed_at": "2026-04-24T07:38:32Z",
     "stargazers_count": 760,
     "topics": [
       "ai",
@@ -357,7 +357,7 @@
       "command-line",
       "stable-diffusion"
     ],
-    "updated_at": "2026-04-22T21:11:25Z"
+    "updated_at": "2026-04-24T07:08:23Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Binary version of the SwiftLint Swift Package Manager plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swift-package-manager",
+      "sense_id": "swift-package-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "swift-package-manager",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swift-package-manager",
+  "observation_id": "7a715eab2eb18751",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "swift-package-manager",
+  "source_context_snippet": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)",
+  "source_file": null,
+  "source_repo": "SimplyDanny/SwiftLintPlugins",
+  "source_repo_description": "Binary version of the SwiftLint Swift Package Manager plugins."
+}

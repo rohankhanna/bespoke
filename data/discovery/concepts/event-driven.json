@@ -19,6 +19,18 @@
       "source_repo": "knative/eventing",
       "status": "candidate-context",
       "text": "_Secure event processing and discovery with CloudEvents_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Event-driven networking engine written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Twisted"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "knative/eventing",
       "status": "candidate",
       "text": "_Secure event processing and discovery with CloudEvents_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate",
+      "text": "Twisted"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "knative/eventing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "twisted/twisted"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

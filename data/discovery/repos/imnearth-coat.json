@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:04:34.094700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for \"Android in the Zoo: Chain-of-Action-Thought for GUI Agents\" (Findings of EMNLP 2024)",
+    "fork": false,
+    "full_name": "IMNearth/CoAT",
+    "html_url": "https://github.com/IMNearth/CoAT",
+    "language": "Python",
+    "pushed_at": "2024-10-14T23:46:31Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-04-03T01:02:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

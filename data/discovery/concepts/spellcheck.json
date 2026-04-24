@@ -105,6 +105,30 @@
       "source_repo": "redis/redis-py",
       "status": "candidate-context",
       "text": "spellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate-context",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate-context",
+      "text": "Object mapping, and more, for Redis and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-python",
+      "status": "candidate-context",
+      "text": "spellcheck"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis/redis-py",
+      "status": "candidate",
+      "text": "spellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/sway",
+      "status": "candidate",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-python",
       "status": "candidate",
       "text": "spellcheck"
     }
@@ -276,11 +312,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/spellcheck.yml",
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "FuelLabs/sway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump casks on schedule or request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "status": "candidate-context",
+      "text": "Bump casks on schedule or request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/homebrew-cask",
+      "status": "candidate",
+      "text": "Bump casks on schedule or request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28491,
+      "status": "candidate",
+      "text": "tapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28491,
+      "status": "candidate",
+      "text": "tapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28460,
+      "status": "candidate",
+      "text": "swell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28142,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19108,
+      "status": "candidate",
+      "text": "broach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump casks on schedule or request",
+  "concept_id": "bump-casks-on-schedule-or-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "XcodesOrg/homebrew-cask"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump casks on schedule or request",
+      "sense_id": "bump-casks-on-schedule-or-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

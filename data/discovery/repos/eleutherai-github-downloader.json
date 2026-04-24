@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EleutherAI/github-downloader",
+      "target": "leogao2/lm_dataformat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:52.602574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3181
+    },
+    {
+      "path": "requirements.txt",
+      "size": 92
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Script for downloading GitHub.",
+    "fork": true,
+    "full_name": "EleutherAI/github-downloader",
+    "html_url": "https://github.com/EleutherAI/github-downloader",
+    "language": "Python",
+    "pushed_at": "2024-07-01T13:09:54Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-04-07T07:48:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leogao2/lm_dataformat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

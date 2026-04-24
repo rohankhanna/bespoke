@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "nextword"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "high-moctane/nextword",
+      "status": "candidate-context",
+      "text": "Predict next English words."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/nextword",
+      "status": "candidate-context",
+      "text": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "high-moctane/nextword-data",
+      "status": "candidate-context",
+      "text": "Dataset for nextword."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/nextword-data",
+      "status": "candidate-context",
+      "text": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/nextword",
+      "status": "candidate",
+      "text": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/nextword-data",
+      "status": "candidate",
+      "text": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nextword",
+  "concept_id": "nextword",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "high-moctane/nextword"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "high-moctane/nextword-data"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nextword",
+      "sense_id": "nextword#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

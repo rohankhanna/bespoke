@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "jmespath/jmespath.site",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "jmespath/jmespath.site",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "jmespath/jmespath.site",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "jmespath/jmespath.site",
+      "target": "Deploy site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "jmespath/jmespath.site",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "jmespath/jmespath.site",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "jmespath/jmespath.site",
+      "target": "Run PR Checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:00:46.285164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2486
+    },
+    {
+      "path": "requirements.txt",
+      "size": 82
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 779
+    },
+    {
+      "path": ".github/workflows/pr-check.yml",
+      "size": 512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The repo for the jmespath.org website.",
+    "fork": false,
+    "full_name": "jmespath/jmespath.site",
+    "html_url": "https://github.com/jmespath/jmespath.site",
+    "language": "Makefile",
+    "pushed_at": "2026-03-01T16:13:07Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2025-10-02T16:17:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy site"
+    },
+    {
+      "context_snippet": "Run PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "term": "Run PR Checks"
+    }
+  ]
+}

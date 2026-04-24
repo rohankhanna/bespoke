@@ -19,6 +19,30 @@
       "source_repo": "MasterJ93/ATProtoKit",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluesky-social/indigo",
+      "status": "candidate-context",
+      "text": "Go source code for Bluesky's atproto services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/indigo",
+      "status": "candidate-context",
+      "text": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluesky-social/pds",
+      "status": "candidate-context",
+      "text": "Bluesky PDS (Personal Data Server) container image, compose file, and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/pds",
+      "status": "candidate-context",
+      "text": "Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "MasterJ93/ATProtoKit",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/indigo",
+      "status": "candidate",
+      "text": "![photo](https://static.bnewbold.net/tmp/indigo_serac.jpeg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/pds",
+      "status": "candidate",
+      "text": "Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "MasterJ93/ATProtoKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bluesky-social/indigo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bluesky-social/pds"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

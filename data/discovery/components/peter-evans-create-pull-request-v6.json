@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v6",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "emscripten-core/emsdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-Kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cshum/vipsgen"
     }
   ]
 }

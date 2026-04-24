@@ -19,6 +19,18 @@
       "source_repo": "darkweak/souin",
       "status": "candidate-context",
       "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate-context",
+      "text": "A repository to host examples and tutorials for Gin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate-context",
+      "text": "[![Trivy Security Scan](https://github.com/gin-gonic/examples/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/gin-gonic/examples/actions/workflows/trivy-scan.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "darkweak/souin",
       "status": "candidate",
       "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/examples",
+      "status": "candidate",
+      "text": "[![Trivy Security Scan](https://github.com/gin-gonic/examples/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/gin-gonic/examples/actions/workflows/trivy-scan.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "gin-gonic/examples"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

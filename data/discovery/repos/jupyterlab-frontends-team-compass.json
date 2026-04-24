@@ -2,20 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jupyterlab/frontends-team-compass",
-      "target": "jupyter/notebook",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jupyterlab/frontends-team-compass",
-      "target": "jupyter/governance",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "jupyterlab/frontends-team-compass",
@@ -30,7 +16,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:32:43.945877+00:00",
+  "fetched_at": "2026-04-24T09:02:45.517475+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,18 +40,7 @@
     ],
     "updated_at": "2026-04-12T09:42:08Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jupyter/governance",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jupyter/notebook",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.",

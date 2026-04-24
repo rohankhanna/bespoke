@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:09:30.370967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1600
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quick access to the Textual demo",
+    "fork": false,
+    "full_name": "Textualize/textual-demo",
+    "html_url": "https://github.com/Textualize/textual-demo",
+    "language": "Python",
+    "pushed_at": "2024-12-12T11:59:56Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-04-23T20:30:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "geometry-algorithms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locationtech/jts",
+      "status": "candidate-context",
+      "text": "The JTS Topology Suite is a Java library for creating and manipulating vector geometry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locationtech/jts",
+      "status": "candidate-context",
+      "text": "JTS Topology Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locationtech/jts",
+      "status": "candidate",
+      "text": "JTS Topology Suite"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "geometry-algorithms",
+  "concept_id": "geometry-algorithms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "locationtech/jts"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geometry-algorithms",
+      "sense_id": "geometry-algorithms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

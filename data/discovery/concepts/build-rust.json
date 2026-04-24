@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\u2699\ufe0f Build Rust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Build Rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet4it/udbserver",
+      "status": "candidate",
+      "text": "\u2699\ufe0f Build Rust"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "eats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "oxidize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "rust inhibitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "rusted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\u2699\ufe0f Build Rust",
+  "concept_id": "build-rust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-rust.yml",
+      "source_repo": "bet4it/udbserver"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\u2699\ufe0f Build Rust",
+      "sense_id": "build-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

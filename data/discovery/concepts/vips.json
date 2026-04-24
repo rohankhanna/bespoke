@@ -19,6 +19,18 @@
       "source_repo": "ad-si/FlatCV",
       "status": "candidate-context",
       "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "Elixir extension for libvips"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ad-si/FlatCV",
       "status": "candidate",
       "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akash-akya/vix",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ad-si/FlatCV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akash-akya/vix"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

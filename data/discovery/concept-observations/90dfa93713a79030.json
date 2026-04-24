@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reference code for the paper Interactive White Balancing for Camera-Rendered Images Mahmoud Afifi and Michael S. Brown. In Color and Imaging Conference (CIC), 2020. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "color-constancy",
+      "sense_id": "color-constancy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "color-constancy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "color-constancy",
+  "observation_id": "90dfa93713a79030",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "color-constancy",
+  "source_context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)* and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*",
+  "source_file": null,
+  "source_repo": "mahmoudnafifi/Interactive_WB_correction",
+  "source_repo_description": "Reference code for the paper Interactive White Balancing for Camera-Rendered Images Mahmoud Afifi and Michael S. Brown. In Color and Imaging Conference (CIC), 2020. "
+}

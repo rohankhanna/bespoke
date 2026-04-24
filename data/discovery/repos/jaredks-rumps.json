@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jaredks/rumps",
+      "target": "ahmedelgohary/currency-converter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jaredks/rumps",
+      "target": "agucova/g-assistant-mac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jaredks/rumps",
+      "target": "akigugale/volsbb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jaredks/rumps",
+      "target": "8ern4ard/workwise",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:43.890760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ridiculously Uncomplicated macOS Python Statusbar apps",
+    "fork": false,
+    "full_name": "jaredks/rumps",
+    "html_url": "https://github.com/jaredks/rumps",
+    "language": "Python",
+    "pushed_at": "2026-02-27T20:29:24Z",
+    "stargazers_count": 3297,
+    "topics": [],
+    "updated_at": "2026-04-24T03:58:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8ern4ard/workwise",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agucova/g-assistant-mac",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmedelgohary/currency-converter",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akigugale/volsbb",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

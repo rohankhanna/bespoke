@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "command"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "Static file serving and directory listing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate-context",
+      "text": "serve \u2014 Static file serving and directory listing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/serve",
+      "status": "candidate",
+      "text": "serve \u2014 Static file serving and directory listing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043744,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043659,
+      "status": "candidate",
+      "text": "bidding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043116,
+      "status": "candidate",
+      "text": "mastery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042581,
+      "status": "candidate",
+      "text": "dominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040917,
+      "status": "candidate",
+      "text": "instruction"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48079,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46037,
+      "status": "candidate",
+      "text": "compel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26034,
+      "status": "candidate",
+      "text": "overlook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18034,
+      "status": "candidate",
+      "text": "require"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18032,
+      "status": "candidate",
+      "text": "dominate"
+    }
+  ],
+  "canonical_name": "command",
+  "concept_id": "command",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "command",
+      "sense_id": "command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

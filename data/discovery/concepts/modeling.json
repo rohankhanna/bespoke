@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "modeling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/dash",
+      "status": "candidate-context",
+      "text": "Data Apps & Dashboards for Python. No JavaScript Required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/dash",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/github/plotly/dash/master.svg)](https://circleci.com/gh/plotly/dash)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/dash",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/github/plotly/dash/master.svg)](https://circleci.com/gh/plotly/dash)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902356,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902055,
+      "status": "candidate",
+      "text": "molding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39900105,
+      "status": "candidate",
+      "text": "moulding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899689,
+      "status": "candidate",
+      "text": "mould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29937941,
+      "status": "candidate",
+      "text": "clay sculpture"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21067,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4046,
+      "status": "candidate",
+      "text": "molding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36,
+      "status": "candidate",
+      "text": "moulding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "modelling"
+    }
+  ],
+  "canonical_name": "modeling",
+  "concept_id": "modeling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "plotly/dash"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modeling",
+      "sense_id": "modeling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

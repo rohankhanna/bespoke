@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Push ARM Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eea/eea-website-frontend",
+      "status": "candidate-context",
+      "text": "EEA Main Website Volto frontend (Plone 6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eea/eea-website-frontend",
+      "status": "candidate-context",
+      "text": "Build and Push ARM Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eea/eea-website-frontend",
+      "status": "candidate",
+      "text": "Build and Push ARM Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42119,
+      "status": "candidate",
+      "text": "poke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33054,
+      "status": "candidate",
+      "text": "shove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26395,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26365,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26303,
+      "status": "candidate",
+      "text": "throw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Push ARM Docker Image",
+  "concept_id": "build-and-push-arm-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-frontend"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Push ARM Docker Image",
+      "sense_id": "build-and-push-arm-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

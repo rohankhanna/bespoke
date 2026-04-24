@@ -2,7 +2,8 @@
   "aliases": [
     "CI build",
     "ci-build",
-    "CI Build"
+    "CI Build",
+    "CI-Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -129,6 +130,60 @@
       "source_repo": "Alexander-Miller/treemacs",
       "status": "candidate-context",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aragozin/jvm-tools",
+      "status": "candidate-context",
+      "text": "Small set of tools for JVM troublshooting, monitoring and profiling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aragozin/jvm-tools",
+      "status": "candidate-context",
+      "text": "CI build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice \uff08\u300e\u98de\u6868\u300f\u6838\u5fc3\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60&\u673a\u5668\u5b66\u4e60\u9ad8\u6027\u80fd\u5355\u673a\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u548c\u8de8\u5e73\u53f0\u90e8\u7f72\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate-context",
+      "text": "CI-Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zilliztech/vts",
+      "status": "candidate-context",
+      "text": "VTS is a tool designed for the transformation and transportation of vectors and unstructured data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zilliztech/vts",
+      "status": "candidate-context",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-redhat-telemetry",
+      "status": "candidate-context",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "BCrypt.Net - Bringing updates to the original bcrypt package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
+      "status": "candidate-context",
+      "text": "CI Build"
     }
   ],
   "candidate_glosses": [
@@ -195,6 +250,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Alexander-Miller/treemacs",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aragozin/jvm-tools",
+      "status": "candidate",
+      "text": "CI build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle",
+      "status": "candidate",
+      "text": "CI-Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zilliztech/vts",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-redhat-telemetry",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BcryptNet/bcrypt.net",
       "status": "candidate",
       "text": "CI Build"
     }
@@ -336,11 +421,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aragozin/jvm-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/CI-Build.yml",
+      "source_repo": "PaddlePaddle/Paddle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zilliztech/vts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "redhat-developer/vscode-redhat-telemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amazon-ion/ion-cli"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

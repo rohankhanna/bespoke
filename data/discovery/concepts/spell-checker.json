@@ -1,15 +1,74 @@
 {
   "aliases": [
-    "spell-checker"
+    "spell-checker",
+    "Spell checker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "Spell checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate",
+      "text": "Spell checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070657,
+      "status": "candidate",
+      "text": "spelling checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070655,
+      "status": "candidate",
+      "text": "grammar checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070654,
+      "status": "candidate",
+      "text": "autocorrect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070653,
+      "status": "candidate",
+      "text": "spam killer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070652,
+      "status": "candidate",
+      "text": "softwear"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "spell-checker",
   "concept_id": "spell-checker",
@@ -20,12 +79,20 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "crate-ci/typos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "finegrain-ai/refiners"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

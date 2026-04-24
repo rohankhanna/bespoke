@@ -31,6 +31,18 @@
       "source_repo": "apple/swift-log",
       "status": "candidate-context",
       "text": "PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-protobuf",
+      "status": "candidate-context",
+      "text": "Plugin and runtime library for using protobuf with Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-protobuf",
+      "status": "candidate-context",
+      "text": "PR label"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apple/swift-log",
+      "status": "candidate",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-protobuf",
       "status": "candidate",
       "text": "PR label"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pull_request_label.yml",
       "source_repo": "apple/swift-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-protobuf"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

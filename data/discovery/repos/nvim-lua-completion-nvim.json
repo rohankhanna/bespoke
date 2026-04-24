@@ -5,14 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "ms-jpq/coq_nvim",
+      "target": "haorenw1025/completion-nvim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "haorenw1025/completion-nvim",
+      "target": "steelsojka/completion-buffers",
       "target_type": "repository"
     },
     {
@@ -21,16 +21,9 @@
       "source_repo": "nvim-lua/completion-nvim",
       "target": "nvim-treesitter/completion-treesitter",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-lua/completion-nvim",
-      "target": "norcalli/snippets.nvim",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T00:52:38.675245+00:00",
+  "fetched_at": "2026-04-24T08:16:45.017209+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -59,17 +52,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ms-jpq/coq_nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "norcalli/snippets.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "nvim-treesitter/completion-treesitter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steelsojka/completion-buffers",
       "source_file": "README.md"
     }
   ],

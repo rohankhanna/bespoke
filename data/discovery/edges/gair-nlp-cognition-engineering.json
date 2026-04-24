@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "aidc-ai/marco-o1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "aqa6666/scp-116k-open",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "evolvinglmms-lab/open-r1-multimodal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/cognition-engineering",
+      "target": "deep-agent/r1-v",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "GAIR-NLP/cognition-engineering"
+}

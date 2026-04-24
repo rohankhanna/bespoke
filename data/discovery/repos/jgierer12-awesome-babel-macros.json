@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "target": "babel-macros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "target": "babel-plugin-macros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "target": "list",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:07:57.550838+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A collection of awesome babel macros and related resources",
+    "fork": false,
+    "full_name": "jgierer12/awesome-babel-macros",
+    "html_url": "https://github.com/jgierer12/awesome-babel-macros",
+    "language": null,
+    "pushed_at": "2022-10-09T05:41:16Z",
+    "stargazers_count": 508,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "babel",
+      "babel-macros",
+      "babel-plugin-macros",
+      "list"
+    ],
+    "updated_at": "2026-03-13T14:40:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A collection of awesome babel macros and related resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "A collection of awesome babel macros and related resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A collection of awesome babel macros and related resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "A collection of awesome babel macros and related resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel-macros"
+    },
+    {
+      "context_snippet": "A collection of awesome babel macros and related resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel-plugin-macros"
+    },
+    {
+      "context_snippet": "A collection of awesome babel macros and related resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    }
+  ]
+}

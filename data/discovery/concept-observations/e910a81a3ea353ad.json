@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dojo 1 - the Dojo 1 toolkit core library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dojo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dojo"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dojo-toolkit",
+      "sense_id": "dojo-toolkit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dojo-toolkit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dojo-toolkit",
+  "observation_id": "e910a81a3ea353ad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "dojo-toolkit",
+  "source_context_snippet": "dojo",
+  "source_file": null,
+  "source_repo": "dojo/dojo",
+  "source_repo_description": "Dojo 1 - the Dojo 1 toolkit core library."
+}

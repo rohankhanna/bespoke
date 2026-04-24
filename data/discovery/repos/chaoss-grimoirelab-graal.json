@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "bitergia/release-tools-check-changelog@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/build@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/release@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/publish@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@354a1ad156761f5ee2b7b13fa8e09943a5e8d252",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "chaoss/grimoirelab-perceval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "chaoss/grimoirelab-perceval_",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "chaoss/grimoirelab-kingarthur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "chaoss/grimoirelab-kingarthur.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "bitergia/release-tools-check-changelog@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "Check changelog file included",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "chaoss/grimoirelab-github-actions/build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "chaoss/grimoirelab-github-actions/release@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "chaoss/grimoirelab-github-actions/publish@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "ruby/setup-ruby@354a1ad156761f5ee2b7b13fa8e09943a5e8d252",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "agnostic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "generic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-graal",
+      "target": "source-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:33.123870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13744
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1600
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 209
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 880
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Generic Repository AnALyzer",
+    "fork": false,
+    "full_name": "chaoss/grimoirelab-graal",
+    "html_url": "https://github.com/chaoss/grimoirelab-graal",
+    "language": "Python",
+    "pushed_at": "2026-03-03T09:09:50Z",
+    "stargazers_count": 28,
+    "topics": [
+      "agnostic",
+      "analysis",
+      "generic",
+      "source-code"
+    ],
+    "updated_at": "2026-04-14T23:13:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-kingarthur",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-kingarthur.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-perceval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-perceval_",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check changelog file included",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Check changelog file included"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "Graal leverages on the Git backend of [Perceval](https://github.com/chaoss/grimoirelab-perceval) and enhances it to set up ad-hoc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agnostic"
+    },
+    {
+      "context_snippet": "Graal leverages on the Git backend of [Perceval](https://github.com/chaoss/grimoirelab-perceval) and enhances it to set up ad-hoc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "Graal leverages on the Git backend of [Perceval](https://github.com/chaoss/grimoirelab-perceval) and enhances it to set up ad-hoc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generic"
+    },
+    {
+      "context_snippet": "Graal leverages on the Git backend of [Perceval](https://github.com/chaoss/grimoirelab-perceval) and enhances it to set up ad-hoc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-code"
+    }
+  ]
+}

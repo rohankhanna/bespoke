@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Jupyter Server Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "The backend\u2014i.e. core services, APIs, and REST endpoints\u2014to Jupyter web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "Jupyter Server Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate",
+      "text": "Jupyter Server Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "ssa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "acer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "ase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "bar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Jupyter Server Tests",
+  "concept_id": "jupyter-server-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "jupyter-server/jupyter_server"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Jupyter Server Tests",
+      "sense_id": "jupyter-server-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

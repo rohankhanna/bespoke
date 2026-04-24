@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v5",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-deps.yml",
       "source_repo": "kubernetes-sigs/provider-aws-test-infra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-pre-commit.yml",
+      "source_repo": "aesara-devs/aesara"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_esbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-html.yml",
+      "source_repo": "plotly/dash"
     }
   ]
 }

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/math-evaluation-harness",
+      "target": "microsoft/tora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/math-evaluation-harness",
+      "target": "openai/prm800k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ZubinGou/math-evaluation-harness",
+      "target": "zubingou/latex2sympy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:33.128280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10138
+    },
+    {
+      "path": "requirements.txt",
+      "size": 255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple toolkit for benchmarking LLMs on mathematical reasoning tasks. \ud83e\uddee\u2728",
+    "fork": false,
+    "full_name": "ZubinGou/math-evaluation-harness",
+    "html_url": "https://github.com/ZubinGou/math-evaluation-harness",
+    "language": "Python",
+    "pushed_at": "2024-04-26T10:50:38Z",
+    "stargazers_count": 276,
+    "topics": [],
+    "updated_at": "2026-04-20T03:52:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/tora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/prm800k",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zubingou/latex2sympy",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

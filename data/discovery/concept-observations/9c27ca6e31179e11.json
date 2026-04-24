@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fork of Git containing Windows-specific patches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Monitor component updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Monitor component updates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23724,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23724,
+      "status": "candidate",
+      "text": "upgrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23701,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22762,
+      "status": "candidate",
+      "text": "blogger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22335,
+      "status": "candidate",
+      "text": "afternoon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monitor component updates",
+      "sense_id": "monitor-component-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monitor-component-updates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monitor-component-updates",
+  "observation_id": "9c27ca6e31179e11",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Monitor component updates",
+  "source_context_snippet": "Monitor component updates",
+  "source_file": ".github/workflows/monitor-components.yml",
+  "source_repo": "git-for-windows/git",
+  "source_repo_description": "A fork of Git containing Windows-specific patches."
+}

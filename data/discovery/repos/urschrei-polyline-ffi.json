@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "georust/rust-polyline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "Test and Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "ffi-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/polyline-ffi",
+      "target": "polyline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:34.202017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2668
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 699
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 5313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FFI Bindings for the rust-polyline crate",
+    "fork": false,
+    "full_name": "urschrei/polyline-ffi",
+    "html_url": "https://github.com/urschrei/polyline-ffi",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T11:05:10Z",
+    "stargazers_count": 1,
+    "topics": [
+      "computational-geometry",
+      "ffi-bindings",
+      "polyline"
+    ],
+    "updated_at": "2026-04-13T11:05:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "georust/rust-polyline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test and Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test and Build"
+    },
+    {
+      "context_snippet": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffi-bindings"
+    },
+    {
+      "context_snippet": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyline"
+    }
+  ]
+}

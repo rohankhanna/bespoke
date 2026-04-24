@@ -19,6 +19,18 @@
       "source_repo": "AppImage/AppImageKit",
       "status": "candidate-context",
       "text": "The __AppImage__ format is a format for packaging applications in a way that allows them to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfbTerminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AppImage/AppImageKit",
       "status": "candidate",
       "text": "The __AppImage__ format is a format for packaging applications in a way that allows them to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "AppImage/AppImageKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "electerm/electerm"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

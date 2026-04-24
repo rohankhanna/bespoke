@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "clovaai/voxceleb_trainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "joonson/syncnet_python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "fuankarion/active-speakers-context",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "lordmartian/deep_avsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "active-speaker-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "audio-visual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "awesome-asd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "target": "multimedia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:59:24.210278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ACM MM 2021: 'Is Someone Speaking? Exploring Long-term Temporal Features for Audio-visual Active Speaker Detection'",
+    "fork": false,
+    "full_name": "TaoRuijie/TalkNet-ASD",
+    "html_url": "https://github.com/TaoRuijie/TalkNet-ASD",
+    "language": "Python",
+    "pushed_at": "2023-10-23T02:13:36Z",
+    "stargazers_count": 465,
+    "topics": [
+      "active-speaker-detection",
+      "audio-visual",
+      "awesome-asd",
+      "multimedia"
+    ],
+    "updated_at": "2026-04-16T21:28:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/voxceleb_trainer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuankarion/active-speakers-context",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joonson/syncnet_python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lordmartian/deep_avsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "active-speaker-detection"
+    },
+    {
+      "context_snippet": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-visual"
+    },
+    {
+      "context_snippet": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-asd"
+    },
+    {
+      "context_snippet": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimedia"
+    }
+  ]
+}

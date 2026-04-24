@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tilt-dev/tilt-apiserver",
+      "target": "tilt-dev/tilt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tilt-dev/tilt-apiserver",
+      "target": "kubernetes-sigs/apiserver-runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tilt-dev/tilt-apiserver",
+      "target": "thetirefire/badidea",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "tilt-dev/tilt-apiserver"
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "985892345/mirai-hotfix",
+      "target": "mirai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "985892345/mirai-hotfix",
+      "target": "mirai-console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "985892345/mirai-hotfix",
+      "target": "mirai-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:32.015196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u57fa\u4e8e Mirai Console \u5b9e\u73b0\u7684\u70ed\u4fee\u63d2\u4ef6",
+    "fork": false,
+    "full_name": "985892345/mirai-hotfix",
+    "html_url": "https://github.com/985892345/mirai-hotfix",
+    "language": "Kotlin",
+    "pushed_at": "2022-11-04T12:22:04Z",
+    "stargazers_count": 5,
+    "topics": [
+      "mirai",
+      "mirai-console",
+      "mirai-plugin"
+    ],
+    "updated_at": "2023-04-22T23:36:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.github.985892345/mirai-hotfix)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.github.985892345/mirai-hotfix)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai-console"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.github.985892345/mirai-hotfix)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai-plugin"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Pipeline"
+    "Release Pipeline",
+    "release-pipeline"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "1mcp-app/agent",
       "status": "candidate-context",
       "text": "Release Pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate-context",
+      "text": "Bayesian Modeling and Probabilistic Programming in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate-context",
+      "text": "release-pipeline"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "1mcp-app/agent",
       "status": "candidate",
       "text": "Release Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc",
+      "status": "candidate",
+      "text": "release-pipeline"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/release-pipeline.yml",
       "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pymc-devs/pymc"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

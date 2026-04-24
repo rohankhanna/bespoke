@@ -1,0 +1,12 @@
+{
+  "component": "tj-actions/changed-files@7dee1b0c1557f278e5c7dc244927139d78c0e22a",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-dashboards.yml",
+      "source_repo": "adinhodovic/argo-cd-mixin"
+    }
+  ]
+}

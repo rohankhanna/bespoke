@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "cdqag/workflow-public/.github/workflows/release-action.yaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "cdqag/update-majorver@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-major-tag.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "get-gah/setup-gah",
+      "target": "marverix/gah",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/setup-gah",
+      "target": "cdqag/workflow-public/.github/workflows/release-action.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/setup-gah",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-major-tag.yaml",
+      "source_repo": "get-gah/setup-gah",
+      "target": "cdqag/update-majorver@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-major-tag.yaml",
+      "source_repo": "get-gah/setup-gah",
+      "target": "Update Major Tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:02.317287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 218
+    },
+    {
+      "path": ".github/workflows/update-major-tag.yaml",
+      "size": 203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GitHub Action that setups gah",
+    "fork": false,
+    "full_name": "get-gah/setup-gah",
+    "html_url": "https://github.com/get-gah/setup-gah",
+    "language": null,
+    "pushed_at": "2025-10-27T12:30:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-27T12:30:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marverix/gah",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Update Major Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-major-tag.yaml",
+      "term": "Update Major Tag"
+    }
+  ]
+}

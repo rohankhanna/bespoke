@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/aleth",
+      "target": "ethereum-mining/ethminer.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethereum/aleth",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethereum/aleth",
+      "target": "ethereum-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:59:18.580901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Aleth \u2013 Ethereum C++ client, tools and libraries",
+    "fork": false,
+    "full_name": "ethereum/aleth",
+    "html_url": "https://github.com/ethereum/aleth",
+    "language": "C++",
+    "pushed_at": "2024-03-05T10:53:01Z",
+    "stargazers_count": 3972,
+    "topics": [
+      "cpp",
+      "ethereum",
+      "ethereum-client",
+      "evm"
+    ],
+    "updated_at": "2026-04-23T13:06:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-mining/ethminer.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> The collection of C++ libraries and tools for Ethereum,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "> The collection of C++ libraries and tools for Ethereum,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-client"
+    }
+  ]
+}

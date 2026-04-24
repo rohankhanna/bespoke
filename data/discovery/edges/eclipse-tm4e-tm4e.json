@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "apache/netbeans",
+      "target": "eclipse/corrosion",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "angelozerr/ec4e",
+      "target": "eclipse/acute",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "dart4e/dart4e",
+      "target": "eclipse/dartboard",
       "target_type": "repository"
     },
     {
@@ -232,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "eclipse-tm4e/tm4e"
 }

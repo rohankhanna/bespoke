@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HakamShams/Focal_TSMP",
+      "target": "climate-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HakamShams/Focal_TSMP",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HakamShams/Focal_TSMP",
+      "target": "earth-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HakamShams/Focal_TSMP",
+      "target": "focal-modulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HakamShams/Focal_TSMP",
+      "target": "remote-sensing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:15.915977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[GMD'24] Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation",
+    "fork": false,
+    "full_name": "HakamShams/Focal_TSMP",
+    "html_url": "https://github.com/HakamShams/Focal_TSMP",
+    "language": "Python",
+    "pushed_at": "2024-08-19T19:41:25Z",
+    "stargazers_count": 13,
+    "topics": [
+      "climate-science",
+      "deep-learning",
+      "earth-science",
+      "focal-modulation",
+      "remote-sensing"
+    ],
+    "updated_at": "2026-04-23T15:24:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "climate-science"
+    },
+    {
+      "context_snippet": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "earth-science"
+    },
+    {
+      "context_snippet": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "focal-modulation"
+    },
+    {
+      "context_snippet": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-sensing"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "manim-kindergarten/manim_action_renderer@master",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/renderer.yml",
       "source_repo": "manim-kindergarten/manim_sandbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "TonyCrane/manim_projects"
     }
   ]
 }

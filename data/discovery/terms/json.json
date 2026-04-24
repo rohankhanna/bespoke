@@ -1,31 +1,66 @@
 {
-  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "json5/json5"
+      "source_repo": "json-iterator/go"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "aaronlamz/excel-to-json"
+      "source_repo": "kurtmckee/feedparser"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "adamritter/fastgron"
+      "source_repo": "dottxt-ai/outlines"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "facil-io/cstl"
+      "source_repo": "rest-sh/restish"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "json-schema-org/json-schema-spec"
+      "source_repo": "michalmuskala/jason"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "expressjs/body-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "json-c/json-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomnomnom/gron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohler55/oj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "simd-lite/simd-json"
     }
   ],
   "term": "json"

@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gsap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-sass",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "normalize.css",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stripe",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uuid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-star-rating",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-stripe-elements-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "gsap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "node-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "normalize.css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "nuxt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "sass-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "stripe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "vue-star-rating",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "vue-stripe-elements-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "jamstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "jamstack-storefront",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "netlify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "netlify-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "nuxt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "serverless-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "stripe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify",
+      "target": "stripe-checkout",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:54.171864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1205
+    },
+    {
+      "path": "package.json",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udecd A JAMstack Ecommerce Site built with Nuxt and Netlify Functions",
+    "fork": false,
+    "full_name": "sdras/ecommerce-netlify",
+    "html_url": "https://github.com/sdras/ecommerce-netlify",
+    "language": "Vue",
+    "pushed_at": "2023-01-27T20:01:31Z",
+    "stargazers_count": 1564,
+    "topics": [
+      "grid",
+      "jamstack",
+      "jamstack-storefront",
+      "netlify",
+      "netlify-functions",
+      "nuxt",
+      "serverless",
+      "serverless-functions",
+      "stripe",
+      "stripe-checkout"
+    ],
+    "updated_at": "2026-04-19T17:08:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grid"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jamstack"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jamstack-storefront"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netlify"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netlify-functions"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuxt"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-functions"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe"
+    },
+    {
+      "context_snippet": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe-checkout"
+    }
+  ]
+}

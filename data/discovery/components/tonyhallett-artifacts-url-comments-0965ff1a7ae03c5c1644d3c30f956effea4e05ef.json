@@ -1,0 +1,12 @@
+{
+  "component": "tonyhallett/artifacts-url-comments@0965ff1a7ae03c5c1644d3c30f956effea4e05ef",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "probonopd/go-appimage"
+    }
+  ]
+}

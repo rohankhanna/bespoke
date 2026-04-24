@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "game-examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "A collection of small sample games made with raylib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "game-examples",
+  "concept_id": "game-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "game-examples",
+      "sense_id": "game-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

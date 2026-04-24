@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "andyholmes/flatter@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tchx84/Flatseal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tchx84/Flatseal",
+      "target": "andyholmes/flatter@v1.0.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:06.759503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1747
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manage Flatpak permissions",
+    "fork": false,
+    "full_name": "tchx84/Flatseal",
+    "html_url": "https://github.com/tchx84/Flatseal",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T20:07:06Z",
+    "stargazers_count": 1630,
+    "topics": [],
+    "updated_at": "2026-04-23T16:52:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

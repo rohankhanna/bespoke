@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Canary Release",
-    "Canary release"
+    "Canary release",
+    "canary-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "frinyvonnick/gitmoji-changelog",
       "status": "candidate-context",
       "text": "Canary release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "The zero configuration build tool for the web. \ud83d\udce6\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "canary-release"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "frinyvonnick/gitmoji-changelog",
       "status": "candidate",
       "text": "Canary release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate",
+      "text": "canary-release"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/canary-release.yml",
       "source_repo": "frinyvonnick/gitmoji-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/canary-release.yml",
+      "source_repo": "parcel-bundler/parcel"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Distributed SQL Engine in Python using Dask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly upstream testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly upstream testing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19844,
+      "status": "candidate",
+      "text": "pony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "bath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "sleep"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly upstream testing",
+      "sense_id": "nightly-upstream-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-upstream-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-upstream-testing",
+  "observation_id": "a190b2646bdf6e8f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Nightly upstream testing",
+  "source_context_snippet": "Nightly upstream testing",
+  "source_file": ".github/workflows/test-upstream.yml",
+  "source_repo": "dask-contrib/dask-sql",
+  "source_repo_description": "Distributed SQL Engine in Python using Dask"
+}

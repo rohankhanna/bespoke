@@ -43,6 +43,42 @@
       "source_repo": "AIDC-AI/Parrot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate-context",
+      "text": "MoH: Multi-Head Attention as Mixture-of-Head Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Tutel",
+      "status": "candidate-context",
+      "text": "Tutel MoE: Optimized Mixture-of-Experts Library, Support GptOss/DeepSeek/Kimi-K2/Qwen3 using FP8/NVFP4/MXFP4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Tutel",
+      "status": "candidate-context",
+      "text": "Tutel MoE: An Optimized Mixture-of-Experts Implementation, also the first parallel solution proposing [\"No-penalty Parallism/Sparsity/Capacity/.. Switching\"](https://mlsys.org/media/mlsys-2023/Slides/2477.pdf) for modern training and inference that have dynamic behaviors."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "AIDC-AI/Parrot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoE-plus-plus",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/MoH",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Tutel",
+      "status": "candidate",
+      "text": "Tutel MoE: An Optimized Mixture-of-Experts Implementation, also the first parallel solution proposing [\"No-penalty Parallism/Sparsity/Capacity/.. Switching\"](https://mlsys.org/media/mlsys-2023/Slides/2477.pdf) for modern training and inference that have dynamic behaviors."
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +148,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "AIDC-AI/Parrot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoE-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/MoH"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Tutel"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

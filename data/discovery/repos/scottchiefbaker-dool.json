@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottchiefbaker/dool",
+      "target": "dagwieers/dstat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottchiefbaker/dool",
+      "target": "tomas-m/iotop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "scottchiefbaker/dool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "scottchiefbaker/dool",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "scottchiefbaker/dool",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "scottchiefbaker/dool",
+      "target": "PyPI publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scottchiefbaker/dool",
+      "target": "dstat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scottchiefbaker/dool",
+      "target": "monitoring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:03.861921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2897
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 638
+    },
+    {
+      "path": ".github/workflows/pypi.yaml",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "next",
+    "description": "Linux CLI tool providing real-time system resource monitoring",
+    "fork": false,
+    "full_name": "scottchiefbaker/dool",
+    "html_url": "https://github.com/scottchiefbaker/dool",
+    "language": "Python",
+    "pushed_at": "2026-03-09T16:17:59Z",
+    "stargazers_count": 476,
+    "topics": [
+      "dstat",
+      "monitoring"
+    ],
+    "updated_at": "2026-04-20T12:43:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dagwieers/dstat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomas-m/iotop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyPI publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yaml",
+      "term": "PyPI publish"
+    },
+    {
+      "context_snippet": "Dool is a command line tool to monitor many aspects of your Linux system: CPU,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dstat"
+    },
+    {
+      "context_snippet": "Dool is a command line tool to monitor many aspects of your Linux system: CPU,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    }
+  ]
+}

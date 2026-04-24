@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control",
+      "target": "5scontrol/5s-dev-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control",
+      "target": "5scontrol/5s-backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control",
+      "target": "5scontrol/5s-frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control",
+      "target": "5scontrol/5s-algorithms-controller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control",
+      "target": "manufacturing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:36.728788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5956
+    },
+    {
+      "path": "Dockerfile",
+      "size": 279
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically detect when a worker is absent using power of computer vision",
+    "fork": false,
+    "full_name": "5sControl/machine-control",
+    "html_url": "https://github.com/5sControl/machine-control",
+    "language": "Python",
+    "pushed_at": "2024-04-04T08:09:49Z",
+    "stargazers_count": 1,
+    "topics": [
+      "algorithm",
+      "machine-learning",
+      "manufacturing",
+      "python"
+    ],
+    "updated_at": "2025-04-29T08:08:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-algorithms-controller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-dev-documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-frontend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manufacturing"
+    }
+  ]
+}

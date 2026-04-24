@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/human_dynamics",
+      "target": "akanazawa/alphapose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/human_dynamics",
+      "target": "daniilidis-group/neural_renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/human_dynamics",
+      "target": "zju-george/human_dynamics",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:52.667433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4473
+    },
+    {
+      "path": "requirements.txt",
+      "size": 241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project for paper \"Learning 3D Human Dynamics from Video\"",
+    "fork": false,
+    "full_name": "akanazawa/human_dynamics",
+    "html_url": "https://github.com/akanazawa/human_dynamics",
+    "language": "Python",
+    "pushed_at": "2022-11-21T21:13:57Z",
+    "stargazers_count": 656,
+    "topics": [],
+    "updated_at": "2026-04-01T01:29:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akanazawa/alphapose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daniilidis-group/neural_renderer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zju-george/human_dynamics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "azure/login@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-cache.yml",
       "source_repo": "Azure/arm-ttk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automated-cleanup-resources.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-infra.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bootstrapping-resources.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-component-pipeline.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-component-train.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-https.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file-wasbs.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-file.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-assets-data-cloud-folder-https.yml",
+      "source_repo": "Azure/azureml-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-login-canary.yml",
+      "source_repo": "Azure/login"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-login-integration-tests.yml",
+      "source_repo": "Azure/login"
     }
   ]
 }

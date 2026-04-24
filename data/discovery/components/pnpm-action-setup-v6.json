@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v6",
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "remix-run/react-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-docs.yml",
+      "source_repo": "alexpasmantier/television"
     }
   ]
 }

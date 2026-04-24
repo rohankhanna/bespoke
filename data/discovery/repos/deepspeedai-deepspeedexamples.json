@@ -8,13 +8,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "deepspeedai/DeepSpeedExamples",
-      "target": "deepspeedai/deepspeed-mii",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/formatting.yml",
       "source_repo": "deepspeedai/DeepSpeedExamples",
@@ -29,7 +22,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:42:06.550367+00:00",
+  "fetched_at": "2026-04-24T06:52:31.375126+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -50,17 +43,11 @@
     "html_url": "https://github.com/deepspeedai/DeepSpeedExamples",
     "language": "Python",
     "pushed_at": "2026-03-30T06:14:10Z",
-    "stargazers_count": 6818,
+    "stargazers_count": 6819,
     "topics": [],
-    "updated_at": "2026-04-23T11:53:48Z"
+    "updated_at": "2026-04-24T00:10:34Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deepspeedai/deepspeed-mii",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Formatting",

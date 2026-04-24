@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Base Docker image (Models)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "An easy-to-use framework for modular RAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate-context",
+      "text": "Publish Base Docker image (Models)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc-apps/PAI-RAG",
+      "status": "candidate",
+      "text": "Publish Base Docker image (Models)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32995,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22346,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "prints"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Base Docker image (Models)",
+  "concept_id": "publish-base-docker-image-models",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/docker-base.yml",
+      "source_repo": "aigc-apps/PAI-RAG"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Base Docker image (Models)",
+      "sense_id": "publish-base-docker-image-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repo contains the source for the CVE Services API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Node Integration Tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Node Integration Tests\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25683,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17855,
+      "status": "candidate",
+      "text": "imbibition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17855,
+      "status": "candidate",
+      "text": "period"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17855,
+      "status": "candidate",
+      "text": "radius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17855,
+      "status": "candidate",
+      "text": "result"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node Integration Tests",
+      "sense_id": "node-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "node-integration-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "node-integration-tests",
+  "observation_id": "71eecd75eb05363b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Node Integration Tests",
+  "source_context_snippet": "\"Node Integration Tests\"",
+  "source_file": ".github/workflows/test-integration.yml",
+  "source_repo": "CVEProject/cve-services",
+  "source_repo_description": "This repo contains the source for the CVE Services API."
+}

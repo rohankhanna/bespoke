@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040187,
+      "status": "candidate",
+      "text": "stylus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003234,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002889,
+      "status": "candidate",
+      "text": "way"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992319,
+      "status": "candidate",
+      "text": "elan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984142,
+      "status": "candidate",
+      "text": "cut"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "style",
+      "sense_id": "style#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30058,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29039,
+      "status": "candidate",
+      "text": "panache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17041,
+      "status": "candidate",
+      "text": "flair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13088,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12084,
+      "status": "candidate",
+      "text": "mode"
+    }
+  ],
+  "concept_id": "style",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "style",
+  "observation_id": "47d08ee1e6d8df78",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "style",
+  "source_context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg",
+  "source_file": null,
+  "source_repo": "standard/standard-www",
+  "source_repo_description": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+}

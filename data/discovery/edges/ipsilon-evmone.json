@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipsilon/evmone",
+      "target": "ewasm/go-ethereum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmone",
       "target": "ethereum/evmone",
       "target_type": "repository"
     },
@@ -18,14 +25,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipsilon/evmone",
-      "target": "chfast/intx",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipsilon/evmone",
-      "target": "chfast/ethash",
+      "target": "torquem-ch/silkpre",
       "target_type": "repository"
     },
     {
@@ -64,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "ipsilon/evmone"
 }

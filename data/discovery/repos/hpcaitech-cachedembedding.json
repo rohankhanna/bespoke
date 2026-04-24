@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "pytorch/torchrec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "hpcaitech/torchrec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "colossal-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "dlrm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/CachedEmbedding",
+      "target": "recommandation-system",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:27.981534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5479
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A memory efficient DLRM training solution using ColossalAI",
+    "fork": false,
+    "full_name": "hpcaitech/CachedEmbedding",
+    "html_url": "https://github.com/hpcaitech/CachedEmbedding",
+    "language": "Python",
+    "pushed_at": "2022-11-22T08:17:59Z",
+    "stargazers_count": 107,
+    "topics": [
+      "colossal-ai",
+      "deep-learning",
+      "dlrm",
+      "embeddings",
+      "nlp",
+      "pytorch",
+      "recommandation-system"
+    ],
+    "updated_at": "2026-02-05T12:53:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpcaitech/torchrec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/torchrec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colossal-ai"
+    },
+    {
+      "context_snippet": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dlrm"
+    },
+    {
+      "context_snippet": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommandation-system"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:02:20.684311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs plugin to show the current buffer's imenu entries in a separate buffer",
+    "fork": false,
+    "full_name": "bmag/imenu-list",
+    "html_url": "https://github.com/bmag/imenu-list",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-06-10T03:49:50Z",
+    "stargazers_count": 351,
+    "topics": [],
+    "updated_at": "2026-03-05T14:29:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

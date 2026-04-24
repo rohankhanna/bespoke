@@ -19,6 +19,18 @@
       "source_repo": "filip26/titanium-json-ld",
       "status": "candidate-context",
       "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalbazaar/cborld",
+      "status": "candidate-context",
+      "text": "A Javascript CBOR-LD processor for web browsers and Node.js apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalbazaar/cborld",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/digitalbazaar/cborld/main.yml)](https://github.com/digitalbazaar/cborld/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "filip26/titanium-json-ld",
       "status": "candidate",
       "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalbazaar/cborld",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/digitalbazaar/cborld/main.yml)](https://github.com/digitalbazaar/cborld/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "digitalbazaar/cborld"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/LongCite",
+      "target": "thudm/longalign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongCite",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongCite",
+      "target": "citation-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongCite",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongCite",
+      "target": "long-context",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:55:18.484125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6362
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LongCite: Enabling LLMs to Generate Fine-grained Citations in Long-context QA",
+    "fork": false,
+    "full_name": "THUDM/LongCite",
+    "html_url": "https://github.com/THUDM/LongCite",
+    "language": "Python",
+    "pushed_at": "2024-12-31T03:25:42Z",
+    "stargazers_count": 520,
+    "topics": [
+      "benchmark",
+      "citation-generation",
+      "fine-tuning",
+      "llm",
+      "long-context"
+    ],
+    "updated_at": "2026-04-16T12:07:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/longalign",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "citation-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    }
+  ]
+}

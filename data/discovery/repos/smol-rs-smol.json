@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "smol-rs/.github/.github/workflows/fmt.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "smol-rs/.github/.github/workflows/clippy.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "smol-rs/.github/.github/workflows/security_audit.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/create-gh-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smol-rs/smol",
+      "target": "smol-rs/async-channel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smol-rs/smol",
+      "target": "rust-lang/futures-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smol-rs/smol",
+      "target": "jsha/minica",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smol-rs/smol",
+      "target": "filosottile/mkcert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "smol-rs/.github/.github/workflows/fmt.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "smol-rs/.github/.github/workflows/clippy.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "smol-rs/.github/.github/workflows/security_audit.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "taiki-e/checkout-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "taiki-e/checkout-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "taiki-e/create-gh-release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "smol-rs/smol",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smol-rs/smol",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smol-rs/smol",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smol-rs/smol",
+      "target": "futures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smol-rs/smol",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smol-rs/smol",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smol-rs/smol",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:58:39.749073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5065
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1684
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1653
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small and fast async runtime for Rust",
+    "fork": false,
+    "full_name": "smol-rs/smol",
+    "html_url": "https://github.com/smol-rs/smol",
+    "language": "Rust",
+    "pushed_at": "2026-03-23T14:46:03Z",
+    "stargazers_count": 4849,
+    "topics": [
+      "async",
+      "concurrency",
+      "futures",
+      "networking",
+      "runtime",
+      "rust"
+    ],
+    "updated_at": "2026-04-24T03:59:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filosottile/mkcert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jsha/minica",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/futures-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smol-rs/async-channel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)](",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)](",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)](",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "futures"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)](",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)](",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)](",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

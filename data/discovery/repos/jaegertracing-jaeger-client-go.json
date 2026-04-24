@@ -61,28 +61,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jaegertracing/jaeger-client-go",
-      "target": "opentracing/opentracing-go",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jaegertracing/jaeger-client-go",
-      "target": "jaegertracing/jaeger-lib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jaegertracing/jaeger-client-go",
-      "target": "go-kit/kit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jaegertracing/jaeger-client-go",
-      "target": "jaegertracing/jaeger-idl",
+      "target": "opentracing/specification",
       "target_type": "repository"
     },
     {
@@ -198,7 +177,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:57:18.973212+00:00",
+  "fetched_at": "2026-04-24T09:08:37.178843+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -227,34 +206,19 @@
     "html_url": "https://github.com/jaegertracing/jaeger-client-go",
     "language": "Go",
     "pushed_at": "2023-04-24T23:53:04Z",
-    "stargazers_count": 1383,
+    "stargazers_count": 1382,
     "topics": [
       "distributed-tracing",
       "microservices",
       "monitoring",
       "opentracing"
     ],
-    "updated_at": "2026-04-02T08:33:42Z"
+    "updated_at": "2026-04-24T06:06:08Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "go-kit/kit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jaegertracing/jaeger-idl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jaegertracing/jaeger-lib",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opentracing/opentracing-go",
+      "full_name": "opentracing/specification",
       "source_file": "README.md"
     }
   ],

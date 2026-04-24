@@ -127,6 +127,66 @@
       "source_repo": "jupyter/nbclassic",
       "status": "candidate-context",
       "text": "![Testing nbclassic](https://github.com/jupyterlab/nbclassic/workflows/Testing%20nbclassic/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": ":zap: A Fast, Extensible Progress Bar for Python and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate-context",
+      "text": "A Jupyter kernel for executing Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate-context",
+      "text": "[![badge](https://img.shields.io/badge/launch-binder-E66581.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAABZCAMAAABi1XidAAAB8lBMVEX///9XmsrmZYH1olJXmsr1olJXmsrmZYH1olJXmsr1olJXmsrmZYH1olL1olJXmsr1olJXmsrmZYH1olL1olJXmsrmZYH1olJXmsr1olL1olJXmsrmZYH1olL1olJXmsrmZYH1\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate-context",
+      "text": "Beaker Extensions for Jupyter Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "The backend\u2014i.e. core services, APIs, and REST endpoints\u2014to Jupyter web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/dash",
+      "status": "candidate-context",
+      "text": "Data Apps & Dashboards for Python. No JavaScript Required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/dash",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/github/plotly/dash/master.svg)](https://circleci.com/gh/plotly/dash)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +249,36 @@
       "source_repo": "jupyter/nbclassic",
       "status": "candidate",
       "text": "![Testing nbclassic](https://github.com/jupyterlab/nbclassic/workflows/Testing%20nbclassic/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tqdm/tqdm",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/IJava",
+      "status": "candidate",
+      "text": "[![badge](https://img.shields.io/badge/launch-binder-E66581.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAABZCAMAAABi1XidAAAB8lBMVEX///9XmsrmZYH1olJXmsr1olJXmsrmZYH1olJXmsr1olJXmsrmZYH1olL1olJXmsr1olJXmsrmZYH1olL1olJXmsrmZYH1olJXmsr1olL1olJXmsrmZYH1olL1olJXmsrmZYH1\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twosigma/beakerx",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/dash",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/github/plotly/dash/master.svg)](https://circleci.com/gh/plotly/dash)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +346,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "tqdm/tqdm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "SpencerPark/IJava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "twosigma/beakerx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/frontends-team-compass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "plotly/dash"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

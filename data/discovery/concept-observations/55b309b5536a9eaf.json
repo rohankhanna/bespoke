@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":name_badge: Differentiate your project from vibe-coded slop using this badge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "no-ai-used",
+      "sense_id": "no-ai-used#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "no-ai-used",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "no-ai-used",
+  "observation_id": "55b309b5536a9eaf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "no-ai-used",
+  "source_context_snippet": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge.",
+  "source_file": null,
+  "source_repo": "nuxy/no-ai-badge",
+  "source_repo_description": ":name_badge: Differentiate your project from vibe-coded slop using this badge."
+}

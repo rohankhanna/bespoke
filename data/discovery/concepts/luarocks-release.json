@@ -1,7 +1,8 @@
 {
   "aliases": [
     "luarocks-release",
-    "Luarocks Release"
+    "Luarocks Release",
+    "LuaRocks release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "nvim-tree/nvim-tree.lua",
       "status": "candidate-context",
       "text": "Luarocks Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicDuck/grug-far.nvim",
+      "status": "candidate-context",
+      "text": "Find And Replace plugin for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicDuck/grug-far.nvim",
+      "status": "candidate-context",
+      "text": "LuaRocks release"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "nvim-tree/nvim-tree.lua",
       "status": "candidate",
       "text": "Luarocks Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicDuck/grug-far.nvim",
+      "status": "candidate",
+      "text": "LuaRocks release"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/luarocks-release.yml",
       "source_repo": "nvim-tree/nvim-tree.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/luarocks-release.yml",
+      "source_repo": "nvim-tree/nvim-tree.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicDuck/grug-far.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

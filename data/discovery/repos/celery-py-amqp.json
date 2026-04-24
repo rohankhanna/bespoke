@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "useblacksmith/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "useblacksmith/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "useblacksmith/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "celery/py-amqp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "celery/py-amqp",
+      "target": "useblacksmith/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/py-amqp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/py-amqp",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/py-amqp",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/py-amqp",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/py-amqp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/py-amqp",
+      "target": "amqp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/py-amqp",
+      "target": "amqp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/py-amqp",
+      "target": "amqp-connection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/py-amqp",
+      "target": "amqp-messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/py-amqp",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/py-amqp",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/py-amqp",
+      "target": "rabbitmq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:19.326159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7954
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4961
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2573
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "amqplib fork",
+    "fork": false,
+    "full_name": "celery/py-amqp",
+    "html_url": "https://github.com/celery/py-amqp",
+    "language": "Python",
+    "pushed_at": "2026-03-09T12:30:49Z",
+    "stargazers_count": 315,
+    "topics": [
+      "amqp",
+      "amqp-client",
+      "amqp-connection",
+      "amqp-messages",
+      "python",
+      "python-library",
+      "python3",
+      "rabbitmq"
+    ],
+    "updated_at": "2026-04-07T13:47:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "=====================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amqp"
+    },
+    {
+      "context_snippet": "=====================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amqp-client"
+    },
+    {
+      "context_snippet": "=====================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amqp-connection"
+    },
+    {
+      "context_snippet": "=====================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amqp-messages"
+    },
+    {
+      "context_snippet": "=====================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "=====================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "=====================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rabbitmq"
+    }
+  ]
+}

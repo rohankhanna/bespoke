@@ -19,6 +19,42 @@
       "source_repo": "jenkinsci/winsw-maven-packaging",
       "status": "candidate-context",
       "text": "Maven Packaging for [Windows Service Wrapper](https://github.com/winsw/winsw)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "A maven plugin that automatically deploys code formatters as pre-commit git hook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate-context",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "Keep your code spotless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate-context",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "status": "candidate-context",
+      "text": "Opinionated best practices Maven parent project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "jenkinsci/winsw-maven-packaging",
       "status": "candidate",
       "text": "Maven Packaging for [Windows Service Wrapper](https://github.com/winsw/winsw)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cosium/git-code-format-maven-plugin",
+      "status": "candidate",
+      "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffplug/spotless",
+      "status": "candidate",
+      "text": "[![Gradle Plugin](https://img.shields.io/gradle-plugin-portal/v/com.diffplug.spotless?color=blue&label=gradle%20plugin)](plugin-gradle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vegardit/vegardit-maven-parent",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jenkinsci/winsw-maven-packaging"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Cosium/git-code-format-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "diffplug/spotless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vegardit/vegardit-maven-parent"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

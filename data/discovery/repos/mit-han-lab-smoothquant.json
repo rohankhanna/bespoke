@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/smoothquant",
+      "target": "guangxuan-xiao/torch-int",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:14:51.540175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2023] SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+    "fork": false,
+    "full_name": "mit-han-lab/smoothquant",
+    "html_url": "https://github.com/mit-han-lab/smoothquant",
+    "language": "Python",
+    "pushed_at": "2024-07-12T03:11:08Z",
+    "stargazers_count": 1641,
+    "topics": [],
+    "updated_at": "2026-04-24T06:00:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guangxuan-xiao/torch-int",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

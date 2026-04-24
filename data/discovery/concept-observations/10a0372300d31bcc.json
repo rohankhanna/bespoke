@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unified zkVM Interface & Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test and clippy common crates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test and clippy common crates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26622,
+      "status": "candidate",
+      "text": "rat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26234,
+      "status": "candidate",
+      "text": "true"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26116,
+      "status": "candidate",
+      "text": "cet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23122,
+      "status": "candidate",
+      "text": "cased"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22762,
+      "status": "candidate",
+      "text": "evaluation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and clippy common crates",
+      "sense_id": "test-and-clippy-common-crates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-and-clippy-common-crates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-and-clippy-common-crates",
+  "observation_id": "10a0372300d31bcc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Test and clippy common crates",
+  "source_context_snippet": "Test and clippy common crates",
+  "source_file": ".github/workflows/test-common.yml",
+  "source_repo": "eth-act/ere",
+  "source_repo_description": "Unified zkVM Interface & Toolkit"
+}

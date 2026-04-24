@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/compiler-team",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/compiler-team",
+      "target": "Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:17:28.210690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A home for compiler team planning documents, meeting minutes, and other such things.",
+    "fork": false,
+    "full_name": "rust-lang/compiler-team",
+    "html_url": "https://github.com/rust-lang/compiler-team",
+    "language": "HTML",
+    "pushed_at": "2026-04-10T12:51:37Z",
+    "stargazers_count": 428,
+    "topics": [],
+    "updated_at": "2026-04-21T15:36:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    }
+  ]
+}

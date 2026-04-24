@@ -19,6 +19,18 @@
       "source_repo": "TIGER-AI-Lab/VLM2Vec",
       "status": "candidate-context",
       "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "albanie/collaborative-experts",
+      "status": "candidate-context",
+      "text": "Video embeddings for retrieval with natural language queries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albanie/collaborative-experts",
+      "status": "candidate-context",
+      "text": "This repo provides code:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "TIGER-AI-Lab/VLM2Vec",
       "status": "candidate",
       "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albanie/collaborative-experts",
+      "status": "candidate",
+      "text": "This repo provides code:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "TIGER-AI-Lab/VLM2Vec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "albanie/collaborative-experts"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

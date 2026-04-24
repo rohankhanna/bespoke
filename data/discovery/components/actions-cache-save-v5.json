@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/save@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "WebAssembly/wasi-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "git-for-windows/git"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_verify_examples.yml",
+      "source_repo": "envoyproxy/examples"
     }
   ]
 }

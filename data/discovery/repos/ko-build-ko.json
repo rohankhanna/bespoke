@@ -118,20 +118,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ko-build/ko",
-      "target": "bazelbuild/rules_docker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ko-build/ko",
-      "target": "bazelbuild/rules_k8s",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analyze.yaml",
       "source_repo": "ko-build/ko",
@@ -391,7 +377,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:17:06.871336+00:00",
+  "fetched_at": "2026-04-24T09:11:19.888668+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -444,7 +430,7 @@
     "html_url": "https://github.com/ko-build/ko",
     "language": "Go",
     "pushed_at": "2026-04-23T01:03:38Z",
-    "stargazers_count": 8412,
+    "stargazers_count": 8413,
     "topics": [
       "container",
       "containers",
@@ -454,20 +440,9 @@
       "golang",
       "kubernetes"
     ],
-    "updated_at": "2026-04-22T19:27:14Z"
+    "updated_at": "2026-04-24T06:08:07Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bazelbuild/rules_docker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bazelbuild/rules_k8s",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Analyze",

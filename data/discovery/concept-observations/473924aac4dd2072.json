@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955977,
+      "status": "candidate",
+      "text": "eyelet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947157,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938854,
+      "status": "candidate",
+      "text": "cringle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29948786,
+      "status": "candidate",
+      "text": "groove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938596,
+      "status": "candidate",
+      "text": "washer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grommet",
+      "sense_id": "grommet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11069,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10041,
+      "status": "candidate",
+      "text": "eyelet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6029,
+      "status": "candidate",
+      "text": "cringle"
+    }
+  ],
+  "concept_id": "grommet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grommet",
+  "observation_id": "473924aac4dd2072",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "grommet",
+  "source_context_snippet": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]",
+  "source_file": null,
+  "source_repo": "grommet/grommet",
+  "source_repo_description": "a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package"
+}

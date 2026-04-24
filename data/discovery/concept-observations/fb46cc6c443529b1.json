@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Super minimal emoji rendering utility for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "react-easy-emoji \u2014 A super minimal emoji rendering library for React"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "react-easy-emoji \u2014 A super minimal emoji rendering library for React"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005412,
+      "status": "candidate",
+      "text": "emoticon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005411,
+      "status": "candidate",
+      "text": "emoji sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005410,
+      "status": "candidate",
+      "text": "emote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005409,
+      "status": "candidate",
+      "text": "emojification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005408,
+      "status": "candidate",
+      "text": "emoji flag sequence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emoji",
+      "sense_id": "emoji#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emoji",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emoji",
+  "observation_id": "fb46cc6c443529b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "emoji",
+  "source_context_snippet": "react-easy-emoji \u2014 A super minimal emoji rendering library for React",
+  "source_file": null,
+  "source_repo": "appfigures/react-easy-emoji",
+  "source_repo_description": "Super minimal emoji rendering utility for react"
+}

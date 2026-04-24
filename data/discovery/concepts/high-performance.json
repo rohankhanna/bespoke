@@ -115,6 +115,54 @@
       "source_repo": "jtablesaw/tablesaw",
       "status": "candidate-context",
       "text": "Tablesaw"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "the champagne of beta embedded databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate-context",
+      "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate-context",
+      "text": "Basic linear algebra subroutines for embedded optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate-context",
+      "text": "BLASFEO provides a set of basic linear algebra routines, performance-optimized for matrices that fit in cache (i.e. generally up to a couple hundred size in each dimension), as typically encountered in embedded optimization applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "BLAS-like Library Instantiation Software Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate-context",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket for fasthttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http)."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "jtablesaw/tablesaw",
       "status": "candidate",
       "text": "Tablesaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacejam/sled",
+      "status": "candidate",
+      "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giaf/blasfeo",
+      "status": "candidate",
+      "text": "BLASFEO provides a set of basic linear algebra routines, performance-optimized for matrices that fit in cache (i.e. generally up to a couple hundred size in each dimension), as typically encountered in embedded optimization applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flame/blis",
+      "status": "candidate",
+      "text": "_Recipient of the **[2023 James H. Wilkinson Prize for Numerical Software](https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/james-h-wilkinson-prize-for-numerical-software)**_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgrr/websocket",
+      "status": "candidate",
+      "text": "WebSocket library for [fasthttp](https://github.com/valyala/fasthttp) and [net/http](https://pkg.go.dev/net/http)."
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +340,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jtablesaw/tablesaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spacejam/sled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "giaf/blasfeo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "flame/blis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dgrr/websocket"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

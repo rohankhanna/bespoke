@@ -91,6 +91,18 @@
       "source_repo": "WebAssembly/custom-descriptors",
       "status": "candidate-context",
       "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/threads",
+      "status": "candidate-context",
+      "text": "Threads and Atomics in WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/threads",
+      "status": "candidate-context",
+      "text": "CI for interpreter & tests"
     }
   ],
   "candidate_glosses": [
@@ -139,6 +151,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "WebAssembly/custom-descriptors",
+      "status": "candidate",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/threads",
       "status": "candidate",
       "text": "CI for interpreter & tests"
     }
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ci-interpreter.yml",
       "source_repo": "WebAssembly/custom-descriptors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/threads"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

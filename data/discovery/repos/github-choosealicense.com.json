@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/choosealicense.com",
+      "target": "licensee/licensee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/choosealicense.com",
+      "target": "blog/2335-open-source-license-descriptions-and-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "github/choosealicense.com",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "github/choosealicense.com",
+      "target": "ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "github/choosealicense.com",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/choosealicense.com",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/choosealicense.com",
+      "target": "licensing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/choosealicense.com",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/choosealicense.com",
+      "target": "open-source-licensing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:08:47.205697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7827
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "A site to provide non-judgmental guidance on choosing a license for your open source project",
+    "fork": false,
+    "full_name": "github/choosealicense.com",
+    "html_url": "https://github.com/github/choosealicense.com",
+    "language": "Ruby",
+    "pushed_at": "2026-04-20T18:48:53Z",
+    "stargazers_count": 4102,
+    "topics": [
+      "jekyll",
+      "law",
+      "licensing",
+      "open-source",
+      "open-source-licensing"
+    ],
+    "updated_at": "2026-04-24T00:49:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blog/2335-open-source-license-descriptions-and-metadata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "licensee/licensee",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "licensing"
+    },
+    {
+      "context_snippet": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source-licensing"
+    }
+  ]
+}

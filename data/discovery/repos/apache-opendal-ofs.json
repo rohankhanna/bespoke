@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/opendal-ofs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/opendal-ofs",
+      "target": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/opendal-ofs",
+      "target": "Ofs CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/opendal-ofs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/opendal-ofs",
+      "target": "storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:56:23.522655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2269
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2267
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A userspace filesystem backing by Apache OpenDAL.",
+    "fork": false,
+    "full_name": "apache/opendal-ofs",
+    "html_url": "https://github.com/apache/opendal-ofs",
+    "language": "Rust",
+    "pushed_at": "2026-01-08T18:59:53Z",
+    "stargazers_count": 36,
+    "topics": [
+      "cli",
+      "fs",
+      "rust",
+      "s3",
+      "storage"
+    ],
+    "updated_at": "2026-04-01T14:53:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ofs CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ofs CI"
+    },
+    {
+      "context_snippet": "[![Build Status]][actions] [![Latest Version]][crates.io] [![Crate Downloads]][crates.io] [![chat]][discord]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build Status]][actions] [![Latest Version]][crates.io] [![Crate Downloads]][crates.io] [![chat]][discord]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4r/Gesture-Generation-from-Trimodal-Context",
+      "target": "lowerquality/gentle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4r/Gesture-Generation-from-Trimodal-Context",
+      "target": "youngwoo-yoon/youtube-gesture-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4r/Gesture-Generation-from-Trimodal-Context",
+      "target": "facebookresearch/videopose3d",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "ai4r/Gesture-Generation-from-Trimodal-Context"
+}

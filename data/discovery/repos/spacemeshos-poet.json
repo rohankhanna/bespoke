@@ -1,0 +1,347 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/poet",
+      "target": "spacemeshos/protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/poet",
+      "target": "avive/proof-of-sequential-work",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/poet",
+      "target": "avive/slow-time-functions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "mikepenz/action-junit-report@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "Docker Build and Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spacemeshos/poet",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/poet",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/poet",
+      "target": "proof-of-concept",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/poet",
+      "target": "proof-of-sequential-work",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/poet",
+      "target": "proof-of-space",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/poet",
+      "target": "proof-of-space-time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:11.751680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15634
+    },
+    {
+      "path": "Dockerfile",
+      "size": 332
+    },
+    {
+      "path": "go.mod",
+      "size": 2299
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2454
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1164
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Spacemesh PoET service reference implementation",
+    "fork": false,
+    "full_name": "spacemeshos/poet",
+    "html_url": "https://github.com/spacemeshos/poet",
+    "language": "Go",
+    "pushed_at": "2025-11-21T10:05:07Z",
+    "stargazers_count": 24,
+    "topics": [
+      "go",
+      "golang",
+      "proof-of-concept",
+      "proof-of-sequential-work",
+      "proof-of-space",
+      "proof-of-space-time"
+    ],
+    "updated_at": "2026-02-15T19:40:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avive/proof-of-sequential-work",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avive/slow-time-functions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacemeshos/protocol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Build and Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker Build and Push"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-concept"
+    },
+    {
+      "context_snippet": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-sequential-work"
+    },
+    {
+      "context_snippet": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-space"
+    },
+    {
+      "context_snippet": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-space-time"
+    }
+  ]
+}

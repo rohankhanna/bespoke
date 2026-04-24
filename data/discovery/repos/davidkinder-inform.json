@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/inform",
+      "target": "ganelson/inform-evolution",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/inform",
+      "target": "ganelson/intest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/inform",
+      "target": "ganelson/inform-public-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/inform",
+      "target": "erkyrath/quixe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:21:16.073598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The core software distribution for the Inform 7 programming language.",
+    "fork": true,
+    "full_name": "DavidKinder/inform",
+    "html_url": "https://github.com/DavidKinder/inform",
+    "language": "C",
+    "pushed_at": "2026-04-23T06:35:15Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-23T06:35:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erkyrath/quixe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ganelson/inform-evolution",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ganelson/inform-public-library",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ganelson/intest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

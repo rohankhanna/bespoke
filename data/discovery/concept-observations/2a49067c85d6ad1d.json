@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Demonstrates bundling level for browsers using browserify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`browserify`](https://github.com/browserify/browserify).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`browserify`](https://github.com/browserify/browserify).**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874954,
+      "status": "candidate",
+      "text": "webify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874953,
+      "status": "candidate",
+      "text": "widgetize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874952,
+      "status": "candidate",
+      "text": "ajaxify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874951,
+      "status": "candidate",
+      "text": "britify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874950,
+      "status": "candidate",
+      "text": "microsoftify"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "browserify",
+      "sense_id": "browserify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "browserify",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "browserify",
+  "observation_id": "2a49067c85d6ad1d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "browserify",
+  "source_context_snippet": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`browserify`](https://github.com/browserify/browserify).**",
+  "source_file": null,
+  "source_repo": "Level/browserify-starter",
+  "source_repo_description": "Demonstrates bundling level for browsers using browserify."
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -372,6 +372,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "enesmsahin/simple-lama-inpainting"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-compatibility.yml",
+      "source_repo": "Azure/aaz-dev-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "Azure/aaz-dev-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "metauto-ai/GPTSwarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "Ascend/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/recipe-check.yml",
+      "source_repo": "Ascend/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "Ascend/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cover-ci.yml",
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "alex-petrenko/sample-factory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/k8s.yml",
+      "source_repo": "apache/datafusion-ray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bigcode-project/bigcode-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ert-runner.el"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "inisis/OnnxSlim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pnkraemer/matfree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-publish.yml",
+      "source_repo": "pnkraemer/matfree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pnkraemer/matfree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed-bench.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/do-update-authors.yml",
+      "source_repo": "PyCQA/docformatter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "JustinLin610/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml",
+      "source_repo": "JustinLin610/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "JustinLin610/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify-metadata.yml",
+      "source_repo": "Azure/aaz"
     }
   ]
 }

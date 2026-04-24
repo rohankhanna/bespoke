@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Action Lint"
+    "Action Lint",
+    "action-lint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,30 @@
       "source_repo": "chainguard-dev/apko",
       "status": "candidate-context",
       "text": "Action Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate-context",
+      "text": "go generate based graphql server library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate-context",
+      "text": "action-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "build APKs from source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "Action Lint"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +86,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chainguard-dev/apko",
+      "status": "candidate",
+      "text": "Action Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/gqlgen",
+      "status": "candidate",
+      "text": "action-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
       "status": "candidate",
       "text": "Action Lint"
     }
@@ -124,11 +161,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/actionlint.yaml",
       "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "99designs/gqlgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/melange"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,42 @@
       "source_repo": "SaschaWillems/Vulkan",
       "status": "candidate-context",
       "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "status": "candidate-context",
+      "text": "This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "status": "candidate-context",
+      "text": "The DirectX Shader Compiler project includes a compiler and related tools used to compile High-Level Shader Language (HLSL) programs into DirectX Intermediate Language (DXIL) representation. Applications that make use of DirectX for graphics, games, and computation can use it to\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_integration.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Making it easier to work with shaders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate-context",
+      "text": "Slang"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "SaschaWillems/Vulkan",
       "status": "candidate",
       "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXShaderCompiler",
+      "status": "candidate",
+      "text": "The DirectX Shader Compiler project includes a compiler and related tools used to compile High-Level Shader Language (HLSL) programs into DirectX Intermediate Language (DXIL) representation. Applications that make use of DirectX for graphics, games, and computation can use it to\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_integration.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang",
+      "status": "candidate",
+      "text": "Slang"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "SaschaWillems/Vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXShaderCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glslang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "shader-slang/slang"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

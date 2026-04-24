@@ -48,7 +48,7 @@
   "normalized_form": "pull-request",
   "observation_id": "37ba9ad257d548dd",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "pull-request",
   "source_context_snippet": "hub is a command line tool that wraps `git` in order to extend it with extra",
   "source_file": null,

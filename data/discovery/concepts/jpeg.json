@@ -67,6 +67,42 @@
       "source_repo": "lovell/sharp",
       "status": "candidate-context",
       "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate-context",
+      "text": "Basis Universal GPU Texture Codec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2016-2026 Binomial LLC -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate-context",
+      "text": "A lightning fast image processing and resizing library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate-context",
+      "text": "Go binding generator for libvips image processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "lovell/sharp",
       "status": "candidate",
       "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/basis_universal",
+      "status": "candidate",
+      "text": "<!-- Copyright 2016-2026 Binomial LLC -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidbyttow/govips",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/davidbyttow/govips?status.svg)](https://pkg.go.dev/mod/github.com/davidbyttow/govips/v2) [![Go Report Card](https://goreportcard.com/badge/github.com/davidbyttow/govips)](https://goreportcard.com/badge/github.com/davidbyttow/govips) ![GitHu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cshum/vipsgen",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
     }
   ],
   "candidate_related_terms": [
@@ -158,11 +212,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "lovell/sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BinomialLLC/basis_universal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "davidbyttow/govips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "cshum/vipsgen"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

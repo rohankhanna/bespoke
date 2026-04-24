@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notofonts/noto-fonts",
+      "target": "notofonts/notofonts.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "notofonts/noto-fonts",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "notofonts/noto-fonts",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "notofonts/noto-fonts",
+      "target": "Continuous Test + Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:57:58.017117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 354
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": " Noto fonts, except for CJK and emoji",
+    "fork": false,
+    "full_name": "notofonts/noto-fonts",
+    "html_url": "https://github.com/notofonts/noto-fonts",
+    "language": "Python",
+    "pushed_at": "2023-01-25T13:40:16Z",
+    "stargazers_count": 2503,
+    "topics": [],
+    "updated_at": "2026-04-23T23:15:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notofonts/notofonts.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Test + Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Test + Deploy"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Default Branch Push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lint-staged/lint-staged",
+      "status": "candidate-context",
+      "text": "\ud83d\udeab\ud83d\udca9 \u2014 Run tasks like formatters and linters against staged git files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lint-staged/lint-staged",
+      "status": "candidate-context",
+      "text": "Default Branch Push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lint-staged/lint-staged",
+      "status": "candidate",
+      "text": "Default Branch Push"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21053,
+      "status": "candidate",
+      "text": "breach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21053,
+      "status": "candidate",
+      "text": "failure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21053,
+      "status": "candidate",
+      "text": "neglect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21053,
+      "status": "candidate",
+      "text": "neglected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20877,
+      "status": "candidate",
+      "text": "hammer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Default Branch Push",
+  "concept_id": "default-branch-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/default-branch-push.yml",
+      "source_repo": "lint-staged/lint-staged"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Default Branch Push",
+      "sense_id": "default-branch-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

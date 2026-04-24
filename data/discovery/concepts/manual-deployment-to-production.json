@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual Deployment to Production"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Gnosis Chain Validator Deposit Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate-context",
+      "text": "Manual Deployment to Production"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosischain/gbc-deposit-ui",
+      "status": "candidate",
+      "text": "Manual Deployment to Production"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18696,
+      "status": "candidate",
+      "text": "stocks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18670,
+      "status": "candidate",
+      "text": "publication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18656,
+      "status": "candidate",
+      "text": "publishing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18643,
+      "status": "candidate",
+      "text": "inventory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Deployment to Production",
+  "concept_id": "manual-deployment-to-production",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/prod_deploy.yml",
+      "source_repo": "gnosischain/gbc-deposit-ui"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Deployment to Production",
+      "sense_id": "manual-deployment-to-production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

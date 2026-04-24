@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "miniscule"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate-context",
+      "text": "Miniscule cross-platform eventing, networking & crypto for async applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate-context",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uSockets",
+      "status": "candidate",
+      "text": "\u00b5Sockets is the non-blocking, thread-per-CPU foundation library used by [\u00b5WebSockets](https://github.com/uNetworking/uWebSockets). It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms (QUI\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029192,
+      "status": "candidate",
+      "text": "minuscule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028253,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025782,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028762,
+      "status": "candidate",
+      "text": "diminutive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028526,
+      "status": "candidate",
+      "text": "tiny"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18045,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17037,
+      "status": "candidate",
+      "text": "minuscule"
+    }
+  ],
+  "canonical_name": "miniscule",
+  "concept_id": "miniscule",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "uNetworking/uSockets"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "miniscule",
+      "sense_id": "miniscule#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

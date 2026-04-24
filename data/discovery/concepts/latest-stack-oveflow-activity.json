@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Latest stack oveflow activity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gkr-bot/gkr-bot",
+      "status": "candidate-context",
+      "text": "Latest stack oveflow activity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gkr-bot/gkr-bot",
+      "status": "candidate",
+      "text": "Latest stack oveflow activity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19788,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19766,
+      "status": "candidate",
+      "text": "peak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756,
+      "status": "candidate",
+      "text": "shock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756,
+      "status": "candidate",
+      "text": "shocked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756,
+      "status": "candidate",
+      "text": "shocks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Latest stack oveflow activity",
+  "concept_id": "latest-stack-oveflow-activity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/stack-oveflow-workflow.yml",
+      "source_repo": "gkr-bot/gkr-bot"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest stack oveflow activity",
+      "sense_id": "latest-stack-oveflow-activity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

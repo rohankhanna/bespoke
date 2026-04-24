@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hashicorp-vault"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rajanadar/VaultSharp",
+      "status": "candidate-context",
+      "text": "A comprehensive cross-platform .NET Library for HashiCorp's Vault, a secret management tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rajanadar/VaultSharp",
+      "status": "candidate-context",
+      "text": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rajanadar/VaultSharp",
+      "status": "candidate",
+      "text": "The most comprehensive cross-platform .NET Library for HashiCorp's Vault - A Secret Management System."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hashicorp-vault",
+  "concept_id": "hashicorp-vault",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rajanadar/VaultSharp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hashicorp-vault",
+      "sense_id": "hashicorp-vault#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

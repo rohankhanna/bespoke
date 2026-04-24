@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/gpt-fast",
+      "target": "armed-gpt/gpt-blazing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/gpt-fast",
+      "target": "mdk8888/gptfast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/gpt-fast",
+      "target": "edward-sun/gpt-accelera",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:15:12.137085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9454
+    },
+    {
+      "path": "requirements.txt",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple and efficient pytorch-native transformer text generation in <1000 LOC of python.",
+    "fork": false,
+    "full_name": "meta-pytorch/gpt-fast",
+    "html_url": "https://github.com/meta-pytorch/gpt-fast",
+    "language": "Python",
+    "pushed_at": "2025-08-22T23:37:14Z",
+    "stargazers_count": 6198,
+    "topics": [],
+    "updated_at": "2026-04-24T02:44:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "armed-gpt/gpt-blazing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edward-sun/gpt-accelera",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdk8888/gptfast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

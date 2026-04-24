@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "target": "beehive-lab/tornado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "target": "fpga-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/kfusion-tornadovm",
+      "target": "tornadovm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:04:27.950067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " \ud83c\udfa5 A Java implementation of Kinect Fusion running on Tornado VM.",
+    "fork": false,
+    "full_name": "beehive-lab/kfusion-tornadovm",
+    "html_url": "https://github.com/beehive-lab/kfusion-tornadovm",
+    "language": "Java",
+    "pushed_at": "2025-12-19T22:49:31Z",
+    "stargazers_count": 27,
+    "topics": [
+      "fpga-acceleration",
+      "gpu-acceleration",
+      "java",
+      "slam",
+      "tornadovm"
+    ],
+    "updated_at": "2026-02-06T20:51:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beehive-lab/tornado",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga-acceleration"
+    },
+    {
+      "context_snippet": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tornadovm"
+    }
+  ]
+}

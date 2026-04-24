@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:16:18.313898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "timothybrooks/hallucinating-scenes",
+    "html_url": "https://github.com/timothybrooks/hallucinating-scenes",
+    "language": "Python",
+    "pushed_at": "2023-01-23T23:54:33Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-03-04T17:20:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

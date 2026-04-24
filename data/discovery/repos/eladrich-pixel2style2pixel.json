@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "facebookresearch/moco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "huangyg123/curricularface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "lessw2020/ranger-deep-learning-optimizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "justinpinkney/pixel2style2pixel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "pixel2style2pixel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "psp-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "psp-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "stylegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eladrich/pixel2style2pixel",
+      "target": "stylegan-encoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:19:50.479237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Implementation for \"Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation\" (CVPR 2021) presenting the pixel2style2pixel (pSp) framework",
+    "fork": false,
+    "full_name": "eladrich/pixel2style2pixel",
+    "html_url": "https://github.com/eladrich/pixel2style2pixel",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-10-01T11:23:39Z",
+    "stargazers_count": 3273,
+    "topics": [
+      "cvpr2021",
+      "generative-adversarial-network",
+      "image-translation",
+      "pixel2style2pixel",
+      "psp-framework",
+      "psp-model",
+      "stylegan",
+      "stylegan-encoder"
+    ],
+    "updated_at": "2026-04-21T10:07:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/moco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huangyg123/curricularface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/pixel2style2pixel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lessw2020/ranger-deep-learning-optimizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translation"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel2style2pixel"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psp-framework"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psp-model"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan-encoder"
+    }
+  ]
+}

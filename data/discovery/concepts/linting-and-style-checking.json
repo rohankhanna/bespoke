@@ -37,6 +37,18 @@
       "source_repo": "theHamsta/nvim-dap-virtual-text",
       "status": "candidate-context",
       "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "vim match-up: even better % :facepunch: navigate and highlight matching words :facepunch: modern matchit and matchparen.  Supports both vim and neovim + tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
+      "status": "candidate-context",
+      "text": "Linting and style checking"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +67,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "theHamsta/nvim-dap-virtual-text",
+      "status": "candidate",
+      "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andymass/vim-matchup",
       "status": "candidate",
       "text": "Linting and style checking"
     }
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/style-check.yml",
       "source_repo": "theHamsta/nvim-dap-virtual-text"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andymass/vim-matchup"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

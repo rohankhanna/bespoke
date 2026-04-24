@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethancaballero/description2code",
+      "target": "openai/requests-for-research",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:57:06.191810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ethancaballero/description2code",
+    "html_url": "https://github.com/ethancaballero/description2code",
+    "language": "Python",
+    "pushed_at": "2022-03-21T09:31:17Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-02T10:39:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/requests-for-research",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

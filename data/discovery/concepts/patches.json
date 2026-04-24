@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "patches"
+    "patches",
+    "Patches"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "zlib-ng/patches",
       "status": "candidate-context",
       "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf0 Binary distribution of PDFium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate-context",
+      "text": "Patches"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "zlib-ng/patches",
       "status": "candidate",
       "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/pdfium-binaries",
+      "status": "candidate",
+      "text": "Patches"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "zlib-ng/patches"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "bblanchon/pdfium-binaries"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

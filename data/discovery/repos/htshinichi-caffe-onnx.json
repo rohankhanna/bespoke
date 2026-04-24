@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "htshinichi/caffe-onnx",
+      "target": "lutzroeder/netron",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:06.034939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2771
+    },
+    {
+      "path": "requirements.txt",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "caffe model convert to onnx model",
+    "fork": false,
+    "full_name": "htshinichi/caffe-onnx",
+    "html_url": "https://github.com/htshinichi/caffe-onnx",
+    "language": "Python",
+    "pushed_at": "2023-01-27T01:10:37Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2026-01-29T07:10:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lutzroeder/netron",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

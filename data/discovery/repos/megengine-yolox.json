@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/YOLOX",
+      "target": "megengine/megengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/YOLOX",
+      "target": "oaid/tengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/YOLOX",
+      "target": "nanmi/yolox-deepstream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/YOLOX",
+      "target": "deftruth/lite.ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MegEngine/YOLOX",
+      "target": "megengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MegEngine/YOLOX",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MegEngine/YOLOX",
+      "target": "yolox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:52.146496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6538
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MegEngine implementation of YOLOX",
+    "fork": false,
+    "full_name": "MegEngine/YOLOX",
+    "html_url": "https://github.com/MegEngine/YOLOX",
+    "language": "Python",
+    "pushed_at": "2022-08-13T12:51:03Z",
+    "stargazers_count": 112,
+    "topics": [
+      "megengine",
+      "object-detection",
+      "yolox"
+    ],
+    "updated_at": "2025-11-19T11:58:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/lite.ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megengine/megengine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanmi/yolox-deepstream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oaid/tengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megengine"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolox"
+    }
+  ]
+}

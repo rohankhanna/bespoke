@@ -151,6 +151,30 @@
       "source_repo": "google/adk-python",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1d  The First Self-Improving Agentic Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate-context",
+      "text": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "API to run VirtualHome, a Multi-Agent Household Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "google/adk-python",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/GPTSwarm",
+      "status": "candidate",
+      "text": "[![Page](https://img.shields.io/badge/Project-Page-lightgreen.svg)](https://gptswarm.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavierpuigf/virtualhome",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -370,11 +406,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "metauto-ai/GPTSwarm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "xavierpuigf/virtualhome"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

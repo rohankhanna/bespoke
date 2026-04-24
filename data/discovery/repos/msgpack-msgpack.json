@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msgpack/msgpack",
+      "target": "msgpack/website",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:02:14.636943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MessagePack is an extremely efficient object serialization library. It's like JSON, but very fast and small.",
+    "fork": false,
+    "full_name": "msgpack/msgpack",
+    "html_url": "https://github.com/msgpack/msgpack",
+    "language": null,
+    "pushed_at": "2024-08-10T11:11:44Z",
+    "stargazers_count": 7442,
+    "topics": [],
+    "updated_at": "2026-04-24T08:21:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msgpack/website",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

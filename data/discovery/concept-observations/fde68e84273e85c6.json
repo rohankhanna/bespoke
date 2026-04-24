@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Breakdown Vim's --startuptime output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![startuptime](https://cloud.githubusercontent.com/assets/111942/23541408/35607a3e-ffb5-11e6-9bf8-1e59b8ae06ef.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![startuptime](https://cloud.githubusercontent.com/assets/111942/23541408/35607a3e-ffb5-11e6-9bf8-1e59b8ae06ef.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-plugins",
+      "sense_id": "vim-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vim-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vim-plugins",
+  "observation_id": "fde68e84273e85c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "vim-plugins",
+  "source_context_snippet": "![startuptime](https://cloud.githubusercontent.com/assets/111942/23541408/35607a3e-ffb5-11e6-9bf8-1e59b8ae06ef.png)",
+  "source_file": null,
+  "source_repo": "tweekmonster/startuptime.vim",
+  "source_repo_description": "Breakdown Vim's --startuptime output"
+}

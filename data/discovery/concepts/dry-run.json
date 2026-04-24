@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dry run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "A collection of manifest files for various package managers and is used to perform end-to-end tests for Dependabot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate-context",
+      "text": "Dry run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/smoke-tests",
+      "status": "candidate",
+      "text": "Dry run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018185,
+      "status": "candidate",
+      "text": "rehearsal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987793,
+      "status": "candidate",
+      "text": "run through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070615,
+      "status": "candidate",
+      "text": "dummy run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070614,
+      "status": "candidate",
+      "text": "practice run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070613,
+      "status": "candidate",
+      "text": "run-through"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dry run",
+  "concept_id": "dry-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "dependabot/smoke-tests"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dry run",
+      "sense_id": "dry-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:08:59.739275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runnable examples of how to integrate a Java Spring Boot application with HashiCorp Vault.",
+    "fork": false,
+    "full_name": "hashicorp/hello-vault-spring",
+    "html_url": "https://github.com/hashicorp/hello-vault-spring",
+    "language": "Java",
+    "pushed_at": "2025-12-09T15:01:09Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-02-18T10:07:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

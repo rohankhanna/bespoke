@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BELLE: Be Everyone's Large Language model Engine\uff08\u5f00\u6e90\u4e2d\u6587\u5bf9\u8bdd\u5927\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Read this in [English](README_en.md).*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Read this in [English](README_en.md).*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instruct-finetune",
+      "sense_id": "instruct-finetune#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "instruct-finetune",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instruct-finetune",
+  "observation_id": "200fd1f052367525",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "instruct-finetune",
+  "source_context_snippet": "*Read this in [English](README_en.md).*",
+  "source_file": null,
+  "source_repo": "LianjiaTech/BELLE",
+  "source_repo_description": "BELLE: Be Everyone's Large Language model Engine\uff08\u5f00\u6e90\u4e2d\u6587\u5bf9\u8bdd\u5927\u6a21\u578b\uff09"
+}

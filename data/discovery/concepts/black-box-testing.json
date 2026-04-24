@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Black Box Testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVEProject/cve-services",
+      "status": "candidate-context",
+      "text": "This repo contains the source for the CVE Services API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVEProject/cve-services",
+      "status": "candidate-context",
+      "text": "\"Black Box Testing\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVEProject/cve-services",
+      "status": "candidate",
+      "text": "\"Black Box Testing\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59243,
+      "status": "candidate",
+      "text": "integration testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59242,
+      "status": "candidate",
+      "text": "regression testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59241,
+      "status": "candidate",
+      "text": "stress testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59240,
+      "status": "candidate",
+      "text": "beta testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59239,
+      "status": "candidate",
+      "text": "alpha testing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Black Box Testing",
+  "concept_id": "black-box-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test-http.yml",
+      "source_repo": "CVEProject/cve-services"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Black Box Testing",
+      "sense_id": "black-box-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

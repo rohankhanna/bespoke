@@ -56,28 +56,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "anapnoe/stable-diffusion-webui-ux",
-      "target": "anapnoe/sd-webui-ux",
+      "target": "hafiidz/latent-diffusion",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "anapnoe/stable-diffusion-webui-ux",
-      "target": "chainner-org/spandrel",
+      "target": "jquesnelle/txt2imghd",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "anapnoe/stable-diffusion-webui-ux",
-      "target": "doggettx/stable-diffusion",
+      "target": "energy-based-model/compositional-visual-generation-with-composable-diffusion-models-pytorch",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "anapnoe/stable-diffusion-webui-ux",
-      "target": "birch-san/diffusers-play",
+      "target": "kichangkim/deepdanbooru",
       "target_type": "repository"
     },
     {
@@ -242,7 +242,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:19:38.918288+00:00",
+  "fetched_at": "2026-04-24T08:00:44.377139+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -304,22 +304,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "anapnoe/sd-webui-ux",
+      "full_name": "energy-based-model/compositional-visual-generation-with-composable-diffusion-models-pytorch",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "birch-san/diffusers-play",
+      "full_name": "hafiidz/latent-diffusion",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chainner-org/spandrel",
+      "full_name": "jquesnelle/txt2imghd",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "doggettx/stable-diffusion",
+      "full_name": "kichangkim/deepdanbooru",
       "source_file": "README.md"
     }
   ],

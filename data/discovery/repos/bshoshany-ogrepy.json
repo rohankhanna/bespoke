@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml",
+      "source_repo": "bshoshany/OGRePy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml",
+      "source_repo": "bshoshany/OGRePy",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml",
+      "source_repo": "bshoshany/OGRePy",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OGRePyLive.yml",
+      "source_repo": "bshoshany/OGRePy",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/OGRePyLive.yml",
+      "source_repo": "bshoshany/OGRePy",
+      "target": "Deploy OGRePy Live to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:14:33.478350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 130157
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12379
+    },
+    {
+      "path": ".github/workflows/OGRePyLive.yml",
+      "size": 708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OGRePy: An Object-Oriented General Relativity Package for Python",
+    "fork": false,
+    "full_name": "bshoshany/OGRePy",
+    "html_url": "https://github.com/bshoshany/OGRePy",
+    "language": "HTML",
+    "pushed_at": "2025-08-03T06:18:47Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-02-12T06:53:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy OGRePy Live to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/OGRePyLive.yml",
+      "term": "Deploy OGRePy Live to Pages"
+    }
+  ]
+}

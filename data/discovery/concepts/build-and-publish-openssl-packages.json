@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Publish OpenSSL Packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Native Node bindings to Git."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate-context",
+      "text": "Build and Publish OpenSSL Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodegit/nodegit",
+      "status": "candidate",
+      "text": "Build and Publish OpenSSL Packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17963,
+      "status": "candidate",
+      "text": "antivirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17963,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17963,
+      "status": "candidate",
+      "text": "ping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17543,
+      "status": "candidate",
+      "text": "formatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17435,
+      "status": "candidate",
+      "text": "parcel post"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Publish OpenSSL Packages",
+  "concept_id": "build-and-publish-openssl-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-openssl-packages.yml",
+      "source_repo": "nodegit/nodegit"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Publish OpenSSL Packages",
+      "sense_id": "build-and-publish-openssl-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

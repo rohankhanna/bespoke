@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Keep cache alive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaiNNer-org/spandrel",
+      "status": "candidate-context",
+      "text": "Spandrel gives your project support for various PyTorch architectures meant for AI Super-Resolution, restoration, and inpainting. Based on the model support implemented in chaiNNer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/spandrel",
+      "status": "candidate-context",
+      "text": "Keep cache alive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/spandrel",
+      "status": "candidate",
+      "text": "Keep cache alive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37906,
+      "status": "candidate",
+      "text": "commemorate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37608,
+      "status": "candidate",
+      "text": "remember"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37106,
+      "status": "candidate",
+      "text": "remembering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35082,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35082,
+      "status": "candidate",
+      "text": "live"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Keep cache alive",
+  "concept_id": "keep-cache-alive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/keep-cache-alive.yml",
+      "source_repo": "chaiNNer-org/spandrel"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keep cache alive",
+      "sense_id": "keep-cache-alive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

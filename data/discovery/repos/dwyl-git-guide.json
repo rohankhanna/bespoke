@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/git-guide",
+      "target": "dwyl/github-reference",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:02:54.863204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":star: GitHub reference for *non-technical* people following a project's progress",
+    "fork": false,
+    "full_name": "dwyl/git-guide",
+    "html_url": "https://github.com/dwyl/git-guide",
+    "language": null,
+    "pushed_at": "2023-01-24T09:09:02Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2024-10-28T18:16:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/github-reference",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

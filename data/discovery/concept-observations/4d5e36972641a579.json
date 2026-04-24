@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automated upstream mirror for libbpf stand-alone build."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "libbpf-ci-coverity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "libbpf-ci-coverity"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "libbpf-ci-coverity",
+      "sense_id": "libbpf-ci-coverity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "libbpf-ci-coverity",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "libbpf-ci-coverity",
+  "observation_id": "4d5e36972641a579",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "libbpf-ci-coverity",
+  "source_context_snippet": "libbpf-ci-coverity",
+  "source_file": ".github/workflows/coverity.yml",
+  "source_repo": "libbpf/libbpf",
+  "source_repo_description": "Automated upstream mirror for libbpf stand-alone build."
+}

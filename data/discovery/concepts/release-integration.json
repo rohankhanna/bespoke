@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Release Integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate-context",
+      "text": "Like ruby's Abbrev module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate-context",
+      "text": "Release Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/node-semver",
+      "status": "candidate-context",
+      "text": "The semver parser for node (the one npm uses)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/node-semver",
+      "status": "candidate-context",
+      "text": "Release Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/abbrev-js",
+      "status": "candidate",
+      "text": "Release Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/node-semver",
+      "status": "candidate",
+      "text": "Release Integration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11758,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11758,
+      "status": "candidate",
+      "text": "placement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11676,
+      "status": "candidate",
+      "text": "deposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10880,
+      "status": "candidate",
+      "text": "accession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10880,
+      "status": "candidate",
+      "text": "amalgamation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Integration",
+  "concept_id": "release-integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-integration.yml",
+      "source_repo": "npm/abbrev-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-integration.yml",
+      "source_repo": "npm/node-semver"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Integration",
+      "sense_id": "release-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

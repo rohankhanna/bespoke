@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -207,6 +207,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/generate-sbom-main.yml",
       "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-api-diffs.yml",
+      "source_repo": "dotnet/orleans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upgrade.yaml",
+      "source_repo": "pypa/virtualenv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-tools.yml",
+      "source_repo": "getsentry/sentry-cocoa"
     }
   ]
 }

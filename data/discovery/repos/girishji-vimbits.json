@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/vimbits",
+      "target": "girishji/fftt.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/vimbits",
+      "target": "girishji/vimsuggest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimbits",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimbits",
+      "target": "vim9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimbits",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimbits",
+      "target": "vim9-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:16.708909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Curated Suite of Lightweight Vim Plugins.",
+    "fork": false,
+    "full_name": "girishji/vimbits",
+    "html_url": "https://github.com/girishji/vimbits",
+    "language": "Vim Script",
+    "pushed_at": "2024-11-03T21:21:41Z",
+    "stargazers_count": 22,
+    "topics": [
+      "vim-plugin",
+      "vim9",
+      "vim9-plugin",
+      "vim9-script"
+    ],
+    "updated_at": "2025-12-25T21:41:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/fftt.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/vimsuggest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Suite of lightweight Vim plugins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "Suite of lightweight Vim plugins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    },
+    {
+      "context_snippet": "Suite of lightweight Vim plugins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    },
+    {
+      "context_snippet": "Suite of lightweight Vim plugins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-script"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urfave/negroni",
+      "target": "awakenetworks/csp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urfave/negroni",
+      "target": "auth0/go-jwt-middleware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urfave/negroni",
+      "target": "auroratechnologies/vangoh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urfave/negroni",
+      "target": "bamarni/digits",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:08:29.243241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21500
+    },
+    {
+      "path": "go.mod",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Idiomatic HTTP Middleware for Golang",
+    "fork": false,
+    "full_name": "urfave/negroni",
+    "html_url": "https://github.com/urfave/negroni",
+    "language": "Go",
+    "pushed_at": "2025-05-03T19:46:24Z",
+    "stargazers_count": 7532,
+    "topics": [],
+    "updated_at": "2026-04-21T13:49:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auroratechnologies/vangoh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auth0/go-jwt-middleware",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awakenetworks/csp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bamarni/digits",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

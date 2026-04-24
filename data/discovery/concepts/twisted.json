@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "twisted"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Event-driven networking engine written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate-context",
+      "text": "Twisted"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/twisted",
+      "status": "candidate",
+      "text": "Twisted"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976293,
+      "status": "candidate",
+      "text": "contorted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974599,
+      "status": "candidate",
+      "text": "crooked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965125,
+      "status": "candidate",
+      "text": "coiled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935749,
+      "status": "candidate",
+      "text": "perverted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935488,
+      "status": "candidate",
+      "text": "artful"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54031,
+      "status": "candidate",
+      "text": "artful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32033,
+      "status": "candidate",
+      "text": "perverted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28034,
+      "status": "candidate",
+      "text": "crooked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27035,
+      "status": "candidate",
+      "text": "disingenuous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21030,
+      "status": "candidate",
+      "text": "contorted"
+    }
+  ],
+  "canonical_name": "twisted",
+  "concept_id": "twisted",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "twisted/twisted"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "twisted",
+      "sense_id": "twisted#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

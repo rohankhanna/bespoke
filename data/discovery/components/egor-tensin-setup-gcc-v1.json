@@ -1,12 +1,17 @@
 {
   "component": "egor-tensin/setup-gcc@v1",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI-unixish.yml",
       "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "json-c/json-c"
     }
   ]
 }

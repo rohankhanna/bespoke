@@ -1,7 +1,7 @@
 {
   "component": "aws-actions/closed-issue-message@v1",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/closed-issue-message.yml",
       "source_repo": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sdk-go"
     }
   ]
 }

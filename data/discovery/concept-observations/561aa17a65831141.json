@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Realtime Multiplayer Space Invaders Game with Phaser 3 and Ably"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984755,
+      "status": "candidate",
+      "text": "capably"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984497,
+      "status": "candidate",
+      "text": "competently"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983692,
+      "status": "candidate",
+      "text": "aptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984923,
+      "status": "candidate",
+      "text": "with competence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984922,
+      "status": "candidate",
+      "text": "proficiently"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ably",
+      "sense_id": "ably#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7026,
+      "status": "candidate",
+      "text": "aptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "competently"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3018,
+      "status": "candidate",
+      "text": "capably"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3,
+      "status": "candidate",
+      "text": "with competence"
+    }
+  ],
+  "concept_id": "ably",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ably",
+  "observation_id": "561aa17a65831141",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "ably",
+  "source_context_snippet": "> [!IMPORTANT]",
+  "source_file": null,
+  "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
+  "source_repo_description": "Realtime Multiplayer Space Invaders Game with Phaser 3 and Ably"
+}

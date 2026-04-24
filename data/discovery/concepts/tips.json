@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "tips"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-galore",
+      "status": "candidate-context",
+      "text": ":mortar_board: All things Vim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-galore",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-galore",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39392302,
+      "status": "candidate",
+      "text": "tippytoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39391556,
+      "status": "candidate",
+      "text": "tiptoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39387077,
+      "status": "candidate",
+      "text": "crown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39387049,
+      "status": "candidate",
+      "text": "tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39386664,
+      "status": "candidate",
+      "text": "slant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tips",
+  "concept_id": "tips",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-galore"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tips",
+      "sense_id": "tips#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of nREPL middleware to enhance Clojure editors with common functionality like definition lookup, code completion, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051179,
+      "status": "candidate",
+      "text": "hard cider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051103,
+      "status": "candidate",
+      "text": "cyder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050374,
+      "status": "candidate",
+      "text": "vinegar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050315,
+      "status": "candidate",
+      "text": "juice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044232,
+      "status": "candidate",
+      "text": "jus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cider",
+      "sense_id": "cider#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "cyder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "hard cider"
+    }
+  ],
+  "concept_id": "cider",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cider",
+  "observation_id": "2b56669997809ed5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "cider",
+  "source_context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)",
+  "source_file": null,
+  "source_repo": "clojure-emacs/cider-nrepl",
+  "source_repo_description": "A collection of nREPL middleware to enhance Clojure editors with common functionality like definition lookup, code completion, etc. "
+}

@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/wasi-libc",
+      "target": "webassembly/wasi-threads",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-libc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-libc",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/wasi-libc",
+      "target": "wasi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:03:34.054184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4439
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 11711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WASI libc implementation for WebAssembly",
+    "fork": false,
+    "full_name": "WebAssembly/wasi-libc",
+    "html_url": "https://github.com/WebAssembly/wasi-libc",
+    "language": "C",
+    "pushed_at": "2026-04-23T17:02:18Z",
+    "stargazers_count": 1004,
+    "topics": [
+      "wasi"
+    ],
+    "updated_at": "2026-04-23T17:02:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/wasi-threads",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`wasi-libc` is a libc for WebAssembly programs built on top of WASI system",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasi"
+    }
+  ]
+}

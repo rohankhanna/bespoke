@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "peter-evans/autopep8@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "tkt-actions/add-issue-links@v1.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml"
+    },
+    {
+      "component": "sphinx-notes/pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-gaffer-version.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-gaffer-version.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "peter-evans/autopep8@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/gafferpy",
+      "target": "tkt-actions/add-issue-links@v1.8.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/gafferpy",
+      "target": "Issue Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "sphinx-notes/pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "Deploy Sphinx documentation to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-gaffer-version.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-gaffer-version.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-gaffer-version.yaml",
+      "source_repo": "gchq/gafferpy",
+      "target": "Update Gaffer Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gafferpy",
+      "target": "accumulo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gafferpy",
+      "target": "gaffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/gafferpy",
+      "target": "graph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:56:46.759331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5156
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yaml",
+      "size": 2268
+    },
+    {
+      "path": ".github/workflows/link-issue.yml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/publish-docs.yaml",
+      "size": 392
+    },
+    {
+      "path": ".github/workflows/update-gaffer-version.yaml",
+      "size": 2187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Python API for Gaffer",
+    "fork": false,
+    "full_name": "gchq/gafferpy",
+    "html_url": "https://github.com/gchq/gafferpy",
+    "language": "Python",
+    "pushed_at": "2025-06-06T09:23:17Z",
+    "stargazers_count": 6,
+    "topics": [
+      "accumulo",
+      "gaffer",
+      "graph",
+      "python"
+    ],
+    "updated_at": "2025-10-22T16:33:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "'Issue Links'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "term": "Issue Links"
+    },
+    {
+      "context_snippet": "Deploy Sphinx documentation to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "term": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "context_snippet": "Update Gaffer Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-gaffer-version.yaml",
+      "term": "Update Gaffer Version"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accumulo"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaffer"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200\" height=\"auto\" src=\"https://github.com/gchq/Gaffer/raw/develop/logos/logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI9Stars/SpecMQuant",
+      "target": "handh1998/qqq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI9Stars/SpecMQuant",
+      "target": "mit-han-lab/deepcompressor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI9Stars/SpecMQuant",
+      "target": "hemingkx/spec-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI9Stars/SpecMQuant",
+      "target": "guangxuan-xiao/gsm8k-eval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:00:03.584422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Speculative Decoding Meets Quantization: Compatibility Evaluation and Hierarchical Framework Design",
+    "fork": false,
+    "full_name": "AI9Stars/SpecMQuant",
+    "html_url": "https://github.com/AI9Stars/SpecMQuant",
+    "language": "Cuda",
+    "pushed_at": "2025-05-29T06:18:41Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-13T06:47:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guangxuan-xiao/gsm8k-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "handh1998/qqq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hemingkx/spec-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/deepcompressor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

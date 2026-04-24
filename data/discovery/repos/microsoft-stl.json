@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-status-chart.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-status-chart.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-status-chart.yml",
+      "source_repo": "microsoft/STL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-status-chart.yml",
+      "source_repo": "microsoft/STL",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-status-chart.yml",
+      "source_repo": "microsoft/STL",
+      "target": "Update Status Chart",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:36.928712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33629
+    },
+    {
+      "path": ".github/workflows/update-status-chart.yml",
+      "size": 1251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MSVC's implementation of the C++ Standard Library.",
+    "fork": false,
+    "full_name": "microsoft/STL",
+    "html_url": "https://github.com/microsoft/STL",
+    "language": "C++",
+    "pushed_at": "2026-04-24T07:37:25Z",
+    "stargazers_count": 11028,
+    "topics": [],
+    "updated_at": "2026-04-23T17:30:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update Status Chart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-status-chart.yml",
+      "term": "Update Status Chart"
+    }
+  ]
+}

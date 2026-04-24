@@ -1,12 +1,17 @@
 {
   "component": "actions/dependency-review-action@3c4e3dcb1aa7874d2c16be7d79418e9b7efd6261",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "helm-unittest/helm-unittest"
     }
   ]
 }

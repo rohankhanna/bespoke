@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-timemap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-strikeradar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "curated-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "israel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/awesome-agent-skills-israel",
+      "target": "openclaw",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "alexpolonsky/awesome-agent-skills-israel"
+}

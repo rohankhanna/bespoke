@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint and Deploy Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "Lint and Deploy Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate",
+      "text": "Lint and Deploy Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17838,
+      "status": "candidate",
+      "text": "hemp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17802,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17765,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17765,
+      "status": "candidate",
+      "text": "lick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17765,
+      "status": "candidate",
+      "text": "licked"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint and Deploy Charts",
+  "concept_id": "lint-and-deploy-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/lint-and-deploy.yaml",
+      "source_repo": "hiyouga/vllm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Deploy Charts",
+      "sense_id": "lint-and-deploy-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:59:17.557315+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Check markdown with remark in atom",
+    "fork": false,
+    "full_name": "wooorm/linter-remark",
+    "html_url": "https://github.com/wooorm/linter-remark",
+    "language": null,
+    "pushed_at": "2022-06-18T15:22:15Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-08-17T21:34:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

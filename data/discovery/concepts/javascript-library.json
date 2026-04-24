@@ -19,6 +19,30 @@
       "source_repo": "SBoudrias/Inquirer.js",
       "status": "candidate-context",
       "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/minio-js",
+      "status": "candidate-context",
+      "text": "MinIO Client SDK for Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio-js",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/minio.png)](https://nodei.co/npm/minio/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msgpack/msgpack-javascript",
+      "status": "candidate-context",
+      "text": "@msgpack/msgpack - MessagePack for JavaScript / msgpack.org[ECMA-262/JavaScript/TypeScript]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msgpack/msgpack-javascript",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/@msgpack/msgpack.svg)](https://www.npmjs.com/package/@msgpack/msgpack) ![CI](https://github.com/msgpack/msgpack-javascript/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/msgpack/msgpack-javascript/branch/master/graphs/badge\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "SBoudrias/Inquirer.js",
       "status": "candidate",
       "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio-js",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/minio.png)](https://nodei.co/npm/minio/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msgpack/msgpack-javascript",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/@msgpack/msgpack.svg)](https://www.npmjs.com/package/@msgpack/msgpack) ![CI](https://github.com/msgpack/msgpack-javascript/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/msgpack/msgpack-javascript/branch/master/graphs/badge\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "minio/minio-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "msgpack/msgpack-javascript"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -68,6 +68,24 @@
       "source_repo": "chromium/chromium",
       "status": "candidate-context",
       "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flaxformer",
+      "status": "candidate-context",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1 \u00a0A strongly-typed, caching GraphQL client for iOS, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios",
+      "status": "candidate-context",
+      "text": "Close Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +116,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chromium/chromium",
+      "status": "candidate",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flaxformer",
+      "status": "candidate",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios",
       "status": "candidate",
       "text": "Close Pull Request"
     }
@@ -173,11 +203,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/close-pull-request.yml",
       "source_repo": "chromium/chromium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "google/flaxformer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

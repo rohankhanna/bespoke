@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:57:45.311448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 642
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Stores documents used by the TensorFlow developer community",
+    "fork": false,
+    "full_name": "tensorflow/community",
+    "html_url": "https://github.com/tensorflow/community",
+    "language": "C++",
+    "pushed_at": "2024-05-07T21:18:25Z",
+    "stargazers_count": 1282,
+    "topics": [],
+    "updated_at": "2026-04-11T17:40:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

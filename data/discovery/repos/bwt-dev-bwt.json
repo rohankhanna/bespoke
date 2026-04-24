@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwt-dev/bwt",
+      "target": "bwt-dev/bwt-electrum-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwt-dev/bwt",
+      "target": "bwt-dev/libbwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwt-dev/bwt",
+      "target": "bwt-dev/libbwt-jni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwt-dev/bwt",
+      "target": "passcod/cargo-watch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bwt-dev/bwt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bwt-dev/bwt",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bwt-dev/bwt",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bwt-dev/bwt",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt",
+      "target": "bitcoin-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt",
+      "target": "descriptors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt",
+      "target": "electrum-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt",
+      "target": "hd-wallet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt",
+      "target": "http-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt",
+      "target": "xpub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:20.693852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 53073
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2462
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight wallet indexer for Bitcoin, available as an Electrum RPC server and a modern HTTP REST API.",
+    "fork": false,
+    "full_name": "bwt-dev/bwt",
+    "html_url": "https://github.com/bwt-dev/bwt",
+    "language": "Rust",
+    "pushed_at": "2023-03-25T00:51:42Z",
+    "stargazers_count": 278,
+    "topics": [
+      "bitcoin",
+      "bitcoin-api",
+      "descriptors",
+      "electrum-server",
+      "hd-wallet",
+      "http-api",
+      "xpub"
+    ],
+    "updated_at": "2026-04-04T05:06:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwt-dev/bwt-electrum-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwt-dev/libbwt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwt-dev/libbwt-jni",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "passcod/cargo-watch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin-api"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "descriptors"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum-server"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hd-wallet"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-api"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xpub"
+    }
+  ]
+}

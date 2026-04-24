@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "yubikey"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yubico/libfido2",
+      "status": "candidate-context",
+      "text": "Provides library functionality for FIDO2, including communication with a device over USB or NFC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yubico/libfido2",
+      "status": "candidate-context",
+      "text": "alpine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yubico/libfido2",
+      "status": "candidate",
+      "text": "alpine"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "yubikey",
+  "concept_id": "yubikey",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Yubico/libfido2"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yubikey",
+      "sense_id": "yubikey#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

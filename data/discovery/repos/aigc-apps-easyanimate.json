@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/EasyAnimate",
+      "target": "black-forest-labs/flux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/EasyAnimate",
+      "target": "google-research/magvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/EasyAnimate",
+      "target": "guoyww/animatediff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/EasyAnimate",
+      "target": "chaojie/comfyui-cameractrl-wrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/EasyAnimate",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/EasyAnimate",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/EasyAnimate",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:11.855913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38110
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 833
+    },
+    {
+      "path": "requirements.txt",
+      "size": 326
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcfa An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion",
+    "fork": false,
+    "full_name": "aigc-apps/EasyAnimate",
+    "html_url": "https://github.com/aigc-apps/EasyAnimate",
+    "language": "Python",
+    "pushed_at": "2025-03-06T11:41:28Z",
+    "stargazers_count": 2264,
+    "topics": [],
+    "updated_at": "2026-04-24T00:55:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "black-forest-labs/flux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaojie/comfyui-cameractrl-wrapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/magvit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guoyww/animatediff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

@@ -989,6 +989,234 @@
       "source_repo": "rom1504/img2dataset",
       "status": "candidate-context",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buildbot/buildbot",
+      "status": "candidate-context",
+      "text": "Python-based continuous integration testing framework; your pull requests are more than welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buildbot/buildbot",
+      "status": "candidate-context",
+      "text": "=========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/eip-review-bot",
+      "status": "candidate-context",
+      "text": "Request reviewers for EIP modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/eip-review-bot",
+      "status": "candidate-context",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/ERCs",
+      "status": "candidate-context",
+      "text": "The Ethereum Request for Comment repository "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/ERCs",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apoelstra/rust-jsonrpc",
+      "status": "candidate-context",
+      "text": "Rust JSONRPC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apoelstra/rust-jsonrpc",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "The zero configuration build tool for the web. \ud83d\udce6\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daltonmaag/vttLib",
+      "status": "candidate-context",
+      "text": "Dump, merge and compile Visual TrueType data in UFO3 with FontTools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daltonmaag/vttLib",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Backblaze/b2-sdk-python",
+      "status": "candidate-context",
+      "text": "Python library to access B2 cloud storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Backblaze/b2-sdk-python",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nock/nock",
+      "status": "candidate-context",
+      "text": "HTTP server mocking and expectations library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nock/nock",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate-context",
+      "text": "Gazelle plugin for Swift files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "CLI tool to create a semantic release, git-cliff powered Changelog, and releases to GitHub all in one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Gaffer Docker images and associated Helm charts for deploying on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "Python API for Gaffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate-context",
+      "text": "A flexible library for writing functional operations in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "Configuration support for Autofac IoC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flatpak/flat-manager",
+      "status": "candidate-context",
+      "text": "Manager for flatpak repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flat-manager",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "Dependency Manager for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate-context",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "99designs/keyring",
+      "status": "candidate-context",
+      "text": "Go library providing a uniform interface across a range of secure credential stores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/keyring",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/xargo",
+      "status": "candidate-context",
+      "text": "The sysroot manager that lets you build and customize `std`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/xargo",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -1477,6 +1705,120 @@
       "source_repo": "rom1504/img2dataset",
       "status": "candidate",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buildbot/buildbot",
+      "status": "candidate",
+      "text": "=========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/eip-review-bot",
+      "status": "candidate",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/ERCs",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apoelstra/rust-jsonrpc",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/parcel",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daltonmaag/vttLib",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glslang",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Backblaze/b2-sdk-python",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nock/nock",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/cliff-jumper",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gaffer-docker",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/gafferpy",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/koryphe",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Configuration",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flat-manager",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "composer/composer",
+      "status": "candidate",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/keyring",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/xargo",
+      "status": "candidate",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_related_terms": [
@@ -2096,11 +2438,155 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "rom1504/img2dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "buildbot/buildbot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/eip-review-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/ERCs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apoelstra/rust-jsonrpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "parcel-bundler/parcel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "daltonmaag/vttLib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "KhronosGroup/glslang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Backblaze/b2-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "nock/nock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "favware/cliff-jumper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/gafferpy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/koryphe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "autofac/Autofac.Configuration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flatpak/flat-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "composer/composer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "99designs/keyring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "japaric/xargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

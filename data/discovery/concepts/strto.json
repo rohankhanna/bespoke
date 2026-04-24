@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "strto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonwin/libfon9",
+      "status": "candidate-context",
+      "text": "C++11 Cross-platform infrastructure for OMS(order management system)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonwin/libfon9",
+      "status": "candidate-context",
+      "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonwin/libfon9",
+      "status": "candidate",
+      "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "strto",
+  "concept_id": "strto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fonwin/libfon9"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "strto",
+      "sense_id": "strto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

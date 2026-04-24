@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apt-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apt-deploy.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apt-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dtcooper/raspotify",
+      "target": "spotifyd/spotifyd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apt-deploy.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apt-deploy.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "robinraju/release-downloader@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apt-deploy.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "Deploy Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "Build test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "peter-evans/close-issue@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tags.yml",
+      "source_repo": "dtcooper/raspotify",
+      "target": "Tag Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dtcooper/raspotify",
+      "target": "librespot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dtcooper/raspotify",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dtcooper/raspotify",
+      "target": "raspbian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dtcooper/raspotify",
+      "target": "spotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dtcooper/raspotify",
+      "target": "spotify-connect",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:10:48.632750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4547
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1675
+    },
+    {
+      "path": ".github/workflows/apt-deploy.yml",
+      "size": 1134
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 580
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1132
+    },
+    {
+      "path": ".github/workflows/tags.yml",
+      "size": 4751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Spotify Connect client that mostly Just Works\u2122",
+    "fork": false,
+    "full_name": "dtcooper/raspotify",
+    "html_url": "https://github.com/dtcooper/raspotify",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T07:54:17Z",
+    "stargazers_count": 5120,
+    "topics": [
+      "librespot",
+      "raspberry-pi",
+      "raspbian",
+      "spotify",
+      "spotify-connect"
+    ],
+    "updated_at": "2026-04-24T07:54:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spotifyd/spotifyd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apt-deploy.yml",
+      "term": "Deploy Release"
+    },
+    {
+      "context_snippet": "Build test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "term": "Build test"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Tag Automation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tags.yml",
+      "term": "Tag Automation"
+    },
+    {
+      "context_snippet": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librespot"
+    },
+    {
+      "context_snippet": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspbian"
+    },
+    {
+      "context_snippet": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify"
+    },
+    {
+      "context_snippet": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify-connect"
+    }
+  ]
+}

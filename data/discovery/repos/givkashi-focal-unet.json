@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "hucaofighting/swin-unet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "medical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "medical-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "synapse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "unet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "givkashi/Focal-Unet",
+      "target": "unet-image-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:13.918158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3239
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Focal-Unet: Unet-like Focal Modulation for Medical Image Segmentation https://arxiv.org/abs/2212.09263",
+    "fork": false,
+    "full_name": "givkashi/Focal-Unet",
+    "html_url": "https://github.com/givkashi/Focal-Unet",
+    "language": "Python",
+    "pushed_at": "2025-04-03T13:47:03Z",
+    "stargazers_count": 42,
+    "topics": [
+      "image-segmentation",
+      "medical",
+      "medical-image-segmentation",
+      "synapse",
+      "transformer",
+      "unet",
+      "unet-image-segmentation"
+    ],
+    "updated_at": "2026-03-10T14:11:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hucaofighting/swin-unet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmentation"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-segmentation"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synapse"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unet"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unet-image-segmentation"
+    }
+  ]
+}

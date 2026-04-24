@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lint and Deploy Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lint and Deploy Charts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17838,
+      "status": "candidate",
+      "text": "hemp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17802,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17765,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17765,
+      "status": "candidate",
+      "text": "lick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17765,
+      "status": "candidate",
+      "text": "licked"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Deploy Charts",
+      "sense_id": "lint-and-deploy-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-and-deploy-charts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-and-deploy-charts",
+  "observation_id": "cbb678fae7e269b0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Lint and Deploy Charts",
+  "source_context_snippet": "Lint and Deploy Charts",
+  "source_file": ".github/workflows/lint-and-deploy.yaml",
+  "source_repo": "hiyouga/vllm",
+  "source_repo_description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+}

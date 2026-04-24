@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/preact-in-es3",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/preact-in-es3",
+      "target": "preact",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:02:07.202892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 441
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":horse: How to use Preact without Babel, ES2015 or JSX.",
+    "fork": false,
+    "full_name": "developit/preact-in-es3",
+    "html_url": "https://github.com/developit/preact-in-es3",
+    "language": "JavaScript",
+    "pushed_at": "2022-04-28T18:55:52Z",
+    "stargazers_count": 50,
+    "topics": [
+      "babel",
+      "jsx",
+      "preact"
+    ],
+    "updated_at": "2025-08-18T14:45:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Preact] doesn't require that you use any sort of build tooling or transpiler.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "[Preact] doesn't require that you use any sort of build tooling or transpiler.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gnosis Chain Validator Deposit Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Slack Notify Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Slack Notify Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19217,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19096,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19096,
+      "status": "candidate",
+      "text": "loosen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19072,
+      "status": "candidate",
+      "text": "gape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19047,
+      "status": "candidate",
+      "text": "letup"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slack Notify Release",
+      "sense_id": "slack-notify-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "slack-notify-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slack-notify-release",
+  "observation_id": "4c89b0e3a5a952b8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Slack Notify Release",
+  "source_context_snippet": "Slack Notify Release",
+  "source_file": ".github/workflows/slack_release_notification.yml",
+  "source_repo": "gnosischain/gbc-deposit-ui",
+  "source_repo_description": "Gnosis Chain Validator Deposit Tool"
+}

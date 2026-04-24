@@ -84,7 +84,7 @@
   "normalized_form": "fmt",
   "observation_id": "76a72b28e38d8c84",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "fmt",
   "source_context_snippet": "fmt",
   "source_file": ".github/workflows/fmt.yml",

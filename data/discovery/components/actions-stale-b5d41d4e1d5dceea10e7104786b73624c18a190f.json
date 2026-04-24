@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/close_stale_prs_issues.yml",
       "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "sveltejs/svelte-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-support.yml",
+      "source_repo": "composer/composer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "akuity/kargo"
     }
   ]
 }

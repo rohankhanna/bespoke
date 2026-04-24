@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NuGet/docs.microsoft.com-nuget",
+      "target": "nuget/nugetdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NuGet/docs.microsoft.com-nuget",
+      "target": "dotnet/home",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NuGet/docs.microsoft.com-nuget",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:57:42.392739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation for NuGet",
+    "fork": false,
+    "full_name": "NuGet/docs.microsoft.com-nuget",
+    "html_url": "https://github.com/NuGet/docs.microsoft.com-nuget",
+    "language": null,
+    "pushed_at": "2026-04-23T01:13:18Z",
+    "stargazers_count": 158,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-21T21:59:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/home",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuget/nugetdocs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The NuGet documentation contained in this repository is hosted in [NuGet documentation](https://learn.microsoft.com/nuget/). This repository was migrated from the former NuGetDocs repository, https://github.com/NuGet/NuGetDocs, which is no longer in active use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

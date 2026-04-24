@@ -139,6 +139,30 @@
       "source_repo": "inikep/lizard",
       "status": "candidate-context",
       "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycompression/python-isal",
+      "status": "candidate-context",
+      "text": "Faster zlib and gzip compatible compression and decompression by providing python bindings for the isa-l library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-isal",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/isal.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate-context",
+      "text": "A drop-in replacement for Python's zlib and gzip modules using zlib-ng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "inikep/lizard",
       "status": "candidate",
       "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-isal",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/isal.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycompression/python-zlib-ng",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/zlib-ng.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +322,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "inikep/lizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-zlib-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "inikep/lizard"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

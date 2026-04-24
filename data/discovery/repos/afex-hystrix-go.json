@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:08:26.882565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Netflix's Hystrix latency and fault tolerance library, for Go ",
+    "fork": false,
+    "full_name": "afex/hystrix-go",
+    "html_url": "https://github.com/afex/hystrix-go",
+    "language": "Go",
+    "pushed_at": "2024-02-24T18:44:10Z",
+    "stargazers_count": 4429,
+    "topics": [],
+    "updated_at": "2026-04-24T08:37:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

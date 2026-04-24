@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:55:24.155428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "0cc4m/hf_bleeding_edge",
+    "html_url": "https://github.com/0cc4m/hf_bleeding_edge",
+    "language": "Python",
+    "pushed_at": "2023-07-22T18:18:44Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-05-09T08:45:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

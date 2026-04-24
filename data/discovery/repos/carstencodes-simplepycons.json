@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_tag.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer_py_ver.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "sachinraja/simple-icons-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "carstencodes/pdm-bump",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_tag.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_tag.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "pdm-project/setup-pdm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_tag.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "Tag on Submodule Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer_py_ver.yaml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "pdm-project/setup-pdm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "pdm-project/setup-pdm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "carstencodes/simplepycons",
+      "target": "gitmodules update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:17.602191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3252
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5960
+    },
+    {
+      "path": ".github/workflows/create_tag.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/devcontainer_py_ver.yaml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1068
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 3098
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python wrappers for simple-icons",
+    "fork": false,
+    "full_name": "carstencodes/simplepycons",
+    "html_url": "https://github.com/carstencodes/simplepycons",
+    "language": "Python",
+    "pushed_at": "2026-04-19T18:43:16Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-19T18:38:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sachinraja/simple-icons-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carstencodes/pdm-bump",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tag on Submodule Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_tag.yml",
+      "term": "Tag on Submodule Update"
+    },
+    {
+      "context_snippet": "Create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "\"gitmodules update\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "gitmodules update"
+    }
+  ]
+}

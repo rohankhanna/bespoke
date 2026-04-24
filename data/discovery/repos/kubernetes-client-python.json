@@ -309,7 +309,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:11:24.982774+00:00",
+  "fetched_at": "2026-04-24T09:11:08.443093+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -361,7 +361,7 @@
     "full_name": "kubernetes-client/python",
     "html_url": "https://github.com/kubernetes-client/python",
     "language": "Python",
-    "pushed_at": "2026-04-22T02:02:59Z",
+    "pushed_at": "2026-04-24T02:02:57Z",
     "stargazers_count": 7549,
     "topics": [
       "client-python",

@@ -76,28 +76,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmocr",
+      "target": "open-mmlab/mmyolo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmpose",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmhuman3d",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmrazor",
+      "target": "open-mmlab/playground",
       "target_type": "repository"
     },
     {
@@ -297,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:45:38.360308+00:00",
+  "fetched_at": "2026-04-24T09:19:53.813251+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -359,22 +345,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmhuman3d",
+      "full_name": "open-mmlab/mmyolo",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmocr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmpose",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmrazor",
+      "full_name": "open-mmlab/playground",
       "source_file": "README.md"
     }
   ],

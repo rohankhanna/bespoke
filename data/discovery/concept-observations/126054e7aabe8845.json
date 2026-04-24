@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Test your rendered HTML files to make sure they're accurate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "If you generate HTML files, _then this tool might be for you_!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "If you generate HTML files, _then this tool might be for you_!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018215,
+      "status": "candidate",
+      "text": "carmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015674,
+      "status": "candidate",
+      "text": "ruby-red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012675,
+      "status": "candidate",
+      "text": "crimson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012170,
+      "status": "candidate",
+      "text": "scarlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011884,
+      "status": "candidate",
+      "text": "red"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ruby",
+      "sense_id": "ruby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45039,
+      "status": "candidate",
+      "text": "carmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28038,
+      "status": "candidate",
+      "text": "ruddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "crimson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11054,
+      "status": "candidate",
+      "text": "cherry"
+    }
+  ],
+  "concept_id": "ruby",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ruby",
+  "observation_id": "126054e7aabe8845",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "ruby",
+  "source_context_snippet": "If you generate HTML files, _then this tool might be for you_!",
+  "source_file": null,
+  "source_repo": "gjtorikian/html-proofer",
+  "source_repo_description": "Test your rendered HTML files to make sure they're accurate."
+}

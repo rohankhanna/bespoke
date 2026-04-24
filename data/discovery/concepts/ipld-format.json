@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "ipld-format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-ipld-bitcoin",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of Bitcoin IPLD formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-bitcoin",
+      "status": "candidate-context",
+      "text": "**This project is no longer under active development and has been archived. See https://github.com/ipld/js-bitcoin for a newer and more complete implementation of a Bitcoin IPLD codec.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-ipld-dag-cbor",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of the IPLD dag-cbor format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-dag-cbor",
+      "status": "candidate-context",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [@ipld/dag-cbor](https://github.com/ipld/js-dag-cbor) and [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-ipld-dag-pb",
+      "status": "candidate-context",
+      "text": "JavaScript Implementation of the MerkleDAG Nodes with Protobuf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-dag-pb",
+      "status": "candidate-context",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [@ipld/dag-pb](https://github.com/ipld/js-dag-pb) and [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-ipld-ethereum",
+      "status": "candidate-context",
+      "text": "JavaScript Implementation of All Ethereum IPLD formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-ethereum",
+      "status": "candidate-context",
+      "text": "\u26d4\ufe0f DEPRECATED: This module is no longer maintained. It can be used with [multiformats](https://github.com/multiformats/js-multiformats) by wrapping it with [ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) <!-- omit in toc -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-bitcoin",
+      "status": "candidate",
+      "text": "**This project is no longer under active development and has been archived. See https://github.com/ipld/js-bitcoin for a newer and more complete implementation of a Bitcoin IPLD codec.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-dag-cbor",
+      "status": "candidate",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [@ipld/dag-cbor](https://github.com/ipld/js-dag-cbor) and [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-dag-pb",
+      "status": "candidate",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [@ipld/dag-pb](https://github.com/ipld/js-dag-pb) and [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-ethereum",
+      "status": "candidate",
+      "text": "\u26d4\ufe0f DEPRECATED: This module is no longer maintained. It can be used with [multiformats](https://github.com/multiformats/js-multiformats) by wrapping it with [ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) <!-- omit in toc -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ipld-format",
+  "concept_id": "ipld-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipld/js-ipld-bitcoin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipld/js-ipld-dag-cbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipld/js-ipld-dag-pb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipld/js-ipld-ethereum"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipld-format",
+      "sense_id": "ipld-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

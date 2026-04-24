@@ -13,12 +13,30 @@
       "source_repo": "celo-org/op-geth",
       "status": "candidate-context",
       "text": "PR only"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "cLabs managed applications for Kubernetes using Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
+      "status": "candidate-context",
+      "text": "PR only"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "celo-org/op-geth",
+      "status": "candidate",
+      "text": "PR only"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/charts",
       "status": "candidate",
       "text": "PR only"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pr.yaml",
       "source_repo": "celo-org/op-geth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "celo-org/charts"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

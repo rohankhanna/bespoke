@@ -259,6 +259,66 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate-context",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d The API and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "The container native, cloud agnostic serverless platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dherault/serverless-offline",
+      "status": "candidate-context",
+      "text": "Emulate AWS \u03bb and API Gateway locally when developing your Serverless project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dherault/serverless-offline",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/ecommerce-netlify",
+      "status": "candidate-context",
+      "text": "\ud83d\udecd A JAMstack Ecommerce Site built with Nuxt and Netlify Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/ecommerce-netlify",
+      "status": "candidate-context",
+      "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getndazn/dazn-lambda-powertools",
+      "status": "candidate-context",
+      "text": "Powertools (logger, HTTP client, AWS clients, middlewares, patterns) for Lambda functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getndazn/dazn-lambda-powertools",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +447,36 @@
       "source_repo": "aws-samples/aws-serverless-airline-booking",
       "status": "candidate",
       "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dherault/serverless-offline",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/ecommerce-netlify",
+      "status": "candidate",
+      "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getndazn/dazn-lambda-powertools",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +658,53 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aws-samples/aws-serverless-airline-booking"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Kong/kong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/fn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dherault/serverless-offline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "sdras/ecommerce-netlify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "getndazn/dazn-lambda-powertools"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

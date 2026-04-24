@@ -81,6 +81,18 @@
       "source_repo": "tailwindlabs/tailwindcss",
       "status": "candidate-context",
       "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "Prepare Release"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tailwindlabs/tailwindcss",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss",
       "status": "candidate",
       "text": "Prepare Release"
     }
@@ -198,11 +216,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/prettier-plugin-tailwindcss"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

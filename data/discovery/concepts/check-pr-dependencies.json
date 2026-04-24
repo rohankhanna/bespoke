@@ -19,12 +19,30 @@
       "source_repo": "json-schema-org/json-schema-spec",
       "status": "candidate-context",
       "text": "Check PR Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-schema-org/.github",
+      "status": "candidate-context",
+      "text": "Our organization-wide Code of Conduct. Also see the community repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/.github",
+      "status": "candidate-context",
+      "text": "Check PR Dependencies"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "json-schema-org/json-schema-spec",
+      "status": "candidate",
+      "text": "Check PR Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/.github",
       "status": "candidate",
       "text": "Check PR Dependencies"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pr-dependencies.yml",
       "source_repo": "json-schema-org/json-schema-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "source_repo": "json-schema-org/.github"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cisagov/vulnrichment",
+      "target": "certcc/ssvc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:59.702698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A repo to conduct vulnerability enrichment.",
+    "fork": false,
+    "full_name": "cisagov/vulnrichment",
+    "html_url": "https://github.com/cisagov/vulnrichment",
+    "language": null,
+    "pushed_at": "2026-04-24T05:15:05Z",
+    "stargazers_count": 757,
+    "topics": [],
+    "updated_at": "2026-04-24T05:15:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "certcc/ssvc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

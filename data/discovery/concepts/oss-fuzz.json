@@ -106,6 +106,30 @@
       "source_repo": "akheron/jansson",
       "status": "candidate-context",
       "text": "oss-fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randy408/libspng",
+      "status": "candidate-context",
+      "text": "Simple, modern libpng alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy408/libspng",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/pyvex",
+      "status": "candidate-context",
+      "text": "Python bindings for Valgrind's VEX IR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/pyvex",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +180,18 @@
       "source_repo": "akheron/jansson",
       "status": "candidate",
       "text": "oss-fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy408/libspng",
+      "status": "candidate",
+      "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/pyvex",
+      "status": "candidate",
+      "text": "OSS-Fuzz"
     }
   ],
   "candidate_related_terms": [],
@@ -211,11 +247,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "akheron/jansson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "randy408/libspng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "angr/pyvex"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitrise-io/bitrise-steplib",
+      "target": "bitrise-steplib/step-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitrise-io/bitrise-steplib",
+      "target": "bitrise-io/bitrise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitrise-io/bitrise-steplib",
+      "target": "bitrise-io/stepman",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:04:40.607774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "New Bitrise StepLib",
+    "fork": false,
+    "full_name": "bitrise-io/bitrise-steplib",
+    "html_url": "https://github.com/bitrise-io/bitrise-steplib",
+    "language": null,
+    "pushed_at": "2026-04-24T07:11:43Z",
+    "stargazers_count": 164,
+    "topics": [],
+    "updated_at": "2026-04-24T07:11:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitrise-io/bitrise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitrise-io/stepman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitrise-steplib/step-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

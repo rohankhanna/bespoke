@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A site to provide non-judgmental guidance on choosing a license for your open source project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28605259,
+      "status": "candidate",
+      "text": "hyde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635685,
+      "status": "candidate",
+      "text": "jukes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635684,
+      "status": "candidate",
+      "text": "jelf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635683,
+      "status": "candidate",
+      "text": "jinkings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635682,
+      "status": "candidate",
+      "text": "jyles"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jekyll",
+      "sense_id": "jekyll#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jekyll",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jekyll",
+  "observation_id": "afd5f11696e6558b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "jekyll",
+  "source_context_snippet": "**[ChooseALicense.com](https://choosealicense.com)** aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribut\u2026",
+  "source_file": null,
+  "source_repo": "github/choosealicense.com",
+  "source_repo_description": "A site to provide non-judgmental guidance on choosing a license for your open source project"
+}

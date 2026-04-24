@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "megvii-research/hidiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "ssitu/comfyui_restart_sampling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "ai-image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "highresolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:40.665250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20311
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Janky implementation of HiDiffusion for ComfyUI",
+    "fork": false,
+    "full_name": "blepping/comfyui_jankhidiffusion",
+    "html_url": "https://github.com/blepping/comfyui_jankhidiffusion",
+    "language": "Python",
+    "pushed_at": "2025-05-06T10:34:03Z",
+    "stargazers_count": 127,
+    "topics": [
+      "ai",
+      "ai-image-generation",
+      "comfyui",
+      "comfyui-nodes",
+      "diffusion",
+      "highresolution",
+      "image-generation",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-02-15T09:52:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-research/hidiffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ssitu/comfyui_restart_sampling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-image-generation"
+    },
+    {
+      "context_snippet": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highresolution"
+    },
+    {
+      "context_snippet": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

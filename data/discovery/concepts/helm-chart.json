@@ -19,6 +19,30 @@
       "source_repo": "BorisPolonsky/dify-helm",
       "status": "candidate-context",
       "text": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "ReactJS website to automatically generate playlists based on how the music sounds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "BorisPolonsky/dify-helm",
       "status": "candidate",
       "text": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "BorisPolonsky/dify-helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "teticio/deej-ai.online-app"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

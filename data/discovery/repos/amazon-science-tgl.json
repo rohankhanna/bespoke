@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:16:11.047615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "amazon-science/tgl",
+    "html_url": "https://github.com/amazon-science/tgl",
+    "language": "Python",
+    "pushed_at": "2023-12-25T09:27:39Z",
+    "stargazers_count": 218,
+    "topics": [],
+    "updated_at": "2026-04-22T00:54:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

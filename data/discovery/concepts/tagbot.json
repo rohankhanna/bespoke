@@ -103,6 +103,42 @@
       "source_repo": "JuliaWeb/HTTP.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate-context",
+      "text": "A high performance I/O library for deep learning in Julia, based on the PyTorch WebDataset library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "An opinionated code formatter for Julia. Plot twist - the opinion is your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wentasah/EmacsVterm.jl",
+      "status": "candidate-context",
+      "text": "Better integration of Julia REPL with Emacs vterm terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wentasah/EmacsVterm.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -157,6 +193,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaWeb/HTTP.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/WebDataset.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domluna/JuliaFormatter.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wentasah/EmacsVterm.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -226,11 +280,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaWeb/HTTP.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "webdataset/WebDataset.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "domluna/JuliaFormatter.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "wentasah/EmacsVterm.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

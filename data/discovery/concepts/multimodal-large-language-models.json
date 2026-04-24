@@ -91,6 +91,18 @@
       "source_repo": "MME-Benchmarks/Video-MME-v2",
       "status": "candidate-context",
       "text": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate-context",
+      "text": "LLaVA-Plus: Large Language and Vision Assistants that Plug and Learn to Use Skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate-context",
+      "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "MME-Benchmarks/Video-MME-v2",
       "status": "candidate",
       "text": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
+      "status": "candidate",
+      "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

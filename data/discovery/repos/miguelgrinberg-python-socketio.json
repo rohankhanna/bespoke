@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "eventlet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "gevent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "long-polling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "low-latency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "socket-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "socketio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "socketio-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "web-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miguelgrinberg/python-socketio",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:10:09.510090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2216
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python Socket.IO server and client",
+    "fork": false,
+    "full_name": "miguelgrinberg/python-socketio",
+    "html_url": "https://github.com/miguelgrinberg/python-socketio",
+    "language": "Python",
+    "pushed_at": "2026-04-08T17:46:15Z",
+    "stargazers_count": 4338,
+    "topics": [
+      "asyncio",
+      "eventlet",
+      "gevent",
+      "long-polling",
+      "low-latency",
+      "python",
+      "socket-io",
+      "socketio",
+      "socketio-server",
+      "web-server",
+      "websocket"
+    ],
+    "updated_at": "2026-04-20T07:47:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventlet"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gevent"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-polling"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-latency"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socket-io"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socketio"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socketio-server"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-server"
+    },
+    {
+      "context_snippet": "python-socketio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

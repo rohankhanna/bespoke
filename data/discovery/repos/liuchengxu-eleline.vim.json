@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/eleline.vim",
+      "target": "liuchengxu/space-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/eleline.vim",
+      "target": "w0rp/ale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/eleline.vim",
+      "target": "mhinz/vim-signify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/eleline.vim",
+      "target": "nvim-lua/lsp-status.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/eleline.vim",
+      "target": "space-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/eleline.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:22.758947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":herb: Another elegant statusline for vim",
+    "fork": false,
+    "full_name": "liuchengxu/eleline.vim",
+    "html_url": "https://github.com/liuchengxu/eleline.vim",
+    "language": "Vim Script",
+    "pushed_at": "2023-12-05T01:18:35Z",
+    "stargazers_count": 309,
+    "topics": [
+      "space-vim",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2025-12-11T17:30:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuchengxu/space-vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mhinz/vim-signify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-lua/lsp-status.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w0rp/ale",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Another **ele**gant status**line** for vim, extracted from [space-vim](https://github.com/liuchengxu/space-vim).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-vim"
+    },
+    {
+      "context_snippet": "Another **ele**gant status**line** for vim, extracted from [space-vim](https://github.com/liuchengxu/space-vim).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

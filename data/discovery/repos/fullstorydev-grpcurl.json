@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "Codesee-io/codesee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fullstorydev/grpcurl",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml",
+      "source_repo": "fullstorydev/grpcurl",
+      "target": "Codesee-io/codesee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml",
+      "source_repo": "fullstorydev/grpcurl",
+      "target": "CodeSee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fullstorydev/grpcurl",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fullstorydev/grpcurl",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fullstorydev/grpcurl",
+      "target": "protobuf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:05:10.073326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11934
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1144
+    },
+    {
+      "path": "go.mod",
+      "size": 1268
+    },
+    {
+      "path": ".github/workflows/codesee-arch-diagram.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers",
+    "fork": false,
+    "full_name": "fullstorydev/grpcurl",
+    "html_url": "https://github.com/fullstorydev/grpcurl",
+    "language": "Go",
+    "pushed_at": "2026-01-27T17:58:21Z",
+    "stargazers_count": 12591,
+    "topics": [
+      "golang",
+      "grpc",
+      "protobuf"
+    ],
+    "updated_at": "2026-04-24T00:48:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CodeSee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml",
+      "term": "CodeSee"
+    },
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcurl/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcurl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcurl/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcurl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/fullstorydev/grpcurl/tree/master.svg?style=svg)](https://circleci.com/gh/fullstorydev/grpcurl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    }
+  ]
+}

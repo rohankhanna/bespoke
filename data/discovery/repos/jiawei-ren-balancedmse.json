@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "target": "yyzharry/imbalanced-regression",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "target": "age-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "target": "human-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "target": "imbalanced-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/BalancedMSE",
+      "target": "imbalanced-regression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:56:54.382532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2022 Oral] Balanced MSE for Imbalanced Visual Regression https://arxiv.org/abs/2203.16427",
+    "fork": false,
+    "full_name": "jiawei-ren/BalancedMSE",
+    "html_url": "https://github.com/jiawei-ren/BalancedMSE",
+    "language": "Python",
+    "pushed_at": "2022-07-28T13:51:32Z",
+    "stargazers_count": 393,
+    "topics": [
+      "age-estimation",
+      "computer-vision",
+      "depth-estimation",
+      "human-mesh-recovery",
+      "imbalanced-learning",
+      "imbalanced-regression"
+    ],
+    "updated_at": "2026-04-01T03:45:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yyzharry/imbalanced-regression",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "age-estimation"
+    },
+    {
+      "context_snippet": "Code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "Code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-mesh-recovery"
+    },
+    {
+      "context_snippet": "Code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalanced-learning"
+    },
+    {
+      "context_snippet": "Code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalanced-regression"
+    }
+  ]
+}

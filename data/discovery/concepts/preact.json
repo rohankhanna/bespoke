@@ -67,6 +67,42 @@
       "source_repo": "preactjs/preact",
       "status": "candidate-context",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developit/preact-in-es3",
+      "status": "candidate-context",
+      "text": ":horse: How to use Preact without Babel, ES2015 or JSX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/preact-in-es3",
+      "status": "candidate-context",
+      "text": "[Preact] doesn't require that you use any sort of build tooling or transpiler."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/awesome-preact",
+      "status": "candidate-context",
+      "text": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/awesome-preact",
+      "status": "candidate-context",
+      "text": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension for inspection Preact applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate-context",
+      "text": "Browser extension that allows you to inspect a Preact component hierarchy,"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "preactjs/preact",
       "status": "candidate",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/preact-in-es3",
+      "status": "candidate",
+      "text": "[Preact] doesn't require that you use any sort of build tooling or transpiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/awesome-preact",
+      "status": "candidate",
+      "text": "A curated list of amazingly awesome things regarding Preact ecosystem :star2:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-devtools",
+      "status": "candidate",
+      "text": "Browser extension that allows you to inspect a Preact component hierarchy,"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +226,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "developit/preact-in-es3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/awesome-preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

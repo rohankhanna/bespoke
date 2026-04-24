@@ -223,6 +223,66 @@
       "source_repo": "mthenw/awesome-layers",
       "status": "candidate-context",
       "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "Universal Command Line Interface for Amazon Web Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate-context",
+      "text": "aws-cli"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/aws-shell",
+      "status": "candidate-context",
+      "text": "An integrated shell for working with the AWS CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aws-shell",
+      "status": "candidate-context",
+      "text": "aws-shell - The interactive productivity booster for the AWS CLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "A supercharged AWS command line interface (CLI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate-context",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "A scalable inference server for models optimized with OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +393,36 @@
       "source_repo": "mthenw/awesome-layers",
       "status": "candidate",
       "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cli",
+      "status": "candidate",
+      "text": "aws-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aws-shell",
+      "status": "candidate",
+      "text": "aws-shell - The interactive productivity booster for the AWS CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donnemartin/saws",
+      "status": "candidate",
+      "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -520,11 +610,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "mthenw/awesome-layers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "minio/minio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/aws-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "donnemartin/saws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/model_server"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

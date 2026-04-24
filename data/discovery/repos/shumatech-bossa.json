@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA",
+      "target": "arm-microcontrollers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA",
+      "target": "atmel-sam-family",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA",
+      "target": "bossa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA",
+      "target": "development-board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shumatech/BOSSA",
+      "target": "flash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:03:17.281261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BOSSA is a flash programming utility for Atmel's SAM family of flash-based ARM microcontrollers.  The motivation behind BOSSA is to create a simple, easy-to-use, open source utility to replace Atmel's SAM-BA software.  BOSSA is an acronym for Basic Open Source SAM-BA Application to reflect that goal.",
+    "fork": false,
+    "full_name": "shumatech/BOSSA",
+    "html_url": "https://github.com/shumatech/BOSSA",
+    "language": "C++",
+    "pushed_at": "2023-11-30T07:30:37Z",
+    "stargazers_count": 388,
+    "topics": [
+      "arm-microcontrollers",
+      "atmel-sam-family",
+      "bossa",
+      "c-plus-plus",
+      "development-board",
+      "flash"
+    ],
+    "updated_at": "2026-04-16T09:46:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BOSSA 1.9.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm-microcontrollers"
+    },
+    {
+      "context_snippet": "BOSSA 1.9.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atmel-sam-family"
+    },
+    {
+      "context_snippet": "BOSSA 1.9.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bossa"
+    },
+    {
+      "context_snippet": "BOSSA 1.9.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "BOSSA 1.9.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development-board"
+    },
+    {
+      "context_snippet": "BOSSA 1.9.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flash"
+    }
+  ]
+}

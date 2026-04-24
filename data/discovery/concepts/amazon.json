@@ -19,6 +19,18 @@
       "source_repo": "adamlui/ai-web-extensions",
       "status": "candidate-context",
       "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate-context",
+      "text": "\u2728  Learn how to use AWS Lambda to easily create infinitely scalable web services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate-context",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "adamlui/ai-web-extensions",
       "status": "candidate",
       "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-aws-lambda",
+      "status": "candidate",
+      "text": "![aws lambda intro image](https://i.imgur.com/9ImDKrv.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-aws-lambda"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

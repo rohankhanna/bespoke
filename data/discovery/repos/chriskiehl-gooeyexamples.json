@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:05:55.294813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1359
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example programs to Demonstrate Gooey's functionality ",
+    "fork": false,
+    "full_name": "chriskiehl/GooeyExamples",
+    "html_url": "https://github.com/chriskiehl/GooeyExamples",
+    "language": null,
+    "pushed_at": "2024-01-05T16:02:01Z",
+    "stargazers_count": 314,
+    "topics": [],
+    "updated_at": "2026-03-22T16:47:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

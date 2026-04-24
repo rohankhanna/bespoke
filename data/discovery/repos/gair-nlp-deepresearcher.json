@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GAIR-NLP/DeepResearcher",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "GAIR-NLP/DeepResearcher",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:55.562834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5377
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2388
+    },
+    {
+      "path": "requirements.txt",
+      "size": 748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scaling Deep Research via Reinforcement Learning in Real-world Environments.",
+    "fork": false,
+    "full_name": "GAIR-NLP/DeepResearcher",
+    "html_url": "https://github.com/GAIR-NLP/DeepResearcher",
+    "language": "Python",
+    "pushed_at": "2025-10-15T15:18:46Z",
+    "stargazers_count": 735,
+    "topics": [],
+    "updated_at": "2026-04-23T13:10:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

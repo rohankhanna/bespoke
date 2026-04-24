@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +69,54 @@
       "source_repo": "RapidAI/RapidOCR",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS",
+      "status": "candidate-context",
+      "text": "YOLOX + ROS2 object detection package (C++ only support)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inisis/OnnxSlim",
+      "status": "candidate-context",
+      "text": "A Toolkit to Help Optimize Onnx Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inisis/OnnxSlim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "Deploy models in ONNX format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate-context",
+      "text": "onnxruntime"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +149,30 @@
       "source_repo": "RapidAI/RapidOCR",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/YOLOX-ROS",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inisis/OnnxSlim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/audonnx",
+      "status": "candidate",
+      "text": "onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +210,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "RapidAI/RapidOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/YOLOX-ROS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "inisis/OnnxSlim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/onnxruntime.yml",
+      "source_repo": "audeering/audonnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-dev-gallery"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

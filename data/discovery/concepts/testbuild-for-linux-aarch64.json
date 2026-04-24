@@ -19,12 +19,30 @@
       "source_repo": "yquake2/ref_vk",
       "status": "candidate-context",
       "text": "Testbuild for Linux (aarch64)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yquake2/yquake2remaster",
+      "status": "candidate-context",
+      "text": "Yamagi Quake II with Q2 Remaster support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yquake2/yquake2remaster",
+      "status": "candidate-context",
+      "text": "Testbuild for Linux (aarch64)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "yquake2/ref_vk",
+      "status": "candidate",
+      "text": "Testbuild for Linux (aarch64)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yquake2/yquake2remaster",
       "status": "candidate",
       "text": "Testbuild for Linux (aarch64)"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/linux_aarch64.yml",
       "source_repo": "yquake2/ref_vk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/linux_aarch64.yml",
+      "source_repo": "yquake2/yquake2remaster"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

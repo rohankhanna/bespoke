@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "mattnotmitt/doxygen-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "anonymoux47/termvisage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "mit-han-lab/tinyengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "mattnotmitt/doxygen-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "Generate and Deploy Doxygen Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "cuda-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "edge-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "on-device-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/TinyChatEngine",
+      "target": "x86-64",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:18.968441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23242
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1316
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/doxygen.yml",
+      "size": 519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TinyChatEngine: On-Device LLM Inference Library",
+    "fork": false,
+    "full_name": "mit-han-lab/TinyChatEngine",
+    "html_url": "https://github.com/mit-han-lab/TinyChatEngine",
+    "language": "C++",
+    "pushed_at": "2024-07-04T04:20:45Z",
+    "stargazers_count": 953,
+    "topics": [
+      "arm",
+      "c",
+      "cpp",
+      "cuda-programming",
+      "deep-learning",
+      "edge-computing",
+      "large-language-models",
+      "on-device-ai",
+      "quantization",
+      "x86-64"
+    ],
+    "updated_at": "2026-04-19T18:56:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anonymoux47/termvisage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/tinyengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate and Deploy Doxygen Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "term": "Generate and Deploy Doxygen Documentation"
+    },
+    {
+      "context_snippet": "![tinychat_logo](assets/figures/tinychat_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-programming"
+    },
+    {
+      "context_snippet": "![tinychat_logo](assets/figures/tinychat_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![tinychat_logo](assets/figures/tinychat_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-computing"
+    },
+    {
+      "context_snippet": "![tinychat_logo](assets/figures/tinychat_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![tinychat_logo](assets/figures/tinychat_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "on-device-ai"
+    },
+    {
+      "context_snippet": "![tinychat_logo](assets/figures/tinychat_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "![tinychat_logo](assets/figures/tinychat_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x86-64"
+    }
+  ]
+}

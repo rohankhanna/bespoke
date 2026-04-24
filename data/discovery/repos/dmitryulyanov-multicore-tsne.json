@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "lvdmaaten/bhtsne",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "danielfrg/tsne",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "barnes-hut-tsne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "multicore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "py-bh-tsne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryUlyanov/Multicore-TSNE",
+      "target": "tsne",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:58:03.479594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6036
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parallel t-SNE implementation with Python and Torch wrappers.",
+    "fork": false,
+    "full_name": "DmitryUlyanov/Multicore-TSNE",
+    "html_url": "https://github.com/DmitryUlyanov/Multicore-TSNE",
+    "language": "C++",
+    "pushed_at": "2024-02-06T10:59:55Z",
+    "stargazers_count": 1915,
+    "topics": [
+      "barnes-hut-tsne",
+      "multicore",
+      "py-bh-tsne",
+      "tsne"
+    ],
+    "updated_at": "2026-04-18T03:08:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielfrg/tsne",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lvdmaaten/bhtsne",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "barnes-hut-tsne"
+    },
+    {
+      "context_snippet": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multicore"
+    },
+    {
+      "context_snippet": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "py-bh-tsne"
+    },
+    {
+      "context_snippet": "This is a multicore modification of [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne) by L. Van der Maaten with Python CFFI-based wrappers. This code also works **faster than sklearn.TSNE** on 1 core (as of version 0.18).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsne"
+    }
+  ]
+}

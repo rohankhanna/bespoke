@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aloctavodia/Doing_bayesian_data_analysis",
+      "target": "jwarmenhoven/dbda-python",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:39.810077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python/PyMC3 versions of the programs described in Doing bayesian data analysis by John K. Kruschke",
+    "fork": false,
+    "full_name": "aloctavodia/Doing_bayesian_data_analysis",
+    "html_url": "https://github.com/aloctavodia/Doing_bayesian_data_analysis",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-07-16T06:41:40Z",
+    "stargazers_count": 903,
+    "topics": [],
+    "updated_at": "2026-04-21T21:16:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jwarmenhoven/dbda-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "borkdude/babashka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "seancorfield/next-jdbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "seancorfield/honeysql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "oracle/helidon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "graalvm/setup-graalvm@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "DeLaGuardo/setup-clojure@13.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "hsqldb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "jdbc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods",
+      "target": "postgresql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:08:40.389996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8674
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Babashka pods for SQL databases",
+    "fork": false,
+    "full_name": "babashka/babashka-sql-pods",
+    "html_url": "https://github.com/babashka/babashka-sql-pods",
+    "language": "Clojure",
+    "pushed_at": "2026-04-02T14:50:16Z",
+    "stargazers_count": 101,
+    "topics": [
+      "babashka",
+      "clojure",
+      "hsqldb",
+      "jdbc",
+      "postgresql"
+    ],
+    "updated_at": "2026-04-08T01:02:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/babashka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oracle/helidon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seancorfield/honeysql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seancorfield/next-jdbc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[Babashka](https://github.com/borkdude/babashka) pods for interacting with SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "[Babashka](https://github.com/borkdude/babashka) pods for interacting with SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[Babashka](https://github.com/borkdude/babashka) pods for interacting with SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hsqldb"
+    },
+    {
+      "context_snippet": "[Babashka](https://github.com/borkdude/babashka) pods for interacting with SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdbc"
+    },
+    {
+      "context_snippet": "[Babashka](https://github.com/borkdude/babashka) pods for interacting with SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    }
+  ]
+}

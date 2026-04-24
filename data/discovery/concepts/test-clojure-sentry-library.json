@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Clojure Sentry Library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-clj",
+      "status": "candidate-context",
+      "text": "Sentry SDK for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-clj",
+      "status": "candidate-context",
+      "text": "Test Clojure Sentry Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-clj",
+      "status": "candidate",
+      "text": "Test Clojure Sentry Library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18750,
+      "status": "candidate",
+      "text": "outsentry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18731,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18556,
+      "status": "candidate",
+      "text": "impound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18410,
+      "status": "candidate",
+      "text": "carrel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18343,
+      "status": "candidate",
+      "text": "blotter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Clojure Sentry Library",
+  "concept_id": "test-clojure-sentry-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "getsentry/sentry-clj"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Clojure Sentry Library",
+      "sense_id": "test-clojure-sentry-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

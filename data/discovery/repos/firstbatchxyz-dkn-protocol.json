@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:53:26.171386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1389
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "firstbatchxyz/dkn-protocol",
+    "html_url": "https://github.com/firstbatchxyz/dkn-protocol",
+    "language": "Rust",
+    "pushed_at": "2026-03-09T20:51:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-09T20:51:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

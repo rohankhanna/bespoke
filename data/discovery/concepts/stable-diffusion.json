@@ -271,6 +271,90 @@
       "source_repo": "openvinotoolkit/openvino",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "status": "candidate-context",
+      "text": "6 nodes for ComfyUI that allows for more control and flexibility over noise to do e.g. variations or \"un-sampling\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "status": "candidate-context",
+      "text": "This repo contains 6 nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allows for more control and flexibility over the noise. This allows e.g. for workflows with small variations to generations or finding the accompanying noise to some input image and prompt."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "status": "candidate-context",
+      "text": "Tiled samplers for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "status": "candidate-context",
+      "text": "![panorama of the ocean, sailboats and large moody clouds](https://github.com/BlenderNeko/ComfyUI_TiledKSampler/blob/master/examples/ComfyUI_02010_.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate-context",
+      "text": "Janky implementation of HiDiffusion for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate-context",
+      "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate-context",
+      "text": "Wildly unsound and experimental sampling for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate-context",
+      "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate-context",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sanster/IOPaint",
+      "status": "candidate-context",
+      "text": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/IOPaint",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">IOPaint</h1>"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +489,48 @@
       "source_repo": "openvinotoolkit/openvino",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_Noise",
+      "status": "candidate",
+      "text": "This repo contains 6 nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allows for more control and flexibility over the noise. This allows e.g. for workflows with small variations to generations or finding the accompanying noise to some input image and prompt."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler",
+      "status": "candidate",
+      "text": "![panorama of the ocean, sailboats and large moody clouds](https://github.com/BlenderNeko/ComfyUI_TiledKSampler/blob/master/examples/ComfyUI_02010_.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_jankhidiffusion",
+      "status": "candidate",
+      "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/comfyui_overly_complicated_sampling",
+      "status": "candidate",
+      "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finegrain-ai/refiners",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/IOPaint",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">IOPaint</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +736,89 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_Noise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "BlenderNeko/ComfyUI_TiledKSampler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_jankhidiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "blepping/comfyui_overly_complicated_sampling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "finegrain-ai/refiners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

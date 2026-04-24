@@ -84,7 +84,7 @@
   "normalized_form": "approve-github-workflows",
   "observation_id": "5a3e4d89889d2f27",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Approve GitHub Workflows",
   "source_context_snippet": "Approve GitHub Workflows",
   "source_file": ".github/workflows/gh-workflow-approve.yaml",

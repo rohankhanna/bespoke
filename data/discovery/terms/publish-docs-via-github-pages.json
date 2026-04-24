@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/mkdocs.yml",
       "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "etclabscore/core-geth"
     }
   ],
   "term": "Publish docs via GitHub Pages"

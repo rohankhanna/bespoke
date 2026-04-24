@@ -70,20 +70,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simd-lite/simd-json",
-      "target": "microsoft/snmalloc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simd-lite/simd-json",
-      "target": "sundoge/simdjson-rust",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "simd-lite/simd-json",
@@ -217,7 +203,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:41:13.811135+00:00",
+  "fetched_at": "2026-04-24T09:09:58.602393+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -268,16 +254,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "lemire/simdjson",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/snmalloc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sundoge/simdjson-rust",
       "source_file": "README.md"
     }
   ],

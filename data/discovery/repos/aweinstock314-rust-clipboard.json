@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:10:53.896681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1657
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "System Clipboard interfacing library in Rust",
+    "fork": false,
+    "full_name": "aweinstock314/rust-clipboard",
+    "html_url": "https://github.com/aweinstock314/rust-clipboard",
+    "language": "Rust",
+    "pushed_at": "2023-05-19T15:01:33Z",
+    "stargazers_count": 378,
+    "topics": [],
+    "updated_at": "2026-03-13T04:31:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudwu/skynet",
+      "target": "ejoy/lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "cloudwu/skynet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "cloudwu/skynet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "cloudwu/skynet",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "cloudwu/skynet",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "cloudwu/skynet",
+      "target": "Build and Release Skynet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:32.834595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1660
+    },
+    {
+      "path": ".github/workflows/build-release.yml",
+      "size": 4856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight online game framework",
+    "fork": false,
+    "full_name": "cloudwu/skynet",
+    "html_url": "https://github.com/cloudwu/skynet",
+    "language": "C",
+    "pushed_at": "2026-04-01T07:45:33Z",
+    "stargazers_count": 14023,
+    "topics": [],
+    "updated_at": "2026-04-24T05:58:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ejoy/lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Release Skynet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "term": "Build and Release Skynet"
+    }
+  ]
+}

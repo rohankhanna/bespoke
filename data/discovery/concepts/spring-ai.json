@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spring-ai"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate-context",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-flex/agents-flex",
+      "status": "candidate",
+      "text": "Agents-flex is A Lightweight Java AI Application Development Framework."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spring-ai",
+  "concept_id": "spring-ai",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "agents-flex/agents-flex"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spring-ai",
+      "sense_id": "spring-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

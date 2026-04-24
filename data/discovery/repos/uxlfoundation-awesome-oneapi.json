@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "agorshk/daal4py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "acts-project/traccc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "acts-project/acts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/awesome-oneapi",
+      "target": "afd-illinois/kharma",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:52:30.875113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 49185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Awesome list of oneAPI projects",
+    "fork": false,
+    "full_name": "uxlfoundation/awesome-oneapi",
+    "html_url": "https://github.com/uxlfoundation/awesome-oneapi",
+    "language": null,
+    "pushed_at": "2025-08-08T09:21:41Z",
+    "stargazers_count": 164,
+    "topics": [],
+    "updated_at": "2026-04-21T23:03:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acts-project/acts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acts-project/traccc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afd-illinois/kharma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agorshk/daal4py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

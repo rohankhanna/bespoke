@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn-android-yolox",
+      "target": "nihui/ncnn-android-nanodet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:54:51.442696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real time yolox Android demo by ncnn",
+    "fork": false,
+    "full_name": "FeiGeChuanShu/ncnn-android-yolox",
+    "html_url": "https://github.com/FeiGeChuanShu/ncnn-android-yolox",
+    "language": "C++",
+    "pushed_at": "2022-05-25T01:09:17Z",
+    "stargazers_count": 318,
+    "topics": [],
+    "updated_at": "2026-03-20T11:44:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/ncnn-android-nanodet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

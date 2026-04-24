@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "asdf-vm/actions/plugin-test@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-community/asdf-kubectl",
+      "target": "asdf-vm/actions/plugin-test@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-community/asdf-kubectl",
+      "target": "Test Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-kubectl",
+      "target": "asdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-kubectl",
+      "target": "asdf-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:11:55.800154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubectl plugin for the asdf version manager [maintainer=@DustinChaloupka]",
+    "fork": false,
+    "full_name": "asdf-community/asdf-kubectl",
+    "html_url": "https://github.com/asdf-community/asdf-kubectl",
+    "language": "Shell",
+    "pushed_at": "2025-11-12T15:57:32Z",
+    "stargazers_count": 131,
+    "topics": [
+      "asdf",
+      "asdf-plugin"
+    ],
+    "updated_at": "2026-03-30T10:37:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test Plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Test Plugin"
+    },
+    {
+      "context_snippet": "Kubectl plugin for [asdf](https://github.com/asdf-vm/asdf) version manager",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf"
+    },
+    {
+      "context_snippet": "Kubectl plugin for [asdf](https://github.com/asdf-vm/asdf) version manager",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-plugin"
+    }
+  ]
+}

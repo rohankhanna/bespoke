@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "test-ubuntu"
+    "test-ubuntu",
+    "test ubuntu"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "apache/incubator-seata",
       "status": "candidate-context",
       "text": "\"test-ubuntu\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "Meta-programming for Swift, stop writing boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate-context",
+      "text": "test ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "apache/incubator-seata",
       "status": "candidate",
       "text": "\"test-ubuntu\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate",
+      "text": "test ubuntu"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "selfishness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "reconstructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "zulu"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "test-ubuntu",
   "concept_id": "test-ubuntu",
@@ -46,11 +101,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/test-ubuntu.yml",
       "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/test_ubuntu.yml",
+      "source_repo": "krzysztofzablocki/Sourcery"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

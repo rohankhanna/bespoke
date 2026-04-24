@@ -142,6 +142,42 @@
       "source_repo": "semantic-release/github",
       "status": "candidate-context",
       "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": ":boom: :speech_balloon: errors but with error code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate-context",
+      "text": "Error type used by all [semantic-release](https://github.com/semantic-release/semantic-release) packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate-context",
+      "text": "conventional-changelog preset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate-context",
+      "text": "[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Automating Releases via SemVer and Commit Message Conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate-context",
+      "text": "Python Semantic Release"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +246,24 @@
       "source_repo": "semantic-release/github",
       "status": "candidate",
       "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/error",
+      "status": "candidate",
+      "text": "Error type used by all [semantic-release](https://github.com/semantic-release/semantic-release) packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pvdlg/conventional-changelog-metahub",
+      "status": "candidate",
+      "text": "[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-semantic-release/python-semantic-release",
+      "status": "candidate",
+      "text": "Python Semantic Release"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +379,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "semantic-release/github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/error"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "pvdlg/conventional-changelog-metahub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "python-semantic-release/python-semantic-release"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

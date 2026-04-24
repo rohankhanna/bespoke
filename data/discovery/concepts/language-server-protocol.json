@@ -295,6 +295,18 @@
       "source_repo": "non-Jedi/eglot-jl",
       "status": "candidate-context",
       "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rls",
+      "status": "candidate-context",
+      "text": "Repository for the Rust Language Server (aka RLS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rls",
+      "status": "candidate-context",
+      "text": "RLS has been deprecated and is no longer supported."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "non-Jedi/eglot-jl",
       "status": "candidate",
       "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rls",
+      "status": "candidate",
+      "text": "RLS has been deprecated and is no longer supported."
     }
   ],
   "candidate_related_terms": [],
@@ -670,11 +688,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "non-Jedi/eglot-jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rls"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

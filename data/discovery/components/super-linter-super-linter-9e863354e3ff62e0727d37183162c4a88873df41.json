@@ -1,0 +1,12 @@
+{
+  "component": "super-linter/super-linter@9e863354e3ff62e0727d37183162c4a88873df41",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/DirectXMath"
+    }
+  ]
+}

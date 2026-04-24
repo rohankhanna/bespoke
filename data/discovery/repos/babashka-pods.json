@@ -5,7 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/pods",
-      "target": "babashka/babashka",
+      "target": "borkdude/sci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pods",
+      "target": "edn-format/edn",
       "target_type": "repository"
     },
     {
@@ -19,18 +26,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/pods",
-      "target": "babashka/pod-registry",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/pods",
-      "target": "babashka/pod-babashka-filewatcher",
+      "target": "borkdude/pod-babashka-hsqldb",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T19:52:38.860421+00:00",
+  "fetched_at": "2026-04-24T08:08:32.950752+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +54,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "babashka/babashka",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "babashka/pod-babashka-filewatcher",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "babashka/pod-registry",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "boot-clj/boot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/pod-babashka-hsqldb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/sci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edn-format/edn",
       "source_file": "README.md"
     }
   ],

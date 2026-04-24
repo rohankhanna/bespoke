@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Google Fonts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Google Fonts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37424,
+      "status": "candidate",
+      "text": "adobe fonts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37423,
+      "status": "candidate",
+      "text": "product sans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37422,
+      "status": "candidate",
+      "text": "google search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37421,
+      "status": "candidate",
+      "text": "google play books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37420,
+      "status": "candidate",
+      "text": "google public dns"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Google Fonts",
+      "sense_id": "google-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-fonts",
+  "observation_id": "9c95da9fc638e0fd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Google Fonts",
+  "source_context_snippet": "Google Fonts",
+  "source_file": ".github/workflows/google-fonts.yml",
+  "source_repo": "XcodesOrg/homebrew-cask",
+  "source_repo_description": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+}

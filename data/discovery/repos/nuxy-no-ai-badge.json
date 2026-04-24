@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nuxy/no-ai-badge",
+      "target": "vladkens/badges",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxy/no-ai-badge",
+      "target": "badge-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxy/no-ai-badge",
+      "target": "no-ai-used",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxy/no-ai-badge",
+      "target": "vibe-coded-slop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:35.298869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1345
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":name_badge: Differentiate your project from vibe-coded slop using this badge.",
+    "fork": false,
+    "full_name": "nuxy/no-ai-badge",
+    "html_url": "https://github.com/nuxy/no-ai-badge",
+    "language": "Rust",
+    "pushed_at": "2025-09-09T06:27:45Z",
+    "stargazers_count": 10,
+    "topics": [
+      "badge-generator",
+      "no-ai-used",
+      "vibe-coded-slop"
+    ],
+    "updated_at": "2026-04-03T08:17:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vladkens/badges",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge-generator"
+    },
+    {
+      "context_snippet": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-ai-used"
+    },
+    {
+      "context_snippet": "Differentiate your project from [vibe-coded](https://en.wikipedia.org/wiki/Vibe_coding) slop using the ![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg) badge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vibe-coded-slop"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bing-su/dddetailer",
+      "target": "noahge4/ddetailer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bing-su/dddetailer",
+      "target": "dustysys/ddetailer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bing-su/dddetailer",
+      "target": "hysts/anime-face-detector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bing-su/dddetailer",
+      "target": "jerryli27/aniseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bing-su/dddetailer",
+      "target": "sd-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bing-su/dddetailer",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bing-su/dddetailer",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:35.781510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4207
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Detection Detailer hijack edition",
+    "fork": true,
+    "full_name": "Bing-su/dddetailer",
+    "html_url": "https://github.com/Bing-su/dddetailer",
+    "language": "Python",
+    "pushed_at": "2023-08-14T12:59:25Z",
+    "stargazers_count": 132,
+    "topics": [
+      "sd-webui",
+      "stable-diffusion-webui",
+      "stable-diffusion-webui-plugin"
+    ],
+    "updated_at": "2025-12-23T16:04:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dustysys/ddetailer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hysts/anime-face-detector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryli27/aniseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noahge4/ddetailer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dotgeo(hijack) Detection Detailer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sd-webui"
+    },
+    {
+      "context_snippet": "Dotgeo(hijack) Detection Detailer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui"
+    },
+    {
+      "context_snippet": "Dotgeo(hijack) Detection Detailer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui-plugin"
+    }
+  ]
+}

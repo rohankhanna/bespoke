@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "hobbitlong/pycontrast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "rgeirhos/texture-vs-shape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "facebookresearch/semi-supervised-imagenet1k-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "robustness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bethgelab/model-vs-human",
+      "target": "toolbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:19:58.318525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmark your model on out-of-distribution datasets with carefully collected human comparison data (NeurIPS 2021 Oral)",
+    "fork": false,
+    "full_name": "bethgelab/model-vs-human",
+    "html_url": "https://github.com/bethgelab/model-vs-human",
+    "language": "Python",
+    "pushed_at": "2025-04-17T13:23:10Z",
+    "stargazers_count": 359,
+    "topics": [
+      "benchmark",
+      "pytorch",
+      "robustness",
+      "tensorflow",
+      "toolbox"
+    ],
+    "updated_at": "2026-02-19T19:18:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/semi-supervised-imagenet1k-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hobbitlong/pycontrast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rgeirhos/texture-vs-shape",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![header](./assets/header/header.png \"header\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "![header](./assets/header/header.png \"header\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![header](./assets/header/header.png \"header\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robustness"
+    },
+    {
+      "context_snippet": "![header](./assets/header/header.png \"header\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "![header](./assets/header/header.png \"header\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolbox"
+    }
+  ]
+}

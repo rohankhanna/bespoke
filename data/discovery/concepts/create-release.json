@@ -410,6 +410,102 @@
       "source_repo": "newrelic/node-native-metrics",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TkTech/can_ada",
+      "status": "candidate-context",
+      "text": "Python bindings for Ada, a fast and spec-compliant URL parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TkTech/can_ada",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate-context",
+      "text": "Tools to support converting a Python project into a standalone native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carstencodes/simplepycons",
+      "status": "candidate-context",
+      "text": "Python wrappers for simple-icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carstencodes/simplepycons",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlDanial/cloc",
+      "status": "candidate-context",
+      "text": "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlDanial/cloc",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate-context",
+      "text": "Gazelle plugin for Swift files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "Julia grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kube-rbac-proxy/kube-rbac-proxy",
+      "status": "candidate-context",
+      "text": "Kubernetes RBAC authorizing HTTP proxy for a single upstream."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kube-rbac-proxy/kube-rbac-proxy",
+      "status": "candidate-context",
+      "text": "Create release"
     }
   ],
   "candidate_glosses": [
@@ -616,6 +712,54 @@
       "source_repo": "newrelic/node-native-metrics",
       "status": "candidate",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/vllm",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TkTech/can_ada",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeware/briefcase",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carstencodes/simplepycons",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlDanial/cloc",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/swift_gazelle_plugin",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-julia",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kube-rbac-proxy/kube-rbac-proxy",
+      "status": "candidate",
+      "text": "Create release"
     }
   ],
   "candidate_related_terms": [
@@ -911,11 +1055,71 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "newrelic/node-native-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TkTech/can_ada"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "beeware/briefcase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carstencodes/simplepycons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release-ready.yml",
+      "source_repo": "AlDanial/cloc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/swift_gazelle_plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter/tree-sitter-julia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kube-rbac-proxy/kube-rbac-proxy"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

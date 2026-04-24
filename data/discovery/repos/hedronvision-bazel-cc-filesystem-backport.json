@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "hedronvision/bazel-compile-commands-extractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "hedronvision/bazel-make-cc-https-easy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "contributions-welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:12:34.858298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Make it easy to use the C++ std::filesystem API across platforms, even those where std::filesystem would otherwise be (conditionally) unavailable.",
+    "fork": false,
+    "full_name": "hedronvision/bazel-cc-filesystem-backport",
+    "html_url": "https://github.com/hedronvision/bazel-cc-filesystem-backport",
+    "language": "Starlark",
+    "pushed_at": "2026-01-01T15:44:38Z",
+    "stargazers_count": 3,
+    "topics": [
+      "bazel",
+      "build",
+      "contributions-welcome",
+      "cpp",
+      "cross-platform",
+      "filesystem",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-02-22T00:56:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hedronvision/bazel-compile-commands-extractor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hedronvision/bazel-make-cc-https-easy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributions-welcome"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

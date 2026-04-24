@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
       "status": "candidate-context",
       "text": "![Concept](https://img.shields.io/badge/Type-Concept-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aibasel/downward",
+      "status": "candidate-context",
+      "text": "The Fast Downward domain-independent classical planning system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward",
+      "status": "candidate-context",
+      "text": "<img src=\"misc/images/fast-downward.svg\" width=\"800\" alt=\"Fast Downward\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
       "status": "candidate",
       "text": "![Concept](https://img.shields.io/badge/Type-Concept-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aibasel/downward",
+      "status": "candidate",
+      "text": "<img src=\"misc/images/fast-downward.svg\" width=\"800\" alt=\"Fast Downward\">"
     }
   ],
   "candidate_related_terms": [
@@ -97,11 +115,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aibasel/downward"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

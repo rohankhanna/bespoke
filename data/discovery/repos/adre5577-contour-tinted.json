@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:06:10.877952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tinted Theming for Contour Terminal",
+    "fork": false,
+    "full_name": "adre5577/contour-tinted",
+    "html_url": "https://github.com/adre5577/contour-tinted",
+    "language": "Mustache",
+    "pushed_at": "2025-03-19T00:40:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-19T00:40:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

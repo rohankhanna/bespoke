@@ -141,6 +141,30 @@
       "source_repo": "stx-labs/stacks.js",
       "status": "candidate-context",
       "text": "version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "A small command line tool to simplify releasing software by updating all version strings in your source code by the correct increment and optionally commit and tag the changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "A library for building excellent user experiences with Stacks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "version"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stx-labs/stacks.js",
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate",
+      "text": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
       "status": "candidate",
       "text": "version"
     }
@@ -378,11 +414,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/version.yml",
       "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "callowayproject/bump-my-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/connect"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

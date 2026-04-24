@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CNCF Jaeger, a Distributed Tracing Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AI Sidecar Gemini Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AI Sidecar Gemini Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17349,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16547,
+      "status": "candidate",
+      "text": "human"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12607,
+      "status": "candidate",
+      "text": "stool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12009,
+      "status": "candidate",
+      "text": "mouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12009,
+      "status": "candidate",
+      "text": "pillion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Sidecar Gemini Tests",
+      "sense_id": "ai-sidecar-gemini-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-sidecar-gemini-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-sidecar-gemini-tests",
+  "observation_id": "1c44a36ae20b8af5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "AI Sidecar Gemini Tests",
+  "source_context_snippet": "AI Sidecar Gemini Tests",
+  "source_file": ".github/workflows/ci-ai-sidecar-gemini.yml",
+  "source_repo": "jaegertracing/jaeger",
+  "source_repo_description": "CNCF Jaeger, a Distributed Tracing Platform"
+}

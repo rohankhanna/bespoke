@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yaml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/multitool.yml",
+      "source_repo": "aspect-build/bazel-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-external-content.yml",
+      "source_repo": "OffchainLabs/arbitrum-docs"
     }
   ]
 }

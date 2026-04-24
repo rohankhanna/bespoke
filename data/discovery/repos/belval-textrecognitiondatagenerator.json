@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "grzego/handwriting-generation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "fake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "synthetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Belval/TextRecognitionDataGenerator",
+      "target": "training-set-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:55:46.507143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7944
+    },
+    {
+      "path": "Dockerfile",
+      "size": 828
+    },
+    {
+      "path": "requirements.txt",
+      "size": 143
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A synthetic data generator for text recognition",
+    "fork": false,
+    "full_name": "Belval/TextRecognitionDataGenerator",
+    "html_url": "https://github.com/Belval/TextRecognitionDataGenerator",
+    "language": "Python",
+    "pushed_at": "2024-07-18T11:07:06Z",
+    "stargazers_count": 3665,
+    "topics": [
+      "data",
+      "dataset",
+      "fake",
+      "ocr",
+      "synthetic",
+      "text",
+      "text-recognition",
+      "training-set-generator"
+    ],
+    "updated_at": "2026-04-22T02:39:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grzego/handwriting-generation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A synthetic data generator for text recognition",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "A synthetic data generator for text recognition",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "A synthetic data generator for text recognition",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fake"
+    },
+    {
+      "context_snippet": "A synthetic data generator for text recognition",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthetic"
+    },
+    {
+      "context_snippet": "A synthetic data generator for text recognition",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text"
+    },
+    {
+      "context_snippet": "A synthetic data generator for text recognition",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-recognition"
+    },
+    {
+      "context_snippet": "A synthetic data generator for text recognition",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-set-generator"
+    }
+  ]
+}

@@ -48,7 +48,7 @@
   "normalized_form": "opentracing",
   "observation_id": "e17d7a73f82d5fc4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "opentracing",
   "source_context_snippet": "[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![OpenTracing 1.0 Enabled][ot-img]][ot-url]",
   "source_file": null,

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automatic application merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Issue tracker and new submissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Automatic application merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate",
+      "text": "Automatic application merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19277,
+      "status": "candidate",
+      "text": "join"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19277,
+      "status": "candidate",
+      "text": "joining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19056,
+      "status": "candidate",
+      "text": "auto-"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19006,
+      "status": "candidate",
+      "text": "mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18889,
+      "status": "candidate",
+      "text": "combine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automatic application merge",
+  "concept_id": "automatic-application-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/merge.yml",
+      "source_repo": "flathub/flathub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic application merge",
+      "sense_id": "automatic-application-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

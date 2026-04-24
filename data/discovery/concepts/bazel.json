@@ -310,6 +310,42 @@
       "source_repo": "aspect-build/rules_js",
       "status": "candidate-context",
       "text": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate-context",
+      "text": "Gazelle language plugin for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate-context",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "Bazel rules for https://esbuild.github.io/ JS bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate-context",
+      "text": "This is a Bazel rule which wraps the esbuild CLI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "Make it easy to use the C++ std::filesystem API across platforms, even those where std::filesystem would otherwise be (conditionally) unavailable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +498,24 @@
       "source_repo": "aspect-build/rules_js",
       "status": "candidate",
       "text": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calsign/gazelle_rust",
+      "status": "candidate",
+      "text": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_esbuild",
+      "status": "candidate",
+      "text": "This is a Bazel rule which wraps the esbuild CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
     }
   ],
   "candidate_related_terms": [
@@ -667,11 +721,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aspect-build/rules_js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Calsign/gazelle_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aspect-build/rules_esbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-cc-filesystem-backport"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

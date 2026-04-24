@@ -79,6 +79,54 @@
       "source_repo": "L3MON4D3/LuaSnip",
       "status": "candidate-context",
       "text": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "status": "candidate-context",
+      "text": "Set of preconfigured snippets for different languages. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "status": "candidate-context",
+      "text": "Snippets collection for a set of different programming languages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Extension for React/Javascript snippets with search supporting ES7+ and babel features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "R Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate-context",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "status": "candidate-context",
+      "text": "a complete set of Javascript snippets for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "status": "candidate-context",
+      "text": "Optinionated set of JS snippets. Originally forked from https://github.com/gaboesquivel/atom-standardjs-snippets, but we've added couple more. Also these are not using special characters because vscode doesn't accept them in the snippets."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "L3MON4D3/LuaSnip",
       "status": "candidate",
       "text": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafamadriz/friendly-snippets",
+      "status": "candidate",
+      "text": "Snippets collection for a set of different programming languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R",
+      "status": "candidate",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capaj/vscode-standardjs-snippets",
+      "status": "candidate",
+      "text": "Optinionated set of JS snippets. Originally forked from https://github.com/gaboesquivel/atom-standardjs-snippets, but we've added couple more. Also these are not using special characters because vscode doesn't accept them in the snippets."
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +268,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "L3MON4D3/LuaSnip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "rafamadriz/friendly-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "REditorSupport/vscode-R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "capaj/vscode-standardjs-snippets"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

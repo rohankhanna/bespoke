@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build All Wheels for Repository"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "status": "candidate-context",
+      "text": "Windows compile of bitsandbytes for use in text-generation-webui."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "status": "candidate-context",
+      "text": "Build All Wheels for Repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/bitsandbytes-windows-webui",
+      "status": "candidate",
+      "text": "Build All Wheels for Repository"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39503,
+      "status": "candidate",
+      "text": "arsenal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34164,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34152,
+      "status": "candidate",
+      "text": "repertory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34152,
+      "status": "candidate",
+      "text": "treasury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33899,
+      "status": "candidate",
+      "text": "wheel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build All Wheels for Repository",
+  "concept_id": "build-all-wheels-for-repository",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-all-repo.yml",
+      "source_repo": "jllllll/bitsandbytes-windows-webui"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build All Wheels for Repository",
+      "sense_id": "build-all-wheels-for-repository#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

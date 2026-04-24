@@ -31,6 +31,18 @@
       "source_repo": "leoasis/graphql-tag.macro",
       "status": "candidate-context",
       "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate-context",
+      "text": "A collection of awesome babel macros and related resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate-context",
+      "text": "A collection of awesome babel macros and related resources"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "leoasis/graphql-tag.macro",
       "status": "candidate",
       "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgierer12/awesome-babel-macros",
+      "status": "candidate",
+      "text": "A collection of awesome babel macros and related resources"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "leoasis/graphql-tag.macro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "jgierer12/awesome-babel-macros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kentcdodds/babel-plugin-macros"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

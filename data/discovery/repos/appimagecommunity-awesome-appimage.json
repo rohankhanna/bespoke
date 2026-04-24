@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "alexsussa/aidm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "18fadly-anthony/rookie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "aferrero2707/appimage-testsuite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "219-design/qt-qml-project-template-with-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "appimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/awesome-appimage",
+      "target": "package-creation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:00:37.438509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25180
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lovingly crafted AppImage tools and resources ",
+    "fork": false,
+    "full_name": "AppImageCommunity/awesome-appimage",
+    "html_url": "https://github.com/AppImageCommunity/awesome-appimage",
+    "language": null,
+    "pushed_at": "2025-12-07T12:00:44Z",
+    "stargazers_count": 562,
+    "topics": [
+      "appimage",
+      "awesome",
+      "awesome-list",
+      "linux",
+      "package-creation"
+    ],
+    "updated_at": "2026-04-20T08:27:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "18fadly-anthony/rookie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "219-design/qt-qml-project-template-with-ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aferrero2707/appimage-testsuite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexsussa/aidm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-creation"
+    }
+  ]
+}

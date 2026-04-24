@@ -45,6 +45,18 @@
       "source_repo": "ruby/rbs",
       "status": "candidate-context",
       "text": "Type check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/harbor",
+      "status": "candidate-context",
+      "text": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/harbor",
+      "status": "candidate-context",
+      "text": "Type Check"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "ruby/rbs",
       "status": "candidate",
       "text": "Type check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/harbor",
+      "status": "candidate",
+      "text": "Type Check"
     }
   ],
   "candidate_related_terms": [
@@ -161,11 +179,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/typecheck.yml",
       "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ty.yml",
+      "source_repo": "marin-community/harbor"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

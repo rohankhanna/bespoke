@@ -31,6 +31,18 @@
       "source_repo": "highlightjs/highlight.js",
       "status": "candidate-context",
       "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate-context",
+      "text": "The corrective bash syntax highlighter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate-context",
+      "text": "<img src=\"img/logo.png\" align=\"right\"/>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "highlightjs/highlight.js",
       "status": "candidate",
       "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anordal/shellharden",
+      "status": "candidate",
+      "text": "<img src=\"img/logo.png\" align=\"right\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "anordal/shellharden"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

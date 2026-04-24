@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposals",
+      "target": "tc39/how-we-work",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposals",
+      "target": "styfle/proposal-import-buffer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposals",
+      "target": "mhofman/proposal-native-promise-predicate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposals",
+      "target": "michaelficarra/proposal-iterator-includes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposals",
+      "target": "committee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposals",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposals",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposals",
+      "target": "language-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposals",
+      "target": "proposal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposals",
+      "target": "spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposals",
+      "target": "specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:05:49.274913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 45624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tracking ECMAScript Proposals",
+    "fork": false,
+    "full_name": "tc39/proposals",
+    "html_url": "https://github.com/tc39/proposals",
+    "language": null,
+    "pushed_at": "2026-04-20T12:58:16Z",
+    "stargazers_count": 19096,
+    "topics": [
+      "committee",
+      "ecmascript",
+      "javascript",
+      "language",
+      "language-design",
+      "proposal",
+      "spec",
+      "specification"
+    ],
+    "updated_at": "2026-04-24T07:49:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mhofman/proposal-native-promise-predicate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaelficarra/proposal-iterator-includes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "styfle/proposal-import-buffer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/how-we-work",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "committee"
+    },
+    {
+      "context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    },
+    {
+      "context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-design"
+    },
+    {
+      "context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    },
+    {
+      "context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec"
+    },
+    {
+      "context_snippet": "* [Stage 1 Proposals](stage-1-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    }
+  ]
+}

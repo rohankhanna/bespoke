@@ -1,0 +1,383 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "spacejam/sled",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "spacejam/sled",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "spacejam/sled",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "spacejam/sled",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "spacejam/sled",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "spacejam/sled",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "b-plus-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "b-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "concurrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "crash-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "embedded-kv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "formal-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "incredibly-spicy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "lock-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "log-structured",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "persistence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "sled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacejam/sled",
+      "target": "tree",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:13:13.871679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9678
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2149
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 4828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "the champagne of beta embedded databases",
+    "fork": false,
+    "full_name": "spacejam/sled",
+    "html_url": "https://github.com/spacejam/sled",
+    "language": "Rust",
+    "pushed_at": "2026-04-04T14:52:13Z",
+    "stargazers_count": 8975,
+    "topics": [
+      "b-plus-tree",
+      "b-tree",
+      "concurrent",
+      "crash-testing",
+      "database",
+      "embedded-kv",
+      "formal-methods",
+      "fuzzing",
+      "high-performance",
+      "incredibly-spicy",
+      "kv",
+      "lock-free",
+      "log-structured",
+      "orm",
+      "persistence",
+      "rust",
+      "sled",
+      "tree"
+    ],
+    "updated_at": "2026-04-23T20:45:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "b-plus-tree"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "b-tree"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrent"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crash-testing"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-kv"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formal-methods"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "incredibly-spicy"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lock-free"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log-structured"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "persistence"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sled"
+    },
+    {
+      "context_snippet": "<table style=\"width:100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree"
+    }
+  ]
+}

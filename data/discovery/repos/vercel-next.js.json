@@ -1246,28 +1246,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "vercel/next.js",
-      "target": "davidlattimore/duplicate-function-checker",
+      "target": "sokra/triomphe",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "vercel/next.js",
-      "target": "bgw/bincode",
+      "target": "vercel-labs/mdxjs-rs-turbopack",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "vercel/next.js",
-      "target": "bgw/virtue",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "vercel/next.js",
-      "target": "michael-f-bryan/include_dir",
+      "target": "vercel-labs/include_dir",
       "target_type": "repository"
     },
     {
@@ -2937,7 +2930,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:24:40.097549+00:00",
+  "fetched_at": "2026-04-24T09:03:24.054763+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -2949,15 +2942,15 @@
     },
     {
       "path": ".github/workflows/build_and_deploy.yml",
-      "size": 22314
+      "size": 22746
     },
     {
       "path": ".github/workflows/build_and_test.yml",
-      "size": 45044
+      "size": 45034
     },
     {
       "path": ".github/workflows/build_reusable.yml",
-      "size": 17290
+      "size": 17444
     },
     {
       "path": ".github/workflows/code_freeze.yml",
@@ -2973,7 +2966,7 @@
     },
     {
       "path": ".github/workflows/integration_tests_reusable.yml",
-      "size": 5525
+      "size": 5511
     },
     {
       "path": ".github/workflows/issue_lock.yml",
@@ -2989,8 +2982,8 @@
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
-    "pushed_at": "2026-04-22T01:20:55Z",
-    "stargazers_count": 139068,
+    "pushed_at": "2026-04-24T08:42:20Z",
+    "stargazers_count": 139128,
     "topics": [
       "blog",
       "browser",
@@ -3007,27 +3000,22 @@
       "universal",
       "vercel"
     ],
-    "updated_at": "2026-04-22T01:01:56Z"
+    "updated_at": "2026-04-24T08:24:13Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bgw/bincode",
+      "full_name": "sokra/triomphe",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bgw/virtue",
+      "full_name": "vercel-labs/include_dir",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "davidlattimore/duplicate-function-checker",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "michael-f-bryan/include_dir",
+      "full_name": "vercel-labs/mdxjs-rs-turbopack",
       "source_file": "Cargo.toml"
     }
   ],

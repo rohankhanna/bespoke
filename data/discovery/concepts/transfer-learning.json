@@ -43,6 +43,18 @@
       "source_repo": "hendrycks/test",
       "status": "candidate-context",
       "text": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/big_transfer",
+      "status": "candidate-context",
+      "text": "Official repository for the \"Big Transfer (BiT): General Visual Representation Learning\" paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/big_transfer",
+      "status": "candidate-context",
+      "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hendrycks/test",
       "status": "candidate",
       "text": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/big_transfer",
+      "status": "candidate",
+      "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "hendrycks/test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google-research/big_transfer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

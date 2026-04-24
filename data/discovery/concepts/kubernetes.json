@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "kubernetes"
+    "kubernetes",
+    "Kubernetes"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -1159,6 +1162,174 @@
       "source_repo": "akuity/awesome-argo",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ray",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ray",
+      "status": "candidate-context",
+      "text": "Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d The API and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate-context",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "The container native, cloud agnostic serverless platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/moon",
+      "status": "candidate-context",
+      "text": "Browser automation solution for Kubernetes and Openshift supporting Selenium, Playwright, Puppeteer and Cypress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/moon",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/aerokube/moon.svg)](https://hub.docker.com/r/aerokube/moon)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "Prevent Kubernetes misconfigurations from reaching production (again \ud83d\ude24 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "instrumenta/kubeval",
+      "status": "candidate-context",
+      "text": "Validate your Kubernetes configuration files, supports multiple Kubernetes versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "instrumenta/kubeval",
+      "status": "candidate-context",
+      "text": "**NOTE: This project is [no longer maintained](https://github.com/instrumenta/kubeval/issues/268#issuecomment-902128481), a good replacement is [kubeconform](https://github.com/yannh/kubeconform)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate-context",
+      "text": "A FAST Kubernetes manifests validator, with support for Custom Resources!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate-context",
+      "text": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubecfg/kubecfg",
+      "status": "candidate-context",
+      "text": "A tool for managing complex enterprise Kubernetes environments as code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubecfg/kubecfg",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "A scalable inference server for models optimized with OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate-context",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "Application lifecycle orchestration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate-context",
+      "text": "![Kargo by Akuity, creators of Argo](./ui/public/kargo-logo-white.png#gh-dark-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "ReactJS website to automatically generate playlists based on how the music sounds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate-context",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_glosses": [
@@ -1737,6 +1908,90 @@
       "source_repo": "akuity/awesome-argo",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ray",
+      "status": "candidate",
+      "text": "Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm-unittest/helm-unittest",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong",
+      "status": "candidate",
+      "text": "[![][kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fn",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/moon",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/aerokube/moon.svg)](https://hub.docker.com/r/aerokube/moon)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/minio",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/datree",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "instrumenta/kubeval",
+      "status": "candidate",
+      "text": "**NOTE: This project is [no longer maintained](https://github.com/instrumenta/kubeval/issues/268#issuecomment-902128481), a good replacement is [kubeconform](https://github.com/yannh/kubeconform)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yannh/kubeconform",
+      "status": "candidate",
+      "text": "FROM alpine:3.21.3 as certs RUN apk add ca-certificates FROM scratch AS kubeconform LABEL org.opencontainers.image.authors=\"Yann Hamon <yann@mandragor.org>\" \\ org.opencontainers.image.source=\"https://github.com/yannh/kubeconform/\" \\ org.opencontainers.image.description=\"A Kubern\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-desktop/podman-desktop",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubecfg/kubecfg",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/model_server",
+      "status": "candidate",
+      "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/kargo",
+      "status": "candidate",
+      "text": "![Kargo by Akuity, creators of Argo](./ui/public/kargo-logo-white.png#gh-dark-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/deej-ai.online-app",
+      "status": "candidate",
+      "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
     }
   ],
   "candidate_related_terms": [
@@ -2440,11 +2695,125 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/k8s.yml",
+      "source_repo": "apache/datafusion-ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "Kong/kong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/fn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "aerokube/moon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "minio/minio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "instrumenta/kubeval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yannh/kubeconform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "kubecfg/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/model_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "teticio/deej-ai.online-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

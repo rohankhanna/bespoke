@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "uber"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "horovod/horovod",
+      "status": "candidate-context",
+      "text": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "horovod/horovod",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "horovod/horovod",
+      "status": "candidate",
+      "text": ".. raw:: html"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29830474,
+      "status": "candidate",
+      "text": "marionette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29558198,
+      "status": "candidate",
+      "text": "ich"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19872214,
+      "status": "candidate",
+      "text": "mega"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19872213,
+      "status": "candidate",
+      "text": "ultra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19872212,
+      "status": "candidate",
+      "text": "super"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "uber",
+  "concept_id": "uber",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "horovod/horovod"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "uber",
+      "sense_id": "uber#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

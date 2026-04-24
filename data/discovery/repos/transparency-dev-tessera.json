@@ -1,0 +1,450 @@
+{
+  "components": [
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@f2e9fc6c2b355c1890b65e6f6f0e2ac3e6e22f78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml"
+    },
+    {
+      "component": "gruntwork-io/terragrunt-action@53dbdc2c3d43e82bf3bae10b734a968196442bec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml"
+    },
+    {
+      "component": "gruntwork-io/terragrunt-action@53dbdc2c3d43e82bf3bae10b734a968196442bec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml"
+    },
+    {
+      "component": "gruntwork-io/terragrunt-action@53dbdc2c3d43e82bf3bae10b734a968196442bec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-main.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-main.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-pr.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-pr.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated_files.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "transparency-dev/tessera",
+      "target": "c2sp/c2sp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "transparency-dev/tessera",
+      "target": "google/trillian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "aws-actions/amazon-ecr-login@f2e9fc6c2b355c1890b65e6f6f0e2ac3e6e22f78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_integration_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "gruntwork-io/terragrunt-action@53dbdc2c3d43e82bf3bae10b734a968196442bec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws_integration_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "AWS Conformance Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-main.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-main.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-main.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-go-main.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "Benchmark Go (main)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-pr.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-pr.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go-pr.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-go-pr.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "Benchmark Go (PR)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated_files.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated_files.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "generatedfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "Test Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/tessera",
+      "target": "golangci-lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:00:14.080294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26613
+    },
+    {
+      "path": "go.mod",
+      "size": 6802
+    },
+    {
+      "path": ".github/workflows/aws_integration_test.yml",
+      "size": 6917
+    },
+    {
+      "path": ".github/workflows/benchmark-go-main.yml",
+      "size": 1186
+    },
+    {
+      "path": ".github/workflows/benchmark-go-pr.yml",
+      "size": 1310
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 865
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4517
+    },
+    {
+      "path": ".github/workflows/generated_files.yml",
+      "size": 577
+    },
+    {
+      "path": ".github/workflows/go_test.yml",
+      "size": 1299
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go library for building tile-based transparency logs (tlogs)",
+    "fork": false,
+    "full_name": "transparency-dev/tessera",
+    "html_url": "https://github.com/transparency-dev/tessera",
+    "language": "Go",
+    "pushed_at": "2026-04-20T22:15:12Z",
+    "stargazers_count": 179,
+    "topics": [],
+    "updated_at": "2026-04-24T08:20:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c2sp/c2sp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/trillian",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AWS Conformance Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws_integration_test.yml",
+      "term": "AWS Conformance Test"
+    },
+    {
+      "context_snippet": "Benchmark Go (main)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-go-main.yml",
+      "term": "Benchmark Go (main)"
+    },
+    {
+      "context_snippet": "Benchmark Go (PR)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-go-pr.yml",
+      "term": "Benchmark Go (PR)"
+    },
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "generatedfiles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated_files.yml",
+      "term": "generatedfiles"
+    },
+    {
+      "context_snippet": "Test Go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go_test.yml",
+      "term": "Test Go"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    }
+  ]
+}

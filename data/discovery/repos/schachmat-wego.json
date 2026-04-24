@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-build-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schachmat/wego",
+      "target": "schachmat/ingo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-build-test.yml",
+      "source_repo": "schachmat/wego",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-build-test.yml",
+      "source_repo": "schachmat/wego",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-build-test.yml",
+      "source_repo": "schachmat/wego",
+      "target": "Go Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "schachmat/wego",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "schachmat/wego",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "schachmat/wego",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "schachmat/wego",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schachmat/wego",
+      "target": "ascii-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schachmat/wego",
+      "target": "ascii-table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schachmat/wego",
+      "target": "forecast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schachmat/wego",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schachmat/wego",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schachmat/wego",
+      "target": "weather",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schachmat/wego",
+      "target": "wego",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:09:15.860407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5372
+    },
+    {
+      "path": "go.mod",
+      "size": 410
+    },
+    {
+      "path": ".github/workflows/go-build-test.yml",
+      "size": 416
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "weather app for the terminal",
+    "fork": false,
+    "full_name": "schachmat/wego",
+    "html_url": "https://github.com/schachmat/wego",
+    "language": "Go",
+    "pushed_at": "2026-04-12T10:47:57Z",
+    "stargazers_count": 8430,
+    "topics": [
+      "ascii-art",
+      "ascii-table",
+      "forecast",
+      "go",
+      "hacktoberfest",
+      "terminal",
+      "weather",
+      "wego"
+    ],
+    "updated_at": "2026-04-24T02:34:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schachmat/ingo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Go Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-build-test.yml",
+      "term": "Go Build and Test"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "**wego** is a weather client for the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-art"
+    },
+    {
+      "context_snippet": "**wego** is a weather client for the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-table"
+    },
+    {
+      "context_snippet": "**wego** is a weather client for the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forecast"
+    },
+    {
+      "context_snippet": "**wego** is a weather client for the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**wego** is a weather client for the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "**wego** is a weather client for the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weather"
+    },
+    {
+      "context_snippet": "**wego** is a weather client for the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wego"
+    }
+  ]
+}

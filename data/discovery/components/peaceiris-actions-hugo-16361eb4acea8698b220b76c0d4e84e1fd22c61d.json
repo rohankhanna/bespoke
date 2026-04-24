@@ -1,0 +1,12 @@
+{
+  "component": "peaceiris/actions-hugo@16361eb4acea8698b220b76c0d4e84e1fd22c61d",
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "ipfs/gateway-conformance"
+    }
+  ]
+}

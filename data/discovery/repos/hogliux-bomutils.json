@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:11:50.948903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3074
+    },
+    {
+      "path": "Dockerfile",
+      "size": 481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open source tools to create bill-of-materials files used in Mac OS X installers",
+    "fork": false,
+    "full_name": "hogliux/bomutils",
+    "html_url": "https://github.com/hogliux/bomutils",
+    "language": "C++",
+    "pushed_at": "2024-10-28T09:23:29Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-01-30T05:52:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

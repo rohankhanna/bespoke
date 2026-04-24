@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Gather Pull Request Metadata"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate-context",
+      "text": "Backports of patches from systemd git for stable versions < 256"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate-context",
+      "text": "Gather Pull Request Metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd-stable",
+      "status": "candidate",
+      "text": "Gather Pull Request Metadata"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33758,
+      "status": "candidate",
+      "text": "tuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33358,
+      "status": "candidate",
+      "text": "tucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33358,
+      "status": "candidate",
+      "text": "tucking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33254,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32252,
+      "status": "candidate",
+      "text": "manifest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gather Pull Request Metadata",
+  "concept_id": "gather-pull-request-metadata",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/gather-pr-metadata.yml",
+      "source_repo": "systemd/systemd-stable"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gather Pull Request Metadata",
+      "sense_id": "gather-pull-request-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

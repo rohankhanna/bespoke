@@ -84,7 +84,7 @@
   "normalized_form": "deploy-docs",
   "observation_id": "4e6e30247c903e83",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "Deploy Docs",
   "source_context_snippet": "Deploy Docs",
   "source_file": ".github/workflows/docs.yaml",

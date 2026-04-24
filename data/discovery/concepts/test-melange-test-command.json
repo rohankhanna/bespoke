@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test melange test command"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "build APKs from source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate-context",
+      "text": "Test melange test command"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/melange",
+      "status": "candidate",
+      "text": "Test melange test command"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26035,
+      "status": "candidate",
+      "text": "begin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24391,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24369,
+      "status": "candidate",
+      "text": "mixture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22507,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "centralism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test melange test command",
+  "concept_id": "test-melange-test-command",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/melange-test-pipelines.yaml",
+      "source_repo": "chainguard-dev/melange"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test melange test command",
+      "sense_id": "test-melange-test-command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

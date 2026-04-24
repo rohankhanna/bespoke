@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JS bindings for browser and Node.js environment of the Rust implementation of HighwayHash, Google's fast, keyed, portable (output is hardware independent) and secure hash function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![highwayhash-wasm](./docs/preview.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![highwayhash-wasm](./docs/preview.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047995,
+      "status": "candidate",
+      "text": "main road"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048613,
+      "status": "candidate",
+      "text": "carriageway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048606,
+      "status": "candidate",
+      "text": "road"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048392,
+      "status": "candidate",
+      "text": "off-ramp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048341,
+      "status": "candidate",
+      "text": "motorway"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "highway",
+      "sense_id": "highway#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "main road"
+    }
+  ],
+  "concept_id": "highway",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "highway",
+  "observation_id": "c44d42ebe3904608",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "highway",
+  "source_context_snippet": "![highwayhash-wasm](./docs/preview.png)",
+  "source_file": null,
+  "source_repo": "asonnleitner/highwayhash-wasm",
+  "source_repo_description": "JS bindings for browser and Node.js environment of the Rust implementation of HighwayHash, Google's fast, keyed, portable (output is hardware independent) and secure hash function."
+}

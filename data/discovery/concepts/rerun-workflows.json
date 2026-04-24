@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rerun Workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "GPU-accelerated Llama3.java inference in pure Java using TornadoVM. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate-context",
+      "text": "Rerun Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/GPULlama3.java",
+      "status": "candidate",
+      "text": "Rerun Workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "legs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "leh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "running"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "snowmelt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rerun Workflows",
+  "concept_id": "rerun-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/rerun-workflow.yml",
+      "source_repo": "beehive-lab/GPULlama3.java"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rerun Workflows",
+      "sense_id": "rerun-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

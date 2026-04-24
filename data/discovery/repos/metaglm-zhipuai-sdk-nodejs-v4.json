@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonwebtoken",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jsonwebtoken",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "winily/zhipuai-sdk-nodejs-v4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "jsonwebtoken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "@types/jsonwebtoken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "MetaGLM/zhipuai-sdk-nodejs-v4",
+      "target": "Lint PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:54:08.201747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3661
+    },
+    {
+      "path": "package.json",
+      "size": 781
+    },
+    {
+      "path": ".github/workflows/lint-pr.yaml",
+      "size": 863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NodeJs SDK for ZhiPu AI",
+    "fork": false,
+    "full_name": "MetaGLM/zhipuai-sdk-nodejs-v4",
+    "html_url": "https://github.com/MetaGLM/zhipuai-sdk-nodejs-v4",
+    "language": "TypeScript",
+    "pushed_at": "2025-07-15T06:03:13Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-03-16T12:10:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "winily/zhipuai-sdk-nodejs-v4",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Lint PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "term": "Lint PR"
+    }
+  ]
+}

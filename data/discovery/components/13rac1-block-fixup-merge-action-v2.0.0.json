@@ -1,12 +1,17 @@
 {
   "component": "13rac1/block-fixup-merge-action@v2.0.0",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fixup-merge-block.yml",
       "source_repo": "rust-cli/confy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/git.yml",
+      "source_repo": "fatih/vim-go"
     }
   ]
 }

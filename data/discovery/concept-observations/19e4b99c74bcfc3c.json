@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Application lifecycle orchestration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Governance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Governance"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951482,
+      "status": "candidate",
+      "text": "government"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949966,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949350,
+      "status": "candidate",
+      "text": "administration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942202,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938749,
+      "status": "candidate",
+      "text": "organization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Governance",
+      "sense_id": "governance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27045,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26066,
+      "status": "candidate",
+      "text": "brass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5022,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4055,
+      "status": "candidate",
+      "text": "government"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2026,
+      "status": "candidate",
+      "text": "governing"
+    }
+  ],
+  "concept_id": "governance",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "governance",
+  "observation_id": "19e4b99c74bcfc3c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "Governance",
+  "source_context_snippet": "Governance",
+  "source_file": ".github/workflows/governance.yaml",
+  "source_repo": "akuity/kargo",
+  "source_repo_description": "Application lifecycle orchestration"
+}

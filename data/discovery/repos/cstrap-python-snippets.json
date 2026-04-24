@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cstrap/python-snippets",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cstrap/python-snippets",
+      "target": "vscode-snippets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:58.631552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4295
+    },
+    {
+      "path": "package.json",
+      "size": 1099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python snippets for Visual Studio Code",
+    "fork": false,
+    "full_name": "cstrap/python-snippets",
+    "html_url": "https://github.com/cstrap/python-snippets",
+    "language": null,
+    "pushed_at": "2024-01-03T00:13:57Z",
+    "stargazers_count": 116,
+    "topics": [
+      "python",
+      "vscode",
+      "vscode-snippets"
+    ],
+    "updated_at": "2026-03-15T09:44:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Python snippets collections.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "Python snippets collections.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-snippets"
+    }
+  ]
+}

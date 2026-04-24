@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Latest Twitter Tweets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 If you like it, Star it \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate-context",
+      "text": "Latest Twitter Tweets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dexters-Hub/Dexters-Hub",
+      "status": "candidate",
+      "text": "Latest Twitter Tweets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18400,
+      "status": "candidate",
+      "text": "tweet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12603,
+      "status": "candidate",
+      "text": "microblogging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9940,
+      "status": "candidate",
+      "text": "articles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9648,
+      "status": "candidate",
+      "text": "trend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9601,
+      "status": "candidate",
+      "text": "trill"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Latest Twitter Tweets",
+  "concept_id": "latest-twitter-tweets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/twitter-workflow.yml",
+      "source_repo": "Dexters-Hub/Dexters-Hub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest Twitter Tweets",
+      "sense_id": "latest-twitter-tweets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

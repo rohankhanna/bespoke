@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "geocoding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/geocoding",
+      "status": "candidate-context",
+      "text": "Geocoding library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geocoding",
+      "status": "candidate-context",
+      "text": "Rust utilities to enrich addresses, cities, countries, and landmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/proj",
+      "status": "candidate-context",
+      "text": "Rust bindings for the latest stable release of PROJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/proj",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geocoding",
+      "status": "candidate",
+      "text": "Rust utilities to enrich addresses, cities, countries, and landmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/proj",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "geolocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "georeferencing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "geospatial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "geodetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "geotactic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "geocoding",
+  "concept_id": "geocoding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/geocoding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "georust/proj"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geocoding",
+      "sense_id": "geocoding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

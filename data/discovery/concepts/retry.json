@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "retry"
+    "retry",
+    "Retry"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "resilience4j/resilience4j",
       "status": "candidate-context",
       "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate-context",
+      "text": "Retry"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +78,12 @@
       "source_repo": "resilience4j/resilience4j",
       "status": "candidate",
       "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panva/jose",
+      "status": "candidate",
+      "text": "Retry"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +153,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "resilience4j/resilience4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/retry.yml",
+      "source_repo": "panva/jose"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

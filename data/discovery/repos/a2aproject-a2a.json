@@ -1,0 +1,542 @@
+{
+  "components": [
+    {
+      "component": "nearform-actions/github-action-check-linked-issues@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-linked-issues.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-a2a-update.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "github-community-projects/issue-metrics@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "super-linter/super-linter/slim@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sort-spelling-allowlist.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/A2A",
+      "target": "a2aproject/a2a-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/A2A",
+      "target": "a2aproject/a2a-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/A2A",
+      "target": "a2aproject/a2a-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/A2A",
+      "target": "a2aproject/a2a-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-linked-issues.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "nearform-actions/github-action-check-linked-issues@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-linked-issues.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "Check for Linked Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-a2a-update.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "Docs Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "github-community-projects/issue-metrics@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "peter-evans/create-issue-from-file@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "Monthly issue metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "peter-evans/create-issue-from-file@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "Lychee Link Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "super-linter/super-linter/slim@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/A2A",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sort-spelling-allowlist.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sort-spelling-allowlist.yml",
+      "source_repo": "a2aproject/A2A",
+      "target": "Auto-sort and update spelling allowlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/A2A",
+      "target": "a2a-mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/A2A",
+      "target": "a2a-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/A2A",
+      "target": "a2a-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/A2A",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/A2A",
+      "target": "linux-foundation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:59:09.822764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8306
+    },
+    {
+      "path": ".github/workflows/check-linked-issues.yml",
+      "size": 701
+    },
+    {
+      "path": ".github/workflows/conventional-commits.yml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/dispatch-a2a-update.yml",
+      "size": 677
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 4734
+    },
+    {
+      "path": ".github/workflows/issue-metrics.yml",
+      "size": 1236
+    },
+    {
+      "path": ".github/workflows/links.yaml",
+      "size": 1496
+    },
+    {
+      "path": ".github/workflows/linter.yaml",
+      "size": 1865
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 367
+    },
+    {
+      "path": ".github/workflows/sort-spelling-allowlist.yml",
+      "size": 1692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
+    "fork": false,
+    "full_name": "a2aproject/A2A",
+    "html_url": "https://github.com/a2aproject/A2A",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T14:31:17Z",
+    "stargazers_count": 23402,
+    "topics": [
+      "a2a",
+      "a2a-mcp",
+      "a2a-protocol",
+      "a2a-server",
+      "agents",
+      "generative-ai",
+      "linux-foundation"
+    ],
+    "updated_at": "2026-04-24T06:57:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2aproject/a2a-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2aproject/a2a-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2aproject/a2a-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2aproject/a2a-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check for Linked Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-linked-issues.yml",
+      "term": "Check for Linked Issues"
+    },
+    {
+      "context_snippet": "\"Conventional Commits\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "term": "Conventional Commits"
+    },
+    {
+      "context_snippet": "Docs Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs Build and Deploy"
+    },
+    {
+      "context_snippet": "Monthly issue metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "term": "Monthly issue metrics"
+    },
+    {
+      "context_snippet": "Lychee Link Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yaml",
+      "term": "Lychee Link Checker"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "Auto-sort and update spelling allowlist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sort-spelling-allowlist.yml",
+      "term": "Auto-sort and update spelling allowlist"
+    },
+    {
+      "context_snippet": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-mcp"
+    },
+    {
+      "context_snippet": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-protocol"
+    },
+    {
+      "context_snippet": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-server"
+    },
+    {
+      "context_snippet": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-foundation"
+    }
+  ]
+}

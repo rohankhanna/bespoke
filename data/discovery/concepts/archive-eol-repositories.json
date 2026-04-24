@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Archive EOL repositories"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Issue tracker and new submissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate-context",
+      "text": "Archive EOL repositories"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub/flathub",
+      "status": "candidate",
+      "text": "Archive EOL repositories"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27064,
+      "status": "candidate",
+      "text": "mailbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27064,
+      "status": "candidate",
+      "text": "stigma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27064,
+      "status": "candidate",
+      "text": "terminal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23424,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "dump"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Archive EOL repositories",
+  "concept_id": "archive-eol-repositories",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "flathub/flathub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Archive EOL repositories",
+      "sense_id": "archive-eol-repositories#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

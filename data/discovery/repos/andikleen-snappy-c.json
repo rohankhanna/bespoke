@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T08:13:45.177373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C port of the snappy compressor",
+    "fork": false,
+    "full_name": "andikleen/snappy-c",
+    "html_url": "https://github.com/andikleen/snappy-c",
+    "language": "C",
+    "pushed_at": "2021-11-29T00:04:06Z",
+    "stargazers_count": 251,
+    "topics": [],
+    "updated_at": "2026-03-08T16:25:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

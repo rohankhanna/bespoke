@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "astral-sh/ruff-pre-commit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "astral-sh/ruff-pre-commit",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "astral-sh/ruff-pre-commit",
+      "target": "main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:08:12.957464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4317
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 93
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pre-commit hook for Ruff.",
+    "fork": false,
+    "full_name": "astral-sh/ruff-pre-commit",
+    "html_url": "https://github.com/astral-sh/ruff-pre-commit",
+    "language": "Python",
+    "pushed_at": "2026-04-20T01:13:22Z",
+    "stargazers_count": 1866,
+    "topics": [],
+    "updated_at": "2026-04-23T21:33:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

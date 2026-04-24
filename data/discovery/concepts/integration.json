@@ -178,6 +178,30 @@
       "source_repo": "operator-framework/operator-sdk",
       "status": "candidate-context",
       "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "Official Rust implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate-context",
+      "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate-context",
+      "text": "Apache Camel Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate-context",
+      "text": "main pr build"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +288,18 @@
       "source_repo": "operator-framework/operator-sdk",
       "status": "candidate",
       "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs",
+      "status": "candidate",
+      "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-examples",
+      "status": "candidate",
+      "text": "main pr build"
     }
   ],
   "candidate_related_terms": [
@@ -419,11 +455,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "operator-framework/operator-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "apache/camel-examples"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-source-phase-imports",
-      "target": "tc39/ecma262",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-source-phase-imports",
       "target": "tc39/proposal-asset-references",
       "target_type": "repository"
     },
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "tc39/proposal-source-phase-imports",
       "target": "tc39/proposal-module-expressions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-source-phase-imports",
+      "target": "tc39/proposal-import-reflection",
       "target_type": "repository"
     },
     {
@@ -85,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
   "source_repo": "tc39/proposal-source-phase-imports"
 }

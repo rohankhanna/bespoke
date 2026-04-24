@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openlm-research/open_llama",
+      "target": "young-geng/easylm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:18:33.483646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenLLaMA, a permissively licensed open source reproduction of Meta AI\u2019s LLaMA 7B trained on the RedPajama dataset",
+    "fork": false,
+    "full_name": "openlm-research/open_llama",
+    "html_url": "https://github.com/openlm-research/open_llama",
+    "language": null,
+    "pushed_at": "2023-07-16T13:42:13Z",
+    "stargazers_count": 7530,
+    "topics": [],
+    "updated_at": "2026-04-24T07:07:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "young-geng/easylm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

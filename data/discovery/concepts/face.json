@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "face"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yfeng95/DECA",
+      "status": "candidate-context",
+      "text": "DECA: Detailed Expression Capture and Animation (SIGGRAPH 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yfeng95/DECA",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yfeng95/DECA",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39808381,
+      "status": "candidate",
+      "text": "cheek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39801633,
+      "status": "candidate",
+      "text": "nerve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39697511,
+      "status": "candidate",
+      "text": "facial expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39676535,
+      "status": "candidate",
+      "text": "grimace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39663035,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 107035,
+      "status": "candidate",
+      "text": "grimace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 68056,
+      "status": "candidate",
+      "text": "aspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50048,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27059,
+      "status": "candidate",
+      "text": "front"
+    }
+  ],
+  "canonical_name": "face",
+  "concept_id": "face",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "face",
+      "sense_id": "face#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

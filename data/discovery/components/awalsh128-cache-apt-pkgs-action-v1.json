@@ -1,12 +1,32 @@
 {
   "component": "awalsh128/cache-apt-pkgs-action@v1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/autotools-build-extra.yml",
       "source_repo": "bdwgc/bdwgc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "web-platform-tests/results-analysis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_gh_pages.yml",
+      "source_repo": "web-platform-tests/results-analysis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "CLIUtils/CLI11"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-daily-build.yml",
+      "source_repo": "be5invis/Iosevka"
     }
   ]
 }

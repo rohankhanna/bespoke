@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu-ui-ff",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu-ui-ff",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu-ui-ff",
+      "target": "jsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-ui-ff",
+      "target": "ddu-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu-ui-ff",
+      "target": "ddu-vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:38.895619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 284
+    },
+    {
+      "path": ".github/workflows/jsr.yml",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fuzzy finder UI for ddu.vim",
+    "fork": false,
+    "full_name": "Shougo/ddu-ui-ff",
+    "html_url": "https://github.com/Shougo/ddu-ui-ff",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-09T09:40:25Z",
+    "stargazers_count": 59,
+    "topics": [
+      "ddu-ui",
+      "ddu-vim"
+    ],
+    "updated_at": "2026-04-09T09:40:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "jsr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "term": "jsr"
+    },
+    {
+      "context_snippet": "Fuzzy finder UI for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-ui"
+    },
+    {
+      "context_snippet": "Fuzzy finder UI for ddu.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddu-vim"
+    }
+  ]
+}

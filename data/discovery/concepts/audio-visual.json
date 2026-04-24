@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "audio-visual"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "status": "candidate-context",
+      "text": "ACM MM 2021: 'Is Someone Speaking? Exploring Long-term Temporal Features for Audio-visual Active Speaker Detection'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "status": "candidate-context",
+      "text": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TaoRuijie/TalkNet-ASD",
+      "status": "candidate",
+      "text": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29905353,
+      "status": "candidate",
+      "text": "audiovisual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904904,
+      "status": "candidate",
+      "text": "multimedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904692,
+      "status": "candidate",
+      "text": "audiovisuals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904051,
+      "status": "candidate",
+      "text": "broadcasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29903409,
+      "status": "candidate",
+      "text": "video"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "audio-visual",
+  "concept_id": "audio-visual",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "TaoRuijie/TalkNet-ASD"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-visual",
+      "sense_id": "audio-visual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

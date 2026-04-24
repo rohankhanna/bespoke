@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "homedir-polyfill",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-windows",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "jonschlinkert/braces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "jonschlinkert/expand-brackets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "jonschlinkert/is-glob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "jonschlinkert/micromatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "homedir-polyfill",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "is-windows",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "expand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "expansion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "tilde",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/expand-tilde",
+      "target": "tilde-expansion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:01:01.324708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3644
+    },
+    {
+      "path": "package.json",
+      "size": 1309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd.",
+    "fork": false,
+    "full_name": "jonschlinkert/expand-tilde",
+    "html_url": "https://github.com/jonschlinkert/expand-tilde",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-16T06:55:58Z",
+    "stargazers_count": 24,
+    "topics": [
+      "expand",
+      "expansion",
+      "javascript",
+      "nodejs",
+      "tilde",
+      "tilde-expansion"
+    ],
+    "updated_at": "2024-11-01T23:17:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/braces",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/expand-brackets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/is-glob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/micromatch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expand"
+    },
+    {
+      "context_snippet": "> Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expansion"
+    },
+    {
+      "context_snippet": "> Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tilde"
+    },
+    {
+      "context_snippet": "> Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tilde-expansion"
+    }
+  ]
+}

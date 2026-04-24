@@ -19,12 +19,30 @@
       "source_repo": "devcontainers/images",
       "status": "candidate-context",
       "text": "Build and push images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "Unified zkVM Interface & Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
+      "status": "candidate-context",
+      "text": "Build and push images"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "devcontainers/images",
+      "status": "candidate",
+      "text": "Build and push images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/ere",
       "status": "candidate",
       "text": "Build and push images"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "devcontainers/images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/build-and-push-images.yml",
+      "source_repo": "eth-act/ere"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

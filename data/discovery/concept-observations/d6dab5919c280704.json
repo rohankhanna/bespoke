@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV'2020] STTN: Learning Joint Spatial-Temporal Transformations for Video Inpainting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-inpainting",
+      "sense_id": "video-inpainting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-inpainting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-inpainting",
+  "observation_id": "d6dab5919c280704",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "video-inpainting",
+  "source_context_snippet": "![teaser](https://github.com/researchmm/STTN/blob/master/docs/teaser.png?raw=true)",
+  "source_file": null,
+  "source_repo": "researchmm/STTN",
+  "source_repo_description": "[ECCV'2020] STTN: Learning Joint Spatial-Temporal Transformations for Video Inpainting"
+}

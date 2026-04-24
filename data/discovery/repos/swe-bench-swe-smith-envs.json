@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T06:53:20.762912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Artifacts for building environments (Docker images) for repositories represented in SWE-smith",
+    "fork": false,
+    "full_name": "SWE-bench/SWE-smith-envs",
+    "html_url": "https://github.com/SWE-bench/SWE-smith-envs",
+    "language": "Dockerfile",
+    "pushed_at": "2026-03-02T04:49:17Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-02T04:49:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

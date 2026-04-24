@@ -1,7 +1,7 @@
 {
   "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "WebAssembly/wasi-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "openvinotoolkit/openvino_tokenizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arm64test.yml",
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clangcl.yml",
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cxx.yml",
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/angr-management"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/pyvex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call_precommit_windows.yml",
+      "source_repo": "openvinotoolkit/nncf"
     }
   ]
 }

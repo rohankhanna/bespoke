@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "erdtman/java-json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "dryruby/json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "aywan/php-json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberphone/json-canonicalization",
+      "target": "cyberphone/jws-jcs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T07:03:37.587547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON Canonicalization Scheme (JCS)",
+    "fork": false,
+    "full_name": "cyberphone/json-canonicalization",
+    "html_url": "https://github.com/cyberphone/json-canonicalization",
+    "language": "Java",
+    "pushed_at": "2024-12-13T10:21:49Z",
+    "stargazers_count": 138,
+    "topics": [],
+    "updated_at": "2026-04-19T20:23:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aywan/php-json-canonicalization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberphone/jws-jcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dryruby/json-canonicalization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erdtman/java-json-canonicalization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

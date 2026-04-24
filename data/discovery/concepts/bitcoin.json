@@ -211,6 +211,78 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate-context",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate-context",
+      "text": "A lightweight wallet indexer for Bitcoin, available as an Electrum RPC server and a modern HTTP REST API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate-context",
+      "text": "Electrum server using zeromq libbitcoin as backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate-context",
+      "text": "obelisk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spesmilo/electrumx",
+      "status": "candidate-context",
+      "text": "Alternative implementation of spesmilo/electrum-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spesmilo/electrumx",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate-context",
+      "text": "An alternative full node bitcoin implementation written in Go (golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate-context",
+      "text": "btcd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightninglabs/neutrino",
+      "status": "candidate-context",
+      "text": "Privacy-Preserving Bitcoin Light Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightninglabs/neutrino",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml/badge.svg)](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate-context",
+      "text": "Onion Routed Micropayments for the Lightning Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate-context",
+      "text": "This repository houses an implementation of the [Lightning"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +387,42 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate",
       "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwt-dev/bwt",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bwt-dev/bwt.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parazyd/obelisk",
+      "status": "candidate",
+      "text": "obelisk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spesmilo/electrumx",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btcsuite/btcd",
+      "status": "candidate",
+      "text": "btcd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightninglabs/neutrino",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml/badge.svg)](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lightning-onion",
+      "status": "candidate",
+      "text": "This repository houses an implementation of the [Lightning"
     }
   ],
   "candidate_related_terms": [
@@ -484,11 +592,59 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "lightningnetwork/lnd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "parazyd/obelisk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "spesmilo/electrumx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "btcsuite/btcd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightninglabs/neutrino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lightning-onion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

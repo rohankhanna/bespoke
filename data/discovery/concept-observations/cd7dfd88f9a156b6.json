@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A markdown parser for docutils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "commonmark",
+      "sense_id": "commonmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "commonmark",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "commonmark",
+  "observation_id": "cd7dfd88f9a156b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "commonmark",
+  "source_context_snippet": "[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)",
+  "source_file": null,
+  "source_repo": "readthedocs/recommonmark",
+  "source_repo_description": "A markdown parser for docutils"
+}

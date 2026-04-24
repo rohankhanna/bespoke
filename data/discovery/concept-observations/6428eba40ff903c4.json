@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast Fourier Transform-accelerated Interpolation-based  t-SNE (FIt-SNE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "t-Stochastic Neighborhood Embedding ([t-SNE](https://lvdmaaten.github.io/tsne/)) is a highly successful method for dimensionality reduction and visualization of high dimensional datasets. A popular [implementation](https://github.com/lvdmaaten/bhtsne) of t-SNE uses the Barnes-Hu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "t-Stochastic Neighborhood Embedding ([t-SNE](https://lvdmaaten.github.io/tsne/)) is a highly successful method for dimensionality reduction and visualization of high dimensional datasets. A popular [implementation](https://github.com/lvdmaaten/bhtsne) of t-SNE uses the Barnes-Hu\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "t-sne",
+      "sense_id": "t-sne#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "t-sne",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "t-sne",
+  "observation_id": "6428eba40ff903c4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "t-sne",
+  "source_context_snippet": "t-Stochastic Neighborhood Embedding ([t-SNE](https://lvdmaaten.github.io/tsne/)) is a highly successful method for dimensionality reduction and visualization of high dimensional datasets. A popular [implementation](https://github.com/lvdmaaten/bhtsne) of t-SNE uses the Barnes-Hu\u2026",
+  "source_file": null,
+  "source_repo": "KlugerLab/FIt-SNE",
+  "source_repo_description": "Fast Fourier Transform-accelerated Interpolation-based  t-SNE (FIt-SNE)"
+}

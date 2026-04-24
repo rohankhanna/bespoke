@@ -103,6 +103,42 @@
       "source_repo": "bbatsov/clojure-style-guide",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/styleguide",
+      "status": "candidate-context",
+      "text": "Style guides for Google-originated open-source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/styleguide",
+      "status": "candidate-context",
+      "text": "Every major open-source project has its own style guide: a set of conventions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pycodestyle",
+      "status": "candidate-context",
+      "text": "Simple Python style checker in one Python file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pycodestyle",
+      "status": "candidate-context",
+      "text": "pycodestyle (formerly called pep8) - Python style guide checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "bbatsov/clojure-style-guide",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/styleguide",
+      "status": "candidate",
+      "text": "Every major open-source project has its own style guide: a set of conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pycodestyle",
+      "status": "candidate",
+      "text": "pycodestyle (formerly called pep8) - Python style guide checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +304,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "google/styleguide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/pycodestyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-www"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

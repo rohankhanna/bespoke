@@ -188,6 +188,18 @@
       "source_repo": "harbor-framework/harbor",
       "status": "candidate-context",
       "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate-context",
+      "text": "Faster LuaLS setup for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -280,6 +292,12 @@
       "source_repo": "harbor-framework/harbor",
       "status": "candidate",
       "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/lazydev.nvim",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
     }
   ],
   "candidate_related_terms": [
@@ -503,11 +521,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/lazydev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

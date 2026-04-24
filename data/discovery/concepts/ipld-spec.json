@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ipld-spec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-ipld-dag-cbor",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of the IPLD dag-cbor format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-dag-cbor",
+      "status": "candidate-context",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [@ipld/dag-cbor](https://github.com/ipld/js-dag-cbor) and [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld-dag-cbor",
+      "status": "candidate",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [@ipld/dag-cbor](https://github.com/ipld/js-dag-cbor) and [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ipld-spec",
+  "concept_id": "ipld-spec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "ipld/js-ipld-dag-cbor"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipld-spec",
+      "sense_id": "ipld-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

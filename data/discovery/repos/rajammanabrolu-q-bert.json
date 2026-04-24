@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "target": "byu-pccl/z-machine-games",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "target": "exploration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "target": "interactive-fiction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "target": "knowledge-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rajammanabrolu/Q-BERT",
+      "target": "text-games",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:32.511620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Agents that build knowledge graphs and explore textual worlds by asking questions",
+    "fork": false,
+    "full_name": "rajammanabrolu/Q-BERT",
+    "html_url": "https://github.com/rajammanabrolu/Q-BERT",
+    "language": "Python",
+    "pushed_at": "2023-08-09T22:03:56Z",
+    "stargazers_count": 79,
+    "topics": [
+      "exploration",
+      "interactive-fiction",
+      "knowledge-graphs",
+      "natural-language-processing",
+      "reinforcement-learning",
+      "text-games"
+    ],
+    "updated_at": "2025-01-17T12:58:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byu-pccl/z-machine-games",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Q*BERT](/images/qbertpixel.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exploration"
+    },
+    {
+      "context_snippet": "![Q*BERT](/images/qbertpixel.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-fiction"
+    },
+    {
+      "context_snippet": "![Q*BERT](/images/qbertpixel.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graphs"
+    },
+    {
+      "context_snippet": "![Q*BERT](/images/qbertpixel.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "![Q*BERT](/images/qbertpixel.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "![Q*BERT](/images/qbertpixel.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-games"
+    }
+  ]
+}

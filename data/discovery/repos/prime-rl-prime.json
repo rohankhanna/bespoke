@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/PRIME",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/PRIME",
+      "target": "prime-rl/implicitprm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/PRIME",
+      "target": "openbmb/eurus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/PRIME",
+      "target": "livecodebench/livecodebench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRIME-RL/PRIME",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:50:06.305733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalable RL solution for advanced reasoning of language models",
+    "fork": false,
+    "full_name": "PRIME-RL/PRIME",
+    "html_url": "https://github.com/PRIME-RL/PRIME",
+    "language": "Python",
+    "pushed_at": "2025-03-18T04:02:27Z",
+    "stargazers_count": 1848,
+    "topics": [
+      "llm",
+      "reasoning",
+      "rl"
+    ],
+    "updated_at": "2026-04-24T04:43:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "livecodebench/livecodebench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/eurus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prime-rl/implicitprm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

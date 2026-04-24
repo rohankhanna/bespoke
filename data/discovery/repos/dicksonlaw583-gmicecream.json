@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T09:18:47.185070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf66 Never use show_debug_message() to debug again.",
+    "fork": false,
+    "full_name": "dicksonlaw583/GMIceCream",
+    "html_url": "https://github.com/dicksonlaw583/GMIceCream",
+    "language": "Game Maker Language",
+    "pushed_at": "2023-10-29T05:02:37Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-10-03T10:39:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

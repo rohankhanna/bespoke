@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trainer Benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "Agentic RL Training at Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "Trainer Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate",
+      "text": "Trainer Benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "lats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10522,
+      "status": "candidate",
+      "text": "analogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10522,
+      "status": "candidate",
+      "text": "basket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10522,
+      "status": "candidate",
+      "text": "cages"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trainer Benchmarks",
+  "concept_id": "trainer-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trainer Benchmarks",
+      "sense_id": "trainer-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

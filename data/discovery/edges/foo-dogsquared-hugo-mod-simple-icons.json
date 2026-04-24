@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-version.yml",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-version.yml",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "cachix/install-nix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-version.yml",
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "sync-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "hugo-mod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "hugo-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foo-dogsquared/hugo-mod-simple-icons",
+      "target": "simple-icons",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "foo-dogsquared/hugo-mod-simple-icons"
+}

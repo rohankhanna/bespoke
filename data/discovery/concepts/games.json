@@ -19,6 +19,18 @@
       "source_repo": "Calinou/scoop-games",
       "status": "candidate-context",
       "text": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "A collection of small sample games made with raylib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate-context",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Calinou/scoop-games",
       "status": "candidate",
       "text": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib-games",
+      "status": "candidate",
+      "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Calinou/scoop-games"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib-games"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

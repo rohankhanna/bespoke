@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T07:57:18.410643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official codebase used to develop Vision Transformer, SigLIP, MLP-Mixer, LiT and more.",
+    "fork": false,
+    "full_name": "google-research/big_vision",
+    "html_url": "https://github.com/google-research/big_vision",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-19T13:55:52Z",
+    "stargazers_count": 3427,
+    "topics": [],
+    "updated_at": "2026-04-23T21:19:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,436 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-zkvm-version.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-zkvm-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-semver-image-tag.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-semver-image-tag.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-common.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-common.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-common.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-act/ere",
+      "target": "matter-labs/zksync-airbender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-act/ere",
+      "target": "openvm-org/openvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-act/ere",
+      "target": "0xpolygonhermez/zisk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "eth-act/ere",
+      "target": "0xpolygonhermez/pil2-proofman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml",
+      "source_repo": "eth-act/ere",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yml",
+      "source_repo": "eth-act/ere",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-images.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Build and push images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "eth-act/ere",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "eth-act/ere",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Check formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Check PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-zkvm-version.yml",
+      "source_repo": "eth-act/ere",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-zkvm-version.yml",
+      "source_repo": "eth-act/ere",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-zkvm-version.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Check zkVM version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-semver-image-tag.yml",
+      "source_repo": "eth-act/ere",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-semver-image-tag.yml",
+      "source_repo": "eth-act/ere",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-semver-image-tag.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Push SemVer image tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eth-act/ere",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eth-act/ere",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eth-act/ere",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-common.yml",
+      "source_repo": "eth-act/ere",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-common.yml",
+      "source_repo": "eth-act/ere",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-common.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-common.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Test and clippy common crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-zkvm-airbender.yml",
+      "source_repo": "eth-act/ere",
+      "target": "Test and clippy Airbender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-act/ere",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-act/ere",
+      "target": "zkvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:58:29.585919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19421
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 7266
+    },
+    {
+      "path": ".github/workflows/build-and-push-images.yml",
+      "size": 5806
+    },
+    {
+      "path": ".github/workflows/check-fmt.yml",
+      "size": 577
+    },
+    {
+      "path": ".github/workflows/check-pr-title.yml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/check-zkvm-version.yml",
+      "size": 3800
+    },
+    {
+      "path": ".github/workflows/push-semver-image-tag.yml",
+      "size": 3826
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1011
+    },
+    {
+      "path": ".github/workflows/test-common.yml",
+      "size": 1510
+    },
+    {
+      "path": ".github/workflows/test-zkvm-airbender.yml",
+      "size": 495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unified zkVM Interface & Toolkit",
+    "fork": false,
+    "full_name": "eth-act/ere",
+    "html_url": "https://github.com/eth-act/ere",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T06:57:12Z",
+    "stargazers_count": 82,
+    "topics": [
+      "ethereum",
+      "zkvm"
+    ],
+    "updated_at": "2026-04-23T06:54:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xpolygonhermez/zisk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matter-labs/zksync-airbender",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvm-org/openvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xpolygonhermez/pil2-proofman",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and push images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-images.yml",
+      "term": "Build and push images"
+    },
+    {
+      "context_snippet": "Check formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "term": "Check formatting"
+    },
+    {
+      "context_snippet": "Check PR title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "term": "Check PR title"
+    },
+    {
+      "context_snippet": "Check zkVM version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-zkvm-version.yml",
+      "term": "Check zkVM version"
+    },
+    {
+      "context_snippet": "Push SemVer image tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-semver-image-tag.yml",
+      "term": "Push SemVer image tag"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test and clippy common crates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-common.yml",
+      "term": "Test and clippy common crates"
+    },
+    {
+      "context_snippet": "Test and clippy Airbender",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-zkvm-airbender.yml",
+      "term": "Test and clippy Airbender"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zkvm"
+    }
+  ]
+}

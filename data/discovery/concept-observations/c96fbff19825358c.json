@@ -48,7 +48,7 @@
   "normalized_form": "safe-smart-account",
   "observation_id": "c96fbff19825358c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
   "observed_text": "safe-smart-account",
   "source_context_snippet": "safe-smart-account",
   "source_file": ".github/workflows/ci.yml",

@@ -1,0 +1,479 @@
+{
+  "components": [
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devx_tag.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-docker-meta@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yaml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yaml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-docs.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "mjun0812/flash-attention-prebuild-wheels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "samsja/dion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "primeintellect-ai/router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "fla-org/flash-linear-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "Trainer Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "CPU Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devx_tag.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devx_tag.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "DevX Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "GPU Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_tests.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "Nightly Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "crazy-max/ghaction-docker-meta@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-docs.yml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-docs.yml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-docs.yml",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "target": "Sync Docs to Public Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T06:52:57.363850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12115
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6080
+    },
+    {
+      "path": ".github/workflows/benchmarks.yaml",
+      "size": 20269
+    },
+    {
+      "path": ".github/workflows/cpu_tests.yaml",
+      "size": 1357
+    },
+    {
+      "path": ".github/workflows/devx_tag.yaml",
+      "size": 3068
+    },
+    {
+      "path": ".github/workflows/gpu_tests.yaml",
+      "size": 4360
+    },
+    {
+      "path": ".github/workflows/nightly_tests.yaml",
+      "size": 4203
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1897
+    },
+    {
+      "path": ".github/workflows/style.yaml",
+      "size": 702
+    },
+    {
+      "path": ".github/workflows/sync-docs.yml",
+      "size": 1692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agentic RL Training at Scale",
+    "fork": false,
+    "full_name": "PrimeIntellect-ai/prime-rl",
+    "html_url": "https://github.com/PrimeIntellect-ai/prime-rl",
+    "language": "Python",
+    "pushed_at": "2026-04-23T23:34:05Z",
+    "stargazers_count": 1317,
+    "topics": [],
+    "updated_at": "2026-04-23T23:34:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fla-org/flash-linear-attention",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mjun0812/flash-attention-prebuild-wheels",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "primeintellect-ai/router",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samsja/dion",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Trainer Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "term": "Trainer Benchmarks"
+    },
+    {
+      "context_snippet": "CPU Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_tests.yaml",
+      "term": "CPU Tests"
+    },
+    {
+      "context_snippet": "DevX Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devx_tag.yaml",
+      "term": "DevX Tag"
+    },
+    {
+      "context_snippet": "GPU Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_tests.yaml",
+      "term": "GPU Tests"
+    },
+    {
+      "context_snippet": "Nightly Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_tests.yaml",
+      "term": "Nightly Tests"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yaml",
+      "term": "Style"
+    },
+    {
+      "context_snippet": "Sync Docs to Public Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-docs.yml",
+      "term": "Sync Docs to Public Docs"
+    }
+  ]
+}

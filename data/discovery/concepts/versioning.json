@@ -82,6 +82,30 @@
       "source_repo": "nmattia/niv",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "A small command line tool to simplify releasing software by updating all version strings in your source code by the correct increment and optionally commit and tag the changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate-context",
+      "text": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "Elegant Lua unit testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate-context",
+      "text": "Versioning"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +144,18 @@
       "source_repo": "nmattia/niv",
       "status": "candidate",
       "text": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate",
+      "text": "[![image](https://img.shields.io/pypi/v/bump-my-version.svg)](https://pypi.org/project/bump-my-version/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/busted",
+      "status": "candidate",
+      "text": "Versioning"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +265,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "nmattia/niv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "callowayproject/bump-my-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/versioning.yml",
+      "source_repo": "lunarmodules/busted"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

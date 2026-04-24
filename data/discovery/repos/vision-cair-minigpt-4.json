@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vision-CAIR/MiniGPT-4",
+      "target": "waltonfuture/instructiongpt-4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vision-CAIR/MiniGPT-4",
+      "target": "joshuachou2018/skingpt-4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vision-CAIR/MiniGPT-4",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:17:44.534600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-sourced codes for MiniGPT-4 and MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)",
+    "fork": false,
+    "full_name": "Vision-CAIR/MiniGPT-4",
+    "html_url": "https://github.com/Vision-CAIR/MiniGPT-4",
+    "language": "Python",
+    "pushed_at": "2024-09-02T09:07:21Z",
+    "stargazers_count": 25731,
+    "topics": [],
+    "updated_at": "2026-04-24T06:52:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshuachou2018/skingpt-4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "waltonfuture/instructiongpt-4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

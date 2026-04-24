@@ -94,6 +94,42 @@
       "source_repo": "PrimeIntellect-ai/verifiers",
       "status": "candidate-context",
       "text": "Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "Agentic RL Training at Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate-context",
+      "text": "Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": ":fire_engine: The guts of `standard` modularized for reuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/standard/standard-engine/workflows/tests/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": ":point_up_2: Website for JavaScript Standard Style (@standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +174,24 @@
       "source_repo": "PrimeIntellect-ai/verifiers",
       "status": "candidate",
       "text": "Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate",
+      "text": "Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-engine",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/standard/standard-engine/workflows/tests/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-www",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +325,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/style.yaml",
+      "source_repo": "PrimeIntellect-ai/prime-rl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-www"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "lexical_providers": [
     "datamuse"
   ],

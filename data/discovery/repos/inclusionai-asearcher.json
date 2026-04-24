@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inclusionAI/ASearcher",
+      "target": "inclusionai/aworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inclusionAI/ASearcher",
+      "target": "alibaba-nlp/webagent",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:20:12.383563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open-Source Large-Scale Reinforcement Learning Project for Search Agents",
+    "fork": false,
+    "full_name": "inclusionAI/ASearcher",
+    "html_url": "https://github.com/inclusionAI/ASearcher",
+    "language": "Python",
+    "pushed_at": "2025-11-26T06:28:16Z",
+    "stargazers_count": 581,
+    "topics": [],
+    "updated_at": "2026-04-24T04:28:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-nlp/webagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inclusionai/aworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

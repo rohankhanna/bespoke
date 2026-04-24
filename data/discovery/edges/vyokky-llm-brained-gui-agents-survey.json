@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "showlab/awesome-gui-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "albzni/awesome-llm-based-web-agent-and-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "opendilab/awesome-ui-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "os-agent-survey/os-agent-survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "target": "webpage",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey"
+}

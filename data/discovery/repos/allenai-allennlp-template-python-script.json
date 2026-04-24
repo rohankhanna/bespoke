@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/allennlp-template-python-script",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/allennlp-template-python-script",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/allennlp-template-python-script",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:01:07.488654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1846
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A template for starting an allennlp project using a python script instead of config files",
+    "fork": false,
+    "full_name": "allenai/allennlp-template-python-script",
+    "html_url": "https://github.com/allenai/allennlp-template-python-script",
+    "language": "Python",
+    "pushed_at": "2024-03-20T15:49:38Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2024-01-04T16:47:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AI Sidecar Gemini Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "CNCF Jaeger, a Distributed Tracing Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate-context",
+      "text": "AI Sidecar Gemini Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger",
+      "status": "candidate",
+      "text": "AI Sidecar Gemini Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17349,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16547,
+      "status": "candidate",
+      "text": "human"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12607,
+      "status": "candidate",
+      "text": "stool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12009,
+      "status": "candidate",
+      "text": "mouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12009,
+      "status": "candidate",
+      "text": "pillion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AI Sidecar Gemini Tests",
+  "concept_id": "ai-sidecar-gemini-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": ".github/workflows/ci-ai-sidecar-gemini.yml",
+      "source_repo": "jaegertracing/jaeger"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Sidecar Gemini Tests",
+      "sense_id": "ai-sidecar-gemini-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

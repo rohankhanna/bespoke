@@ -600,7 +600,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:48:34.060992+00:00",
+  "fetched_at": "2026-04-24T07:53:05.526899+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -608,11 +608,11 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5440
+      "size": 5474
     },
     {
       "path": ".github/workflows/base.yml",
-      "size": 9825
+      "size": 9206
     },
     {
       "path": ".github/workflows/docs.yml",
@@ -624,7 +624,7 @@
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 14541
+      "size": 14153
     },
     {
       "path": ".github/workflows/multi-gpu-e2e.yml",
@@ -652,13 +652,13 @@
     "full_name": "axolotl-ai-cloud/axolotl",
     "html_url": "https://github.com/axolotl-ai-cloud/axolotl",
     "language": "Python",
-    "pushed_at": "2026-04-23T19:05:06Z",
-    "stargazers_count": 11747,
+    "pushed_at": "2026-04-24T07:23:09Z",
+    "stargazers_count": 11748,
     "topics": [
       "fine-tuning",
       "llm"
     ],
-    "updated_at": "2026-04-23T18:49:58Z"
+    "updated_at": "2026-04-24T07:23:14Z"
   },
   "repo_links": [],
   "terms": [

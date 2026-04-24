@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spacemesh PoET service reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998308,
+      "status": "candidate",
+      "text": "premiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998307,
+      "status": "candidate",
+      "text": "precis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998306,
+      "status": "candidate",
+      "text": "sign-off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998305,
+      "status": "candidate",
+      "text": "doco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998304,
+      "status": "candidate",
+      "text": "abbreviation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proof-of-concept",
+      "sense_id": "proof-of-concept#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "proof-of-concept",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proof-of-concept",
+  "observation_id": "709ee3c1dd403642",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_text": "proof-of-concept",
+  "source_context_snippet": "This project implements the Proofs Sequential Work (PoSW) protocol construction defined in [Simple Proofs of Sequential Work](https://eprint.iacr.org/2018/183.pdf), which can be used as a proxy for Proof of Elapsed Time (PoET). We follow the paper's definitions, construction and\u2026",
+  "source_file": null,
+  "source_repo": "spacemeshos/poet",
+  "source_repo_description": "Spacemesh PoET service reference implementation"
+}

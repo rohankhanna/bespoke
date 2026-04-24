@@ -26,13 +26,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/roboto-3-classic",
-      "target": "daltonmaag/vttlib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "requirements.txt",
       "source_repo": "googlefonts/roboto-3-classic",
       "target": "fonttools/fontbakery",
@@ -67,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:15:35.201517+00:00",
+  "fetched_at": "2026-04-24T07:57:54.144033+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -92,16 +85,11 @@
     "html_url": "https://github.com/googlefonts/roboto-3-classic",
     "language": "Python",
     "pushed_at": "2026-04-21T22:59:08Z",
-    "stargazers_count": 235,
+    "stargazers_count": 236,
     "topics": [],
-    "updated_at": "2026-04-23T17:46:41Z"
+    "updated_at": "2026-04-23T22:43:27Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "daltonmaag/vttlib",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "typenetwork/roboto",

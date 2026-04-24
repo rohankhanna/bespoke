@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Calsign/gazelle_rust",
+      "target": "bazelbuild/bazel-gazelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Calsign/gazelle_rust",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Calsign/gazelle_rust",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Calsign/gazelle_rust",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Calsign/gazelle_rust",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Calsign/gazelle_rust",
+      "target": "gazelle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Calsign/gazelle_rust",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T08:09:14.866565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8591
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 380
+    },
+    {
+      "path": "go.mod",
+      "size": 1091
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gazelle language plugin for Rust.",
+    "fork": false,
+    "full_name": "Calsign/gazelle_rust",
+    "html_url": "https://github.com/Calsign/gazelle_rust",
+    "language": "Rust",
+    "pushed_at": "2026-04-05T01:03:52Z",
+    "stargazers_count": 47,
+    "topics": [
+      "bazel",
+      "gazelle",
+      "rust"
+    ],
+    "updated_at": "2026-04-15T05:45:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-gazelle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazelle"
+    },
+    {
+      "context_snippet": "A Gazelle language plugin for Rust; automatic dependency management for Rust projects built with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

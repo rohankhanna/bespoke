@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "stacks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "A library for building excellent user experiences with Stacks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate-context",
+      "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/connect",
+      "status": "candidate",
+      "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39658819,
+      "status": "candidate",
+      "text": "piles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39639678,
+      "status": "candidate",
+      "text": "heaps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39638573,
+      "status": "candidate",
+      "text": "dozens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39599516,
+      "status": "candidate",
+      "text": "tons"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39599400,
+      "status": "candidate",
+      "text": "oodles"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6020,
+      "status": "candidate",
+      "text": "dozens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5027,
+      "status": "candidate",
+      "text": "oodles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5025,
+      "status": "candidate",
+      "text": "loads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5015,
+      "status": "candidate",
+      "text": "rafts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "scads"
+    }
+  ],
+  "canonical_name": "stacks",
+  "concept_id": "stacks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T06:47:13.899148+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
+    }
+  ],
+  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stacks",
+      "sense_id": "stacks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

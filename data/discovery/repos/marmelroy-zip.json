@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marmelroy/Zip",
+      "target": "nmoinvaz/minizip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marmelroy/Zip",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marmelroy/Zip",
+      "target": "files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marmelroy/Zip",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marmelroy/Zip",
+      "target": "unzip",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T09:14:36.126427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Swift framework for zipping and unzipping files.",
+    "fork": false,
+    "full_name": "marmelroy/Zip",
+    "html_url": "https://github.com/marmelroy/Zip",
+    "language": "Swift",
+    "pushed_at": "2024-08-05T18:42:46Z",
+    "stargazers_count": 2598,
+    "topics": [
+      "compression",
+      "files",
+      "swift",
+      "unzip",
+      "zip"
+    ],
+    "updated_at": "2026-04-17T19:09:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nmoinvaz/minizip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "files"
+    },
+    {
+      "context_snippet": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unzip"
+    }
+  ]
+}
