@@ -141,13 +141,14 @@
       "size": 770
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:50.409550+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "4Catalyzer JavaScript Tooling",
     "fork": false,
-    "full_name": "4Catalyzer/javascript",
+    "full_name": "4catalyzer/javascript",
     "html_url": "https://github.com/4Catalyzer/javascript",
     "language": "JavaScript",
     "pushed_at": "2026-04-17T21:32:08Z",

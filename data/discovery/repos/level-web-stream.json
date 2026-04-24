@@ -275,13 +275,14 @@
       "size": 717
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:05.628662+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Read from an abstract-level database using Web Streams.",
     "fork": false,
-    "full_name": "Level/web-stream",
+    "full_name": "level/web-stream",
     "html_url": "https://github.com/Level/web-stream",
     "language": "JavaScript",
     "pushed_at": "2023-03-01T22:14:31Z",

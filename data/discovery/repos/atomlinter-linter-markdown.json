@@ -258,13 +258,14 @@
       "size": 4240
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:59.799892+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Lint markdown files within atom",
     "fork": false,
-    "full_name": "AtomLinter/linter-markdown",
+    "full_name": "atomlinter/linter-markdown",
     "html_url": "https://github.com/AtomLinter/linter-markdown",
     "language": "JavaScript",
     "pushed_at": "2023-07-28T18:10:30Z",

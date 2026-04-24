@@ -84,13 +84,14 @@
       "size": 669
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:43.917822+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "mypy static type checking for python",
     "fork": false,
-    "full_name": "SublimeLinter/SublimeLinter-mypy",
+    "full_name": "sublimelinter/sublimelinter-mypy",
     "html_url": "https://github.com/SublimeLinter/SublimeLinter-mypy",
     "language": "Python",
     "pushed_at": "2025-03-10T20:57:01Z",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 14,
-    "terms": 77
+    "components": 56,
+    "concepts": 89,
+    "observations": 90,
+    "repos": 19,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "abhisheknaiidu/abhisheknaiidu",
     "ailev/fpf",
     "antonbabenko/awesome-terraform-compliance",
     "apappascs/mcp-servers-hub",
-    "cloudflare/skills",
     "emberjs/rfcs",
+    "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "ghimiresunil/Top-AI-Tools",
+    "google/agents-cli",
+    "googlefonts/RobotoMono",
+    "ipfs-examples/helia-examples",
     "kubernetes-sigs/krew-index",
     "mason-org/mason-registry",
     "nimbalyst/nimbalyst",
+    "oak-security/audit-reports",
     "ocaml/opam-repository",
-    "piebald-ai/awesome-gemini-cli",
-    "stripe/openapi"
+    "stripe/openapi",
+    "tinted-theming/home"
   ]
 }

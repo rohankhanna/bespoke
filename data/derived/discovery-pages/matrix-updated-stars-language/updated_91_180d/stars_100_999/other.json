@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 13,
-    "terms": 42
+    "components": 75,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 29,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,36 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "aesalazar/AsteroidsWasm",
+    "alibaba-damo-academy/PixelRefer",
     "antosha417/nvim-lsp-file-operations",
+    "ap/vim-buftabline",
     "atomontage/xterm-color",
+    "bioinf-jku/TTUR",
+    "BlinkDL/RWKV-CUDA",
     "coin-or/CyLP",
     "com-lihaoyi/cask",
+    "emacs-lsp/helm-lsp",
+    "emacs-lsp/lsp-java",
+    "emacs-lsp/lsp-treemacs",
     "FiloSottile/homebrew-musl-cross",
     "HerringtonDarkholme/yats.vim",
     "igor-makarov/xcake",
     "jayli/vim-easycomplete",
+    "ku1ik/rainbow",
     "layr-labs/eigenlayer-middleware",
+    "nix-community/nixGL",
     "ocaml-wasm/wasm_of_ocaml",
+    "OpenBMB/CPM.cu",
+    "saagarjha/unxip",
     "simonw/datasette-lite",
     "stevearc/resession.nvim",
-    "thinkdepthai/Deep_Research"
+    "terraform-aws-modules/terraform-aws-apigateway-v2",
+    "thinkdepthai/Deep_Research",
+    "travis-ci/travis-build",
+    "VectorSpaceLab/MegaPairs",
+    "ymoslem/OpenNMT-Tutorial"
   ]
 }

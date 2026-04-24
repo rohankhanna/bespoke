@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 2,
-    "observations": 3,
-    "repos": 6,
-    "terms": 2
+    "components": 8,
+    "concepts": 6,
+    "observations": 7,
+    "repos": 9,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "Calcium-Ion/new-api-horizon",
     "emberjs/core-notes",
     "eza-community/eza-themes",
+    "hashicorp/vault-examples",
     "helm/community",
+    "ipfs/devgrants",
+    "reactwg/react-native-releases",
     "revfactory/harness-100"
   ]
 }

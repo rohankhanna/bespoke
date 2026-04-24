@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 3,
-    "terms": 1
+    "components": 40,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 4,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "3swordman/tree-sitter-toon",
+    "AnshulGora/portfolio_template_v1",
     "behnamazimi/inquirer-checkbox-plus-plus",
     "lukasz-wronski/Antigravity-Shit-Chat"
   ]

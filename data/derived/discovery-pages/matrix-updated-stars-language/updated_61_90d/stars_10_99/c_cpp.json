@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 2,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "repo_ids": [
+    "amerkoleci/Alimer.Bindings",
+    "DavidKinder/Git"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 29,
-    "observations": 31,
-    "repos": 6,
-    "terms": 27
+    "components": 2,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 3,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "gentoo/guru",
-    "getsolus/packages",
-    "justchokingaround/lobster",
-    "jvm-repo-rebuild/reproducible-central",
-    "openshift/release",
-    "termux/repology-metadata"
+    "alpinelinux/aports",
+    "git-friendly/git-friendly",
+    "openshift/release"
   ]
 }

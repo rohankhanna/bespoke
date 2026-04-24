@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 224,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 8,
-    "terms": 52
+    "components": 317,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 13,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "aymenfurter/ralph",
+    "connectrpc/connect-query-es",
     "eckardt/cchistory",
+    "graphql-hive/graphql-eslint",
     "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
+    "multiformats/js-multiformats",
     "Piebald-AI/gemini-cli-desktop",
-    "sudocode-ai/sudocode"
+    "sudocode-ai/sudocode",
+    "sveltejs/prettier-plugin-svelte",
+    "vim-denops/denops.vim"
   ]
 }

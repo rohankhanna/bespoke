@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 789,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 29,
-    "terms": 122
+    "components": 1085,
+    "concepts": 168,
+    "observations": 168,
+    "repos": 39,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "1hanzla100/developer-portfolio",
     "aave/protocol-v2",
     "adamiBs/vscode-terraform-live-graph",
+    "ajv-validator/ajv-formats",
+    "ajv-validator/ajv-keywords",
     "apache/dubbo-js",
     "Arachnid/deterministic-deployment-proxy",
     "ariya/esprima",
@@ -28,20 +31,27 @@
     "firede/ts-transform-graphql-tag",
     "fuergaosi233/openai-proxy",
     "fwcd/vscode-kotlin",
+    "graphql/graphql-http",
     "helmi/claude-simone",
     "hexrcs/wiki-cli",
     "hibiken/asynqmon",
     "Igorbek/typescript-plugin-styled-components",
     "InternLM/OpenAOE",
+    "jina-ai/auto-gpt-web",
     "johnlindquist/claude-hooks",
+    "jonaskello/tsconfig-paths-webpack-plugin",
     "kyryl-opens-ml/no-ocr",
     "lobehub/lobe-vidol",
     "mhartington/nvim-typescript",
     "microsoft/vscode-node-debug",
     "morrys/wora",
+    "neoclide/coc-yaml",
     "node-lightning/node-lightning",
     "possibilities/claude-composer",
     "relay-tools/relay-hooks",
-    "TrueFiEng/Waffle"
+    "stacks-archive/gaia",
+    "TrueFiEng/Waffle",
+    "wylieconlon/lsp-editor-adapter",
+    "yassinedoghri/astro-i18next"
   ]
 }

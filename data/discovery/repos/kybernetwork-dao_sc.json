@@ -501,13 +501,14 @@
       "size": 1991
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:42.589015+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": true,
-    "full_name": "KyberNetwork/dao_sc",
+    "full_name": "kybernetwork/dao_sc",
     "html_url": "https://github.com/KyberNetwork/dao_sc",
     "language": "JavaScript",
     "pushed_at": "2023-06-14T15:24:27Z",

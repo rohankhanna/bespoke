@@ -30,13 +30,14 @@
       "size": 1403
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:47.893251+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Hide unneeded output panels automatically on save with Sublime Text",
     "fork": false,
-    "full_name": "aerobounce/Sublime-AutoClosePanel",
+    "full_name": "aerobounce/sublime-autoclosepanel",
     "html_url": "https://github.com/aerobounce/Sublime-AutoClosePanel",
     "language": "Python",
     "pushed_at": "2022-04-01T18:04:52Z",

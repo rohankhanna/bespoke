@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 17,
-    "terms": 44
+    "components": 41,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 27,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,29 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "antonbabenko/awsp",
+    "apache/datafusion-ballista-python",
+    "babashka/pod-babashka-filewatcher",
     "Berrysoft/fish-msys2",
     "berty/community",
     "cehoffman/luaenv",
     "ChainSafe/lodestar-quickstart",
+    "chemprop/chemprop_benchmark",
+    "coin-or-tools/ThirdParty-HSL",
+    "coqui-ai/TTS-recipes",
+    "dependabot/example-cli-usage",
     "FabioAntunes/base16-fish-shell",
     "funtoo/dev-kit",
+    "geekworm-com/x-c1",
     "icanhasjonas/run-claude-docker",
     "isaacs/npm",
+    "jeff-hykin/better-go-syntax",
+    "karancode/asdf-aws-vault",
     "luizm/asdf-shellcheck",
     "luizm/asdf-shfmt",
+    "nmattia/sorri",
     "scaleway/initrd",
     "sharkdp/fd-benchmarks",
     "Shavian-info/interalia",

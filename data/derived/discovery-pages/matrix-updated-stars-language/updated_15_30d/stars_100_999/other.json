@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 16,
-    "terms": 53
+    "components": 175,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 34,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,41 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "actboy168/json.lua",
+    "adelarsq/neoline.vim",
+    "adinhodovic/terraform-cloudflare-maintenance",
     "AgentTorch/AgentTorch",
     "AudioKit/Cookbook",
     "aws/homebrew-tap",
+    "babashka/neil",
     "bazelbuild/bazel-skylib",
     "cafeTechne/antigravity-link-extension",
+    "coredns/helm",
+    "creativescala/doodle",
+    "dcampos/nvim-snippy",
     "dmitry-brazhenko/SharpToken",
+    "dotnet/AspNetDocs",
     "emacs-rustic/rustic",
     "ethereum/builder-specs",
+    "gcv/julia-snail",
     "google/protobuf.dart",
+    "JuliaPluto/PlutoUI.jl",
     "Layr-Labs/eigenlayer-contracts",
     "mattn/webapi-vim",
+    "metauto-ai/agent-as-a-judge",
     "microsoft/vscode-mono-debug",
     "microsoft/vssetup.powershell",
+    "mirage/mirage-www",
+    "n8willis/opentype-shaping-documents",
+    "nvim-mini/mini.files",
+    "nvim-mini/mini.pick",
+    "objectbox/objectbox-swift",
+    "ocurrent/ocurrent",
     "purcell/envrc",
-    "pyodide/micropip"
+    "pyodide/micropip",
+    "r-lib/styler",
+    "tanvirtin/vgit.nvim",
+    "tc39/proposal-source-phase-imports"
   ]
 }

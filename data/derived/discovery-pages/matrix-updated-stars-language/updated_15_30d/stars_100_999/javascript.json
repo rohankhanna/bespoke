@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 236,
-    "concepts": 71,
-    "observations": 73,
-    "repos": 13,
-    "terms": 81
+    "components": 329,
+    "concepts": 86,
+    "observations": 88,
+    "repos": 22,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,29 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
+    "all-contributors/app",
     "Atheos/Atheos",
+    "badgen/badgen",
+    "cjoudrey/graphql-schema-linter",
     "comme2e/comm",
+    "conventional-changelog/conventional-changelog-config-spec",
     "fastify/create-fastify",
     "fastify/example",
     "fastify/fastify-cli",
+    "fastify/fastify-plugin",
+    "fgnass/domino",
+    "istanbuljs/babel-plugin-istanbul",
     "Level/abstract-level",
-    "npm/rfcs",
+    "markdown-it/linkify-it",
+    "muratcankoylan/ralph-wiggum-marketer",
     "protocolbuffers/protobuf-javascript",
     "semantic-release/changelog",
     "semantic-release/git",
     "terraform-linters/setup-tflint",
+    "thejoshwolfe/yauzl",
     "toon-format/spec"
   ]
 }

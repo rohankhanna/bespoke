@@ -278,13 +278,14 @@
       "size": 982
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:39.388819+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "Erick2418/vue-axios-vuex-jwt",
+    "full_name": "erick2418/vue-axios-vuex-jwt",
     "html_url": "https://github.com/Erick2418/vue-axios-vuex-jwt",
     "language": "Vue",
     "pushed_at": "2021-08-16T12:06:07Z",

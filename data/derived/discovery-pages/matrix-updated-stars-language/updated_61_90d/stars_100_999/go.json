@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "repo_ids": [
+    "alexkohler/nakedret"
+  ]
+}

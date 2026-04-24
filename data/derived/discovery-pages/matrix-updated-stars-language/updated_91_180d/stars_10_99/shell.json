@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 3,
-    "terms": 3
+    "components": 15,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 5,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "cehoffman/lua-build",
     "crate-ci/gh-install",
-    "danielrosehill/claude-code-linux-desktop-slash-commands"
+    "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "geekworm-com/xscript",
+    "nodenv/nodenv-installer"
   ]
 }

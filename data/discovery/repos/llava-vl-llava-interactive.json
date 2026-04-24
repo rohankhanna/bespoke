@@ -8,13 +8,14 @@
       "size": 82
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:17.012181+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "LLaVA-Interactive: Chat, Segment and Generate/Edit an image -- All in one demo",
     "fork": false,
-    "full_name": "LLaVA-VL/llava-interactive",
+    "full_name": "llava-vl/llava-interactive",
     "html_url": "https://github.com/LLaVA-VL/llava-interactive",
     "language": "HTML",
     "pushed_at": "2024-07-25T17:53:36Z",

@@ -12,13 +12,14 @@
       "size": 19
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:09.508635+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "zzowenzz/COCO_Tiny",
+    "full_name": "zzowenzz/coco_tiny",
     "html_url": "https://github.com/zzowenzz/COCO_Tiny",
     "language": "Python",
     "pushed_at": "2024-05-02T05:23:59Z",

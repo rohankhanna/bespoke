@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 2,
+    "terms": 20
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "repo_ids": [
+    "jtablesaw/tablesaw",
+    "srikanth-lingala/zip4j"
+  ]
+}

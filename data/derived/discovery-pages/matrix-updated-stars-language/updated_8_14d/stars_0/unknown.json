@@ -3,7 +3,7 @@
     "components": 2,
     "concepts": 4,
     "observations": 4,
-    "repos": 4,
+    "repos": 6,
     "terms": 4
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
+    "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Memory-Planning-0426",
+    "danielrosehill/brainstorm-solutions-plugin",
     "ublacklist/store-assets",
     "wencuecryforme/mysoul.skill"
   ]

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1414,
-    "concepts": 352,
-    "observations": 354,
-    "repos": 40,
-    "terms": 395
+    "components": 1431,
+    "concepts": 398,
+    "observations": 400,
+    "repos": 43,
+    "terms": 436
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
@@ -33,6 +33,7 @@
     "golang/go",
     "google-gemini/gemini-cli",
     "huggingface/transformers",
+    "jlevy/the-art-of-command-line",
     "kubernetes/kubernetes",
     "langchain-ai/langchain",
     "langflow-ai/langflow",
@@ -48,8 +49,10 @@
     "ollama/ollama",
     "openclaw/openclaw",
     "rust-lang/rust",
+    "Significant-Gravitas/AutoGPT",
     "sindresorhus/awesome",
     "tauri-apps/tauri",
+    "tensorflow/tensorflow",
     "torvalds/linux",
     "vercel/next.js"
   ]

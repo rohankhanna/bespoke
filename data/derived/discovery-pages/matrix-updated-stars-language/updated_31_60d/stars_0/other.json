@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 10,
     "observations": 10,
-    "repos": 3,
+    "repos": 4,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "Bearer/homebrew-tap",
+    "kdubbo/client-go",
     "musicman3/cruder",
     "musicman3/r2-d2"
   ]

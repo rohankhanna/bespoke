@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 1,
+    "terms": 8
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "repo_ids": [
+    "go-chi/chi"
+  ]
+}

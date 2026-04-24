@@ -85,13 +85,14 @@
       "size": 709
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:41.926867+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "curiousNoob/lerna-release-workflow",
+    "full_name": "curiousnoob/lerna-release-workflow",
     "html_url": "https://github.com/curiousNoob/lerna-release-workflow",
     "language": "JavaScript",
     "pushed_at": "2021-12-18T11:09:17Z",

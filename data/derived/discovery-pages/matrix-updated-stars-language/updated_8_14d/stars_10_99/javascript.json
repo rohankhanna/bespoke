@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 2,
-    "terms": 15
+    "components": 78,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 4,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "bmad-code-org/bmad-module-creative-intelligence-suite",
-    "hectorm/chafa-wasm"
+    "evenchange4/graphql.macro-example",
+    "hectorm/chafa-wasm",
+    "TrigenSoftware/simple-release-action"
   ]
 }

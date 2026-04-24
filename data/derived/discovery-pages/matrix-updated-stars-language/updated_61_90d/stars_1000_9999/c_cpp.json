@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 3,
-    "terms": 17
+    "components": 39,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 7,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "cpputest/cpputest",
+    "jkuhlmann/cgltf",
+    "memononen/nanovg",
+    "mitsuba-renderer/nanogui",
     "pramsey/pgsql-http",
     "UB-Mannheim/tesseract",
     "VirusTotal/yara"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 9,
-    "terms": 24
+    "components": 32,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 14,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
+    "alfworld/alfworld",
     "alonw0/web-asset-generator",
     "AMAP-ML/Tree-GRPO",
     "berkerpeksag/astor",
+    "breezedeus/CnSTD",
     "dualverse-ai/station",
-    "httplib2/httplib2",
-    "madebyollin/taesd",
+    "inducer/cgen",
+    "marin-community/levanter",
+    "OpenBMB/infllmv2_cuda_impl",
+    "sail-sg/oat",
     "superclaude-org/supergemini_framework",
+    "walles/px",
     "whatwg/meta"
   ]
 }

@@ -37,13 +37,14 @@
       "size": 689
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:46.348453+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Crate of common constants and utilities used by multiple espresso system codebases",
     "fork": false,
-    "full_name": "EspressoSystems/espresso-systems-common",
+    "full_name": "espressosystems/espresso-systems-common",
     "html_url": "https://github.com/EspressoSystems/espresso-systems-common",
     "language": "Rust",
     "pushed_at": "2025-11-21T08:07:23Z",

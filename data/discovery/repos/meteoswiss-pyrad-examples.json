@@ -8,13 +8,14 @@
       "size": 551
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:15.914011+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Examples of pyrad configuration files with input and output data",
     "fork": false,
-    "full_name": "MeteoSwiss/pyrad-examples",
+    "full_name": "meteoswiss/pyrad-examples",
     "html_url": "https://github.com/MeteoSwiss/pyrad-examples",
     "language": "Python",
     "pushed_at": "2023-05-24T08:05:22Z",

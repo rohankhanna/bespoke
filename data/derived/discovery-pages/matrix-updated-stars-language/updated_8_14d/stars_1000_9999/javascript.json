@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 9,
-    "terms": 30
+    "components": 233,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 14,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "actions/javascript-action",
+    "asciinema/asciinema-player",
+    "bcoe/c8",
     "codemirror/dev",
     "facebook/jscodeshift",
+    "gautamkrishnar/blog-post-workflow",
+    "google/closure-compiler",
     "igorshubovych/markdownlint-cli",
     "kpdecker/jsdiff",
     "nodejs/Release",
-    "RichardLitt/standard-readme",
     "sindresorhus/hyper-snazzy",
+    "tc39/agendas",
+    "webtorrent/webtorrent-cli",
     "WiseLibs/better-sqlite3"
   ]
 }

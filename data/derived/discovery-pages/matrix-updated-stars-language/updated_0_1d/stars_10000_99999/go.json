@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 230,
-    "observations": 231,
+    "components": 261,
+    "concepts": 287,
+    "observations": 287,
     "repos": 21,
-    "terms": 230
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,28 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "caddyserver/caddy",
-    "coredns/coredns",
-    "distribution/distribution",
+    "AdguardTeam/AdGuardHome",
+    "apache/casbin",
+    "argoproj/argo-cd",
+    "centrifugal/centrifugo",
+    "containers/podman",
     "etcd-io/etcd",
-    "ethereum/go-ethereum",
-    "gastownhall/beads",
-    "gastownhall/gastown",
-    "gohugoio/hugo",
-    "google/go-github",
-    "grafana/loki",
-    "ipfs/kubo",
-    "kubernetes/minikube",
+    "ethereum/EIPs",
+    "git-lfs/git-lfs",
+    "gofiber/fiber",
+    "grafana/pyroscope",
+    "grpc/grpc-go",
+    "hashicorp/consul",
+    "hashicorp/vault",
+    "milvus-io/milvus",
     "moby/moby",
     "mudler/LocalAI",
-    "nats-io/nats-server",
-    "opencontainers/runc",
-    "prometheus/prometheus",
+    "open-policy-agent/opa",
+    "php/frankenphp",
     "QuantumNous/new-api",
     "redis/go-redis",
-    "slackhq/nebula",
-    "thanos-io/thanos"
+    "shirou/gopsutil"
   ]
 }

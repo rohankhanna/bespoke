@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 12,
-    "terms": 54
+    "components": 156,
+    "concepts": 181,
+    "observations": 181,
+    "repos": 35,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,42 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "6551Team/opennews-mcp",
+    "ajenti/ajenti",
     "ApeWorX/ape",
+    "atlassian-api/atlassian-python-api",
+    "chemprop/chemprop",
     "davidhalter/jedi",
+    "deepspeedai/DeepSpeedExamples",
     "django/channels",
     "django/daphne",
+    "drivendataorg/cookiecutter-data-science",
     "facebookincubator/AITemplate",
     "getzep/zep",
     "graphql-python/gql",
+    "hiyouga/EasyR1",
+    "huggingface/nanotron",
+    "huggingface/optimum-quanto",
+    "huggingface/smollm",
+    "intel/intel-extension-for-pytorch",
     "Kapeli/Dash-User-Contributions",
+    "microsoft/MInference",
     "ml-explore/mlx-examples",
+    "mosaicml/composer",
+    "mosaicml/llm-foundry",
+    "python-poetry/cleo",
+    "QwenLM/Qwen3-VL-Embedding",
+    "RUC-NLPIR/FlashRAG",
+    "rusty1s/pytorch_scatter",
+    "rusty1s/pytorch_sparse",
     "snakers4/silero-vad",
+    "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
-    "therealxiaomanchu/ex-skill"
+    "tensorflow/datasets",
+    "Textualize/rich-cli",
+    "therealxiaomanchu/ex-skill",
+    "Yelp/dumb-init"
   ]
 }

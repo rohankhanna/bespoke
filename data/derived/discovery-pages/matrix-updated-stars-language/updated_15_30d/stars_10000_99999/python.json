@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 14,
-    "terms": 102
+    "components": 127,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 19,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "3b1b/videos",
     "666ghj/MiroFish",
     "aider-ai/aider",
     "cookiecutter/cookiecutter",
@@ -24,9 +25,13 @@
     "facebook/prophet",
     "facebookresearch/detectron2",
     "fishaudio/fish-speech",
+    "gruns/icecream",
     "karpathy/autoresearch",
     "microsoft/playwright-python",
+    "openai/gym",
     "openai/tiktoken",
-    "subframe7536/maple-font"
+    "OpenBMB/ChatDev",
+    "subframe7536/maple-font",
+    "thu-ml/tianshou"
   ]
 }

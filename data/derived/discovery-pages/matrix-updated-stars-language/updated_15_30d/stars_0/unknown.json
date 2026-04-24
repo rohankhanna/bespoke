@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 13,
-    "terms": 12
+    "concepts": 13,
+    "observations": 13,
+    "repos": 14,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "danielrosehill/Agent-Journal",
@@ -22,6 +22,7 @@
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",
     "danielrosehill/Bug-Reports-And-Fixes",
+    "danielrosehill/Context-Projects-Index",
     "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Patches-Repos-Index",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 12,
-    "terms": 19
+    "components": 48,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 13,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "actboy168/ltest",
+    "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
+    "conda-forge/pybind11-feedstock",
     "cyber404/che-apple-mail-mcp",
     "dm0x23/portfolio-website",
     "floxym/financial-chat-finance-nlp-chatbots",
@@ -22,8 +25,6 @@
     "joinwell52-ai/codeflow-pwa",
     "lahma/test262-harness-dotnet",
     "Mbed-TLS/mbedtls-test",
-    "mitchuski/agentprivacy-docs",
-    "Shougo/dpp-ext-lazy",
     "tarikmanoar/tarikmanoar",
     "wavelens/gobgp.nix"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 8,
-    "terms": 50
+    "components": 163,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 6,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "abaplint/abaplint",
-    "charmbracelet/vhs-action",
-    "circlefin/stablecoin-evm",
-    "electron/packager",
-    "lerna-lite/lerna-lite",
-    "microsoft/react-native-gallery",
-    "OpenZeppelin/openzeppelin-upgrades",
-    "safe-fndn/safe-singleton-factory"
+    "DeterminateSystems/nix-installer-action",
+    "graphprotocol/graph-client",
+    "octokit/request.js",
+    "octokit/webhooks.js",
+    "redhat-developer/vscode-xml",
+    "TabbyML/pochi"
   ]
 }

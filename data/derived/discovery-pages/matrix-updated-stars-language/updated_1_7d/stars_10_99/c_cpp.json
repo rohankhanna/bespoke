@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 7,
-    "terms": 24
+    "components": 86,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 13,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
+    "ad-si/FlatCV",
     "agl/jbig2enc",
+    "BrianPugh/tamp",
+    "bufbuild/protovalidate-cc",
     "JFLarvoire/the_silver_searcher",
     "liangshengyong/lanwan",
     "lxqt/liblxqt",
+    "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
-    "mybigday/llama.node"
+    "Mbed-TLS/TF-PSA-Crypto",
+    "mybigday/llama.node",
+    "yquake2/ref_vk"
   ]
 }

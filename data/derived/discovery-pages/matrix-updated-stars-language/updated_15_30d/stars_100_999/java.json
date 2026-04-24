@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 14,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 3,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "eclipse-buildship/buildship",
+    "eclipse-tm4e/tm4e",
     "objectbox/objectbox-examples"
   ]
 }

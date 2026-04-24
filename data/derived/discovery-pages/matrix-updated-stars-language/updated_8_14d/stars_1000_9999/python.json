@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 22,
-    "terms": 139
+    "components": 225,
+    "concepts": 221,
+    "observations": 222,
+    "repos": 34,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "6551Team/opennews-mcp",
     "agricidaniel/claude-seo",
+    "asottile/pyupgrade",
     "bentoml/BentoML",
     "caronc/apprise-api",
     "cisco-ai-defense/skill-scanner",
@@ -24,17 +24,29 @@
     "crytic/slither",
     "datadog/guarddog",
     "EleutherAI/gpt-neox",
+    "huggingface/optimum",
+    "Jittor/jittor",
     "JoshData/python-email-validator",
     "KohakuBlueleaf/LyCORIS",
+    "kohya-ss/sd-scripts",
     "langchain-ai/langchain-mcp-adapters",
+    "Lightning-AI/LitServe",
+    "LLaVA-VL/LLaVA-NeXT",
+    "mbailey/voicemode",
+    "microsoft/debugpy",
     "microsoft/pylance-release",
+    "microsoft/UFO",
+    "mkdocs/catalog",
+    "mlcommons/training",
     "mll-lab-nu/RAGEN",
     "modelscope/ms-agent",
     "neovim/pynvim",
     "nousresearch/atropos",
+    "openvinotoolkit/open_model_zoo",
     "PyCQA/bandit",
     "pypa/setuptools",
-    "RUC-NLPIR/FlashRAG",
+    "python-attrs/attrs",
+    "RapidAI/RapidOCR",
     "trailofbits/buttercup"
   ]
 }

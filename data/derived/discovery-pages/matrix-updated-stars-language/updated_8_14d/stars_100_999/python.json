@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 23,
-    "terms": 105
+    "components": 187,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 36,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "agenmod/immortal-skill",
@@ -20,6 +20,9 @@
     "AgriciDaniel/claude-blog",
     "ahmedasmar/devops-claude-skills",
     "ARM-DOE/pyart",
+    "asottile/reorder-python-imports",
+    "Azure/WALinuxAgent",
+    "beamuswayne/simp-skill",
     "bmad-code-org/bmad-builder",
     "brainglobe/brainrender",
     "crytic/crytic-compile",
@@ -27,14 +30,24 @@
     "data-apis/array-api-compat",
     "EvolvingLMMs-Lab/EASI",
     "facebookresearch/optimizers",
+    "facebookresearch/RAM",
     "GoogleCloudPlatform/getting-started-python",
     "huggingface/optimum-executorch",
+    "huggingface/optimum-habana",
+    "huggingface/optimum-onnx",
     "JUNJIE99/MLVU",
+    "kata-containers/community",
     "llm-in-sandbox/llm-in-sandbox",
+    "mll-lab-nu/VAGEN",
+    "MME-Benchmarks/Video-MME-v2",
+    "mosecorg/mosec",
+    "pedronauck/skills",
     "pypa/auditwheel",
     "python-hyper/uritemplate",
     "strands-agents/agent-sop",
     "strands-agents/samples",
+    "TextArena/TextArena",
+    "thinking-machines-lab/tinker",
     "trailofbits/dropkit",
     "vega/vega-datasets"
   ]

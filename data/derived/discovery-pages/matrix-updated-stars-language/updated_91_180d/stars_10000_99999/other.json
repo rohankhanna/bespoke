@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 9,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 4,
-    "terms": 18
+    "concepts": 35,
+    "observations": 35,
+    "repos": 5,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "anthropics/courses",
+    "camenduru/stable-diffusion-webui-colab",
     "folke/lazy.nvim",
     "ziglang/zig"
   ]

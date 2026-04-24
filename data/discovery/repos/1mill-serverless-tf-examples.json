@@ -12,13 +12,14 @@
       "size": 72
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:25.994173+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "1Mill/serverless-tf-examples",
+    "full_name": "1mill/serverless-tf-examples",
     "html_url": "https://github.com/1Mill/serverless-tf-examples",
     "language": "HCL",
     "pushed_at": "2021-07-31T19:16:21Z",

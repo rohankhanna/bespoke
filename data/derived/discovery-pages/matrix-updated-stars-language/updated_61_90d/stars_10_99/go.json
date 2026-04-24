@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 15,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 5,
+    "terms": 18
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "repo_ids": [
+    "apache/incubator-seata-go-samples",
+    "bored-engineer/github-conditional-http-transport",
+    "doraemonkeys/paddleocr",
+    "jm33-m0/arc",
+    "worlpaker/go-syntax"
+  ]
+}

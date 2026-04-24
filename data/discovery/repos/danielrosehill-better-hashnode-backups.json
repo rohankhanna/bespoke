@@ -30,13 +30,14 @@
       "size": 2512
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:34.676568+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Backups a Hashnode blog including the images from the CDN",
     "fork": false,
-    "full_name": "danielrosehill/Better-Hashnode-Backups",
+    "full_name": "danielrosehill/better-hashnode-backups",
     "html_url": "https://github.com/danielrosehill/Better-Hashnode-Backups",
     "language": "Python",
     "pushed_at": "2025-01-12T10:41:54Z",

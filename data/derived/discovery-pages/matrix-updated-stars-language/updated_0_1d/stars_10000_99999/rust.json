@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 150,
-    "observations": 151,
-    "repos": 13,
-    "terms": 150
+    "components": 178,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 11,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "aaif-goose/goose",
-    "analysis-tools-dev/static-analysis",
     "astral-sh/ruff",
-    "gfx-rs/wgpu",
+    "FuelLabs/fuel-core",
     "GitoxideLabs/gitoxide",
-    "gitui-org/gitui",
-    "googleworkspace/cli",
+    "gleam-lang/gleam",
     "jj-vcs/jj",
+    "launchbadge/sqlx",
+    "microsoft/windows-rs",
+    "nearai/ironclaw",
     "servo/servo",
-    "starship/starship",
     "tree-sitter/tree-sitter",
-    "typst/typst",
-    "wezterm/wezterm"
+    "web-infra-dev/rspack"
   ]
 }

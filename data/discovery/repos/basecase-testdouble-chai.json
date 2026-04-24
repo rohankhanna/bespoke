@@ -50,13 +50,14 @@
       "size": 651
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:47.625035+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Chai assertions for testdouble.js",
     "fork": false,
-    "full_name": "BaseCase/testdouble-chai",
+    "full_name": "basecase/testdouble-chai",
     "html_url": "https://github.com/BaseCase/testdouble-chai",
     "language": "JavaScript",
     "pushed_at": "2021-12-27T05:26:48Z",

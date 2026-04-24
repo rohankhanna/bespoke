@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 6,
-    "terms": 10
+    "components": 181,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 7,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "automazeio/proof",
     "br14n-sol/inquirer-file-selector",
     "HoneyLuka/uBlacklist",
+    "ipfs/js-kubo-rpc-client",
     "klaudworks/ralph-meets-rex",
     "nulone/claude-rules-doctor"
   ]

@@ -133,13 +133,14 @@
       "size": 3923
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:28.725480+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udc77 Kubekite, but in Rust, using configuration from your repos \ud83e\udd80",
     "fork": false,
-    "full_name": "EmbarkStudios/buildkite-jobify",
+    "full_name": "embarkstudios/buildkite-jobify",
     "html_url": "https://github.com/EmbarkStudios/buildkite-jobify",
     "language": "Rust",
     "pushed_at": "2023-03-28T08:49:31Z",

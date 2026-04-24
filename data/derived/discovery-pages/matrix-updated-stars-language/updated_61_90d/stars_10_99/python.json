@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 4,
-    "terms": 23
+    "components": 7,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 6,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "az1326/advisor-models",
     "camel-ai/seta",
+    "inducer/genpy",
     "mohammadtavakoli78/beam",
     "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"

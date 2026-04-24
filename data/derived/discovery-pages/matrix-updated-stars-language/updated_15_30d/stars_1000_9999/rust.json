@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 56,
-    "observations": 57,
-    "repos": 11,
-    "terms": 56
+    "components": 118,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 18,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,25 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "arxanas/git-branchless",
+    "bitshifter/glam-rs",
     "BurntSushi/quickcheck",
     "chronotope/chrono",
     "cross-rs/cross",
     "crossterm-rs/crossterm",
+    "dtolnay/quote",
+    "enigo-rs/enigo",
     "google/tarpc",
-    "gyscos/cursive",
+    "GuillaumeGomez/sysinfo",
+    "linebender/resvg",
+    "liuchengxu/vim-clap",
     "mitsuhiko/insta",
     "mozilla/cbindgen",
     "nabijaczleweli/cargo-update",
-    "servo/ipc-channel"
+    "pop-os/cosmic-text",
+    "servo/ipc-channel",
+    "WebAssembly/WASI"
   ]
 }

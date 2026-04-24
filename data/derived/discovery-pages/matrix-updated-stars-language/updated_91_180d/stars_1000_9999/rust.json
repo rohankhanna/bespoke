@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 25,
-    "observations": 27,
-    "repos": 4,
-    "terms": 25
+    "components": 41,
+    "concepts": 35,
+    "observations": 38,
+    "repos": 6,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "atanunq/viu",
     "geiger-rs/cargo-geiger",
-    "Morganamilo/paru"
+    "Morganamilo/paru",
+    "nagisa/rust_libloading",
+    "Tencent/tquic"
   ]
 }

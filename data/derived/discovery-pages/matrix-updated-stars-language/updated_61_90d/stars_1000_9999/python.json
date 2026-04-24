@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 12,
-    "terms": 63
+    "components": 60,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 20,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,27 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "AIDC-AI/Ovis",
     "alteryx/featuretools",
+    "andreafrancia/trash-cli",
     "anthropics/claude-code-security-review",
+    "benjaminp/six",
     "BlinkDL/ChatRWKV",
+    "breezedeus/CnOCR",
+    "CLUEbenchmark/CLUE",
     "crowsonkb/k-diffusion",
     "davidhalter/jedi-vim",
     "google/fuzzbench",
     "graphql-python/graphene-django",
+    "kijai/ComfyUI-WanVideoWrapper",
     "meta-llama/llama-models",
+    "mosaicml/streaming",
     "open-mmlab/mmcv",
     "PaddlePaddle/PaddleSeg",
     "simonw/claude-code-transcripts",
-    "toshas/torch-fidelity"
+    "toshas/torch-fidelity",
+    "webdataset/webdataset"
   ]
 }

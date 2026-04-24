@@ -20,13 +20,14 @@
       "size": 1307
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:41.622848+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Bitcoin Electrum client library. Supports plaintext, TLS and Onion servers.",
     "fork": true,
-    "full_name": "Blockstream/rust-electrum-client",
+    "full_name": "blockstream/rust-electrum-client",
     "html_url": "https://github.com/Blockstream/rust-electrum-client",
     "language": null,
     "pushed_at": "2021-08-20T12:36:44Z",

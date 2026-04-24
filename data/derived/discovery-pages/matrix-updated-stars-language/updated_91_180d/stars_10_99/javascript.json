@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 16,
+    "components": 61,
     "concepts": 1,
     "observations": 1,
-    "repos": 2,
+    "repos": 7,
     "terms": 1
   },
   "facet_version": 1,
@@ -12,9 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "coderaiser/estrace",
+    "d3x0r/JSOX",
+    "haskell-actions/run-ormolu",
+    "LuaLS/vscode-lua-doc",
+    "markdown-it/markdown-it-abbr",
+    "rose-pine/build",
     "ykdojo/cc-safe"
   ]
 }

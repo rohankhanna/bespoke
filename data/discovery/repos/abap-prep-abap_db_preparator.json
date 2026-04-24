@@ -23,13 +23,14 @@
       "size": 5905
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:11.496289+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "ABAP database preparation (mirror from https://github.com/bunysae/abap_db_preparator).",
     "fork": false,
-    "full_name": "ABAP-prep/abap_db_preparator",
+    "full_name": "abap-prep/abap_db_preparator",
     "html_url": "https://github.com/ABAP-prep/abap_db_preparator",
     "language": "ABAP",
     "pushed_at": "2024-06-07T12:06:40Z",

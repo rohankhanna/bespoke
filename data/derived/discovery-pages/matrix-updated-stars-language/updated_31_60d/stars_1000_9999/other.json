@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 12,
-    "terms": 76
+    "components": 93,
+    "concepts": 126,
+    "observations": 127,
+    "repos": 17,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "analysis-tools-dev/dynamic-analysis",
     "apache/casbin-Casbin.NET",
+    "athityakumar/colorls",
+    "autofac/Autofac",
     "bbatsov/crux",
+    "bbatsov/projectile",
     "clux/muslrust",
     "container-storage-interface/spec",
     "dimitri/el-get",
     "flycheck/flycheck",
     "folke/snacks.nvim",
+    "folke/tokyonight.nvim",
     "jpanther/congo",
     "lightning/bolts",
     "salesforce/BLIP",
-    "steipete/imsg"
+    "steipete/imsg",
+    "stevearc/aerial.nvim"
   ]
 }

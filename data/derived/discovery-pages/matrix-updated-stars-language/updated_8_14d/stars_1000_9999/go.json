@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 14,
-    "terms": 101
+    "components": 237,
+    "concepts": 219,
+    "observations": 220,
+    "repos": 31,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,38 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
     "appleboy/gorush",
     "awslabs/eks-node-viewer",
+    "axllent/mailpit",
     "bazelbuild/bazelisk",
     "bensadeh/circumflex",
+    "boyter/scc",
     "bufbuild/protovalidate",
+    "BurntSushi/toml",
     "charmbracelet/harmonica",
-    "gobackup/gobackup",
+    "digitalocean/doctl",
     "golang/mobile",
+    "google/gnostic",
+    "GoogleContainerTools/container-structure-test",
     "gotestyourself/gotestsum",
+    "grpc-ecosystem/grpc-health-probe",
+    "hashicorp/go-retryablehttp",
     "hashicorp/raft",
+    "korotovsky/slack-mcp-server",
+    "kubernetes-sigs/metrics-server",
+    "libp2p/go-libp2p",
+    "madneal/gshark",
     "maypok86/otter",
-    "opencontainers/distribution-spec"
+    "nginx-proxy/docker-gen",
+    "opencontainers/distribution-spec",
+    "router-for-me/CLIProxyAPIPlus",
+    "runfinch/finch",
+    "uptrace/uptrace",
+    "wa-lang/wa",
+    "walles/moor"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 19,
-    "terms": 93
+    "components": 167,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 28,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,35 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "adinhodovic/terraform-cloudflare-maintenance",
+    "aws-samples/anthropic-on-aws",
     "basf/MolPipeline",
     "bazel-contrib/rules_oci",
+    "blemale/scaffeine",
+    "connectrpc/connect-swift",
     "DefinedNet/mobile_nebula",
     "devcontainers/devcontainers.github.io",
     "dgSPARSE/dgSPARSE-Lib",
     "elastic/docs",
+    "ethereum/beacon-APIs",
     "ethpandaops/ethereum-helm-charts",
     "fourmolu/fourmolu",
+    "harperreed/dotfiles",
+    "huggingface/optimum-neuron",
     "lerocha/netflixdb",
     "microsoft/winget-cli-restsource",
-    "n8willis/opentype-shaping-documents",
-    "nvim-mini/mini.files",
+    "nvim-mini/mini.animate",
     "nvim-mini/mini.icons",
     "open-telemetry/opentelemetry-proto",
     "openclaw/nix-openclaw",
     "paretosecurity/pareto-mac",
+    "pytorch/pytorch.github.io",
+    "robur-coop/albatross",
+    "sebastienros/esprima-dotnet",
     "simonmclean/triptych.nvim",
-    "swiftlang/swiftly"
+    "swiftlang/swiftly",
+    "tc39/ecma402",
+    "usnistgov/ACVP-Server"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 2,
-    "terms": 1
+    "components": 13,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 3,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "apache/dubbo-go-extensions",
-    "cpu/wycheproof"
+    "cpu/wycheproof",
+    "ksylvan/fabric"
   ]
 }

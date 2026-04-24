@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 6,
-    "terms": 42
+    "components": 89,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 16,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "Ai00-X/ai00_server",
+    "arkworks-rs/r1cs-std",
+    "ashvardanian/StringWars",
     "cowboy8625/rusty-rain",
+    "dtolnay/readonly",
+    "dtolnay/ref-cast",
+    "firstbatchxyz/dkn-compute-node",
     "gfx-rs/rspirv",
+    "gwihlidal/vk-mem-rs",
     "Kampfkarren/selene",
+    "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
-    "rust-lang/rfcbot-rs"
+    "LukasKalbertodt/libtest-mimic",
+    "rust-lang/rfcbot-rs",
+    "servo/rust-cssparser",
+    "SunDoge/simdjson-rust",
+    "typst/comemo"
   ]
 }

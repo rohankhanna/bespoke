@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 3,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "abiondevelopment/external-dns-webhook-abion"
+    "abiondevelopment/external-dns-webhook-abion",
+    "depado/bfadmonition",
+    "nlamirault/markdownfmt"
   ]
 }

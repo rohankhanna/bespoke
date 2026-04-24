@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 35,
-    "observations": 36,
-    "repos": 9,
-    "terms": 35
+    "components": 42,
+    "concepts": 48,
+    "observations": 49,
+    "repos": 17,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "64327069/LVAgent",
+    "adelarsq/neovcs.vim",
     "adobe-type-tools/aots",
+    "aki-0929/PaddleOCRJson.NET",
     "ayrat555/cargo-mode",
     "Cle2ment/CherryStudio_themes",
+    "cleanlab/cleanvision-examples",
     "ethpandaops/optimism-package",
     "getumbrel/umbrel-lightning",
+    "GoogleCloudPlatform/ai-infra-cluster-provisioning",
+    "kigster/puma-daemon",
+    "mirage/ocaml-conduit",
     "opencontainers/oci-conformance",
+    "pagedjs/pagedjs-cli",
     "PeterDaveHello/docker-doctoc",
     "pug-php/js-phpize",
     "sbcgua/abap-string-map"

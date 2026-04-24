@@ -12,13 +12,14 @@
       "size": 63
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:22.565739+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": true,
-    "full_name": "AyushExel/vision-retrieval",
+    "full_name": "ayushexel/vision-retrieval",
     "html_url": "https://github.com/AyushExel/vision-retrieval",
     "language": "Jupyter Notebook",
     "pushed_at": "2024-09-17T14:07:57Z",

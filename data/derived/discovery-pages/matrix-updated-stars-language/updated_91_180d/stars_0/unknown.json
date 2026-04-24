@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 9,
-    "terms": 3
+    "concepts": 6,
+    "observations": 6,
+    "repos": 11,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "bgw/virtue",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/AI-Sysadmin",
+    "danielrosehill/ai-tools-plugin",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
+    "danielrosehill/Data-Projects-Index",
     "wintercg/fetch"
   ]
 }

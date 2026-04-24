@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
+    "components": 20,
     "concepts": 15,
     "observations": 15,
-    "repos": 4,
-    "terms": 13
+    "repos": 7,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
+    "ashvardanian/ashvardanian",
     "cdeust/cortex-cowork",
-    "CoolCat467/idlemypyextension"
+    "cdxeve/scale-openclaw",
+    "CoolCat467/idlemypyextension",
+    "kelp/webdown"
   ]
 }

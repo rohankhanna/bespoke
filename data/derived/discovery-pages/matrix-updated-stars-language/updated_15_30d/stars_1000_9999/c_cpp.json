@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 10,
-    "terms": 53
+    "components": 105,
+    "concepts": 87,
+    "observations": 88,
+    "repos": 13,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "asg017/sqlite-vec",
     "Dav1dde/glad",
+    "espeak-ng/espeak-ng",
     "google/double-conversion",
     "KhronosGroup/MoltenVK",
     "madler/zlib",
+    "microsoft/snmalloc",
     "nalgeon/sqlean",
+    "oneapi-src/oneAPI-samples",
     "posva/catimg",
     "ultrajson/ultrajson",
     "WebAssembly/wabt",

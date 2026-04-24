@@ -386,13 +386,14 @@
       "size": 621
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:28.201282+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Superseded by memory-level. In-memory abstract-leveldown store for Node.js and browsers.",
     "fork": false,
-    "full_name": "Level/memdown",
+    "full_name": "level/memdown",
     "html_url": "https://github.com/Level/memdown",
     "language": "JavaScript",
     "pushed_at": "2024-12-02T00:32:04Z",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 8,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 7,
-    "terms": 26
+    "concepts": 17,
+    "observations": 17,
+    "repos": 8,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "charm-and-friends/additional-bubbles",
     "CodeBoarding/GeneratedOnBoardings",
     "eryajf/awesome-github-profile-readme-chinese",
     "ethstaker/ethstaker-guides",
     "lightning/blips",
+    "MME-Benchmarks/Video-MME",
     "oh-my-fish/packages-main",
     "thibautmelen/agentic-ai-systems"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 13,
-    "terms": 81
+    "components": 83,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 29,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,36 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "alexmojaki/snoop",
+    "AlibabaResearch/DAMO-ConvAI",
+    "cleanlab/cleanvision",
+    "cloudpipe/cloudpickle",
+    "deepseek-ai/DeepSeek-V3.2-Exp",
     "facebookincubator/submitit",
     "facebookresearch/DomainBed",
+    "facebookresearch/ImageBind",
+    "facebookresearch/pytorchvideo",
+    "harbor-framework/terminal-bench",
+    "hkust-nlp/simpleRL-reason",
     "IntelLabs/fastRAG",
+    "InternLM/InternLM",
     "KellerJordan/Muon",
     "meta-llama/synthetic-data-kit",
     "NixOS/nixops",
+    "NVIDIA/ChatRTX",
     "offu/WeRoBot",
     "ollama/ollama-python",
     "open-mmlab/mmengine",
     "PaddlePaddle/PaddleSlim",
+    "Paper2Poster/Paper2Poster",
     "PeterGriffinJin/Search-R1",
     "protectai/llm-guard",
-    "simonw/sqlite-utils"
+    "python-lsp/python-lsp-server",
+    "pytorch/extension-cpp",
+    "simonw/sqlite-utils",
+    "SublimeLinter/SublimeLinter",
+    "tensorflow/agents"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 32,
     "concepts": 18,
     "observations": 18,
-    "repos": 33,
+    "repos": 35,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -32,12 +32,14 @@
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
-    "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/Arch-And-Interiors-Index",
+    "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
     "danielrosehill/Claude-AI-Engineering-Plugin",
     "danielrosehill/Claude-Audio-Production-Plugin",
+    "danielrosehill/Claude-Budgeting-Plugin",
+    "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "foundersieve687/skill-gateway",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",

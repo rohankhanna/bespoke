@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 8,
-    "terms": 27
+    "components": 79,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 14,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "alexkohler/prealloc",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-xray-daemon",
     "cedar-policy/cedar-go",
+    "ChristopherHX/github-act-runner",
     "erigontech/interfaces",
+    "hashicorp/raft-boltdb",
     "kubernetes-sigs/hydrophone",
+    "kubernetes-sigs/kubetest2",
+    "mholt/acmez",
+    "minio/highwayhash",
     "opencontainers/runtime-tools",
     "withastro/compiler"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 5,
-    "terms": 25
+    "components": 8,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 2,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "aquasecurity/trivy-action",
     "aurutils/aurutils",
-    "docker-library/docs",
-    "docker-library/official-images",
-    "void-linux/void-packages"
+    "bioconda/bioconda-recipes"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 11,
-    "terms": 21
+    "components": 21,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 15,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
-    "BeayemX/GitViper",
+    "beayemx/gitviper",
     "bentoml/BentoLMDeploy",
     "biocypher/project-template",
+    "Coobiw/IE-Critic-R1",
+    "HabanaAI/DeepSpeed",
+    "haydn-jones/SOAP_JAX",
     "ichard26/diff-shades",
     "lmgame-org/GRL",
     "marcindulak/stt-mcp-server-linux",

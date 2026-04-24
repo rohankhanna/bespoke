@@ -175,13 +175,14 @@
       "size": 8463
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:26.857591+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "id Software's Quake 2 v3.21 with mission packs and Vulkan support (Windows, Linux, macOS, FreeBSD, Raspberry Pi 4)",
     "fork": true,
-    "full_name": "mackron/vkQuake2",
+    "full_name": "mackron/vkquake2",
     "html_url": "https://github.com/mackron/vkQuake2",
     "language": "C",
     "pushed_at": "2022-04-09T00:03:04Z",

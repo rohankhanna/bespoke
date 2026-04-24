@@ -8,14 +8,15 @@
       "size": 468
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:13.988274+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "albertoCaroM/completion-tmux",
-    "html_url": "https://github.com/albertoCaroM/completion-tmux",
+    "full_name": "zulacore/completion-tmux",
+    "html_url": "https://github.com/zulacore/completion-tmux",
     "language": "Lua",
     "pushed_at": "2021-05-14T23:33:38Z",
     "stargazers_count": 7,

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 51,
+    "components": 52,
     "concepts": 10,
     "observations": 10,
-    "repos": 3,
+    "repos": 4,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "brody2consult/react-native-module-init",
+    "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
     "OpenHands/openhands-chrome-extension"
   ]

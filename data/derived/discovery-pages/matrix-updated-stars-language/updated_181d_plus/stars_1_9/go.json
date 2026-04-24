@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 6,
-    "terms": 12
+    "components": 35,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 13,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "alexellis/discord-updater",
+    "apache/incubator-seata-ctl",
+    "bored-engineer/httpcache",
+    "bors-ng/dockerize",
+    "DeprecatedGoModules/redigo",
+    "dubbo-go-pixiu/pixiu-api",
     "go-woo/protoc-gen-ent",
     "norwoodj/hashbash-backend-go",
+    "olric-data/olric-consul-plugin",
     "oras-project/distribution",
+    "ppc64le-cloud/kubetest2-plugins",
     "sourcegraph/godockerize"
   ]
 }

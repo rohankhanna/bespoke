@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 252,
-    "concepts": 29,
-    "observations": 30,
-    "repos": 12,
-    "terms": 43
+    "components": 442,
+    "concepts": 68,
+    "observations": 70,
+    "repos": 18,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "almogdepaz/wolfpack",
+    "Azure/bicep-deploy",
+    "bufbuild/protovalidate-es",
     "dokploy/cli",
+    "electron/windows-sign",
+    "fannheyward/coc-xml",
     "hashintel/labs",
     "jkheadley/instar",
+    "Kastalien-Research/thoughtbox",
+    "llamastack/llama-stack-client-typescript",
+    "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
-    "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "wighawag/rocketh",
     "ylsssq926/relic.skill",

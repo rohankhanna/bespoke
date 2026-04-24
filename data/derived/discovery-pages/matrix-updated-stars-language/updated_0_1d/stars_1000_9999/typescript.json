@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1266,
-    "concepts": 176,
-    "observations": 178,
-    "repos": 20,
-    "terms": 176
+    "components": 596,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 14,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "actions/cache",
-    "actions/toolkit",
-    "ai-that-works/ai-that-works",
-    "artifacthub/hub",
-    "coder/mux",
-    "Comfy-Org/ComfyUI_frontend",
-    "connectrpc/connect-es",
+    "adobe/spectrum-web-components",
+    "aws-powertools/powertools-lambda-typescript",
+    "Azure/azure-sdk-for-js",
+    "bluesky-social/atproto",
+    "bufbuild/protobuf-es",
+    "ChromeDevTools/devtools-frontend",
+    "civitai/civitai",
     "conventional-changelog/conventional-changelog",
-    "docker/build-push-action",
-    "electron/fiddle",
-    "electron/forge",
-    "ethereumjs/ethereumjs-monorepo",
-    "iorate/ublacklist",
-    "kulshekhar/ts-jest",
-    "microsoft/vscode-js-debug",
-    "netlify/cli",
-    "NomicFoundation/hardhat",
-    "react-native-community/cli",
-    "safe-fndn/safe-smart-account",
-    "VoltAgent/voltagent"
+    "denoland/std",
+    "EpicenterHQ/epicenter",
+    "google/adk-js",
+    "microsoft/rnx-kit",
+    "microsoft/vscode-cpptools",
+    "yarnpkg/berry"
   ]
 }

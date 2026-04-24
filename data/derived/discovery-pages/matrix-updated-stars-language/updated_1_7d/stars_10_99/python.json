@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 54,
-    "observations": 56,
-    "repos": 16,
-    "terms": 69
+    "components": 178,
+    "concepts": 72,
+    "observations": 74,
+    "repos": 23,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,27 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "activeviam/jdk4py",
     "AI-Hypercomputer/pathways-utils",
+    "angr/archinfo",
     "AstarVienna/ScopeSim",
+    "aws-controllers-k8s/test-infra",
+    "bufbuild/protovalidate-python",
     "cdeust/cortex",
+    "channel-io/ch-tts-llasa-rl-grpo",
     "costiash/claude-code-docs",
-    "MeteoSwiss/pyart",
-    "MeteoSwiss/pyrad",
+    "ethstaker/ethstaker-deposit-cli",
+    "GaloisInc/BLST-Verification",
+    "jxpress/lightning-hydra-template-vertex-ai",
+    "Looong01/pyg-rocm-build",
+    "metatensor/metatensor",
     "mypyc/mypyc-benchmarks",
     "pyodide/pyodide-build",
     "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "redhat-et/triton-dev-containers",
+    "ROCm/tritonBLAS",
     "scipy/scipy-stubs",
     "sliamh11/deus",
     "svaningelgem/logprise",

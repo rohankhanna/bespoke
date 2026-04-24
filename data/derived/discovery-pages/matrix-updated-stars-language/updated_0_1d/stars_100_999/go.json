@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 7,
-    "terms": 20
+    "components": 65,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 9,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "docker/model-runner",
-    "ethereum/hive",
-    "kubernetes/metrics",
-    "labring/aiproxy",
-    "openshift/enhancements",
-    "ossf/osv-schema",
-    "prometheus/common"
+    "ai-dynamo/grove",
+    "bazel-contrib/rules_img",
+    "bufbuild/protovalidate-go",
+    "kubernetes-sigs/prow",
+    "kubernetes/apiextensions-apiserver",
+    "kubernetes/sample-apiserver",
+    "microsoft/dcp",
+    "moul/gotty-client",
+    "ossf/osv-schema"
   ]
 }

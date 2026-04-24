@@ -8,13 +8,14 @@
       "size": 4363
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:37.511301+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A tool to ease contributions to opam repositories",
     "fork": true,
-    "full_name": "AltGr/opam-publish",
+    "full_name": "altgr/opam-publish",
     "html_url": "https://github.com/AltGr/opam-publish",
     "language": "OCaml",
     "pushed_at": "2021-06-24T09:58:55Z",

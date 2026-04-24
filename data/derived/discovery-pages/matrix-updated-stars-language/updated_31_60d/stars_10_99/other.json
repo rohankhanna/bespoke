@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 11,
-    "terms": 19
+    "components": 59,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 21,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,28 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "ably-labs/realtime-quiz-framework",
     "andys8/git-brunch",
+    "AvaotaSBC/AvaotaF1",
     "blaine/fantastty",
     "BuddiesOfBudgie/budgie-desktop-view",
     "coin-or-tools/homebrew-coinor",
+    "dominique-unruh/scala-isabelle",
     "DragonFlyBSD/DPorts",
+    "dwyl/cid",
+    "dwyl/mvp",
+    "FoundationDB/fdb-build-support",
+    "GaloisInc/cryptol-specs",
+    "kalbasit/nur-packages",
     "larshp/abapGitServer",
     "notaryproject/notaryproject.dev",
     "ocurrent/opam-health-check",
     "opencontainers/.github",
     "revfactory/claude-code-harness",
-    "rust-lang/crates-build-env"
+    "rust-lang/crates-build-env",
+    "Triang-jyed-driung/Rapid-Sampling",
+    "typst/typst-flake"
   ]
 }

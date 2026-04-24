@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 5,
-    "terms": 3
+    "components": 30,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 9,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "aviggiano/redis-roaring",
+    "bagder/fcpp",
+    "bdwgc/libatomic_ops",
     "birkett/srvany-ng",
     "bnosac/audio.whisper",
     "conor42/fast-lzma2",
     "intel/isa-l_crypto",
-    "nagisa/rust_tracy_client"
+    "nagisa/rust_tracy_client",
+    "swigger/wechat-ocr"
   ]
 }

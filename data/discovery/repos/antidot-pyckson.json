@@ -49,13 +49,14 @@
       "size": 720
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:16.459091+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A simple python library to serialize python objects to json",
     "fork": false,
-    "full_name": "antidot/Pyckson",
+    "full_name": "antidot/pyckson",
     "html_url": "https://github.com/antidot/Pyckson",
     "language": "Python",
     "pushed_at": "2024-07-19T14:12:18Z",

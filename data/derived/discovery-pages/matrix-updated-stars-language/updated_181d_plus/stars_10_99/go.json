@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 24,
-    "terms": 65
+    "components": 91,
+    "concepts": 105,
+    "observations": 108,
+    "repos": 42,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,49 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
     "3rd/syslang",
     "ahmetb/ytdl",
+    "alexkohler/dogsled",
+    "alexkohler/nargs",
+    "authorizer-tech/access-controller",
+    "Azure/acr-docker-credential-helper",
     "bgokden/veri",
     "brads3290/cclogviewer",
     "brpaz/echozap",
     "bytegust/spm",
     "chrismellard/docker-credential-acr-env",
     "darkweak/go-esi",
+    "deneonet/benc",
     "dustinblackman/gomodrun",
+    "ergochat/readline",
     "fabio42/sasqwatch",
+    "fiatjaf/makeinvoice",
     "filhodanuvem/polyglot",
     "go-woo/protoc-gen-echo",
     "google/gnostic-go-generator",
+    "jaegertracing/jaeger-lib",
+    "Jille/raft-grpc-leader-rpc",
+    "Jille/raft-grpc-transport",
+    "Jille/raftadmin",
+    "JingYiJun/MOSS_backend",
     "kentaro-m/blackfriday-confluence",
     "Layr-Labs/eigenda-proxy",
     "malfunkt/iprange",
     "maoueh/zap-pretty",
+    "mholt/caddy-hitcounter",
     "muesli/ansi",
+    "olric-data/olric-cloud-plugin",
+    "OpenTreeHole/auth_next",
     "oras-project/artifacts-spec",
     "tc-hib/winres",
     "tianon/markdownfmt",
-    "urfave/cli-docs"
+    "tinted-theming/base16-builder-go",
+    "urfave/cli-docs",
+    "vmihailenco/go-cache-benchmark",
+    "vmihailenco/go-tinylfu"
   ]
 }

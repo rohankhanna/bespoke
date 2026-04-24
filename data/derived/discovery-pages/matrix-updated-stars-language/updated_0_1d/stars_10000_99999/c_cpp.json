@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 21,
-    "terms": 203
+    "components": 117,
+    "concepts": 189,
+    "observations": 189,
+    "repos": 17,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,24 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "apple/foundationdb",
     "argotorg/solidity",
-    "bitcoin/bitcoin",
-    "curl/curl",
-    "duckdb/duckdb",
-    "emscripten-core/emscripten",
-    "facebook/folly",
-    "facebook/rocksdb",
+    "bkaradzic/bgfx",
+    "bpftrace/bpftrace",
+    "chromium/chromium",
+    "envoyproxy/envoy",
     "facebookresearch/faiss",
     "FreeRDP/FreeRDP",
-    "ggml-org/ggml",
     "gnachman/iTerm2",
-    "google/sentencepiece",
+    "libvips/libvips",
+    "microsoft/mimalloc",
     "microsoft/onnxruntime",
-    "microsoft/react-native-windows",
-    "microsoft/WSL",
-    "mpv-player/mpv",
-    "NixOS/nix",
-    "ocornut/imgui",
+    "openvinotoolkit/openvino",
     "protocolbuffers/protobuf",
-    "RPCS3/rpcs3"
+    "qemu/qemu",
+    "raysan5/raylib",
+    "systemd/systemd"
   ]
 }

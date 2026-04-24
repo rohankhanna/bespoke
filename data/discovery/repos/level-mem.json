@@ -229,13 +229,14 @@
       "size": 613
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:28.451853+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Superseded by memory-level. A convenience package bundling levelup and memdown.",
     "fork": false,
-    "full_name": "Level/mem",
+    "full_name": "level/mem",
     "html_url": "https://github.com/Level/mem",
     "language": "JavaScript",
     "pushed_at": "2024-12-02T00:32:10Z",

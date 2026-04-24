@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 0,
-    "observations": 0,
+    "concepts": 5,
+    "observations": 5,
     "repos": 2,
-    "terms": 0
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "danielrosehill/adb-ops-plugin",
-    "danielrosehill/Backup-Planner"
+    "danielrosehill/AI-Presentation-Builders-Index",
+    "danielrosehill/Claude-Israel"
   ]
 }

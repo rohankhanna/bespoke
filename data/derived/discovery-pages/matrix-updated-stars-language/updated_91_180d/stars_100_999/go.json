@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 7,
-    "terms": 30
+    "components": 26,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "76creates/stickers",
     "aws/amazon-ec2-instance-selector",
     "aws/amazon-ec2-metadata-mock",
     "bshuster-repo/logrus-logstash-hook",
+    "connectrpc/grpcreflect-go",
     "containers/storage",
     "cpuguy83/go-md2man",
+    "ethereum-optimism/asterisc",
+    "mholt/archives",
     "multiformats/multiaddr"
   ]
 }

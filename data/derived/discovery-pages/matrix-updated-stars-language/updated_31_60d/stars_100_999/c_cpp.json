@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 7,
-    "terms": 3
+    "components": 26,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 12,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "ARM-software/EndpointAI",
+    "dacap/clip",
+    "eliemichel/LearnWebGPU",
     "freebsd/atf",
+    "google/effcee",
     "google/kmsan",
     "KhronosGroup/OpenGL-Registry",
     "lualanes/lanes",
+    "microsoft/xlang",
+    "sasha0552/nvidia-pstated",
     "stardot/beebasm",
     "starwing/luautf8"
   ]

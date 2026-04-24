@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 7,
-    "terms": 20
+    "components": 88,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 12,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "angular/domino",
     "berty/www.berty.tech",
     "coderaiser/supertape",
     "dart-lang/site-shared",
     "faressoft/inquirer-checkbox-plus-prompt",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
+    "haskell-actions/run-fourmolu",
+    "ipld/js-dag-cbor",
+    "Level/browser-level",
+    "Level/memory-level",
     "nodejs/email"
   ]
 }

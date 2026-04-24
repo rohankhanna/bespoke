@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 23,
-    "observations": 24,
-    "repos": 6,
-    "terms": 23
+    "components": 60,
+    "concepts": 31,
+    "observations": 32,
+    "repos": 11,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "apache/dubbo-go-pixiu-samples",
+    "apptainer/sif",
+    "benchsci/rules_nodejs_gazelle",
+    "celo-org/op-geth",
     "cmdjulian/mopy",
     "compozy/kb",
-    "ethpandaops/xatu",
+    "depado/smallblog",
     "fgrehm/clotilde",
+    "joshsymonds/cc-tools",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go"
   ]

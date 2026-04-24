@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 19,
-    "terms": 161
+    "components": 152,
+    "concepts": 123,
+    "observations": 125,
+    "repos": 14,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "apache/dubbo-admin",
-    "aquasecurity/trivy-operator",
-    "awslabs/amazon-eks-ami",
-    "bazel-contrib/bazel-gazelle",
-    "containerd/stargz-snapshotter",
-    "cri-o/cri-o",
-    "DataDog/datadog-agent",
-    "docker/buildx",
-    "docker/docker-credential-helpers",
-    "dragonflyoss/dragonfly",
-    "erigontech/erigon",
-    "golang/tools",
-    "grafana/alloy",
-    "ko-build/ko",
-    "kubernetes-sigs/external-dns",
-    "kubernetes/client-go",
+    "actions/actions-runner-controller",
+    "anacrolix/torrent",
+    "chainguard-dev/apko",
+    "connectrpc/connect-go",
+    "envoyproxy/go-control-plane",
+    "google/adk-go",
+    "google/syzkaller",
+    "joshmedeski/sesh",
+    "knative/eventing",
+    "knative/serving",
+    "kubernetes/autoscaler",
     "kubernetes/test-infra",
-    "prometheus/client_golang",
-    "SpecterOps/BloodHound"
+    "NVIDIA/nvidia-container-toolkit",
+    "oapi-codegen/oapi-codegen"
   ]
 }

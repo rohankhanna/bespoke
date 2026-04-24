@@ -122,13 +122,14 @@
       "size": 978
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:27.142569+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "setImmediate polyfill for the browser and node",
     "fork": false,
-    "full_name": "taylorhakes/setAsap",
+    "full_name": "taylorhakes/setasap",
     "html_url": "https://github.com/taylorhakes/setAsap",
     "language": "JavaScript",
     "pushed_at": "2022-12-07T17:45:59Z",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 256,
-    "concepts": 59,
-    "observations": 60,
-    "repos": 7,
-    "terms": 65
+    "components": 469,
+    "concepts": 117,
+    "observations": 118,
+    "repos": 16,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "bash-lsp/bash-language-server",
     "butlerx/wetty",
+    "changesets/action",
+    "enisdenjo/graphql-ws",
+    "ethers-io/ethers.js",
     "glittercowboy/taches-cc-resources",
+    "golang/vscode-go",
+    "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
     "lobehub/lobe-icons",
+    "microsoft/node-pty",
     "peter-evans/repository-dispatch",
     "react-native-webview/react-native-webview",
-    "standard/eslint-config-standard"
+    "standard/eslint-config-standard",
+    "thx/resvg-js",
+    "TypeStrong/ts-loader"
   ]
 }

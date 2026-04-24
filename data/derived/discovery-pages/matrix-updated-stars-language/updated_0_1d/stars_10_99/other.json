@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 7,
-    "terms": 39
+    "components": 106,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 13,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "3rd/config",
-    "apache/arrow-dotnet",
-    "hashicorp/web-unified-docs",
-    "meta-pytorch/executorch-examples",
+    "abap2UI5/samples",
+    "apache/superset-site",
+    "ast-grep/ast-grep.github.io",
+    "be-hase/caffeine-coroutines",
+    "chainguard-dev/rules_apko",
+    "connectbot/termlib",
+    "nodenv/homebrew-nodenv",
     "ocaml-tracing/ocaml-opentelemetry",
-    "SAP/abap-file-formats",
-    "SAP/abap-file-formats-tools"
+    "ocurrent/ocaml-dockerfile",
+    "pq-code-package/mldsa-native",
+    "SAP/abap-file-formats-tools",
+    "searxng/searx-instances-uptime",
+    "servo/servo.org"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 335,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 17,
-    "terms": 134
+    "components": 120,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 11,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "axodotdev/cargo-dist",
-    "cargo-generate/cargo-generate",
-    "gfx-rs/wgpu-native",
-    "hickory-dns/hickory-dns",
-    "intentee/paddler",
-    "kika/fixedsys",
-    "matter-labs/zksync",
+    "ai-dynamo/dynamo",
+    "apache/iggy",
+    "apache/opendal",
+    "dimforge/nalgebra",
+    "esp-rs/esp-hal",
+    "j178/prek",
     "nextest-rs/nextest",
-    "paradigmxyz/reth",
-    "rkyv/rkyv",
-    "rust-lang/crates.io",
-    "rust-lang/rust-bindgen",
-    "rust-postgres/rust-postgres",
-    "rustsec/rustsec",
-    "sigp/lighthouse",
-    "succinctlabs/sp1",
-    "wasm-bindgen/wasm-bindgen"
+    "romanz/electrs",
+    "rust-bitcoin/rust-bitcoin",
+    "rust-lang/rustup",
+    "succinctlabs/sp1"
   ]
 }

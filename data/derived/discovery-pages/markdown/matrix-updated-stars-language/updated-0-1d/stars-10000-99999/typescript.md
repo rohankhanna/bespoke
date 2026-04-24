@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-04-23T09:29:29.007338+00:00`
+Generated at: `2026-04-24T05:24:44.036537+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 116
-- components: 1402
-- concepts: 116
-- observations: 116
+- repos: 11
+- terms: 141
+- components: 1194
+- concepts: 141
+- observations: 145
 
 ## Static behavior
 
@@ -26,36 +26,30 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/playwright](https://github.com/microsoft/playwright) | 87165 | 2026-04-24T00:20:25Z | TypeScript | Infrastructure/tooling | 19 | 96 | 19 | 19 |
+| [nuxt/nuxt](https://github.com/nuxt/nuxt) | 60110 | 2026-04-23T23:53:55Z | TypeScript | Infrastructure/tooling | 14 | 85 | 14 | 14 |
+| [pnpm/pnpm](https://github.com/pnpm/pnpm) | 34723 | 2026-04-23T21:57:34Z | TypeScript | Infrastructure/tooling | 13 | 43 | 13 | 13 |
+| [apache/superset](https://github.com/apache/superset) | 72554 | 2026-04-23T19:57:31Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 75538 | 2026-04-23T18:55:33Z | TypeScript | Infrastructure/tooling | 13 | 372 | 13 | 13 |
+| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14685 | 2026-04-23T18:48:45Z | TypeScript | Infrastructure/tooling | 4 | 48 | 4 | 4 |
+| [redis/node-redis](https://github.com/redis/node-redis) | 17511 | 2026-04-23T17:38:55Z | TypeScript | CLI | 9 | 21 | 9 | 13 |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 94177 | 2026-04-23T14:57:51Z | TypeScript | Infrastructure/tooling | 15 | 56 | 15 | 15 |
+| [emberjs/ember.js](https://github.com/emberjs/ember.js) | 22567 | 2026-04-23T14:20:19Z | TypeScript | Infrastructure/tooling | 10 | 86 | 10 | 10 |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 94722 | 2026-04-23T12:59:44Z | TypeScript | Infrastructure/tooling | 9 | 21 | 9 | 9 |
 | [grafana/grafana](https://github.com/grafana/grafana) | 73377 | 2026-04-23T08:37:49Z | TypeScript | Infrastructure/tooling | 17 | 362 | 17 | 17 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 75507 | 2026-04-23T06:32:24Z | TypeScript | Infrastructure/tooling | 13 | 371 | 13 | 13 |
-| [cline/cline](https://github.com/cline/cline) | 60627 | 2026-04-23T04:34:54Z | TypeScript | Infrastructure/tooling | 8 | 147 | 8 | 8 |
-| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17550 | 2026-04-23T04:24:13Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
-| [vuejs/core](https://github.com/vuejs/core) | 53505 | 2026-04-23T03:39:46Z | TypeScript | Infrastructure/tooling | 6 | 63 | 6 | 6 |
-| [google/brotli](https://github.com/google/brotli) | 14672 | 2026-04-22T23:46:28Z | TypeScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
-| [sass/sass](https://github.com/sass/sass) | 15376 | 2026-04-22T22:11:44Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
-| [renovatebot/renovate](https://github.com/renovatebot/renovate) | 21353 | 2026-04-22T19:55:29Z | TypeScript | CLI | 15 | 216 | 15 | 15 |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 36781 | 2026-04-22T17:20:41Z | TypeScript | Infrastructure/tooling | 13 | 39 | 13 | 13 |
-| [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) | 18471 | 2026-04-22T14:24:28Z | TypeScript | Infrastructure/tooling | 6 | 32 | 6 | 6 |
-| [graphql/graphql-js](https://github.com/graphql/graphql-js) | 20311 | 2026-04-22T13:02:23Z | TypeScript | Infrastructure/tooling | 7 | 33 | 7 | 7 |
-| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 15103 | 2026-04-22T12:38:16Z | TypeScript | Infrastructure/tooling | 9 | 30 | 9 | 9 |
-| [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | 24438 | 2026-04-22T12:34:52Z | TypeScript | Infrastructure/tooling | 9 | 29 | 9 | 9 |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 15711 | 2026-04-22T09:46:48Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 75507 | 2026-04-23T06:32:24Z | TypeScript | Infrastructure/tooling | 13 | 371 | 13 | 13 |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 94722 | 2026-04-23T12:59:44Z | TypeScript | Infrastructure/tooling | 9 | 21 | 9 | 9 |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 94177 | 2026-04-23T14:57:51Z | TypeScript | Infrastructure/tooling | 15 | 56 | 15 | 15 |
+| [microsoft/playwright](https://github.com/microsoft/playwright) | 87165 | 2026-04-24T00:20:25Z | TypeScript | Infrastructure/tooling | 19 | 96 | 19 | 19 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 75538 | 2026-04-23T18:55:33Z | TypeScript | Infrastructure/tooling | 13 | 372 | 13 | 13 |
 | [grafana/grafana](https://github.com/grafana/grafana) | 73377 | 2026-04-23T08:37:49Z | TypeScript | Infrastructure/tooling | 17 | 362 | 17 | 17 |
-| [cline/cline](https://github.com/cline/cline) | 60627 | 2026-04-23T04:34:54Z | TypeScript | Infrastructure/tooling | 8 | 147 | 8 | 8 |
-| [vuejs/core](https://github.com/vuejs/core) | 53505 | 2026-04-23T03:39:46Z | TypeScript | Infrastructure/tooling | 6 | 63 | 6 | 6 |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 36781 | 2026-04-22T17:20:41Z | TypeScript | Infrastructure/tooling | 13 | 39 | 13 | 13 |
-| [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | 24438 | 2026-04-22T12:34:52Z | TypeScript | Infrastructure/tooling | 9 | 29 | 9 | 9 |
-| [renovatebot/renovate](https://github.com/renovatebot/renovate) | 21353 | 2026-04-22T19:55:29Z | TypeScript | CLI | 15 | 216 | 15 | 15 |
-| [graphql/graphql-js](https://github.com/graphql/graphql-js) | 20311 | 2026-04-22T13:02:23Z | TypeScript | Infrastructure/tooling | 7 | 33 | 7 | 7 |
-| [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) | 18471 | 2026-04-22T14:24:28Z | TypeScript | Infrastructure/tooling | 6 | 32 | 6 | 6 |
-| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17550 | 2026-04-23T04:24:13Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 15711 | 2026-04-22T09:46:48Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
-| [sass/sass](https://github.com/sass/sass) | 15376 | 2026-04-22T22:11:44Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
-| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 15103 | 2026-04-22T12:38:16Z | TypeScript | Infrastructure/tooling | 9 | 30 | 9 | 9 |
-| [google/brotli](https://github.com/google/brotli) | 14672 | 2026-04-22T23:46:28Z | TypeScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
+| [apache/superset](https://github.com/apache/superset) | 72554 | 2026-04-23T19:57:31Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
+| [nuxt/nuxt](https://github.com/nuxt/nuxt) | 60110 | 2026-04-23T23:53:55Z | TypeScript | Infrastructure/tooling | 14 | 85 | 14 | 14 |
+| [pnpm/pnpm](https://github.com/pnpm/pnpm) | 34723 | 2026-04-23T21:57:34Z | TypeScript | Infrastructure/tooling | 13 | 43 | 13 | 13 |
+| [emberjs/ember.js](https://github.com/emberjs/ember.js) | 22567 | 2026-04-23T14:20:19Z | TypeScript | Infrastructure/tooling | 10 | 86 | 10 | 10 |
+| [redis/node-redis](https://github.com/redis/node-redis) | 17511 | 2026-04-23T17:38:55Z | TypeScript | CLI | 9 | 21 | 9 | 13 |
+| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14685 | 2026-04-23T18:48:45Z | TypeScript | Infrastructure/tooling | 4 | 48 | 4 | 4 |

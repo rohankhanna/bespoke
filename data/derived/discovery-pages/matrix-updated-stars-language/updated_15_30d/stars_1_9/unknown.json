@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 8,
     "observations": 8,
-    "repos": 6,
+    "repos": 10,
     "terms": 8
   },
   "facet_version": 1,
@@ -12,13 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "aar0npb/curator-skill",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/Agents-Index",
     "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/Architectural-Plans-Index",
+    "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
-    "langchain-ai/.github"
+    "lab-cosmo/.github",
+    "langchain-ai/.github",
+    "ScoopInstaller/.github"
   ]
 }

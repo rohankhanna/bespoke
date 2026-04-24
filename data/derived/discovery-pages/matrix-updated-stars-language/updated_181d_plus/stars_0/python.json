@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 12,
-    "terms": 20
+    "components": 43,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 20,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,27 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "albertogeniola/elmax-api",
+    "AlmaLinux/errata2osv",
     "autodistill/autodistill-azure-vision",
-    "bfshi/LLaVA_NeXT_S2_Integration",
+    "bfshi/llava_next_s2_integration",
     "clearbluejar/ghidra-pyi-generator",
     "CodeBoarding/atlassian-python-api",
     "danielrosehill/AI-Agent-Ideation-Agent",
-    "danielrosehill/Better-Hashnode-Backups",
+    "danielrosehill/better-hashnode-backups",
     "genome21/langflow",
     "hashberg-io/multiformats-config",
+    "LDLINGLINGLING/sglang",
+    "LDLINGLINGLING/vllm",
     "mignonjia/lmgame_train_reorg",
     "mjvolk3/biocypher",
-    "zzowenzz/COCO_Tiny"
+    "Natyren/alfworld",
+    "Natyren/WebShop",
+    "redcaps-dataset/pytorch-retinaface",
+    "spencer-tb/ethereum-spec-evm-resolver",
+    "thanku-all/parse_answer",
+    "zzowenzz/coco_tiny"
   ]
 }

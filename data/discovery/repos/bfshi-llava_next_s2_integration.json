@@ -41,13 +41,14 @@
       "size": 1256
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:10.108869+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
     "fork": true,
-    "full_name": "bfshi/LLaVA_NeXT_S2_Integration",
+    "full_name": "bfshi/llava_next_s2_integration",
     "html_url": "https://github.com/bfshi/LLaVA_NeXT_S2_Integration",
     "language": "Python",
     "pushed_at": "2024-05-06T22:56:58Z",

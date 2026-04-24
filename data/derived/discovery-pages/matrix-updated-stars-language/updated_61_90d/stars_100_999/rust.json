@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 5,
-    "terms": 15
+    "components": 50,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 8,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "Ai00-X/ai00_server",
     "cuviper/autocfg",
+    "dtolnay/prettyplease",
     "kata-containers/cgroups-rs",
     "ratatui/templates",
     "tsonglew/dutis",
-    "unicode-rs/unicode-width"
+    "unicode-rs/unicode-width",
+    "walles/riff"
   ]
 }

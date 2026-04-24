@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 19,
-    "terms": 134
+    "components": 387,
+    "concepts": 215,
+    "observations": 215,
+    "repos": 25,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,32 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "abap2UI5/abap2UI5",
-    "AdaCore/libadalang",
-    "argotorg/hevm",
-    "aws/aws-lc",
-    "bazel-contrib/rules_python",
-    "cedar-policy/cedar-spec",
-    "cgrindel/rules_swift_package_manager",
+    "aspect-build/rules_js",
+    "atsign-foundation/noports",
+    "Azure/bicep-registry-modules",
+    "bazelbuild/bazel-central-registry",
+    "Calinou/scoop-games",
+    "celo-org/celo-monorepo",
     "chainguard-images/images",
-    "dart-lang/shelf",
-    "dart-lang/tools",
-    "dotnet/dotnet-api-docs",
-    "emacscollective/borg",
+    "danielrosehill/Claude-Code-Projects-Index",
+    "dotnet/razor",
+    "getsentry/sentry-docs",
+    "GoogleCloudPlatform/cluster-toolkit",
     "grafana-community/helm-charts",
-    "microsoft/react-native-windows-samples",
-    "NixOS/nixos-homepage",
-    "OpenZeppelin/openzeppelin-foundry-upgrades",
-    "pq-code-package/mlkem-native",
-    "shakacode/shakapacker",
-    "w3c/aria"
+    "huggingface/optimum-intel",
+    "igorlfs/nvim-dap-view",
+    "JuliaWeb/HTTP.jl",
+    "microsoft/CsWinRT",
+    "mihaimaruseac/hindent",
+    "NVIDIA/spark-rapids",
+    "rapidsai/cuvs",
+    "ROCm/llvm-project",
+    "ruby/gem_rbs_collection",
+    "SpecterOps/SharpHoundCommon",
+    "status-im/nimbus-eth1",
+    "WebAssembly/meetings"
   ]
 }

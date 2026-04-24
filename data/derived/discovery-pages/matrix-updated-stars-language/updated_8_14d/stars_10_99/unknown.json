@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 8,
-    "terms": 6
+    "components": 3,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 7,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "alchaincyf/ilya-sutskever-skill",
-    "alchaincyf/taleb-skill",
-    "askroundtable/expert-skills",
     "bleichenbacher-daniel/Rooterberg",
+    "cdxeve/awesome-computer-use-agents",
     "eigenfoundation/elips",
     "flinedev/plankit",
+    "ipshipyard/ipfs-deploy-action",
     "kubernetes/steering",
-    "SeleniumHQ/selenium_manager_artifacts"
+    "ocaml/platform-blog"
   ]
 }

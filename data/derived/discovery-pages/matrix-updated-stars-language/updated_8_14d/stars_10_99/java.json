@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 5,
+    "components": 4,
     "concepts": 7,
-    "observations": 8,
+    "observations": 7,
     "repos": 2,
     "terms": 7
   },
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "codetyio/codety-scanner",
-    "google/guava-beta-checker"
+    "google/guava-beta-checker",
+    "m2e-code-quality/m2e-code-quality"
   ]
 }

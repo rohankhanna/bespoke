@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 6,
-    "terms": 40
+    "components": 115,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 14,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "adrg/xdg",
     "aws/aws-app-mesh-controller-for-k8s",
+    "aws/credentials-fetcher",
+    "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
+    "connectrpc/validate-go",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
+    "ethereum-optimism/superchain-registry",
+    "hashicorp/hello-vault-go",
+    "ipfs/go-cid",
+    "ipfs/ipfs-docs",
     "notaryproject/notation",
     "slsa-framework/slsa-github-generator"
   ]

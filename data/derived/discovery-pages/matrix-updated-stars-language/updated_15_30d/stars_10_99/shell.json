@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 3,
-    "terms": 8
+    "components": 25,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 6,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "aiKrice/homebrew-badgetizr",
     "ChainSafe/forest-iac",
+    "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/poppler-feedstock",
-    "conda-forge/spacy-feedstock"
+    "conda-forge/spacy-feedstock",
+    "nodenv/node-build-update-defs"
   ]
 }

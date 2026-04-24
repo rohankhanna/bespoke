@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 25,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 2,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "microsoft/semantic-kernel-java"
+    "aws-powertools/powertools-lambda-java",
+    "eclipse-wildwebdeveloper/wildwebdeveloper"
   ]
 }

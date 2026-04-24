@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 1,
-    "terms": 14
+    "components": 26,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 3,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "Afnanksalal/co-op"
+    "adityasugandhi/skillsync-mcp",
+    "Afnanksalal/co-op",
+    "birdofpreyru/js-utils"
   ]
 }

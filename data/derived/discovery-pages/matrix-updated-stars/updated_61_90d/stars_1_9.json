@@ -1,32 +1,38 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 16,
-    "terms": 27
+    "components": 64,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 22,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
     "airowe/claude-a11y-skill",
-    "AIxCyberChallenge/example-crs-architecture",
     "arya-s/phantty",
     "biocypher/collectri",
+    "birdofpreyru/js-utils",
     "chronosphereio/calyptia-api",
+    "Coral-Protocol/coral-rs",
     "cpojer/js-codemod",
+    "dbubel/intake",
+    "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
     "genius-harry/neural-chat",
     "hesreallyhim/inkverse-fork",
     "ldayton/bash-oracle",
     "mjvolk3/torchcell",
+    "objectbox/objectbox-swift-generator",
     "piebald-ai/.github",
-    "pydantic/pydantic-docs",
+    "qiuyu96/CoDeF",
+    "shesek/electrumd",
     "trufflesecurity/test_keys",
     "zwowo1997/pack-repo-4ai"
   ]

@@ -8,13 +8,14 @@
       "size": 549
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:26.540097+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Sample applications for libheif-sharp",
     "fork": false,
-    "full_name": "0xC0000054/libheif-sharp-samples",
+    "full_name": "0xc0000054/libheif-sharp-samples",
     "html_url": "https://github.com/0xC0000054/libheif-sharp-samples",
     "language": "C#",
     "pushed_at": "2023-11-20T01:10:46Z",

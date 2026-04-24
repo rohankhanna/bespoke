@@ -176,13 +176,14 @@
       "size": 621
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:30.754164+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Superseded by level-transcoder. Encode keys, values and range options, with built-in or custom encodings.",
     "fork": false,
-    "full_name": "Level/codec",
+    "full_name": "level/codec",
     "html_url": "https://github.com/Level/codec",
     "language": "JavaScript",
     "pushed_at": "2024-12-20T16:35:51Z",

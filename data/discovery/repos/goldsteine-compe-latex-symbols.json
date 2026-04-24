@@ -8,13 +8,14 @@
       "size": 898
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:50.932519+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Autocomplete LaTeX symbol into your text via nvim-compe",
     "fork": false,
-    "full_name": "GoldsteinE/compe-latex-symbols",
+    "full_name": "goldsteine/compe-latex-symbols",
     "html_url": "https://github.com/GoldsteinE/compe-latex-symbols",
     "language": "Lua",
     "pushed_at": "2021-05-14T09:03:57Z",

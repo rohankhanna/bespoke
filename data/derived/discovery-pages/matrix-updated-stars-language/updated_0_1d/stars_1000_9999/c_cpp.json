@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 12,
-    "terms": 108
+    "components": 217,
+    "concepts": 243,
+    "observations": 244,
+    "repos": 25,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,32 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "diffblue/cbmc",
-    "GNOME/glib",
-    "google/highway",
-    "libjxl/libjxl",
-    "libssh2/libssh2",
+    "aphrodite-engine/aphrodite-engine",
+    "ashvardanian/NumKong",
+    "bdwgc/bdwgc",
+    "clice-io/clice",
+    "cloudflare/workerd",
+    "erincatto/box2d",
+    "facebookincubator/velox",
+    "fluent/fluent-bit",
+    "ganelson/inform",
+    "halide/Halide",
+    "harfbuzz/harfbuzz",
+    "iree-org/iree",
+    "KhronosGroup/SPIRV-Tools",
+    "Kitware/CMake",
     "Mbed-TLS/mbedtls",
-    "NVIDIA/MatX",
-    "NVIDIA/nccl",
+    "microsoft/cppwinrt",
+    "microsoft/WindowsAppSDK",
+    "Mithril-mine/libmdbx",
+    "NVIDIA/cccl",
+    "open-quantum-safe/liboqs",
     "openxla/xla",
-    "rapidsai/cudf",
-    "saitoha/libsixel",
-    "uxlfoundation/oneDNN"
+    "rapidsai/cuml",
+    "util-linux/util-linux",
+    "yaml/libyaml",
+    "zeux/meshoptimizer"
   ]
 }

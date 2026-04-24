@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 15,
-    "observations": 16,
-    "repos": 18,
-    "terms": 15
+    "components": 62,
+    "concepts": 19,
+    "observations": 20,
+    "repos": 20,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "appscodelabs/liche",
     "bgw/virtue",
@@ -22,12 +22,14 @@
     "danielrosehill/AI-Agent-Virtual-Panel-Configs",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/AI-Sysadmin",
+    "danielrosehill/ai-tools-plugin",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/batch-claudemd-repo-creator",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
-    "eigenwallet/dfx-swiss-rs",
+    "danielrosehill/Data-Projects-Index",
+    "espressosystems/espresso-systems-common",
     "imandra-ai/tldrs",
     "stainless-api/tsc-multi",
     "wintercg/fetch"

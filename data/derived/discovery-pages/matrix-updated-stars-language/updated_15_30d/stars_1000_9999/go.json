@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 17,
-    "terms": 99
+    "components": 150,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 23,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "aquasecurity/starboard",
     "aquasecurity/tfsec",
+    "arl/statsviz",
     "azure/aztfexport",
+    "bnb-chain/tss-lib",
     "cenkalti/backoff",
     "cloudnativelabs/kube-router",
     "cortesi/devd",
     "fatih/color",
+    "gobackup/gobackup",
+    "google/starlark-go",
     "hashicorp/go-version",
     "hashicorp/hcl",
     "itchyny/gojq",
+    "klauspost/compress",
     "kubernetes-sigs/krew",
     "kubernetes-sigs/prometheus-adapter",
     "mattn/goreman",
     "mvdan/sh",
     "olric-data/olric",
+    "rootless-containers/rootlesskit",
     "smtg-ai/claude-squad",
-    "stripe/stripe-mock",
     "vishvananda/netlink"
   ]
 }

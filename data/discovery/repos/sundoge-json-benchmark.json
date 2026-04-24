@@ -97,13 +97,14 @@
       "size": 1139
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:18.831518+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "nativejson-benchmark in Rust",
     "fork": true,
-    "full_name": "SunDoge/json-benchmark",
+    "full_name": "sundoge/json-benchmark",
     "html_url": "https://github.com/SunDoge/json-benchmark",
     "language": null,
     "pushed_at": "2023-08-27T02:27:42Z",

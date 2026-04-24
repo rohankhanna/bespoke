@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 13,
-    "terms": 77
+    "components": 213,
+    "concepts": 147,
+    "observations": 147,
+    "repos": 22,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "01mf02/jaq",
+    "aome510/spotify-player",
     "bvaisvil/zenith",
     "Canop/bacon",
+    "crate-ci/typos",
+    "crev-dev/cargo-crev",
+    "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
-    "GuillaumeGomez/sysinfo",
-    "linebender/resvg",
+    "hyperium/h2",
+    "johnnymorganz/stylua",
+    "jonhoo/inferno",
+    "jsr-io/jsr",
+    "libp2p/rust-libp2p",
     "mitsuhiko/similar",
-    "pop-os/cosmic-text",
     "rust-cli/confy",
+    "rust-cli/env_logger",
     "rust-windowing/winit",
     "serde-rs/json",
     "tauri-apps/wry",
+    "tokio-rs/mini-redis",
     "uuid-rs/uuid",
     "wasm-bindgen/wasm-pack"
   ]

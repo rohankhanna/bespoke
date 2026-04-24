@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 4,
-    "terms": 12
+    "components": 26,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "alloy-rs/evm",
-    "amazon-ion/ion-cli",
-    "boundless-xyz/kailua",
-    "celo-org/celo-threshold-bls-rs"
+    "ai-dynamo/modelexpress",
+    "bitcoindevkit/rust-electrum-client",
+    "eth-act/zkboost"
   ]
 }

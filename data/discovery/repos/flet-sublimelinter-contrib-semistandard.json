@@ -16,13 +16,14 @@
       "size": 4985
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:23:46.575121+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "Flet/SublimeLinter-contrib-semistandard",
+    "full_name": "flet/sublimelinter-contrib-semistandard",
     "html_url": "https://github.com/Flet/SublimeLinter-contrib-semistandard",
     "language": "Python",
     "pushed_at": "2022-04-18T16:00:16Z",

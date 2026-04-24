@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 38,
-    "terms": 133
+    "components": 160,
+    "concepts": 150,
+    "observations": 150,
+    "repos": 49,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
-    "aar0npb/curator-skill",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
     "agenmod/mirror-skill",
@@ -33,23 +32,35 @@
     "agent-sh/repo-intel",
     "agent-sh/sync-docs",
     "AI-Agent-Hub/mcp-marketplace",
+    "ai-dynamo/enhancements",
+    "alvistack/ansible-role-conmon",
     "apache/dubbo-go-extensions",
     "aporthq/aport-spec",
+    "ashvardanian/ashvardanian",
     "cdeust/cortex-cowork",
+    "cdxeve/scale-openclaw",
     "chronosphereio/calyptia-cli",
     "CoolCat467/idlemypyextension",
     "cpu/wycheproof",
     "danielrosehill/agent-junction",
     "danielrosehill/AI-Synthesised-Perspectives",
-    "danielrosehill/Claude-AI-Attribution-Plugin",
+    "diffblue/homebrew-cbmc",
     "dp111/6502timing",
     "dreamiurg/mountaineers-assistant",
     "flinedev/marketplace",
     "istanbuljs/schema",
     "joinwell52-ai/joinwell52",
+    "kelp/webdown",
+    "ksylvan/fabric",
+    "Layr-Labs/hokulea",
+    "lemire/unicode_lipsum",
     "marcindulak/ralph-wiggum-bdd",
+    "mitchuski/agentprivacy-docs",
     "nodejs/web-team",
+    "piebald-ai/piebald-issues",
+    "rapidsai/rapids-logger",
     "semgrep/mcp-marketplace",
+    "Shougo/dpp-ext-lazy",
     "sp1-patches/bn"
   ]
 }

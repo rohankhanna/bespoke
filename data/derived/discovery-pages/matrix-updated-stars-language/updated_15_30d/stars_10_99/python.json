@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 12,
-    "terms": 35
+    "components": 67,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 16,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "allenporter/python-google-nest-sdm",
+    "beeware/briefcase-template",
     "bentoml/openllm-models",
     "browser-use/benchmark",
     "ckan/datapusher",
     "collinear-ai/yc-bench",
     "danielrosehill/Index",
     "explosion/weasel",
+    "facebookresearch/mosaic",
     "iamsashank09/llm-wiki-kit",
+    "jupyter/governance",
     "libp2p/test-plans",
+    "sphinx-contrib/sphinxcontrib-towncrier",
     "symgraph/BinAssistMCP",
     "w1ndys/ex-cure-skill"
   ]

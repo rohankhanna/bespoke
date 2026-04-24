@@ -37,13 +37,14 @@
       "size": 1132
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:08.385737+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "RESTful endpoints to enable the usage of abapGit for ABAP Development Tools",
     "fork": false,
-    "full_name": "SAP-archive/project-odense",
+    "full_name": "sap-archive/project-odense",
     "html_url": "https://github.com/SAP-archive/project-odense",
     "language": "ABAP",
     "pushed_at": "2024-01-03T13:38:36Z",

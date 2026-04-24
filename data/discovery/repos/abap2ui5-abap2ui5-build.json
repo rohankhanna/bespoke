@@ -50,13 +50,14 @@
       "size": 1095
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:41.705952+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Build of abap2UI5",
     "fork": false,
-    "full_name": "abap2UI5/abap2UI5-build",
+    "full_name": "abap2ui5/abap2ui5-build",
     "html_url": "https://github.com/abap2UI5/abap2UI5-build",
     "language": "ABAP",
     "pushed_at": "2025-03-04T15:02:20Z",

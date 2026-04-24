@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 8,
-    "terms": 65
+    "components": 105,
+    "concepts": 74,
+    "observations": 77,
+    "repos": 13,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "adrg/xdg",
     "apache/dubbo-go-pixiu",
     "charmbracelet/colorprofile",
+    "cloudfoundry/gosigar",
     "coder/code-marketplace",
+    "darkweak/souin",
+    "ethereum-optimism/op-geth",
+    "foxj77/claudectx",
     "go-viper/mapstructure",
     "hashicorp/errwrap",
-    "ipfs/go-cid",
-    "kubernetes/cri-api"
+    "hashicorp/go-discover",
+    "jaegertracing/jaeger-idl",
+    "kubernetes/cri-api",
+    "Layr-Labs/eigenda"
   ]
 }

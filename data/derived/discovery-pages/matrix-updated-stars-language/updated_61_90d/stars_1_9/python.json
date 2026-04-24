@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 6,
-    "terms": 7
+    "components": 10,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 4,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "AIxCyberChallenge/example-crs-architecture",
     "biocypher/collectri",
     "genius-harry/neural-chat",
     "mjvolk3/torchcell",
-    "pydantic/pydantic-docs",
     "zwowo1997/pack-repo-4ai"
   ]
 }

@@ -16,13 +16,14 @@
       "size": 1154
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:23.084812+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Play with Manim",
     "fork": false,
-    "full_name": "pdcxs/ManimProjects",
+    "full_name": "pdcxs/manimprojects",
     "html_url": "https://github.com/pdcxs/ManimProjects",
     "language": "Python",
     "pushed_at": "2021-05-11T13:29:03Z",

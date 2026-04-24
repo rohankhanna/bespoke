@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 4,
-    "terms": 37
+    "components": 20,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 6,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "agricidaniel/claude-cybersecurity",
+    "alvistack/ansible-role-crun",
     "aporthq/aport-agent-guardrails",
     "containers/automation",
-    "Digidai/product-manager-skills"
+    "Digidai/product-manager-skills",
+    "GoogleCloudPlatform/blueprints"
   ]
 }

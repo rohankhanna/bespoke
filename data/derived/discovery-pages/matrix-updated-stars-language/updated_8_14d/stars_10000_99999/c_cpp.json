@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 8,
-    "terms": 56
+    "components": 73,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 13,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "ApolloAuto/apollo",
+    "aristocratos/btop",
+    "catchorg/Catch2",
     "Cyan4973/xxHash",
     "davatorium/rofi",
     "microsoft/wslg",
+    "ninja-build/ninja",
     "nlohmann/json",
     "nothings/stb",
+    "NVIDIA/TensorRT",
     "opencv/opencv_contrib",
     "tmux/tmux",
     "tsl0922/ttyd"

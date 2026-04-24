@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 6,
-    "terms": 35
+    "components": 100,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 10,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "ada-url/ada-python",
+    "ada-url/goada",
     "AIWintermuteAI/whispercpp",
+    "flashlight/text",
     "flatpak/xdg-dbus-proxy",
     "GaoYusong/llm.cpp",
     "grain-lang/binaryen.ml",
     "Level/classic-level",
-    "mxmlnkn/indexed_bzip2"
+    "mxmlnkn/indexed_bzip2",
+    "theimpossibleastronaut/rmw"
   ]
 }

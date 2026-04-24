@@ -1,26 +1,25 @@
 {
   "counts": {
-    "components": 551,
-    "concepts": 119,
-    "observations": 121,
-    "repos": 9,
-    "terms": 119
+    "components": 214,
+    "concepts": 99,
+    "observations": 100,
+    "repos": 8,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
-    "angular/angular",
     "Comfy-Org/ComfyUI",
+    "electron/electron",
     "f/prompts.chat",
-    "facebook/react-native",
     "ggml-org/llama.cpp",
-    "langchain-ai/langchain",
     "langflow-ai/langflow",
-    "langgenius/dify",
-    "microsoft/vscode"
+    "ollama/ollama",
+    "Significant-Gravitas/AutoGPT",
+    "tensorflow/tensorflow"
   ]
 }

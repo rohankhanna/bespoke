@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 20,
-    "observations": 20,
+    "components": 19,
+    "concepts": 30,
+    "observations": 30,
     "repos": 6,
-    "terms": 23
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "astro-han/claude-pace",
     "cncf/k8s-conformance",
     "EmbarkStudios/cargo-deny-action",
-    "trailofbits/claude-code-devcontainer",
+    "nodenv/node-build",
     "undeadlist/claude-code-agents"
   ]
 }

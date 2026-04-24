@@ -261,13 +261,14 @@
       "size": 621
     }
   ],
+  "metadata_refreshed_at": "2026-04-24T05:24:30.509586+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Superseded by abstract-level. An abstract-leveldown implementation that wraps another store to encode keys and values.",
     "fork": false,
-    "full_name": "Level/encoding-down",
+    "full_name": "level/encoding-down",
     "html_url": "https://github.com/Level/encoding-down",
     "language": "JavaScript",
     "pushed_at": "2024-12-20T16:26:18Z",

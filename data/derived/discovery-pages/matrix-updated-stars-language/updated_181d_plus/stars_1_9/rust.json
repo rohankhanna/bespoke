@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 12,
-    "terms": 21
+    "components": 77,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 21,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,28 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "generated_at": "2026-04-24T05:24:44.036537+00:00",
   "repo_ids": [
+    "akavel/rumbac",
+    "apache/casbin-rust-actix-file-adapter-rbac",
+    "apache/casbin-rust-actix-middleware-example",
+    "apache/casbin-rust-actix-postgresql-simple",
+    "apache/casbin-rust-axum-middleware-example",
     "comit-network/monero-rs",
+    "cryscan/web-rwkv-converter",
     "dathere/qsv-easy-windows-installer",
     "franziskuskiefer/cose-rust",
     "hasharchives/blockprotocol-incubator",
     "icsmw/tslink",
-    "Layr-Labs/bn254-bls-keystore-rs",
+    "layr-labs/bn254-bls-keystore-rs",
+    "liushuyu/xdelta3-rs",
     "mozilla/nss-gk-api",
     "mrsmkl/keep-awake-rs",
     "ncitron/ethereum_hashing",
     "Piebald-AI/muda",
     "thomaseizinger/rust-jsonrpc-client",
-    "tmpfs/tamp-rs"
+    "tmpfs/tamp-rs",
+    "valida-xyz/Plonky3",
+    "wezterm/xcb-imdkit-rs"
   ]
 }
