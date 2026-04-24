@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/dockerhub-description@1b9a80c056b620d92cedb9d9b5a223409c68ddfa",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "raviqqe/muffet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "intel/ai-containers"
     }
   ]
 }

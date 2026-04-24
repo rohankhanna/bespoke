@@ -1789,6 +1789,42 @@
       "source_repo": "cgnorthcutt/confidentlearning-reproduce",
       "status": "candidate-context",
       "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timoschick/pet",
+      "status": "candidate-context",
+      "text": "This repository contains the code for \"Exploiting Cloze Questions for Few-Shot Text Classification and Natural Language Inference\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timoschick/pet",
+      "status": "candidate-context",
+      "text": "This repository contains the code for [Exploiting Cloze Questions for Few-Shot Text Classification and Natural Language Inference](https://arxiv.org/abs/2001.07676) and [It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners](https://arxiv.org/abs/2009\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-tensorflow",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Extension for TensorFlow*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-tensorflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "Controller for the 5sControl algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2679,6 +2715,24 @@
       "source_repo": "cgnorthcutt/confidentlearning-reproduce",
       "status": "candidate",
       "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timoschick/pet",
+      "status": "candidate",
+      "text": "This repository contains the code for [Exploiting Cloze Questions for Few-Shot Text Classification and Natural Language Inference](https://arxiv.org/abs/2001.07676) and [It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners](https://arxiv.org/abs/2009\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-tensorflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -3838,11 +3892,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "cgnorthcutt/confidentlearning-reproduce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "timoschick/pet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-algorithms-controller"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

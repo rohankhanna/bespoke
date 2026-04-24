@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3157,6 +3157,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "executablebooks/MyST-Parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "acts-project/acts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-cuda.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik-cuda.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-rocm.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-vulkan.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release.yml",
+      "source_repo": "oobabooga/textgen"
     }
   ]
 }

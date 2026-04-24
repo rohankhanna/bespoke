@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy to Wiki"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theroyallab/tabbyAPI",
+      "status": "candidate-context",
+      "text": "The official API server for Exllama. OAI compatible, lightweight, and fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theroyallab/tabbyAPI",
+      "status": "candidate-context",
+      "text": "Deploy to Wiki"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theroyallab/tabbyAPI",
+      "status": "candidate",
+      "text": "Deploy to Wiki"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10654,
+      "status": "candidate",
+      "text": "wikia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10598,
+      "status": "candidate",
+      "text": "buck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10433,
+      "status": "candidate",
+      "text": "cookbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10371,
+      "status": "candidate",
+      "text": "above"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10371,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy to Wiki",
+  "concept_id": "deploy-to-wiki",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "theroyallab/tabbyAPI"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Wiki",
+      "sense_id": "deploy-to-wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

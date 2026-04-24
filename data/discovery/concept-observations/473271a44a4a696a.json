@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " The Discovery Artifact Manager is intended to facilitate testing, publishing, and synchronization of generators and artifacts for client libraries and generated code samples of Google APIs defined by the API Discovery Service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Normalize discovery documents"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Normalize discovery documents"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22399,
+      "status": "candidate",
+      "text": "hormone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "monitor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Normalize discovery documents",
+      "sense_id": "normalize-discovery-documents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "normalize-discovery-documents",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "normalize-discovery-documents",
+  "observation_id": "473271a44a4a696a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "Normalize discovery documents",
+  "source_context_snippet": "Normalize discovery documents",
+  "source_file": ".github/workflows/normalize-disco.yml",
+  "source_repo": "googleapis/discovery-artifact-manager",
+  "source_repo_description": " The Discovery Artifact Manager is intended to facilitate testing, publishing, and synchronization of generators and artifacts for client libraries and generated code samples of Google APIs defined by the API Discovery Service."
+}

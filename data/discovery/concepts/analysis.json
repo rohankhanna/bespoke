@@ -94,6 +94,18 @@
       "source_repo": "chaoss/grimoirelab-graal",
       "status": "candidate-context",
       "text": "Graal leverages on the Git backend of [Perceval](https://github.com/chaoss/grimoirelab-perceval) and enhances it to set up ad-hoc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Experiment-independent toolkit for (charged) particle track reconstruction in (high energy) physics experiments implemented in modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Analysis"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "chaoss/grimoirelab-graal",
       "status": "candidate",
       "text": "Graal leverages on the Git backend of [Perceval](https://github.com/chaoss/grimoirelab-perceval) and enhances it to set up ad-hoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
+      "status": "candidate",
+      "text": "Analysis"
     }
   ],
   "candidate_related_terms": [
@@ -245,11 +263,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "chaoss/grimoirelab-graal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "acts-project/acts"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

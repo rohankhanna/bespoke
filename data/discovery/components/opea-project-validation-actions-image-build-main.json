@@ -1,7 +1,7 @@
 {
   "component": "opea-project/validation/actions/image-build@main",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_build_image.yml",
       "source_repo": "opea-project/GenAIExamples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_comps-workflow.yml",
+      "source_repo": "opea-project/GenAIComps"
     }
   ]
 }

@@ -4649,6 +4649,42 @@
       "source_repo": "kurrent-io/es-gencert-cli",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "Rust task runner and build tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/neighbor",
+      "status": "candidate-context",
+      "text": "Nearest neighbor search for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/neighbor",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgvector/pgvector-ada",
+      "status": "candidate-context",
+      "text": "pgvector examples for Ada"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgvector/pgvector-ada",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -7021,6 +7057,24 @@
       "source_repo": "kurrent-io/es-gencert-cli",
       "status": "candidate",
       "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/neighbor",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgvector/pgvector-ada",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [
@@ -9973,11 +10027,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "kurrent-io/EventStoreDB-Client-Dotnet-Legacy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/neighbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pgvector/pgvector-ada"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

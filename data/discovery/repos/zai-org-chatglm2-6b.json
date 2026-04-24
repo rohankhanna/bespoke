@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
       "target": "hazyresearch/flash-attention",
       "target_type": "repository"
     },
@@ -12,21 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM2-6B",
-      "target": "sophgo/chatglm2-tpu",
+      "target": "thudm/codegeex2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM2-6B",
-      "target": "openai/grade-school-math",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/ChatGLM2-6B",
-      "target": "suzgunmirac/big-bench-hard",
+      "target": "thudm/chatglm2-6b",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:54:04.217320+00:00",
+  "fetched_at": "2026-04-24T18:22:00.620306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -89,17 +89,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openai/grade-school-math",
+      "full_name": "thudm/chatglm-6b",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sophgo/chatglm2-tpu",
+      "full_name": "thudm/chatglm2-6b",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "suzgunmirac/big-bench-hard",
+      "full_name": "thudm/codegeex2",
       "source_file": "README.md"
     }
   ],

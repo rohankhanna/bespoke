@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "intel/ai-reference-models",
-      "target": "intel/ai-containers",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "intel/ai-reference-models",
-      "target": "intel/intel-extension-for-tensorflow",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "intel/ai-reference-models",
       "target": "intelai/models",
       "target_type": "repository"
     },
@@ -57,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-24T18:19:44.660705+00:00",
   "source_repo": "intel/ai-reference-models"
 }

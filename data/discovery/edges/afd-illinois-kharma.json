@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFD-Illinois/kharma",
+      "target": "afd-illinois/iharm3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFD-Illinois/kharma",
+      "target": "kokkos/kokkos-kernels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/kharma",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/kharma",
+      "target": "grmhd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/kharma",
+      "target": "kokkos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/kharma",
+      "target": "openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/kharma",
+      "target": "sycl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T18:19:44.660705+00:00",
+  "source_repo": "AFD-Illinois/kharma"
+}

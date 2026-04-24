@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "Check Online Document Building"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/docs",
+      "status": "candidate-context",
+      "text": "This repo contains documents of the OPEA project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/docs",
+      "status": "candidate-context",
+      "text": "Check Online Document Building"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIComps",
+      "status": "candidate-context",
+      "text": "GenAI components at micro-service level; GenAI service composer to create mega-service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIComps",
+      "status": "candidate-context",
+      "text": "Check Online Document Building"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate-context",
+      "text": "Evaluation, benchmark, and scorecard, targeting for performance on throughput and latency, accuracy on popular evaluation harness, safety, and hallucination"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate-context",
+      "text": "Check Online Document Building"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "Containerization and cloud native suite for OPEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "Check Online Document Building"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/docs",
+      "status": "candidate",
+      "text": "Check Online Document Building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIComps",
+      "status": "candidate",
+      "text": "Check Online Document Building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate",
+      "text": "Check Online Document Building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate",
+      "text": "Check Online Document Building"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33487,
+      "status": "candidate",
+      "text": "forgery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33412,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28826,
+      "status": "candidate",
+      "text": "bridled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28826,
+      "status": "candidate",
+      "text": "locate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28789,
+      "status": "candidate",
+      "text": "rule"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Online Document Building",
+  "concept_id": "check-online-document-building",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIComps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIEval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIInfra"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Online Document Building",
+      "sense_id": "check-online-document-building#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "django-rest-framework"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate-context",
+      "text": "Video monitoring system with AI analysis and ERP Integration (Open Source) that helps companies improve productivity, eliminate waste, and enhance workplace safety using computer vision and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "django-rest-framework",
+  "concept_id": "django-rest-framework",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-backend"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "django-rest-framework",
+      "sense_id": "django-rest-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

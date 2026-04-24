@@ -1,0 +1,656 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allowlist-approval.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allowlist-approval.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allowlist-approval.yaml"
+    },
+    {
+      "component": "atlanhq/application-sdk/.github/workflows/auto-fix-vulnerabilities.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-keeper.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-keeper.yml"
+    },
+    {
+      "component": "atlanhq/application-sdk/.github/workflows/build-and-publish-app.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "atlanhq/application-sdk/.github/workflows/build-and-scan.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml"
+    },
+    {
+      "component": "atlanhq/application-sdk/.github/workflows/build-and-scan.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "snyk/actions/setup@b98d498629f1c368650224d6d212bf7dfa89e4bf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml"
+    },
+    {
+      "component": "atlanhq/application-sdk/.github/workflows/build-apps-image.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@ce64ddcb0d8d890d2df4a9d1c04ff297367dea2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "atlanhq/atlan-sample-apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allowlist-approval.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allowlist-approval.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allowlist-approval.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "Allowlist Approval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "atlanhq/application-sdk/.github/workflows/auto-fix-vulnerabilities.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "Auto-fix Vulnerabilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-keeper.yml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-keeper.yml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-keeper.yml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "Keep auto-maintained PRs up-to-date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "atlanhq/application-sdk/.github/workflows/build-and-publish-app.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "atlanhq/application-sdk/.github/workflows/build-and-scan.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "Build & Publish Atlan App",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "atlanhq/application-sdk/.github/workflows/build-and-scan.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "snyk/actions/setup@b98d498629f1c368650224d6d212bf7dfa89e4bf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "Build & Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "atlanhq/application-sdk/.github/workflows/build-apps-image.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "github/codeql-action/upload-sarif@ce64ddcb0d8d890d2df4a9d1c04ff297367dea2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk",
+      "target": "Build Atlan App Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlanhq/application-sdk",
+      "target": "atlan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:24:38.468893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3510
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1682
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8068
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7232
+    },
+    {
+      "path": ".github/workflows/allowlist-approval.yaml",
+      "size": 4720
+    },
+    {
+      "path": ".github/workflows/auto-fix-vulnerabilities.yaml",
+      "size": 14400
+    },
+    {
+      "path": ".github/workflows/branch-keeper.yml",
+      "size": 3845
+    },
+    {
+      "path": ".github/workflows/build-and-publish-app.yaml",
+      "size": 17570
+    },
+    {
+      "path": ".github/workflows/build-and-scan.yaml",
+      "size": 11012
+    },
+    {
+      "path": ".github/workflows/build-apps-image.yaml",
+      "size": 16459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Application SDK is a python library to build resilient applications on the Atlan platform",
+    "fork": false,
+    "full_name": "atlanhq/application-sdk",
+    "html_url": "https://github.com/atlanhq/application-sdk",
+    "language": "Python",
+    "pushed_at": "2026-04-24T18:19:38Z",
+    "stargazers_count": 24,
+    "topics": [
+      "atlan",
+      "python",
+      "sdk"
+    ],
+    "updated_at": "2026-04-24T18:03:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atlanhq/atlan-sample-apps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Allowlist Approval",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allowlist-approval.yaml",
+      "term": "Allowlist Approval"
+    },
+    {
+      "context_snippet": "Auto-fix Vulnerabilities",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-fix-vulnerabilities.yaml",
+      "term": "Auto-fix Vulnerabilities"
+    },
+    {
+      "context_snippet": "Keep auto-maintained PRs up-to-date",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-keeper.yml",
+      "term": "Keep auto-maintained PRs up-to-date"
+    },
+    {
+      "context_snippet": "Build & Publish Atlan App",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "term": "Build & Publish Atlan App"
+    },
+    {
+      "context_snippet": "Build & Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "term": "Build & Scan"
+    },
+    {
+      "context_snippet": "Build Atlan App Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "term": "Build Atlan App Image"
+    },
+    {
+      "context_snippet": "[![On-Push Checks](https://github.com/atlanhq/application-sdk/actions/workflows/push.yaml/badge.svg)](https://github.com/atlanhq/application-sdk/actions/workflows/push.yaml) [![CodeQL Advanced](https://github.com/atlanhq/application-sdk/actions/workflows/codeql.yaml/badge.svg)](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atlan"
+    }
+  ]
+}

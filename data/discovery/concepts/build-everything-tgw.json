@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Everything TGW"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oobabooga/textgen",
+      "status": "candidate-context",
+      "text": "The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oobabooga/textgen",
+      "status": "candidate-context",
+      "text": "Build Everything TGW"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oobabooga/textgen",
+      "status": "candidate",
+      "text": "Build Everything TGW"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "engineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "lot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "lots"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Everything TGW",
+  "concept_id": "build-everything-tgw",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/build-everything-tgw.yml",
+      "source_repo": "oobabooga/textgen"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Everything TGW",
+      "sense_id": "build-everything-tgw#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

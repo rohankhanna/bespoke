@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Check Paths and Hyperlinks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/docs",
+      "status": "candidate-context",
+      "text": "This repo contains documents of the OPEA project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/docs",
+      "status": "candidate-context",
+      "text": "Check Paths and Hyperlinks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate-context",
+      "text": "Evaluation, benchmark, and scorecard, targeting for performance on throughput and latency, accuracy on popular evaluation harness, safety, and hallucination"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate-context",
+      "text": "Check Paths and Hyperlinks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/docs",
+      "status": "candidate",
+      "text": "Check Paths and Hyperlinks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate",
+      "text": "Check Paths and Hyperlinks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23243,
+      "status": "candidate",
+      "text": "navigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15896,
+      "status": "candidate",
+      "text": "breadcrumbs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "clicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14428,
+      "status": "candidate",
+      "text": "ogle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14307,
+      "status": "candidate",
+      "text": "lie"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Paths and Hyperlinks",
+  "concept_id": "check-paths-and-hyperlinks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/pr-path-detection.yml",
+      "source_repo": "opea-project/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/pr-path-detection.yml",
+      "source_repo": "opea-project/GenAIEval"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Paths and Hyperlinks",
+      "sense_id": "check-paths-and-hyperlinks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

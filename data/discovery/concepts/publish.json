@@ -1288,6 +1288,42 @@
       "source_repo": "johan-v-r/LibSassBuilder",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "Rust task runner and build tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-tensorflow",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Extension for TensorFlow*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-tensorflow",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "JavaScript version of GPAC's MP4Box tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -1930,6 +1966,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "johan-v-r/LibSassBuilder",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-tensorflow",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
       "status": "candidate",
       "text": "Publish"
     }
@@ -2887,11 +2941,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "intel/intel-extension-for-tensorflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gpac/mp4box.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

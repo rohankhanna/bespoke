@@ -1,0 +1,12 @@
+{
+  "component": "intel/ai-containers/.github@ca57eed69acdb7540f447e5bcd787d8e743b3637",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-ci.yaml",
+      "source_repo": "intel/ai-containers"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -437,6 +437,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pcons.yaml",
       "source_repo": "pantoniou/libfyaml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "turboderp-org/exllamav3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml",
+      "source_repo": "turboderp-org/exllamav3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "source_repo": "turboderp-org/exllamav3"
     }
   ]
 }

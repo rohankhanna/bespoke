@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build CPU and macOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build CPU and macOS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11290,
+      "status": "candidate",
+      "text": "netbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11290,
+      "status": "candidate",
+      "text": "superscalar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11169,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11049,
+      "status": "candidate",
+      "text": "bus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11049,
+      "status": "candidate",
+      "text": "peripheral"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build CPU and macOS",
+      "sense_id": "build-cpu-and-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-cpu-and-macos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-cpu-and-macos",
+  "observation_id": "4f90c1e2bf94b6de",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "Build CPU and macOS",
+  "source_context_snippet": "Build CPU and macOS",
+  "source_file": ".github/workflows/build-portable-release.yml",
+  "source_repo": "oobabooga/textgen",
+  "source_repo_description": "The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private."
+}

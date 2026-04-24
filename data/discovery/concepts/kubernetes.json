@@ -1330,6 +1330,30 @@
       "source_repo": "teticio/deej-ai.online-app",
       "status": "candidate-context",
       "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate-context",
+      "text": ":gorilla: Kong for Kubernetes: The official Ingress Controller for Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate-context",
+      "text": "[![kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate-context",
+      "text": "This repository contains Dockerfiles, scripts, yaml files, Helm charts, etc. used to scale out AI containers with versions of TensorFlow and PyTorch that have been optimized for Intel platforms. Scaling is done with python, Docker, kubernetes, kubeflow, cnvrg.io, Helm, and other container orchestration frameworks for use in the cloud and on-premise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8270/badge)](https://www.bestpractices.dev/projects/8270)"
     }
   ],
   "candidate_glosses": [
@@ -1992,6 +2016,18 @@
       "source_repo": "teticio/deej-ai.online-app",
       "status": "candidate",
       "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate",
+      "text": "[![kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8270/badge)](https://www.bestpractices.dev/projects/8270)"
     }
   ],
   "candidate_related_terms": [
@@ -2815,11 +2851,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-containers"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

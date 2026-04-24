@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Experimental Features"
+    "Experimental Features",
+    "experimental-features"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "libgit2/libgit2",
       "status": "candidate-context",
       "text": "Experimental Features"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "FFmpeg for browser, powered by WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "libgit2/libgit2",
       "status": "candidate",
       "text": "Experimental Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/experimental.yml",
       "source_repo": "libgit2/libgit2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "ffmpegwasm/ffmpeg.wasm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

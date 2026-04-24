@@ -226,6 +226,18 @@
       "source_repo": "gchq/gaffer-docker",
       "status": "candidate-context",
       "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate-context",
+      "text": "This repository contains Dockerfiles, scripts, yaml files, Helm charts, etc. used to scale out AI containers with versions of TensorFlow and PyTorch that have been optimized for Intel platforms. Scaling is done with python, Docker, kubernetes, kubeflow, cnvrg.io, Helm, and other container orchestration frameworks for use in the cloud and on-premise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8270/badge)](https://www.bestpractices.dev/projects/8270)"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +348,12 @@
       "source_repo": "gchq/gaffer-docker",
       "status": "candidate",
       "text": "**This project has been archived and is no longer under active maintenance. Should you have any questions or require further information, please do not hesitate to reach out to us at the following email address.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8270/badge)](https://www.bestpractices.dev/projects/8270)"
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +517,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-containers"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

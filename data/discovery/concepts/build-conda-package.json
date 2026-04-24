@@ -163,6 +163,18 @@
       "source_repo": "conda-forge/python-zlib-ng-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/pgvector-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for pgvector."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/pgvector-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -241,6 +253,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/python-zlib-ng-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/pgvector-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -364,11 +382,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/python-zlib-ng-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/pgvector-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

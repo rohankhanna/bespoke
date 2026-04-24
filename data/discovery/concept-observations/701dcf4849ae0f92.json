@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Application SDK is a python library to build resilient applications on the Atlan platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build & Publish Atlan App"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build & Publish Atlan App"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19312,
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19249,
+      "status": "candidate",
+      "text": "charter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19249,
+      "status": "candidate",
+      "text": "dismount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19249,
+      "status": "candidate",
+      "text": "dismounted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Publish Atlan App",
+      "sense_id": "build-publish-atlan-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-publish-atlan-app",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-publish-atlan-app",
+  "observation_id": "701dcf4849ae0f92",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "Build & Publish Atlan App",
+  "source_context_snippet": "Build & Publish Atlan App",
+  "source_file": ".github/workflows/build-and-publish-app.yaml",
+  "source_repo": "atlanhq/application-sdk",
+  "source_repo_description": "Application SDK is a python library to build resilient applications on the Atlan platform"
+}

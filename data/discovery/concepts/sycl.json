@@ -43,6 +43,18 @@
       "source_repo": "g-truc/glm",
       "status": "candidate-context",
       "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AFD-Illinois/kharma",
+      "status": "candidate-context",
+      "text": "Kokkos-based High-Accuracy Relativistic Magnetohydrodynamics with AMR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFD-Illinois/kharma",
+      "status": "candidate-context",
+      "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "g-truc/glm",
       "status": "candidate",
       "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFD-Illinois/kharma",
+      "status": "candidate",
+      "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "g-truc/glm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/kharma"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

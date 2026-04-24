@@ -1,0 +1,37 @@
+{
+  "component": "jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_linters.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    }
+  ]
+}

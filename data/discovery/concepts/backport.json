@@ -226,6 +226,30 @@
       "source_repo": "akuity/kargo",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate-context",
+      "text": "Admin GUI for Kong Gateway (Official)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate-context",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Experiment-independent toolkit for (charged) particle track reconstruction in (high energy) physics experiments implemented in modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -334,6 +358,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "akuity/kargo",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
       "status": "candidate",
       "text": "Backport"
     }
@@ -493,11 +529,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/backport.yaml",
       "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "Kong/kong-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "acts-project/acts"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

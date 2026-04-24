@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vaapi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "status": "candidate-context",
+      "text": "Optimized media, analytics and graphics software stack images. Use the dockerfile(s) in your project or as a recipe book for bare metal installation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vaapi",
+  "concept_id": "vaapi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vaapi",
+      "sense_id": "vaapi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

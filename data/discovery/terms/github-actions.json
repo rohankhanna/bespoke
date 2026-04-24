@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -191,6 +191,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "steve-todorov/oidc-debugger-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/cargo-make"
     }
   ],
   "term": "github-actions"

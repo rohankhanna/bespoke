@@ -1,0 +1,468 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kubernetes-sigs/gateway-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kong/developer.konghq.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kong/kong-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_conformance_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "conformance tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "booxmedialtd/ws-action-parse-semver@7784200024d6b3fc01253e617ec0168daf603de3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "benjlevesque/short-sha@599815c8ee942a9616c92bcfb4f947a3b670ab0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "docker/metadata-action@c1e51972afc2121e065aed6d45c65596fe445f3f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "Kong/kong-license@c4decf08584f84ff8fe8e7cd3c463e0192f6111b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_e2e_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "Kong/kong-license@c4decf08584f84ff8fe8e7cd3c463e0192f6111b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_envtest_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "envtest tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "Kong/kong-license@c4decf08584f84ff8fe8e7cd3c463e0192f6111b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "Kong/kong-license@c4decf08584f84ff8fe8e7cd3c463e0192f6111b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kong integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_linters.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_linters.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_linters.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_linters.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_linters.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "apis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "crds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "ingress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "ingress-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kong",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kubernetes-ingress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "kubernetes-ingress-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "target": "team-k8s",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T18:19:44.660705+00:00",
+  "source_repo": "Kong/kubernetes-ingress-controller"
+}

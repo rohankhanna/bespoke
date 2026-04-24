@@ -19,12 +19,30 @@
       "source_repo": "astropy/astropy",
       "status": "candidate-context",
       "text": "Check PR milestone"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Experiment-independent toolkit for (charged) particle track reconstruction in (high energy) physics experiments implemented in modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Check PR milestone"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "astropy/astropy",
+      "status": "candidate",
+      "text": "Check PR milestone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
       "status": "candidate",
       "text": "Check PR milestone"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/check_milestone.yml",
       "source_repo": "astropy/astropy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "acts-project/acts"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

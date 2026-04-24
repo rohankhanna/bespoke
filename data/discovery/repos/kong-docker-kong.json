@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "toshimaru/auto-author-assign@2daaeb2988aef24bf37e636fe733f365c046aba0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignee.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version2_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/docker-kong",
+      "target": "kong/official-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "toshimaru/auto-author-assign@2daaeb2988aef24bf37e636fe733f365c046aba0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "Add assignee to PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version2_test.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version2_test.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "Build & Test Version 2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:21:40.543852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2391
+    },
+    {
+      "path": ".github/workflows/auto-assignee.yml",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/version2_test.yml",
+      "size": 567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":monkey: Docker distribution for Kong",
+    "fork": false,
+    "full_name": "Kong/docker-kong",
+    "html_url": "https://github.com/Kong/docker-kong",
+    "language": "Shell",
+    "pushed_at": "2025-06-05T09:07:05Z",
+    "stargazers_count": 1475,
+    "topics": [],
+    "updated_at": "2026-04-20T15:49:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kong/official-images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add assignee to PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "term": "Add assignee to PRs"
+    },
+    {
+      "context_snippet": "Build & Test Version 2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version2_test.yml",
+      "term": "Build & Test Version 2"
+    }
+  ]
+}

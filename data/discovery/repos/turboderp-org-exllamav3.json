@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "cornell-relaxml/qtip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "Jimver/cuda-toolkit@v0.2.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "Build Wheels & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "Jimver/cuda-toolkit@v0.2.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_one_torch_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "Jimver/cuda-toolkit@v0.2.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "source_repo": "turboderp-org/exllamav3",
+      "target": "Build Wheels & Release (Windows only)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:23:32.015716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10276
+    },
+    {
+      "path": "requirements.txt",
+      "size": 197
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 18454
+    },
+    {
+      "path": ".github/workflows/build_one_torch_only.yml",
+      "size": 12541
+    },
+    {
+      "path": ".github/workflows/build_windows_only.yml",
+      "size": 14714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An optimized quantization and inference library for running LLMs locally on modern consumer-class GPUs ",
+    "fork": false,
+    "full_name": "turboderp-org/exllamav3",
+    "html_url": "https://github.com/turboderp-org/exllamav3",
+    "language": "Python",
+    "pushed_at": "2026-04-24T01:00:28Z",
+    "stargazers_count": 794,
+    "topics": [],
+    "updated_at": "2026-04-24T16:11:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cornell-relaxml/qtip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Wheels & Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Wheels & Release"
+    },
+    {
+      "context_snippet": "Build Wheels & Release (Windows only)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows_only.yml",
+      "term": "Build Wheels & Release (Windows only)"
+    }
+  ]
+}

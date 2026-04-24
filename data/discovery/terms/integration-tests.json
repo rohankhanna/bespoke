@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -126,6 +126,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "tmuxinator/tmuxinator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/_integration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "intel/ai-containers"
     }
   ],
   "term": "Integration Tests"

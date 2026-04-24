@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Atlan App Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate-context",
+      "text": "Application SDK is a python library to build resilient applications on the Atlan platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate-context",
+      "text": "Build Atlan App Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate",
+      "text": "Build Atlan App Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21997,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21923,
+      "status": "candidate",
+      "text": "bug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21923,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "engineering"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Atlan App Image",
+  "concept_id": "build-atlan-app-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/build-apps-image.yaml",
+      "source_repo": "atlanhq/application-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Atlan App Image",
+      "sense_id": "build-atlan-app-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

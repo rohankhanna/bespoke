@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Containerization and cloud native suite for OPEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GMC Image Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GMC Image Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22315,
+      "status": "candidate",
+      "text": "cmos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "csd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15377,
+      "status": "candidate",
+      "text": "denali"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15318,
+      "status": "candidate",
+      "text": "corp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15318,
+      "status": "candidate",
+      "text": "envoy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GMC Image Build",
+      "sense_id": "gmc-image-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gmc-image-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gmc-image-build",
+  "observation_id": "375f33ac7062f135",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "GMC Image Build",
+  "source_context_snippet": "GMC Image Build",
+  "source_file": ".github/workflows/_gmc-image-build.yaml",
+  "source_repo": "opea-project/GenAIInfra",
+  "source_repo_description": "Containerization and cloud native suite for OPEA"
+}

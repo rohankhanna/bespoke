@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build tests in packaging images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/citus",
+      "status": "candidate-context",
+      "text": "Distributed PostgreSQL as an extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus",
+      "status": "candidate-context",
+      "text": "Build tests in packaging images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus",
+      "status": "candidate",
+      "text": "Build tests in packaging images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27405,
+      "status": "candidate",
+      "text": "gallery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27279,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27183,
+      "status": "candidate",
+      "text": "imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17637,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17637,
+      "status": "candidate",
+      "text": "medical examination"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build tests in packaging images",
+  "concept_id": "build-tests-in-packaging-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/packaging-test-pipelines.yml",
+      "source_repo": "citusdata/citus"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build tests in packaging images",
+      "sense_id": "build-tests-in-packaging-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

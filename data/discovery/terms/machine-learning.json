@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -751,6 +751,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "cgnorthcutt/confidentlearning-reproduce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "timoschick/pet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/5s-algorithms-controller"
     }
   ],
   "term": "machine-learning"

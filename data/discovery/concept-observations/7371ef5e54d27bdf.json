@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Evaluation, benchmark, and scorecard, targeting for performance on throughput and latency, accuracy on popular evaluation harness, safety, and hallucination"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Model Test on HPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Model Test on HPU"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28020,
+      "status": "candidate",
+      "text": "prototype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28020,
+      "status": "candidate",
+      "text": "prototyped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28020,
+      "status": "candidate",
+      "text": "prototyping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Model Test on HPU",
+      "sense_id": "model-test-on-hpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "model-test-on-hpu",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "model-test-on-hpu",
+  "observation_id": "7371ef5e54d27bdf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "Model Test on HPU",
+  "source_context_snippet": "Model Test on HPU",
+  "source_file": ".github/workflows/model_test_hpu.yml",
+  "source_repo": "opea-project/GenAIEval",
+  "source_repo_description": "Evaluation, benchmark, and scorecard, targeting for performance on throughput and latency, accuracy on popular evaluation harness, safety, and hallucination"
+}

@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-docker.yml",
       "source_repo": "linkchecker/linkchecker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-enterprise.yaml",
+      "source_repo": "Kong/deck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Kong/deck"
     }
   ]
 }

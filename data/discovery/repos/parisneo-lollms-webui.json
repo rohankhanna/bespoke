@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "vue-draggable-resizable",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ParisNeo/lollms-webui",
+      "target": "parisneo/lollms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ParisNeo/lollms-webui",
+      "target": "vue-draggable-resizable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParisNeo/lollms-webui",
+      "target": "text-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:23:25.654378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15889
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1060
+    },
+    {
+      "path": "package.json",
+      "size": 68
+    },
+    {
+      "path": "requirements.txt",
+      "size": 487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lord of Large Language and Multi modal Systems Web User Interface",
+    "fork": false,
+    "full_name": "ParisNeo/lollms-webui",
+    "html_url": "https://github.com/ParisNeo/lollms-webui",
+    "language": "Python",
+    "pushed_at": "2026-04-23T23:58:49Z",
+    "stargazers_count": 4782,
+    "topics": [
+      "ai",
+      "llm",
+      "text-generation"
+    ],
+    "updated_at": "2026-04-23T23:57:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parisneo/lollms",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A new lollms project can be found at: https://github.com/ParisNeo/lollms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    }
+  ]
+}

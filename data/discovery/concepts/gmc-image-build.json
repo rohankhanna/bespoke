@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GMC Image Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "Containerization and cloud native suite for OPEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "GMC Image Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate",
+      "text": "GMC Image Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22315,
+      "status": "candidate",
+      "text": "cmos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "csd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15377,
+      "status": "candidate",
+      "text": "denali"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15318,
+      "status": "candidate",
+      "text": "corp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15318,
+      "status": "candidate",
+      "text": "envoy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GMC Image Build",
+  "concept_id": "gmc-image-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/_gmc-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GMC Image Build",
+      "sense_id": "gmc-image-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

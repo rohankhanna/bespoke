@@ -124,6 +124,18 @@
       "source_repo": "CharlieFRuan/harbor",
       "status": "candidate-context",
       "text": "Ruff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theroyallab/tabbyAPI",
+      "status": "candidate-context",
+      "text": "The official API server for Exllama. OAI compatible, lightweight, and fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theroyallab/tabbyAPI",
+      "status": "candidate-context",
+      "text": "ruff"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +198,12 @@
       "source_repo": "CharlieFRuan/harbor",
       "status": "candidate",
       "text": "Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theroyallab/tabbyAPI",
+      "status": "candidate",
+      "text": "ruff"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +373,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "theroyallab/tabbyAPI"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

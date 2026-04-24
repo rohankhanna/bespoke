@@ -1,0 +1,406 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml"
+    },
+    {
+      "component": "opea-project/validation/actions/check-cmd@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_cpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_cpu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml"
+    },
+    {
+      "component": "opea-project/validation/actions/check-cmd@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-detection.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-detection.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "hkunlp/ds-1000",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "locustio/locust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "Check Online Document Building",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "opea-project/validation/actions/check-cmd@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "Code Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "Check stale issue and pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_cpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_cpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_cpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_test_cpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "Model Test on CPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "opea-project/validation/actions/check-cmd@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "Model Test on HPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-detection.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-path-detection.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "Check Paths and Hyperlinks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "opea-project/GenAIEval",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:22:42.017523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6736
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2717
+    },
+    {
+      "path": "requirements.txt",
+      "size": 323
+    },
+    {
+      "path": ".github/workflows/check-online-doc-build.yml",
+      "size": 632
+    },
+    {
+      "path": ".github/workflows/code_scan.yml",
+      "size": 2181
+    },
+    {
+      "path": ".github/workflows/daily_check_issue_and_pr.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/model_test_cpu.yml",
+      "size": 4335
+    },
+    {
+      "path": ".github/workflows/model_test_hpu.yml",
+      "size": 4437
+    },
+    {
+      "path": ".github/workflows/pr-path-detection.yml",
+      "size": 5519
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 3501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluation, benchmark, and scorecard, targeting for performance on throughput and latency, accuracy on popular evaluation harness, safety, and hallucination",
+    "fork": false,
+    "full_name": "opea-project/GenAIEval",
+    "html_url": "https://github.com/opea-project/GenAIEval",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-06T22:45:00Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-03-23T15:40:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkunlp/ds-1000",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "locustio/locust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Online Document Building",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "term": "Check Online Document Building"
+    },
+    {
+      "context_snippet": "Code Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scan.yml",
+      "term": "Code Scan"
+    },
+    {
+      "context_snippet": "Check stale issue and pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml",
+      "term": "Check stale issue and pr"
+    },
+    {
+      "context_snippet": "Model Test on CPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_test_cpu.yml",
+      "term": "Model Test on CPU"
+    },
+    {
+      "context_snippet": "Model Test on HPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "term": "Model Test on HPU"
+    },
+    {
+      "context_snippet": "Check Paths and Hyperlinks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-path-detection.yml",
+      "term": "Check Paths and Hyperlinks"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    }
+  ]
+}

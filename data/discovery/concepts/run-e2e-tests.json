@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run E2E tests"
+    "Run E2E tests",
+    "Run E2E Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "argoproj-labs/argo-rollouts-manager",
       "status": "candidate-context",
       "text": "Run E2E tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate-context",
+      "text": "Admin GUI for Kong Gateway (Official)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate-context",
+      "text": "Run E2E Tests"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "argoproj-labs/argo-rollouts-manager",
       "status": "candidate",
       "text": "Run E2E tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate",
+      "text": "Run E2E Tests"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/e2e_tests.yml",
       "source_repo": "argoproj-labs/argo-rollouts-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/.reusable_e2e_tests.yml",
+      "source_repo": "Kong/kong-manager"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -133,13 +133,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "aaif-goose/goose",
-      "target": "agentclientprotocol/symposium-acp",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autoclose",
       "source_repo": "aaif-goose/goose",
@@ -322,7 +315,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:44:54.282457+00:00",
+  "fetched_at": "2026-04-24T18:24:06.011408+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -374,23 +367,17 @@
     "full_name": "aaif-goose/goose",
     "html_url": "https://github.com/aaif-goose/goose",
     "language": "Rust",
-    "pushed_at": "2026-04-23T03:29:04Z",
-    "stargazers_count": 43052,
+    "pushed_at": "2026-04-24T18:00:26Z",
+    "stargazers_count": 43154,
     "topics": [
       "acp",
       "ai",
       "ai-agents",
       "mcp"
     ],
-    "updated_at": "2026-04-23T04:34:20Z"
+    "updated_at": "2026-04-24T18:16:57Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "agentclientprotocol/symposium-acp",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Close inactive issues",

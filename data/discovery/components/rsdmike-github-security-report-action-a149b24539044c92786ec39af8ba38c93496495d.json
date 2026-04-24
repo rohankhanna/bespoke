@@ -1,0 +1,12 @@
+{
+  "component": "rsdmike/github-security-report-action@a149b24539044c92786ec39af8ba38c93496495d",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-report.yaml",
+      "source_repo": "intel/ai-containers"
+    }
+  ]
+}

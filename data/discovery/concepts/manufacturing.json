@@ -19,6 +19,42 @@
       "source_repo": "5sControl/machine-control",
       "status": "candidate-context",
       "text": "Machine control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "Controller for the 5sControl algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate-context",
+      "text": "Video monitoring system with AI analysis and ERP Integration (Open Source) that helps companies improve productivity, eliminate waste, and enhance workplace safety using computer vision and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate-context",
+      "text": "Frontend for 5sControl platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "5sControl/machine-control",
       "status": "candidate",
       "text": "Machine control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +145,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "5sControl/machine-control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-algorithms-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-frontend"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

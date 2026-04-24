@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/model_test_cpu.yml",
+      "source_repo": "opea-project/GenAIEval"
+    }
+  ],
+  "term": "Model Test on CPU"
+}

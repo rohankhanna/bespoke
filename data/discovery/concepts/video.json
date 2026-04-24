@@ -175,6 +175,18 @@
       "source_repo": "OpenGVLab/Ask-Anything",
       "status": "candidate-context",
       "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "FFmpeg for browser, powered by WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "OpenGVLab/Ask-Anything",
       "status": "candidate",
       "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -415,11 +433,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "OpenGVLab/Ask-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "ffmpegwasm/ffmpeg.wasm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

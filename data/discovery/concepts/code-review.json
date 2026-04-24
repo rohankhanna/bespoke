@@ -70,6 +70,18 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate-context",
       "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Apollo MCP Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Code Review"
     }
   ],
   "candidate_glosses": [
@@ -96,6 +108,12 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate",
       "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate",
+      "text": "Code Review"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +193,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "crev-dev/pip-crev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "apollographql/apollo-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

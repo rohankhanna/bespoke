@@ -1,7 +1,7 @@
 {
   "component": "marocchino/sticky-pull-request-comment@773744901bac0e8cbb5a0dc842800d45e9b2b405",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-to-whats-new.yml",
       "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "intel/ai-containers"
     }
   ]
 }

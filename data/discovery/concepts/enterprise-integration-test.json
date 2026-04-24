@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Enterprise Integration Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/deck",
+      "status": "candidate-context",
+      "text": "decK: Configuration management and drift detection for Kong"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/deck",
+      "status": "candidate-context",
+      "text": "Enterprise Integration Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/deck",
+      "status": "candidate",
+      "text": "Enterprise Integration Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34472,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26257,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18346,
+      "status": "candidate",
+      "text": "merger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18346,
+      "status": "candidate",
+      "text": "reintegrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18328,
+      "status": "candidate",
+      "text": "adventuring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Enterprise Integration Test",
+  "concept_id": "enterprise-integration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/integration-enterprise.yaml",
+      "source_repo": "Kong/deck"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enterprise Integration Test",
+      "sense_id": "enterprise-integration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

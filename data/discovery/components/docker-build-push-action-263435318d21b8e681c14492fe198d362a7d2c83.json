@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "python-semantic-release/python-semantic-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
     }
   ]
 }

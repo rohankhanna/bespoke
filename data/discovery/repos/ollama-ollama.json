@@ -251,6 +251,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
+      "target": "aws-samples/swift-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ollama/ollama",
       "target": "augustdev/enchanted",
       "target_type": "repository"
     },
@@ -258,21 +265,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "agents-flex/agents-flex",
+      "target": "bernardo-bruning/ollama-copilot",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "appflowy-io/appflowy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "av/harbor",
+      "target": "awaescher/ollamasharp",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:07:25.137799+00:00",
+  "fetched_at": "2026-04-24T18:21:24.931854+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-04-23T21:10:13Z",
-    "stargazers_count": 169803,
+    "pushed_at": "2026-04-24T14:18:12Z",
+    "stargazers_count": 169895,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,19 +608,9 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-04-23T21:56:41Z"
+    "updated_at": "2026-04-24T17:47:50Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "agents-flex/agents-flex",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "appflowy-io/appflowy",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "augustdev/enchanted",
@@ -628,7 +618,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "av/harbor",
+      "full_name": "awaescher/ollamasharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/swift-chat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bernardo-bruning/ollama-copilot",
       "source_file": "README.md"
     }
   ],

@@ -12,25 +12,25 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clayrisser/sphinx-markdown-parser",
-      "target": "python-markdown/markdown",
+      "target": "rtfd/recommonmark",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clayrisser/sphinx-markdown-parser",
-      "target": "readthedocs/commonmark.py",
+      "target": "rtfd/commonmark-py",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clayrisser/sphinx-markdown-parser",
-      "target": "pyga/parsley",
+      "target": "sgenoud/remarkdown",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T07:07:42.712019+00:00",
+  "fetched_at": "2026-04-24T18:20:05.332709+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -67,17 +67,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pyga/parsley",
+      "full_name": "rtfd/commonmark-py",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "python-markdown/markdown",
+      "full_name": "rtfd/recommonmark",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "readthedocs/commonmark.py",
+      "full_name": "sgenoud/remarkdown",
       "source_file": "README.md"
     }
   ],

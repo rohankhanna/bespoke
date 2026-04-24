@@ -128,13 +128,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "AutoGPTQ/AutoGPTQ",
-      "target": "turboderp/exllama",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AutoGPTQ/AutoGPTQ",
       "target": "turboderp/exllamav2",
       "target_type": "repository"
     },
@@ -363,7 +356,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:08:42.044575+00:00",
+  "fetched_at": "2026-04-24T18:21:31.710855+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -426,11 +419,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "panqiwei/autogptq",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "turboderp/exllama",
       "source_file": "README.md"
     },
     {

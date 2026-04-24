@@ -7415,6 +7415,42 @@
       "source_repo": "auth0/node-jws",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/deck",
+      "status": "candidate-context",
+      "text": "decK: Configuration management and drift detection for Kong"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/deck",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "JavaScript version of GPAC's MP4Box tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyper-mcp-rs/hyper-mcp",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ufe0f A fast, secure MCP server that extends its capabilities through WebAssembly plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/hyper-mcp",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -11153,6 +11189,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "auth0/node-jws",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/deck",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/hyper-mcp",
       "status": "candidate",
       "text": "Release"
     }
@@ -16189,11 +16243,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Kong/deck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gpac/mp4box.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hyper-mcp-rs/hyper-mcp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "image-build"
+    "image-build",
+    "Image Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "redhat-et/triton-dev-containers",
       "status": "candidate-context",
       "text": "image-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIComps",
+      "status": "candidate-context",
+      "text": "GenAI components at micro-service level; GenAI service composer to create mega-service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIComps",
+      "status": "candidate-context",
+      "text": "Image Build"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "redhat-et/triton-dev-containers",
       "status": "candidate",
       "text": "image-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIComps",
+      "status": "candidate",
+      "text": "Image Build"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "developing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "image-build",
   "concept_id": "image-build",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/image-build.yml",
       "source_repo": "redhat-et/triton-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/_run-docker-compose.yml",
+      "source_repo": "opea-project/GenAIComps"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

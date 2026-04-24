@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "howler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate-context",
+      "text": "Javascript audio library for the modern web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate-context",
+      "text": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate",
+      "text": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39806713,
+      "status": "candidate",
+      "text": "howler monkey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39613126,
+      "status": "candidate",
+      "text": "scream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39578779,
+      "status": "candidate",
+      "text": "riot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39573615,
+      "status": "candidate",
+      "text": "thigh-slapper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39572668,
+      "status": "candidate",
+      "text": "belly laugh"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18042,
+      "status": "candidate",
+      "text": "scream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10023,
+      "status": "candidate",
+      "text": "belly laugh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7051,
+      "status": "candidate",
+      "text": "riot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6042,
+      "status": "candidate",
+      "text": "wow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3014,
+      "status": "candidate",
+      "text": "thigh-slapper"
+    }
+  ],
+  "canonical_name": "howler",
+  "concept_id": "howler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "howler",
+      "sense_id": "howler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

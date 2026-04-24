@@ -513,6 +513,18 @@
       "source_repo": "prestodb/presto",
       "status": "candidate-context",
       "text": "Dependency Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate-context",
+      "text": "This repository contains Dockerfiles, scripts, yaml files, Helm charts, etc. used to scale out AI containers with versions of TensorFlow and PyTorch that have been optimized for Intel platforms. Scaling is done with python, Docker, kubernetes, kubeflow, cnvrg.io, Helm, and other container orchestration frameworks for use in the cloud and on-premise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_glosses": [
@@ -767,6 +779,12 @@
       "source_repo": "prestodb/presto",
       "status": "candidate",
       "text": "Dependency Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ai-containers",
+      "status": "candidate",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_related_terms": [
@@ -1104,11 +1122,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/dependency-review.yaml",
+      "source_repo": "intel/ai-containers"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

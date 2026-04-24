@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate-context",
+      "text": "Application SDK is a python library to build resilient applications on the Atlan platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate-context",
+      "text": "Build & Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate",
+      "text": "Build & Scan"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "analyse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "analyze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "browse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "mri"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Scan",
+  "concept_id": "build-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/build-and-scan.yaml",
+      "source_repo": "atlanhq/application-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Scan",
+      "sense_id": "build-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

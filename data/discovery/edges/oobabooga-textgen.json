@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oobabooga/textgen",
+      "target": "oobabooga/screenshots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oobabooga/textgen",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oobabooga/textgen",
+      "target": "ikawrakow/ik_llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oobabooga/textgen",
+      "target": "atinoda/text-generation-webui-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-everything-tgw.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "Build Everything TGW",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-portable-release-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "Build CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-portable-release-ik-cuda.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "Build ik CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-portable-release-ik.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "Build ik CPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-rocm.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-rocm.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-rocm.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-portable-release-rocm.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "Build ROCm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-vulkan.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-vulkan.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-vulkan.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-portable-release-vulkan.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "Build Vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-portable-release.yml",
+      "source_repo": "oobabooga/textgen",
+      "target": "Build CPU and macOS",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T18:19:44.660705+00:00",
+  "source_repo": "oobabooga/textgen"
+}

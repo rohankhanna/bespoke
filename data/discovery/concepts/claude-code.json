@@ -1126,6 +1126,18 @@
       "source_repo": "SemiAnalysisAI/InferenceX",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Apollo MCP Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -1678,6 +1690,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
       "status": "candidate",
       "text": "Claude Code"
     }
@@ -2809,11 +2827,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "apollographql/apollo-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

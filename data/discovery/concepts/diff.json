@@ -106,6 +106,18 @@
       "source_repo": "sindrets/diffview.nvim",
       "status": "candidate-context",
       "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/deck",
+      "status": "candidate-context",
+      "text": "decK: Configuration management and drift detection for Kong"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/deck",
+      "status": "candidate-context",
+      "text": "decK provides declarative configuration and drift detection for Kong."
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "sindrets/diffview.nvim",
       "status": "candidate",
       "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/deck",
+      "status": "candidate",
+      "text": "decK provides declarative configuration and drift detection for Kong."
     }
   ],
   "candidate_related_terms": [
@@ -253,11 +271,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "sindrets/diffview.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "Kong/deck"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

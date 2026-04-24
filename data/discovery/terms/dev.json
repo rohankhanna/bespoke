@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -81,6 +81,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "gulpjs/glob-parent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "5sControl/5s-algorithms-controller"
     }
   ],
   "term": "Dev"

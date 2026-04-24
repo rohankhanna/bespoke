@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Frontend for 5sControl platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DEVELOPMENT build and deploy front"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DEVELOPMENT build and deploy front"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32283,
+      "status": "candidate",
+      "text": "embattle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32011,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31917,
+      "status": "candidate",
+      "text": "advance guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31917,
+      "status": "candidate",
+      "text": "applied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31917,
+      "status": "candidate",
+      "text": "applying"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DEVELOPMENT build and deploy front",
+      "sense_id": "development-build-and-deploy-front#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "development-build-and-deploy-front",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "development-build-and-deploy-front",
+  "observation_id": "77f8ebdb368c58a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "DEVELOPMENT build and deploy front",
+  "source_context_snippet": "DEVELOPMENT build and deploy front",
+  "source_file": ".github/workflows/dev.yml",
+  "source_repo": "5sControl/5s-frontend",
+  "source_repo_description": "Frontend for 5sControl platform"
+}

@@ -48,7 +48,7 @@
   "normalized_form": "protobuf",
   "observation_id": "da1ccf711a0bac1f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
   "observed_text": "protobuf",
   "source_context_snippet": "protobuf",
   "source_file": ".github/workflows/protobuf.yaml",

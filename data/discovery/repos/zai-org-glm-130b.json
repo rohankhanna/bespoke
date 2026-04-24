@@ -12,6 +12,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/GLM-130B",
+      "target": "thudm/swissarmytransformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-130B",
       "target": "thudm/chatglm2-6b",
       "target_type": "repository"
     },
@@ -21,16 +28,9 @@
       "source_repo": "zai-org/GLM-130B",
       "target": "thudm/chatglm-6b",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/GLM-130B",
-      "target": "thudm/multilingual-glm",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T07:52:26.787194+00:00",
+  "fetched_at": "2026-04-24T18:22:02.091882+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -73,7 +73,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "thudm/multilingual-glm",
+      "full_name": "thudm/swissarmytransformer",
       "source_file": "README.md"
     }
   ],

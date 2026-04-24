@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/docker-kong",
+      "target": "kong/official-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "toshimaru/auto-author-assign@2daaeb2988aef24bf37e636fe733f365c046aba0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "Add assignee to PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version2_test.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version2_test.yml",
+      "source_repo": "Kong/docker-kong",
+      "target": "Build & Test Version 2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T18:19:44.660705+00:00",
+  "source_repo": "Kong/docker-kong"
+}

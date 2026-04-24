@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "decK: Configuration management and drift detection for Kong"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "decK provides declarative configuration and drift detection for Kong."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "decK provides declarative configuration and drift detection for Kong."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045820,
+      "status": "candidate",
+      "text": "declaratory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044497,
+      "status": "candidate",
+      "text": "indicative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041315,
+      "status": "candidate",
+      "text": "asserting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037332,
+      "status": "candidate",
+      "text": "indicative mood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046073,
+      "status": "candidate",
+      "text": "common mood"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "declarative",
+      "sense_id": "declarative#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8034,
+      "status": "candidate",
+      "text": "indicative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7018,
+      "status": "candidate",
+      "text": "asserting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3026,
+      "status": "candidate",
+      "text": "declaratory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2013,
+      "status": "candidate",
+      "text": "indicative mood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "declarative mood"
+    }
+  ],
+  "concept_id": "declarative",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "declarative",
+  "observation_id": "4afb7a14692957d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "declarative",
+  "source_context_snippet": "decK provides declarative configuration and drift detection for Kong.",
+  "source_file": null,
+  "source_repo": "Kong/deck",
+  "source_repo_description": "decK: Configuration management and drift detection for Kong"
+}

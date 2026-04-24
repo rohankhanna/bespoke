@@ -796,6 +796,18 @@
       "source_repo": "swagger-autogen/swagger-autogen",
       "status": "candidate-context",
       "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-dev-documentation",
+      "status": "candidate-context",
+      "text": "Documentation for developers for 5controlS platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-dev-documentation",
+      "status": "candidate-context",
+      "text": "<br><br>"
     }
   ],
   "candidate_glosses": [
@@ -1200,6 +1212,12 @@
       "source_repo": "swagger-autogen/swagger-autogen",
       "status": "candidate",
       "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-dev-documentation",
+      "status": "candidate",
+      "text": "<br><br>"
     }
   ],
   "candidate_related_terms": [
@@ -1746,11 +1764,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-dev-documentation"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

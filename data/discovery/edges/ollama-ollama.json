@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
+      "target": "aws-samples/swift-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ollama/ollama",
       "target": "augustdev/enchanted",
       "target_type": "repository"
     },
@@ -11,21 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "agents-flex/agents-flex",
+      "target": "bernardo-bruning/ollama-copilot",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "appflowy-io/appflowy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "av/harbor",
+      "target": "awaescher/ollamasharp",
       "target_type": "repository"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T18:19:44.660705+00:00",
   "source_repo": "ollama/ollama"
 }

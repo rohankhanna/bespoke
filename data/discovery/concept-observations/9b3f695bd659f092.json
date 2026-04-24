@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0\uff1b\u57fa\u4e8e WebAV \u5b9e\u73b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957385,
+      "status": "candidate",
+      "text": "registrar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924262,
+      "status": "candidate",
+      "text": "vertical flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018842,
+      "status": "candidate",
+      "text": "fipple flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018842,
+      "status": "candidate",
+      "text": "fipple pipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018842,
+      "status": "candidate",
+      "text": "record-keeper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recorder",
+      "sense_id": "recorder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7054,
+      "status": "candidate",
+      "text": "registrar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "fipple flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "vertical flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "record-keeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "recording equipment"
+    }
+  ],
+  "concept_id": "recorder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recorder",
+  "observation_id": "9b3f695bd659f092",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "recorder",
+  "source_context_snippet": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0",
+  "source_file": null,
+  "source_repo": "hughfenghen/bloom-shadow",
+  "source_repo_description": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0\uff1b\u57fa\u4e8e WebAV \u5b9e\u73b0"
+}

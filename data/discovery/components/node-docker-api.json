@@ -1,0 +1,12 @@
+{
+  "component": "node-docker-api",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "5sControl/5s-algorithms-controller"
+    }
+  ]
+}

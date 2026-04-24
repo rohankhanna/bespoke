@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/list-services.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/normalize-disco.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/normalize-disco.yml"
+    },
+    {
+      "component": "googleapis/code-suggester@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/normalize-disco.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-disco.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-disco.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "googleapis/google-api-dotnet-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "googleapis/google-api-go-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "googleapis/google-api-nodejs-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "googleapis/google-api-php-client-services",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/list-services.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/list-services.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "List discovery services",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/normalize-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/normalize-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/normalize-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "googleapis/code-suggester@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/normalize-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "Normalize discovery documents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "target": "Update Discoveries Directory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:23:38.521198+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1670
+    },
+    {
+      "path": "requirements.txt",
+      "size": 30
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 605
+    },
+    {
+      "path": ".github/workflows/list-services.yml",
+      "size": 1535
+    },
+    {
+      "path": ".github/workflows/normalize-disco.yml",
+      "size": 996
+    },
+    {
+      "path": ".github/workflows/update-disco.yml",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " The Discovery Artifact Manager is intended to facilitate testing, publishing, and synchronization of generators and artifacts for client libraries and generated code samples of Google APIs defined by the API Discovery Service.",
+    "fork": false,
+    "full_name": "googleapis/discovery-artifact-manager",
+    "html_url": "https://github.com/googleapis/discovery-artifact-manager",
+    "language": "Java",
+    "pushed_at": "2026-04-23T18:11:06Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-23T18:11:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-api-dotnet-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-api-go-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-api-nodejs-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-api-php-client-services",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "List discovery services",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/list-services.yml",
+      "term": "List discovery services"
+    },
+    {
+      "context_snippet": "Normalize discovery documents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/normalize-disco.yml",
+      "term": "Normalize discovery documents"
+    },
+    {
+      "context_snippet": "Update Discoveries Directory",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-disco.yml",
+      "term": "Update Discoveries Directory"
+    }
+  ]
+}

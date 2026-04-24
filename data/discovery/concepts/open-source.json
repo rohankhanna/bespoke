@@ -355,6 +355,54 @@
       "source_repo": "smallcloudai/refact",
       "status": "candidate-context",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "Controller for the 5sControl algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate-context",
+      "text": "Video monitoring system with AI analysis and ERP Integration (Open Source) that helps companies improve productivity, eliminate waste, and enhance workplace safety using computer vision and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-dev-documentation",
+      "status": "candidate-context",
+      "text": "Documentation for developers for 5controlS platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-dev-documentation",
+      "status": "candidate-context",
+      "text": "<br><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate-context",
+      "text": "Frontend for 5sControl platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +561,30 @@
       "source_repo": "smallcloudai/refact",
       "status": "candidate",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-backend",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-dev-documentation",
+      "status": "candidate",
+      "text": "<br><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -808,11 +880,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-algorithms-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-dev-documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-frontend"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

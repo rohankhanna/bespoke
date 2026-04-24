@@ -1,0 +1,404 @@
+{
+  "components": [
+    {
+      "component": "@webav/av-canvas",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@webav/av-cliper",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@webav/mp4box.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "antd",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "date-fns",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jotai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-beautiful-dnd",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/dom-mediacapture-transform",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-beautiful-dnd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bun-types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react-refresh",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "hughfenghen/webav",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@webav/av-canvas",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@webav/av-cliper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@webav/mp4box.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "antd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "date-fns",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "jotai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "react-beautiful-dnd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@types/dom-mediacapture-transform",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@types/react-beautiful-dnd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "@vitejs/plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "bun-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "eslint-plugin-react-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "eslint-plugin-react-refresh",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "recorder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "webav",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hughfenghen/bloom-shadow",
+      "target": "webcodecs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:23:55.972494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 673
+    },
+    {
+      "path": "package.json",
+      "size": 1213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0\uff1b\u57fa\u4e8e WebAV \u5b9e\u73b0",
+    "fork": false,
+    "full_name": "hughfenghen/bloom-shadow",
+    "html_url": "https://github.com/hughfenghen/bloom-shadow",
+    "language": "TypeScript",
+    "pushed_at": "2024-01-07T12:16:05Z",
+    "stargazers_count": 55,
+    "topics": [
+      "media",
+      "recorder",
+      "webav",
+      "webcodecs"
+    ],
+    "updated_at": "2025-11-24T02:14:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hughfenghen/webav",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media"
+    },
+    {
+      "context_snippet": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recorder"
+    },
+    {
+      "context_snippet": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webav"
+    },
+    {
+      "context_snippet": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webcodecs"
+    }
+  ]
+}

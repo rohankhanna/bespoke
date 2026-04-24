@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -46,6 +46,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "sindrets/diffview.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/deck"
     }
   ],
   "term": "diff"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GMC E2e Test For Call"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "Containerization and cloud native suite for OPEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "GMC E2e Test For Call"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate",
+      "text": "GMC E2e Test For Call"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26120,
+      "status": "candidate",
+      "text": "time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25720,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15454,
+      "status": "candidate",
+      "text": "sierra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "envoy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "corp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GMC E2e Test For Call",
+  "concept_id": "gmc-e2e-test-for-call",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/_gmc-e2e.yaml",
+      "source_repo": "opea-project/GenAIInfra"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GMC E2e Test For Call",
+      "sense_id": "gmc-e2e-test-for-call#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

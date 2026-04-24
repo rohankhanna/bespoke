@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/multilingual-t5",
+      "target": "google-research/text-to-text-transfer-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/multilingual-t5",
+      "target": "google-research/xtreme",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:22:06.466841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7916
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/multilingual-t5",
+    "html_url": "https://github.com/google-research/multilingual-t5",
+    "language": "Python",
+    "pushed_at": "2022-12-15T16:32:35Z",
+    "stargazers_count": 1295,
+    "topics": [],
+    "updated_at": "2026-04-14T14:55:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/text-to-text-transfer-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/xtreme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,315 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_comps-workflow.yml"
+    },
+    {
+      "component": "opea-project/validation/actions/image-build@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_comps-workflow.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_comps-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-image-list.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml"
+    },
+    {
+      "component": "opea-project/validation/actions/check-cmd@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-docker-compose.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-docker-compose.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-docker-compose.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-docker-compose.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "huggingface/tei-gaudi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "huggingface/text-embeddings-inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "huggingface/tgi-gaudi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_comps-workflow.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_comps-workflow.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "opea-project/validation/actions/image-build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_comps-workflow.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_comps-workflow.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "Comps jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-image-list.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-image-list.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "Get Image List",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "opea-project/validation/actions/check-cmd@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "Get Test Matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-docker-compose.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-docker-compose.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-docker-compose.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_run-docker-compose.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run-helm-chart.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIComps",
+      "target": "Check Online Document Building",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:22:36.649802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14326
+    },
+    {
+      "path": "Dockerfile",
+      "size": 865
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2773
+    },
+    {
+      "path": "requirements.txt",
+      "size": 9003
+    },
+    {
+      "path": ".github/workflows/_comps-workflow.yml",
+      "size": 5378
+    },
+    {
+      "path": ".github/workflows/_get-image-list.yml",
+      "size": 2318
+    },
+    {
+      "path": ".github/workflows/_get-test-matrix.yml",
+      "size": 2558
+    },
+    {
+      "path": ".github/workflows/_run-docker-compose.yml",
+      "size": 6443
+    },
+    {
+      "path": ".github/workflows/_run-helm-chart.yml",
+      "size": 11314
+    },
+    {
+      "path": ".github/workflows/check-online-doc-build.yml",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GenAI components at micro-service level; GenAI service composer to create mega-service",
+    "fork": false,
+    "full_name": "opea-project/GenAIComps",
+    "html_url": "https://github.com/opea-project/GenAIComps",
+    "language": "Python",
+    "pushed_at": "2026-04-24T16:57:02Z",
+    "stargazers_count": 195,
+    "topics": [],
+    "updated_at": "2026-02-21T17:27:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/tei-gaudi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/text-embeddings-inference",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/tgi-gaudi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Comps jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_comps-workflow.yml",
+      "term": "Comps jobs"
+    },
+    {
+      "context_snippet": "Get Image List",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-image-list.yml",
+      "term": "Get Image List"
+    },
+    {
+      "context_snippet": "Get Test Matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "term": "Get Test Matrix"
+    },
+    {
+      "context_snippet": "Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_run-docker-compose.yml",
+      "term": "Image Build"
+    },
+    {
+      "context_snippet": "Check Online Document Building",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "term": "Check Online Document Building"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Publish Atlan App"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate-context",
+      "text": "Application SDK is a python library to build resilient applications on the Atlan platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate-context",
+      "text": "Build & Publish Atlan App"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/application-sdk",
+      "status": "candidate",
+      "text": "Build & Publish Atlan App"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19312,
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19249,
+      "status": "candidate",
+      "text": "charter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19249,
+      "status": "candidate",
+      "text": "dismount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19249,
+      "status": "candidate",
+      "text": "dismounted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Publish Atlan App",
+  "concept_id": "build-publish-atlan-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/build-and-publish-app.yaml",
+      "source_repo": "atlanhq/application-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Publish Atlan App",
+      "sense_id": "build-publish-atlan-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

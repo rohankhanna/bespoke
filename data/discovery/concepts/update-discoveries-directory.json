@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Discoveries Directory"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "status": "candidate-context",
+      "text": " The Discovery Artifact Manager is intended to facilitate testing, publishing, and synchronization of generators and artifacts for client libraries and generated code samples of Google APIs defined by the API Discovery Service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "status": "candidate-context",
+      "text": "Update Discoveries Directory"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/discovery-artifact-manager",
+      "status": "candidate",
+      "text": "Update Discoveries Directory"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17850,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17817,
+      "status": "candidate",
+      "text": "angel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17817,
+      "status": "candidate",
+      "text": "denounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17817,
+      "status": "candidate",
+      "text": "denouncing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17762,
+      "status": "candidate",
+      "text": "register"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Discoveries Directory",
+  "concept_id": "update-discoveries-directory",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/update-disco.yml",
+      "source_repo": "googleapis/discovery-artifact-manager"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Discoveries Directory",
+      "sense_id": "update-discoveries-directory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

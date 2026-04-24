@@ -1,0 +1,50 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timoschick/pet",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:22:07.322655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15005
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains the code for \"Exploiting Cloze Questions for Few-Shot Text Classification and Natural Language Inference\"",
+    "fork": false,
+    "full_name": "timoschick/pet",
+    "html_url": "https://github.com/timoschick/pet",
+    "language": "Python",
+    "pushed_at": "2023-06-12T21:28:58Z",
+    "stargazers_count": 1627,
+    "topics": [
+      "machine-learning",
+      "nlp",
+      "python"
+    ],
+    "updated_at": "2026-03-24T10:58:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code for [Exploiting Cloze Questions for Few-Shot Text Classification and Natural Language Inference](https://arxiv.org/abs/2001.07676) and [It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners](https://arxiv.org/abs/2009\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

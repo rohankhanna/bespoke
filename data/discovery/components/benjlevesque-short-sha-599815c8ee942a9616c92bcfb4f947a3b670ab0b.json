@@ -1,0 +1,12 @@
+{
+  "component": "benjlevesque/short-sha@599815c8ee942a9616c92bcfb4f947a3b670ab0b",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_docker_build.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0\uff1b\u57fa\u4e8e WebAV \u5b9e\u73b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39446711,
+      "status": "candidate",
+      "text": "mass media"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29745653,
+      "status": "candidate",
+      "text": "median"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739614,
+      "status": "candidate",
+      "text": "braces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29698050,
+      "status": "candidate",
+      "text": "substrates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29609727,
+      "status": "candidate",
+      "text": "tape"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "media",
+      "sense_id": "media#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "mass media"
+    }
+  ],
+  "concept_id": "media",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "media",
+  "observation_id": "0bc02e20e1c26f8a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "media",
+  "source_context_snippet": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0",
+  "source_file": null,
+  "source_repo": "hughfenghen/bloom-shadow",
+  "source_repo_description": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0\uff1b\u57fa\u4e8e WebAV \u5b9e\u73b0"
+}

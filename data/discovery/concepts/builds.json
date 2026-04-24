@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "builds"
+    "builds",
+    "Builds"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "cpm-cmake/CPM.cmake",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Experiment-independent toolkit for (charged) particle track reconstruction in (high energy) physics experiments implemented in modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
+      "status": "candidate-context",
+      "text": "Builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acts-project/traccc",
+      "status": "candidate-context",
+      "text": "Demonstrator tracking chain on accelerators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/traccc",
+      "status": "candidate-context",
+      "text": "Builds"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "cpm-cmake/CPM.cmake",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/acts",
+      "status": "candidate",
+      "text": "Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acts-project/traccc",
+      "status": "candidate",
+      "text": "Builds"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +115,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "cpm-cmake/CPM.cmake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "acts-project/acts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "acts-project/traccc"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

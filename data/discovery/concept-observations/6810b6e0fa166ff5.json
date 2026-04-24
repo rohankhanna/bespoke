@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Frontend for 5sControl platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "STAGE build and deploy front"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "STAGE build and deploy front"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35884,
+      "status": "candidate",
+      "text": "proscenium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35084,
+      "status": "candidate",
+      "text": "footlights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34356,
+      "status": "candidate",
+      "text": "pit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34284,
+      "status": "candidate",
+      "text": "footlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33965,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "STAGE build and deploy front",
+      "sense_id": "stage-build-and-deploy-front#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stage-build-and-deploy-front",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stage-build-and-deploy-front",
+  "observation_id": "6810b6e0fa166ff5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "STAGE build and deploy front",
+  "source_context_snippet": "STAGE build and deploy front",
+  "source_file": ".github/workflows/stage.yml",
+  "source_repo": "5sControl/5s-frontend",
+  "source_repo_description": "Frontend for 5sControl platform"
+}

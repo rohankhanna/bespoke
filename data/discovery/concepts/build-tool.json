@@ -175,6 +175,18 @@
       "source_repo": "rizsotto/Bear",
       "status": "candidate-context",
       "text": "[![Packaging status](https://repology.org/badge/tiny-repos/bear-clang.svg)](https://repology.org/project/bear-clang/versions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "Rust task runner and build tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "rizsotto/Bear",
       "status": "candidate",
       "text": "[![Packaging status](https://repology.org/badge/tiny-repos/bear-clang.svg)](https://repology.org/project/bear-clang/versions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "rizsotto/Bear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/cargo-make"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

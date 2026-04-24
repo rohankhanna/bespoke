@@ -1,0 +1,17 @@
+{
+  "component": "knope-dev/action@v2.1.0",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "apollographql/apollo-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server"
+    }
+  ]
+}

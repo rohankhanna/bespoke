@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kong integration tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate-context",
+      "text": ":gorilla: Kong for Kubernetes: The official Ingress Controller for Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate-context",
+      "text": "kong integration tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate",
+      "text": "kong integration tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25774,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17730,
+      "status": "candidate",
+      "text": "land"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17706,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17628,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17628,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kong integration tests",
+  "concept_id": "kong-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/_kongintegration_tests.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "kong integration tests",
+      "sense_id": "kong-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

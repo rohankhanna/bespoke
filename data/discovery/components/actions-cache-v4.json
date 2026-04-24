@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2302,6 +2302,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bench-job.yml",
       "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "acts-project/traccc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "googleapis/google-auth-library-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm"
     }
   ]
 }

@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM-6B",
-      "target": "megengine/inferllm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/ChatGLM-6B",
       "target": "imclumsypanda/langchain-chatglm",
       "target_type": "repository"
     },
@@ -28,9 +21,16 @@
       "source_repo": "zai-org/ChatGLM-6B",
       "target": "l15y/wenda",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T06:53:47.707891+00:00",
+  "fetched_at": "2026-04-24T18:21:58.886129+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,9 +51,9 @@
     "html_url": "https://github.com/zai-org/ChatGLM-6B",
     "language": "Python",
     "pushed_at": "2024-06-27T04:05:25Z",
-    "stargazers_count": 41153,
+    "stargazers_count": 41152,
     "topics": [],
-    "updated_at": "2026-04-24T06:06:48Z"
+    "updated_at": "2026-04-24T16:11:57Z"
   },
   "repo_links": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "megengine/inferllm",
+      "full_name": "thudm/chatglm-6b",
       "source_file": "README.md"
     }
   ],

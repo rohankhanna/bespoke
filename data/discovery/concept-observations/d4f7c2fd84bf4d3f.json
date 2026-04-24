@@ -84,7 +84,7 @@
   "normalized_form": "build-wheels-release-rocm62",
   "observation_id": "d4f7c2fd84bf4d3f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
   "observed_text": "Build Wheels & Release ROCm62",
   "source_context_snippet": "Build Wheels & Release ROCm62",
   "source_file": ".github/workflows/build-wheels-release-rocm.yml",

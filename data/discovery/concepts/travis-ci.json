@@ -91,6 +91,18 @@
       "source_repo": "travis-ci/packer-templates",
       "status": "candidate-context",
       "text": "Collection of Packer templates used for various infrastructure layers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "Rust task runner and build tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "travis-ci/packer-templates",
       "status": "candidate",
       "text": "Collection of Packer templates used for various infrastructure layers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/cargo-make",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "travis-ci/packer-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/cargo-make"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

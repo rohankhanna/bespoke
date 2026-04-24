@@ -1,0 +1,296 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "openvisualcloud/media-transport-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "docker-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "dockerfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "gstreamer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "inferencing-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "media-analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "media-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "nginx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "rtmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "stack-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "vaapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "vcac-a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Dockerfiles",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:23:06.462916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Optimized media, analytics and graphics software stack images. Use the dockerfile(s) in your project or as a recipe book for bare metal installation.",
+    "fork": false,
+    "full_name": "OpenVisualCloud/Dockerfiles",
+    "html_url": "https://github.com/OpenVisualCloud/Dockerfiles",
+    "language": "Dockerfile",
+    "pushed_at": "2024-09-16T18:03:54Z",
+    "stargazers_count": 123,
+    "topics": [
+      "analytics",
+      "container",
+      "docker-images",
+      "dockerfiles",
+      "encoding",
+      "ffmpeg",
+      "gstreamer",
+      "inferencing-engine",
+      "media",
+      "media-analytics",
+      "media-delivery",
+      "nginx",
+      "openvino",
+      "rtmp",
+      "stack-images",
+      "svt",
+      "vaapi",
+      "vcac-a",
+      "webrtc"
+    ],
+    "updated_at": "2025-10-01T16:06:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvisualcloud/media-transport-library",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-images"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfiles"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gstreamer"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inferencing-engine"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media-analytics"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media-delivery"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nginx"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtmp"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stack-images"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vaapi"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vcac-a"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

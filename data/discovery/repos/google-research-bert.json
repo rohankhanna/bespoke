@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/bert",
+      "target": "huggingface/pytorch-pretrained-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/bert",
+      "target": "soskek/bert-chainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/bert",
+      "target": "allenai/bi-att-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/bert",
+      "target": "openai/gradient-checkpointing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/bert",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/bert",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/bert",
+      "target": "natural-language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/bert",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:22:04.577697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 50505
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "TensorFlow code and pre-trained models for BERT",
+    "fork": false,
+    "full_name": "google-research/bert",
+    "html_url": "https://github.com/google-research/bert",
+    "language": "Python",
+    "pushed_at": "2024-07-23T23:39:41Z",
+    "stargazers_count": 39999,
+    "topics": [
+      "google",
+      "natural-language-processing",
+      "natural-language-understanding",
+      "nlp",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-24T07:46:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/bi-att-flow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/pytorch-pretrained-bert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gradient-checkpointing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soskek/bert-chainer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**\\*\\*\\*\\*\\* New March 11th, 2020: Smaller BERT Models \\*\\*\\*\\*\\***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    },
+    {
+      "context_snippet": "**\\*\\*\\*\\*\\* New March 11th, 2020: Smaller BERT Models \\*\\*\\*\\*\\***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "**\\*\\*\\*\\*\\* New March 11th, 2020: Smaller BERT Models \\*\\*\\*\\*\\***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-understanding"
+    },
+    {
+      "context_snippet": "**\\*\\*\\*\\*\\* New March 11th, 2020: Smaller BERT Models \\*\\*\\*\\*\\***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

@@ -130,6 +130,18 @@
       "source_repo": "bpython/bpython",
       "status": "candidate-context",
       "text": "Linters"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate-context",
+      "text": ":gorilla: Kong for Kubernetes: The official Ingress Controller for Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate-context",
+      "text": "linters"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "bpython/bpython",
       "status": "candidate",
       "text": "Linters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kubernetes-ingress-controller",
+      "status": "candidate",
+      "text": "linters"
     }
   ],
   "candidate_related_terms": [
@@ -301,11 +319,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "bpython/bpython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/_linters.yaml",
+      "source_repo": "Kong/kubernetes-ingress-controller"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/pgvector-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:24:33.888599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8834
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for pgvector.",
+    "fork": false,
+    "full_name": "conda-forge/pgvector-feedstock",
+    "html_url": "https://github.com/conda-forge/pgvector-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T13:53:43Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-22T13:53:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

@@ -495,6 +495,30 @@
       "source_repo": "moovida/dart_jts",
       "status": "candidate-context",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/http-observatory",
+      "status": "candidate-context",
+      "text": "Mozilla HTTP Observatory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/http-observatory",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/citus",
+      "status": "candidate-context",
+      "text": "Distributed PostgreSQL as an extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -741,6 +765,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "moovida/dart_jts",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/http-observatory",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus",
       "status": "candidate",
       "text": "Run Tests"
     }
@@ -1086,11 +1122,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "moovida/dart_jts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mozilla/http-observatory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "citusdata/citus"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

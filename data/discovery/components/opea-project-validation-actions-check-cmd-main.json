@@ -1,12 +1,32 @@
 {
   "component": "opea-project/validation/actions/check-cmd@main",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_get-test-matrix.yml",
       "source_repo": "opea-project/GenAIExamples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_get-test-matrix.yml",
+      "source_repo": "opea-project/GenAIComps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "opea-project/GenAIEval"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "source_repo": "opea-project/GenAIEval"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra"
     }
   ]
 }

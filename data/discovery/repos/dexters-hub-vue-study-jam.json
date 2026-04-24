@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dexters-Hub/vue-study-jam",
+      "target": "vuejs/vue-cli",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:24:42.694922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Dexters-Hub/vue-study-jam",
+    "html_url": "https://github.com/Dexters-Hub/vue-study-jam",
+    "language": "HTML",
+    "pushed_at": "2024-04-28T08:23:45Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-09-17T16:18:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vuejs/vue-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

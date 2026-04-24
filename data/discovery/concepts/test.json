@@ -4211,6 +4211,30 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate-context",
+      "text": "Admin GUI for Kong Gateway (Official)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "JavaScript version of GPAC's MP4Box tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -6329,6 +6353,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crev-dev/pip-crev",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-manager",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
       "status": "candidate",
       "text": "Test"
     }
@@ -8887,11 +8923,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "zplug/zplug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Kong/kong-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gpac/mp4box.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Model Test on HPU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate-context",
+      "text": "Evaluation, benchmark, and scorecard, targeting for performance on throughput and latency, accuracy on popular evaluation harness, safety, and hallucination"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate-context",
+      "text": "Model Test on HPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIEval",
+      "status": "candidate",
+      "text": "Model Test on HPU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28020,
+      "status": "candidate",
+      "text": "prototype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28020,
+      "status": "candidate",
+      "text": "prototyped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28020,
+      "status": "candidate",
+      "text": "prototyping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Model Test on HPU",
+  "concept_id": "model-test-on-hpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/model_test_hpu.yml",
+      "source_repo": "opea-project/GenAIEval"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Model Test on HPU",
+      "sense_id": "model-test-on-hpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

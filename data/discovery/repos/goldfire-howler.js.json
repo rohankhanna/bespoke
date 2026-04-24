@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "goldfire/howler.js",
+      "target": "tonistiigi/audiosprite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "goldfire/howler.js",
+      "target": "uglify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js",
+      "target": "audio-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js",
+      "target": "howler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js",
+      "target": "html5-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js",
+      "target": "playback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js",
+      "target": "volume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js",
+      "target": "web-audio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:23:50.186631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27472
+    },
+    {
+      "path": "package.json",
+      "size": 1931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Javascript audio library for the modern web.",
+    "fork": false,
+    "full_name": "goldfire/howler.js",
+    "html_url": "https://github.com/goldfire/howler.js",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-23T23:49:01Z",
+    "stargazers_count": 25251,
+    "topics": [
+      "audio",
+      "audio-library",
+      "howler",
+      "html5-audio",
+      "javascript",
+      "playback",
+      "volume",
+      "web-audio"
+    ],
+    "updated_at": "2026-04-24T10:04:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tonistiigi/audiosprite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-library"
+    },
+    {
+      "context_snippet": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "howler"
+    },
+    {
+      "context_snippet": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5-audio"
+    },
+    {
+      "context_snippet": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playback"
+    },
+    {
+      "context_snippet": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volume"
+    },
+    {
+      "context_snippet": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-audio"
+    }
+  ]
+}

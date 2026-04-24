@@ -121,6 +121,30 @@
       "source_repo": "snapcast/snapcast",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "FFmpeg for browser, powered by WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate-context",
+      "text": "Javascript audio library for the modern web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate-context",
+      "text": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +201,18 @@
       "source_repo": "snapcast/snapcast",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate",
+      "text": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)"
     }
   ],
   "candidate_related_terms": [
@@ -307,11 +343,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "ffmpegwasm/ffmpeg.wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

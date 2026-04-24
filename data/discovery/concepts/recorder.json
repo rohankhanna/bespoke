@@ -19,6 +19,18 @@
       "source_repo": "WebAV-Tech/WebAV",
       "status": "candidate-context",
       "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "status": "candidate-context",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0\uff1b\u57fa\u4e8e WebAV \u5b9e\u73b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "status": "candidate-context",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "WebAV-Tech/WebAV",
       "status": "candidate",
       "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hughfenghen/bloom-shadow",
+      "status": "candidate",
+      "text": "\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c\u7684\u5f55\u5c4f\u5de5\u5177\uff0c\u53ef\u7528\u4e8e\u89c6\u9891\u8bfe\u7a0b\u5236\u4f5c\u3001\u76f4\u64ad\u63a8\u6d41\u5de5\u4f5c\u53f0"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "hughfenghen/bloom-shadow"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Memory Bindwidth Exportor Image Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "Containerization and cloud native suite for OPEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate-context",
+      "text": "Memory Bindwidth Exportor Image Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opea-project/GenAIInfra",
+      "status": "candidate",
+      "text": "Memory Bindwidth Exportor Image Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34354,
+      "status": "candidate",
+      "text": "evoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34354,
+      "status": "candidate",
+      "text": "remember"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34332,
+      "status": "candidate",
+      "text": "remembering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34163,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34141,
+      "status": "candidate",
+      "text": "evocative"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Memory Bindwidth Exportor Image Build",
+  "concept_id": "memory-bindwidth-exportor-image-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/_mbe-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Memory Bindwidth Exportor Image Build",
+      "sense_id": "memory-bindwidth-exportor-image-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

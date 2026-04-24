@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-image-build.yaml"
+    },
+    {
+      "component": "opea-project/validation/actions/check-cmd@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-image-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_helm-e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mbe-image-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-freeze-tag.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-e2e.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_gmc-e2e.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "GMC E2e Test For Call",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_gmc-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "opea-project/validation/actions/check-cmd@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_gmc-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "GMC Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_helm-e2e.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_infra-workflow.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "GenAIInfra GMC Jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mbe-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mbe-image-build.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "Memory Bindwidth Exportor Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "Check Online Document Building",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "Check stale issue and pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-freeze-tag.yaml",
+      "source_repo": "opea-project/GenAIInfra",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:22:47.420363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7750
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2716
+    },
+    {
+      "path": ".github/workflows/_gmc-e2e.yaml",
+      "size": 2121
+    },
+    {
+      "path": ".github/workflows/_gmc-image-build.yaml",
+      "size": 2923
+    },
+    {
+      "path": ".github/workflows/_helm-e2e.yaml",
+      "size": 9744
+    },
+    {
+      "path": ".github/workflows/_infra-workflow.yaml",
+      "size": 1296
+    },
+    {
+      "path": ".github/workflows/_mbe-image-build.yaml",
+      "size": 2641
+    },
+    {
+      "path": ".github/workflows/check-online-doc-build.yml",
+      "size": 633
+    },
+    {
+      "path": ".github/workflows/daily_check_issue_and_pr.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/manual-freeze-tag.yaml",
+      "size": 2290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Containerization and cloud native suite for OPEA",
+    "fork": false,
+    "full_name": "opea-project/GenAIInfra",
+    "html_url": "https://github.com/opea-project/GenAIInfra",
+    "language": "Go",
+    "pushed_at": "2026-04-06T22:42:55Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-04-02T15:37:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GMC E2e Test For Call",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_gmc-e2e.yaml",
+      "term": "GMC E2e Test For Call"
+    },
+    {
+      "context_snippet": "GMC Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_gmc-image-build.yaml",
+      "term": "GMC Image Build"
+    },
+    {
+      "context_snippet": "GenAIInfra GMC Jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_infra-workflow.yaml",
+      "term": "GenAIInfra GMC Jobs"
+    },
+    {
+      "context_snippet": "Memory Bindwidth Exportor Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mbe-image-build.yaml",
+      "term": "Memory Bindwidth Exportor Image Build"
+    },
+    {
+      "context_snippet": "Check Online Document Building",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-online-doc-build.yml",
+      "term": "Check Online Document Building"
+    },
+    {
+      "context_snippet": "Check stale issue and pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_check_issue_and_pr.yml",
+      "term": "Check stale issue and pr"
+    }
+  ]
+}

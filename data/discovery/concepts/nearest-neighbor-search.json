@@ -55,6 +55,18 @@
       "source_repo": "spotify/annoy",
       "status": "candidate-context",
       "text": "Annoy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/neighbor",
+      "status": "candidate-context",
+      "text": "Nearest neighbor search for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/neighbor",
+      "status": "candidate-context",
+      "text": "Nearest neighbor search for Rails"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "spotify/annoy",
       "status": "candidate",
       "text": "Annoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/neighbor",
+      "status": "candidate",
+      "text": "Nearest neighbor search for Rails"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "spotify/annoy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "ankane/neighbor"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

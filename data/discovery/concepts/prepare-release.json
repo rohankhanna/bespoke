@@ -117,6 +117,18 @@
       "source_repo": "auth0/node-jws",
       "status": "candidate-context",
       "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Apollo MCP Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Prepare Release"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "auth0/node-jws",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
       "status": "candidate",
       "text": "Prepare Release"
     }
@@ -270,11 +288,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "apollographql/apollo-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

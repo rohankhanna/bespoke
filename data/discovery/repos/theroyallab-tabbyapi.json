@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@5cd11c3a4ced054e52742c5fd54dca954e0edd85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    },
+    {
+      "component": "actions4gh/deploy-wiki@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "pygmalionai/aphrodite-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "michaelfeil/infinity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "oobabooga/text-generation-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "sillytavern/sillytavern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "docker/build-push-action@5cd11c3a4ced054e52742c5fd54dca954e0edd85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "Build and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "Deploy OpenAPI docs to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "actions4gh/deploy-wiki@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "theroyallab/tabbyAPI",
+      "target": "Deploy to Wiki",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:23:28.932862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4723
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 14630
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 2978
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 2173
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "size": 660
+    },
+    {
+      "path": ".github/workflows/wiki.yml",
+      "size": 347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official API server for Exllama. OAI compatible, lightweight, and fast.",
+    "fork": false,
+    "full_name": "theroyallab/tabbyAPI",
+    "html_url": "https://github.com/theroyallab/tabbyAPI",
+    "language": "Python",
+    "pushed_at": "2026-04-20T21:11:40Z",
+    "stargazers_count": 1195,
+    "topics": [],
+    "updated_at": "2026-04-24T13:24:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaelfeil/infinity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pygmalionai/aphrodite-engine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sillytavern/sillytavern",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Build and publish a Docker image"
+    },
+    {
+      "context_snippet": "Deploy OpenAPI docs to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy OpenAPI docs to Pages"
+    },
+    {
+      "context_snippet": "ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "term": "ruff"
+    },
+    {
+      "context_snippet": "Deploy to Wiki",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "term": "Deploy to Wiki"
+    }
+  ]
+}

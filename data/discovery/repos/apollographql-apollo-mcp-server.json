@@ -1,0 +1,478 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-skills.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml"
+    },
+    {
+      "component": "knope-dev/action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "knope-dev/action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    },
+    {
+      "component": "knope-dev/action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "apollographql/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-skills.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-skills.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "Notify Skills Repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "knope-dev/action@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "knope-dev/action@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/upload-artifact@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "actions/download-artifact@v4.1.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "Release Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-canary.yml",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "target": "Release Canary",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T18:24:01.907538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3392
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1870
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2755
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 5104
+    },
+    {
+      "path": ".github/workflows/claude-code.yml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/notify-skills.yml",
+      "size": 877
+    },
+    {
+      "path": ".github/workflows/prep-release.yml",
+      "size": 579
+    },
+    {
+      "path": ".github/workflows/release-bins.yml",
+      "size": 9526
+    },
+    {
+      "path": ".github/workflows/release-canary.yml",
+      "size": 1216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apollo MCP Server",
+    "fork": false,
+    "full_name": "apollographql/apollo-mcp-server",
+    "html_url": "https://github.com/apollographql/apollo-mcp-server",
+    "language": "Rust",
+    "pushed_at": "2026-04-24T14:24:23Z",
+    "stargazers_count": 278,
+    "topics": [],
+    "updated_at": "2026-04-24T16:45:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Notify Skills Repo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-skills.yml",
+      "term": "Notify Skills Repo"
+    },
+    {
+      "context_snippet": "Prepare Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prep-release.yml",
+      "term": "Prepare Release"
+    },
+    {
+      "context_snippet": "Release Binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-bins.yml",
+      "term": "Release Binaries"
+    },
+    {
+      "context_snippet": "Release Canary",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-canary.yml",
+      "term": "Release Canary"
+    }
+  ]
+}

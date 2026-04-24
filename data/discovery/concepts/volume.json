@@ -7,10 +7,102 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate-context",
+      "text": "Javascript audio library for the modern web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate-context",
+      "text": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goldfire/howler.js",
+      "status": "candidate",
+      "text": "[![howler.js](https://s3.amazonaws.com/howler.js/howler-logo.png \"howler.js\")](https://howlerjs.com)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39823177,
+      "status": "candidate",
+      "text": "loudness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39790732,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39786219,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39688522,
+      "status": "candidate",
+      "text": "bulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39658870,
+      "status": "candidate",
+      "text": "intensity"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20075,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19057,
+      "status": "candidate",
+      "text": "intensity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15079,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11051,
+      "status": "candidate",
+      "text": "bulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "loudness"
+    }
+  ],
   "canonical_name": "volume",
   "concept_id": "volume",
   "definition_status": "unresolved",
@@ -20,12 +112,20 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "rlxone/MultiSoundChanger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "goldfire/howler.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -45,6 +45,18 @@
       "source_repo": "jestjs/jest",
       "status": "candidate-context",
       "text": "'Close issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "JavaScript version of GPAC's MP4Box tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate-context",
+      "text": "Close Issues"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "jestjs/jest",
       "status": "candidate",
       "text": "'Close issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/mp4box.js",
+      "status": "candidate",
+      "text": "Close Issues"
     }
   ],
   "candidate_related_terms": [
@@ -144,11 +162,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/issues.yml",
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/close-issues.yml",
+      "source_repo": "gpac/mp4box.js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

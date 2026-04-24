@@ -1,0 +1,37 @@
+{
+  "component": "svenstaro/upload-release-action@2.7.0",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-cuda.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik-cuda.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-ik.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-rocm.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release-vulkan.yml",
+      "source_repo": "oobabooga/textgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-portable-release.yml",
+      "source_repo": "oobabooga/textgen"
+    }
+  ]
+}

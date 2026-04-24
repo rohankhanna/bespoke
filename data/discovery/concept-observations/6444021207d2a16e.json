@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mozilla Observatory (Website)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy static content to GCP Stage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy static content to GCP Stage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47647,
+      "status": "candidate",
+      "text": "settled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35591,
+      "status": "candidate",
+      "text": "quiet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35322,
+      "status": "candidate",
+      "text": "create"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35322,
+      "status": "candidate",
+      "text": "patent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34182,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy static content to GCP Stage",
+      "sense_id": "deploy-static-content-to-gcp-stage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-static-content-to-gcp-stage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-static-content-to-gcp-stage",
+  "observation_id": "6444021207d2a16e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_text": "Deploy static content to GCP Stage",
+  "source_context_snippet": "Deploy static content to GCP Stage",
+  "source_file": ".github/workflows/deploy-stage.yml",
+  "source_repo": "mozilla/http-observatory-website",
+  "source_repo_description": "Mozilla Observatory (Website)"
+}

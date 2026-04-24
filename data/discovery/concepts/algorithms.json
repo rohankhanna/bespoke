@@ -43,6 +43,18 @@
       "source_repo": "NVIDIA/thrust",
       "status": "candidate-context",
       "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "Controller for the 5sControl algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "NVIDIA/thrust",
       "status": "candidate",
       "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-algorithms-controller",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/thrust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5s-algorithms-controller"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

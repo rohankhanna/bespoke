@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PRODUCTION build front mobile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate-context",
+      "text": "Frontend for 5sControl platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate-context",
+      "text": "PRODUCTION build front mobile"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-frontend",
+      "status": "candidate",
+      "text": "PRODUCTION build front mobile"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27953,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27912,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27888,
+      "status": "candidate",
+      "text": "effects"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27888,
+      "status": "candidate",
+      "text": "property"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27765,
+      "status": "candidate",
+      "text": "cutaway"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PRODUCTION build front mobile",
+  "concept_id": "production-build-front-mobile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/production-mobile.yml",
+      "source_repo": "5sControl/5s-frontend"
+    }
+  ],
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PRODUCTION build front mobile",
+      "sense_id": "production-build-front-mobile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

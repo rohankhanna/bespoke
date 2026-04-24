@@ -44,6 +44,18 @@
       "source_repo": "google/cadvisor",
       "status": "candidate-context",
       "text": "Release Binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Apollo MCP Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate-context",
+      "text": "Release Binaries"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/cadvisor",
+      "status": "candidate",
+      "text": "Release Binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-mcp-server",
       "status": "candidate",
       "text": "Release Binaries"
     }
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release-binaries.yml",
       "source_repo": "google/cadvisor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": ".github/workflows/release-bins.yml",
+      "source_repo": "apollographql/apollo-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -395,6 +395,18 @@
       "source_repo": "rusticstuff/simdutf8",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "FFmpeg for browser, powered by WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -589,6 +601,12 @@
       "source_repo": "rusticstuff/simdutf8",
       "status": "candidate",
       "text": "[![CI](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml/badge.svg)](https://github.com/rusticstuff/simdutf8/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ffmpegwasm/ffmpeg.wasm",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -884,11 +902,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "rusticstuff/simdutf8"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T18:19:44.660705+00:00",
+      "source_file": null,
+      "source_repo": "ffmpegwasm/ffmpeg.wasm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

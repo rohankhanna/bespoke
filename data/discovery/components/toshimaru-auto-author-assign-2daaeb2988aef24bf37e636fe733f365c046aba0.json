@@ -1,0 +1,12 @@
+{
+  "component": "toshimaru/auto-author-assign@2daaeb2988aef24bf37e636fe733f365c046aba0",
+  "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignee.yml",
+      "source_repo": "Kong/docker-kong"
+    }
+  ]
+}
