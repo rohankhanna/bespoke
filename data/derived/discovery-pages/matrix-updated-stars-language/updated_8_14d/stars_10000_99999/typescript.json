@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 8,
-    "terms": 67
+    "components": 249,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 9,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "fission-ai/openspec",
     "lerna/lerna",
@@ -21,6 +21,7 @@
     "ruvnet/ruflo",
     "shareai-lab/learn-claude-code",
     "tobi/qmd",
-    "toon-format/toon"
+    "toon-format/toon",
+    "vadimdemedes/ink"
   ]
 }

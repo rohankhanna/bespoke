@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 254,
-    "observations": 254,
-    "repos": 45,
-    "terms": 262
+    "components": 420,
+    "concepts": 296,
+    "observations": 299,
+    "repos": 50,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "alibaba/loongsuite-go-agent",
     "AliyunContainerService/terway",
     "apache/dubbo-go-samples",
     "apache/dubbo-kubernetes",
@@ -31,6 +32,7 @@
     "dependabot/cli",
     "docker/model-runner",
     "estesp/manifest-tool",
+    "etclabscore/core-geth",
     "ethereum/hive",
     "googleapis/go-genproto",
     "hashicorp/terraform-plugin-docs",
@@ -41,6 +43,8 @@
     "hashicorp/terraform-provider-scaffolding-framework",
     "helm/chart-releaser",
     "knative/community",
+    "kube-rbac-proxy/kube-rbac-proxy",
+    "kubecfg/kubecfg",
     "kubernetes-sigs/boskos",
     "kubernetes-sigs/controller-tools",
     "kubernetes-sigs/custom-metrics-apiserver",
@@ -51,13 +55,14 @@
     "openshift/enhancements",
     "openshift/library",
     "opentofu/registry",
+    "ossf/osv-schema",
     "phiat/claude-esp",
-    "prehisle/relay-pulse",
     "prometheus/common",
     "raystack/meteor",
     "skenetechnologies/skene",
     "SpecterOps/AzureHound",
     "terraform-linters/tflint-ruleset-aws",
-    "terraform-linters/tflint-ruleset-azurerm"
+    "terraform-linters/tflint-ruleset-azurerm",
+    "transparency-dev/tessera"
   ]
 }

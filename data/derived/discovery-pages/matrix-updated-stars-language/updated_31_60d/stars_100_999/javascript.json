@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 35,
-    "observations": 36,
-    "repos": 6,
-    "terms": 35
+    "components": 76,
+    "concepts": 43,
+    "observations": 44,
+    "repos": 7,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "asdf-vm/actions",
     "cmake-js/cmake-js",
     "executablebooks/sphinx-copybutton",
+    "npm/abbrev-js",
     "npm/rfcs",
     "RichardLitt/generator-standard-readme",
     "thejoshwolfe/yazl"

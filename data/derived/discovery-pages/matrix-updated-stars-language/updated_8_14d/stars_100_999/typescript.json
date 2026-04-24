@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 286,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 19,
-    "terms": 82
+    "components": 382,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 23,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "actions/container-toolkit-action",
+    "affaan-m/agentshield",
     "AmElmo/proofshot",
     "atomicmemory/llm-wiki-compiler",
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
+    "curiousdannii/parchment",
+    "devcontainers/ci",
     "evmts/tevm-monorepo",
     "fastify/demo",
     "giselles-ai/giselle",
@@ -32,6 +35,7 @@
     "neolabhq/context-engineering-kit",
     "NVIDIA/OpenShell-Community",
     "snipeship/ccflare",
+    "timkindberg/jest-when",
     "vega/vega-embed"
   ]
 }

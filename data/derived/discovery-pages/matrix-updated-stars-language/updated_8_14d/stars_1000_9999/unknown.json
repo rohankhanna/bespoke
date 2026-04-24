@@ -3,7 +3,7 @@
     "components": 17,
     "concepts": 16,
     "observations": 16,
-    "repos": 7,
+    "repos": 6,
     "terms": 16
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "bbatsov/clojure-style-guide",
     "FuelLabs/fuel-specs",
     "libp2p/libp2p",
     "libp2p/specs",
     "MicrosoftDocs/WSL",
-    "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills"
   ]
 }

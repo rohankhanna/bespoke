@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 891,
-    "concepts": 96,
-    "observations": 97,
-    "repos": 38,
-    "terms": 111
+    "components": 1100,
+    "concepts": 113,
+    "observations": 114,
+    "repos": 44,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "aaronlamz/vue-next-i18n",
     "AcidLeroy/gaiadown-ts",
+    "andreock/AdguardHomeAPI",
     "aws-samples/solution-for-deploying-dify-on-aws",
     "ceramicnetwork/js-dag-jose",
     "ChainSafe/web3js-example-react-app",
+    "criteo/mesos-term",
+    "Cryptonomic/T2",
     "Cryptonomic/Tezori",
     "danielnappa/tweakgc-cli",
-    "definitelytyped/dts-critic",
+    "DefinitelyTyped/dts-critic",
     "devcontainers/action",
     "dropbox/ts-transform-react-jsx-source",
     "endemolshinegroup/cz-github",
@@ -43,13 +46,16 @@
     "lobehub/chat-plugin-template",
     "lobehub/chat-plugins-gateway",
     "longlho/ts-transform-img",
+    "MetaGLM/zhipuai-sdk-nodejs-v4",
     "mlc-ai/web-llm-assistant",
     "neoclide/coc-r-lsp",
     "prabirshrestha/typescript-language-server",
     "ricmoo/multicall",
     "Roblox/setup-foreman",
     "rygwdn/slack-tools",
+    "Shougo/ddu-source-file",
     "steadycursor/steadystart",
+    "tatethurston/ProtoScript",
     "tommy351/tsc-multi",
     "vim-denops/denops-helloworld.vim"
   ]

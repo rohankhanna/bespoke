@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 22,
-    "terms": 46
+    "components": 84,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 24,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "andriykohut/pdm-readiness",
@@ -27,6 +27,8 @@
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
+    "ModelCloud/Defuser",
+    "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",

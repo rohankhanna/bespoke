@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 8,
-    "terms": 45
+    "components": 77,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 12,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "BabylonJS/BabylonNative",
     "bitcoin-core/gui",
     "boazsegev/iodine",
     "corporateshark/lightweightvk",
     "facil-io/cstl",
     "google/dawn",
     "mitsuba-renderer/drjit",
+    "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
-    "samdauwe/webgpu-native-examples"
+    "ROCm/mori",
+    "samdauwe/webgpu-native-examples",
+    "tile-ai/tilelang-ascend"
   ]
 }

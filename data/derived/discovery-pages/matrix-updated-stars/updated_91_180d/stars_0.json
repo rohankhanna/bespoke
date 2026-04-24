@@ -1,19 +1,21 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 19,
-    "observations": 20,
-    "repos": 20,
-    "terms": 19
+    "components": 87,
+    "concepts": 23,
+    "observations": 24,
+    "repos": 26,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "abap2UI5-addons/popups",
     "appscodelabs/liche",
+    "babashka/homebrew-brew",
     "bgw/virtue",
     "biocypher/biocypher-cookiecutter-template",
     "bnosac/images",
@@ -28,8 +30,12 @@
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
+    "danielrosehill/Context-Cruncher",
     "danielrosehill/Data-Projects-Index",
     "espressosystems/espresso-systems-common",
+    "faradayio/compose_yml",
+    "get-gah/setup-gah",
+    "illusionfield/fourseven-scss",
     "imandra-ai/tldrs",
     "stainless-api/tsc-multi",
     "wintercg/fetch"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 426,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 12,
-    "terms": 94
+    "components": 579,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 16,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "actions/download-artifact",
+    "ben-rogerson/twin.macro",
     "coaidev/coai",
     "ekalinin/sitemap.js",
+    "infinitered/nsfwjs",
     "Ironclad/rivet",
     "isaacs/node-glob",
     "jnsahaj/tweakcn",
@@ -25,6 +27,8 @@
     "microsoft/genaiscript",
     "nanbingxyz/5ire",
     "snarktank/antfarm",
-    "stravu/crystal"
+    "stephenh/ts-proto",
+    "stravu/crystal",
+    "vercel/serve"
   ]
 }

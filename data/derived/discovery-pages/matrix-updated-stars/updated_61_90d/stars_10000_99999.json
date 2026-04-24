@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 22,
-    "terms": 112
+    "components": 229,
+    "concepts": 159,
+    "observations": 159,
+    "repos": 26,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "anthropics/claude-quickstarts",
     "binary-husky/gpt_academic",
@@ -21,6 +21,7 @@
     "ComposioHQ/awesome-claude-skills",
     "FortAwesome/Font-Awesome",
     "FoundationAgents/OpenManus",
+    "fullstorydev/grpcurl",
     "git-up/GitUp",
     "go-chi/chi",
     "gulpjs/gulp",
@@ -28,12 +29,15 @@
     "kyleneideck/backgroundmusic",
     "lucidrains/denoising-diffusion-pytorch",
     "microsoft/vscode-extension-samples",
+    "minio/minio",
     "modin-project/modin",
     "NVlabs/instant-ngp",
     "privatenumber/tsx",
     "QwenLM/Qwen3-VL",
     "sharkdp/hyperfine",
     "snarktank/ralph",
-    "transitive-bullshit/agentic"
+    "tqdm/tqdm",
+    "transitive-bullshit/agentic",
+    "zsh-users/zsh-syntax-highlighting"
   ]
 }

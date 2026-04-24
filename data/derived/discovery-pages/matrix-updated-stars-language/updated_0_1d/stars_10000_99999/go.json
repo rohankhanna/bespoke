@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 287,
-    "observations": 287,
-    "repos": 21,
-    "terms": 286
+    "components": 289,
+    "concepts": 317,
+    "observations": 317,
+    "repos": 24,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
     "apache/casbin",
     "argoproj/argo-cd",
@@ -27,6 +28,8 @@
     "grpc/grpc-go",
     "hashicorp/consul",
     "hashicorp/vault",
+    "ipfs/kubo",
+    "jaegertracing/jaeger",
     "milvus-io/milvus",
     "moby/moby",
     "mudler/LocalAI",

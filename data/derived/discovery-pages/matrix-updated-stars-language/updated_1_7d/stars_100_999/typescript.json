@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1311,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 41,
-    "terms": 249
+    "components": 1444,
+    "concepts": 239,
+    "observations": 239,
+    "repos": 44,
+    "terms": 269
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
-    "affaan-m/agentshield",
     "anthropics/claude-code-base-action",
     "aws/aws-iot-device-sdk-js-v2",
+    "Azure/login",
     "babel/website",
     "blrchen/chatgpt-lite",
     "charmbracelet/vhs-action",
     "circlefin/stablecoin-evm",
-    "devcontainers/ci",
+    "DeterminateSystems/nix-installer-action",
     "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "electron/packager",
     "elizaos/elizaos.github.io",
+    "engine262/engine262",
     "github/local-action",
     "grubersjoe/github-contributions-api",
     "grubersjoe/react-activity-calendar",
@@ -40,6 +41,8 @@
     "mightyiam/eslint-config-love",
     "napi-rs/package-template",
     "nyatinte/ccexp",
+    "octokit/webhooks",
+    "OffchainLabs/arbitrum-sdk",
     "open-telemetry/opentelemetry-js-contrib",
     "OpenZeppelin/openzeppelin-upgrades",
     "safe-fndn/safe-singleton-factory",

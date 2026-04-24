@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 558,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 27,
-    "terms": 61
+    "components": 582,
+    "concepts": 75,
+    "observations": 76,
+    "repos": 31,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "14nrv/serverless-lambda-stripe",
     "abap2UI5/builder",
     "angular/dev-infra-private-build-tooling-builds",
     "aralyekta/prompttester",
     "ari-os310/eslint-plugin-jsx-a11y",
+    "atom-community/autocomplete-plus",
     "ccdanpian/current-datetime",
     "chatie/tsconfig",
     "coderaiser/speca",
@@ -33,13 +34,16 @@
     "iodide-project/iodide-transpiler",
     "ipfs-shipyard/contributors-hex-grid",
     "josephfrazier/standard-eject",
-    "kybernetwork/dao_sc",
+    "KyberNetwork/dao_sc",
+    "Level/browserify-starter",
+    "Level/webpack-starter",
     "libp2p/js-libp2p-example-auto-tls",
     "libp2p/js-libp2p-example-browser-pubsub",
     "libp2p/js-libp2p-example-chat",
     "libp2p/js-libp2p-example-circuit-relay",
     "libp2p/js-libp2p-example-connection-encryption",
     "pulsar-cooperative/linter-shellcheck-pulsar",
-    "putoutjs/putout-processor-typos"
+    "putoutjs/putout-processor-typos",
+    "wa-lang/webgpu"
   ]
 }

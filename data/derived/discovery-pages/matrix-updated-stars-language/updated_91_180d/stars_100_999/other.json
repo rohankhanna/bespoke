@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 29,
-    "terms": 94
+    "components": 98,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 37,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "aesalazar/AsteroidsWasm",
     "alibaba-damo-academy/PixelRefer",
@@ -21,12 +21,14 @@
     "atomontage/xterm-color",
     "bioinf-jku/TTUR",
     "BlinkDL/RWKV-CUDA",
+    "cleanlab/examples",
     "coin-or/CyLP",
     "com-lihaoyi/cask",
     "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-java",
     "emacs-lsp/lsp-treemacs",
     "FiloSottile/homebrew-musl-cross",
+    "flosse/sloc",
     "HerringtonDarkholme/yats.vim",
     "igor-makarov/xcake",
     "jayli/vim-easycomplete",
@@ -35,13 +37,19 @@
     "nix-community/nixGL",
     "ocaml-wasm/wasm_of_ocaml",
     "OpenBMB/CPM.cu",
+    "OrleansContrib/OrleansDashboard",
+    "rails/sprockets",
+    "rake-compiler/rake-compiler",
     "saagarjha/unxip",
     "simonw/datasette-lite",
+    "status-im/nim-chronicles",
     "stevearc/resession.nvim",
     "terraform-aws-modules/terraform-aws-apigateway-v2",
     "thinkdepthai/Deep_Research",
     "travis-ci/travis-build",
+    "travis-ci/travis-cookbooks",
     "VectorSpaceLab/MegaPairs",
+    "yaml/yaml-test-suite",
     "ymoslem/OpenNMT-Tutorial"
   ]
 }

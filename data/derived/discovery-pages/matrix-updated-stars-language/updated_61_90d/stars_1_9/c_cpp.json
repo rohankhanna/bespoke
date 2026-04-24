@@ -3,7 +3,7 @@
     "components": 1,
     "concepts": 1,
     "observations": 1,
-    "repos": 1,
+    "repos": 2,
     "terms": 1
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "DavidKinder/Libraries",
     "ldayton/bash-oracle"
   ]
 }

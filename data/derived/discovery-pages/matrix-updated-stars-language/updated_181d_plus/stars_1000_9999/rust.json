@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 21,
-    "terms": 104
+    "components": 81,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 24,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "asciinema/agg",
     "async-rs/async-std",
     "autozimu/LanguageClient-neovim",
     "BrainiumLLC/cargo-mobile",
     "BurntSushi/rust-csv",
+    "cgag/loc",
     "chelsea0x3b/dfdx",
     "dtolnay/serde-yaml",
     "EmbarkStudios/rust-ecosystem",
@@ -29,10 +30,12 @@
     "gfx-rs/wgpu-rs",
     "gluon-lang/gluon",
     "google-research/deduplicate-text-datasets",
+    "japaric/xargo",
     "johnthagen/min-sized-rust",
     "mgdm/htmlq",
     "mooman219/fontdue",
     "nrc/r4cppp",
+    "rust-lang/rls",
     "stepancheg/grpc-rust",
     "stepancheg/rust-protobuf"
   ]

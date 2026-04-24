@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 28,
-    "observations": 30,
-    "repos": 6,
-    "terms": 28
+    "components": 40,
+    "concepts": 55,
+    "observations": 57,
+    "repos": 11,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "aibasel/downward",
     "google-deepmind/reverb",
     "ifduyue/python-xxhash",
+    "intel/QAT_Engine",
+    "microsoft/Tutel",
     "nfrechette/rtm",
+    "NiklasRosenstein/pbzx",
     "pauldmccarthy/indexed_gzip",
     "SHI-Labs/NATTEN",
-    "Solo5/solo5"
+    "Solo5/solo5",
+    "Yubico/libfido2"
   ]
 }

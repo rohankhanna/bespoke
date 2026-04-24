@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 328,
-    "concepts": 209,
-    "observations": 209,
-    "repos": 30,
-    "terms": 208
+    "components": 343,
+    "concepts": 231,
+    "observations": 231,
+    "repos": 32,
+    "terms": 230
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "ahujasid/blender-mcp",
@@ -29,6 +29,7 @@
     "fsnotify/fsnotify",
     "highlightjs/highlight.js",
     "hiroi-sora/Umi-OCR",
+    "horovod/horovod",
     "JaidedAI/EasyOCR",
     "karpathy/llm-council",
     "karpathy/nanoGPT",
@@ -38,6 +39,7 @@
     "muesli/duf",
     "Netflix/Hystrix",
     "QwenLM/Qwen3",
+    "sczhou/CodeFormer",
     "songquanpeng/one-api",
     "spf13/viper",
     "toml-lang/toml",

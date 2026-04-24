@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 25,
-    "terms": 83
+    "components": 94,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 30,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,37 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "adrienverge/yamllint",
     "anapnoe/stable-diffusion-webui-ux",
+    "bambinos/bambi",
     "brycedrennan/imaginAIry",
     "ChenmienTan/RL2",
     "commonmark/commonmark-spec",
     "databricks/megablocks",
-    "django/asgiref",
     "dolfies/discord.py-self",
     "explosion/spacy-models",
+    "facebookresearch/pytorch3d",
     "facebookresearch/SlowFast",
     "google/ml_collections",
     "gururise/AlpacaDataCleaned",
+    "jaredks/rumps",
     "jeffallan/claude-skills",
     "keleshev/schema",
     "langfengQ/verl-agent",
+    "microsoft/TaskWeaver",
     "miolini/autoresearch-macos",
     "NVlabs/VILA",
     "open-mmlab/mmaction2",
     "PyCQA/flake8-bugbear",
     "pytest-dev/pytest-cov",
+    "python-semantic-release/python-semantic-release",
     "qix-/better-exceptions",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
+    "spotipy-dev/spotipy",
     "trevin-creator/autoresearch-mlx",
+    "turboderp-org/exllamav2",
     "zubair-trabzada/ai-marketing-claude"
   ]
 }

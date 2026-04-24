@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 15,
-    "terms": 46
+    "components": 69,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 18,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "Alibaba-Quark/SSP",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
     "bigai-nlco/RuleReasoner",
+    "chaoss/grimoirelab-graal",
     "ckan/ckanext-xloader",
     "cldf/segments",
     "corl-team/VL-DAC",
+    "Embarcadero/PythonEnvironments",
+    "googlefonts/lang",
     "imlrz/DeepResearch-Bench-II",
     "inducer/codepy",
     "liran-funaro/sphinx-markdown-builder",

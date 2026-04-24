@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 329,
-    "concepts": 86,
-    "observations": 88,
-    "repos": 22,
-    "terms": 96
+    "components": 394,
+    "concepts": 101,
+    "observations": 103,
+    "repos": 27,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
+    "adobe/spectrum-design-data",
     "all-contributors/app",
     "Atheos/Atheos",
     "badgen/badgen",
+    "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
     "comme2e/comm",
     "conventional-changelog/conventional-changelog-config-spec",
+    "d3/d3-format",
     "fastify/create-fastify",
     "fastify/example",
     "fastify/fastify-cli",
@@ -28,8 +31,10 @@
     "fgnass/domino",
     "istanbuljs/babel-plugin-istanbul",
     "Level/abstract-level",
+    "mafintosh/streamx",
     "markdown-it/linkify-it",
     "muratcankoylan/ralph-wiggum-marketer",
+    "OffchainLabs/arbitrum-tutorials",
     "protocolbuffers/protobuf-javascript",
     "semantic-release/changelog",
     "semantic-release/git",

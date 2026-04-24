@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 668,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 25,
-    "terms": 140
+    "components": 759,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 29,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "anse-app/anse",
     "anse-app/chatgpt-demo",
     "apollographql/graphql-tag",
+    "apollographql/subscriptions-transport-ws",
     "arethetypeswrong/arethetypeswrong.github.io",
     "benjamn/ast-types",
     "benjamn/recast",
@@ -34,10 +35,13 @@
     "gzuidhof/starboard-notebook",
     "inkline/inkline",
     "jquery/esprima",
+    "kentcdodds/babel-plugin-preval",
     "plantain-00/type-coverage",
+    "redis/redis-om-node",
     "serafimcloud/21st",
     "tremorlabs/tremor",
     "Uniswap/v3-core",
+    "Uniswap/v3-periphery",
     "vercel/modelfusion"
   ]
 }

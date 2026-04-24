@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 12,
-    "terms": 21
+    "components": 36,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 15,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "anacrolix/go-libutp",
     "ARM-software/EndpointAI",
+    "CppCXY/EmmyLuaCodeStyle",
     "dacap/clip",
     "eliemichel/LearnWebGPU",
     "freebsd/atf",
@@ -23,6 +25,7 @@
     "KhronosGroup/OpenGL-Registry",
     "lualanes/lanes",
     "microsoft/xlang",
+    "raysan5/raylib-games",
     "sasha0552/nvidia-pstated",
     "stardot/beebasm",
     "starwing/luautf8"

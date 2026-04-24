@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 1,
-    "terms": 2
+    "components": 11,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 3,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "chronosphereio/calyptia-api"
+    "actions-oss/gh-rc",
+    "chronosphereio/calyptia-api",
+    "tianon/fake-git"
   ]
 }

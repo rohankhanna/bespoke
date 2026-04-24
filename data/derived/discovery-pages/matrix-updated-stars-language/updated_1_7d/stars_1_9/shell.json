@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 0,
+    "components": 2,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 3,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "cdeust/zetetic-team-subagents"
+    "cdeust/zetetic-team-subagents",
+    "kubernetes-sigs/provider-ibmcloud-test-infra",
+    "status-im/nimbus-build-system"
   ]
 }

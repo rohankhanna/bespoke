@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 15,
-    "terms": 78
+    "components": 49,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 20,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "bshoshany/thread-pool",
+    "flame/blis",
     "google/re2",
     "gulrak/filesystem",
     "ianlancetaylor/libbacktrace",
+    "jlblancoc/nanoflann",
     "jstkdng/ueberzugpp",
     "julienxx/terminal-notifier",
     "MaskRay/ccls",
+    "nfrechette/acl",
     "NixOS/patchelf",
     "nvim-telescope/telescope-fzf-native.nvim",
     "NVlabs/nvdiffrast",
     "pothosware/SoapySDR",
     "rurban/smhasher",
+    "sysstat/sysstat",
+    "Tessil/robin-map",
     "tpoechtrager/osxcross",
     "ZipArchive/ZipArchive"
   ]

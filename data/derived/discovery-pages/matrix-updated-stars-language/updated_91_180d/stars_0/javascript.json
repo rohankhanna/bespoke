@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 6,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 1,
+    "terms": 2
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "repo_ids": [
+    "illusionfield/fourseven-scss"
+  ]
+}

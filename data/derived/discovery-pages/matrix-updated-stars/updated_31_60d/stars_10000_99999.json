@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 293,
-    "concepts": 195,
-    "observations": 195,
-    "repos": 37,
-    "terms": 205
+    "components": 312,
+    "concepts": 203,
+    "observations": 203,
+    "repos": 40,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -31,6 +31,7 @@
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
     "knownsec/404StarLink",
+    "lokesh/color-thief",
     "nikic/PHP-Parser",
     "PaddlePaddle/PaddleDetection",
     "powerline/powerline",
@@ -47,8 +48,10 @@
     "sql-js/sql.js",
     "superclaude-org/superclaude_framework",
     "tpope/vim-fugitive",
+    "typicode/husky",
     "uber-go/zap",
     "vercel/satori",
-    "videojs/video.js"
+    "videojs/video.js",
+    "Wan-Video/Wan2.1"
   ]
 }

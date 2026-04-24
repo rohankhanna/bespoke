@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 143,
-    "observations": 145,
-    "repos": 19,
-    "terms": 140
+    "components": 121,
+    "concepts": 150,
+    "observations": 152,
+    "repos": 22,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "ada-url/ada",
     "AFLplusplus/AFLplusplus",
@@ -21,6 +21,7 @@
     "ericniebler/range-v3",
     "google/honggfuzz",
     "intel/isa-l",
+    "libjpeg-turbo/libjpeg-turbo",
     "mattn/go-sqlite3",
     "mcmilk/7-Zip-zstd",
     "microsoft/wil",
@@ -29,6 +30,8 @@
     "NVIDIA/libnvidia-container",
     "pnggroup/libpng",
     "risc0/risc0",
+    "stevenlovegrove/Pangolin",
+    "uNetworking/uSockets",
     "vstakhov/libucl",
     "webmproject/libwebp",
     "wjakob/nanobind",

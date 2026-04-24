@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 126,
-    "observations": 129,
-    "repos": 15,
-    "terms": 124
+    "components": 210,
+    "concepts": 161,
+    "observations": 164,
+    "repos": 18,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "abetlen/llama-cpp-python",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
+    "camel-ai/owl",
     "dask/dask",
+    "dottxt-ai/outlines",
     "google/yapf",
+    "hpcaitech/ColossalAI",
     "karpathy/nanochat",
     "letta-ai/letta",
     "Lightning-AI/litgpt",

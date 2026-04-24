@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 172,
-    "observations": 173,
-    "repos": 26,
-    "terms": 169
+    "components": 209,
+    "concepts": 209,
+    "observations": 210,
+    "repos": 32,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "adobe-type-tools/afdko",
+    "andymass/vim-matchup",
     "automazeio/vibeproxy",
     "BLAKE3-team/BLAKE3",
     "crytic/building-secure-contracts",
@@ -26,10 +27,15 @@
     "grain-lang/grain",
     "itchyny/lightline.vim",
     "jeremyevans/roda",
+    "junegunn/seoul256.vim",
+    "KhronosGroup/glTF",
     "licensee/licensed",
+    "MagicDuck/grug-far.nvim",
+    "microsoft/ai-dev-gallery",
+    "microsoft/vscode-codicons",
+    "ml-explore/mlx-swift-examples",
     "NVIDIA/nccl-tests",
-    "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-tree.lua",
+    "nvim-neo-tree/neo-tree.nvim",
     "ocaml/opam",
     "pyannote/pyannote-audio",
     "pyenv-win/pyenv-win",

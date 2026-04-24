@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 13,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "behisecc/awesome-claude-skills",
-    "FunnyWolf/Viper"
+    "esbatmop/MNBVC",
+    "FunnyWolf/Viper",
+    "skills-directory/skill-codex"
   ]
 }

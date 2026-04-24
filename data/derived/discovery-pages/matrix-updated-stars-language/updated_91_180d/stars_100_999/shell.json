@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 9,
-    "terms": 31
+    "components": 10,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 11,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "acomagu/fish-async-prompt",
     "asdf-community/asdf-direnv",
+    "asdf-community/asdf-kubectl",
     "coredns/deployment",
     "helm/chart-releaser-action",
     "jandamm/zgenom",
     "mpv-player/mpv-build",
     "multiformats/multihash",
     "pyenv/pyenv-update",
+    "romkatv/zsh-bench",
     "rootless-containers/usernetes"
   ]
 }

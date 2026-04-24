@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 23,
-    "terms": 85
+    "components": 203,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 28,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "64bit/commandOK",
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "andelf/axcli",
+    "andelf/picc",
+    "arkworks-rs/spongefish",
     "bitcoindevkit/bdk_wallet",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
@@ -25,11 +27,14 @@
     "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
+    "eth-act/ere",
+    "eth-act/zkboost",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "janrueth/boring-rustls-provider",
     "major7apps/pensyve",
     "multiformats/rust-cid",
+    "nico-abram/blondie",
     "phiat/claude-esp-rs",
     "Sovereign-Labs/rollup-starter",
     "tombelieber/claude-view",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 197,
-    "observations": 197,
-    "repos": 37,
-    "terms": 194
+    "components": 107,
+    "concepts": 226,
+    "observations": 226,
+    "repos": 45,
+    "terms": 223
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "albumentations-team/albumentations",
     "allenai/allennlp",
     "apple/ml-stable-diffusion",
     "aristocratos/bpytop",
+    "black-forest-labs/flux",
+    "chenfei-wu/TaskMatrix",
     "coqui-ai/TTS",
     "cumulo-autumn/StreamDiffusion",
     "databrickslabs/dolly",
@@ -27,15 +29,19 @@
     "facebookresearch/detr",
     "facebookresearch/fairseq",
     "fxsjy/jieba",
+    "graphdeco-inria/gaussian-splatting",
     "haotian-liu/llava",
     "httpie/cli",
     "IDEA-Research/GroundingDINO",
+    "jina-ai/clip-as-service",
     "junyanz/pytorch-CycleGAN-and-pix2pix",
     "karpathy/minGPT",
     "kkroening/ffmpeg-python",
+    "lllyasviel/ControlNet",
     "lm-sys/FastChat",
     "Megvii-BaseDetection/YOLOX",
     "meta-llama/llama",
+    "meta-llama/llama3",
     "microsoft/cascadia-code",
     "microsoft/LoRA",
     "microsoft/Swin-Transformer",
@@ -47,7 +53,9 @@
     "OpenMOSS/MOSS",
     "pytorch/examples",
     "rsms/inter",
+    "Sanster/IOPaint",
     "tatsu-lab/stanford_alpaca",
+    "Vision-CAIR/MiniGPT-4",
     "waditu/tushare",
     "zai-org/ChatGLM-6B",
     "zai-org/ChatGLM2-6B"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 13,
-    "terms": 32
+    "components": 40,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 17,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0xrsydn/nix-hermes-agent",
+    "aspect-build/rules_cypress",
     "astropy/astropy-project",
     "awslabs/aws-lc-verification",
     "dominique-unruh/qrhl-tool",
+    "donderom/llm4s",
     "dwyl/auth_plug",
     "ekino/frankenphp-magento2",
+    "flatpak/flatpak-docs",
     "janestreet/tracing",
     "niheaven/scoop-sysinternals",
+    "NixOS/nix-installer-action",
     "notomo/vusted",
     "nvim-mini/mini.base16",
     "ocurrent/obuilder",

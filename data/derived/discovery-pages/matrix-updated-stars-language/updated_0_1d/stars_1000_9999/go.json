@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 123,
-    "observations": 125,
-    "repos": 14,
-    "terms": 123
+    "components": 134,
+    "concepts": 126,
+    "observations": 128,
+    "repos": 13,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
-    "anacrolix/torrent",
+    "AdguardTeam/dnsproxy",
+    "akuity/kargo",
     "chainguard-dev/apko",
     "connectrpc/connect-go",
     "envoyproxy/go-control-plane",
@@ -25,8 +26,6 @@
     "knative/eventing",
     "knative/serving",
     "kubernetes/autoscaler",
-    "kubernetes/test-infra",
-    "NVIDIA/nvidia-container-toolkit",
     "oapi-codegen/oapi-codegen"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 39,
-    "terms": 23
+    "concepts": 30,
+    "observations": 30,
+    "repos": 44,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "alexcrichton/git2-rs",
@@ -20,9 +20,11 @@
     "blockstream/rust-electrum-client",
     "build2-packaging/range-v3",
     "BUTSpeechFIT/CALLHOME_sublists",
+    "chriskempson/base16-templates",
     "connectai-e/dingtalk-claude",
     "ConnectAI-E/Dingtalk-Midjourney",
     "connectai-e/dingtalk-minimax",
+    "containers/release-keys",
     "coreybutler/staticassets",
     "crytic/solc",
     "cta-wave/wmas-deploy",
@@ -41,9 +43,12 @@
     "jiweimaster/lfs",
     "jupyter/notebook-team-compass",
     "layr-labs/avs-vibe-developer-guide",
+    "LianjiaTech/athena-model-zoo",
     "notaryproject/.github",
     "notaryproject/meeting-notes",
     "pandas-dev/.github",
+    "PatMyron/cfn-lint-online",
+    "pimlie/geekworm-x-c1",
     "pulsar-cooperative/.github",
     "seebye/urwid-ueberzogen",
     "vega/logos",

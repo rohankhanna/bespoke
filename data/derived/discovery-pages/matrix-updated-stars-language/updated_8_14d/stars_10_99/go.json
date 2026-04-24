@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 31,
-    "observations": 32,
-    "repos": 11,
-    "terms": 30
+    "components": 62,
+    "concepts": 40,
+    "observations": 41,
+    "repos": 13,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "allenreder/cliproxyapi-quota-inspector",
+    "antham/ghokin",
     "apache/dubbo-go-pixiu-samples",
     "apptainer/sif",
     "benchsci/rules_nodejs_gazelle",

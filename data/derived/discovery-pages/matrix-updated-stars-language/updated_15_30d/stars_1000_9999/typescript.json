@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 469,
-    "concepts": 117,
-    "observations": 118,
-    "repos": 16,
-    "terms": 124
+    "components": 729,
+    "concepts": 139,
+    "observations": 140,
+    "repos": 19,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "allweonedev/presentation-ai",
     "bash-lsp/bash-language-server",
     "butlerx/wetty",
     "changesets/action",
+    "electron/windows-installer",
     "enisdenjo/graphql-ws",
     "ethers-io/ethers.js",
     "glittercowboy/taches-cc-resources",
@@ -27,6 +29,7 @@
     "microsoft/node-pty",
     "peter-evans/repository-dispatch",
     "react-native-webview/react-native-webview",
+    "REditorSupport/vscode-R",
     "standard/eslint-config-standard",
     "thx/resvg-js",
     "TypeStrong/ts-loader"

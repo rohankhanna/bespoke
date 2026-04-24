@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 25,
-    "terms": 110
+    "components": 155,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 28,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "actboy168/bee.lua",
     "ampl/mp",
     "aseprite/laf",
     "coin-or/Cbc",
     "cusplibrary/cusplibrary",
+    "DavidKinder/Inform6",
     "Ezibenroc/PyRoaringBitMap",
     "freebsd/kyua",
     "Frommi/miniz_oxide",
     "google/fuzztest",
     "google/jpegli",
+    "google/riegeli",
     "hajimes/mmh3",
     "intel/intel-ipsec-mb",
     "ipsilon/evmone",
@@ -38,6 +40,7 @@
     "pyg-team/pyg-lib",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
-    "ROCm/composable_kernel"
+    "ROCm/composable_kernel",
+    "SaschaWillems/HowToVulkan"
   ]
 }

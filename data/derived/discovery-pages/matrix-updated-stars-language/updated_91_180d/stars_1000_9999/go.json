@@ -3,7 +3,7 @@
     "components": 56,
     "concepts": 73,
     "observations": 73,
-    "repos": 13,
+    "repos": 14,
     "terms": 73
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "ajvb/kala",
@@ -20,6 +20,7 @@
     "charmbracelet/skate",
     "containernetworking/cni",
     "ddollar/forego",
+    "gin-gonic/contrib",
     "github/git-sizer",
     "h2non/imaginary",
     "jhump/protoreflect",

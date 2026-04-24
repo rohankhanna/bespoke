@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 21,
-    "terms": 97
+    "components": 121,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 28,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "alexei-led/aws-mcp-server",
+    "angr/angrop",
     "BrianPugh/belay",
+    "celery/py-amqp",
     "Chris-hughes10/pytorch-accelerated",
     "cleinc/bts",
+    "google/adk-python-community",
     "hukkin/mdformat",
     "jsegov/autoresearch-win-rtx",
     "LAION-AI/CLIP_benchmark",
@@ -28,12 +31,16 @@
     "nii-yamagishilab/project-NN-Pytorch-scripts",
     "objectbox/objectbox-python",
     "Osilly/Vision-DeepResearch",
+    "psf/pyperf",
     "PyCQA/modernize",
     "sarugaku/resolvelib",
+    "sarugaku/shellingham",
+    "scottchiefbaker/dool",
     "strands-agents/mcp-server",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
+    "wenet-e2e/WeTextProcessing",
     "yanring/Megatron-MoE-ModelZoo"
   ]
 }

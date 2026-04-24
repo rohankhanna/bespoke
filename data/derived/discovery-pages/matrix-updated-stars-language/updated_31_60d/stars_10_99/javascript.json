@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 4,
-    "terms": 10
+    "components": 56,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 5,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "ably-labs/realtime-multiplayer-space-invaders",
     "brody2consult/react-native-module-init",
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 103,
-    "observations": 103,
+    "components": 134,
+    "concepts": 117,
+    "observations": 117,
     "repos": 13,
-    "terms": 103
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "arkworks-rs/algebra",
+    "0x676e67/wreq",
     "arkworks-rs/crypto-primitives",
     "ComunidadAylas/PackSquash",
     "enbop/fungi",
     "EspressoSystems/espresso-network",
-    "fancy-regex/fancy-regex",
     "huggingface/hf-hub",
     "lambdaclass/ethrex",
     "lu-zero/cargo-c",
     "NixOS/nix-installer",
     "OptiVorbis/OptiVorbis",
     "rust-bitcoin/rust-miniscript",
-    "typst/packages"
+    "typst/packages",
+    "yetanotherco/aligned_layer"
   ]
 }

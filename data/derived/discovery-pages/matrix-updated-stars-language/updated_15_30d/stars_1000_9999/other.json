@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 31,
-    "terms": 169
+    "components": 244,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 37,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "airblade/vim-gitgutter",
+    "akermu/emacs-libvterm",
+    "Alamofire/AlamofireImage",
     "arviz-devs/arviz",
     "bbatsov/prelude",
     "cake-build/cake",
@@ -23,11 +25,13 @@
     "compose-spec/compose-spec",
     "ctrlpvim/ctrlp.vim",
     "dart-lang/http",
+    "gjtorikian/html-proofer",
     "gpu-mode/Triton-Puzzles",
     "haleclipse/claudix",
     "hrsh7th/nvim-cmp",
     "ipfs/specs",
     "ipld/ipld",
+    "jgm/djot",
     "jpsim/Yams",
     "L3MON4D3/LuaSnip",
     "luarocks/luarocks",
@@ -36,6 +40,7 @@
     "mattn/vim-lsp-settings",
     "mfussenegger/nvim-dap",
     "nmattia/niv",
+    "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     "OmniSharp/omnisharp-roslyn",
     "r-lib/lintr",
@@ -44,6 +49,7 @@
     "steipete/peekaboo",
     "stevearc/overseer.nvim",
     "swiftbar/SwiftBar",
+    "tc39/proposal-temporal",
     "zarazhangrui/codebase-to-course"
   ]
 }

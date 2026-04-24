@@ -1,23 +1,25 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 41,
-    "terms": 79
+    "components": 229,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 50,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "aar0npb/curator-skill",
     "abraxas-365/claudio-codex",
     "ada-url/kotlin",
+    "ada-url/url-various-datasets",
     "agenmod/okr-skill",
+    "AI-Agent-Hub/mcp-marketplace",
     "alibaizhanov/openclaw-mengram",
     "archestra-ai/terraform-provider-archestra",
     "Asmod4n/mruby-fast-json",
@@ -33,6 +35,7 @@
     "danielrosehill/claude-slash-commands",
     "DataDog/trivy",
     "dnvt/burn-speech-training",
+    "dwyl/auth_plug_example",
     "EspressoSystems/Push-CDN",
     "ethpandaops/cbt",
     "ethpandaops/checkpoint-sync-health-checks",
@@ -44,15 +47,21 @@
     "ldayton/parable",
     "ldayton/Tongues",
     "Level/read-stream",
+    "Level/supports",
+    "Level/transcoder",
     "marcindulak/learning-api-styles-gen-ai-experiments",
+    "marin-community/kitoken",
     "Mbed-TLS/mbedtls-framework",
     "microsoft/LinuxTracepoints-Net",
     "mybigday/whisper.node",
+    "mypyc/librt",
     "objectbox/objectbox-swift-spm",
     "objectbox/objectbox-sync-examples",
+    "octokit/openapi-webhooks",
     "oscard0m/ts-transformer-remove-named-export",
     "rapidsai/gha-tools",
     "ScoopInstaller/.github",
+    "sp1-patches/bn",
     "WebAssembly/compact-import-section"
   ]
 }

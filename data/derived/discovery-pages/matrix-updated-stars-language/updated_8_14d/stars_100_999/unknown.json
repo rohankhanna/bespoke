@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 13,
-    "terms": 58
+    "components": 16,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 16,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
@@ -21,11 +21,14 @@
     "cloudflare/skills",
     "cncf/artwork",
     "dotnet-foundation/projects",
+    "dotnet/AspNetApiDocs",
+    "gautamkrishnar/gautamkrishnar",
     "MicrosoftDocs/terminal",
     "piebald-ai/awesome-gemini-cli",
     "pyOpenSci/software-submission",
     "SamurAIGPT/awesome-openclaw",
     "servo/project",
+    "tc39/how-we-work",
     "Uzaaft/awesome-libghostty"
   ]
 }

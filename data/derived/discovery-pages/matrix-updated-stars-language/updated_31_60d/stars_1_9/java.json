@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 3,
-    "terms": 34
+    "components": 18,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 6,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "filip26/copper-multibase",
     "filip26/copper-multicodec",
-    "filip26/titanium-jcs"
+    "filip26/titanium-jcs",
+    "filip26/titanium-rdf-canon",
+    "filip26/titanium-rdf-n-quads",
+    "filip26/tree-io"
   ]
 }

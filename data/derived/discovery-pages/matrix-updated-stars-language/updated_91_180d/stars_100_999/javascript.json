@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 10,
-    "terms": 25
+    "components": 127,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 13,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "ayoubben18/ab-method",
+    "bramstein/url-template",
     "charmbracelet/tree-sitter-vhs",
     "ethereum/portal-network-specs",
     "gherghett/Antigravity-Shit-Chat",
@@ -23,6 +24,8 @@
     "nodejs/abi-stable-node",
     "nodejs/citgm",
     "restify/errors",
+    "rust-lang/lang-team",
+    "tree-sitter/tree-sitter-julia",
     "ValYouW/njsTrace"
   ]
 }

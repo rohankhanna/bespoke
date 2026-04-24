@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 10,
-    "terms": 55
+    "components": 22,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 12,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -20,8 +20,10 @@
     "aws-controllers-k8s/community",
     "dotnet/docs",
     "FasterXML/jackson",
+    "flathub/flathub",
     "ratatui/awesome-ratatui",
     "rust-embedded/awesome-embedded-rust",
+    "rust-embedded/wg",
     "rustsec/advisory-db",
     "shuaibiyy/awesome-tf"
   ]

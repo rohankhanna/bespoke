@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 130,
-    "observations": 131,
-    "repos": 19,
-    "terms": 130
+    "components": 191,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 21,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,28 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "ai-dynamo/aiconfigurator",
     "AI-Hypercomputer/maxdiffusion",
+    "ArkMowers/arknights-mower",
+    "aws/aws-lambda-builders",
+    "Azure/azure-cli-extensions",
     "Azure/azure-linux-extensions",
     "boto/s3transfer",
+    "celery/vine",
+    "Comfy-Org/comfy-cli",
     "conda-forge/staged-recipes",
     "conda/conda-lock",
     "eole-nlp/eole",
-    "KBH00/Semantic-Fast-SAM",
+    "graphistry/graph-app-kit",
     "marin-community/marin",
-    "NVIDIA-NeMo/Megatron-Bridge",
     "open-thoughts/OpenThoughts-Agent",
-    "OpenHands/OpenHands-CLI",
-    "OpenHands/software-agent-sdk",
     "pylint-dev/astroid",
     "pymc-devs/pytensor",
     "scikit-build/scikit-build-core",
-    "searxng/searx-instances",
     "ultralytics/docs",
-    "ultralytics/thop"
+    "vllm-project/flash-attention",
+    "volcengine/volcengine-python-sdk"
   ]
 }

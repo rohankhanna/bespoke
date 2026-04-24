@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 21,
-    "terms": 68
+    "components": 81,
+    "concepts": 85,
+    "observations": 86,
+    "repos": 27,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "AgentR1/Claw-R1",
     "AGI-Arena/MARS",
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
+    "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
     "biocypher/biocypher",
     "ddh0/easy-llama",
@@ -27,13 +28,18 @@
     "HoangTheQuyen/think-better",
     "langfengQ/DrMAS",
     "ldayton/dippy",
+    "matthew-brett/delocate",
+    "meta-pytorch/torchft",
     "microsoft/XPretrain",
     "MinimalFuture/AgentMesh",
     "modelscope/DiffSynth-Engine",
     "mosaicml/diffusion",
+    "pnkraemer/matfree",
     "python/typing_extensions",
+    "spesmilo/electrumx",
     "syncthing/docs",
     "TextArena/UnstableBaselines",
-    "twisted/towncrier"
+    "twisted/towncrier",
+    "xavierpuigf/virtualhome"
   ]
 }

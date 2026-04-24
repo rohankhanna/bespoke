@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 14,
-    "terms": 61
+    "components": 83,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 16,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
+    "anacrolix/dht",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-xray-daemon",
@@ -22,6 +23,7 @@
     "ChristopherHX/github-act-runner",
     "erigontech/interfaces",
     "hashicorp/raft-boltdb",
+    "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",
     "mholt/acmez",

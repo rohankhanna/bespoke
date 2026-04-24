@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 415,
-    "concepts": 424,
-    "observations": 426,
-    "repos": 42,
-    "terms": 429
+    "components": 447,
+    "concepts": 467,
+    "observations": 469,
+    "repos": 47,
+    "terms": 472
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "alibaba/MNN",
     "apache/arrow",
+    "apple/foundationdb",
     "aseprite/aseprite",
     "bitcoin/bitcoin",
     "ClickHouse/ClickHouse",
@@ -25,11 +26,14 @@
     "emscripten-core/emscripten",
     "facebook/folly",
     "facebook/rocksdb",
+    "facebookresearch/faiss",
     "fmtlib/fmt",
+    "FreeRDP/FreeRDP",
     "gabime/spdlog",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "git/git",
+    "gnachman/iTerm2",
     "google/benchmark",
     "google/flatbuffers",
     "google/sentencepiece",
@@ -37,6 +41,7 @@
     "Immediate-Mode-UI/Nuklear",
     "jonas/tig",
     "jqlang/jq",
+    "microsoft/onnxruntime",
     "microsoft/react-native-windows",
     "microsoft/winget-cli",
     "microsoft/WSL",

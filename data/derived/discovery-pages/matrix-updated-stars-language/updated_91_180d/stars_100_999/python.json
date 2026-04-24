@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 152,
-    "observations": 153,
-    "repos": 37,
-    "terms": 150
+    "components": 144,
+    "concepts": 195,
+    "observations": 198,
+    "repos": 49,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
     "Alibaba-NLP/ViDoRAG",
     "alirezarezvani/claude-code-skill-factory",
+    "Alpha-VLLM/Lumina-Image-2.0",
     "apple/ToolSandbox",
     "ashvardanian/less_slow.py",
     "axon-rl/gem",
@@ -30,26 +31,37 @@
     "criteo/autofaiss",
     "CSfufu/Revisual-R1",
     "f-dangel/backpack",
+    "fonttools/fontbakery",
     "googlefonts/fontmake",
     "gristlabs/asttokens",
     "hluaguo/learn-faster-kit",
     "httplib2/httplib2",
+    "IAAR-Shanghai/xFinder",
+    "inclusionAI/ASearcher",
+    "joblib/threadpoolctl",
     "KellerJordan/cifar10-airbench",
     "kevinhwang91/rnvimr",
     "LAION-AI/audio-dataset",
+    "luost26/diffusion-point-cloud",
     "madebyollin/taesd",
     "multi-swe-bench/multi-swe-bench",
     "mxmlnkn/rapidgzip",
     "OpenBMB/AppCopilot",
     "OpenBMB/VisRAG",
+    "OpenGVLab/GUI-Odyssey",
+    "OpenHands/ToM-SWE",
     "Parallel-Reasoning/APR",
     "pat-jj/s3",
+    "PyCQA/eradicate",
+    "redis-stack/redis-stack",
     "rust-lang/homu",
     "sayakpaul/diffusers-torchao",
     "strands-agents/agent-builder",
     "theupdateframework/specification",
+    "TsinghuaDatabaseGroup/DB-GPT",
     "TTPlanetPig/Comfyui_TTP_Toolset",
     "virtuald/pyhcl",
+    "wenet-e2e/wetts",
     "yashsinghcodes/wik"
   ]
 }

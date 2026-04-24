@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 72,
-    "observations": 73,
-    "repos": 23,
-    "terms": 72
+    "components": 161,
+    "concepts": 76,
+    "observations": 77,
+    "repos": 28,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "actboy168/json.lua",
     "ahyatt/emacs-websocket",
@@ -25,16 +25,21 @@
     "claytonfarr/ralph-playbook",
     "cpp-pm/hunter",
     "Dao-AILab/causal-conv1d",
+    "dwyl/labels",
     "Embarcadero/P4D-Data-Sciences",
+    "Embarcadero/python4delphi",
     "fsharp/fslang-design",
     "iftheshoefritz/solargraph-rails",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
     "lifepillar/vim-mucomplete",
     "microsoft/microsoft-performance-toolkit-sdk",
+    "milvus-io/milvus-sdk-csharp",
+    "ocurrent/ocaml-ci",
     "prabirshrestha/asyncomplete.vim",
     "pug-php/pug",
     "trailofbits/eth-security-toolbox",
+    "travis-ci/travis-api",
     "unxsist/jet-pilot",
     "WebAssembly/esm-integration"
   ]

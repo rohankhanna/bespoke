@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 6,
-    "terms": 46
+    "components": 181,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 7,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "addyosmani/chatty",
+    "axel-op/googlejavaformat-action",
     "castwide/vscode-solargraph",
     "lambdalisue/vim-gin",
     "lobehub/lobe-cli-toolbox",

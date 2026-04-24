@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 35,
-    "terms": 27
+    "concepts": 20,
+    "observations": 20,
+    "repos": 37,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -21,6 +21,7 @@
     "biparous-blaxploitation156/ciphermind",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
+    "conda-forge/conda-lock-feedstock",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
@@ -40,6 +41,7 @@
     "danielrosehill/Claude-Audio-Production-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
+    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "foundersieve687/skill-gateway",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",

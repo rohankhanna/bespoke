@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 6,
-    "terms": 28
+    "components": 49,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 8,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "connectbot/sshlib",
+    "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
+    "googleapis/google-api-java-client-services",
     "googleapis/google-oauth-java-client",
     "microsoft/java-debug",
     "microsoft/semantic-kernel-java",

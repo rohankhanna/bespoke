@@ -3,7 +3,7 @@
     "components": 4,
     "concepts": 5,
     "observations": 5,
-    "repos": 5,
+    "repos": 6,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "bell-sw/osv-database",
     "conda-forge/ultralytics-feedstock",
     "danielrosehill/Claude-Code-Plugins",
     "eslint/.github",

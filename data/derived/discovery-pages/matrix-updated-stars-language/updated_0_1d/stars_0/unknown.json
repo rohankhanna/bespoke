@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "concepts": 6,
+    "observations": 6,
+    "repos": 3,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "conda-forge/tianshou-feedstock",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/Claude-Israel"
   ]

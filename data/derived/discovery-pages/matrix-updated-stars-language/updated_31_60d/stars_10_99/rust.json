@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 9,
-    "terms": 47
+    "components": 44,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 11,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
+    "arkworks-rs/std",
     "Cykooz/libheif-rs",
     "dgn/oidc-filter",
     "fortanix/rust-mbedtls",
+    "libp2p/if-watch",
     "microsoft/tracing-etw",
     "nebelgrau77/airsniffer-esp32c6",
     "Vaishnav-Sabari-Girish/Hayasen"

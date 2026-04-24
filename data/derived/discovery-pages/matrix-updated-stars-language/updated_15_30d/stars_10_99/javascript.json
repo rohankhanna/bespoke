@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 12,
-    "terms": 40
+    "components": 98,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 14,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "AdguardTeam/CodeGuidelines",
     "angular/domino",
     "berty/www.berty.tech",
     "coderaiser/supertape",
     "dart-lang/site-shared",
     "faressoft/inquirer-checkbox-plus-prompt",
+    "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
     "haskell-actions/run-fourmolu",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 14,
-    "terms": 33
+    "components": 65,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 20,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "arnetheduck/nph",
     "Azure/arm-ttk",
     "cross-rs/cross-toolchains",
     "CSU-Radarmet/CSU_RadarTools",
+    "CVEProject/cve-schema",
+    "domluna/JuliaFormatter.jl",
     "ema2159/centaur-tabs",
     "envoyproxy/data-plane-api",
     "filiph/linkcheck",
@@ -25,8 +28,11 @@
     "JacksonBurns/chemeleon",
     "loqusion/typix",
     "rapidsai-community/notebooks-contrib",
+    "renzmann/treesit-auto",
     "swansonk14/admet_ai",
     "tpapp/julia-repl",
-    "vim-php/phpctags"
+    "vim-php/phpctags",
+    "WebAssembly/tool-conventions",
+    "wjakob/nanobind_example"
   ]
 }

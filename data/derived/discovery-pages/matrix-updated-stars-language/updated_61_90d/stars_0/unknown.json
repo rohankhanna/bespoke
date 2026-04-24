@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "unknown",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "repo_ids": [
+    "get-gah/gah-db"
+  ]
+}

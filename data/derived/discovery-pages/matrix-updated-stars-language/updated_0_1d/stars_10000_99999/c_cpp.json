@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 17,
-    "terms": 189
+    "components": 148,
+    "concepts": 258,
+    "observations": 259,
+    "repos": 20,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,27 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "apple/foundationdb",
+    "arangodb/arangodb",
     "argotorg/solidity",
     "bkaradzic/bgfx",
     "bpftrace/bpftrace",
     "chromium/chromium",
     "envoyproxy/envoy",
-    "facebookresearch/faiss",
-    "FreeRDP/FreeRDP",
-    "gnachman/iTerm2",
+    "google-ai-edge/mediapipe",
+    "google/filament",
+    "grpc/grpc",
     "libvips/libvips",
     "microsoft/mimalloc",
-    "microsoft/onnxruntime",
+    "microsoft/STL",
     "openvinotoolkit/openvino",
+    "PaddlePaddle/Paddle",
     "protocolbuffers/protobuf",
     "qemu/qemu",
     "raysan5/raylib",
-    "systemd/systemd"
+    "redis/redis",
+    "systemd/systemd",
+    "taskflow/taskflow"
   ]
 }

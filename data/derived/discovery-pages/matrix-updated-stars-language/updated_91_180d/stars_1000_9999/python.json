@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 151,
-    "observations": 151,
-    "repos": 29,
-    "terms": 151
+    "components": 105,
+    "concepts": 185,
+    "observations": 185,
+    "repos": 36,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
+    "andialbrecht/sqlparse",
     "cleanlab/cleanvision",
     "cloudpipe/cloudpickle",
     "deepseek-ai/DeepSeek-V3.2-Exp",
@@ -25,11 +26,14 @@
     "facebookresearch/pytorchvideo",
     "harbor-framework/terminal-bench",
     "hkust-nlp/simpleRL-reason",
+    "IBM/Project_CodeNet",
     "IntelLabs/fastRAG",
     "InternLM/InternLM",
     "KellerJordan/Muon",
     "meta-llama/synthetic-data-kit",
+    "myhub/tr",
     "NixOS/nixops",
+    "nod-ai/AMD-SHARK-Studio",
     "NVIDIA/ChatRTX",
     "offu/WeRoBot",
     "ollama/ollama-python",
@@ -38,10 +42,13 @@
     "Paper2Poster/Paper2Poster",
     "PeterGriffinJin/Search-R1",
     "protectai/llm-guard",
+    "PyCQA/pycodestyle",
     "python-lsp/python-lsp-server",
     "pytorch/extension-cpp",
     "simonw/sqlite-utils",
     "SublimeLinter/SublimeLinter",
-    "tensorflow/agents"
+    "Supervisor/supervisor",
+    "tensorflow/agents",
+    "uber/petastorm"
   ]
 }

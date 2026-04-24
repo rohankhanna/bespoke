@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 35,
-    "observations": 36,
-    "repos": 11,
-    "terms": 55
+    "components": 365,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 12,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
     "buddingnewinsights/proxypal",
     "electron-userland/electron-windows-msix",
     "Godefroy/micdrop",
     "huangguang1999/ccstatusline-zh",
+    "ipfs/ipld-explorer-components",
     "jerseycheese/narraitor",
     "labring/fastgpt-plugin",
     "lobehub/lobe-lint",

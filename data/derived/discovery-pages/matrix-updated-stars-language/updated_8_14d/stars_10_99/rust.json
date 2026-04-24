@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 7,
-    "terms": 35
+    "components": 76,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 9,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "alixinne/glsl-lang",
+    "antonWetzel/prettypst",
     "BlackDex/rust-musl",
     "crate-ci/imperative",
     "hagan/claudia-statusline",

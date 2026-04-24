@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 3,
-    "terms": 9
+    "components": 298,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 6,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "celo-org/social-connect",
     "grafana/profiles-drilldown",
+    "gridatek/semantic-icons",
     "mcous/vitest-when",
+    "octokit/webhooks-methods.js",
     "TrigenSoftware/simple-release"
   ]
 }

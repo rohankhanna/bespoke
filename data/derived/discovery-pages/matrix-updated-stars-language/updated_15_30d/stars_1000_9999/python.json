@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 181,
-    "observations": 181,
-    "repos": 35,
-    "terms": 181
+    "components": 183,
+    "concepts": 208,
+    "observations": 208,
+    "repos": 40,
+    "terms": 207
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "6551Team/opennews-mcp",
     "ajenti/ajenti",
     "ApeWorX/ape",
     "atlassian-api/atlassian-python-api",
+    "bpython/bpython",
     "chemprop/chemprop",
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
@@ -26,14 +27,18 @@
     "drivendataorg/cookiecutter-data-science",
     "facebookincubator/AITemplate",
     "getzep/zep",
+    "google-deepmind/acme",
     "graphql-python/gql",
     "hiyouga/EasyR1",
     "huggingface/nanotron",
     "huggingface/optimum-quanto",
     "huggingface/smollm",
     "intel/intel-extension-for-pytorch",
+    "ionelmc/pytest-benchmark",
     "Kapeli/Dash-User-Contributions",
+    "linkchecker/linkchecker",
     "microsoft/MInference",
+    "miguelgrinberg/python-socketio",
     "ml-explore/mlx-examples",
     "mosaicml/composer",
     "mosaicml/llm-foundry",

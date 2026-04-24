@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
+    "components": 9,
+    "concepts": 10,
+    "observations": 10,
     "repos": 1,
-    "terms": 0
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "gerardtschanz/revenue-os"
+    "nodenv/node-build-prerelease"
   ]
 }

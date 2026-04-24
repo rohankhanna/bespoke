@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 6,
-    "terms": 34
+    "components": 301,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 9,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "DeterminateSystems/nix-installer-action",
+    "astral-sh/ruff-action",
+    "docker/bake-action",
     "graphprotocol/graph-client",
+    "microsoft/playwright-vscode",
     "octokit/request.js",
     "octokit/webhooks.js",
     "redhat-developer/vscode-xml",
+    "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi"
   ]
 }

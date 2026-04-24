@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 3,
-    "terms": 13
+    "components": 27,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 6,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "bluesky-social/pds",
     "containers/toolbox",
+    "crosstool-ng/crosstool-ng",
     "diet103/claude-code-infrastructure-showcase",
-    "frankbria/ralph-claude-code"
+    "frankbria/ralph-claude-code",
+    "spiffe/spiffe"
   ]
 }

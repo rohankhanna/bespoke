@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 28,
-    "terms": 101
+    "components": 85,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 31,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "altercation/solarized",
+    "animate-css/animate.css",
     "artidoro/qlora",
     "bitcoinbook/bitcoinbook",
     "brendangregg/FlameGraph",
+    "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
     "Carthage/Carthage",
     "Chanzhaoyu/chatgpt-web",
     "CompVis/latent-diffusion",
@@ -30,6 +32,7 @@
     "karpathy/llm.c",
     "mahmoud/awesome-python-applications",
     "mamoe/mirai",
+    "mhinz/vim-galore",
     "microsoft/dotnet",
     "mozilla/TTS",
     "neonbjb/tortoise-tts",

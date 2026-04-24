@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 11,
-    "terms": 28
+    "components": 26,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 15,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "aseprite/clip",
     "aseprite/observable",
+    "CROSS-signature/CROSS-implementation",
     "dacap/observable",
+    "DeanoC/tiny_imageformat",
+    "edge-classic/EDGE-classic",
     "flatpak/flatpak-xdg-utils",
     "gozaltech/espeak-ng-sapi",
     "icecc/icemon",
     "intel/intel-extension-for-openxla",
     "JPEWdev/icecream-sundae",
+    "lemire/simple_fastfloat_benchmark",
     "microsoft/react-native-winrt",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing"

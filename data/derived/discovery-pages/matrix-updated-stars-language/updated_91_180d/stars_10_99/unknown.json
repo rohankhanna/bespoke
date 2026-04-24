@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 12,
-    "terms": 17
+    "components": 12,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 15,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "automazeio/open-royalties",
@@ -21,10 +21,13 @@
     "danielrosehill/claude-file-organiser-super-slash",
     "dredozubov/prd-generator",
     "eric-haibin-lin/verl-community",
+    "json-schema-org/.github",
     "jupyterlab/frontends-team-compass",
     "Level/community",
+    "oak-security/resources",
     "rose-pine/rose-pine-template",
     "stephenschoettler/taches-oc-prompts",
-    "VectorSpaceLab/Vis-IR"
+    "VectorSpaceLab/Vis-IR",
+    "vega/schema"
   ]
 }

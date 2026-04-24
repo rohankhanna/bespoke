@@ -1,38 +1,45 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 22,
-    "terms": 52
+    "components": 82,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 29,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "actions-oss/gh-rc",
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
     "airowe/claude-a11y-skill",
     "arya-s/phantty",
+    "avivshafir/israeli-corporate-law-skill",
     "biocypher/collectri",
     "birdofpreyru/js-utils",
     "chronosphereio/calyptia-api",
     "Coral-Protocol/coral-rs",
     "cpojer/js-codemod",
+    "dart4e/dart4e-studio",
+    "DavidKinder/Libraries",
     "dbubel/intake",
     "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
     "genius-harry/neural-chat",
     "hesreallyhim/inkverse-fork",
     "ldayton/bash-oracle",
+    "leaktk/gitleaks",
     "mjvolk3/torchcell",
+    "mlfoundations/SkyRL",
     "objectbox/objectbox-swift-generator",
     "piebald-ai/.github",
     "qiuyu96/CoDeF",
     "shesek/electrumd",
+    "tianon/fake-git",
     "trufflesecurity/test_keys",
     "zwowo1997/pack-repo-4ai"
   ]

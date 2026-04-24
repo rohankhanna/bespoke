@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 442,
-    "concepts": 68,
-    "observations": 70,
-    "repos": 18,
-    "terms": 82
+    "components": 699,
+    "concepts": 112,
+    "observations": 114,
+    "repos": 26,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "almogdepaz/wolfpack",
+    "apollographql/vscode-graphql",
     "Azure/bicep-deploy",
     "bufbuild/protovalidate-es",
+    "celo-org/developer-tooling",
+    "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "dokploy/cli",
     "electron/windows-sign",
+    "ethereum/eip-review-bot",
     "fannheyward/coc-xml",
+    "favware/cliff-jumper",
     "hashintel/labs",
+    "ipikuka/rehype-highlight-code-lines",
+    "ipikuka/remark-flexible-containers",
     "jkheadley/instar",
     "Kastalien-Research/thoughtbox",
     "llamastack/llama-stack-client-typescript",
@@ -29,6 +36,7 @@
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "slopus/slopus.github.io",
+    "vaultwarden/vw_web_builds",
     "wighawag/rocketh",
     "ylsssq926/relic.skill",
     "zuplo/docs"

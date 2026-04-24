@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 16
+    "components": 14,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 4,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "eclipse-aspectj/aspectj",
     "filip26/titanium-json-ld",
     "mebigfatguy/fb-contrib",
     "peergos/nabu"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 13,
-    "terms": 78
+    "components": 103,
+    "concepts": 120,
+    "observations": 120,
+    "repos": 17,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abap2UI5/samples",
     "apache/superset-site",
     "ast-grep/ast-grep.github.io",
+    "b-data/jupyterlab-python-docker-stack",
+    "b-data/jupyterlab-r-docker-stack",
     "be-hase/caffeine-coroutines",
     "chainguard-dev/rules_apko",
     "connectbot/termlib",
+    "dotnet/arcade-services",
+    "emibcn/badge-action",
     "nodenv/homebrew-nodenv",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocurrent/ocaml-dockerfile",
     "pq-code-package/mldsa-native",
-    "SAP/abap-file-formats-tools",
+    "saghen/blink.lib",
     "searxng/searx-instances-uptime",
     "servo/servo.org"
   ]

@@ -1,20 +1,21 @@
 {
   "counts": {
     "components": 9,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 3,
-    "terms": 16
+    "concepts": 19,
+    "observations": 19,
+    "repos": 4,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "airbnb/javascript",
     "anthropics/skills",
+    "kubernetes/kubernetes",
     "obra/superpowers"
   ]
 }

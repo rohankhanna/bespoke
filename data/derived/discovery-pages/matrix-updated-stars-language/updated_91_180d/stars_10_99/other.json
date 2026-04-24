@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 48,
-    "observations": 49,
-    "repos": 17,
-    "terms": 47
+    "components": 62,
+    "concepts": 60,
+    "observations": 61,
+    "repos": 25,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "64327069/LVAgent",
     "adelarsq/neovcs.vim",
     "adobe-type-tools/aots",
+    "ahrvoje/numerics",
     "aki-0929/PaddleOCRJson.NET",
     "ayrat555/cargo-mode",
     "Cle2ment/CherryStudio_themes",
@@ -24,12 +25,19 @@
     "ethpandaops/optimism-package",
     "getumbrel/umbrel-lightning",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
+    "jaegertracing/docker-protobuf",
     "kigster/puma-daemon",
+    "llvm/clangd-www",
     "mirage/ocaml-conduit",
+    "mvz/non-digest-assets",
     "opencontainers/oci-conformance",
     "pagedjs/pagedjs-cli",
     "PeterDaveHello/docker-doctoc",
     "pug-php/js-phpize",
-    "sbcgua/abap-string-map"
+    "sbcgua/abap-string-map",
+    "travis-ci/travis-hub",
+    "travis-ci/travis-listener",
+    "WebAV-Tech/WebAV-Pro",
+    "webdataset/WebDataset.jl"
   ]
 }

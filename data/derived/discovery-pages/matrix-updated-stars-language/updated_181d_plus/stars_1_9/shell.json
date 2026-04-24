@@ -3,7 +3,7 @@
     "components": 26,
     "concepts": 24,
     "observations": 25,
-    "repos": 20,
+    "repos": 21,
     "terms": 21
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -30,8 +30,9 @@
     "jandamm/zgenom-ext-release",
     "jandamm/zgenom-ext-run",
     "jinfeihan57/p7zip_test_utils",
+    "Rigellute/scoop-bucket",
     "to4iki/ai-project-rules",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "unixorn/autoupdate-zgenom",
     "videojs/admin"
   ]

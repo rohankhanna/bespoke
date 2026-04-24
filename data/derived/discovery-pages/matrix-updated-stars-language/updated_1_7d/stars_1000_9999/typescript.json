@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3274,
-    "concepts": 462,
-    "observations": 465,
-    "repos": 68,
-    "terms": 564
+    "components": 3468,
+    "concepts": 538,
+    "observations": 541,
+    "repos": 74,
+    "terms": 633
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -23,6 +23,7 @@
     "apollographql/apollo-tooling",
     "archestra-ai/archestra",
     "artifacthub/hub",
+    "astral-sh/ruff-vscode",
     "aws-actions/configure-aws-credentials",
     "berty/berty",
     "ChainSafe/lodestar",
@@ -36,6 +37,7 @@
     "ding113/claude-code-hub",
     "docker/build-push-action",
     "docker/login-action",
+    "docker/metadata-action",
     "docker/setup-buildx-action",
     "dyoshikawa/rulesync",
     "eemeli/yaml",
@@ -43,9 +45,12 @@
     "electron/forge",
     "electron/rebuild",
     "ethereumjs/ethereumjs-monorepo",
-    "firebase/firebase-admin-node",
     "florianbruniaux/claude-code-ultimate-guide",
+    "fontsource/fontsource",
+    "google/adk-js",
     "gorhom/react-native-bottom-sheet",
+    "graphql-hive/graphql-yoga",
+    "i18next/next-i18next",
     "iorate/ublacklist",
     "ipfs/helia",
     "kulshekhar/ts-jest",
@@ -58,7 +63,6 @@
     "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
     "matt1398/claude-devtools",
-    "maxritter/pilot-shell",
     "microsoft/vscode-js-debug",
     "mksglu/context-mode",
     "netlify/cli",
@@ -68,7 +72,9 @@
     "open-telemetry/opentelemetry-js",
     "OpenAPITools/openapi-generator-cli",
     "owloops/claude-powerline",
+    "panva/jose",
     "piebald-ai/tweakcc",
+    "prettier/prettier-vscode",
     "privatenumber/esbuild-loader",
     "react-native-community/cli",
     "redhat-developer/yaml-language-server",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 73,
-    "observations": 74,
-    "repos": 17,
-    "terms": 71
+    "components": 94,
+    "concepts": 123,
+    "observations": 124,
+    "repos": 22,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "akheron/jansson",
     "arrayfire/arrayfire",
+    "ashvardanian/StringZilla",
     "bblanchon/ArduinoJson",
+    "Chlumsky/msdfgen",
     "coin-or/Ipopt",
     "containers/bubblewrap",
     "flashlight/flashlight",
@@ -26,10 +28,13 @@
     "icecc/icecream",
     "libgit2/rugged",
     "microsoft/onnxruntime-inference-examples",
+    "onnx/onnx-tensorrt",
     "redis/hiredis",
+    "snapcast/snapcast",
     "sqlcipher/sqlcipher",
     "TechEmpower/FrameworkBenchmarks",
     "void-linux/xbps",
+    "wang-xinyu/tensorrtx",
     "zardus/preeny"
   ]
 }

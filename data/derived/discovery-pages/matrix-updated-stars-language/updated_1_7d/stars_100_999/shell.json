@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 110,
-    "observations": 112,
-    "repos": 16,
-    "terms": 118
+    "components": 85,
+    "concepts": 124,
+    "observations": 126,
+    "repos": 19,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "alfredolopez80/multi-agent-ralph-loop",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
+    "docker-library/drupal",
     "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
+    "opea-project/GenAIExamples",
+    "openshift/release",
     "rsmdt/the-startup",
     "rust-cross/rust-musl-cross",
     "rz1989s/claude-code-statusline",

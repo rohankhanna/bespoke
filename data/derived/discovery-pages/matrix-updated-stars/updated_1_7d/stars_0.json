@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 75,
-    "terms": 106
+    "components": 429,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 80,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
     "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
+    "AdaCore/vss-extra",
     "aipurposes1587-max/weixin-agent-rs",
     "alexcrichton/cc-rs",
     "Amtrend/ssh-manager",
@@ -29,6 +30,7 @@
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
     "conda-forge/cccl-feedstock",
+    "conda-forge/conda-lock-feedstock",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
@@ -49,7 +51,10 @@
     "danielrosehill/Claude-Audio-Production-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
+    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
+    "DataDog/vault",
+    "DeepWok/mase-docker",
     "fekkak1998/scira",
     "firestryk/chatgpt-website.github.io",
     "florisheedless915/grok-register",

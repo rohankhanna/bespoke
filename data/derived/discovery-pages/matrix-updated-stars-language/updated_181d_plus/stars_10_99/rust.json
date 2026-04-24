@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 117,
-    "observations": 118,
-    "repos": 53,
-    "terms": 117
+    "components": 196,
+    "concepts": 130,
+    "observations": 131,
+    "repos": 59,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -26,8 +26,10 @@
     "ashvardanian/HashEvals",
     "axodotdev/axolotlsay",
     "BadBoiLabs/Cannon-rs",
+    "bluss/bencher",
     "BonsaiDen/cursive_calendar_view",
     "BonsaiDen/cursive_table_view",
+    "calebzulawski/autobahn-hash",
     "casbin-rs/examples",
     "casey/janus",
     "celo-org/celo-bls-snark-rs",
@@ -47,6 +49,7 @@
     "embarkstudios/buildkite-jobify",
     "ethDreamer/json_rpc_snoop",
     "extrawurst/gitui-presentation",
+    "georust/geocoding",
     "gluon-lang/gluon-lang.org",
     "gluon-lang/gluon_language-server",
     "gwihlidal/vk-sync-rs",
@@ -55,8 +58,11 @@
     "Julien-cpsn/Phone-OS",
     "kawamuray/linux-taskstats-rs",
     "lita-xyz/valida-vm",
+    "markdown-it-rust/markdown-it-plugins.rs",
+    "mtp401/protoc-grpcio",
     "nlewo/hydra-cli",
     "nlordell/solabi-rs",
+    "nuxy/no-ai-badge",
     "op-rs/maili",
     "paritytech/bn",
     "paritytech/unsigned-varint",

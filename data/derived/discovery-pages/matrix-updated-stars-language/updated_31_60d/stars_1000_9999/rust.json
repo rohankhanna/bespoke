@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 57,
-    "observations": 58,
-    "repos": 17,
-    "terms": 56
+    "components": 128,
+    "concepts": 73,
+    "observations": 74,
+    "repos": 20,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -21,13 +21,16 @@
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
+    "dtolnay/quote",
     "dtolnay/thiserror",
+    "google/tarpc",
     "gyscos/cursive",
     "haleclipse/ccometixline",
     "ImageOptim/gifski",
     "pdf-rs/pdf",
     "rust-lang/flate2-rs",
     "simd-lite/simd-json",
+    "smol-rs/smol",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
     "tokio-rs/prost"

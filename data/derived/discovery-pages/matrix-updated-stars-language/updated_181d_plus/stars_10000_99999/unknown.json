@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 7,
-    "terms": 8
+    "components": 3,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 10,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "alebcay/awesome-shell",
     "css-modules/css-modules",
     "deepseek-ai/DeepSeek-R1",
+    "google-research/tuning_playbook",
+    "Homebrew/legacy-homebrew",
     "lukehoban/es6features",
     "nodejs/node-v0.x-archive",
     "NVIDIA/nvidia-docker",

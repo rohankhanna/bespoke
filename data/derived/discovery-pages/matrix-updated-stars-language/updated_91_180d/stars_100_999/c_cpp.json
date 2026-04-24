@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 9,
-    "terms": 12
+    "components": 43,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 13,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "Ar-Ray-code/YOLOX-ROS",
     "aviggiano/redis-roaring",
     "bagder/fcpp",
     "bdwgc/libatomic_ops",
     "birkett/srvany-ng",
     "bnosac/audio.whisper",
     "conor42/fast-lzma2",
+    "erkyrath/glulxe",
     "intel/isa-l_crypto",
+    "jimporter/mettle",
+    "mit-han-lab/Block-Sparse-Attention",
     "nagisa/rust_tracy_client",
     "swigger/wechat-ocr"
   ]

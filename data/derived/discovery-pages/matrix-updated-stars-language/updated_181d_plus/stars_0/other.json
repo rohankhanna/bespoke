@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 15,
-    "terms": 14
+    "components": 65,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 18,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abap2ui5/abap2ui5-build",
+    "adre5577/contour-tinted",
     "altgr/opam-publish",
     "avsm/ocaml-uri",
     "bnosac/audio.vadsilero",
@@ -24,10 +25,12 @@
     "erick2418/vue-axios-vuex-jwt",
     "girishji/ngramview-complete.vim",
     "larshp/uccp",
+    "MolotovCherry/tree-sitter-wasm",
     "mzr1996/pytorch_sphinx_theme",
     "songquanpeng/blog-theme-bootstrap",
     "songquanpeng/blog-theme-bootstrap5",
     "songquanpeng/blog-theme-next",
-    "team-acaisia/php-varint"
+    "team-acaisia/php-varint",
+    "XcodesOrg/homebrew-cask"
   ]
 }

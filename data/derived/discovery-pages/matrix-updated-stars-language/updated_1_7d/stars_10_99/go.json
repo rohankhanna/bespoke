@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 141,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 17,
-    "terms": 120
+    "components": 194,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 20,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "allenreder/cliproxyapi-quota-inspector",
+    "abhinav/tmux-fastcopy",
     "appleboy/drone-lambda",
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
@@ -26,10 +26,13 @@
     "containers/container-libs",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
+    "gopasspw/git-credential-gopass",
+    "gopasspw/gopass-hibp",
     "ipshipyard/p2p-forge",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
     "muhlba91/external-dns-provider-adguard",
+    "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google"
   ]
 }

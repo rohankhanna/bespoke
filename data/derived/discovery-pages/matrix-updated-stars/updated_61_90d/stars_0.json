@@ -1,19 +1,22 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 3,
-    "terms": 2
+    "components": 27,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 6,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "AdaCore/vss-text",
     "bgw/bincode",
+    "EspressoSystems/jellyfish-compat",
+    "get-gah/gah-db",
     "grafana/cadvisor",
     "mjvolk3/dendron-template"
   ]

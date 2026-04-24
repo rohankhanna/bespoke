@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 89,
-    "observations": 91,
-    "repos": 23,
-    "terms": 90
+    "components": 149,
+    "concepts": 99,
+    "observations": 102,
+    "repos": 26,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "alex/rust-asn1",
+    "alexheretic/glyph-brush",
     "alloy-rs/core",
     "alloy-rs/examples",
     "alloy-rs/svm-rs",
@@ -23,6 +24,8 @@
     "dtormoen/tsk-tsk",
     "FuelLabs/fuel-vm",
     "gdesmott/system-deps",
+    "gjtorikian/commonmarker",
+    "hniksic/rust-subprocess",
     "in-toto/attestation",
     "Kampfkarren/full-moon",
     "nix-community/lorri",

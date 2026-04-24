@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 851,
-    "concepts": 423,
-    "observations": 424,
-    "repos": 45,
-    "terms": 430
+    "components": 897,
+    "concepts": 471,
+    "observations": 473,
+    "repos": 50,
+    "terms": 477
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "abpframework/abp",
     "Alamofire/Alamofire",
     "anthropics/claude-cookbooks",
     "apache/spark",
     "apple/container",
     "AssemblyScript/assemblyscript",
     "Azure/azure-quickstart-templates",
+    "composer/composer",
     "dart-lang/sdk",
     "deepset-ai/haystack",
     "dotnet/core",
+    "dotnet/csharplang",
+    "dotnet/eShop",
     "dotnet/runtime",
     "elixir-lang/elixir",
     "ghostty-org/ghostty",
@@ -52,11 +56,12 @@
     "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
     "rails/rails",
+    "realm/SwiftLint",
     "rubocop/rubocop",
     "SaschaWillems/Vulkan",
-    "ScoopInstaller/Scoop",
     "semgrep/semgrep",
     "shap/shap",
+    "swiftlang/swift-evolution",
     "vim-airline/vim-airline",
     "winsw/winsw"
   ]

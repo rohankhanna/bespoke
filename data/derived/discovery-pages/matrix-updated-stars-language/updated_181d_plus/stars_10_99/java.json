@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 5,
-    "terms": 10
+    "components": 38,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 9,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "angelozerr/ec4e",
+    "dgileadi/dg.jdt.ls.decompiler",
     "didalgolab/ai-intellij-plugin",
+    "editorconfig/editorconfig-core-java",
+    "gchq/koryphe",
     "jerrylususu/PaddleOCR-json-java-api",
-    "JetBrains/spotbugs-intellij-plugin"
+    "JetBrains/spotbugs-intellij-plugin",
+    "Vinhixus/TornadoVM-Ray-Tracer"
   ]
 }

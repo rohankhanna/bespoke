@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 4,
-    "terms": 20
+    "components": 38,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 5,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "apache/camel-examples",
     "carrot2/carrot2",
     "eclipse-lsp4j/lsp4j",
     "higress-group/higress-console",

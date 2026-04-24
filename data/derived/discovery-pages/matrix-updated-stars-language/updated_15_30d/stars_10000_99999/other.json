@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 57,
-    "observations": 59,
-    "repos": 9,
-    "terms": 53
+    "components": 89,
+    "concepts": 116,
+    "observations": 118,
+    "repos": 13,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "AppFlowy-IO/AppFlowy",
     "devicons/devicon",
     "facebookresearch/sam2",
     "fastai/fastai",
+    "fatih/vim-go",
+    "google/styleguide",
     "Ileriayo/markdown-badges",
     "koalaman/shellcheck",
+    "Kong/kong",
     "LazyVim/LazyVim",
     "microsoft/language-server-protocol",
     "nvim-treesitter/nvim-treesitter",

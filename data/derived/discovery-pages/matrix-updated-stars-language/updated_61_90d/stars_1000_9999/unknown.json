@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 6,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 4,
-    "terms": 18
+    "concepts": 32,
+    "observations": 32,
+    "repos": 5,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "antonbabenko/terraform-skill",
+    "brightmart/nlp_chinese_corpus",
     "jorgebucaran/awsm.fish",
     "r-lyeh/single_file_libs",
     "sindresorhus/ponyfill"

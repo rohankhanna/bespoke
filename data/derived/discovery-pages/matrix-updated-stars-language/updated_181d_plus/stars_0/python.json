@@ -3,7 +3,7 @@
     "components": 43,
     "concepts": 37,
     "observations": 37,
-    "repos": 20,
+    "repos": 22,
     "terms": 37
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "albertogeniola/elmax-api",
     "AlmaLinux/errata2osv",
     "autodistill/autodistill-azure-vision",
@@ -26,6 +27,7 @@
     "hashberg-io/multiformats-config",
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",
+    "MickaelRigault/pymage",
     "mignonjia/lmgame_train_reorg",
     "mjvolk3/biocypher",
     "Natyren/alfworld",

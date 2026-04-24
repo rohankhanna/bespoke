@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 34,
-    "terms": 134
+    "components": 200,
+    "concepts": 183,
+    "observations": 183,
+    "repos": 40,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "adelarsq/neoline.vim",
     "adinhodovic/terraform-cloudflare-maintenance",
+    "aerokube/moon",
     "AgentTorch/AgentTorch",
     "AudioKit/Cookbook",
     "aws/homebrew-tap",
+    "babashka/babashka-sql-pods",
+    "babashka/bbin",
     "babashka/neil",
     "bazelbuild/bazel-skylib",
     "cafeTechne/antigravity-link-extension",
@@ -29,7 +32,10 @@
     "dotnet/AspNetDocs",
     "emacs-rustic/rustic",
     "ethereum/builder-specs",
+    "ethpandaops/ethereum-helm-charts",
+    "fzyzcjy/dart_interactive",
     "gcv/julia-snail",
+    "getsentry/sentry-clj",
     "google/protobuf.dart",
     "JuliaPluto/PlutoUI.jl",
     "Layr-Labs/eigenlayer-contracts",

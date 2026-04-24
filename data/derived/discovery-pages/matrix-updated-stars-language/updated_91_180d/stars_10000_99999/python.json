@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 13,
-    "terms": 92
+    "components": 68,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 15,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "beehiveinnovations/pal-mcp-server",
@@ -21,11 +21,13 @@
     "deepseek-ai/DeepSeek-Coder",
     "FoundationAgents/MetaGPT",
     "hiroi-sora/Umi-OCR",
+    "horovod/horovod",
     "JaidedAI/EasyOCR",
     "karpathy/llm-council",
     "karpathy/nanoGPT",
     "lllyasviel/Fooocus",
     "microsoft/unilm",
-    "QwenLM/Qwen3"
+    "QwenLM/Qwen3",
+    "sczhou/CodeFormer"
   ]
 }

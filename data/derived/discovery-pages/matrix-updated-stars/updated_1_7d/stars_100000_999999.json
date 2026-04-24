@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1176,
-    "concepts": 253,
-    "observations": 254,
-    "repos": 28,
-    "terms": 290
+    "components": 980,
+    "concepts": 242,
+    "observations": 243,
+    "repos": 27,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "angular/angular",
@@ -25,7 +25,6 @@
     "golang/go",
     "google-gemini/gemini-cli",
     "huggingface/transformers",
-    "kubernetes/kubernetes",
     "langchain-ai/langchain",
     "langgenius/dify",
     "microsoft/terminal",
@@ -40,6 +39,6 @@
     "sindresorhus/awesome",
     "tauri-apps/tauri",
     "torvalds/linux",
-    "vercel/next.js"
+    "yt-dlp/yt-dlp"
   ]
 }

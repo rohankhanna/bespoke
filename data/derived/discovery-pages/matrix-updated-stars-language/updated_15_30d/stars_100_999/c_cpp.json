@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 80,
-    "observations": 81,
-    "repos": 22,
-    "terms": 80
+    "components": 80,
+    "concepts": 84,
+    "observations": 85,
+    "repos": 25,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "amzn/amzn-drivers",
@@ -22,6 +22,8 @@
     "cloudwu/ltask",
     "containers/conmon",
     "CrystallineCore/Biscuit",
+    "DavidKinder/Windows-Frotz",
+    "eyalz800/zpp_bits",
     "fujitsu/xbyak_aarch64",
     "ghostty-org/ghostling",
     "ipsilon/evmc",
@@ -30,6 +32,7 @@
     "mybigday/whisper.rn",
     "NetEase-FuXi/EETQ",
     "objectbox/objectbox-c",
+    "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "RoaringBitmap/croaring-rs",
     "rusty1s/pytorch_cluster",
     "tpoechtrager/apple-libtapi",

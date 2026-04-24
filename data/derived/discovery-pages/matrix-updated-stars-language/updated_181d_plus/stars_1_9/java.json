@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 4,
     "observations": 4,
-    "repos": 4,
+    "repos": 7,
     "terms": 4
   },
   "facet_version": 1,
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "carrotsearch/elasticsearch-lingo3g",
     "code1986/sentinel-lib",
+    "enola-dev/LearningADK",
     "finefuture/sentinel-dashboard-X",
+    "hallvard/etablesaw",
     "norwoodj/hashbash-backend-java",
     "peergos/nabu-chat"
   ]

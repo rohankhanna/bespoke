@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 14,
-    "terms": 64
+    "components": 58,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 24,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "0k/shyaml",
     "absadiki/pywhispercpp",
+    "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+    "alex-petrenko/sample-factory",
     "alfworld/alfworld",
     "alonw0/web-asset-generator",
     "AMAP-ML/Tree-GRPO",
     "berkerpeksag/astor",
     "breezedeus/CnSTD",
     "dualverse-ai/station",
+    "githubharald/CTCDecoder",
     "inducer/cgen",
+    "intel/ai-reference-models",
     "marin-community/levanter",
+    "metauto-ai/GPTSwarm",
+    "MMMU-Benchmark/MMMU",
     "OpenBMB/infllmv2_cuda_impl",
+    "pypa/get-pip",
+    "ronaldoussoren/py2app",
     "sail-sg/oat",
     "superclaude-org/supergemini_framework",
+    "thorstenMueller/Thorsten-Voice",
     "walles/px",
     "whatwg/meta"
   ]

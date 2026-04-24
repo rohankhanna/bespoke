@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 437,
-    "concepts": 207,
-    "observations": 210,
-    "repos": 42,
-    "terms": 216
+    "components": 468,
+    "concepts": 221,
+    "observations": 223,
+    "repos": 47,
+    "terms": 230
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "actix/actix-net",
     "ada-url/rust",
     "agent-sh/agnix",
-    "alexheretic/glyph-brush",
+    "arkworks-rs/algebra",
     "Azure/azure-sdk-for-rust",
     "Blockstream/electrs",
     "cargo-bins/cargo-quickinstall",
@@ -34,7 +34,12 @@
     "eigenwallet/core",
     "EmbarkStudios/cargo-about",
     "EspressoSystems/jellyfish",
+    "fancy-regex/fancy-regex",
     "flashbots/contender",
+    "flatpak/flat-manager",
+    "georust/geojson",
+    "GNOME/librsvg",
+    "LaurenzV/hayro",
     "LaurenzV/krilla",
     "messense/jieba-rs",
     "nielsgroen/claude-tmux",

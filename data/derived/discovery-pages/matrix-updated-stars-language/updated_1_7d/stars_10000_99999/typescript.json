@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4984,
-    "concepts": 471,
-    "observations": 474,
-    "repos": 54,
-    "terms": 490
+    "components": 5353,
+    "concepts": 487,
+    "observations": 490,
+    "repos": 55,
+    "terms": 506
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "apollographql/apollo-client",
     "babel/babel",
@@ -25,11 +25,13 @@
     "coder/code-server",
     "conventional-changelog/commitlint",
     "DefinitelyTyped/DefinitelyTyped",
+    "diegomura/react-pdf",
     "elastic/kibana",
     "everyinc/compound-engineering-plugin",
     "expo/expo",
     "garrytan/gstack",
     "google/brotli",
+    "grafana/grafana",
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",
@@ -60,7 +62,6 @@
     "tanweai/pua",
     "typescript-eslint/typescript-eslint",
     "upstash/context7",
-    "vadimdemedes/ink",
     "vercel-labs/skills",
     "vitejs/vite",
     "VSCodeVim/Vim",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 33,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 21,
-    "terms": 81
+    "concepts": 105,
+    "observations": 105,
+    "repos": 25,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-serif",
     "ahmetb/cloud-run-faq",
@@ -22,6 +22,7 @@
     "ekalinin/github-markdown-toc",
     "eth-p/bat-extras",
     "facebookarchive/caffe2",
+    "FiloSottile/passage",
     "google/cityhash",
     "hackerb9/lsix",
     "japaric/rust-cross",
@@ -29,11 +30,14 @@
     "justinmayer/virtualfish",
     "karalabe/xgo",
     "kylef/swiftenv",
+    "lukechilds/zsh-nvm",
+    "marlonrichert/zsh-snap",
     "microsoft/vscode-dev-containers",
     "multiarch/qemu-user-static",
     "pyenv/pyenv-installer",
     "pystardust/ytfzf",
     "shawwn/llama-dl",
-    "tarjoilija/zgen"
+    "tarjoilija/zgen",
+    "zsh-users/antigen"
   ]
 }

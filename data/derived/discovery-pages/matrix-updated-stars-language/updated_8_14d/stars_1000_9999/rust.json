@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 147,
-    "observations": 147,
-    "repos": 22,
-    "terms": 145
+    "components": 249,
+    "concepts": 174,
+    "observations": 174,
+    "repos": 25,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "01mf02/jaq",
+    "alexpasmantier/television",
     "aome510/spotify-player",
     "bvaisvil/zenith",
     "Canop/bacon",
@@ -26,8 +27,10 @@
     "johnnymorganz/stylua",
     "jonhoo/inferno",
     "jsr-io/jsr",
+    "lalrpop/lalrpop",
     "libp2p/rust-libp2p",
     "mitsuhiko/similar",
+    "mozilla/sccache",
     "rust-cli/confy",
     "rust-cli/env_logger",
     "rust-windowing/winit",

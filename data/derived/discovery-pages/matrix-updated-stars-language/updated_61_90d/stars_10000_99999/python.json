@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 7,
-    "terms": 48
+    "components": 59,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 8,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "anthropics/claude-quickstarts",
     "binary-husky/gpt_academic",
@@ -20,6 +20,7 @@
     "ComposioHQ/awesome-claude-skills",
     "FoundationAgents/OpenManus",
     "lucidrains/denoising-diffusion-pytorch",
-    "modin-project/modin"
+    "modin-project/modin",
+    "tqdm/tqdm"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 47,
-    "terms": 186
+    "components": 130,
+    "concepts": 208,
+    "observations": 208,
+    "repos": 57,
+    "terms": 207
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "aappleby/smhasher",
     "aklomp/base64",
@@ -29,8 +29,10 @@
     "Cyan4973/FiniteStateEntropy",
     "daipeihust/im-select",
     "datenwolf/linmath.h",
+    "DmitryUlyanov/Multicore-TSNE",
     "dmlc/decord",
     "EdVince/Stable-Diffusion-NCNN",
+    "ethereum/aleth",
     "fraillt/bitsery",
     "gloxec/CrossC2",
     "google-deepmind/code_contests",
@@ -38,14 +40,18 @@
     "google/gemmlowp",
     "google/highwayhash",
     "hiroi-sora/PaddleOCR-json",
+    "hyperic/sigar",
     "itinance/react-native-fs",
     "joan2937/pigpio",
     "kkos/oniguruma",
     "kpu/kenlm",
+    "lh3/bwa",
     "li-plus/chatglm.cpp",
     "libgit2/objective-git",
     "LunarG/VulkanSamples",
+    "lzfse/lzfse",
     "mattingalls/soundflower",
+    "microsoft/msix-packaging",
     "mitsuba-renderer/enoki",
     "mitsuba-renderer/mitsuba",
     "mitsuba-renderer/mitsuba2",
@@ -57,9 +63,13 @@
     "PaddlePaddle/Paddle-Lite",
     "piscisaureus/wepoll",
     "pq-crystals/kyber",
+    "rprichard/winpty",
+    "RWKV/rwkv.cpp",
     "sass/libsass",
     "sass/node-sass",
     "Squirrel/Squirrel.Windows",
-    "Tencent/TNN"
+    "Tencent/TNN",
+    "tensorflow/community",
+    "weiliu89/caffe"
   ]
 }

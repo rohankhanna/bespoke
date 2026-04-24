@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 20,
-    "terms": 109
+    "components": 78,
+    "concepts": 129,
+    "observations": 129,
+    "repos": 26,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
+    "adrienverge/yamllint",
+    "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",
     "alteryx/featuretools",
     "andreafrancia/trash-cli",
     "anthropics/claude-code-security-review",
+    "bazelbuild/starlark",
     "benjaminp/six",
     "BlinkDL/ChatRWKV",
     "breezedeus/CnOCR",
     "CLUEbenchmark/CLUE",
     "crowsonkb/k-diffusion",
     "davidhalter/jedi-vim",
+    "django/asgiref",
     "google/fuzzbench",
     "graphql-python/graphene-django",
     "kijai/ComfyUI-WanVideoWrapper",
@@ -31,6 +35,8 @@
     "mosaicml/streaming",
     "open-mmlab/mmcv",
     "PaddlePaddle/PaddleSeg",
+    "Python-Markdown/markdown",
+    "SafeAILab/EAGLE",
     "simonw/claude-code-transcripts",
     "toshas/torch-fidelity",
     "webdataset/webdataset"

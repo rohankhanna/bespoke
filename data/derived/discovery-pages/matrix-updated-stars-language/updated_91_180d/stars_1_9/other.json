@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 34,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 12,
-    "terms": 16
+    "concepts": 20,
+    "observations": 20,
+    "repos": 13,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -20,6 +20,7 @@
     "anchordotdev/puma-acme",
     "atrodo/WebGPU-Direct",
     "erwin-kok/multiformat",
+    "hedronvision/bazel-cc-filesystem-backport",
     "infiniflow/resource",
     "ocaml-opam/opam-rt",
     "parruda/ruby_llm",

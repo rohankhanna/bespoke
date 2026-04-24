@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 724,
-    "concepts": 619,
-    "observations": 623,
-    "repos": 59,
-    "terms": 611
+    "components": 685,
+    "concepts": 579,
+    "observations": 583,
+    "repos": 56,
+    "terms": 571
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
-    "1panel-dev/1panel",
     "ahmetb/kubectx",
     "aquasecurity/trivy",
     "asdf-vm/asdf",
@@ -47,9 +46,7 @@
     "grafana/loki",
     "hashicorp/terraform",
     "helm/helm",
-    "ipfs/kubo",
     "jesseduffield/lazygit",
-    "Jguer/yay",
     "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",

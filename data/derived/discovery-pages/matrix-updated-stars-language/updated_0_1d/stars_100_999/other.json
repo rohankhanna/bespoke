@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 387,
-    "concepts": 215,
-    "observations": 215,
-    "repos": 25,
-    "terms": 215
+    "components": 359,
+    "concepts": 221,
+    "observations": 221,
+    "repos": 27,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,34 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T05:24:44.036537+00:00",
+  "generated_at": "2026-04-24T09:26:27.498159+00:00",
   "repo_ids": [
-    "abap2UI5/abap2UI5",
-    "aspect-build/rules_js",
     "atsign-foundation/noports",
     "Azure/bicep-registry-modules",
     "bazelbuild/bazel-central-registry",
     "Calinou/scoop-games",
     "celo-org/celo-monorepo",
-    "chainguard-images/images",
+    "cplusplus/draft",
     "danielrosehill/Claude-Code-Projects-Index",
     "dotnet/razor",
+    "elixir-ecto/db_connection",
+    "elsa-workflows/elsa-studio",
+    "getsentry/sentry-dart",
     "getsentry/sentry-docs",
+    "giaf/blasfeo",
     "GoogleCloudPlatform/cluster-toolkit",
-    "grafana-community/helm-charts",
     "huggingface/optimum-intel",
     "igorlfs/nvim-dap-view",
     "JuliaWeb/HTTP.jl",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "microsoft/CsWinRT",
     "mihaimaruseac/hindent",
-    "NVIDIA/spark-rapids",
+    "NuGet/NuGet.Client",
     "rapidsai/cuvs",
     "ROCm/llvm-project",
-    "ruby/gem_rbs_collection",
     "SpecterOps/SharpHoundCommon",
     "status-im/nimbus-eth1",
+    "status-im/nimbus-eth2",
     "WebAssembly/meetings"
   ]
 }
