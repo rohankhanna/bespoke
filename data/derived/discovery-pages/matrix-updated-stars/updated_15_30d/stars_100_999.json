@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1599,
-    "concepts": 807,
-    "observations": 814,
-    "repos": 200,
-    "terms": 831
+    "concepts": 810,
+    "observations": 817,
+    "repos": 201,
+    "terms": 834
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "adelarsq/neoline.vim",
@@ -137,6 +137,7 @@
     "ldayton/dippy",
     "Level/abstract-level",
     "lightninglabs/neutrino",
+    "llm-in-sandbox/llm-in-sandbox",
     "lobehub/lobe-midjourney-webui",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "mafintosh/streamx",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-04-25T05:15:34.459750+00:00`
+Generated at: `2026-04-25T06:55:57.545791+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 

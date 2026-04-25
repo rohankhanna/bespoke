@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 858,
+    "components": 857,
     "concepts": 752,
     "observations": 760,
-    "repos": 150,
+    "repos": 149,
     "terms": 746
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -125,7 +125,6 @@
     "PeterGriffinJin/Search-R1",
     "piotrostr/listen",
     "PlexPt/chatgpt-java",
-    "postmodern/chruby",
     "pothosware/SoapySDR",
     "protectai/llm-guard",
     "protocolbuffers/protobuf-go",

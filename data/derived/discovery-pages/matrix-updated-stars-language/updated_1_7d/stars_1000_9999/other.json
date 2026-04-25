@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1187,
-    "concepts": 948,
-    "observations": 952,
-    "repos": 131,
-    "terms": 939
+    "components": 1202,
+    "concepts": 958,
+    "observations": 962,
+    "repos": 132,
+    "terms": 949
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -59,6 +59,7 @@
     "dotnet/extensions",
     "dotnet/fsharp",
     "dotnet/samples",
+    "dotnet/sdk",
     "dotnet/sourcelink",
     "elsa-workflows/elsa-core",
     "emacs-lsp/lsp-mode",

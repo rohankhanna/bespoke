@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1407,
-    "concepts": 1171,
-    "observations": 1172,
-    "repos": 103,
-    "terms": 1195
+    "components": 1423,
+    "concepts": 1236,
+    "observations": 1238,
+    "repos": 107,
+    "terms": 1260
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "3b1b/manim",
+    "aden-hive/hive",
     "aio-libs/aiohttp",
     "akfamily/akshare",
     "ansible/ansible",
@@ -36,6 +37,7 @@
     "cupy/cupy",
     "Dao-AILab/flash-attention",
     "davila7/claude-code-templates",
+    "deepspeedai/DeepSpeed",
     "django/django",
     "DLR-RM/stable-baselines3",
     "docling-project/docling",
@@ -63,6 +65,7 @@
     "huggingface/peft",
     "huggingface/pytorch-image-models",
     "infiniflow/ragflow",
+    "jax-ml/jax",
     "keras-team/keras",
     "kovidgoyal/kitty",
     "langbot-app/LangBot",
@@ -76,6 +79,7 @@
     "mlc-ai/mlc-llm",
     "mlfoundations/open_clip",
     "modelcontextprotocol/python-sdk",
+    "modelscope/ms-swift",
     "nginx-proxy/nginx-proxy",
     "nodejs/node-gyp",
     "numba/numba",
@@ -85,12 +89,12 @@
     "onyx-dot-app/onyx",
     "oobabooga/textgen",
     "openai/openai-agents-python",
+    "OpenHands/OpenHands",
     "oraios/serena",
     "PaddlePaddle/PaddleOCR",
     "pandas-dev/pandas",
     "plotly/dash",
     "psf/black",
-    "pydantic/pydantic-ai",
     "pyinstaller/pyinstaller",
     "pyodide/pyodide",
     "pypa/pip",

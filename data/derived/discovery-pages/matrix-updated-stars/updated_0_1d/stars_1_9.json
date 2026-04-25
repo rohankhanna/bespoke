@@ -1,19 +1,18 @@
 {
   "counts": {
     "components": 3,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 2,
-    "terms": 17
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
-    "b-data/jupyterlab-mojo-docker-stack",
     "web-platform-tests/results-analysis-cache"
   ]
 }

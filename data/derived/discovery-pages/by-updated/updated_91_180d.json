@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2966,
+    "components": 2965,
     "concepts": 2013,
     "observations": 2029,
-    "repos": 569,
+    "repos": 568,
     "terms": 2034
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -444,7 +444,6 @@
     "piotrostr/listen",
     "pksunkara/cargo-workspaces",
     "PlexPt/chatgpt-java",
-    "postmodern/chruby",
     "pothosware/SoapySDR",
     "probe-lab/network-measurements",
     "protectai/llm-guard",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6096,
-    "concepts": 3082,
-    "observations": 3098,
-    "repos": 514,
-    "terms": 3142
+    "components": 6109,
+    "concepts": 3094,
+    "observations": 3110,
+    "repos": 516,
+    "terms": 3154
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "1mcp-app/agent",
@@ -354,6 +354,7 @@
     "microsoft/vcpkg-tool",
     "mightyiam/eslint-config-love",
     "mihaimaruseac/hindent",
+    "milvus-io/milvus-sdk-java",
     "mit-ll-responsible-ai/hydra-zen",
     "mitsuba-renderer/drjit",
     "mitsuba-renderer/drjit-core",
@@ -443,6 +444,7 @@
     "ROCm/iris",
     "ROCm/llvm-project",
     "ROCm/MIVisionX",
+    "ROCm/mori",
     "rose-pine/rose-pine-site",
     "ruby/gem_rbs_collection",
     "rust-bitcoin/rust-miniscript",

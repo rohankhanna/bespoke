@@ -1,50 +1,41 @@
 {
   "counts": {
-    "components": 323,
-    "concepts": 312,
-    "observations": 314,
-    "repos": 33,
-    "terms": 311
+    "components": 231,
+    "concepts": 219,
+    "observations": 221,
+    "repos": 24,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
-    "agents-flex/agents-flex",
     "akuity/kargo",
     "apache/datafusion-ballista",
     "apache/datafusion-comet",
     "CocoaPods/Specs",
     "dotfiles/dotfiles.github.com",
-    "dotnet/sdk",
     "dtcooper/raspotify",
     "eclipse-openvsx/openvsx",
     "facebook/igl",
-    "FEniCS/dolfinx",
     "getsentry/sentry-cocoa",
-    "harbor-framework/harbor",
-    "inclusionAI/AReaL",
     "Kong/kubernetes-ingress-controller",
     "kvcache-ai/Mooncake",
     "lm-sensors/lm-sensors",
     "LoRexxar/Kunlun-M",
     "microsoft/aspire",
-    "microsoft/DirectXTK12",
-    "NVIDIA-NeMo/RL",
     "ogx-ai/llama-stack",
     "openvinotoolkit/nncf",
     "PrimeIntellect-ai/verifiers",
     "PyCQA/isort",
     "pytorch/FBGEMM",
-    "redis/redis-om-python",
     "rizsotto/Bear",
     "rust-lang/miri",
     "smallcloudai/refact",
     "swiftlang/llvm-project",
-    "uccl-project/uccl",
     "whatwg/html"
   ]
 }

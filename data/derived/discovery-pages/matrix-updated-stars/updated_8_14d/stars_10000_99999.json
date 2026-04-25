@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1366,
-    "concepts": 770,
-    "observations": 775,
-    "repos": 104,
-    "terms": 771
+    "components": 1410,
+    "concepts": 782,
+    "observations": 787,
+    "repos": 107,
+    "terms": 785
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -74,6 +74,7 @@
     "microsoft/OmniParser",
     "microsoft/playwright-mcp",
     "microsoft/pyright",
+    "microsoft/typescript-go",
     "microsoft/wslg",
     "mlc-ai/web-llm",
     "modelcontextprotocol/servers",
@@ -90,6 +91,7 @@
     "opencv/opencv_contrib",
     "pgvector/pgvector",
     "pre-commit/pre-commit",
+    "pydantic/pydantic-ai",
     "pyenv/pyenv",
     "pyg-team/pytorch_geometric",
     "python/mypy",
@@ -103,6 +105,7 @@
     "shareai-lab/learn-claude-code",
     "simonw/datasette",
     "slimtoolkit/slim",
+    "slopus/happy",
     "squidfunk/mkdocs-material",
     "svg/svgo",
     "Textualize/rich",

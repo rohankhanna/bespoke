@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 99,
-    "concepts": 94,
-    "observations": 95,
-    "repos": 30,
-    "terms": 104
+    "concepts": 97,
+    "observations": 98,
+    "repos": 31,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "AgentR1/Claw-R1",
     "AIR-Bench/AIR-Bench",
@@ -29,6 +29,7 @@
     "HoangTheQuyen/think-better",
     "langfengQ/DrMAS",
     "ldayton/dippy",
+    "llm-in-sandbox/llm-in-sandbox",
     "marcelm/cutadapt",
     "matthew-brett/delocate",
     "meta-pytorch/torchft",

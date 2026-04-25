@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 5669,
-    "concepts": 3161,
-    "observations": 3176,
-    "repos": 681,
-    "terms": 3173
+    "components": 5671,
+    "concepts": 3169,
+    "observations": 3184,
+    "repos": 682,
+    "terms": 3181
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/shellx",
@@ -186,6 +186,7 @@
     "containers/conmon",
     "conventional-changelog/conventional-changelog-config-spec",
     "cookiecutter/cookiecutter",
+    "CoolCat467/idlemypyextension",
     "coredns/helm",
     "cortesi/devd",
     "crossterm-rs/crossterm",
@@ -386,7 +387,6 @@
     "hyperium/http",
     "hyperium/hyper",
     "iamsashank09/llm-wiki-kit",
-    "Ileriayo/markdown-badges",
     "imjasonh/kontain.me",
     "intel/ai-containers",
     "intel/intel-extension-for-pytorch",
@@ -453,6 +453,7 @@
     "linebender/resvg",
     "linkchecker/linkchecker",
     "liuchengxu/vim-clap",
+    "llm-in-sandbox/llm-in-sandbox",
     "lobehub/lobe-icons",
     "lobehub/lobe-midjourney-webui",
     "lsd-rs/lsd",

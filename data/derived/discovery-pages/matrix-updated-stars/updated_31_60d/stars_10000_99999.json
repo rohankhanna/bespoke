@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 234,
-    "observations": 237,
-    "repos": 44,
-    "terms": 244
+    "components": 351,
+    "concepts": 243,
+    "observations": 246,
+    "repos": 45,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -29,6 +29,7 @@
     "google/leveldb",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
+    "Ileriayo/markdown-badges",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
     "karpathy/autoresearch",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 6,
-    "terms": 60
+    "components": 41,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 4,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "cython/cython",
     "jgm/pandoc",
-    "ScoopInstaller/Scoop",
     "simplex-chat/simplex-chat",
-    "tc39/ecma262",
     "triton-lang/triton"
   ]
 }

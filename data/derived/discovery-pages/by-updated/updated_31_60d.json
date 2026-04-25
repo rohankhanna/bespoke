@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 3922,
-    "concepts": 2409,
-    "observations": 2421,
-    "repos": 580,
-    "terms": 2452
+    "components": 3927,
+    "concepts": 2418,
+    "observations": 2430,
+    "repos": 581,
+    "terms": 2459
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "0xBigBoss/vscode-bootty",
@@ -332,6 +332,7 @@
     "icecc/icecream",
     "icecc/icemon",
     "iftheshoefritz/solargraph-rails",
+    "Ileriayo/markdown-badges",
     "ImageOptim/gifski",
     "imlrz/DeepResearch-Bench-II",
     "inducer/codepy",

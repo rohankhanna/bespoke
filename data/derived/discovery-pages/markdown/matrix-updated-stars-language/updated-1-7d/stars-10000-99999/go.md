@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-04-25T05:15:34.459750+00:00`
+Generated at: `2026-04-25T06:55:57.545791+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 70
-- terms: 777
-- components: 852
-- concepts: 788
-- observations: 792
+- repos: 71
+- terms: 800
+- components: 851
+- concepts: 811
+- observations: 815
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [php/frankenphp](https://github.com/php/frankenphp) | 11011 | 2026-04-24T06:11:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | 22713 | 2026-04-24T06:10:40Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [ipfs/kubo](https://github.com/ipfs/kubo) | 16992 | 2026-04-24T00:08:49Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [99designs/gqlgen](https://github.com/99designs/gqlgen) | 10712 | 2026-04-23T23:16:39Z | Go | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | 35484 | 2026-04-23T23:14:55Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
@@ -95,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) | 11086 | 2026-04-19T00:42:23Z | Go | CLI | 10 | 7 | 10 | 10 |
 | [urfave/cli](https://github.com/urfave/cli) | 23988 | 2026-04-18T18:48:23Z | Go | CLI | 6 | 5 | 8 | 8 |
 | [wader/fq](https://github.com/wader/fq) | 10481 | 2026-04-18T08:37:08Z | Go | CLI | 9 | 7 | 10 | 10 |
-| [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | 24823 | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -129,13 +130,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [router-for-me/cliproxyapi](https://github.com/router-for-me/CLIProxyAPI) | 27212 | 2026-04-19T03:46:22Z | Go | CLI | 10 | 9 | 10 | 10 |
 | [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | 25845 | 2026-04-21T10:24:20Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [asdf-vm/asdf](https://github.com/asdf-vm/asdf) | 25278 | 2026-04-21T01:32:07Z | Go | CLI | 17 | 12 | 19 | 20 |
-| [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | 24823 | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
 | [go-delve/delve](https://github.com/go-delve/delve) | 24692 | 2026-04-21T12:23:45Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [urfave/cli](https://github.com/urfave/cli) | 23988 | 2026-04-18T18:48:23Z | Go | CLI | 6 | 5 | 8 | 8 |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | 23341 | 2026-04-20T07:51:28Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | 23202 | 2026-04-19T01:02:54Z | Go | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [grpc/grpc-go](https://github.com/grpc/grpc-go) | 22915 | 2026-04-23T19:37:44Z | Go | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [micro/go-micro](https://github.com/micro/go-micro) | 22738 | 2026-04-20T13:55:01Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | 22713 | 2026-04-24T06:10:40Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 22697 | 2026-04-23T17:33:44Z | Go | Infrastructure/tooling | 21 | 23 | 21 | 21 |
 | [dolthub/dolt](https://github.com/dolthub/dolt) | 22236 | 2026-04-19T21:17:34Z | Go | Infrastructure/tooling | 25 | 16 | 25 | 25 |
 | [gastownhall/beads](https://github.com/gastownhall/beads) | 21129 | 2026-04-22T19:47:16Z | Go | Infrastructure/tooling | 10 | 16 | 10 | 10 |
@@ -164,6 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/go-github](https://github.com/google/go-github) | 11193 | 2026-04-22T16:42:44Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) | 11086 | 2026-04-19T00:42:23Z | Go | CLI | 10 | 7 | 10 | 10 |
 | [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) | 11084 | 2026-04-22T18:40:27Z | Go | Infrastructure/tooling | 19 | 18 | 19 | 19 |
+| [php/frankenphp](https://github.com/php/frankenphp) | 11011 | 2026-04-24T06:11:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [containers/skopeo](https://github.com/containers/skopeo) | 10763 | 2026-04-20T19:40:33Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dexidp/dex](https://github.com/dexidp/dex) | 10755 | 2026-04-21T07:33:12Z | Go | Infrastructure/tooling | 9 | 23 | 9 | 9 |
 | [99designs/gqlgen](https://github.com/99designs/gqlgen) | 10712 | 2026-04-23T23:16:39Z | Go | Infrastructure/tooling | 8 | 4 | 8 | 8 |

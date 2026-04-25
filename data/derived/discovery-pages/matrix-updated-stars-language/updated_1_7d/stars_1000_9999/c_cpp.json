@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 866,
-    "concepts": 895,
-    "observations": 896,
-    "repos": 100,
-    "terms": 889
+    "components": 890,
+    "concepts": 937,
+    "observations": 938,
+    "repos": 103,
+    "terms": 931
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AOMediaCodec/libavif",
@@ -41,6 +41,7 @@
     "eth-brownie/brownie",
     "facebookincubator/velox",
     "fastfloat/fast_float",
+    "FEniCS/dolfinx",
     "flatpak/flatpak",
     "fluent/fluent-bit",
     "fontforge/fontforge",
@@ -74,6 +75,7 @@
     "microsoft/cppwinrt",
     "microsoft/DirectXMath",
     "microsoft/DirectXShaderCompiler",
+    "microsoft/DirectXTK12",
     "microsoft/microsoft-ui-xaml",
     "microsoft/react-native-macos",
     "microsoft/WindowsAppSDK",
@@ -106,6 +108,7 @@
     "sveinbjornt/Platypus",
     "swiftlang/swift-llbuild",
     "tsujan/Kvantum",
+    "uccl-project/uccl",
     "uNetworking/uWebSockets.js",
     "util-linux/util-linux",
     "uxlfoundation/oneDNN",

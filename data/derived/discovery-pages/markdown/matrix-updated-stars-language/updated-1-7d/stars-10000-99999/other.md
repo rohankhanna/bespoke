@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-04-25T05:15:34.459750+00:00`
+Generated at: `2026-04-25T06:55:57.545791+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
-- terms: 589
-- components: 1035
-- concepts: 583
-- observations: 585
+- repos: 63
+- terms: 602
+- components: 1046
+- concepts: 596
+- observations: 599
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tc39/ecma262](https://github.com/tc39/ecma262) | 15617 | 2026-04-24T06:42:48Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 9 |
+| [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) | 23994 | 2026-04-24T05:38:03Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [swiftlang/swift](https://github.com/swiftlang/swift) | 69946 | 2026-04-24T05:02:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [upptime/upptime](https://github.com/upptime/upptime) | 16999 | 2026-04-24T03:23:58Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [AlDanial/cloc](https://github.com/AlDanial/cloc) | 22932 | 2026-04-24T02:11:09Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
@@ -120,6 +122,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [shap/shap](https://github.com/shap/shap) | 25338 | 2026-04-22T17:42:34Z | Other | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 24952 | 2026-04-22T15:41:54Z | Other | Infrastructure/tooling | 19 | 12 | 19 | 19 |
 | [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) | 24369 | 2026-04-22T18:49:26Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
+| [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) | 23994 | 2026-04-24T05:38:03Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [AlDanial/cloc](https://github.com/AlDanial/cloc) | 22932 | 2026-04-24T02:11:09Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) | 22544 | 2026-04-22T20:52:13Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [dotnet/core](https://github.com/dotnet/core) | 21948 | 2026-04-21T20:00:30Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
@@ -135,6 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [upptime/upptime](https://github.com/upptime/upptime) | 16999 | 2026-04-24T03:23:58Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | 16704 | 2026-04-22T16:05:33Z | Other | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [swiftlang/swift-evolution](https://github.com/swiftlang/swift-evolution) | 15823 | 2026-04-23T07:32:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [tc39/ecma262](https://github.com/tc39/ecma262) | 15617 | 2026-04-24T06:42:48Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 9 |
 | [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) | 15222 | 2026-04-21T11:31:56Z | Other | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [Azure/azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates) | 14776 | 2026-04-22T22:13:03Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [dotnet/efcore](https://github.com/dotnet/efcore) | 14624 | 2026-04-24T00:20:23Z | Other | Infrastructure/tooling | 15 | 4 | 15 | 15 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 5,
-    "terms": 65
+    "components": 45,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 3,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
-    "jaegertracing/jaeger",
     "mudler/LocalAI",
-    "php/frankenphp",
     "QuantumNous/new-api",
     "redis/go-redis"
   ]

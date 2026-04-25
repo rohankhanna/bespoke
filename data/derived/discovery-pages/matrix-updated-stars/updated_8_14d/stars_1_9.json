@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 299,
-    "concepts": 158,
-    "observations": 158,
-    "repos": 63,
-    "terms": 165
+    "components": 292,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 62,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
@@ -44,7 +44,6 @@
     "cdxeve/scale-openclaw",
     "ChadKillingsworth/closure-compiler-npm",
     "chronosphereio/calyptia-cli",
-    "CoolCat467/idlemypyextension",
     "cpu/wycheproof",
     "curiousdannii/asyncglk",
     "diffblue/homebrew-cbmc",

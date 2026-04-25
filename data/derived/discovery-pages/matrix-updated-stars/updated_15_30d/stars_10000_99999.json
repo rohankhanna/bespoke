@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 917,
-    "concepts": 558,
-    "observations": 560,
-    "repos": 74,
-    "terms": 544
+    "components": 912,
+    "concepts": 549,
+    "observations": 551,
+    "repos": 73,
+    "terms": 537
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -55,7 +55,6 @@
     "hapijs/hapi",
     "huggingface/open-r1",
     "hyperium/hyper",
-    "Ileriayo/markdown-badges",
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
     "Kong/kong",

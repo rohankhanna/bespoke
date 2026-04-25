@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 14029,
+    "components": 14030,
     "concepts": 9064,
     "observations": 9083,
-    "repos": 3169,
+    "repos": 3170,
     "terms": 8999
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -2556,6 +2556,7 @@
     "PlexPt/chatgpt-online-springboot",
     "plrthink/RNZATestApp",
     "possibilities/claude-composer",
+    "postmodern/chruby",
     "powerline/fonts",
     "ppc64le-cloud/k8s-ansible",
     "ppc64le-cloud/kubetest2-plugins",

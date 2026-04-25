@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 35,
+    "components": 36,
     "concepts": 107,
     "observations": 107,
-    "repos": 26,
+    "repos": 27,
     "terms": 101
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-serif",
     "ahmetb/cloud-run-faq",
@@ -35,6 +35,7 @@
     "marlonrichert/zsh-snap",
     "microsoft/vscode-dev-containers",
     "multiarch/qemu-user-static",
+    "postmodern/chruby",
     "pyenv/pyenv-installer",
     "pystardust/ytfzf",
     "shawwn/llama-dl",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 6,
-    "terms": 9
+    "components": 24,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 7,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "agenmod/okr-skill",
     "axolotl-ai-cloud/ml-cross-entropy",
+    "CoolCat467/idlemypyextension",
     "KabakaWilliam/trajectorykit",
     "ldayton/parable",
     "ldayton/Tongues",

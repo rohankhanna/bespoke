@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-04-25T05:15:34.459750+00:00`
+Generated at: `2026-04-25T06:55:57.545791+00:00`
 
 ## Active filters
 
@@ -8,9 +8,9 @@ Generated at: `2026-04-25T05:15:34.459750+00:00`
 
 ## Counts
 
-- repos: 3169
+- repos: 3170
 - terms: 8999
-- components: 14029
+- components: 14030
 - concepts: 9064
 - observations: 9083
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [postmodern/chruby](https://github.com/postmodern/chruby) | 2914 | 2025-10-27T05:38:57Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [danielrosehill/Context-Cruncher](https://github.com/danielrosehill/Context-Cruncher) | 0 | 2025-10-26T19:44:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/batch-claudemd-repo-creator](https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator) | 0 | 2025-10-26T14:17:07Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Agent-SDK-Env-Setup](https://github.com/danielrosehill/Agent-SDK-Env-Setup) | 1 | 2025-10-26T13:36:01Z | Python | Unknown | 3 | 0 | 3 | 3 |
@@ -3640,6 +3641,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coreybutler/node-windows](https://github.com/coreybutler/node-windows) | 2933 | 2024-10-01T21:28:07Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [InternLM/InternLM-XComposer](https://github.com/InternLM/InternLM-XComposer) | 2924 | 2025-05-26T15:59:34Z | Python | Unknown | 14 | 0 | 14 | 14 |
 | [turboderp/exllama](https://github.com/turboderp/exllama) | 2915 | 2023-09-30T19:06:04Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [postmodern/chruby](https://github.com/postmodern/chruby) | 2914 | 2025-10-27T05:38:57Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [NVIDIA/MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) | 2910 | 2024-03-05T16:00:19Z | Python | Library | 17 | 0 | 20 | 20 |
 | [Luolc/AdaBound](https://github.com/Luolc/AdaBound) | 2907 | 2023-07-23T10:44:20Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR) | 2874 | 2023-06-14T16:03:13Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1802,
-    "concepts": 1057,
-    "observations": 1065,
-    "repos": 235,
-    "terms": 1143
+    "concepts": 1054,
+    "observations": 1062,
+    "repos": 234,
+    "terms": 1140
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "aaronwong1999/hermesclaw",
@@ -150,7 +150,6 @@
     "likaixin2000/ScreenSpot-Pro-GUI-Grounding",
     "lis186/ccxray",
     "llama-farm/llamafarm",
-    "llm-in-sandbox/llm-in-sandbox",
     "LuaLS/vscode-lua",
     "lucasastorian/llmwiki",
     "matepek/vscode-catch2-test-adapter",

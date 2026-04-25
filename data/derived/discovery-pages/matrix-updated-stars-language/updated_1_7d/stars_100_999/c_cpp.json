@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 207,
-    "observations": 207,
-    "repos": 39,
-    "terms": 205
+    "components": 217,
+    "concepts": 211,
+    "observations": 211,
+    "repos": 40,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "actboy168/bee.lua",
     "acts-project/acts",
@@ -50,6 +50,7 @@
     "raylib-extras/rlImGui",
     "ROCm/composable_kernel",
     "ROCm/MIVisionX",
+    "ROCm/mori",
     "samdauwe/webgpu-native-examples",
     "SaschaWillems/HowToVulkan",
     "tile-ai/tilelang-ascend"

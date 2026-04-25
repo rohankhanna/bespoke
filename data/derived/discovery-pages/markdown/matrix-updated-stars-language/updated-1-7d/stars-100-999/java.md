@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-04-25T05:15:34.459750+00:00`
+Generated at: `2026-04-25T06:55:57.545791+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 114
-- components: 103
-- concepts: 114
-- observations: 114
+- repos: 16
+- terms: 122
+- components: 109
+- concepts: 122
+- observations: 122
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [milvus-io/milvus-sdk-java](https://github.com/milvus-io/milvus-sdk-java) | 485 | 2026-04-24T06:45:15Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [Waffle/waffle](https://github.com/Waffle/waffle) | 503 | 2026-04-23T19:41:51Z | Java | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-04-23T14:15:49Z | Java | CLI | 8 | 13 | 8 | 8 |
 | [zilliztech/vts](https://github.com/zilliztech/vts) | 121 | 2026-04-23T13:19:03Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |
@@ -49,6 +50,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/google-api-java-client-services](https://github.com/googleapis/google-api-java-client-services) | 719 | 2026-04-22T14:40:14Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [googleapis/google-oauth-java-client](https://github.com/googleapis/google-oauth-java-client) | 657 | 2026-04-20T21:14:46Z | Java | CLI | 6 | 9 | 6 | 6 |
 | [Waffle/waffle](https://github.com/Waffle/waffle) | 503 | 2026-04-23T19:41:51Z | Java | Infrastructure/tooling | 16 | 8 | 16 | 16 |
+| [milvus-io/milvus-sdk-java](https://github.com/milvus-io/milvus-sdk-java) | 485 | 2026-04-24T06:45:15Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [googleapis/google-auth-library-java](https://github.com/googleapis/google-auth-library-java) | 480 | 2026-04-20T21:17:04Z | Java | CLI | 3 | 4 | 3 | 3 |
 | [microsoft/java-debug](https://github.com/microsoft/java-debug) | 401 | 2026-04-20T05:25:30Z | Java | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [a2aproject/a2a-java](https://github.com/a2aproject/a2a-java) | 399 | 2026-04-22T17:49:52Z | Java | CLI | 14 | 12 | 14 | 14 |

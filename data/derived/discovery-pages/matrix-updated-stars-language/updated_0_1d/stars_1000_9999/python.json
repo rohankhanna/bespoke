@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 83,
-    "observations": 84,
-    "repos": 9,
-    "terms": 82
+    "components": 36,
+    "concepts": 48,
+    "observations": 49,
+    "repos": 5,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
-    "harbor-framework/harbor",
-    "inclusionAI/AReaL",
     "LoRexxar/Kunlun-M",
-    "NVIDIA-NeMo/RL",
     "ogx-ai/llama-stack",
     "openvinotoolkit/nncf",
     "PrimeIntellect-ai/verifiers",
-    "PyCQA/isort",
-    "redis/redis-om-python"
+    "PyCQA/isort"
   ]
 }

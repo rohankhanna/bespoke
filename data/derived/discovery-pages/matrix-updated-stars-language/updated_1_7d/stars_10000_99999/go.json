@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 852,
-    "concepts": 788,
-    "observations": 792,
-    "repos": 70,
-    "terms": 777
+    "components": 851,
+    "concepts": 811,
+    "observations": 815,
+    "repos": 71,
+    "terms": 800
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -58,6 +58,7 @@
     "hashicorp/vault",
     "helm/helm",
     "ipfs/kubo",
+    "jaegertracing/jaeger",
     "jesseduffield/lazygit",
     "junegunn/fzf",
     "k3s-io/k3s",
@@ -66,7 +67,6 @@
     "kubernetes/minikube",
     "lima-vm/lima",
     "micro/go-micro",
-    "microsoft/typescript-go",
     "mikefarah/yq",
     "milvus-io/milvus",
     "moby/moby",
@@ -74,6 +74,7 @@
     "open-policy-agent/opa",
     "opencontainers/runc",
     "opentofu/opentofu",
+    "php/frankenphp",
     "prometheus/prometheus",
     "router-for-me/cliproxyapi",
     "shirou/gopsutil",

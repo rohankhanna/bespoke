@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1018,
-    "concepts": 224,
-    "observations": 224,
-    "repos": 99,
-    "terms": 256
+    "concepts": 240,
+    "observations": 240,
+    "repos": 100,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "abraxas-365/claudio",
@@ -24,6 +24,7 @@
     "anojndr/grok-to-openai",
     "astropy/repo_stats",
     "b-data/jupyterlab-julia-docker-stack",
+    "b-data/jupyterlab-mojo-docker-stack",
     "bell-sw/osv-database",
     "beneadie/DeepDog_1",
     "birdofpreyru/react-starter",

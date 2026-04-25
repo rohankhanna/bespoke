@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1251,
-    "concepts": 1362,
-    "observations": 1367,
-    "repos": 155,
-    "terms": 1364
+    "components": 1304,
+    "concepts": 1397,
+    "observations": 1402,
+    "repos": 159,
+    "terms": 1399
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "AgentR1/Agent-R1",
@@ -87,6 +87,7 @@
     "googleapis/google-api-python-client",
     "googleapis/google-cloud-python",
     "GoogleCloudPlatform/agent-starter-pack",
+    "harbor-framework/harbor",
     "hhatto/autopep8",
     "HIPS/autograd",
     "huggingface/datatrove",
@@ -94,6 +95,7 @@
     "HypothesisWorks/hypothesis",
     "icip-cas/PPTAgent",
     "illuin-tech/colpali",
+    "inclusionAI/AReaL",
     "intel/auto-round",
     "intel/neural-compressor",
     "InternLM/lmdeploy",
@@ -124,6 +126,7 @@
     "nix-community/NUR",
     "NovaSky-AI/SkyRL",
     "NVIDIA-NeMo/DataDesigner",
+    "NVIDIA-NeMo/RL",
     "NVIDIA/apex",
     "NVIDIA/Model-Optimizer",
     "NVIDIA/TransformerEngine",
@@ -152,6 +155,7 @@
     "pytorch/torchtitan",
     "pytorch/tutorials",
     "raspberrypi/documentation",
+    "redis/redis-om-python",
     "rllm-org/rllm",
     "safetensors/safetensors",
     "sierra-research/tau2-bench",

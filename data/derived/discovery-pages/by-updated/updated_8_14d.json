@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 7342,
-    "concepts": 3986,
-    "observations": 4007,
-    "repos": 800,
-    "terms": 4195
+    "components": 7397,
+    "concepts": 4002,
+    "observations": 4023,
+    "repos": 802,
+    "terms": 4215
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xNyk/council-of-high-intelligence",
@@ -249,7 +249,6 @@
     "containers/crun",
     "containers/podman-compose",
     "containers/toolbox",
-    "CoolCat467/idlemypyextension",
     "coreybutler/nvm-windows",
     "cpu/wycheproof",
     "crate-ci/committed",
@@ -334,6 +333,7 @@
     "ethereum-optimism/op-geth",
     "ethereum/beacon-APIs",
     "evenchange4/graphql.macro-example",
+    "eventual-inc/daft",
     "evmts/tevm-monorepo",
     "EvolvingLMMs-Lab/EASI",
     "fastify/demo",
@@ -509,7 +509,6 @@
     "liveblocks/liveblocks",
     "llama-farm/llamafarm",
     "LLaVA-VL/LLaVA-NeXT",
-    "llm-in-sandbox/llm-in-sandbox",
     "lobehub/lobe-lint",
     "LuaLS/vscode-lua",
     "lucasastorian/llmwiki",
@@ -535,6 +534,7 @@
     "microsoft/playwright-mcp",
     "microsoft/pyright",
     "microsoft/Tutel",
+    "microsoft/typescript-go",
     "microsoft/UFO",
     "microsoft/vscode-codicons",
     "microsoft/wil",
@@ -644,6 +644,7 @@
     "pyannote/pyannote-audio",
     "pycompression/python-isal",
     "PyCQA/bandit",
+    "pydantic/pydantic-ai",
     "pyenv-win/pyenv-win",
     "pyenv/pyenv",
     "pyenv/pyenv-virtualenv",
@@ -720,6 +721,7 @@
     "sindresorhus/hyper-snazzy",
     "sirmalloc/ccstatusline",
     "slimtoolkit/slim",
+    "slopus/happy",
     "slothy-optimizer/slothy",
     "snakers4/silero-models",
     "snipeship/ccflare",

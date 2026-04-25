@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 124,
-    "concepts": 160,
-    "observations": 161,
-    "repos": 18,
-    "terms": 161
+    "concepts": 166,
+    "observations": 167,
+    "repos": 19,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
+    "agents-flex/agents-flex",
     "apache/camel",
     "apache/lucene",
     "apache/netbeans",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 401,
+    "components": 404,
     "concepts": 86,
     "observations": 86,
-    "repos": 12,
-    "terms": 96
+    "repos": 13,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "changesets/changesets",
     "coder/code-server",
@@ -24,6 +24,7 @@
     "neoclide/coc.nvim",
     "ruvnet/ruflo",
     "shareai-lab/learn-claude-code",
+    "slopus/happy",
     "toon-format/toon",
     "vadimdemedes/ink"
   ]

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 14,
+    "components": 13,
     "concepts": 29,
     "observations": 31,
-    "repos": 7,
+    "repos": 6,
     "terms": 19
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "asdf-vm/asdf-plugins",
     "basherpm/basher",
     "create-dmg/create-dmg",
     "hyperupcall/autoenv",
     "isaacs/nave",
-    "jorgebucaran/nvm.fish",
-    "postmodern/chruby"
+    "jorgebucaran/nvm.fish"
   ]
 }

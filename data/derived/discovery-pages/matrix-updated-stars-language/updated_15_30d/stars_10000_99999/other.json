@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 120,
-    "observations": 122,
-    "repos": 14,
-    "terms": 116
+    "components": 87,
+    "concepts": 111,
+    "observations": 113,
+    "repos": 13,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "AppFlowy-IO/AppFlowy",
     "devicons/devicon",
@@ -21,7 +21,6 @@
     "fatih/vim-go",
     "google/styleguide",
     "guidance-ai/guidance",
-    "Ileriayo/markdown-badges",
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
     "Kong/kong",

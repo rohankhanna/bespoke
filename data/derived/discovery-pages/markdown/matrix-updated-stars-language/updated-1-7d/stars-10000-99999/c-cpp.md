@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-04-25T05:15:34.459750+00:00`
+Generated at: `2026-04-25T06:55:57.545791+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 60
-- terms: 664
-- components: 557
-- concepts: 660
-- observations: 662
+- repos: 61
+- terms: 683
+- components: 565
+- concepts: 680
+- observations: 683
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [google/filament](https://github.com/google/filament) | 20007 | 2026-04-24T06:53:00Z | C/C++ | Infrastructure/tooling | 19 | 8 | 20 | 21 |
 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 27884 | 2026-04-24T01:13:43Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 10134 | 2026-04-24T00:48:56Z | C/C++ | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [chromium/chromium](https://github.com/chromium/chromium) | 23493 | 2026-04-24T00:21:20Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
@@ -122,6 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chromium/chromium](https://github.com/chromium/chromium) | 23493 | 2026-04-24T00:21:20Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 23441 | 2026-04-20T17:29:42Z | C/C++ | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
+| [google/filament](https://github.com/google/filament) | 20007 | 2026-04-24T06:53:00Z | C/C++ | Infrastructure/tooling | 19 | 8 | 20 | 21 |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | 19945 | 2026-04-23T08:42:20Z | C/C++ | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 18809 | 2026-04-22T23:14:12Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [RPCS3/rpcs3](https://github.com/RPCS3/rpcs3) | 18625 | 2026-04-22T13:06:02Z | C/C++ | Infrastructure/tooling | 11 | 8 | 11 | 11 |

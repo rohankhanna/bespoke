@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2303,
-    "concepts": 955,
-    "observations": 959,
-    "repos": 224,
-    "terms": 997
+    "components": 2328,
+    "concepts": 967,
+    "observations": 971,
+    "repos": 227,
+    "terms": 1009
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "3rd/config",
@@ -52,6 +52,7 @@
     "aws-controllers-k8s/code-generator",
     "aws-controllers-k8s/test-infra",
     "aws/aws-network-policy-agent",
+    "Azure/aaz",
     "Azure/bicep-deploy",
     "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
@@ -112,6 +113,7 @@
     "electron/windows-sign",
     "emacscollective/epkg",
     "emibcn/badge-action",
+    "envoyproxy/examples",
     "eth-act/ere",
     "eth-act/zkboost",
     "ethereum/eip-review-bot",
@@ -136,6 +138,7 @@
     "gridatek/semantic-icons",
     "GuillaumeGomez/browser-UI-test",
     "habamax/.vim",
+    "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "harfbuzz/uharfbuzz",
     "hashicorp/web-unified-docs",

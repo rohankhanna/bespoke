@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 50,
-    "terms": 120
+    "components": 244,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 51,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "1sh1ro/liangxi-skills",
@@ -27,6 +27,7 @@
     "aspect-build/tools_telemetry",
     "axolotl-ai-cloud/ml-cross-entropy",
     "azure/homebrew-bicep",
+    "CoolCat467/idlemypyextension",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/agent-junction",
     "danielrosehill/Agents-Index",

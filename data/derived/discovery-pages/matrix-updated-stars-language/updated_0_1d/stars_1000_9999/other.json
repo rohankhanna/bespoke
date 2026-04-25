@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 7,
-    "terms": 62
+    "components": 33,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 6,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "dotfiles/dotfiles.github.com",
-    "dotnet/sdk",
     "getsentry/sentry-cocoa",
     "lm-sensors/lm-sensors",
     "microsoft/aspire",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 104,
-    "observations": 106,
-    "repos": 30,
-    "terms": 117
+    "components": 222,
+    "concepts": 112,
+    "observations": 114,
+    "repos": 31,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "AI-Hypercomputer/pathways-utils",
     "AMD-AGI/torchtitan-amd",
@@ -30,6 +30,7 @@
     "DeterminateSystems/determinate-nix-action",
     "ethstaker/ethstaker-deposit-cli",
     "GaloisInc/BLST-Verification",
+    "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "jxpress/lightning-hydra-template-vertex-ai",
     "Looong01/pyg-rocm-build",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2823,
-    "concepts": 1594,
-    "observations": 1600,
-    "repos": 252,
-    "terms": 1660
+    "components": 2841,
+    "concepts": 1615,
+    "observations": 1621,
+    "repos": 253,
+    "terms": 1681
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "1Password/for-open-source",
@@ -95,6 +95,7 @@
     "elixir-ecto/postgrex",
     "EmbarkStudios/cargo-deny",
     "ericniebler/range-v3",
+    "eventual-inc/daft",
     "firebase/firebase-admin-node",
     "frankbria/ralph-claude-code",
     "fsspec/filesystem_spec",

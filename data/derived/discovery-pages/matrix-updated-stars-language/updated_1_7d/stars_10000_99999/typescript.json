@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5951,
-    "concepts": 621,
-    "observations": 628,
+    "components": 6320,
+    "concepts": 634,
+    "observations": 641,
     "repos": 63,
-    "terms": 640
+    "terms": 651
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "apache/superset",
     "apollographql/apollo-client",
@@ -48,6 +48,7 @@
     "labring/FastGPT",
     "labring/sealos",
     "langchain-ai/langchainjs",
+    "lobehub/lobehub",
     "microsoft/playwright",
     "multica-ai/multica",
     "nuxt/nuxt",
@@ -65,7 +66,6 @@
     "ryoppippi/ccusage",
     "sass/sass",
     "SBoudrias/Inquirer.js",
-    "slopus/happy",
     "tailwindlabs/tailwindcss",
     "tanweai/pua",
     "typescript-eslint/typescript-eslint",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 608,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 3,
-    "terms": 34
+    "components": 236,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 2,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
-    "bitwarden/clients",
-    "lobehub/lobehub"
+    "bitwarden/clients"
   ]
 }

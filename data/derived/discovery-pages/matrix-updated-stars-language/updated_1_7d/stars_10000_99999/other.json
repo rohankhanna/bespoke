@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1035,
-    "concepts": 583,
-    "observations": 585,
-    "repos": 61,
-    "terms": 589
+    "components": 1046,
+    "concepts": 596,
+    "observations": 599,
+    "repos": 63,
+    "terms": 602
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "abpframework/abp",
     "actions/runner-images",
@@ -67,10 +67,12 @@
     "realm/SwiftLint",
     "rubocop/rubocop",
     "SaschaWillems/Vulkan",
+    "ScoopInstaller/Scoop",
     "shap/shap",
     "swiftlang/swift",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
+    "tc39/ecma262",
     "upptime/upptime",
     "vim-airline/vim-airline",
     "vim/vim",

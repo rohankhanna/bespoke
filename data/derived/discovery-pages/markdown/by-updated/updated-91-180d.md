@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago
 
-Generated at: `2026-04-25T05:15:34.459750+00:00`
+Generated at: `2026-04-25T06:55:57.545791+00:00`
 
 ## Active filters
 
@@ -8,9 +8,9 @@ Generated at: `2026-04-25T05:15:34.459750+00:00`
 
 ## Counts
 
-- repos: 569
+- repos: 568
 - terms: 2034
-- components: 2966
+- components: 2965
 - concepts: 2013
 - observations: 2029
 
@@ -590,7 +590,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [get-gah/setup-gah](https://github.com/get-gah/setup-gah) | 0 | 2025-10-27T12:30:45Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [zsio/claude-code-hub](https://github.com/zsio/claude-code-hub) | 163 | 2025-10-27T10:34:48Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
 | [76creates/stickers](https://github.com/76creates/stickers) | 386 | 2025-10-27T09:56:27Z | Go | Unknown | 4 | 0 | 4 | 4 |
-| [postmodern/chruby](https://github.com/postmodern/chruby) | 2914 | 2025-10-27T05:38:57Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -689,7 +688,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) | 2955 | 2026-01-04T01:05:55Z | C/C++ | Library | 18 | 0 | 18 | 18 |
 | [alibaba/sentinel-golang](https://github.com/alibaba/sentinel-golang) | 2952 | 2025-10-28T03:25:12Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [jasongin/nvs](https://github.com/jasongin/nvs) | 2945 | 2026-01-21T23:22:53Z | JavaScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
-| [postmodern/chruby](https://github.com/postmodern/chruby) | 2914 | 2025-10-27T05:38:57Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [protectai/llm-guard](https://github.com/protectai/llm-guard) | 2842 | 2025-12-15T13:07:25Z | Python | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [EleutherAI/pythia](https://github.com/EleutherAI/pythia) | 2783 | 2025-11-15T17:39:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [huggingface/swift-coreml-diffusers](https://github.com/huggingface/swift-coreml-diffusers) | 2751 | 2025-11-06T14:54:04Z | Other | Unknown | 0 | 0 | 0 | 0 |

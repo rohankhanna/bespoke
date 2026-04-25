@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 4,
-    "terms": 23
+    "components": 24,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-25T06:55:57.545791+00:00",
   "repo_ids": [
     "openvinotoolkit/model_server",
     "pantoniou/libfyaml",
-    "ROCm/AMDMIGraphX",
-    "ROCm/mori"
+    "ROCm/AMDMIGraphX"
   ]
 }
