@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 4,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 45,
-    "terms": 104
+    "concepts": 118,
+    "observations": 118,
+    "repos": 49,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -36,6 +36,7 @@
     "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
     "llamastack/llama-stack-apps",
     "microsoft/nodejs-guidelines",
+    "mozilla/geckodriver",
     "msgpack/msgpack",
     "mthenw/awesome-layers",
     "mypyc/mypyc",
@@ -45,11 +46,14 @@
     "ogx-ai/llama-stack-apps",
     "oneredoak/claude-code-workflows",
     "openai/openai-openapi",
+    "openai/openai-quickstart-python",
     "openlm-research/open_llama",
     "python/asyncio",
+    "ray-project/ray-llm",
     "react-native-community/discussions-and-proposals",
     "reactjs/rfcs",
     "seebye/ueberzug",
+    "showlab/Awesome-GUI-Agent",
     "sindresorhus/guides",
     "styfle/awesome-online-ide",
     "tc39/proposal-decorators",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 75,
-    "observations": 77,
+    "components": 82,
+    "concepts": 74,
+    "observations": 76,
     "repos": 15,
-    "terms": 75
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "cedar-policy/cedar-examples",
     "cryscan/web-rwkv",
@@ -25,7 +25,7 @@
     "gimli-rs/addr2line",
     "mitsuhiko/similar-asserts",
     "Nugine/simd",
-    "rust-lang/crater",
+    "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",
     "saghen/frizbee",
     "sparsemat/sprs"

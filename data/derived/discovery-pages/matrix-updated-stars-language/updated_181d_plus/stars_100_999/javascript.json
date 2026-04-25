@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1170,
-    "concepts": 378,
-    "observations": 378,
-    "repos": 96,
-    "terms": 374
+    "components": 1227,
+    "concepts": 389,
+    "observations": 389,
+    "repos": 102,
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "6/stopwords-json",
@@ -47,6 +47,7 @@
     "dethcrypto/eth-sdk",
     "developit/jsxobj",
     "developit/vhtml",
+    "dwyl/env2",
     "dwyl/learn-environment-variables",
     "ebdrup/json-schema-benchmark",
     "electron-userland/electron-installer-debian",
@@ -68,6 +69,8 @@
     "gulpjs/vinyl-fs",
     "haoqunjiang/vite-jest",
     "ipfs-examples/js-ipfs-examples",
+    "ipfs/team-mgmt",
+    "ipld/js-ipld",
     "ipld/specs",
     "joaomoreno/gulp-atom-electron",
     "jonschlinkert/clone-deep",
@@ -88,7 +91,9 @@
     "micromatch/anymatch",
     "micromatch/braces",
     "micromatch/to-regex-range",
+    "microsoft/DirectX-Debugging-Tools",
     "mlmorg/react-hyperscript",
+    "mozilla/observatory-cli",
     "mysticatea/eslint-plugin-node",
     "newrelic/opensource-website",
     "nordtheme/dircolors",
@@ -108,6 +113,7 @@
     "standard/standard-engine",
     "standard/standardx",
     "sveltejs/eslint-plugin-svelte3",
+    "swagger-autogen/swagger-autogen",
     "tc39/template-for-proposals",
     "verbose/verb-generate-readme"
   ]

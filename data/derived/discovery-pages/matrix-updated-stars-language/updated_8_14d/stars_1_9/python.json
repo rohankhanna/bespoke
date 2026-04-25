@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
+    "components": 43,
     "concepts": 24,
     "observations": 24,
-    "repos": 10,
-    "terms": 25
+    "repos": 14,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
@@ -20,9 +20,13 @@
     "apptainer/apptainer-userdocs",
     "ashvardanian/ashvardanian",
     "audeering/audonnx",
+    "bryanh9111/engram",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "CoolCat467/idlemypyextension",
-    "kelp/webdown"
+    "kelp/webdown",
+    "piqrypt/piqrypt",
+    "sunthinks/kvmind",
+    "xiaochu-1208/interview-assistant-cli"
   ]
 }

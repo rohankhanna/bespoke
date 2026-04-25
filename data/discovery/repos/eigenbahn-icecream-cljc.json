@@ -86,13 +86,14 @@
       "size": 4879
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:11.396651+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": ":icecream: icecream ported to Clojure(Script)",
     "fork": false,
-    "full_name": "Eigenbahn/icecream-cljc",
+    "full_name": "eigenbahn/icecream-cljc",
     "html_url": "https://github.com/Eigenbahn/icecream-cljc",
     "language": "Clojure",
     "pushed_at": "2023-04-18T15:06:46Z",

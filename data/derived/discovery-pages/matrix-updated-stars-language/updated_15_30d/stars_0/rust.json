@@ -3,7 +3,7 @@
     "components": 9,
     "concepts": 5,
     "observations": 5,
-    "repos": 4,
+    "repos": 3,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
-    "beurdouche/nss-gk-api",
     "kayabaNerve/monero-oxide",
     "Sovereign-Labs/reltester"
   ]

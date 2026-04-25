@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 21,
-    "terms": 133
+    "components": 147,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 23,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "2noise/ChatTTS",
     "3b1b/videos",
     "666ghj/MiroFish",
     "aider-ai/aider",
@@ -26,13 +27,14 @@
     "facebook/prophet",
     "facebookresearch/detectron2",
     "fishaudio/fish-speech",
+    "google/yapf",
     "gruns/icecream",
     "huggingface/open-r1",
-    "karpathy/autoresearch",
     "microsoft/playwright-python",
     "openai/gym",
     "openai/tiktoken",
     "OpenBMB/ChatDev",
+    "spotify/luigi",
     "subframe7536/maple-font",
     "thu-ml/tianshou"
   ]

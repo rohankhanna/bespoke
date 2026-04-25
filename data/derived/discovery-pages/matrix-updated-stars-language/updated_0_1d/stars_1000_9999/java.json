@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 127,
-    "observations": 128,
-    "repos": 11,
-    "terms": 127
+    "components": 17,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 2,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
-    "apache/camel",
-    "apache/lucene",
-    "apache/netbeans",
-    "besu-eth/besu",
-    "diffplug/spotless",
-    "eclipse-jdtls/eclipse.jdt.ls",
-    "eclipse-openvsx/openvsx",
-    "google/adk-java",
-    "google/google-java-format",
-    "oshi/oshi"
+    "eclipse-openvsx/openvsx"
   ]
 }

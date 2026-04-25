@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 258,
-    "observations": 259,
-    "repos": 20,
-    "terms": 258
+    "components": 45,
+    "concepts": 78,
+    "observations": 79,
+    "repos": 7,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "arangodb/arangodb",
-    "argotorg/solidity",
-    "bkaradzic/bgfx",
-    "bpftrace/bpftrace",
-    "chromium/chromium",
-    "envoyproxy/envoy",
-    "google-ai-edge/mediapipe",
+    "citusdata/citus",
     "google/filament",
     "grpc/grpc",
-    "libvips/libvips",
-    "microsoft/mimalloc",
     "microsoft/STL",
-    "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
-    "protocolbuffers/protobuf",
-    "qemu/qemu",
-    "raysan5/raylib",
-    "redis/redis",
-    "systemd/systemd",
-    "taskflow/taskflow"
+    "protocolbuffers/protobuf"
   ]
 }

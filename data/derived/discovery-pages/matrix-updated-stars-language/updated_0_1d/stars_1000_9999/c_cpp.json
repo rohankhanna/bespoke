@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 318,
-    "concepts": 337,
-    "observations": 338,
-    "repos": 37,
-    "terms": 334
+    "components": 59,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 6,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,44 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "aphrodite-engine/aphrodite-engine",
-    "ashvardanian/NumKong",
-    "axboe/liburing",
-    "bdwgc/bdwgc",
-    "Blynk-Technologies/blynk-library",
-    "clice-io/clice",
-    "CLIUtils/CLI11",
-    "cloudflare/workerd",
-    "erincatto/box2d",
     "facebook/igl",
-    "facebookincubator/velox",
     "FEniCS/dolfinx",
-    "fluent/fluent-bit",
-    "git-for-windows/git",
-    "halide/Halide",
-    "intel/compute-runtime",
-    "iree-org/iree",
-    "KhronosGroup/glslang",
-    "KhronosGroup/SPIRV-Tools",
-    "Kitware/CMake",
-    "Mbed-TLS/mbedtls",
-    "microsoft/cppwinrt",
-    "microsoft/DirectXShaderCompiler",
-    "microsoft/microsoft-ui-xaml",
-    "microsoft/WindowsAppSDK",
-    "Mithril-mine/libmdbx",
-    "NVIDIA/cccl",
-    "open-quantum-safe/liboqs",
-    "OpenMathLib/OpenBLAS",
+    "kvcache-ai/Mooncake",
+    "microsoft/DirectXTK12",
     "pytorch/FBGEMM",
-    "rapidsai/cuml",
-    "shader-slang/slang",
-    "uccl-project/uccl",
-    "util-linux/util-linux",
-    "WebAssembly/wasi-libc",
-    "yaml/libyaml",
-    "zeux/meshoptimizer"
+    "uccl-project/uccl"
   ]
 }

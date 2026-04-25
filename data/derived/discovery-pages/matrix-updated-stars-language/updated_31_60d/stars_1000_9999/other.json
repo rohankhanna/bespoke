@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 153,
-    "observations": 155,
-    "repos": 23,
-    "terms": 152
+    "components": 141,
+    "concepts": 175,
+    "observations": 177,
+    "repos": 27,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "analysis-tools-dev/dynamic-analysis",
     "apache/casbin-Casbin.NET",
@@ -20,6 +20,7 @@
     "autofac/Autofac",
     "bbatsov/crux",
     "bbatsov/projectile",
+    "castwide/solargraph",
     "clojure/clojurescript",
     "clux/muslrust",
     "container-storage-interface/spec",
@@ -29,13 +30,16 @@
     "folke/snacks.nvim",
     "folke/tokyonight.nvim",
     "google/cel-spec",
+    "hrsh7th/nvim-cmp",
     "jpanther/congo",
     "lambdalisue/vim-fern",
     "lightning/bolts",
     "lunarmodules/busted",
     "michalmuskala/jason",
+    "onnx/models",
     "salesforce/BLIP",
     "steipete/imsg",
-    "stevearc/aerial.nvim"
+    "stevearc/aerial.nvim",
+    "z-x-yang/Segment-and-Track-Anything"
   ]
 }

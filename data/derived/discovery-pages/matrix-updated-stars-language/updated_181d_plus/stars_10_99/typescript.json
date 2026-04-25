@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1100,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 44,
-    "terms": 128
+    "components": 1125,
+    "concepts": 117,
+    "observations": 118,
+    "repos": 45,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "aaronlamz/vue-next-i18n",
     "AcidLeroy/gaiadown-ts",
@@ -24,7 +24,7 @@
     "Cryptonomic/T2",
     "Cryptonomic/Tezori",
     "danielnappa/tweakgc-cli",
-    "DefinitelyTyped/dts-critic",
+    "definitelytyped/dts-critic",
     "devcontainers/action",
     "dropbox/ts-transform-react-jsx-source",
     "endemolshinegroup/cz-github",
@@ -32,6 +32,7 @@
     "fatwang2/search1api-lobechat",
     "Garoth/sendgrid-mcp",
     "google-github-actions/release-please-action",
+    "hughfenghen/bloom-shadow",
     "invoke-ai/launcher",
     "joenye/coc-cfn-lint",
     "katyo/publish-crates",

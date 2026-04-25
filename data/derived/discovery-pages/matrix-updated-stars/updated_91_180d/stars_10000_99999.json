@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 231,
-    "observations": 231,
-    "repos": 32,
-    "terms": 230
+    "components": 352,
+    "concepts": 245,
+    "observations": 245,
+    "repos": 34,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "ahujasid/blender-mcp",
@@ -27,6 +27,7 @@
     "forwardemail/superagent",
     "FoundationAgents/MetaGPT",
     "fsnotify/fsnotify",
+    "goldfire/howler.js",
     "highlightjs/highlight.js",
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
@@ -42,6 +43,7 @@
     "sczhou/CodeFormer",
     "songquanpeng/one-api",
     "spf13/viper",
+    "spotify/annoy",
     "toml-lang/toml",
     "wechaty/wechaty",
     "ziglang/zig"

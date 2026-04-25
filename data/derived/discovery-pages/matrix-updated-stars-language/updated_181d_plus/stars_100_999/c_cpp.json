@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 326,
-    "observations": 329,
-    "repos": 86,
-    "terms": 321
+    "components": 222,
+    "concepts": 336,
+    "observations": 339,
+    "repos": 91,
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "aarnphm/whispercpp",
     "AirGuanZ/imgui-filebrowser",
     "alecazam/kram",
     "alecthomas/ondir",
+    "alex-petrenko/faster-fifo",
     "alibaba/sentinel-cpp",
     "andikleen/snappy-c",
     "andrewrk/libgroove",
@@ -37,11 +38,13 @@
     "binspector/binspector",
     "breadwallet/breadwallet-core",
     "buffer/libemu",
+    "bwa-mem2/bwa-mem2",
     "bytedance/effective_transformer",
     "chfast/ethash",
     "coin-or/Bonmin",
     "Consensys/ethereum-dissectors",
     "cornelk/llama-go",
+    "danielfrg/tsne",
     "DustinHLand/vkDOOM3",
     "EEEEhex/QQImpl",
     "eliemichel/glfw3webgpu",
@@ -70,6 +73,7 @@
     "JaneaSystems/nodejs-mobile-react-native",
     "JaneaSystems/nodejs-mobile-samples",
     "jgm/lunamark",
+    "jkrijthe/Rtsne",
     "KlugerLab/FIt-SNE",
     "KonanM/tser",
     "kondrak/vkQuake2",
@@ -81,6 +85,7 @@
     "likle/cwalk",
     "lvdmaaten/bhtsne",
     "mcmilk/zstdmt",
+    "MegEngine/InferLLM",
     "microsoft/PQCrypto-LWEKE",
     "mit-han-lab/TinyChatEngine",
     "niXman/yas",

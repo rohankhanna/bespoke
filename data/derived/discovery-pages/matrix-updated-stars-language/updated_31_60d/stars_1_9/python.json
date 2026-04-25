@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 17,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 10,
-    "terms": 33
+    "concepts": 35,
+    "observations": 35,
+    "repos": 11,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "al1-nasir/Research_council",
@@ -20,6 +20,7 @@
     "alexpolonsky/agent-skill-ontopo",
     "Boulaouaney/timmx",
     "conda-forge/cupy-feedstock",
+    "danielrosehill/claude-slash-commands",
     "flinedev/recall",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "openelections/openelections-data-sd",

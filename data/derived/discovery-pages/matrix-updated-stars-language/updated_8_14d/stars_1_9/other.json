@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 10,
+    "components": 26,
     "concepts": 6,
     "observations": 6,
-    "repos": 6,
+    "repos": 7,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "diffblue/homebrew-cbmc",
+    "dm0x23/portfolio-website",
     "dp111/6502timing",
     "joinwell52-ai/joinwell52",
     "lemire/unicode_lipsum",

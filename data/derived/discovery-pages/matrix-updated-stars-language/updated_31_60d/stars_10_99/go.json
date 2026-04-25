@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 11,
-    "terms": 59
+    "components": 75,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 12,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
@@ -20,6 +20,7 @@
     "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
     "aws/amazon-vpc-cni-plugins",
+    "aws/aws-ebpf-sdk-go",
     "bartventer/httpcache",
     "containerd/release-tool",
     "ctoth/claudio",

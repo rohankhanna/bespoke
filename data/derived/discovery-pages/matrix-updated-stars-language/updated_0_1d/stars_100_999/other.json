@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 359,
-    "concepts": 221,
-    "observations": 221,
-    "repos": 27,
-    "terms": 221
+    "components": 56,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 4,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,34 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "atsign-foundation/noports",
-    "Azure/bicep-registry-modules",
-    "bazelbuild/bazel-central-registry",
-    "Calinou/scoop-games",
-    "celo-org/celo-monorepo",
-    "cplusplus/draft",
-    "danielrosehill/Claude-Code-Projects-Index",
-    "dotnet/razor",
     "elixir-ecto/db_connection",
-    "elsa-workflows/elsa-studio",
-    "getsentry/sentry-dart",
-    "getsentry/sentry-docs",
-    "giaf/blasfeo",
-    "GoogleCloudPlatform/cluster-toolkit",
-    "huggingface/optimum-intel",
-    "igorlfs/nvim-dap-view",
-    "JuliaWeb/HTTP.jl",
-    "kurrent-io/KurrentDB-Client-Dotnet",
-    "microsoft/CsWinRT",
-    "mihaimaruseac/hindent",
-    "NuGet/NuGet.Client",
-    "rapidsai/cuvs",
-    "ROCm/llvm-project",
-    "SpecterOps/SharpHoundCommon",
-    "status-im/nimbus-eth1",
-    "status-im/nimbus-eth2",
-    "WebAssembly/meetings"
+    "grafana/k8s-monitoring-helm",
+    "ROCm/rocm-libraries",
+    "status-im/nimbus-eth2"
   ]
 }

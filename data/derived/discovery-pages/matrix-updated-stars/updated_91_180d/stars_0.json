@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 23,
-    "observations": 24,
+    "components": 95,
+    "concepts": 25,
+    "observations": 26,
     "repos": 26,
-    "terms": 23
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "appscodelabs/liche",
@@ -26,17 +26,17 @@
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
     "danielrosehill/Back-Up-Your-SaaS",
-    "danielrosehill/batch-claudemd-repo-creator",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
-    "danielrosehill/Context-Cruncher",
     "danielrosehill/Data-Projects-Index",
     "espressosystems/espresso-systems-common",
     "faradayio/compose_yml",
     "get-gah/setup-gah",
     "illusionfield/fourseven-scss",
     "imandra-ai/tldrs",
+    "pgvector/pgvector-ada",
+    "smallscientist1/tilelang",
     "stainless-api/tsc-multi",
     "wintercg/fetch"
   ]

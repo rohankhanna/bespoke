@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 10,
-    "terms": 46
+    "components": 55,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 11,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "cloudwu/skynet",
     "deepseek-ai/FlashMLA",
@@ -23,6 +23,7 @@
     "google/sanitizers",
     "libgit2/libgit2",
     "lz4/lz4",
+    "nlohmann/json",
     "NVIDIA/open-gpu-kernel-modules"
   ]
 }

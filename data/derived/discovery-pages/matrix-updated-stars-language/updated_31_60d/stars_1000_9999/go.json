@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 18,
-    "terms": 91
+    "components": 92,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 16,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "aquasecurity/tfsec",
     "bazelbuild/buildtools",
     "caddyserver/xcaddy",
     "charmbracelet/glamour",
-    "dagger/container-use",
     "darccio/mergo",
     "ddworken/hishtory",
     "dghubble/sling",
-    "flashbots/mev-boost",
     "go-redis/redis_rate",
     "google/go-cmp",
     "hashicorp/go-metrics",

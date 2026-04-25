@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 24,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "repo_ids": [
+    "saidudz/chat-ai"
+  ]
+}

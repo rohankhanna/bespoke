@@ -20,13 +20,14 @@
       "size": 1246
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:14:49.269155+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "a rust interface for github",
     "fork": true,
-    "full_name": "Marwes/hubcaps",
+    "full_name": "marwes/hubcaps",
     "html_url": "https://github.com/Marwes/hubcaps",
     "language": null,
     "pushed_at": "2021-10-04T09:10:02Z",

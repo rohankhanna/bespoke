@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 3,
-    "terms": 8
+    "components": 27,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 6,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "avast/retry-go",
+    "dagger/container-use",
+    "flashbots/mev-boost",
+    "go-rod/rod",
     "instrumenta/kubeval",
     "jtblin/kube2iam"
   ]

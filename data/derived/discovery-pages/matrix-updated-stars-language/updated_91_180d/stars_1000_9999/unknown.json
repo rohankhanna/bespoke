@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 6,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 3,
-    "terms": 6
+    "concepts": 9,
+    "observations": 9,
+    "repos": 4,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "jorgebucaran/awsm.fish",
     "msgpack/msgpack-c",
     "rose-pine/rose-pine-theme",
     "semver/semver"

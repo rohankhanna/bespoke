@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1416,
-    "concepts": 238,
-    "observations": 238,
-    "repos": 72,
-    "terms": 234
+    "components": 1458,
+    "concepts": 240,
+    "observations": 240,
+    "repos": 76,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "alexpinel/Dot",
@@ -20,6 +20,8 @@
     "astefanutti/kubebox",
     "Azure/azure-sdk-for-node",
     "binux/qiandao",
+    "bjornharrtell/jsts",
+    "bnoguchi/everyauth",
     "boltpkg/bolt",
     "caolan/nodeunit",
     "coreybutler/node-windows",
@@ -32,6 +34,8 @@
     "dojo/dojo",
     "douglascrockford/JSON-js",
     "dwyl/learn-aws-lambda",
+    "dwyl/learn-tdd",
+    "dwyl/learn-travis",
     "eigilnikolajsen/commit-mono",
     "estools/escodegen",
     "facebook/regenerator",

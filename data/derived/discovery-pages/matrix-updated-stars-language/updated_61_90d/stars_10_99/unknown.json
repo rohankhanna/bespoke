@@ -3,7 +3,7 @@
     "components": 2,
     "concepts": 0,
     "observations": 0,
-    "repos": 5,
+    "repos": 6,
     "terms": 7
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "cloudrepo-io/founder-os",
     "conda-forge/cfep",
+    "ethereum/beacon-metrics",
     "panaversity/claude-code-agent-teams-exercises",
     "tony/claude-code-riper-5",
     "withastro/.github"

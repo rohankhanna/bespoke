@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 12,
-    "terms": 40
+    "components": 77,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 13,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "Adam-Boesky/astro_SPLASH",
@@ -25,6 +25,7 @@
     "MarcCote/TextWorld",
     "open-rpc/markdown-gen",
     "shakacode/package_json",
-    "SWE-bench/SWE-smith-envs"
+    "SWE-bench/SWE-smith-envs",
+    "WebAssembly/compact-import-section"
   ]
 }

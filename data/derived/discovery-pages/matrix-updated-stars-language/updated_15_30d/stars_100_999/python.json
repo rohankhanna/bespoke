@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 85,
-    "observations": 86,
-    "repos": 27,
-    "terms": 95
+    "components": 99,
+    "concepts": 94,
+    "observations": 95,
+    "repos": 30,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "AgentR1/Claw-R1",
-    "AGI-Arena/MARS",
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
     "Alibaba-NLP/qqr",
@@ -23,11 +22,14 @@
     "biocypher/biocypher",
     "ddh0/easy-llama",
     "facebookincubator/ptr",
+    "facebookresearch/optimizers",
+    "facebookresearch/RAM",
     "googleapis/python-storage",
     "gowaylee/cchooks",
     "HoangTheQuyen/think-better",
     "langfengQ/DrMAS",
     "ldayton/dippy",
+    "marcelm/cutadapt",
     "matthew-brett/delocate",
     "meta-pytorch/torchft",
     "microsoft/XPretrain",
@@ -40,6 +42,7 @@
     "syncthing/docs",
     "TextArena/UnstableBaselines",
     "twisted/towncrier",
-    "xavierpuigf/virtualhome"
+    "xavierpuigf/virtualhome",
+    "zai-org/z-ai-sdk-python"
   ]
 }

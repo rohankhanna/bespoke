@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 20,
-    "terms": 65
+    "components": 122,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 23,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "activeviam/jdk4py",
     "AFLplusplus/afl-cov",
-    "AgriciDaniel/claude-email",
     "amyreese/fissix",
+    "cdeust/cortex",
     "cloudartisan/cloudartisan.github.io",
     "daltonmaag/vttLib",
     "dathere/datapusher-plus",
@@ -30,9 +30,12 @@
     "mypyc/mypyc-benchmarks",
     "nix-community/nur-update",
     "NixOS/branding",
+    "pycompression/python-isal",
+    "redhat-et/triton-dev-containers",
     "RWKV-Vibe/rwkv_lightning",
     "scasella/nanochat-mlx",
     "Significant-Gravitas/gravitasml",
+    "svaningelgem/logprise",
     "urschrei/pypolyline"
   ]
 }

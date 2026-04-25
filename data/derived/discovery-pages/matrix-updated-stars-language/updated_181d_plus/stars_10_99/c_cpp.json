@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 64,
-    "terms": 87
+    "components": 143,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 67,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "13thsymphony/HDRImageViewer",
     "alfredbaudisch/raylib-cimgui",
     "antoonpurnal/clangover",
     "apple-oss-distributions/tapi",
@@ -35,6 +36,7 @@
     "dgl/re-engine-RE2",
     "dukesoferl/re2",
     "dumtux/Allwinner-H616",
+    "dwyl/flutter-counter-example",
     "EdVince/diffusers-ncnn",
     "eliabieri/blnscpp",
     "eliemichel/sdl2webgpu",
@@ -57,7 +59,7 @@
     "kagiannis/FPC",
     "kimgr/getopt_port",
     "kinow/gtest-tap-listener",
-    "Kosta-Github/cute",
+    "kosta-github/cute",
     "kozyraki/phoenix",
     "madler/brotli",
     "MetaX-MACA/FlashMLA",
@@ -72,6 +74,7 @@
     "pullmoll/musl-fts",
     "puma/dev-tld-resolver",
     "ROCm/HIPCC",
+    "sophgo/ChatGLM2-TPU",
     "thunlp/FR-Spec",
     "tidwall/evio.c",
     "tidwall/redcon.c",

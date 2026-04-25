@@ -3,7 +3,7 @@
     "components": 12,
     "concepts": 37,
     "observations": 37,
-    "repos": 8,
+    "repos": 10,
     "terms": 37
   },
   "facet_version": 1,
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "AadSah/ConverSeg",
     "az1326/advisor-models",
     "camel-ai/seta",
     "fsspec/sshfs",
     "inducer/genpy",
+    "Lizw14/Super-CLEVR",
     "mohammadtavakoli78/beam",
     "shawn0728/ARES",
     "zheng977/MutiAgent4Fraud",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 9,
-    "terms": 46
+    "components": 61,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 11,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "cpputest/cpputest",
+    "flashlight/flashlight",
     "jkuhlmann/cgltf",
     "json-c/json-c",
     "memononen/nanovg",
+    "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",

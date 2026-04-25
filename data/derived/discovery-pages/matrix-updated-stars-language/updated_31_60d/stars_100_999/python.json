@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 28,
-    "terms": 123
+    "components": 123,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 30,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
+    "AGI-Arena/MARS",
     "alexei-led/aws-mcp-server",
     "angr/angrop",
+    "araffin/sbx",
     "BrianPugh/belay",
     "celery/py-amqp",
     "Chris-hughes10/pytorch-accelerated",
-    "cleinc/bts",
+    "Gen-Verse/Open-AgentRL",
     "google/adk-python-community",
     "hukkin/mdformat",
     "jsegov/autoresearch-win-rtx",

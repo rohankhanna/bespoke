@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 3,
-    "terms": 7
+    "concepts": 14,
+    "observations": 14,
+    "repos": 4,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "actions-oss/act-cli",
     "alexellis/gha-bump",
-    "automazeio/proof-go"
+    "automazeio/proof-go",
+    "justinfx/olric-nats-plugin"
   ]
 }

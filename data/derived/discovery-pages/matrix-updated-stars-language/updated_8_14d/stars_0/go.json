@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 3,
-    "terms": 6
+    "components": 22,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 4,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "amoniacou/external-dns-digitalocean-webhook",
-    "dubbo-go-pixiu/dubbo-go-pixiu"
+    "dubbo-go-pixiu/dubbo-go-pixiu",
+    "foundry-rs/optimism"
   ]
 }

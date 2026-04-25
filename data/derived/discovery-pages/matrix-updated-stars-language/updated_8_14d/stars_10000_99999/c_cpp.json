@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 115,
-    "observations": 115,
+    "components": 77,
+    "concepts": 91,
+    "observations": 91,
     "repos": 15,
-    "terms": 108
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "ApolloAuto/apollo",
     "aristocratos/btop",
@@ -21,8 +21,8 @@
     "davatorium/rofi",
     "jedisct1/libsodium",
     "microsoft/wslg",
+    "mozilla-ai/llamafile",
     "ninja-build/ninja",
-    "nlohmann/json",
     "nothings/stb",
     "NVIDIA/TensorRT",
     "opencv/opencv_contrib",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1107,
-    "concepts": 592,
-    "observations": 594,
-    "repos": 138,
+    "components": 1111,
+    "concepts": 599,
+    "observations": 601,
+    "repos": 141,
     "terms": 582
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "adam-p/markdown-here",
     "adobe-fonts/source-han-sans",
@@ -64,6 +64,7 @@
     "ggreer/the_silver_searcher",
     "go-kit/kit",
     "golang/protobuf",
+    "google-research/bert",
     "google-research/tuning_playbook",
     "GoogleContainerTools/kaniko",
     "graphdeco-inria/gaussian-splatting",
@@ -107,6 +108,7 @@
     "microsoft/LoRA",
     "microsoft/Swin-Transformer",
     "minimaxir/big-list-of-naughty-strings",
+    "mishoo/UglifyJS",
     "mislav/hub",
     "mkdocs/mkdocs",
     "mozilla/TTS",
@@ -117,6 +119,7 @@
     "NVIDIA/nvidia-docker",
     "ogham/exa",
     "open-mmlab/mmdetection",
+    "openai/baselines",
     "openai/gpt-2",
     "opencode-ai/opencode",
     "OpenMOSS/MOSS",

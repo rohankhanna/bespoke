@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 25,
+    "components": 35,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 26,
     "terms": 101
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-serif",
     "ahmetb/cloud-run-faq",
@@ -29,6 +29,7 @@
     "japaric/trust",
     "justinmayer/virtualfish",
     "karalabe/xgo",
+    "Kong/docker-kong",
     "kylef/swiftenv",
     "lukechilds/zsh-nvm",
     "marlonrichert/zsh-snap",

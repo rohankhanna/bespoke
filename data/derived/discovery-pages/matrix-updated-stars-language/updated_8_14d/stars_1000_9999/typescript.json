@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 707,
-    "concepts": 173,
-    "observations": 173,
-    "repos": 25,
-    "terms": 183
+    "components": 1006,
+    "concepts": 219,
+    "observations": 220,
+    "repos": 34,
+    "terms": 262
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,41 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "actions/typescript-action",
     "actions/upload-artifact",
     "AIPexStudio/AIPex",
+    "anthropics/claude-code-action",
+    "apollographql/apollo-tooling",
     "av/harbor",
     "babaohuang/GeminiProChat",
-    "badgen/badgen.net",
+    "berty/berty",
     "blockprotocol/blockprotocol",
     "coder/ghostty-web",
+    "devcontainers/cli",
+    "docker/metadata-action",
     "firebase/firebase-admin-node",
     "getsentry/xcodebuildmcp",
     "google-gemini/live-api-web-console",
     "googleapis/release-please",
     "googleapis/release-please-action",
     "Helicone/helicone",
-    "heyhuynhgiabuu/proxypal",
     "jupyter-lsp/jupyterlab-lsp",
     "letta-ai/claude-subconscious",
+    "liam-hq/liam",
+    "liveblocks/liveblocks",
+    "matt1398/claude-devtools",
     "maxritter/pilot-shell",
     "microsoft/playwright-cli",
     "onecli/onecli",
-    "opactorai/claudable",
+    "piebald-ai/tweakcc",
     "pixiv/three-vrm",
     "redhat-developer/vscode-java",
+    "sirmalloc/ccstatusline",
     "stripe/ai",
-    "TooTallNate/proxy-agents"
+    "stripe/stripe-node",
+    "TooTallNate/proxy-agents",
+    "withastro/starlight"
   ]
 }

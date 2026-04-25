@@ -169,13 +169,14 @@
       "size": 407
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:16.762886+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Controller for the 5sControl algorithms",
     "fork": false,
-    "full_name": "5sControl/5s-algorithms-controller",
+    "full_name": "5scontrol/5s-algorithms-controller",
     "html_url": "https://github.com/5sControl/5s-algorithms-controller",
     "language": "JavaScript",
     "pushed_at": "2024-04-04T13:24:36Z",

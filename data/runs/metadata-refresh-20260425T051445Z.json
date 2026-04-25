@@ -1,0 +1,1207 @@
+{
+  "budget_seconds": 2400,
+  "elapsed_seconds": 48.67,
+  "generated_at": "2026-04-25T05:14:45.652624+00:00",
+  "refresh_limit": 250,
+  "refreshed_count": 235,
+  "refreshed_repositories": [
+    "avsm/ocaml-uri",
+    "gabrielschulhof/iotivity-node",
+    "nlamirault/markdownfmt",
+    "boingoing/node-sass",
+    "changjiashuai/kotlin-multiaddr",
+    "altgr/opam-publish",
+    "marwes/hubcaps",
+    "mhdawson/node-sqlite3",
+    "matt-gardner/allennlp",
+    "meteoswiss-mdr/pyart",
+    "comit-network/hash_edwards_to_edwards",
+    "marwes/gluon",
+    "vega/logos",
+    "erick2418/vue-axios-vuex-jwt",
+    "alexgorbatchev/typescript-transform-react-jsx-source",
+    "zyedidia/blobs",
+    "redcaps-dataset/pytorch-retinaface",
+    "hashnuke/heroku-buildpack-elixir-otp-builds",
+    "mikesteglich/coliop",
+    "mikesteglich/jcmpl",
+    "unixorn/autoupdate-zgenom",
+    "level/browserify-starter",
+    "blockstream/rust-electrum-client",
+    "kasztp/url_shortener",
+    "curiousnoob/lerna-release-workflow",
+    "coderaiser/c8-reproduce",
+    "mickaelrigault/pymage",
+    "kybernetwork/dao_sc",
+    "songquanpeng/blog-theme-bootstrap5",
+    "songquanpeng/blog-theme-bootstrap",
+    "docpad/docpad-plugin-nodesass",
+    "appscodelabs/liche",
+    "kosta-github/cute",
+    "endemolshinegroup/cz-github",
+    "jianweisun007/athena-sjw",
+    "14nrv/serverless-lambda-stripe",
+    "git-up/libgit2",
+    "avantikalal/rapids-single-cell-examples",
+    "tritondatacenter/node-cmdutil",
+    "comit-network/monero-rs",
+    "shesek/rust-jsonrpc",
+    "clearbluejar/ghidra-pyi-generator",
+    "espressosystems/espresso-systems-common",
+    "flet/sublimelinter-contrib-semistandard",
+    "cncf/wg-networking",
+    "benwmills/core-sass-compiler",
+    "atom-community/autocomplete-plus",
+    "ve-forbryderne/mkultra",
+    "liuzechun0216/images",
+    "kushaldas/cpython",
+    "longlho/ts-transform-img",
+    "tritondatacenter/node-getopt",
+    "basecase/testdouble-chai",
+    "aerobounce/sublime-autoclosepanel",
+    "norwoodj/hashbash-backend-java",
+    "putoutjs/putout-processor-typos",
+    "kleisauke/glib",
+    "executablebooks/.github",
+    "alex-petrenko/sf_assets",
+    "songquanpeng/blog-theme-next",
+    "sourcegraph/godockerize",
+    "mzr1996/pytorch_sphinx_theme",
+    "userbait/phishing_sites_detector",
+    "4catalyzer/javascript",
+    "mrsmkl/keep-awake-rs",
+    "goldsteine/compe-latex-symbols",
+    "rigellute/scoop-bucket",
+    "molotovcherry/tree-sitter-wasm",
+    "celo-org/plumo-prover",
+    "cgrindel/bazel-doc",
+    "oras-project/distribution",
+    "level/webpack-starter",
+    "lockblox/multibase",
+    "aquasecurity/vim-tfsec",
+    "carlverret/fastfloattestbench",
+    "gajus/conventional-changelog-lint-config-canonical",
+    "dotnet-foundation/wg-corporate-relations",
+    "code1986/sentinel-lib",
+    "asg017/sqlite-base64",
+    "d0c-s4vage/lookatme.contrib.qrcode",
+    "sterlind/peft",
+    "jinfeihan57/p7zip_test_utils",
+    "genome21/langflow",
+    "985892345/mirai-hotfix",
+    "team-acaisia/php-varint",
+    "0ghny/tlsg10x-cli",
+    "jiweimaster/lfs",
+    "0cc4m/hf_bleeding_edge",
+    "ckan/ckan-service-provider",
+    "connectai-e/dingtalk-minimax",
+    "connectai-e/dingtalk-claude",
+    "justfoxing/jfx_bridge",
+    "josephfrazier/standard-eject",
+    "ichard26/blackbench",
+    "criteo/mesos-term",
+    "seebye/urwid-ueberzogen",
+    "matthew-brett/nb2plots",
+    "hallvard/etablesaw",
+    "atom/autocomplete-atom-api",
+    "jandamm/zgenom-ext-run",
+    "girishji/ngramview-complete.vim",
+    "ipld/interface-ipld-format",
+    "nim65s/git-archive-all",
+    "azizzaeny/boot-atomizer",
+    "dustinblackman/rust-hello-world",
+    "bagxi/idrnd-anti-spoofing-challenge-solution",
+    "atom/archive-view",
+    "atomlinter/linter-markdown",
+    "chriskiehl/gooeyimages",
+    "changjiashuai/kotlin-multibase",
+    "open-mmlab/pytorch_sphinx_theme",
+    "standard/brackets-standard",
+    "chrisguida/nix-dell",
+    "chatie/tsconfig",
+    "jandamm/zgenom-ext-release",
+    "aimerneige/miraichess",
+    "5scontrol/5s-dev-documentation",
+    "eigenbahn/icecream-cljc",
+    "autodistill/autodistill-azure-vision",
+    "arcanis/jest-pnp-resolver",
+    "isl-org/next-vit",
+    "garrettalbright/luacheck.novaextension",
+    "aaronlamz/vue-next-i18n",
+    "joshmedeski/tmux-list",
+    "scaleway/initrd",
+    "panqiwei/peft",
+    "allenai/allennlp-template-python-script",
+    "0delta/longdog",
+    "isamert/gedi",
+    "jxpress/hydra-vertex-ai-pipeline",
+    "opentracing/basictracer-go",
+    "justinpinkney/nomi",
+    "bnosac/audio.vadsilero",
+    "buraksezer/olric-kubernetes",
+    "dzryk/clip-grams",
+    "jupyter/notebook-team-compass",
+    "birkelund/boltdbcache",
+    "ocamlpro/opam",
+    "carrotsearch/elasticsearch-lingo3g",
+    "level/web-stream",
+    "delta1/rust-jsonrpc-client",
+    "gligen/diffusers",
+    "thomaseizinger/rust-jsonrpc-client",
+    "5scontrol/5s-algorithms-controller",
+    "conda-incubator/conda-suggest",
+    "bors-ng/dockerize",
+    "intel/iot-js-api",
+    "micromatch/expand-brackets",
+    "hasharchives/blockprotocol-incubator",
+    "sap-archive/project-odense",
+    "fwcd/atom-ide-kotlin",
+    "jasongin/node-canvas",
+    "arangoml/dgl-adapter",
+    "abersheeran/pdm-shell",
+    "zzowenzz/coco_tiny",
+    "kurrent-io/es-gencert-cli",
+    "joaomoreno/gulp-vinyl-zip",
+    "ipld/js-ipld-format-to-blockcodec",
+    "bfshi/llava_next_s2_integration",
+    "npm/npm-lifecycle",
+    "funtoo/core-kit",
+    "evenchange4/graphql.macro-example",
+    "larshp/uccp",
+    "ceramicnetwork/js-dag-jose-utils",
+    "abap-prep/abap_db_preparator",
+    "binaryoung/jieba-php",
+    "chalk-diagrams/planar",
+    "jandamm/zgenom-ext-eval",
+    "thanku-all/parse_answer",
+    "cgisky1980/hf-hub",
+    "d0c-s4vage/lookatme.contrib.image_ueberzug",
+    "codybuell/compe-lbdb",
+    "zulacore/completion-tmux",
+    "kristijanhusak/completion-tags",
+    "aca/completion-tabnine",
+    "pug-php/ci-pug-engine",
+    "0ghny/shellx-community-plugins",
+    "antonagestam/pylint-mypy-overlap",
+    "arnav-gudibande/koala-test-set",
+    "mikelodder7/blstrs",
+    "meteoswiss/pyrad-examples",
+    "celo-org/snark-setup-operator",
+    "antidot/pyckson",
+    "jb55/ln-ws-proxy",
+    "naman-ntc/fastcode",
+    "llava-vl/llava-interactive",
+    "mjvolk3/biocypher",
+    "patmyron/cfn-lint-online",
+    "norwoodj/hashbash-backend-go",
+    "datatrash/mos",
+    "thudm/multilingual-glm",
+    "franziskuskiefer/cose-rust",
+    "brody2consult/react-native-init-func",
+    "breezedeus/yolov7",
+    "dwyl/dwyl-site",
+    "sundoge/json-benchmark",
+    "dwyl/dart_cid",
+    "di/packaging_legacy",
+    "a115/exmatrix",
+    "notaryproject/meeting-notes",
+    "dwyl/dart_multihash",
+    "go-woo/protoc-gen-ent",
+    "coreybutler/staticassets",
+    "iodide-project/iodide-transpiler",
+    "milly/runtray-ps",
+    "allenai/allennlp-template-config-files",
+    "dwyl/env2",
+    "aaronlamz/excel-to-json",
+    "aadil-runpod/rp-logo",
+    "definitelytyped/dts-critic",
+    "open-mmlab/mim-example",
+    "ayushexel/vision-retrieval",
+    "dexters-hub/vue-study-jam",
+    "bnosac/audio.vadwebrtc",
+    "pdcxs/manimprojects",
+    "clojure-vim/async-clj-omni",
+    "cncf-tags/tag-env-tooling",
+    "luzlab/ajv-formats-draft2019",
+    "kz6fittycent/bpytop-snap",
+    "fish-shell/rust-pcre2",
+    "dwyl/git-guide",
+    "dryruby/json-canonicalization",
+    "parazyd/obelisk",
+    "lgrammel/modelfusion-terminal-app-starter",
+    "vyorkin/ormolu.el",
+    "cryptonomic/conseiljs",
+    "rapidsai/benchmark",
+    "jonschlinkert/expand-tilde",
+    "jonschlinkert/extend-shallow",
+    "ari-os310/eslint-plugin-jsx-a11y",
+    "project-mirai/mirai-sponsor",
+    "1mill/serverless-tf-examples",
+    "wentasah/emacsvterm.jl",
+    "ianopolous/jpack",
+    "0xc0000054/libheif-sharp-samples"
+  ],
+  "remaining_budget_seconds": 2351.33,
+  "repo_timings": [
+    {
+      "elapsed_seconds": 0.203,
+      "full_name": "avsm/ocaml-uri"
+    },
+    {
+      "elapsed_seconds": 0.203,
+      "full_name": "gabrielschulhof/iotivity-node"
+    },
+    {
+      "elapsed_seconds": 0.23,
+      "full_name": "nlamirault/markdownfmt"
+    },
+    {
+      "elapsed_seconds": 0.199,
+      "full_name": "boingoing/node-sass"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "changjiashuai/kotlin-multiaddr"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "altgr/opam-publish"
+    },
+    {
+      "elapsed_seconds": 0.25,
+      "full_name": "marwes/hubcaps"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "mhdawson/node-sqlite3"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "full_name": "matt-gardner/allennlp"
+    },
+    {
+      "elapsed_seconds": 0.247,
+      "full_name": "meteoswiss-mdr/pyart"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "comit-network/hash_edwards_to_edwards"
+    },
+    {
+      "elapsed_seconds": 0.206,
+      "full_name": "marwes/gluon"
+    },
+    {
+      "elapsed_seconds": 0.198,
+      "full_name": "vega/logos"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "erick2418/vue-axios-vuex-jwt"
+    },
+    {
+      "elapsed_seconds": 0.258,
+      "full_name": "alexgorbatchev/typescript-transform-react-jsx-source"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "zyedidia/blobs"
+    },
+    {
+      "elapsed_seconds": 0.235,
+      "full_name": "redcaps-dataset/pytorch-retinaface"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "hashnuke/heroku-buildpack-elixir-otp-builds"
+    },
+    {
+      "elapsed_seconds": 0.199,
+      "full_name": "mikesteglich/coliop"
+    },
+    {
+      "elapsed_seconds": 0.155,
+      "full_name": "mikesteglich/jcmpl"
+    },
+    {
+      "elapsed_seconds": 0.154,
+      "full_name": "unixorn/autoupdate-zgenom"
+    },
+    {
+      "elapsed_seconds": 0.196,
+      "full_name": "level/browserify-starter"
+    },
+    {
+      "elapsed_seconds": 0.259,
+      "full_name": "blockstream/rust-electrum-client"
+    },
+    {
+      "elapsed_seconds": 0.153,
+      "full_name": "kasztp/url_shortener"
+    },
+    {
+      "elapsed_seconds": 0.191,
+      "full_name": "curiousnoob/lerna-release-workflow"
+    },
+    {
+      "elapsed_seconds": 0.185,
+      "full_name": "coderaiser/c8-reproduce"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "mickaelrigault/pymage"
+    },
+    {
+      "elapsed_seconds": 0.258,
+      "full_name": "kybernetwork/dao_sc"
+    },
+    {
+      "elapsed_seconds": 0.207,
+      "full_name": "songquanpeng/blog-theme-bootstrap5"
+    },
+    {
+      "elapsed_seconds": 0.166,
+      "full_name": "songquanpeng/blog-theme-bootstrap"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "docpad/docpad-plugin-nodesass"
+    },
+    {
+      "elapsed_seconds": 0.255,
+      "full_name": "appscodelabs/liche"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "kosta-github/cute"
+    },
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "endemolshinegroup/cz-github"
+    },
+    {
+      "elapsed_seconds": 0.223,
+      "full_name": "jianweisun007/athena-sjw"
+    },
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "14nrv/serverless-lambda-stripe"
+    },
+    {
+      "elapsed_seconds": 0.235,
+      "full_name": "git-up/libgit2"
+    },
+    {
+      "elapsed_seconds": 0.245,
+      "full_name": "avantikalal/rapids-single-cell-examples"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "tritondatacenter/node-cmdutil"
+    },
+    {
+      "elapsed_seconds": 0.251,
+      "full_name": "comit-network/monero-rs"
+    },
+    {
+      "elapsed_seconds": 0.229,
+      "full_name": "shesek/rust-jsonrpc"
+    },
+    {
+      "elapsed_seconds": 0.236,
+      "full_name": "clearbluejar/ghidra-pyi-generator"
+    },
+    {
+      "elapsed_seconds": 0.192,
+      "full_name": "espressosystems/espresso-systems-common"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "flet/sublimelinter-contrib-semistandard"
+    },
+    {
+      "elapsed_seconds": 0.2,
+      "full_name": "cncf/wg-networking"
+    },
+    {
+      "elapsed_seconds": 0.159,
+      "full_name": "benwmills/core-sass-compiler"
+    },
+    {
+      "elapsed_seconds": 0.225,
+      "full_name": "atom-community/autocomplete-plus"
+    },
+    {
+      "elapsed_seconds": 0.234,
+      "full_name": "ve-forbryderne/mkultra"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "liuzechun0216/images"
+    },
+    {
+      "elapsed_seconds": 0.252,
+      "full_name": "kushaldas/cpython"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "longlho/ts-transform-img"
+    },
+    {
+      "elapsed_seconds": 0.236,
+      "full_name": "tritondatacenter/node-getopt"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "basecase/testdouble-chai"
+    },
+    {
+      "elapsed_seconds": 0.159,
+      "full_name": "aerobounce/sublime-autoclosepanel"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "norwoodj/hashbash-backend-java"
+    },
+    {
+      "elapsed_seconds": 0.191,
+      "full_name": "putoutjs/putout-processor-typos"
+    },
+    {
+      "elapsed_seconds": 0.233,
+      "full_name": "kleisauke/glib"
+    },
+    {
+      "elapsed_seconds": 0.194,
+      "full_name": "executablebooks/.github"
+    },
+    {
+      "elapsed_seconds": 0.161,
+      "full_name": "alex-petrenko/sf_assets"
+    },
+    {
+      "elapsed_seconds": 0.256,
+      "full_name": "songquanpeng/blog-theme-next"
+    },
+    {
+      "elapsed_seconds": 0.251,
+      "full_name": "sourcegraph/godockerize"
+    },
+    {
+      "elapsed_seconds": 0.254,
+      "full_name": "mzr1996/pytorch_sphinx_theme"
+    },
+    {
+      "elapsed_seconds": 0.221,
+      "full_name": "userbait/phishing_sites_detector"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "4catalyzer/javascript"
+    },
+    {
+      "elapsed_seconds": 0.195,
+      "full_name": "mrsmkl/keep-awake-rs"
+    },
+    {
+      "elapsed_seconds": 0.166,
+      "full_name": "goldsteine/compe-latex-symbols"
+    },
+    {
+      "elapsed_seconds": 0.254,
+      "full_name": "rigellute/scoop-bucket"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "molotovcherry/tree-sitter-wasm"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "celo-org/plumo-prover"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "cgrindel/bazel-doc"
+    },
+    {
+      "elapsed_seconds": 0.237,
+      "full_name": "oras-project/distribution"
+    },
+    {
+      "elapsed_seconds": 0.195,
+      "full_name": "level/webpack-starter"
+    },
+    {
+      "elapsed_seconds": 0.238,
+      "full_name": "lockblox/multibase"
+    },
+    {
+      "elapsed_seconds": 0.198,
+      "full_name": "aquasecurity/vim-tfsec"
+    },
+    {
+      "elapsed_seconds": 0.206,
+      "full_name": "carlverret/fastfloattestbench"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "gajus/conventional-changelog-lint-config-canonical"
+    },
+    {
+      "elapsed_seconds": 0.2,
+      "full_name": "dotnet-foundation/wg-corporate-relations"
+    },
+    {
+      "elapsed_seconds": 0.189,
+      "full_name": "code1986/sentinel-lib"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "asg017/sqlite-base64"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "d0c-s4vage/lookatme.contrib.qrcode"
+    },
+    {
+      "elapsed_seconds": 0.213,
+      "full_name": "sterlind/peft"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "jinfeihan57/p7zip_test_utils"
+    },
+    {
+      "elapsed_seconds": 0.232,
+      "full_name": "genome21/langflow"
+    },
+    {
+      "elapsed_seconds": 0.19,
+      "full_name": "985892345/mirai-hotfix"
+    },
+    {
+      "elapsed_seconds": 0.201,
+      "full_name": "team-acaisia/php-varint"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "0ghny/tlsg10x-cli"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "jiweimaster/lfs"
+    },
+    {
+      "elapsed_seconds": 0.192,
+      "full_name": "0cc4m/hf_bleeding_edge"
+    },
+    {
+      "elapsed_seconds": 0.235,
+      "full_name": "ckan/ckan-service-provider"
+    },
+    {
+      "elapsed_seconds": 0.166,
+      "full_name": "connectai-e/dingtalk-minimax"
+    },
+    {
+      "elapsed_seconds": 0.205,
+      "full_name": "connectai-e/dingtalk-claude"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "justfoxing/jfx_bridge"
+    },
+    {
+      "elapsed_seconds": 0.18,
+      "full_name": "josephfrazier/standard-eject"
+    },
+    {
+      "elapsed_seconds": 0.159,
+      "full_name": "ichard26/blackbench"
+    },
+    {
+      "elapsed_seconds": 0.231,
+      "full_name": "criteo/mesos-term"
+    },
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "seebye/urwid-ueberzogen"
+    },
+    {
+      "elapsed_seconds": 0.183,
+      "full_name": "matthew-brett/nb2plots"
+    },
+    {
+      "elapsed_seconds": 0.155,
+      "full_name": "hallvard/etablesaw"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "atom/autocomplete-atom-api"
+    },
+    {
+      "elapsed_seconds": 0.216,
+      "full_name": "jandamm/zgenom-ext-run"
+    },
+    {
+      "elapsed_seconds": 0.185,
+      "full_name": "girishji/ngramview-complete.vim"
+    },
+    {
+      "elapsed_seconds": 0.193,
+      "full_name": "ipld/interface-ipld-format"
+    },
+    {
+      "elapsed_seconds": 0.244,
+      "full_name": "nim65s/git-archive-all"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "azizzaeny/boot-atomizer"
+    },
+    {
+      "elapsed_seconds": 0.186,
+      "full_name": "dustinblackman/rust-hello-world"
+    },
+    {
+      "elapsed_seconds": 0.147,
+      "full_name": "bagxi/idrnd-anti-spoofing-challenge-solution"
+    },
+    {
+      "elapsed_seconds": 0.149,
+      "full_name": "atom/archive-view"
+    },
+    {
+      "elapsed_seconds": 0.19,
+      "full_name": "atomlinter/linter-markdown"
+    },
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "chriskiehl/gooeyimages"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "changjiashuai/kotlin-multibase"
+    },
+    {
+      "elapsed_seconds": 0.211,
+      "full_name": "open-mmlab/pytorch_sphinx_theme"
+    },
+    {
+      "elapsed_seconds": 0.2,
+      "full_name": "standard/brackets-standard"
+    },
+    {
+      "elapsed_seconds": 0.191,
+      "full_name": "chrisguida/nix-dell"
+    },
+    {
+      "elapsed_seconds": 0.209,
+      "full_name": "chatie/tsconfig"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "jandamm/zgenom-ext-release"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "aimerneige/miraichess"
+    },
+    {
+      "elapsed_seconds": 0.205,
+      "full_name": "5scontrol/5s-dev-documentation"
+    },
+    {
+      "elapsed_seconds": 0.192,
+      "full_name": "eigenbahn/icecream-cljc"
+    },
+    {
+      "elapsed_seconds": 0.266,
+      "full_name": "autodistill/autodistill-azure-vision"
+    },
+    {
+      "elapsed_seconds": 0.193,
+      "full_name": "arcanis/jest-pnp-resolver"
+    },
+    {
+      "elapsed_seconds": 0.25,
+      "full_name": "isl-org/next-vit"
+    },
+    {
+      "elapsed_seconds": 0.17,
+      "full_name": "garrettalbright/luacheck.novaextension"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "elapsed_seconds": 0.221,
+      "full_name": "joshmedeski/tmux-list"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "scaleway/initrd"
+    },
+    {
+      "elapsed_seconds": 0.246,
+      "full_name": "panqiwei/peft"
+    },
+    {
+      "elapsed_seconds": 0.22,
+      "full_name": "allenai/allennlp-template-python-script"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "0delta/longdog"
+    },
+    {
+      "elapsed_seconds": 0.203,
+      "full_name": "isamert/gedi"
+    },
+    {
+      "elapsed_seconds": 0.229,
+      "full_name": "jxpress/hydra-vertex-ai-pipeline"
+    },
+    {
+      "elapsed_seconds": 0.217,
+      "full_name": "opentracing/basictracer-go"
+    },
+    {
+      "elapsed_seconds": 0.196,
+      "full_name": "justinpinkney/nomi"
+    },
+    {
+      "elapsed_seconds": 0.194,
+      "full_name": "bnosac/audio.vadsilero"
+    },
+    {
+      "elapsed_seconds": 0.185,
+      "full_name": "buraksezer/olric-kubernetes"
+    },
+    {
+      "elapsed_seconds": 0.189,
+      "full_name": "dzryk/clip-grams"
+    },
+    {
+      "elapsed_seconds": 0.201,
+      "full_name": "jupyter/notebook-team-compass"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "birkelund/boltdbcache"
+    },
+    {
+      "elapsed_seconds": 0.231,
+      "full_name": "ocamlpro/opam"
+    },
+    {
+      "elapsed_seconds": 0.211,
+      "full_name": "carrotsearch/elasticsearch-lingo3g"
+    },
+    {
+      "elapsed_seconds": 0.178,
+      "full_name": "level/web-stream"
+    },
+    {
+      "elapsed_seconds": 0.231,
+      "full_name": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "elapsed_seconds": 0.257,
+      "full_name": "gligen/diffusers"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "thomaseizinger/rust-jsonrpc-client"
+    },
+    {
+      "elapsed_seconds": 0.187,
+      "full_name": "5scontrol/5s-algorithms-controller"
+    },
+    {
+      "elapsed_seconds": 0.201,
+      "full_name": "conda-incubator/conda-suggest"
+    },
+    {
+      "elapsed_seconds": 0.198,
+      "full_name": "bors-ng/dockerize"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "intel/iot-js-api"
+    },
+    {
+      "elapsed_seconds": 0.192,
+      "full_name": "micromatch/expand-brackets"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "hasharchives/blockprotocol-incubator"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "sap-archive/project-odense"
+    },
+    {
+      "elapsed_seconds": 0.211,
+      "full_name": "fwcd/atom-ide-kotlin"
+    },
+    {
+      "elapsed_seconds": 0.221,
+      "full_name": "jasongin/node-canvas"
+    },
+    {
+      "elapsed_seconds": 0.2,
+      "full_name": "arangoml/dgl-adapter"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "abersheeran/pdm-shell"
+    },
+    {
+      "elapsed_seconds": 0.188,
+      "full_name": "zzowenzz/coco_tiny"
+    },
+    {
+      "elapsed_seconds": 0.218,
+      "full_name": "kurrent-io/es-gencert-cli"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "joaomoreno/gulp-vinyl-zip"
+    },
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "ipld/js-ipld-format-to-blockcodec"
+    },
+    {
+      "elapsed_seconds": 0.215,
+      "full_name": "bfshi/llava_next_s2_integration"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "npm/npm-lifecycle"
+    },
+    {
+      "elapsed_seconds": 0.232,
+      "full_name": "funtoo/core-kit"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "evenchange4/graphql.macro-example"
+    },
+    {
+      "elapsed_seconds": 0.18,
+      "full_name": "larshp/uccp"
+    },
+    {
+      "elapsed_seconds": 0.206,
+      "full_name": "ceramicnetwork/js-dag-jose-utils"
+    },
+    {
+      "elapsed_seconds": 0.204,
+      "full_name": "abap-prep/abap_db_preparator"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "binaryoung/jieba-php"
+    },
+    {
+      "elapsed_seconds": 0.194,
+      "full_name": "chalk-diagrams/planar"
+    },
+    {
+      "elapsed_seconds": 0.172,
+      "full_name": "jandamm/zgenom-ext-eval"
+    },
+    {
+      "elapsed_seconds": 0.199,
+      "full_name": "thanku-all/parse_answer"
+    },
+    {
+      "elapsed_seconds": 0.24,
+      "full_name": "cgisky1980/hf-hub"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "d0c-s4vage/lookatme.contrib.image_ueberzug"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "codybuell/compe-lbdb"
+    },
+    {
+      "elapsed_seconds": 0.147,
+      "full_name": "zulacore/completion-tmux"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "kristijanhusak/completion-tags"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "aca/completion-tabnine"
+    },
+    {
+      "elapsed_seconds": 0.208,
+      "full_name": "pug-php/ci-pug-engine"
+    },
+    {
+      "elapsed_seconds": 0.196,
+      "full_name": "0ghny/shellx-community-plugins"
+    },
+    {
+      "elapsed_seconds": 0.178,
+      "full_name": "antonagestam/pylint-mypy-overlap"
+    },
+    {
+      "elapsed_seconds": 0.18,
+      "full_name": "arnav-gudibande/koala-test-set"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "mikelodder7/blstrs"
+    },
+    {
+      "elapsed_seconds": 0.236,
+      "full_name": "meteoswiss/pyrad-examples"
+    },
+    {
+      "elapsed_seconds": 0.164,
+      "full_name": "celo-org/snark-setup-operator"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "antidot/pyckson"
+    },
+    {
+      "elapsed_seconds": 0.189,
+      "full_name": "jb55/ln-ws-proxy"
+    },
+    {
+      "elapsed_seconds": 0.178,
+      "full_name": "naman-ntc/fastcode"
+    },
+    {
+      "elapsed_seconds": 0.186,
+      "full_name": "llava-vl/llava-interactive"
+    },
+    {
+      "elapsed_seconds": 0.238,
+      "full_name": "mjvolk3/biocypher"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "patmyron/cfn-lint-online"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "norwoodj/hashbash-backend-go"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "datatrash/mos"
+    },
+    {
+      "elapsed_seconds": 0.189,
+      "full_name": "thudm/multilingual-glm"
+    },
+    {
+      "elapsed_seconds": 0.185,
+      "full_name": "franziskuskiefer/cose-rust"
+    },
+    {
+      "elapsed_seconds": 0.172,
+      "full_name": "brody2consult/react-native-init-func"
+    },
+    {
+      "elapsed_seconds": 0.216,
+      "full_name": "breezedeus/yolov7"
+    },
+    {
+      "elapsed_seconds": 0.215,
+      "full_name": "dwyl/dwyl-site"
+    },
+    {
+      "elapsed_seconds": 0.242,
+      "full_name": "sundoge/json-benchmark"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "dwyl/dart_cid"
+    },
+    {
+      "elapsed_seconds": 0.191,
+      "full_name": "di/packaging_legacy"
+    },
+    {
+      "elapsed_seconds": 0.211,
+      "full_name": "a115/exmatrix"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "notaryproject/meeting-notes"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "dwyl/dart_multihash"
+    },
+    {
+      "elapsed_seconds": 0.248,
+      "full_name": "go-woo/protoc-gen-ent"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "coreybutler/staticassets"
+    },
+    {
+      "elapsed_seconds": 0.193,
+      "full_name": "iodide-project/iodide-transpiler"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "milly/runtray-ps"
+    },
+    {
+      "elapsed_seconds": 0.183,
+      "full_name": "allenai/allennlp-template-config-files"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "dwyl/env2"
+    },
+    {
+      "elapsed_seconds": 0.195,
+      "full_name": "aaronlamz/excel-to-json"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "aadil-runpod/rp-logo"
+    },
+    {
+      "elapsed_seconds": 0.192,
+      "full_name": "definitelytyped/dts-critic"
+    },
+    {
+      "elapsed_seconds": 0.244,
+      "full_name": "open-mmlab/mim-example"
+    },
+    {
+      "elapsed_seconds": 0.264,
+      "full_name": "ayushexel/vision-retrieval"
+    },
+    {
+      "elapsed_seconds": 0.185,
+      "full_name": "dexters-hub/vue-study-jam"
+    },
+    {
+      "elapsed_seconds": 0.212,
+      "full_name": "bnosac/audio.vadwebrtc"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "pdcxs/manimprojects"
+    },
+    {
+      "elapsed_seconds": 0.207,
+      "full_name": "clojure-vim/async-clj-omni"
+    },
+    {
+      "elapsed_seconds": 0.202,
+      "full_name": "cncf-tags/tag-env-tooling"
+    },
+    {
+      "elapsed_seconds": 0.186,
+      "full_name": "luzlab/ajv-formats-draft2019"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "kz6fittycent/bpytop-snap"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "fish-shell/rust-pcre2"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "dwyl/git-guide"
+    },
+    {
+      "elapsed_seconds": 0.2,
+      "full_name": "dryruby/json-canonicalization"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "parazyd/obelisk"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "lgrammel/modelfusion-terminal-app-starter"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "vyorkin/ormolu.el"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "cryptonomic/conseiljs"
+    },
+    {
+      "elapsed_seconds": 0.204,
+      "full_name": "rapidsai/benchmark"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "jonschlinkert/expand-tilde"
+    },
+    {
+      "elapsed_seconds": 0.151,
+      "full_name": "jonschlinkert/extend-shallow"
+    },
+    {
+      "elapsed_seconds": 0.224,
+      "full_name": "ari-os310/eslint-plugin-jsx-a11y"
+    },
+    {
+      "elapsed_seconds": 0.186,
+      "full_name": "project-mirai/mirai-sponsor"
+    },
+    {
+      "elapsed_seconds": 0.187,
+      "full_name": "1mill/serverless-tf-examples"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "wentasah/emacsvterm.jl"
+    },
+    {
+      "elapsed_seconds": 0.193,
+      "full_name": "ianopolous/jpack"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "0xc0000054/libheif-sharp-samples"
+    }
+  ],
+  "run_id": "20260425T051445Z",
+  "skipped_count": 15,
+  "skipped_repositories": [
+    "aitooools/chatgpt-plus-hezu",
+    "aitooools/chatgpt",
+    "aitooools/gemini-pro",
+    "aitooools/claude-pro-recharge",
+    "aitooools/claude-pro",
+    "aitooools/poe",
+    "aitooools/spotify-hezu",
+    "aitooools/supergrok",
+    "aitooools/youtube-hezu",
+    "aitooools/netflix-hezu",
+    "aitooools/nf-video",
+    "aitooools/claude-pro-hezu",
+    "aitooools/chatgpt-plus-recharge",
+    "aitooools/aitooools.github.io",
+    "geiserx/agenttap"
+  ],
+  "stopped_due_to_budget": false
+}

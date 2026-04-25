@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 28,
-    "terms": 116
+    "components": 210,
+    "concepts": 207,
+    "observations": 207,
+    "repos": 39,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,25 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "actboy168/bee.lua",
+    "acts-project/acts",
     "ampl/mp",
     "aseprite/laf",
+    "aws/aws-ofi-nccl",
+    "BabylonJS/BabylonNative",
+    "bitcoin-core/gui",
+    "boazsegev/iodine",
     "coin-or/Cbc",
-    "cusplibrary/cusplibrary",
+    "corporateshark/lightweightvk",
     "DavidKinder/Inform6",
     "Ezibenroc/PyRoaringBitMap",
+    "facil-io/cstl",
     "freebsd/kyua",
     "Frommi/miniz_oxide",
+    "google/dawn",
     "google/fuzztest",
-    "google/jpegli",
     "google/riegeli",
     "hajimes/mmh3",
     "intel/intel-ipsec-mb",
@@ -33,14 +39,19 @@
     "lxqt/qterminal",
     "lxqt/qtermwidget",
     "microsoft/vcpkg-tool",
+    "mitsuba-renderer/drjit",
     "mitsuba-renderer/drjit-core",
-    "mybigday/llama.rn",
     "nss-dev/nss",
+    "onnx/optimizer",
+    "openvinotoolkit/openvino.genai",
     "powturbo/TurboBench",
     "pyg-team/pyg-lib",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
     "ROCm/composable_kernel",
-    "SaschaWillems/HowToVulkan"
+    "ROCm/MIVisionX",
+    "samdauwe/webgpu-native-examples",
+    "SaschaWillems/HowToVulkan",
+    "tile-ai/tilelang-ascend"
   ]
 }

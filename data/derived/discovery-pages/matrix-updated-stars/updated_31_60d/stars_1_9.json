@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 293,
-    "concepts": 227,
-    "observations": 227,
-    "repos": 60,
-    "terms": 222
+    "components": 303,
+    "concepts": 233,
+    "observations": 233,
+    "repos": 63,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "42-evey/evey-bridge-plugin",
     "aaronrsun/spec-kit-checkpoint",
     "abap2UI5-addons/layout-management",
     "actions-oss/act-cli",
+    "ada-url/url-various-datasets",
     "Adam-Boesky/astro_SPLASH",
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "adobe/spectrum-tokens",
@@ -37,6 +38,7 @@
     "awni/picochat",
     "Bartheleway/inquirer-table-multiple",
     "bendrucker/terraform-configuration-aliases-action",
+    "BinomialLLC/KTX-Software-Binomial-Fork",
     "Boulaouaney/timmx",
     "brody2consult/react-native-init-func",
     "clearbluejar/ghidra-python",
@@ -47,16 +49,16 @@
     "CROSS-signature/CROSS-lib-oqs",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "danielrosehill/claude-agent-workspace-generator",
+    "danielrosehill/claude-code-sysadmin-workspaces-index",
+    "danielrosehill/claude-slash-commands",
     "filip26/copper-multibase",
-    "filip26/copper-multicodec",
     "filip26/titanium-jcs",
-    "filip26/titanium-rdf-canon",
-    "filip26/titanium-rdf-n-quads",
     "filip26/tree-io",
     "fishballapp/inquirer-cli",
     "flinedev/customstatusline",
     "flinedev/recall",
     "ipfs/helia-delegated-routing-v1-http-api",
+    "justinfx/olric-nats-plugin",
     "Layr-Labs/incredible-squaring-avs-rs",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "lucabubi/star-history",
@@ -72,6 +74,7 @@
     "shakacode/package_json",
     "sigp/quick-protobuf",
     "SWE-bench/SWE-smith-envs",
-    "tombelieber/claude-backup"
+    "tombelieber/claude-backup",
+    "WebAssembly/compact-import-section"
   ]
 }

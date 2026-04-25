@@ -1,20 +1,22 @@
 {
   "counts": {
-    "components": 820,
-    "concepts": 696,
-    "observations": 703,
-    "repos": 144,
-    "terms": 690
+    "components": 858,
+    "concepts": 752,
+    "observations": 760,
+    "repos": 150,
+    "terms": 746
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
+    "achannarasappa/ticker",
+    "afc163/fanyi",
     "ajvb/kala",
     "Alexander-Miller/treemacs",
     "alexmojaki/birdseye",
@@ -56,9 +58,11 @@
     "fsprojects/Paket",
     "fukuball/jieba-php",
     "geiger-rs/cargo-geiger",
+    "GEOSwift/GEOSwift",
     "gf3/dotfiles",
     "gin-gonic/contrib",
     "github/git-sizer",
+    "google-gemini/deprecated-generative-ai-python",
     "google-github-actions/auth",
     "google/gts",
     "google/re2",
@@ -81,6 +85,7 @@
     "jasongin/nvs",
     "jhump/protoreflect",
     "jlblancoc/nanoflann",
+    "jorgebucaran/awsm.fish",
     "jorgebucaran/nvm.fish",
     "jpillora/cloud-torrent",
     "jstkdng/ueberzugpp",
@@ -155,6 +160,7 @@
     "vercel/ms",
     "WebAV-Tech/WebAV",
     "weichsel/ZIPFoundation",
+    "WICG/webcomponents",
     "yonaskolb/Mint",
     "ZipArchive/ZipArchive"
   ]

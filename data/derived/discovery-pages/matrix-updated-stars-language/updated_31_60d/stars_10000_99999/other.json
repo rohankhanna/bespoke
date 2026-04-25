@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 6,
-    "terms": 36
+    "components": 38,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 7,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "github-linguist/linguist",
     "google-research/vision_transformer",
     "nikic/PHP-Parser",
+    "openai/CLIP",
     "ryanoasis/nerd-fonts",
     "tpope/vim-fugitive"
   ]

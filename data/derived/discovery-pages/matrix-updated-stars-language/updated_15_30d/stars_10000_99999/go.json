@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 56,
-    "observations": 57,
-    "repos": 5,
-    "terms": 53
+    "components": 32,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 4,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "direnv/direnv",
     "evanw/esbuild",
-    "gitleaks/gitleaks",
     "labstack/echo",
     "Mrs4s/go-cqhttp"
   ]

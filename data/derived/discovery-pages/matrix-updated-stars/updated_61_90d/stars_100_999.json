@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 536,
-    "concepts": 413,
-    "observations": 414,
-    "repos": 91,
-    "terms": 411
+    "components": 580,
+    "concepts": 423,
+    "observations": 424,
+    "repos": 96,
+    "terms": 420
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -38,6 +38,7 @@
     "Calcium-Ion/neko-api-key-tool",
     "castwide/vscode-solargraph",
     "chfast/intx",
+    "cleinc/bts",
     "cross-rs/cross-toolchains",
     "CSU-Radarmet/CSU_RadarTools",
     "cuviper/autocfg",
@@ -53,6 +54,7 @@
     "georust/proj",
     "get-gah/gah",
     "githubharald/CTCDecoder",
+    "gwihlidal/vk-mem-rs",
     "haskell/text",
     "helm/kind-action",
     "hollowstrawberry/kohya-colab",
@@ -60,6 +62,7 @@
     "inducer/cgen",
     "intel/ai-reference-models",
     "JacksonBurns/chemeleon",
+    "kamranahmedse/claude-run",
     "kata-containers/cgroups-rs",
     "lambdalisue/vim-gin",
     "libp2p/js-libp2p-examples",
@@ -75,6 +78,7 @@
     "niieani/gpt-tokenizer",
     "nodenv/jetbrains-npm",
     "OpenBMB/infllmv2_cuda_impl",
+    "peergos/nabu",
     "prebuild/prebuild",
     "prebuild/prebuild-install",
     "pypa/get-pip",
@@ -96,6 +100,7 @@
     "TkTech/can_ada",
     "tpapp/julia-repl",
     "tsonglew/dutis",
+    "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
     "vim-php/phpctags",
     "vuejs/vue-eslint-parser",

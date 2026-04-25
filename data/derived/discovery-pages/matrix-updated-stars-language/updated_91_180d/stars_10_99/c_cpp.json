@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 17,
-    "observations": 18,
-    "repos": 3,
-    "terms": 15
+    "components": 26,
+    "concepts": 19,
+    "observations": 20,
+    "repos": 4,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "coin-or/CHiPPS-ALPS",
-    "eliemichel/dawn-prebuilt"
+    "eliemichel/dawn-prebuilt",
+    "r-spatial/lwgeom"
   ]
 }

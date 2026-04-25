@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 27,
-    "concepts": 94,
-    "observations": 95,
-    "repos": 39,
-    "terms": 90
+    "concepts": 96,
+    "observations": 97,
+    "repos": 40,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "27medkamal/tmux-session-wizard",
     "AppImageCommunity/pkg2appimage",
@@ -44,6 +44,7 @@
     "joseluisq/gitnow",
     "joshmedeski/t-smart-tmux-session-manager",
     "koalaman/shellcheck-precommit",
+    "lukechilds/zsh-better-npm-completion",
     "matchai/spacefish",
     "mattmc3/zsh_unplugged",
     "rbenv/rbenv-default-gems",

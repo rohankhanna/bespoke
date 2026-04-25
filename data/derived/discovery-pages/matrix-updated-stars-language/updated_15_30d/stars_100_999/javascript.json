@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 394,
-    "concepts": 101,
-    "observations": 103,
-    "repos": 27,
-    "terms": 111
+    "components": 493,
+    "concepts": 123,
+    "observations": 125,
+    "repos": 31,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "adobe/spectrum-design-data",
     "all-contributors/app",
     "Atheos/Atheos",
+    "auth0/node-jws",
     "badgen/badgen",
     "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
     "comme2e/comm",
     "conventional-changelog/conventional-changelog-config-spec",
     "d3/d3-format",
+    "dwyl/hapi-auth-jwt2",
     "fastify/create-fastify",
     "fastify/example",
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
     "fgnass/domino",
+    "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
     "Level/abstract-level",
     "mafintosh/streamx",
@@ -39,6 +42,7 @@
     "semantic-release/changelog",
     "semantic-release/git",
     "terraform-linters/setup-tflint",
+    "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",
     "toon-format/spec"
   ]

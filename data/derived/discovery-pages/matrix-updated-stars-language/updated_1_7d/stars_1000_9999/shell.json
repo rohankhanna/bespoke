@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 113,
-    "observations": 115,
-    "repos": 20,
-    "terms": 110
+    "components": 115,
+    "concepts": 134,
+    "observations": 136,
+    "repos": 23,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
     "antonbabenko/pre-commit-terraform",
     "aquasecurity/trivy-action",
+    "aurutils/aurutils",
     "bblanchon/pdfium-binaries",
+    "bioconda/bioconda-recipes",
     "clangd/clangd",
     "conda-forge/miniforge",
     "devcontainers/features",
@@ -31,8 +33,9 @@
     "google/adk-docs",
     "nix-community/nix-direnv",
     "nodenv/nodenv",
-    "pyenv/pyenv-virtualenv",
     "rbenv/ruby-build",
-    "void-linux/void-packages"
+    "ROCm/ROCm",
+    "void-linux/void-packages",
+    "zsh-users/zsh-completions"
   ]
 }

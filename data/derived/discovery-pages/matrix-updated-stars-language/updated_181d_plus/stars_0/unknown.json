@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 20,
-    "terms": 8
+    "components": 27,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 24,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,27 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "5scontrol/5s-dev-documentation",
     "aadil-runpod/rp-logo",
+    "agorshk/daal4py",
+    "alex-petrenko/sf_assets",
     "assignUser/delocate",
     "autofac/.github",
     "brodybits/create-react-native-module",
-    "chriskiehl/GooeyImages",
+    "chriskiehl/gooeyimages",
     "ConfettiFX/The-Forge-Media",
     "danielrosehill/Career-Data-AI-Context-Repo",
     "danielrosehill/Context-Chunker-Assistant",
+    "devongovett/html5ever",
     "flashinfer-ai/web-data",
     "glandium/rust-objc",
     "Heap-Hop/if-watch",
     "ipfs-examples/example-fork-go-template",
     "joshmedeski/tmux-list",
     "liuzechun0216/images",
-    "Marwes/hubcaps",
+    "marwes/hubcaps",
     "shesek/rust-jsonrpc",
     "sundoge/json-benchmark",
     "wesfloyd/avs-context-prompt",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 105,
-    "observations": 106,
-    "repos": 15,
-    "terms": 107
+    "components": 134,
+    "concepts": 108,
+    "observations": 109,
+    "repos": 17,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "asg017/sqlite-vec",
     "Dav1dde/glad",
@@ -22,10 +22,12 @@
     "KhronosGroup/MoltenVK",
     "libbpf/libbpf",
     "madler/zlib",
+    "microsoft/DirectX-Graphics-Samples",
     "microsoft/snmalloc",
     "nalgeon/sqlean",
     "oneapi-src/oneAPI-samples",
     "posva/catimg",
+    "stevenlovegrove/Pangolin",
     "ultrajson/ultrajson",
     "WebAssembly/wabt",
     "ycm-core/ycmd"

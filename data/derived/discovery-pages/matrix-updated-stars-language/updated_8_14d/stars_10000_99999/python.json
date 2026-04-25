@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 161,
-    "observations": 164,
-    "repos": 18,
-    "terms": 159
+    "components": 290,
+    "concepts": 251,
+    "observations": 254,
+    "repos": 27,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,33 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "2noise/ChatTTS",
+    "1panel-dev/maxkb",
     "abetlen/llama-cpp-python",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
+    "anthropics/claude-plugins-official",
+    "astral-sh/ty",
     "camel-ai/owl",
     "dask/dask",
     "dottxt-ai/outlines",
-    "google/yapf",
+    "github/spec-kit",
     "hpcaitech/ColossalAI",
+    "k-dense-ai/scientific-agent-skills",
     "karpathy/nanochat",
     "letta-ai/letta",
     "Lightning-AI/litgpt",
     "microsoft/pyright",
+    "openai/openai-python",
+    "openai/swarm",
     "openai/whisper",
     "pre-commit/pre-commit",
-    "spotify/luigi",
+    "pyg-team/pytorch_geometric",
+    "python/mypy",
+    "ranger/ranger",
+    "searxng/searxng",
+    "simonw/datasette",
     "squidfunk/mkdocs-material",
     "Textualize/rich"
   ]

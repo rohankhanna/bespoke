@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "components": 13,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 4,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "marin-community/harbor"
+    "adammes/voyanode",
+    "CharlieFRuan/harbor",
+    "marin-community/harbor",
+    "samsja/dion"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 208,
-    "observations": 208,
-    "repos": 40,
-    "terms": 207
+    "components": 224,
+    "concepts": 245,
+    "observations": 246,
+    "repos": 45,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "6551Team/opennews-mcp",
     "ajenti/ajenti",
     "ApeWorX/ape",
     "atlassian-api/atlassian-python-api",
     "bpython/bpython",
+    "caronc/apprise-api",
     "chemprop/chemprop",
+    "cisco-ai-defense/skill-scanner",
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
     "django/channels",
@@ -28,6 +30,7 @@
     "facebookincubator/AITemplate",
     "getzep/zep",
     "google-deepmind/acme",
+    "google-deepmind/bsuite",
     "graphql-python/gql",
     "hiyouga/EasyR1",
     "huggingface/nanotron",
@@ -37,11 +40,13 @@
     "ionelmc/pytest-benchmark",
     "Kapeli/Dash-User-Contributions",
     "linkchecker/linkchecker",
+    "microsoft/debugpy",
     "microsoft/MInference",
+    "microsoft/pylance-release",
     "miguelgrinberg/python-socketio",
     "ml-explore/mlx-examples",
-    "mosaicml/composer",
-    "mosaicml/llm-foundry",
+    "neovim/pynvim",
+    "openvinotoolkit/open_model_zoo",
     "python-poetry/cleo",
     "QwenLM/Qwen3-VL-Embedding",
     "RUC-NLPIR/FlashRAG",

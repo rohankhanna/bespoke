@@ -1,24 +1,25 @@
 {
   "counts": {
-    "components": 980,
-    "concepts": 242,
-    "observations": 243,
-    "repos": 27,
-    "terms": 279
+    "components": 1136,
+    "concepts": 295,
+    "observations": 297,
+    "repos": 30,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "angular/angular",
     "anomalyco/opencode",
-    "anthropics/claude-code",
     "avelino/awesome-go",
     "denoland/deno",
+    "electron/electron",
+    "f/prompts.chat",
     "facebook/react",
     "facebook/react-native",
     "flutter/flutter",
@@ -36,8 +37,10 @@
     "ohmyzsh/ohmyzsh",
     "openclaw/openclaw",
     "rust-lang/rust",
+    "Significant-Gravitas/AutoGPT",
     "sindresorhus/awesome",
     "tauri-apps/tauri",
+    "tensorflow/tensorflow",
     "torvalds/linux",
     "yt-dlp/yt-dlp"
   ]

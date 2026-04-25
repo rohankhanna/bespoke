@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 6,
-    "terms": 28
+    "components": 176,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 7,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "absolute-version/absolute-version-js",
     "blrchen/chatgpt-minimal",
+    "buddingnewinsights/proxypal",
     "ElementsProject/cln-application",
     "gnosischain/gbc-deposit-ui",
     "microsoft/vscode-js-debug-companion",

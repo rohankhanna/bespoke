@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 209,
-    "observations": 210,
-    "repos": 32,
-    "terms": 206
+    "components": 224,
+    "concepts": 208,
+    "observations": 209,
+    "repos": 36,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "actions/runner",
     "adobe-type-tools/afdko",
-    "andymass/vim-matchup",
+    "apple/swift-log",
     "automazeio/vibeproxy",
     "BLAKE3-team/BLAKE3",
     "crytic/building-secure-contracts",
     "crytic/echidna",
+    "Denys88/rl_games",
     "dotnet/machinelearning",
+    "durgeshsamariya/awesome-github-profile-readme-templates",
     "dwyl/learn-elixir",
     "elixir-ecto/postgrex",
     "ggandor/leap.nvim",
@@ -30,7 +33,6 @@
     "junegunn/seoul256.vim",
     "KhronosGroup/glTF",
     "licensee/licensed",
-    "MagicDuck/grug-far.nvim",
     "microsoft/ai-dev-gallery",
     "microsoft/vscode-codicons",
     "ml-explore/mlx-swift-examples",
@@ -40,7 +42,9 @@
     "pyannote/pyannote-audio",
     "pyenv-win/pyenv-win",
     "radian-software/straight.el",
+    "rails/propshaft",
     "ruby/debug",
+    "rust-lang/rfcs",
     "rust-lang/rust-mode",
     "sbdchd/neoformat",
     "snakers4/silero-models",

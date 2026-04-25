@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 17,
-    "terms": 99
+    "components": 129,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 18,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "adrg/xdg",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/credentials-fetcher",
+    "bluesky-social/goat",
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
     "connectrpc/validate-go",

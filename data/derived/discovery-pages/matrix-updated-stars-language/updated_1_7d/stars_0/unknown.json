@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 37,
-    "terms": 29
+    "components": 26,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 38,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "8144225309/lightning",
-    "alexcrichton/cc-rs",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
     "conda-forge/conda-lock-feedstock",
-    "damacol/ai-hub",
-    "damacol/gemma-4-collection",
+    "conda-forge/python-isal-feedstock",
+    "conda-forge/tianshou-feedstock",
     "damacol/google-gemma-2-2b-it",
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
@@ -34,6 +33,7 @@
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Geopol-Projects",
+    "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
@@ -42,6 +42,7 @@
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
+    "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "foundersieve687/skill-gateway",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",

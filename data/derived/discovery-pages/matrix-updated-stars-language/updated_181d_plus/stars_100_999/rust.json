@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 261,
-    "observations": 263,
-    "repos": 74,
-    "terms": 259
+    "components": 374,
+    "concepts": 277,
+    "observations": 279,
+    "repos": 76,
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "acheronfail/repgrep",
     "AdamStrojek/rust-agentai",
@@ -33,6 +33,7 @@
     "asg017/sqlite-xsv",
     "ashvardanian/less_slow.rs",
     "astrale-sharp/typstfmt",
+    "Atome-FE/llama-node",
     "aweinstock314/rust-clipboard",
     "bitshifter/mathbench-rs",
     "BurntSushi/cargo-benchcmp",
@@ -81,6 +82,7 @@
     "rustwasm/console_error_panic_hook",
     "rustwasm/wasm-pack-template",
     "sentinel-group/sentinel-rust",
+    "softprops/hubcaps",
     "stepancheg/rust-http2",
     "tafia/quick-protobuf",
     "target/lorri",

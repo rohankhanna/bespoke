@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 11,
-    "terms": 65
+    "components": 24,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 2,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "AdguardTeam/urlfilter",
-    "ai-dynamo/grove",
-    "bazel-contrib/rules_img",
-    "bufbuild/protovalidate-go",
-    "chainguard-dev/melange",
-    "kubernetes-sigs/prow",
-    "kubernetes/apiextensions-apiserver",
-    "kubernetes/sample-apiserver",
-    "microsoft/dcp",
-    "moul/gotty-client",
-    "snowflakedb/gosnowflake"
+    "ipfs/boxo",
+    "ipfs/rainbow"
   ]
 }

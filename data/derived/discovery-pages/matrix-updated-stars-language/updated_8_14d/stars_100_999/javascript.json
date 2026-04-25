@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 14,
-    "terms": 81
+    "components": 275,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 16,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "agent-sh/agentsys",
@@ -20,8 +20,10 @@
     "electron/node-abi",
     "eslint-community/eslint-plugin-n",
     "fwcd/tree-sitter-kotlin",
+    "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "karma-runner/karma-coverage",
+    "lis186/ccxray",
     "mattgodbolt/jsbeeb",
     "nodejs/TSC",
     "octokit/request-action",

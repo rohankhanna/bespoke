@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 76,
+    "components": 83,
     "concepts": 43,
     "observations": 44,
-    "repos": 7,
+    "repos": 8,
     "terms": 43
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "asdf-vm/actions",
     "cmake-js/cmake-js",
+    "dwyl/learn-postgresql",
     "executablebooks/sphinx-copybutton",
     "npm/abbrev-js",
     "npm/rfcs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 25,
-    "terms": 66
+    "components": 73,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 27,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "0xC0000054/pdn-ddsfiletype-plus",
     "ably-labs/realtime-quiz-framework",
     "adinhodovic/argo-cd-mixin",
     "andys8/git-brunch",
@@ -24,6 +25,7 @@
     "dominique-unruh/scala-isabelle",
     "DragonFlyBSD/DPorts",
     "dwyl/cid",
+    "dwyl/email",
     "dwyl/mvp",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",

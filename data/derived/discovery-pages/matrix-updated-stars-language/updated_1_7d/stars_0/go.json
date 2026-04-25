@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 8,
-    "observations": 8,
+    "components": 18,
+    "concepts": 6,
+    "observations": 6,
     "repos": 4,
-    "terms": 8
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "Amtrend/ssh-manager",
     "DataDog/vault",
-    "foundry-rs/optimism",
-    "jonislutheran87/weclaw"
+    "jonislutheran87/weclaw",
+    "kdubbo/xds-api"
   ]
 }

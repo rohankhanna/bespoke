@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 81,
-    "terms": 70
+    "components": 70,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 86,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "1nickpappas/move-code-quality-skill",
     "adobe-research/Cross-lingual-Test-Dataset-XTD10",
     "ajlende/base16-atlas-scheme",
     "AngxiaoYue/awesome-llm-tool-learning",
     "aquasecurity/community",
+    "arnav-gudibande/koala-test-set",
     "austinEng/webgpu-samples",
     "aws/ec2-spot-instances-integrations-roadmap",
     "babel/rfcs",
@@ -32,10 +33,10 @@
     "Centaurusalpha/DialogGen",
     "ChainAgnostic/varsig",
     "ChatGPTNextWeb/NextChat-iOS",
+    "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
     "chrisleyva/todo-slash-command",
     "cncf/tag-network",
     "datasette/datasette-studio",
-    "davidbgk/open-source-template",
     "dgileadi/vscode-java-decompiler",
     "docker/model-spec",
     "dotnet-foundation/content",
@@ -44,6 +45,8 @@
     "dwyl/contributing",
     "dwyl/git-guide",
     "dwyl/intellectual-property",
+    "dwyl/learn-blockchain",
+    "dwyl/phase-three",
     "dwyl/product-roadmap",
     "eric-haibin-lin/verl-data",
     "eryajf/awesome-chatgpt-answer",
@@ -58,7 +61,9 @@
     "hashintel/awesome-hash",
     "heliconialabs/steampunkification",
     "high-moctane/nextword-data",
+    "ipfs/i18n",
     "ipld/interface-ipld-format",
+    "javagl/gltfOverview",
     "jenkinsci/winsw-maven-packaging",
     "JetBrains/.github",
     "keeeeenw/MicroLlava",

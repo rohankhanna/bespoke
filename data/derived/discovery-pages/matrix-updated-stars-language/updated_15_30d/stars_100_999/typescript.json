@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 475,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 14,
-    "terms": 60
+    "components": 450,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 13,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "aquasecurity/trivy-vscode-extension",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
     "carlrannaberg/claudekit",
@@ -25,8 +24,8 @@
     "krassowski/jupyterlab-lsp",
     "lobehub/lobe-midjourney-webui",
     "nashaofu/screenshots",
-    "PanAeon/vscode-tmgrammar-test",
     "ruvnet/agentic-flow",
-    "shareai-lab/kode-agent-sdk"
+    "shareai-lab/kode-agent-sdk",
+    "vega/vega-embed"
   ]
 }

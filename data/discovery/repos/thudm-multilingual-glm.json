@@ -62,13 +62,14 @@
       "size": 204
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:25.817306+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "The multilingual variant of GLM, a general language model trained with autoregressive blank infilling objective ",
     "fork": false,
-    "full_name": "THUDM/Multilingual-GLM",
+    "full_name": "thudm/multilingual-glm",
     "html_url": "https://github.com/THUDM/Multilingual-GLM",
     "language": "Python",
     "pushed_at": "2022-11-19T16:05:07Z",

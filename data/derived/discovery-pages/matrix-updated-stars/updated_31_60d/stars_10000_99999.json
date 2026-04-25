@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 40,
-    "terms": 213
+    "components": 346,
+    "concepts": 234,
+    "observations": 237,
+    "repos": 44,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -24,15 +24,18 @@
     "CocoaPods/CocoaPods",
     "cool-RR/PySnooper",
     "github-linguist/linguist",
+    "gitleaks/gitleaks",
     "google-research/vision_transformer",
     "google/leveldb",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
+    "karpathy/autoresearch",
     "knownsec/404StarLink",
     "lokesh/color-thief",
     "nikic/PHP-Parser",
+    "openai/CLIP",
     "PaddlePaddle/PaddleDetection",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
@@ -47,6 +50,7 @@
     "sorin-ionescu/prezto",
     "sql-js/sql.js",
     "superclaude-org/superclaude_framework",
+    "TabbyML/tabby",
     "tpope/vim-fugitive",
     "typicode/husky",
     "uber-go/zap",

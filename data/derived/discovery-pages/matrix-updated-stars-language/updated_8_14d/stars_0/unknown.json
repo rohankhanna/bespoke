@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 6,
-    "terms": 4
+    "components": 8,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 8,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
+    "alexcrichton/cc-rs",
+    "damacol/ai-hub",
+    "damacol/gemma-4-collection",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Memory-Planning-0426",
-    "danielrosehill/brainstorm-solutions-plugin",
     "ublacklist/store-assets",
     "wencuecryforme/mysoul.skill"
   ]

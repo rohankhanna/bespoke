@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 20,
-    "terms": 55
+    "components": 106,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 21,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
+    "Accio-Lab/SwimBird",
+    "AgriciDaniel/claude-email",
     "aiagenta2z/mcp-marketplace",
     "allenporter/python-google-nest-sdm",
     "archlizheng/frontend-slides-editable",
     "beeware/briefcase-template",
     "bentoml/openllm-models",
     "browser-use/benchmark",
-    "ckan/datapusher",
     "cmake-wheel/cmeel",
     "collinear-ai/yc-bench",
-    "danielrosehill/Index",
     "explosion/weasel",
     "facebookresearch/mosaic",
     "iamsashank09/llm-wiki-kit",
+    "intel/ai-containers",
     "jupyter/governance",
     "libp2p/test-plans",
     "microsoft/vscode-azurecli",

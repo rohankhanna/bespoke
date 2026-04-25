@@ -12,13 +12,14 @@
       "size": 25
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:14:57.754783+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "universal",
     "description": "Prompt tuning toolkit for GPT-2 and GPT-Neo",
     "fork": true,
-    "full_name": "VE-FORBRYDERNE/mkultra",
+    "full_name": "ve-forbryderne/mkultra",
     "html_url": "https://github.com/VE-FORBRYDERNE/mkultra",
     "language": "Jupyter Notebook",
     "pushed_at": "2022-07-21T20:45:53Z",

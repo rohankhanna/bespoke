@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 73,
-    "observations": 74,
+    "components": 136,
+    "concepts": 84,
+    "observations": 85,
     "repos": 20,
-    "terms": 73
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
-    "ash-rs/ash",
     "brendanzab/codespan",
+    "cross-rs/cross",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",

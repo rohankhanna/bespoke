@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 289,
-    "concepts": 317,
-    "observations": 317,
-    "repos": 24,
-    "terms": 316
+    "components": 68,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 5,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "99designs/gqlgen",
-    "AdguardTeam/AdGuardHome",
-    "apache/casbin",
-    "argoproj/argo-cd",
-    "centrifugal/centrifugo",
-    "containers/podman",
-    "etcd-io/etcd",
-    "ethereum/EIPs",
-    "git-lfs/git-lfs",
-    "gofiber/fiber",
-    "grafana/pyroscope",
-    "grpc/grpc-go",
-    "hashicorp/consul",
-    "hashicorp/vault",
-    "ipfs/kubo",
     "jaegertracing/jaeger",
-    "milvus-io/milvus",
-    "moby/moby",
     "mudler/LocalAI",
-    "open-policy-agent/opa",
     "php/frankenphp",
     "QuantumNous/new-api",
-    "redis/go-redis",
-    "shirou/gopsutil"
+    "redis/go-redis"
   ]
 }

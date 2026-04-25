@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 130,
-    "observations": 131,
-    "repos": 59,
-    "terms": 130
+    "components": 212,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 63,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -48,12 +48,14 @@
     "eira-fransham/crunchy",
     "embarkstudios/buildkite-jobify",
     "ethDreamer/json_rpc_snoop",
+    "ethereum/eipv",
     "extrawurst/gitui-presentation",
     "georust/geocoding",
     "gluon-lang/gluon-lang.org",
     "gluon-lang/gluon_language-server",
     "gwihlidal/vk-sync-rs",
     "intuis/mnyaoo32",
+    "jokemanfire/mcp-containerd",
     "joshtriplett/metadeps",
     "Julien-cpsn/Phone-OS",
     "kawamuray/linux-taskstats-rs",
@@ -70,8 +72,10 @@
     "rkyv/bytecheck",
     "rkyv/ptr_meta",
     "rkyv/rancor",
+    "rust-bitcoin/rust-bitcoind-json-rpc",
     "sonhal/wasm-oauth-filter",
     "UnstoppableSwap/wallet",
+    "vladkens/badges",
     "webassemblylabs/wasm-workers-server"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 40,
-    "terms": 183
+    "components": 241,
+    "concepts": 191,
+    "observations": 192,
+    "repos": 45,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "adelarsq/neoline.vim",
     "adinhodovic/terraform-cloudflare-maintenance",
     "aerokube/moon",
     "AgentTorch/AgentTorch",
+    "ankane/neighbor",
     "AudioKit/Cookbook",
     "aws/homebrew-tap",
     "babashka/babashka-sql-pods",
     "babashka/bbin",
     "babashka/neil",
-    "bazelbuild/bazel-skylib",
+    "blemale/scaffeine",
     "cafeTechne/antigravity-link-extension",
     "coredns/helm",
-    "creativescala/doodle",
     "dcampos/nvim-snippy",
-    "dmitry-brazhenko/SharpToken",
+    "DefinedNet/mobile_nebula",
     "dotnet/AspNetDocs",
+    "dstein64/vim-startuptime",
+    "elastic/docs",
     "emacs-rustic/rustic",
     "ethereum/builder-specs",
     "ethpandaops/ethereum-helm-charts",
+    "fanshiqing/grouped_gemm",
     "fzyzcjy/dart_interactive",
     "gcv/julia-snail",
     "getsentry/sentry-clj",
@@ -43,16 +46,18 @@
     "metauto-ai/agent-as-a-judge",
     "microsoft/vscode-mono-debug",
     "microsoft/vssetup.powershell",
+    "microsoft/winget-cli-restsource",
     "mirage/mirage-www",
     "n8willis/opentype-shaping-documents",
     "nvim-mini/mini.files",
     "nvim-mini/mini.pick",
     "objectbox/objectbox-swift",
     "ocurrent/ocurrent",
-    "purcell/envrc",
     "pyodide/micropip",
     "r-lib/styler",
-    "tanvirtin/vgit.nvim",
-    "tc39/proposal-source-phase-imports"
+    "rust-lang/compiler-team",
+    "saka1/simdjson_ruby",
+    "semver/semver.org",
+    "tanvirtin/vgit.nvim"
   ]
 }

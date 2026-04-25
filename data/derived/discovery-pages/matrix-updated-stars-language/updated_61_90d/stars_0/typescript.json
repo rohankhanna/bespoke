@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 13,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "repo_ids": [
+    "0xBigBoss/ghostty-web"
+  ]
+}

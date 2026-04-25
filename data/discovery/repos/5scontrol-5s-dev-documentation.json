@@ -30,13 +30,14 @@
       "size": 387
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:11.204494+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Documentation for developers for 5controlS platform",
     "fork": false,
-    "full_name": "5sControl/5s-dev-documentation",
+    "full_name": "5scontrol/5s-dev-documentation",
     "html_url": "https://github.com/5sControl/5s-dev-documentation",
     "language": null,
     "pushed_at": "2023-11-21T09:57:09Z",

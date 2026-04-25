@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 12,
-    "terms": 56
+    "components": 83,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 14,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "anthropics/claudes-c-compiler",
     "apache/casbin-rs",
+    "ash-rs/ash",
     "crossbeam-rs/crossbeam",
     "dtolnay/cargo-expand",
     "fschutt/printpdf",
@@ -23,6 +24,7 @@
     "librespot-org/librespot",
     "rust-fuzz/cargo-fuzz",
     "sachaos/viddy",
+    "sagiegurari/cargo-make",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
     "tokio-rs/loom"

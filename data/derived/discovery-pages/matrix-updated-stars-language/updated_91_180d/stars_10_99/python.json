@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 21,
-    "terms": 47
+    "components": 63,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 23,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "akaihola/graylint",
     "alexmojaki/pure_eval",
@@ -32,7 +32,9 @@
     "MINT-SJTU/STI-Bench",
     "modelscope/ms-enclave",
     "okuvshynov/cubestat",
+    "opea-project/docs",
     "pycompression/python-zlib-ng",
+    "TransferQueue/TransferQueue",
     "vllm-project/vllm-openvino",
     "wirasm/dylan"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "concepts": 2,
+    "observations": 2,
+    "repos": 1,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "danielrosehill/AI-Agent-Virtual-Panel-Configs",
-    "danielrosehill/batch-claudemd-repo-creator"
+    "danielrosehill/AI-Agent-Virtual-Panel-Configs"
   ]
 }

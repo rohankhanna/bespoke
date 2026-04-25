@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 1,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "repo_ids": [
+    "smallscientist1/tilelang"
+  ]
+}

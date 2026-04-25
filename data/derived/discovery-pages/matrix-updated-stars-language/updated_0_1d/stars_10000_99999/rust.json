@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 12,
-    "terms": 101
+    "components": 55,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 3,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "aaif-goose/goose",
     "astral-sh/ruff",
-    "FuelLabs/fuel-core",
-    "FuelLabs/sway",
-    "GitoxideLabs/gitoxide",
-    "gleam-lang/gleam",
-    "jj-vcs/jj",
-    "launchbadge/sqlx",
-    "microsoft/windows-rs",
-    "nearai/ironclaw",
-    "rayon-rs/rayon",
-    "rust-lang/mdBook",
-    "web-infra-dev/rspack"
+    "GitoxideLabs/gitoxide"
   ]
 }

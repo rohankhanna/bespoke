@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 24,
-    "terms": 52
+    "components": 80,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 21,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
     "andriykohut/pdm-readiness",
     "astropy/repo_stats",
     "beneadie/DeepDog_1",
-    "bryanh9111/engram",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
     "cjtruheart/abundance-codex",
@@ -32,11 +32,8 @@
     "momentique/source-code-security-audit-reviewer",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
-    "piqrypt/piqrypt",
     "pyrtlsdr/pyrtlsdrlib",
     "rrsaldanha/burp-mcp-agents",
-    "sunthinks/kvmind",
-    "verkyyi/tokenman",
-    "xiaochu-1208/interview-assistant-cli"
+    "verkyyi/tokenman"
   ]
 }

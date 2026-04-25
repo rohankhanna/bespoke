@@ -3,7 +3,7 @@
     "components": 38,
     "concepts": 18,
     "observations": 18,
-    "repos": 9,
+    "repos": 13,
     "terms": 19
   },
   "facet_version": 1,
@@ -12,16 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "angelozerr/ec4e",
+    "cyberphone/jws-ct",
     "dgileadi/dg.jdt.ls.decompiler",
     "didalgolab/ai-intellij-plugin",
     "editorconfig/editorconfig-core-java",
     "gchq/koryphe",
+    "glaforge/gemini-workshop-for-java-developers",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/spotbugs-intellij-plugin",
+    "mikepapadim/llama2.tornadovm.java",
+    "setl/rdf-urdna",
     "Vinhixus/TornadoVM-Ray-Tracer"
   ]
 }

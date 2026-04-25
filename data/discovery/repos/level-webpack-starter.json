@@ -120,13 +120,14 @@
       "size": 493
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:02.593106+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Demonstrates bundling level for browsers using webpack.",
     "fork": false,
-    "full_name": "Level/webpack-starter",
+    "full_name": "level/webpack-starter",
     "html_url": "https://github.com/Level/webpack-starter",
     "language": "JavaScript",
     "pushed_at": "2023-11-01T13:59:30Z",

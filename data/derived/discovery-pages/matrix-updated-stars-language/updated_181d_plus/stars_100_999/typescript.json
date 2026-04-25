@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1250,
-    "concepts": 204,
-    "observations": 204,
-    "repos": 46,
-    "terms": 211
+    "components": 1295,
+    "concepts": 213,
+    "observations": 213,
+    "repos": 48,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "1hanzla100/developer-portfolio",
     "aave/protocol-v2",
@@ -28,6 +28,7 @@
     "Azzedde/brainstormers",
     "codechecks/typecov",
     "connectai-e/midjourney-web",
+    "cryptonomic/conseiljs",
     "Dogtiti/AutoGPT-Next-Web",
     "dsherret/ts-nameof",
     "electron-userland/electron-installer-dmg",
@@ -41,6 +42,7 @@
     "highlightjs/vue-plugin",
     "Igorbek/typescript-plugin-styled-components",
     "InternLM/OpenAOE",
+    "ipfs-shipyard/is-ipfs",
     "jina-ai/auto-gpt-web",
     "johnlindquist/claude-hooks",
     "jonaskello/tsconfig-paths-webpack-plugin",

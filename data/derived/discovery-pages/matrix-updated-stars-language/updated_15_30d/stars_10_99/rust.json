@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 9,
-    "terms": 34
+    "components": 42,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 8,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "ashvardanian/NumWars",
+    "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
     "lambdaclass/libssz",
-    "neysofu/reltester",
-    "randombit/botan-rs",
-    "sigp/rust-libp2p"
+    "neysofu/reltester"
   ]
 }

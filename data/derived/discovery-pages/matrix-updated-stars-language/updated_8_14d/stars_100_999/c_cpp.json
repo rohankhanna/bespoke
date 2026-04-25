@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 55,
-    "observations": 57,
-    "repos": 11,
-    "terms": 55
+    "components": 90,
+    "concepts": 67,
+    "observations": 69,
+    "repos": 13,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "aibasel/downward",
+    "cusplibrary/cusplibrary",
     "google-deepmind/reverb",
+    "google/jpegli",
     "ifduyue/python-xxhash",
-    "intel/QAT_Engine",
     "microsoft/Tutel",
+    "mybigday/llama.rn",
     "nfrechette/rtm",
     "NiklasRosenstein/pbzx",
     "pauldmccarthy/indexed_gzip",

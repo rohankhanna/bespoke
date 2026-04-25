@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 48,
-    "observations": 48,
+    "components": 96,
+    "concepts": 47,
+    "observations": 47,
     "repos": 14,
-    "terms": 48
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
-    "angular/domino",
     "berty/www.berty.tech",
     "coderaiser/supertape",
     "dart-lang/site-shared",
@@ -25,6 +24,7 @@
     "graphql/graphql-js-wg",
     "haskell-actions/run-fourmolu",
     "ipld/js-dag-cbor",
+    "Jack-Works/react-refresh-transformer",
     "Level/browser-level",
     "Level/memory-level",
     "nodejs/email"

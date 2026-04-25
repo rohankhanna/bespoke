@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 15,
-    "terms": 100
+    "components": 465,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 17,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
+    "a2aproject/a2a-inspector",
+    "aquasecurity/trivy-vscode-extension",
     "aymenfurter/ralph",
     "connectrpc/connect-query-es",
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "graphql-hive/graphql-eslint",
-    "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
     "multiformats/js-multiformats",
+    "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",

@@ -3,8 +3,8 @@
     "components": 58,
     "concepts": 125,
     "observations": 125,
-    "repos": 24,
-    "terms": 125
+    "repos": 25,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -23,6 +23,7 @@
     "AMAP-ML/Tree-GRPO",
     "berkerpeksag/astor",
     "breezedeus/CnSTD",
+    "cleinc/bts",
     "dualverse-ai/station",
     "githubharald/CTCDecoder",
     "inducer/cgen",

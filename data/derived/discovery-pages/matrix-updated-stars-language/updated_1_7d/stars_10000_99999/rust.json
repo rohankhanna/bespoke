@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 664,
-    "concepts": 408,
-    "observations": 409,
-    "repos": 39,
-    "terms": 404
+    "components": 784,
+    "concepts": 479,
+    "observations": 480,
+    "repos": 47,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "aaif-goose/goose",
     "actix/actix-web",
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
@@ -28,20 +27,28 @@
     "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
+    "FuelLabs/fuel-core",
+    "FuelLabs/sway",
     "gfx-rs/wgpu",
     "gitui-org/gitui",
+    "gleam-lang/gleam",
     "googleworkspace/cli",
     "huggingface/candle",
     "hyperium/tonic",
     "jdx/mise",
+    "jj-vcs/jj",
+    "launchbadge/sqlx",
+    "microsoft/windows-rs",
+    "nearai/ironclaw",
     "openai/codex",
     "orhun/git-cliff",
     "ratatui/ratatui",
+    "rayon-rs/rayon",
     "rust-lang/cargo",
+    "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
     "rust-lang/rust-clippy",
     "Schniz/fnm",
-    "seanmonstar/reqwest",
     "servo/servo",
     "sharkdp/bat",
     "sharkdp/fd",
@@ -51,6 +58,7 @@
     "tree-sitter/tree-sitter",
     "typst/typst",
     "vercel-labs/agent-browser",
+    "web-infra-dev/rspack",
     "wezterm/wezterm",
     "zeroclaw-labs/zeroclaw"
   ]

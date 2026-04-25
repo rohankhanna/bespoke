@@ -16,13 +16,14 @@
       "size": 1450
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:14:54.650418+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "C++ unit test executor",
     "fork": false,
-    "full_name": "Kosta-Github/cute",
+    "full_name": "kosta-github/cute",
     "html_url": "https://github.com/Kosta-Github/cute",
     "language": "C++",
     "pushed_at": "2022-03-03T15:01:24Z",

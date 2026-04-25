@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 1,
-    "terms": 25
+    "components": 94,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 2,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "f/prompts.chat",
     "flutter/flutter"
   ]
 }

@@ -1,22 +1,25 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 15,
-    "terms": 45
+    "components": 56,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 19,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "0xBigBoss/ghostty-web",
     "8144225309/superscalar-mcp",
+    "adammes/voyanode",
     "Bearer/homebrew-tap",
+    "beurdouche/nss-gk-api",
+    "CharlieFRuan/harbor",
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/Linux-Desktop-Tools-Index",
     "DataDog/go-cmp",
     "DataDog/opa",
     "EspressoSystems/commit",
@@ -27,6 +30,7 @@
     "marin-community/harbor",
     "musicman3/cruder",
     "musicman3/r2-d2",
+    "samsja/dion",
     "vaporif/rvx"
   ]
 }

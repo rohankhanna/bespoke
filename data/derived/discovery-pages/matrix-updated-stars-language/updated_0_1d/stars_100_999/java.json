@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 6,
-    "terms": 70
+    "components": 6,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 1,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "aws-powertools/powertools-lambda-java",
-    "beehive-lab/GPULlama3.java",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "milvus-io/milvus-sdk-java",
-    "Waffle/waffle",
-    "zilliztech/vts"
+    "milvus-io/milvus-sdk-java"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
-    "concepts": 126,
-    "observations": 128,
-    "repos": 13,
-    "terms": 126
+    "components": 43,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 2,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "actions/actions-runner-controller",
-    "AdguardTeam/dnsproxy",
     "akuity/kargo",
-    "chainguard-dev/apko",
-    "connectrpc/connect-go",
-    "envoyproxy/go-control-plane",
-    "google/adk-go",
-    "google/syzkaller",
-    "joshmedeski/sesh",
-    "knative/eventing",
-    "knative/serving",
-    "kubernetes/autoscaler",
-    "oapi-codegen/oapi-codegen"
+    "Kong/kubernetes-ingress-controller"
   ]
 }

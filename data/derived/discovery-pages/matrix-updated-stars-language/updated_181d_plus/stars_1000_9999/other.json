@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 490,
-    "observations": 490,
-    "repos": 122,
-    "terms": 490
+    "components": 270,
+    "concepts": 491,
+    "observations": 491,
+    "repos": 126,
+    "terms": 491
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "abo-abo/avy",
@@ -33,6 +33,7 @@
     "bors-ng/bors-ng",
     "botuniverse/onebot",
     "CannyLab/tsne-cuda",
+    "carlhuda/janus",
     "cloneofsimo/lora",
     "clovaai/deep-text-recognition-benchmark",
     "cocodataset/cocoapi",
@@ -44,6 +45,7 @@
     "deepseek-ai/DeepSeek-LLM",
     "doom-neovim/doom-nvim",
     "dotnet/machinelearning-samples",
+    "dwyl/repo-badges",
     "easymotion/vim-easymotion",
     "edluffy/hologram.nvim",
     "eladrich/pixel2style2pixel",
@@ -94,7 +96,9 @@
     "natemoo-re/astro-icon",
     "neomake/neomake",
     "nvim-pack/nvim-spectre",
+    "onnx/tutorials",
     "open-mmlab/mmagic",
+    "openai/requests-for-research",
     "pesser/stable-diffusion",
     "preservim/tagbar",
     "psliwka/vim-smoothie",

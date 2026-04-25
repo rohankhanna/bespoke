@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 929,
-    "concepts": 640,
-    "observations": 645,
-    "repos": 180,
-    "terms": 659
+    "components": 943,
+    "concepts": 655,
+    "observations": 660,
+    "repos": 185,
+    "terms": 673
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -74,6 +74,7 @@
     "deepseek-ai/awesome-deepseek-coder",
     "dtolnay/cargo-llvm-lines",
     "dustinblackman/cargo-run-bin",
+    "ecukes/ecukes",
     "electron-userland/electron-wix-msi",
     "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-java",
@@ -101,8 +102,10 @@
     "IAAR-Shanghai/xFinder",
     "igor-makarov/xcake",
     "inclusionAI/ASearcher",
+    "intel/intel-extension-for-tensorflow",
     "intel/isa-l_crypto",
     "ipfs-shipyard/gomobile-ipfs",
+    "ipfs/go-ds-s3",
     "jandamm/zgenom",
     "jayli/vim-easycomplete",
     "jezweb/roo-commander",
@@ -143,6 +146,7 @@
     "OpenBMB/AppCopilot",
     "OpenBMB/CPM.cu",
     "OpenBMB/VisRAG",
+    "opendilab/awesome-ui-agents",
     "OpenGVLab/GUI-Odyssey",
     "OpenHands/ToM-SWE",
     "orhun/tuitar",
@@ -178,6 +182,7 @@
     "theupdateframework/specification",
     "thibautmelen/agentic-ai-systems",
     "thinkdepthai/Deep_Research",
+    "travis-ci/packer-templates",
     "travis-ci/travis-build",
     "travis-ci/travis-cookbooks",
     "tree-sitter/tree-sitter-julia",

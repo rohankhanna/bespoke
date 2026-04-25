@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 8,
+    "components": 170,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 7,
     "terms": 32
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "apostrophecms/sanitize-html",
+    "babel/babel-loader",
     "commonmark/commonmark.js",
     "dherault/serverless-offline",
-    "dwyl/learn-json-web-tokens",
-    "istanbuljs/nyc",
     "node-fetch/node-fetch",
     "remarkjs/remark",
     "rollup/plugins"

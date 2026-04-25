@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 21,
-    "terms": 133
+    "components": 56,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 7,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "ai-dynamo/aiconfigurator",
     "AI-Hypercomputer/maxdiffusion",
-    "ArkMowers/arknights-mower",
-    "aws/aws-lambda-builders",
-    "Azure/azure-cli-extensions",
-    "Azure/azure-linux-extensions",
-    "boto/s3transfer",
-    "celery/vine",
+    "apache/datafusion-python",
+    "CERTCC/SSVC",
     "Comfy-Org/comfy-cli",
-    "conda-forge/staged-recipes",
-    "conda/conda-lock",
-    "eole-nlp/eole",
-    "graphistry/graph-app-kit",
-    "marin-community/marin",
-    "open-thoughts/OpenThoughts-Agent",
-    "pylint-dev/astroid",
-    "pymc-devs/pytensor",
-    "scikit-build/scikit-build-core",
-    "ultralytics/docs",
-    "vllm-project/flash-attention",
-    "volcengine/volcengine-python-sdk"
+    "opea-project/GenAIComps",
+    "ROCm/TheRock",
+    "SemiAnalysisAI/InferenceX"
   ]
 }

@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 290,
-    "concepts": 187,
-    "observations": 188,
-    "repos": 61,
-    "terms": 195
+    "components": 294,
+    "concepts": 188,
+    "observations": 189,
+    "repos": 66,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
+    "AadSah/ConverSeg",
     "abap2UI5-addons/sql-console",
     "abapGit/ADT_Backend",
     "acw/simple_asn1",
@@ -42,6 +43,8 @@
     "DavidKinder/Windows-Glulxe",
     "doraemonkeys/paddleocr",
     "dsxmachina/rfm",
+    "dwyl/elixir-auth-github",
+    "ethereum/beacon-metrics",
     "ethereum/eipw",
     "fengkx/jieba-wasm",
     "fsspec/sshfs",
@@ -51,12 +54,14 @@
     "joseluisq/paket",
     "kunwar-shah/claudex",
     "Layr-Labs/eigenda-operator-setup",
+    "Lizw14/Super-CLEVR",
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",
     "MicrosoftDocs/vcpkg-docs",
     "minikube-ci/examples",
     "mohammadtavakoli78/beam",
     "multiformats/go-varint",
+    "nebelgrau77/airsniffer-esp32c6",
     "nfnty/pkgbuilds",
     "nodenv/nodenv-default-packages",
     "ocaml-opam/opam-publish",

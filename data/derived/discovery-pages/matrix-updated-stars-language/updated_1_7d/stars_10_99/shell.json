@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 9,
-    "terms": 17
+    "components": 63,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 12,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "AFLplusplus/cov-analysis",
+    "apache/arrow-testing",
     "asdf-community/asdf-pdm",
+    "bitnami/vulndb",
     "containers/automation_images",
     "cri-o/packaging",
+    "dependabot/smoke-tests",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "milvus-io/milvus-proto",

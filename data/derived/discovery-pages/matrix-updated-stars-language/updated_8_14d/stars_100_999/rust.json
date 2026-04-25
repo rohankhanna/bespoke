@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 99,
-    "observations": 102,
-    "repos": 26,
-    "terms": 100
+    "components": 182,
+    "concepts": 120,
+    "observations": 123,
+    "repos": 30,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "ada-url/rust",
     "alex/rust-asn1",
     "alexheretic/glyph-brush",
     "alloy-rs/core",
@@ -21,6 +22,8 @@
     "alloy-rs/svm-rs",
     "containers/aardvark-dns",
     "crate-ci/committed",
+    "criterion-rs/criterion.rs",
+    "denoland/deno_doc",
     "dtormoen/tsk-tsk",
     "FuelLabs/fuel-vm",
     "gdesmott/system-deps",
@@ -28,16 +31,17 @@
     "hniksic/rust-subprocess",
     "in-toto/attestation",
     "Kampfkarren/full-moon",
+    "nielsgroen/claude-tmux",
     "nix-community/lorri",
     "nixops4/nixops4",
     "ramsayleung/rspotify",
     "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",
-    "rust-mobile/rust-android-examples",
     "RustCrypto/RSA",
     "rustcrypto/signatures",
     "tauri-apps/muda",
     "tikv/jemallocator",
+    "tracel-ai/models",
     "yeslogic/allsorts",
     "zimbatm/mdsh"
   ]

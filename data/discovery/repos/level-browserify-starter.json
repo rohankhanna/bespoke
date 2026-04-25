@@ -115,13 +115,14 @@
       "size": 449
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:14:52.452373+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Demonstrates bundling level for browsers using browserify.",
     "fork": false,
-    "full_name": "Level/browserify-starter",
+    "full_name": "level/browserify-starter",
     "html_url": "https://github.com/Level/browserify-starter",
     "language": "JavaScript",
     "pushed_at": "2023-11-01T07:32:20Z",

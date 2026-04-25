@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 60,
-    "observations": 61,
-    "repos": 25,
-    "terms": 59
+    "components": 68,
+    "concepts": 66,
+    "observations": 67,
+    "repos": 29,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "64327069/LVAgent",
     "adelarsq/neovcs.vim",
@@ -33,10 +33,14 @@
     "opencontainers/oci-conformance",
     "pagedjs/pagedjs-cli",
     "PeterDaveHello/docker-doctoc",
+    "probe-lab/network-measurements",
     "pug-php/js-phpize",
+    "rejeep/ansi.el",
     "sbcgua/abap-string-map",
     "travis-ci/travis-hub",
     "travis-ci/travis-listener",
+    "travis-ci/travis-logs",
+    "travis-ci/travis-scheduler",
     "WebAV-Tech/WebAV-Pro",
     "webdataset/WebDataset.jl"
   ]

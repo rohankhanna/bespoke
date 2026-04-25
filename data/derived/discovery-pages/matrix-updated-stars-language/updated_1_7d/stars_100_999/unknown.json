@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 90,
-    "observations": 91,
+    "components": 57,
+    "concepts": 82,
+    "observations": 83,
     "repos": 20,
-    "terms": 90
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
-    "ailev/fpf",
     "antonbabenko/awesome-terraform-compliance",
     "apappascs/mcp-servers-hub",
+    "cisagov/vulnrichment",
+    "CVEProject/automation-working-group",
     "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
@@ -28,7 +29,6 @@
     "ipfs-examples/helia-examples",
     "kubernetes-sigs/krew-index",
     "mason-org/mason-registry",
-    "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",

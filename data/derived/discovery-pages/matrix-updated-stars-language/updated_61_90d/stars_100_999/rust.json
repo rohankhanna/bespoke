@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 11,
-    "terms": 55
+    "components": 80,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 13,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "cuviper/autocfg",
     "dtolnay/prettyplease",
     "georust/proj",
+    "gwihlidal/vk-mem-rs",
     "ImageOptim/libimagequant",
     "kata-containers/cgroups-rs",
     "ratatui/templates",
     "smol-rs/async-executor",
     "tsonglew/dutis",
+    "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
     "walles/riff"
   ]

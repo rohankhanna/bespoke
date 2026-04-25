@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 90,
-    "observations": 90,
+    "components": 110,
+    "concepts": 91,
+    "observations": 91,
     "repos": 19,
-    "terms": 89
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
@@ -23,12 +23,12 @@
     "dtolnay/trybuild",
     "firstbatchxyz/dkn-compute-node",
     "gfx-rs/rspirv",
-    "gwihlidal/vk-mem-rs",
     "Kampfkarren/selene",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
     "LukasKalbertodt/libtest-mimic",
     "pdf-rs/pdf_render",
+    "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "servo/rust-cssparser",
     "SunDoge/simdjson-rust",

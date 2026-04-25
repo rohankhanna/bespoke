@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 4,
-    "observations": 4,
+    "components": 1,
+    "concepts": 2,
+    "observations": 2,
     "repos": 5,
-    "terms": 4
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "agent-sh/glidemq",
     "alvistack/ansible-role-conmon",
+    "cdeust/zetetic-team-subagents",
     "chronosphereio/calyptia-cli",
-    "marcindulak/ralph-wiggum-bdd",
-    "semgrep/mcp-marketplace"
+    "marcindulak/ralph-wiggum-bdd"
   ]
 }

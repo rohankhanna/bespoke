@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 29,
-    "terms": 67
+    "components": 88,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 31,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "actions-oss/gh-rc",
+    "0k/shyaml-rs",
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
-    "airowe/claude-a11y-skill",
     "arya-s/phantty",
     "avivshafir/israeli-corporate-law-skill",
     "biocypher/collectri",
@@ -29,9 +28,11 @@
     "dbubel/intake",
     "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
+    "filip26/copper-multicodec",
+    "filip26/titanium-rdf-canon",
+    "filip26/titanium-rdf-n-quads",
     "genius-harry/neural-chat",
     "hesreallyhim/inkverse-fork",
-    "ldayton/bash-oracle",
     "leaktk/gitleaks",
     "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
@@ -41,6 +42,7 @@
     "shesek/electrumd",
     "tianon/fake-git",
     "trufflesecurity/test_keys",
+    "zen-eth/multiformats-zig",
     "zwowo1997/pack-repo-4ai"
   ]
 }

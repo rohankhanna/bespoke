@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 699,
-    "concepts": 112,
-    "observations": 114,
-    "repos": 26,
-    "terms": 126
+    "components": 911,
+    "concepts": 136,
+    "observations": 138,
+    "repos": 28,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "almogdepaz/wolfpack",
@@ -20,25 +20,27 @@
     "Azure/bicep-deploy",
     "bufbuild/protovalidate-es",
     "celo-org/developer-tooling",
-    "darkriszty/MarkdownTablePrettify-VSCodeExt",
-    "dokploy/cli",
+    "celo-org/social-connect",
     "electron/windows-sign",
     "ethereum/eip-review-bot",
     "fannheyward/coc-xml",
     "favware/cliff-jumper",
+    "grafana/profiles-drilldown",
+    "gridatek/semantic-icons",
     "hashintel/labs",
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jkheadley/instar",
     "Kastalien-Research/thoughtbox",
     "llamastack/llama-stack-client-typescript",
+    "mcous/vitest-when",
+    "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "slopus/slopus.github.io",
+    "TrigenSoftware/simple-release",
     "vaultwarden/vw_web_builds",
-    "wighawag/rocketh",
-    "ylsssq926/relic.skill",
-    "zuplo/docs"
+    "wighawag/rocketh"
   ]
 }

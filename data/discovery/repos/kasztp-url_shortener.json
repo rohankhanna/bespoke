@@ -183,13 +183,14 @@
       "size": 652
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:14:52.863970+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Basic URL Shortener API",
     "fork": false,
-    "full_name": "kasztp/URL_Shortener",
+    "full_name": "kasztp/url_shortener",
     "html_url": "https://github.com/kasztp/URL_Shortener",
     "language": "Python",
     "pushed_at": "2023-03-06T17:34:45Z",

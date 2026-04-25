@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 3,
-    "terms": 9
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "cgrindel/bazel_shlib",
-    "Danau5tin/terminal-bench-fork"
+    "Danau5tin/terminal-bench-fork",
+    "danielrosehill/batch-claudemd-repo-creator"
   ]
 }

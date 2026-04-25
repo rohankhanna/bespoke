@@ -3,7 +3,7 @@
     "components": 18,
     "concepts": 7,
     "observations": 7,
-    "repos": 3,
+    "repos": 4,
     "terms": 7
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/Linux-Desktop-Tools-Index",
     "DataDog/opa",
     "kleisauke/glib"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 17,
-    "terms": 34
+    "components": 79,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 20,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "actboy168/ltest",
+    "b-data/jupyterlab-julia-docker-stack",
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
     "celo-org/charts",
     "conda-forge/.cirun",
     "conda-forge/pybind11-feedstock",
     "conda-forge/scikit-build-core-feedstock",
+    "curiousdannii/emglken",
+    "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
-    "dm0x23/portfolio-website",
+    "enbop/fungi-app",
     "floxym/financial-chat-finance-nlp-chatbots",
     "goreleaser/.github",
     "gusztavvargadr/aws-vault-chocolatey",

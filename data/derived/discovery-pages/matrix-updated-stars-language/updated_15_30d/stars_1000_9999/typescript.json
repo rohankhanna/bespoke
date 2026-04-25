@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 729,
-    "concepts": 139,
-    "observations": 140,
-    "repos": 19,
-    "terms": 146
+    "components": 797,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 21,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "allweonedev/presentation-ai",
+    "badgen/badgen.net",
     "bash-lsp/bash-language-server",
     "butlerx/wetty",
     "changesets/action",
@@ -25,11 +26,12 @@
     "golang/vscode-go",
     "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
+    "heyhuynhgiabuu/proxypal",
     "lobehub/lobe-icons",
     "microsoft/node-pty",
+    "opactorai/claudable",
     "peter-evans/repository-dispatch",
     "react-native-webview/react-native-webview",
-    "REditorSupport/vscode-R",
     "standard/eslint-config-standard",
     "thx/resvg-js",
     "TypeStrong/ts-loader"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1111,
-    "concepts": 199,
-    "observations": 199,
-    "repos": 28,
-    "terms": 198
+    "components": 1154,
+    "concepts": 226,
+    "observations": 226,
+    "repos": 30,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "apache/cordova-android",
     "apache/cordova-ios",
-    "apollographql/eslint-plugin-graphql",
+    "Automattic/juice",
     "Blockstream/esplora",
     "callstack/react-native-builder-bob",
     "coderaiser/cloudcmd",
+    "conventional-changelog/standard-version",
     "DavidAnson/markdownlint",
     "dequelabs/axe-core",
     "eslint/js",
+    "expressjs/body-parser",
     "fullstorydev/grpcui",
+    "GoogleChrome/web-vitals",
     "grommet/grommet",
+    "ipfs/ipfs-desktop",
     "ipfs/ipfs-webui",
     "json-schema-org/json-schema-spec",
     "JuliaPluto/Pluto.jl",
@@ -34,8 +38,6 @@
     "newrelic/node-newrelic",
     "nodegit/nodegit",
     "nodejs/undici",
-    "npm/cli",
-    "piebald-ai/claude-code-system-prompts",
     "pmmmwh/react-refresh-webpack-plugin",
     "rullerzhou-afk/clawd-on-desk",
     "tc39/test262",

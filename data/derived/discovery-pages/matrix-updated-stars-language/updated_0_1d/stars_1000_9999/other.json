@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 358,
-    "concepts": 319,
-    "observations": 319,
-    "repos": 37,
-    "terms": 318
+    "components": 48,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 7,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,44 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "a2aproject/a2a-samples",
-    "abapGit/abapGit",
-    "apollographql/apollo-ios",
-    "apple/swift-protobuf",
-    "Azure/autorest",
-    "Azure/azure-rest-api-specs",
-    "Azure/azureml-examples",
-    "Azure/bicep",
-    "blockscout/blockscout",
-    "boostorg/boost",
-    "clojure-lsp/clojure-lsp",
-    "deivid-rodriguez/byebug",
-    "dependabot/dependabot-core",
-    "dotnet/dotnet",
-    "dotnet/extensions",
-    "dotnet/fsharp",
+    "dotfiles/dotfiles.github.com",
     "dotnet/sdk",
-    "elsa-workflows/elsa-core",
-    "foundry-rs/forge-std",
     "getsentry/sentry-cocoa",
-    "kurrent-io/KurrentDB",
     "lm-sensors/lm-sensors",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
-    "nix-community/home-manager",
-    "nvim-flutter/flutter-tools.nvim",
-    "openvinotoolkit/openvino_notebooks",
-    "OrchardCMS/OrchardCore",
-    "saghen/blink.cmp",
-    "ScoopInstaller/Extras",
-    "SpecterOps/SharpHound",
     "swiftlang/llvm-project",
-    "swiftlang/sourcekit-lsp",
-    "tweag/ormolu",
-    "vim/vim-win32-installer",
-    "WebAssembly/component-model",
-    "WebAssembly/spec"
+    "whatwg/html"
   ]
 }

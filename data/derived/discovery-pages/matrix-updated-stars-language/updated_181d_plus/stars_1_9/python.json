@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 67,
-    "terms": 116
+    "components": 156,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 71,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -44,6 +44,7 @@
     "clearbluejar/ghidra-python-vscode-skeleton",
     "conda-incubator/conda-suggest",
     "d0c-s4vage/lookatme.contrib.qrcode",
+    "danielrosehill/Agent-SDK-Env-Setup",
     "di/packaging_legacy",
     "echo-yiyiyi/cube",
     "eliemichel/sphinx_literate",
@@ -58,7 +59,7 @@
     "ichard26/blackbench",
     "isl-org/next-vit",
     "j0826/PlainTextResultsParser",
-    "JianweiSun007/athena-sjw",
+    "jianweisun007/athena-sjw",
     "justfoxing/jfx_bridge",
     "JustinLin610/AutoGPTQ",
     "justinpinkney/nomi",
@@ -67,6 +68,7 @@
     "kaste/SublimeLinter-addon-toggler",
     "koute/rwkv_tokenizer",
     "kushaldas/cpython",
+    "mahmoudnafifi/WB_color_augmenter_python",
     "mamba-org/quetz-client",
     "mamba-org/quetz-sql-authenticator",
     "matt-gardner/allennlp",
@@ -80,6 +82,8 @@
     "panqiwei/peft",
     "simonw/scrape-san-mateo-fire-dispatch",
     "songquanpeng/daily-submit",
-    "sterlind/peft"
+    "sterlind/peft",
+    "tensorchord/envd-quick-start",
+    "ZubinGou/latex2sympy"
   ]
 }

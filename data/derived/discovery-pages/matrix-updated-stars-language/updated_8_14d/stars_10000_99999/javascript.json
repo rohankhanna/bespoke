@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 7,
-    "terms": 46
+    "components": 343,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 10,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "Automattic/node-canvas",
     "avajs/ava",
-    "expressjs/express",
+    "graphql/graphql-spec",
+    "jantimon/html-webpack-plugin",
     "lint-staged/lint-staged",
+    "svg/svgo",
     "tj/commander.js",
     "vega/vega",
-    "vercel-labs/agent-skills"
+    "vercel-labs/agent-skills",
+    "yarnpkg/yarn"
   ]
 }

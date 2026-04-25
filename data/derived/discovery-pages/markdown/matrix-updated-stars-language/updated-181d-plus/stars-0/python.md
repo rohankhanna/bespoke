@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Python
 
-Generated at: `2026-04-24T09:26:27.498159+00:00`
+Generated at: `2026-04-25T05:15:34.459750+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 37
-- components: 43
-- concepts: 37
-- observations: 37
+- repos: 26
+- terms: 51
+- components: 64
+- concepts: 51
+- observations: 51
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Context-Cruncher](https://github.com/danielrosehill/Context-Cruncher) | 0 | 2025-10-26T19:44:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [XuhuiZhou/OpenHands](https://github.com/XuhuiZhou/OpenHands) | 0 | 2025-10-15T00:55:53Z | Python | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [LDLINGLINGLING/sglang](https://github.com/LDLINGLINGLING/sglang) | 0 | 2025-09-27T05:34:50Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [LDLINGLINGLING/vllm](https://github.com/LDLINGLINGLING/vllm) | 0 | 2025-09-23T23:55:43Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [mignonjia/lmgame_train_reorg](https://github.com/mignonjia/lmgame_train_reorg) | 0 | 2025-08-07T20:33:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -44,15 +46,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zzowenzz/coco_tiny](https://github.com/zzowenzz/COCO_Tiny) | 0 | 2024-05-02T05:23:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hashberg-io/multiformats-config](https://github.com/hashberg-io/multiformats-config) | 0 | 2023-12-18T21:34:33Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [autodistill/autodistill-azure-vision](https://github.com/autodistill/autodistill-azure-vision) | 0 | 2023-10-27T09:12:55Z | Python | Model/data | 1 | 0 | 1 | 1 |
+| [nim65s/git-archive-all](https://github.com/nim65s/git-archive-all) | 0 | 2023-08-04T13:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [genome21/langflow](https://github.com/genome21/langflow) | 0 | 2023-05-14T22:08:20Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [kasztp/url_shortener](https://github.com/kasztp/URL_Shortener) | 0 | 2023-03-06T17:34:45Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [clearbluejar/ghidra-pyi-generator](https://github.com/clearbluejar/ghidra-pyi-generator) | 0 | 2022-11-16T13:39:58Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [MickaelRigault/pymage](https://github.com/MickaelRigault/pymage) | 0 | 2022-01-23T13:55:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [mickaelrigault/pymage](https://github.com/MickaelRigault/pymage) | 0 | 2022-01-23T13:55:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [redcaps-dataset/pytorch-retinaface](https://github.com/redcaps-dataset/pytorch-retinaface) | 0 | 2021-08-30T19:05:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Context-Cruncher](https://github.com/danielrosehill/Context-Cruncher) | 0 | 2025-10-26T19:44:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [XuhuiZhou/OpenHands](https://github.com/XuhuiZhou/OpenHands) | 0 | 2025-10-15T00:55:53Z | Python | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [LDLINGLINGLING/sglang](https://github.com/LDLINGLINGLING/sglang) | 0 | 2025-09-27T05:34:50Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [LDLINGLINGLING/vllm](https://github.com/LDLINGLINGLING/vllm) | 0 | 2025-09-23T23:55:43Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [mignonjia/lmgame_train_reorg](https://github.com/mignonjia/lmgame_train_reorg) | 0 | 2025-08-07T20:33:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -71,7 +77,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zzowenzz/coco_tiny](https://github.com/zzowenzz/COCO_Tiny) | 0 | 2024-05-02T05:23:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hashberg-io/multiformats-config](https://github.com/hashberg-io/multiformats-config) | 0 | 2023-12-18T21:34:33Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [autodistill/autodistill-azure-vision](https://github.com/autodistill/autodistill-azure-vision) | 0 | 2023-10-27T09:12:55Z | Python | Model/data | 1 | 0 | 1 | 1 |
+| [nim65s/git-archive-all](https://github.com/nim65s/git-archive-all) | 0 | 2023-08-04T13:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [genome21/langflow](https://github.com/genome21/langflow) | 0 | 2023-05-14T22:08:20Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [kasztp/url_shortener](https://github.com/kasztp/URL_Shortener) | 0 | 2023-03-06T17:34:45Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [clearbluejar/ghidra-pyi-generator](https://github.com/clearbluejar/ghidra-pyi-generator) | 0 | 2022-11-16T13:39:58Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [MickaelRigault/pymage](https://github.com/MickaelRigault/pymage) | 0 | 2022-01-23T13:55:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [mickaelrigault/pymage](https://github.com/MickaelRigault/pymage) | 0 | 2022-01-23T13:55:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [redcaps-dataset/pytorch-retinaface](https://github.com/redcaps-dataset/pytorch-retinaface) | 0 | 2021-08-30T19:05:44Z | Python | Unknown | 0 | 0 | 0 | 0 |

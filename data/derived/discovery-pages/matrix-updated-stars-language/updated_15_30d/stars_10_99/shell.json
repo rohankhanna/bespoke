@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 25,
+    "components": 31,
     "concepts": 42,
     "observations": 42,
-    "repos": 8,
+    "repos": 9,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
@@ -21,6 +21,7 @@
     "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/poppler-feedstock",
     "conda-forge/spacy-feedstock",
+    "containers/automation",
     "nodenv/node-build-update-defs"
   ]
 }

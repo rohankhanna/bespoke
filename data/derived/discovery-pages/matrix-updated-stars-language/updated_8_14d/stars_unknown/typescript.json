@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 3,
-    "observations": 3,
+    "components": 10,
+    "concepts": 0,
+    "observations": 0,
     "repos": 1,
     "terms": 3
   },
@@ -12,8 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "buddingnewinsights/proxypal"
+    "GeiserX/AgentTap"
   ]
 }

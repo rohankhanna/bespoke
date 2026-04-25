@@ -55,13 +55,14 @@
       "size": 376
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:24.675299+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Utilities for efficient fine-tuning, inference and evaluation of code generation models",
     "fork": false,
-    "full_name": "Naman-ntc/FastCode",
+    "full_name": "naman-ntc/fastcode",
     "html_url": "https://github.com/Naman-ntc/FastCode",
     "language": "Python",
     "pushed_at": "2023-10-03T16:13:47Z",

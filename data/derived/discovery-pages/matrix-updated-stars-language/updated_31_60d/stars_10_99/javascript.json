@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 5,
-    "terms": 15
+    "components": 68,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 7,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "ably-labs/realtime-multiplayer-space-invaders",
+    "angular/domino",
     "brody2consult/react-native-module-init",
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
+    "ipld/js-dag-pb",
     "OpenHands/openhands-chrome-extension"
   ]
 }

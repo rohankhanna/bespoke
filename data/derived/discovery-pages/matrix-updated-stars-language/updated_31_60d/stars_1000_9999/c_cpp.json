@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 123,
-    "observations": 124,
-    "repos": 22,
-    "terms": 121
+    "components": 83,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 21,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "akheron/jansson",
     "arrayfire/arrayfire",
     "ashvardanian/StringZilla",
     "bblanchon/ArduinoJson",
+    "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
     "coin-or/Ipopt",
     "containers/bubblewrap",
-    "flashlight/flashlight",
     "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "hpjansson/chafa",
     "icecc/icecream",
     "libgit2/rugged",
-    "microsoft/onnxruntime-inference-examples",
     "onnx/onnx-tensorrt",
     "redis/hiredis",
     "snapcast/snapcast",

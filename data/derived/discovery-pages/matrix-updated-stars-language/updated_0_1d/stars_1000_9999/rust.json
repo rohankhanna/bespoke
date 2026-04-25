@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 128,
-    "observations": 130,
-    "repos": 17,
-    "terms": 128
+    "components": 61,
+    "concepts": 48,
+    "observations": 49,
+    "repos": 5,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "ai-dynamo/dynamo",
-    "apache/arrow-rs",
-    "apache/datafusion",
     "apache/datafusion-ballista",
-    "apache/iggy",
-    "apache/opendal",
-    "compio-rs/compio",
-    "dimforge/nalgebra",
-    "esp-rs/esp-hal",
-    "j178/prek",
-    "modelcontextprotocol/rust-sdk",
-    "release-plz/release-plz",
+    "apache/datafusion-comet",
     "rizsotto/Bear",
-    "romanz/electrs",
-    "rust-bitcoin/rust-bitcoin",
     "rust-lang/miri",
-    "servo/pathfinder"
+    "smallcloudai/refact"
   ]
 }

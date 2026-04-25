@@ -8,13 +8,14 @@
       "size": 67
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:09.680217+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "All the images used throughout Gooey's documentation",
     "fork": false,
-    "full_name": "chriskiehl/GooeyImages",
+    "full_name": "chriskiehl/gooeyimages",
     "html_url": "https://github.com/chriskiehl/GooeyImages",
     "language": null,
     "pushed_at": "2022-01-23T22:51:03Z",

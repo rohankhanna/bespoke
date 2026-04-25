@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 179,
-    "observations": 181,
-    "repos": 19,
-    "terms": 179
+    "components": 52,
+    "concepts": 61,
+    "observations": 62,
+    "repos": 6,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "actions/runner-images",
-    "AlDanial/cloc",
-    "dotnet/aspnetcore",
-    "dotnet/AspNetCore.Docs",
-    "dotnet/efcore",
-    "dotnet/orleans",
-    "dotnet/roslyn",
-    "fastlane/fastlane",
-    "google/fonts",
+    "cython/cython",
     "jgm/pandoc",
-    "jupyter/notebook",
     "ScoopInstaller/Scoop",
     "simplex-chat/simplex-chat",
-    "swiftlang/swift",
-    "swiftlang/swift-package-manager",
     "tc39/ecma262",
-    "triton-lang/triton",
-    "upptime/upptime",
-    "vim/vim"
+    "triton-lang/triton"
   ]
 }

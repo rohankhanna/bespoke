@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 133,
-    "observations": 136,
-    "repos": 52,
-    "terms": 131
+    "components": 119,
+    "concepts": 142,
+    "observations": 145,
+    "repos": 54,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
+    "2color/auspinner",
     "3rd/syslang",
     "a-h/rest",
     "ahmetb/ytdl",
-    "aimerneige/MiraiChess",
+    "aimerneige/miraichess",
     "alexkohler/dogsled",
     "alexkohler/nargs",
     "authorizer-tech/access-controller",
@@ -60,6 +61,7 @@
     "opentracing/basictracer-go",
     "OpenTreeHole/auth_next",
     "oras-project/artifacts-spec",
+    "seasonjs/rwkv",
     "tc-hib/winres",
     "tianon/markdownfmt",
     "tinted-theming/base16-builder-go",

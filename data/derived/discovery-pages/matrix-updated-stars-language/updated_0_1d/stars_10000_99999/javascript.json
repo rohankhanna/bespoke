@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 450,
-    "concepts": 85,
-    "observations": 86,
-    "repos": 9,
-    "terms": 85
+    "components": 117,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 2,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "cure53/DOMPurify",
     "electerm/electerm",
-    "electron/minimal-repro",
-    "eslint/eslint",
-    "lovell/sharp",
-    "nwjs/nw.js",
-    "protobufjs/protobuf.js",
-    "rollup/rollup",
-    "zloirock/core-js"
+    "protobufjs/protobuf.js"
   ]
 }

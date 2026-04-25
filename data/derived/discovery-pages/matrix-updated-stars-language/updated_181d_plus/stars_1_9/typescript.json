@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 290,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 20,
-    "terms": 38
+    "components": 355,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 22,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "5sControl/5s-frontend",
     "alexlafroscia/testdouble-qunit",
     "artemhlezin/webgpu-gerstner-waves",
     "arvinxx/lobe-plugin-tikzjax",
@@ -33,6 +34,7 @@
     "plrthink/RNZATestApp",
     "robb-j/nova-yaml",
     "Shougo/dpp-ext-local",
-    "Shougo/dpp-ext-toml"
+    "Shougo/dpp-ext-toml",
+    "winily/zhipuai-sdk-nodejs-v4"
   ]
 }

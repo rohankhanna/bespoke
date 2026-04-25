@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1163,
-    "concepts": 206,
-    "observations": 208,
-    "repos": 22,
-    "terms": 204
+    "components": 1388,
+    "concepts": 273,
+    "observations": 276,
+    "repos": 27,
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,34 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "ajaxorg/ace",
     "badges/shields",
     "be5invis/Iosevka",
     "bmad-code-org/bmad-method",
     "commitizen/cz-cli",
+    "cure53/DOMPurify",
     "decaporg/decap-cms",
+    "electron/minimal-repro",
+    "eslint/eslint",
+    "expressjs/express",
     "fastify/fastify",
-    "graphql/graphql-spec",
-    "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jquery/jquery",
+    "lovell/sharp",
     "markedjs/marked",
     "nock/nock",
+    "nwjs/nw.js",
     "openai/codex-plugin-cc",
     "prettier/prettier",
     "remy/nodemon",
+    "rollup/rollup",
     "semantic-release/semantic-release",
+    "serverless/serverless",
     "simple-icons/simple-icons",
-    "svg/svgo",
     "webpack/webpack",
     "webtorrent/webtorrent",
-    "yarnpkg/yarn"
+    "zloirock/core-js"
   ]
 }

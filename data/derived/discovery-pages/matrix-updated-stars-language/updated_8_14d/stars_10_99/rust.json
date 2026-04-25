@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 76,
+    "components": 69,
     "concepts": 37,
     "observations": 37,
-    "repos": 9,
+    "repos": 11,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,16 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "alixinne/glsl-lang",
+    "andelf/picc",
     "antonWetzel/prettypst",
-    "BlackDex/rust-musl",
     "crate-ci/imperative",
     "hagan/claudia-statusline",
     "Layr-Labs/eigensdk-rs",
     "open-telemetry/opentelemetry-rust-contrib",
+    "phiat/claude-esp-rs",
     "quininer/x11-clipboard",
-    "tianrking/weixin-agent-rs"
+    "tianrking/weixin-agent-rs",
+    "tracel-ai/burn-bench"
   ]
 }

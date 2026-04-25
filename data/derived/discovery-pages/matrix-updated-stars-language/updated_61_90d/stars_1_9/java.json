@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "components": 10,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
-    "dart4e/dart4e-studio"
+    "dart4e/dart4e-studio",
+    "filip26/copper-multicodec",
+    "filip26/titanium-rdf-canon",
+    "filip26/titanium-rdf-n-quads"
   ]
 }

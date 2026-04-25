@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 12,
-    "terms": 87
+    "components": 93,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 14,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
     "agent-sh/can-i-help",
     "agent-sh/drift-detect",
     "agent-sh/enhance",
-    "agent-sh/next-task",
     "agent-sh/onboard",
     "agent-sh/perf",
     "agent-sh/repo-intel",
     "agent-sh/sync-docs",
     "apache/netbeans-antora",
+    "ChadKillingsworth/closure-compiler-npm",
+    "ipfs-shipyard/js-mock-ipfs-pinning-service",
+    "ipld/js-bitcoin",
     "istanbuljs/schema"
   ]
 }

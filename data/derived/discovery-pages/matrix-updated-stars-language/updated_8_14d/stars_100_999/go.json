@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 83,
-    "observations": 86,
-    "repos": 15,
-    "terms": 85
+    "components": 166,
+    "concepts": 99,
+    "observations": 102,
+    "repos": 20,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "apache/dubbo-go-pixiu",
     "argoproj-labs/argo-rollouts-manager",
+    "celo-org/celo-blockchain",
     "charmbracelet/colorprofile",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
+    "coder/envbuilder",
     "darkweak/souin",
     "ethereum-optimism/op-geth",
     "foxj77/claudectx",
@@ -26,8 +28,11 @@
     "hashicorp/errwrap",
     "hashicorp/go-discover",
     "jaegertracing/jaeger-idl",
+    "kubernetes-sigs/boskos",
     "kubernetes/cri-api",
     "Layr-Labs/eigenda",
-    "prehisle/relay-pulse"
+    "phiat/claude-esp",
+    "prehisle/relay-pulse",
+    "SpecterOps/AzureHound"
   ]
 }

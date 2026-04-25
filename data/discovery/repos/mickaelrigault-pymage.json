@@ -8,13 +8,14 @@
       "size": 4285
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:14:53.408982+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Python module to Measure AGE bias in SN Cosmology",
     "fork": false,
-    "full_name": "MickaelRigault/pymage",
+    "full_name": "mickaelrigault/pymage",
     "html_url": "https://github.com/MickaelRigault/pymage",
     "language": "Python",
     "pushed_at": "2022-01-23T13:55:40Z",

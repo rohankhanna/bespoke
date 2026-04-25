@@ -1,31 +1,36 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 14,
-    "terms": 10
+    "components": 70,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 19,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
     "abraxas-365/claudio-screenshot",
+    "alexcrichton/cc-rs",
     "amoniacou/external-dns-digitalocean-webhook",
     "arckoor/jsonwebtoken-botan",
+    "damacol/ai-hub",
+    "damacol/gemma-4-collection",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Memory-Planning-0426",
-    "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Claude-Calls-The-Shots",
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "eigenwallet/arti",
-    "grubersjoe/react-activity-calendar-tests",
+    "foundry-rs/optimism",
     "mitchuski/agentprivacy-skills",
+    "PrimeIntellect-ai/router",
+    "saidudz/chat-ai",
     "ublacklist/store-assets",
+    "ueno/podman-sequoia",
     "wencuecryforme/mysoul.skill"
   ]
 }

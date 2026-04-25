@@ -3,7 +3,7 @@
     "components": 57,
     "concepts": 48,
     "observations": 48,
-    "repos": 10,
+    "repos": 11,
     "terms": 47
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
@@ -22,6 +22,7 @@
     "ethereum/eipw",
     "fengkx/jieba-wasm",
     "joseluisq/paket",
+    "nebelgrau77/airsniffer-esp32c6",
     "sigp/ethereum_hashing",
     "zeng3ld/claude-session-restore"
   ]

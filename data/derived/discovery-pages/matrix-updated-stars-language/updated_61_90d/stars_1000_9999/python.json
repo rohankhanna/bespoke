@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 26,
-    "terms": 127
+    "components": 82,
+    "concepts": 138,
+    "observations": 138,
+    "repos": 27,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "AIDC-AI/Marco-o1",
@@ -37,6 +37,7 @@
     "PaddlePaddle/PaddleSeg",
     "Python-Markdown/markdown",
     "SafeAILab/EAGLE",
+    "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "toshas/torch-fidelity",
     "webdataset/webdataset"

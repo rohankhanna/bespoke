@@ -75,13 +75,14 @@
       "size": 586
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:28.545491+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Run any console program in the notification area.",
     "fork": false,
-    "full_name": "Milly/runtray-ps",
+    "full_name": "milly/runtray-ps",
     "html_url": "https://github.com/Milly/runtray-ps",
     "language": "PowerShell",
     "pushed_at": "2023-07-19T14:39:24Z",

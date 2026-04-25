@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 22,
-    "terms": 37
+    "components": 64,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 26,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "albertogeniola/elmax-api",
@@ -23,18 +23,22 @@
     "CodeBoarding/atlassian-python-api",
     "danielrosehill/AI-Agent-Ideation-Agent",
     "danielrosehill/better-hashnode-backups",
+    "danielrosehill/Context-Cruncher",
     "genome21/langflow",
     "hashberg-io/multiformats-config",
+    "kasztp/url_shortener",
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",
-    "MickaelRigault/pymage",
+    "mickaelrigault/pymage",
     "mignonjia/lmgame_train_reorg",
     "mjvolk3/biocypher",
     "Natyren/alfworld",
     "Natyren/WebShop",
+    "nim65s/git-archive-all",
     "redcaps-dataset/pytorch-retinaface",
     "spencer-tb/ethereum-spec-evm-resolver",
     "thanku-all/parse_answer",
+    "XuhuiZhou/OpenHands",
     "zzowenzz/coco_tiny"
   ]
 }

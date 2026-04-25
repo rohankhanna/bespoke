@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 101,
-    "concepts": 70,
-    "observations": 70,
+    "concepts": 75,
+    "observations": 75,
     "repos": 17,
-    "terms": 72
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ad-si/FlatCV",
+    "AFD-Illinois/kharma",
     "agl/jbig2enc",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
@@ -25,11 +26,10 @@
     "liangshengyong/lanwan",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
-    "marciogranzotto/clawd-tank",
     "Mbed-TLS/TF-PSA-Crypto",
-    "mitsuba-renderer/nanothread",
-    "mybigday/llama.node",
     "openvinotoolkit/openvino_tokenizers",
-    "yquake2/ref_vk"
+    "rapidsai/ucxx",
+    "yquake2/ref_vk",
+    "yquake2/yquake2remaster"
   ]
 }

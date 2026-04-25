@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 15,
-    "terms": 38
+    "components": 49,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 16,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "alexellis/discord-updater",
@@ -24,6 +24,7 @@
     "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
     "dubbo-go-pixiu/pixiu-api",
     "go-woo/protoc-gen-ent",
+    "kurrent-io/es-gencert-cli",
     "norwoodj/hashbash-backend-go",
     "olric-data/olric-consul-plugin",
     "oras-project/distribution",

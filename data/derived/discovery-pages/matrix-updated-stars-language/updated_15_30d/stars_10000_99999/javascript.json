@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 467,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 10,
-    "terms": 67
+    "components": 496,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 11,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "acornjs/acorn",
     "anuraghazra/github-readme-stats",
+    "auth0/node-jsonwebtoken",
     "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 41,
-    "observations": 42,
-    "repos": 12,
-    "terms": 61
+    "components": 412,
+    "concepts": 47,
+    "observations": 48,
+    "repos": 15,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
-    "buddingnewinsights/proxypal",
+    "darkriszty/MarkdownTablePrettify-VSCodeExt",
+    "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "Godefroy/micdrop",
     "huangguang1999/ccstatusline-zh",
@@ -25,6 +26,8 @@
     "lobehub/lobe-lint",
     "sgcarstrends/sgcarstrends",
     "Shougo/dpp-ext-installer",
-    "zhayujie/cow-skill-hub"
+    "ylsssq926/relic.skill",
+    "zhayujie/cow-skill-hub",
+    "zuplo/docs"
   ]
 }

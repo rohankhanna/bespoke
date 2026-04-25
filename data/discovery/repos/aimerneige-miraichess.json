@@ -105,13 +105,14 @@
       "size": 365
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:10.999227+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "\u4f7f\u7528 MiraiGo-Template \u5b9e\u73b0\u7684\u56fd\u9645\u8c61\u68cb\u673a\u5668\u4eba\u3002",
     "fork": false,
-    "full_name": "aimerneige/MiraiChess",
+    "full_name": "aimerneige/miraichess",
     "html_url": "https://github.com/aimerneige/MiraiChess",
     "language": "Go",
     "pushed_at": "2023-08-21T00:58:48Z",

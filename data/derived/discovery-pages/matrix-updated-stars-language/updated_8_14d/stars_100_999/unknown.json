@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 62,
-    "observations": 62,
+    "components": 13,
+    "concepts": 70,
+    "observations": 70,
     "repos": 16,
-    "terms": 61
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "ailev/fpf",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
     "antonbabenko/terraform-aws-devops",
     "astro-han/karpathy-llm-wiki",
     "cloudflare/skills",
-    "cncf/artwork",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
     "gautamkrishnar/gautamkrishnar",
     "MicrosoftDocs/terminal",
+    "nimbalyst/nimbalyst",
     "piebald-ai/awesome-gemini-cli",
     "pyOpenSci/software-submission",
     "SamurAIGPT/awesome-openclaw",
     "servo/project",
-    "tc39/how-we-work",
     "Uzaaft/awesome-libghostty"
   ]
 }

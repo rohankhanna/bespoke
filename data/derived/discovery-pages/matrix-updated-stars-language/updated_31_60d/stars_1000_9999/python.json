@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 94,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 30,
-    "terms": 104
+    "concepts": 113,
+    "observations": 113,
+    "repos": 32,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "anapnoe/stable-diffusion-webui-ux",
     "bambinos/bambi",
@@ -32,6 +32,8 @@
     "langfengQ/verl-agent",
     "microsoft/TaskWeaver",
     "miolini/autoresearch-macos",
+    "mosaicml/composer",
+    "mosaicml/llm-foundry",
     "NVlabs/VILA",
     "open-mmlab/mmaction2",
     "PyCQA/flake8-bugbear",

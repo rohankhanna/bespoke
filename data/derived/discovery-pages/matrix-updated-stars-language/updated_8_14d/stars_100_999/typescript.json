@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 382,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 23,
-    "terms": 100
+    "components": 418,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 27,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
@@ -34,8 +34,12 @@
     "matepek/vscode-catch2-test-adapter",
     "neolabhq/context-engineering-kit",
     "NVIDIA/OpenShell-Community",
+    "nyatinte/ccexp",
+    "Shougo/ddc.vim",
+    "Shougo/ddu.vim",
+    "Shougo/dpp.vim",
     "snipeship/ccflare",
-    "timkindberg/jest-when",
-    "vega/vega-embed"
+    "stx-labs/stacks.js",
+    "timkindberg/jest-when"
   ]
 }

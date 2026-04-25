@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 85,
-    "terms": 134
+    "components": 15,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 91,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -47,7 +47,10 @@
     "doc-analysis/ReadingBank",
     "doc-analysis/XFUND",
     "dotnet/vblang",
+    "dwyl/home",
+    "dwyl/learn-api-design",
     "EleutherAI/polyglot",
+    "eliemichel/LearnWebGPU-Code",
     "ethereum/snake-charmers-tactical-manual",
     "flashbots/mev-share",
     "fsharp/fslang-suggestions",
@@ -56,6 +59,7 @@
     "helm/hub",
     "hiszpanski/osx-arm-linux-toolchains",
     "hughfenghen/WebAV-KnowledgeGraph",
+    "ipfs/roadmap",
     "JafferWilson/Process-Data-of-CNN-DailyMail",
     "jakubfoglar/raveo",
     "jbenet/random-ideas",
@@ -81,6 +85,7 @@
     "opencontainers/artwork",
     "openvinotoolkit/awesome-openvino",
     "openxla/community",
+    "OS-Agent-Survey/OS-Agent-Survey",
     "pdm-project/awesome-pdm",
     "PlexPt/chatgpt-corpus",
     "project-miracl/miracl",
@@ -91,6 +96,7 @@
     "ScoopInstaller/Awesome",
     "sentinel-group/sentinel-awesome",
     "standard/awesome-standard",
+    "suzgunmirac/BIG-Bench-Hard",
     "tesseract-ocr/langdata",
     "tesseract-ocr/tessdata_fast",
     "the-guild-org/Stack",

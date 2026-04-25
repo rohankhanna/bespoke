@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 3,
-    "terms": 1
+    "components": 27,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 4,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "babashka/homebrew-brew",
-    "bnosac/images"
+    "bnosac/images",
+    "pgvector/pgvector-ada"
   ]
 }

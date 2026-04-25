@@ -3,7 +3,7 @@
     "components": 10,
     "concepts": 22,
     "observations": 22,
-    "repos": 13,
+    "repos": 14,
     "terms": 34
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "AppImageCommunity/awesome-appimage",
     "charm-and-friends/additional-bubbles",
@@ -24,6 +24,7 @@
     "lightning/blips",
     "MME-Benchmarks/Video-MME",
     "oh-my-fish/packages-main",
+    "opendilab/awesome-ui-agents",
     "proxy-wasm/spec",
     "sgl-project/sgl-learning-materials",
     "thibautmelen/agentic-ai-systems"

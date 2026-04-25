@@ -494,13 +494,14 @@
       "size": 732
     }
   ],
+  "metadata_refreshed_at": "2026-04-25T05:15:32.669811+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Client-side library for building decentralized applications.",
     "fork": false,
-    "full_name": "Cryptonomic/ConseilJS",
+    "full_name": "cryptonomic/conseiljs",
     "html_url": "https://github.com/Cryptonomic/ConseilJS",
     "language": "TypeScript",
     "pushed_at": "2024-08-28T17:55:22Z",

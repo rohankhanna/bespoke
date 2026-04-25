@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 174,
-    "observations": 174,
-    "repos": 25,
-    "terms": 172
+    "components": 330,
+    "concepts": 205,
+    "observations": 205,
+    "repos": 29,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "alexpasmantier/television",
-    "aome510/spotify-player",
     "bvaisvil/zenith",
+    "bytedance/monoio",
     "Canop/bacon",
+    "cedar-policy/cedar",
     "crate-ci/typos",
     "crev-dev/cargo-crev",
     "dtolnay/syn",
@@ -31,12 +32,15 @@
     "libp2p/rust-libp2p",
     "mitsuhiko/similar",
     "mozilla/sccache",
+    "napi-rs/napi-rs",
+    "napi-rs/node-rs",
+    "nvidia/openshell",
     "rust-cli/confy",
     "rust-cli/env_logger",
     "rust-windowing/winit",
-    "serde-rs/json",
-    "tauri-apps/wry",
     "tokio-rs/mini-redis",
+    "tokio-rs/mio",
+    "tokio-rs/tracing",
     "uuid-rs/uuid",
     "wasm-bindgen/wasm-pack"
   ]

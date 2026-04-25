@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 8,
-    "terms": 35
+    "components": 103,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 15,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-25T05:15:34.459750+00:00",
   "repo_ids": [
+    "a2aproject/a2a-java",
+    "aws-powertools/powertools-lambda-java",
+    "beehive-lab/GPULlama3.java",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "googleapis/google-api-java-client-services",
+    "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
     "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
-    "spotbugs/sonar-findbugs"
+    "spotbugs/sonar-findbugs",
+    "Waffle/waffle",
+    "zilliztech/vts"
   ]
 }
