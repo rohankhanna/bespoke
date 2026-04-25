@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T18:19:44.660705+00:00",
+  "generated_at": "2026-04-25T00:30:29.797745+00:00",
   "pending": [
     {
       "discovered_via": "explicit-github-link",
@@ -14604,7 +14604,6 @@
     "coredns/coredns",
     "ipfs-shipyard/contributors-hex-grid",
     "ipfs/infra",
-    "davidbgk/open-source-template",
     "hackergrrl/art-of-readme",
     "richardlitt/generator-standard-readme",
     "dwyl/dart_cid",
