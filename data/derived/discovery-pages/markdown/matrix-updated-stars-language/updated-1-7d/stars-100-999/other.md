@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 110
-- terms: 764
-- components: 1203
+- repos: 109
+- terms: 742
+- components: 1192
 - concepts: 745
 - observations: 746
 
@@ -135,7 +135,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clojure-emacs/cider-nrepl](https://github.com/clojure-emacs/cider-nrepl) | 741 | 2026-04-19T13:43:41Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [agourlay/cornichon](https://github.com/agourlay/cornichon) | 234 | 2026-04-19T11:46:42Z | Other | Infrastructure/tooling | 3 | 4 | 4 | 4 |
 | [vim-fuzzbox/fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) | 157 | 2026-04-19T09:06:28Z | Other | Infrastructure/tooling | 9 | 0 | 9 | 9 |
-| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -226,7 +225,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a2aproject/a2a-dotnet](https://github.com/a2aproject/a2a-dotnet) | 223 | 2026-04-22T05:32:14Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [MasterJ93/ATProtoKit](https://github.com/MasterJ93/ATProtoKit) | 216 | 2026-04-22T06:09:33Z | Other | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [ROCm/llvm-project](https://github.com/ROCm/llvm-project) | 211 | 2026-04-23T17:34:55Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [dotnet/install-scripts](https://github.com/dotnet/install-scripts) | 204 | 2026-04-22T16:21:00Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [usnistgov/ACVP](https://github.com/usnistgov/ACVP) | 197 | 2026-04-20T15:47:39Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ClickHouse/clickhouse-docs](https://github.com/ClickHouse/clickhouse-docs) | 196 | 2026-04-21T20:34:21Z | Other | CLI | 10 | 66 | 10 | 11 |

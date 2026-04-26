@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 848,
+    "components": 818,
     "concepts": 132,
     "observations": 134,
-    "repos": 26,
-    "terms": 138
+    "repos": 25,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "almogdepaz/wolfpack",
@@ -28,7 +28,6 @@
     "grafana/profiles-drilldown",
     "gridatek/semantic-icons",
     "hashintel/labs",
-    "jkheadley/instar",
     "Kastalien-Research/thoughtbox",
     "llamastack/llama-stack-client-typescript",
     "mcous/vitest-when",

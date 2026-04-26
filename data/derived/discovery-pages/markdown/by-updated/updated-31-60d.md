@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-26T05:27:31.548826+00:00`
 
 ## Counts
 
-- repos: 609
-- terms: 2608
+- repos: 610
+- terms: 2612
 - components: 4173
-- concepts: 2567
-- observations: 2580
+- concepts: 2571
+- observations: 2584
 
 ## Static behavior
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew) | 6941 | 2026-03-27T01:08:16Z | Go | CLI | 3 | 3 | 3 | 3 |
 | [DoumanAsh/xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) | 282 | 2026-03-27T00:31:29Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 4 |
 | [AudioKit/Cookbook](https://github.com/AudioKit/Cookbook) | 807 | 2026-03-27T00:16:06Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -912,6 +913,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fsharp/fslang-design](https://github.com/fsharp/fslang-design) | 548 | 2026-03-10T10:35:51Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [docker-library/hello-world](https://github.com/docker-library/hello-world) | 540 | 2026-03-23T21:06:54Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [terraform-aws-modules/terraform-aws-notify-slack](https://github.com/terraform-aws-modules/terraform-aws-notify-slack) | 493 | 2026-03-11T14:12:21Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [gfx-rs/rspirv](https://github.com/gfx-rs/rspirv) | 492 | 2026-03-13T15:49:48Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [purcell/envrc](https://github.com/purcell/envrc) | 490 | 2026-03-25T16:09:57Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |

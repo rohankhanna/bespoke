@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 103
+- repos: 31
+- terms: 99
 - components: 102
-- concepts: 93
-- observations: 94
+- concepts: 89
+- observations: 90
 
 ## Static behavior
 
@@ -57,7 +57,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ldayton/dippy](https://github.com/ldayton/Dippy) | 208 | 2026-03-29T20:11:16Z | Python | CLI | 5 | 5 | 0 | 0 |
 | [AIR-Bench/AIR-Bench](https://github.com/AIR-Bench/AIR-Bench) | 165 | 2026-03-29T12:47:06Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [akin-ozer/cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) | 182 | 2026-03-27T07:54:57Z | Python | Infrastructure/tooling | 2 | 2 | 0 | 0 |
-| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -70,7 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebookresearch/optimizers](https://github.com/facebookresearch/optimizers) | 565 | 2026-04-10T18:41:10Z | Python | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [python/typing_extensions](https://github.com/python/typing_extensions) | 561 | 2026-04-06T21:55:42Z | Python | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [spesmilo/electrumx](https://github.com/spesmilo/electrumx) | 555 | 2026-03-30T14:52:56Z | Python | Service/API | 3 | 0 | 3 | 3 |
-| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [googleapis/python-storage](https://github.com/googleapis/python-storage) | 502 | 2026-03-31T21:05:05Z | Python | Library | 0 | 0 | 0 | 0 |
 | [meta-pytorch/torchft](https://github.com/meta-pytorch/torchft) | 498 | 2026-04-03T17:38:46Z | Python | Infrastructure/tooling | 14 | 6 | 14 | 15 |
 | [inisis/OnnxSlim](https://github.com/inisis/OnnxSlim) | 471 | 2026-04-11T16:47:29Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |

@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 4173,
-    "concepts": 2567,
-    "observations": 2580,
-    "repos": 609,
-    "terms": 2608
+    "concepts": 2571,
+    "observations": 2584,
+    "repos": 610,
+    "terms": 2612
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "0xBigBoss/vscode-bootty",
@@ -434,6 +434,7 @@
     "microsoft/TaskWeaver",
     "microsoft/tracing-etw",
     "microsoft/xlang",
+    "microsoft/XPretrain",
     "milvus-io/milvus-sdk-csharp",
     "minio/highwayhash",
     "miolini/autoresearch-macos",

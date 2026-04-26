@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 67,
-    "terms": 178
+    "components": 358,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 70,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -58,6 +58,7 @@
     "gibdd-dps/prizolov-agent-os",
     "gkr-bot/gkr-bot",
     "istanbuljs/schema",
+    "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "kelp/webdown",
     "kensave/agent-memory-rs",
@@ -77,7 +78,9 @@
     "sunthinks/kvmind",
     "toyamarinyon/giselle",
     "ublacklist/builtin",
+    "ublacklist/ublacklist.github.io",
     "urschrei/polyline-ffi",
+    "verkyyi/tokenman",
     "vincent-k2026/codachi",
     "xiaochu-1208/interview-assistant-cli"
   ]

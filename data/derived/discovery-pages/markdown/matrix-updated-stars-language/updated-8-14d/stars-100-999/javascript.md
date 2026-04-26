@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 83
-- components: 340
-- concepts: 59
-- observations: 59
+- repos: 15
+- terms: 82
+- components: 319
+- concepts: 58
+- observations: 58
 
 ## Static behavior
 
@@ -41,7 +41,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [octokit/request-action](https://github.com/octokit/request-action) | 434 | 2026-04-15T01:43:12Z | JavaScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [stripe-samples/accept-a-payment](https://github.com/stripe-samples/accept-a-payment) | 826 | 2026-04-14T19:49:13Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [actions/hello-world-javascript-action](https://github.com/actions/hello-world-javascript-action) | 308 | 2026-04-13T16:43:10Z | JavaScript | Infrastructure/tooling | 6 | 27 | 6 | 6 |
-| [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -51,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [karma-runner/karma-coverage](https://github.com/karma-runner/karma-coverage) | 770 | 2026-04-15T03:14:59Z | JavaScript | Infrastructure/tooling | 2 | 40 | 2 | 2 |
 | [agent-sh/agentsys](https://github.com/agent-sh/agentsys) | 743 | 2026-04-15T08:43:46Z | JavaScript | CLI | 18 | 12 | 0 | 0 |
 | [nodejs/TSC](https://github.com/nodejs/TSC) | 678 | 2026-04-15T11:25:17Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [graphql/graphql-wg](https://github.com/graphql/graphql-wg) | 574 | 2026-04-16T12:19:03Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [sethgammon/citadel](https://github.com/SethGammon/Citadel) | 509 | 2026-04-15T15:14:30Z | JavaScript | Web app | 0 | 0 | 0 | 0 |
 | [octokit/request-action](https://github.com/octokit/request-action) | 434 | 2026-04-15T01:43:12Z | JavaScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |

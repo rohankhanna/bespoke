@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1299,
-    "concepts": 718,
-    "observations": 723,
-    "repos": 177,
-    "terms": 728
+    "concepts": 722,
+    "observations": 727,
+    "repos": 178,
+    "terms": 732
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/tmux2k",
@@ -130,6 +130,7 @@
     "mholt/acmez",
     "microsoft/microsoft-performance-toolkit-sdk",
     "microsoft/xlang",
+    "microsoft/XPretrain",
     "milvus-io/milvus-sdk-csharp",
     "minio/highwayhash",
     "mosaicml/examples",

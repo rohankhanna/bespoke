@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 312
-- components: 1738
+- repos: 47
+- terms: 309
+- components: 1701
 - concepts: 302
 - observations: 302
 
@@ -73,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [grubersjoe/github-contributions-api](https://github.com/grubersjoe/github-contributions-api) | 159 | 2026-04-19T09:10:22Z | TypeScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
 | [grubersjoe/react-activity-calendar](https://github.com/grubersjoe/react-activity-calendar) | 564 | 2026-04-19T09:08:16Z | TypeScript | Infrastructure/tooling | 6 | 47 | 6 | 6 |
 | [grubersjoe/react-github-calendar](https://github.com/grubersjoe/react-github-calendar) | 646 | 2026-04-19T09:07:16Z | TypeScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 315 | 2026-04-19T05:43:07Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -105,7 +104,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [octokit/webhooks.js](https://github.com/octokit/webhooks.js) | 341 | 2026-04-23T11:49:57Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org) | 325 | 2026-04-22T08:38:38Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [tony1223/better-agent-terminal](https://github.com/tony1223/better-agent-terminal) | 321 | 2026-04-19T09:50:58Z | TypeScript | CLI | 1 | 46 | 0 | 0 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 315 | 2026-04-19T05:43:07Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [redhat-developer/vscode-xml](https://github.com/redhat-developer/vscode-xml) | 311 | 2026-04-23T18:00:37Z | TypeScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
 | [docker/bake-action](https://github.com/docker/bake-action) | 292 | 2026-04-24T07:46:59Z | TypeScript | Infrastructure/tooling | 12 | 30 | 12 | 12 |
 | [electron/packager](https://github.com/electron/packager) | 290 | 2026-04-23T04:38:06Z | TypeScript | CLI | 9 | 46 | 9 | 9 |

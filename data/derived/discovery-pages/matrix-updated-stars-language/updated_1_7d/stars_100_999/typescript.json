@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1738,
+    "components": 1701,
     "concepts": 302,
     "observations": 302,
-    "repos": 48,
-    "terms": 312
+    "repos": 47,
+    "terms": 309
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "a2aproject/a2a-js",
@@ -60,7 +60,6 @@
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi",
-    "tony1223/better-agent-terminal",
-    "vibe-log/vibe-log-cli"
+    "tony1223/better-agent-terminal"
   ]
 }

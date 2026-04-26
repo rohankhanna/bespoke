@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 0 stars
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 70
-- terms: 104
-- components: 308
+- repos: 65
+- terms: 99
+- components: 303
 - concepts: 89
 - observations: 89
 
@@ -90,11 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -165,8 +160,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |

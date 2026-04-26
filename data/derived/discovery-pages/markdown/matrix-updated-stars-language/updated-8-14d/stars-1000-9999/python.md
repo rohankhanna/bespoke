@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 52
-- terms: 364
-- components: 337
-- concepts: 343
-- observations: 343
+- repos: 53
+- terms: 367
+- components: 343
+- concepts: 346
+- observations: 346
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [batrachianai/toad](https://github.com/batrachianai/toad) | 2938 | 2026-04-19T04:33:11Z | Python | CLI | 5 | 0 | 5 | 5 |
 | [arogozhnikov/einops](https://github.com/arogozhnikov/einops) | 9458 | 2026-04-19T01:12:09Z | Python | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [chrismattmann/tika-python](https://github.com/chrismattmann/tika-python) | 1653 | 2026-04-18T23:57:18Z | Python | Infrastructure/tooling | 17 | 7 | 18 | 18 |
@@ -106,6 +107,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/python-genai](https://github.com/googleapis/python-genai) | 3621 | 2026-04-17T13:46:38Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [langchain-ai/langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters) | 3493 | 2026-04-16T03:31:06Z | Python | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [huggingface/optimum](https://github.com/huggingface/optimum) | 3361 | 2026-04-15T13:28:18Z | Python | Infrastructure/tooling | 17 | 10 | 17 | 17 |
+| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Jittor/jittor](https://github.com/Jittor/jittor) | 3219 | 2026-04-14T12:42:17Z | Python | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [batrachianai/toad](https://github.com/batrachianai/toad) | 2938 | 2026-04-19T04:33:11Z | Python | CLI | 5 | 0 | 5 | 5 |
 | [basicmachines-co/basic-memory](https://github.com/basicmachines-co/basic-memory) | 2886 | 2026-04-18T19:04:59Z | Python | Infrastructure/tooling | 9 | 11 | 0 | 0 |

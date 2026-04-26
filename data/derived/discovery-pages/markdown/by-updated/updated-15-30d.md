@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 ## Active filters
 
@@ -9,10 +9,10 @@ Generated at: `2026-04-26T05:27:31.548826+00:00`
 ## Counts
 
 - repos: 683
-- terms: 3218
-- components: 5709
-- concepts: 3193
-- observations: 3207
+- terms: 3215
+- components: 5730
+- concepts: 3190
+- observations: 3204
 
 ## Static behavior
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | 758 | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | 114 | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [DLTcollab/sse2neon](https://github.com/DLTcollab/sse2neon) | 1502 | 2026-04-12T04:51:09Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
@@ -704,7 +705,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) | 73607 | 2026-03-27T08:14:33Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [akin-ozer/cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) | 182 | 2026-03-27T07:54:57Z | Python | Infrastructure/tooling | 2 | 2 | 0 | 0 |
 | [Jack-Works/react-refresh-transformer](https://github.com/Jack-Works/react-refresh-transformer) | 69 | 2026-03-27T07:07:35Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
-| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -1030,6 +1030,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lwpyh/Awesome-MLLM-Reasoning-Collection](https://github.com/lwpyh/Awesome-MLLM-Reasoning-Collection) | 591 | 2026-04-01T19:32:31Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [haskell/vscode-haskell](https://github.com/haskell/vscode-haskell) | 591 | 2026-03-29T15:01:22Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [nvim-mini/mini.files](https://github.com/nvim-mini/mini.files) | 582 | 2026-04-09T15:14:54Z | Other | Library | 3 | 0 | 3 | 3 |
+| [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [marcelm/cutadapt](https://github.com/marcelm/cutadapt) | 577 | 2026-04-06T00:36:19Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition](https://github.com/PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition) | 574 | 2026-03-29T11:35:07Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | 569 | 2026-03-29T18:57:33Z | Go | Infrastructure/tooling | 8 | 19 | 8 | 8 |
@@ -1042,7 +1043,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eclipse-buildship/buildship](https://github.com/eclipse-buildship/buildship) | 549 | 2026-04-02T09:11:15Z | Java | CLI | 0 | 2 | 0 | 0 |
 | [ekalinin/github-markdown-toc.go](https://github.com/ekalinin/github-markdown-toc.go) | 522 | 2026-04-03T12:40:34Z | Go | Infrastructure/tooling | 6 | 5 | 7 | 7 |
 | [saghen/frizbee](https://github.com/saghen/frizbee) | 516 | 2026-04-04T18:59:12Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [amzn/amzn-drivers](https://github.com/amzn/amzn-drivers) | 509 | 2026-03-31T05:54:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [esp-rs/esp-idf-svc](https://github.com/esp-rs/esp-idf-svc) | 507 | 2026-03-29T11:45:55Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [OffchainLabs/arbitrum-tutorials](https://github.com/OffchainLabs/arbitrum-tutorials) | 505 | 2026-04-01T21:24:38Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 157
-- terms: 1355
-- components: 1292
-- concepts: 1362
-- observations: 1368
+- repos: 156
+- terms: 1352
+- components: 1286
+- concepts: 1359
+- observations: 1365
 
 ## Static behavior
 
@@ -182,7 +182,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | 3219 | 2026-04-19T14:00:55Z | Python | Infrastructure/tooling | 23 | 11 | 23 | 23 |
 | [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) | 1727 | 2026-04-19T11:14:00Z | Python | CLI | 2 | 8 | 0 | 0 |
 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 2782 | 2026-04-19T07:36:00Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
-| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -277,7 +276,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Farama-Foundation/PettingZoo](https://github.com/Farama-Foundation/PettingZoo) | 3391 | 2026-04-22T23:22:48Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [coveragepy/coveragepy](https://github.com/coveragepy/coveragepy) | 3360 | 2026-04-19T23:21:14Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [NVIDIA/TransformerEngine](https://github.com/NVIDIA/TransformerEngine) | 3289 | 2026-04-22T23:35:53Z | Python | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [beeware/briefcase](https://github.com/beeware/briefcase) | 3259 | 2026-04-24T04:30:13Z | Python | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [aws-powertools/powertools-lambda-python](https://github.com/aws-powertools/powertools-lambda-python) | 3248 | 2026-04-23T17:30:49Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | 3219 | 2026-04-19T14:00:55Z | Python | Infrastructure/tooling | 23 | 11 | 23 | 23 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 70
-- terms: 648
-- components: 3503
-- concepts: 619
-- observations: 621
+- repos: 69
+- terms: 629
+- components: 3482
+- concepts: 600
+- observations: 602
 
 ## Static behavior
 
@@ -95,7 +95,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dyoshikawa/rulesync](https://github.com/dyoshikawa/rulesync) | 1014 | 2026-04-19T10:40:53Z | TypeScript | CLI | 7 | 59 | 0 | 0 |
 | [archestra-ai/archestra](https://github.com/archestra-ai/archestra) | 3588 | 2026-04-19T10:31:44Z | TypeScript | CLI | 8 | 4 | 0 | 0 |
 | [lobehub/sd-webui-lobe-theme](https://github.com/lobehub/sd-webui-lobe-theme) | 2684 | 2026-04-19T10:10:10Z | TypeScript | Infrastructure/tooling | 5 | 69 | 0 | 0 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |
 
 ## Repos sorted by stars
 
@@ -108,7 +107,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8426 | 2026-04-23T13:20:54Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) | 8409 | 2026-04-22T20:30:45Z | TypeScript | Infrastructure/tooling | 13 | 39 | 13 | 13 |
 | [yarnpkg/berry](https://github.com/yarnpkg/berry) | 8061 | 2026-04-23T09:32:36Z | TypeScript | Infrastructure/tooling | 11 | 26 | 11 | 11 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |
 | [electron/fiddle](https://github.com/electron/fiddle) | 7729 | 2026-04-22T23:46:25Z | TypeScript | Infrastructure/tooling | 10 | 112 | 10 | 10 |
 | [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7554 | 2026-04-24T05:04:49Z | TypeScript | Infrastructure/tooling | 17 | 68 | 17 | 17 |
 | [panva/jose](https://github.com/panva/jose) | 7525 | 2026-04-20T11:46:06Z | TypeScript | Infrastructure/tooling | 12 | 26 | 12 | 12 |

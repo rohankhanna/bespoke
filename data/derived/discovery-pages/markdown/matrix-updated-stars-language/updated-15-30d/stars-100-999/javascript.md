@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 137
-- components: 465
-- concepts: 127
-- observations: 129
+- repos: 30
+- terms: 138
+- components: 486
+- concepts: 128
+- observations: 130
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [fwcd/tree-sitter-kotlin](https://github.com/fwcd/tree-sitter-kotlin) | 176 | 2026-04-11T20:40:54Z | JavaScript | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [terser/html-minifier-terser](https://github.com/terser/html-minifier-terser) | 465 | 2026-04-10T03:30:58Z | JavaScript | CLI | 10 | 24 | 10 | 10 |
 | [all-contributors/app](https://github.com/all-contributors/app) | 622 | 2026-04-10T03:29:33Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
@@ -72,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [d3/d3-format](https://github.com/d3/d3-format) | 641 | 2026-04-06T22:41:56Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [all-contributors/app](https://github.com/all-contributors/app) | 622 | 2026-04-10T03:29:33Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [absolute-version/commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) | 618 | 2026-03-30T17:24:37Z | JavaScript | CLI | 9 | 31 | 9 | 9 |
+| [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [badgen/badgen](https://github.com/badgen/badgen) | 557 | 2026-04-04T00:22:58Z | JavaScript | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [OffchainLabs/arbitrum-tutorials](https://github.com/OffchainLabs/arbitrum-tutorials) | 505 | 2026-04-01T21:24:38Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [terser/html-minifier-terser](https://github.com/terser/html-minifier-terser) | 465 | 2026-04-10T03:30:58Z | JavaScript | CLI | 10 | 24 | 10 | 10 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 221
-- components: 241
-- concepts: 223
-- observations: 223
+- repos: 40
+- terms: 215
+- components: 233
+- concepts: 217
+- observations: 217
 
 ## Static behavior
 
@@ -66,7 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [powturbo/TurboBench](https://github.com/powturbo/TurboBench) | 363 | 2026-04-20T12:27:37Z | C/C++ | Infrastructure/tooling | 18 | 2 | 18 | 18 |
 | [lxqt/qterminal](https://github.com/lxqt/qterminal) | 695 | 2026-04-20T08:38:10Z | C/C++ | CLI | 1 | 1 | 1 | 1 |
 | [microsoft/vcpkg-tool](https://github.com/microsoft/vcpkg-tool) | 578 | 2026-04-20T05:05:50Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [onnx/optimizer](https://github.com/onnx/optimizer) | 807 | 2026-04-19T06:10:54Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -79,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [boazsegev/iodine](https://github.com/boazsegev/iodine) | 963 | 2026-04-23T20:01:04Z | C/C++ | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [BabylonJS/BabylonNative](https://github.com/BabylonJS/BabylonNative) | 894 | 2026-04-23T23:14:39Z | C/C++ | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | 862 | 2026-04-24T08:42:04Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
-| [onnx/optimizer](https://github.com/onnx/optimizer) | 807 | 2026-04-19T06:10:54Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [mitsuba-renderer/drjit](https://github.com/mitsuba-renderer/drjit) | 763 | 2026-04-23T13:53:25Z | C/C++ | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [bitcoin-core/gui](https://github.com/bitcoin-core/gui) | 714 | 2026-04-23T19:17:06Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [lxqt/qterminal](https://github.com/lxqt/qterminal) | 695 | 2026-04-20T08:38:10Z | C/C++ | CLI | 1 | 1 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 145
+- repos: 33
+- terms: 149
 - components: 126
-- concepts: 145
-- observations: 145
+- concepts: 149
+- observations: 149
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [facebookincubator/ptr](https://github.com/facebookincubator/ptr) | 280 | 2026-03-26T21:35:50Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [xavierpuigf/virtualhome](https://github.com/xavierpuigf/virtualhome) | 609 | 2026-03-26T09:42:59Z | Python | Service/API | 7 | 0 | 7 | 7 |
 | [AGI-Arena/MARS](https://github.com/AGI-Arena/MARS) | 718 | 2026-03-26T05:08:16Z | Python | Model/data | 5 | 0 | 5 | 5 |
@@ -75,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xavierpuigf/virtualhome](https://github.com/xavierpuigf/virtualhome) | 609 | 2026-03-26T09:42:59Z | Python | Service/API | 7 | 0 | 7 | 7 |
 | [araffin/sbx](https://github.com/araffin/sbx) | 583 | 2026-02-25T17:09:07Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | 561 | 2026-03-14T17:47:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [terraform-aws-modules/terraform-aws-notify-slack](https://github.com/terraform-aws-modules/terraform-aws-notify-slack) | 493 | 2026-03-11T14:12:21Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [scottchiefbaker/dool](https://github.com/scottchiefbaker/dool) | 476 | 2026-03-09T16:17:59Z | Python | CLI | 3 | 3 | 3 | 3 |
 | [Gen-Verse/Open-AgentRL](https://github.com/Gen-Verse/Open-AgentRL) | 467 | 2026-02-27T09:17:21Z | Python | CLI | 10 | 0 | 10 | 10 |

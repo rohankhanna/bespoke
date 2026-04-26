@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6043,
-    "concepts": 3133,
-    "observations": 3149,
-    "repos": 509,
-    "terms": 3155
+    "components": 5987,
+    "concepts": 3127,
+    "observations": 3143,
+    "repos": 506,
+    "terms": 3124
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "1mcp-app/agent",
@@ -295,7 +295,6 @@
     "ISEEKYAN/mbridge",
     "jquast/wcwidth",
     "jrh13/hol-light",
-    "jsonbored/claudepro-directory",
     "JuliaIO/JSON.jl",
     "JuliaWeb/HTTP.jl",
     "jupyter-server/jupyter_server",
@@ -380,7 +379,6 @@
     "OffchainLabs/arbitrum-docs",
     "OffchainLabs/arbitrum-sdk",
     "ogx-ai/llama-stack-client-python",
-    "onnx/optimizer",
     "opea-project/GenAIComps",
     "opea-project/GenAIExamples",
     "open-telemetry/opentelemetry-js-contrib",
@@ -507,7 +505,6 @@
     "unixorn/zsh-quickstart-kit",
     "untitaker/hyperlink",
     "usnistgov/ACVP",
-    "vibe-log/vibe-log-cli",
     "vibhorkum/pg_background",
     "vim-fuzzbox/fuzzbox.vim",
     "vllm-project/flash-attention",

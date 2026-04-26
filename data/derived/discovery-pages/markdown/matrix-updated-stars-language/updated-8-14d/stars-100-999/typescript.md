@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 128
-- components: 449
+- repos: 28
+- terms: 131
+- components: 486
 - concepts: 85
 - observations: 85
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 315 | 2026-04-19T05:43:07Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [napi-rs/package-template](https://github.com/napi-rs/package-template) | 366 | 2026-04-19T04:45:24Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
 | [lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins) | 283 | 2026-04-19T00:24:10Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
 | [tombii/better-ccflare](https://github.com/tombii/better-ccflare) | 187 | 2026-04-18T20:42:27Z | TypeScript | Infrastructure/tooling | 10 | 14 | 0 | 0 |
@@ -75,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [napi-rs/package-template](https://github.com/napi-rs/package-template) | 366 | 2026-04-19T04:45:24Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
 | [lewislulu/llm-wiki-skill](https://github.com/lewislulu/llm-wiki-skill) | 339 | 2026-04-16T06:01:13Z | TypeScript | Docs/knowledge | 2 | 0 | 0 | 0 |
 | [Shougo/ddu.vim](https://github.com/Shougo/ddu.vim) | 320 | 2026-04-18T01:33:13Z | TypeScript | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 315 | 2026-04-19T05:43:07Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins) | 283 | 2026-04-19T00:24:10Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
 | [nyatinte/ccexp](https://github.com/nyatinte/ccexp) | 268 | 2026-04-17T19:05:38Z | TypeScript | CLI | 2 | 34 | 0 | 0 |
 | [matepek/vscode-catch2-test-adapter](https://github.com/matepek/vscode-catch2-test-adapter) | 248 | 2026-04-14T05:43:01Z | TypeScript | Infrastructure/tooling | 12 | 39 | 12 | 12 |

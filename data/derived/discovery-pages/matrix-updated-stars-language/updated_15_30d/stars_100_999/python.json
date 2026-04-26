@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 102,
-    "concepts": 93,
-    "observations": 94,
-    "repos": 32,
-    "terms": 103
+    "concepts": 89,
+    "observations": 90,
+    "repos": 31,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "AgentR1/Claw-R1",
     "ahmedasmar/devops-claude-skills",
@@ -35,7 +35,6 @@
     "marcelm/cutadapt",
     "matthew-brett/delocate",
     "meta-pytorch/torchft",
-    "microsoft/XPretrain",
     "MinimalFuture/AgentMesh",
     "modelscope/DiffSynth-Engine",
     "mosaicml/diffusion",

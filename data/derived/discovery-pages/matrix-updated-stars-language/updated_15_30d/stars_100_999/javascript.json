@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 465,
-    "concepts": 127,
-    "observations": 129,
-    "repos": 29,
-    "terms": 137
+    "components": 486,
+    "concepts": 128,
+    "observations": 130,
+    "repos": 30,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "adobe/spectrum-design-data",
@@ -39,6 +39,7 @@
     "OffchainLabs/arbitrum-tutorials",
     "semantic-release/changelog",
     "semantic-release/git",
+    "sindresorhus/globals",
     "terraform-linters/setup-tflint",
     "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",

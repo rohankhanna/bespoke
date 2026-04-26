@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 337,
-    "concepts": 343,
-    "observations": 343,
-    "repos": 52,
-    "terms": 364
+    "components": 343,
+    "concepts": 346,
+    "observations": 346,
+    "repos": 53,
+    "terms": 367
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "agricidaniel/claude-ads",
     "agricidaniel/claude-seo",
+    "anthropics/anthropic-sdk-python",
     "anymail/django-anymail",
     "arkohut/pensieve",
     "arogozhnikov/einops",

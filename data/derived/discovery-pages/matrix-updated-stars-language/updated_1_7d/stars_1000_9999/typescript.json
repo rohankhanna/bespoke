@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3503,
-    "concepts": 619,
-    "observations": 621,
-    "repos": 70,
-    "terms": 648
+    "components": 3482,
+    "concepts": 600,
+    "observations": 602,
+    "repos": 69,
+    "terms": 629
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "a-ghorbani/pocketpal-ai",
     "actions/cache",
@@ -62,7 +62,6 @@
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
     "microsoft/vscode-js-debug",
-    "mksglu/context-mode",
     "netlify/cli",
     "nizos/tdd-guard",
     "NomicFoundation/hardhat",

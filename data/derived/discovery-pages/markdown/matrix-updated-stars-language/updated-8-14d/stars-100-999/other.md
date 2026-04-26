@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-04-26T05:27:31.548826+00:00`
+Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 241
-- components: 270
+- repos: 46
+- terms: 263
+- components: 281
 - concepts: 231
 - observations: 231
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [stevemolitor/monet](https://github.com/stevemolitor/monet) | 103 | 2026-04-19T01:49:37Z | Other | Library | 0 | 0 | 0 | 0 |
 | [stevemolitor/claude-code.el](https://github.com/stevemolitor/claude-code.el) | 683 | 2026-04-18T22:58:07Z | Other | Unknown | 1 | 0 | 0 | 0 |
 | [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) | 655 | 2026-04-18T22:37:04Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
@@ -110,6 +111,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [basf/MolPipeline](https://github.com/basf/MolPipeline) | 219 | 2026-04-14T11:35:56Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [awslabs/s2n-bignum](https://github.com/awslabs/s2n-bignum) | 218 | 2026-04-17T23:21:22Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [caddyserver/website](https://github.com/caddyserver/website) | 213 | 2026-04-17T20:16:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [actboy168/luamake](https://github.com/actboy168/luamake) | 206 | 2026-04-18T02:47:54Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 191 | 2026-04-14T11:55:23Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [robur-coop/albatross](https://github.com/robur-coop/albatross) | 162 | 2026-04-15T14:16:34Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |

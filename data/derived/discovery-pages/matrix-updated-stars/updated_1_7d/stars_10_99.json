@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2240,
+    "components": 2210,
     "concepts": 975,
     "observations": 979,
-    "repos": 218,
-    "terms": 1000
+    "repos": 217,
+    "terms": 998
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "3rd/config",
@@ -145,7 +145,6 @@
     "itsrishika/payment-bypass-bug-lab",
     "janrueth/boring-rustls-provider",
     "JFLarvoire/the_silver_searcher",
-    "jkheadley/instar",
     "jxpress/lightning-hydra-template-vertex-ai",
     "Kastalien-Research/thoughtbox",
     "kata-containers/www.katacontainers.io",

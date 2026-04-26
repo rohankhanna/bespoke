@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1492,
-    "concepts": 787,
-    "observations": 793,
+    "components": 1513,
+    "concepts": 784,
+    "observations": 790,
     "repos": 198,
-    "terms": 811
+    "terms": 808
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "adelarsq/neoline.vim",
@@ -154,7 +154,6 @@
     "microsoft/vscode-mono-debug",
     "microsoft/vssetup.powershell",
     "microsoft/winget-cli-restsource",
-    "microsoft/XPretrain",
     "MinimalFuture/AgentMesh",
     "mirage/mirage-www",
     "mitsuhiko/similar-asserts",
@@ -189,6 +188,7 @@
     "semantic-release/changelog",
     "semantic-release/git",
     "shareai-lab/kode-agent-sdk",
+    "sindresorhus/globals",
     "slsa-framework/slsa-github-generator",
     "sparsemat/sprs",
     "spesmilo/electrumx",

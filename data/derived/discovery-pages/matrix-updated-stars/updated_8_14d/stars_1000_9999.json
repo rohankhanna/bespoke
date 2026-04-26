@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3407,
-    "concepts": 1836,
-    "observations": 1843,
-    "repos": 285,
-    "terms": 1954
+    "components": 3434,
+    "concepts": 1858,
+    "observations": 1865,
+    "repos": 287,
+    "terms": 1976
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T05:27:31.548826+00:00",
+  "generated_at": "2026-04-26T07:06:32.247427+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -32,6 +32,7 @@
     "algesten/ureq",
     "alloy-rs/alloy",
     "android/skills",
+    "anthropics/anthropic-sdk-python",
     "anthropics/claude-code-action",
     "anymail/django-anymail",
     "apollographql/apollo-tooling",
@@ -202,6 +203,7 @@
     "MicrosoftDocs/WSL",
     "mikeyobrien/ralph-orchestrator",
     "mkdocs/catalog",
+    "mksglu/context-mode",
     "ml-explore/mlx-swift",
     "ml-explore/mlx-swift-examples",
     "mlcommons/training",
