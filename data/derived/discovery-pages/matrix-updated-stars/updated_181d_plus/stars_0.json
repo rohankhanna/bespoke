@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 323,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 103,
-    "terms": 130
+    "components": 326,
+    "concepts": 136,
+    "observations": 137,
+    "repos": 105,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "5scontrol/5s-algorithms-controller",
@@ -71,10 +71,12 @@
     "fonwin/libfon9",
     "garrettalbright/luacheck.novaextension",
     "genome21/langflow",
+    "get-gah/setup-gah",
     "girishji/ngramview-complete.vim",
     "glandium/rust-objc",
     "hashberg-io/multiformats-config",
     "Heap-Hop/if-watch",
+    "imandra-ai/tldrs",
     "ipfs-examples/example-fork-go-template",
     "ipld/js-blockcodec-to-ipld-format",
     "ipld/js-ipld-format-to-blockcodec",

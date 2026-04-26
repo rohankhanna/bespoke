@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 450,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 13,
-    "terms": 62
+    "components": 402,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 15,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
+    "birdofpreyru/react-native-fs",
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
     "cztomsik/ava",
     "google/adk-web",
     "haskell/vscode-haskell",
+    "juliangruber/brace-expansion",
     "krassowski/jupyterlab-lsp",
     "lobehub/lobe-midjourney-webui",
     "nashaofu/screenshots",
-    "ruvnet/agentic-flow",
+    "NVIDIA/OpenShell-Community",
     "shareai-lab/kode-agent-sdk",
     "vega/vega-embed"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 797,
-    "concepts": 146,
-    "observations": 147,
+    "components": 775,
+    "concepts": 150,
+    "observations": 151,
     "repos": 21,
-    "terms": 153
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "allweonedev/presentation-ai",
     "badgen/badgen.net",
@@ -20,12 +20,12 @@
     "butlerx/wetty",
     "changesets/action",
     "electron/windows-installer",
-    "enisdenjo/graphql-ws",
     "ethers-io/ethers.js",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
     "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
+    "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
     "lobehub/lobe-icons",
     "microsoft/node-pty",

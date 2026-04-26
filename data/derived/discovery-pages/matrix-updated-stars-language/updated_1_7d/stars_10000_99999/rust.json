@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 784,
-    "concepts": 479,
-    "observations": 480,
-    "repos": 47,
-    "terms": 475
+    "components": 783,
+    "concepts": 489,
+    "observations": 490,
+    "repos": 48,
+    "terms": 485
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
+    "aaif-goose/goose",
     "actix/actix-web",
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
     "ast-grep/ast-grep",
+    "astral-sh/ruff",
     "astral-sh/uv",
     "bevyengine/bevy",
     "cjpais/Handy",
@@ -30,6 +32,7 @@
     "FuelLabs/fuel-core",
     "FuelLabs/sway",
     "gfx-rs/wgpu",
+    "GitoxideLabs/gitoxide",
     "gitui-org/gitui",
     "gleam-lang/gleam",
     "googleworkspace/cli",
@@ -48,7 +51,6 @@
     "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
     "rust-lang/rust-clippy",
-    "Schniz/fnm",
     "servo/servo",
     "sharkdp/bat",
     "sharkdp/fd",
@@ -59,7 +61,6 @@
     "typst/typst",
     "vercel-labs/agent-browser",
     "web-infra-dev/rspack",
-    "wezterm/wezterm",
-    "zeroclaw-labs/zeroclaw"
+    "wezterm/wezterm"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 120,
-    "observations": 123,
-    "repos": 30,
-    "terms": 121
+    "components": 257,
+    "concepts": 136,
+    "observations": 139,
+    "repos": 34,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
+    "aannoo/hcom",
     "ada-url/rust",
+    "agent-sh/agnix",
     "alex/rust-asn1",
     "alexheretic/glyph-brush",
     "alloy-rs/core",
@@ -25,21 +27,23 @@
     "criterion-rs/criterion.rs",
     "denoland/deno_doc",
     "dtormoen/tsk-tsk",
+    "EspressoSystems/jellyfish",
     "FuelLabs/fuel-vm",
     "gdesmott/system-deps",
     "gjtorikian/commonmarker",
     "hniksic/rust-subprocess",
     "in-toto/attestation",
     "Kampfkarren/full-moon",
+    "LaurenzV/hayro",
     "nielsgroen/claude-tmux",
     "nix-community/lorri",
-    "nixops4/nixops4",
     "ramsayleung/rspotify",
     "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",
     "RustCrypto/RSA",
     "rustcrypto/signatures",
     "tauri-apps/muda",
+    "tekumara/typos-lsp",
     "tikv/jemallocator",
     "tracel-ai/models",
     "yeslogic/allsorts",

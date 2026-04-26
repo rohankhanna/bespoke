@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 537,
-    "concepts": 254,
-    "observations": 256,
-    "repos": 110,
-    "terms": 258
+    "concepts": 242,
+    "observations": 244,
+    "repos": 109,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -19,7 +19,6 @@
     "3dfxdev/EDGE",
     "64327069/LVAgent",
     "abapGit/ADT_Frontend",
-    "abaplint/abaplint-sci-server",
     "adelarsq/neovcs.vim",
     "adobe-type-tools/aots",
     "ahrvoje/numerics",
@@ -96,7 +95,6 @@
     "opea-project/docs",
     "opencontainers/oci-conformance",
     "pagedjs/pagedjs-cli",
-    "PeterDaveHello/docker-doctoc",
     "probe-lab/network-measurements",
     "pug-php/js-phpize",
     "pycompression/python-zlib-ng",
@@ -107,6 +105,7 @@
     "rose-pine/rose-pine-palette",
     "rose-pine/rose-pine-template",
     "sbcgua/abap-string-map",
+    "sculptdotfun/viberank",
     "spacemeshos/poet",
     "stephenschoettler/taches-oc-prompts",
     "TransferQueue/TransferQueue",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 404,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 13,
-    "terms": 98
+    "components": 474,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 14,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "changesets/changesets",
     "coder/code-server",
+    "diegomura/react-pdf",
     "fission-ai/openspec",
     "lerna/lerna",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
     "modelcontextprotocol/servers",
     "neoclide/coc.nvim",
-    "ruvnet/ruflo",
     "shareai-lab/learn-claude-code",
     "slopus/happy",
     "toon-format/toon",
+    "upstash/context7",
     "vadimdemedes/ink"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 5,
-    "terms": 68
+    "components": 73,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 7,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
+    "Comfy-Org/ComfyUI",
     "huggingface/transformers",
     "langchain-ai/langchain",
+    "langflow-ai/langflow",
     "nousresearch/hermes-agent",
     "Significant-Gravitas/AutoGPT",
     "yt-dlp/yt-dlp"

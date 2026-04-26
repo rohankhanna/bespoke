@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 224,
-    "concepts": 208,
-    "observations": 209,
-    "repos": 36,
-    "terms": 213
+    "components": 269,
+    "concepts": 250,
+    "observations": 252,
+    "repos": 42,
+    "terms": 255
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "actions/runner",
     "adobe-type-tools/afdko",
+    "alchaincyf/darwin-skill",
     "apple/swift-log",
     "automazeio/vibeproxy",
     "BLAKE3-team/BLAKE3",
+    "clj-kondo/clj-kondo",
     "crytic/building-secure-contracts",
     "crytic/echidna",
     "Denys88/rl_games",
     "dotnet/machinelearning",
     "durgeshsamariya/awesome-github-profile-readme-templates",
     "dwyl/learn-elixir",
-    "elixir-ecto/postgrex",
-    "ggandor/leap.nvim",
+    "gohugoio/hugoDocs",
+    "GoogleCloudPlatform/vertex-ai-creative-studio",
     "grain-lang/grain",
     "itchyny/lightline.vim",
     "jeremyevans/roda",
@@ -39,16 +41,20 @@
     "NVIDIA/nccl-tests",
     "nvim-neo-tree/neo-tree.nvim",
     "ocaml/opam",
+    "pinterest/ktlint",
+    "prabirshrestha/vim-lsp",
     "pyannote/pyannote-audio",
     "pyenv-win/pyenv-win",
     "radian-software/straight.el",
     "rails/propshaft",
+    "revfactory/harness",
     "ruby/debug",
     "rust-lang/rfcs",
     "rust-lang/rust-mode",
     "sbdchd/neoformat",
     "snakers4/silero-models",
     "SwiftGen/SwiftGen",
+    "unslothai/notebooks",
     "yonaskolb/XcodeGen"
   ]
 }

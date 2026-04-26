@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 75,
-    "observations": 75,
+    "components": 103,
+    "concepts": 71,
+    "observations": 71,
     "repos": 17,
-    "terms": 77
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,24 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
-    "8144225309/SuperScalar",
+    "acts-project/traccc",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
     "agl/jbig2enc",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
-    "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
     "JFLarvoire/the_silver_searcher",
     "liangshengyong/lanwan",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
     "Mbed-TLS/TF-PSA-Crypto",
+    "milvus-io/milvus-sdk-cpp",
     "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",
-    "yquake2/ref_vk",
+    "ROCm/ROCgdb",
     "yquake2/yquake2remaster"
   ]
 }

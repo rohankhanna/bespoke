@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 10,
-    "terms": 52
+    "components": 477,
+    "concepts": 75,
+    "observations": 76,
+    "repos": 14,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "Automattic/node-canvas",
     "avajs/ava",
+    "bmad-code-org/bmad-method",
     "graphql/graphql-spec",
     "jantimon/html-webpack-plugin",
+    "jarrodwatts/claude-hud",
     "lint-staged/lint-staged",
+    "openai/codex-plugin-cc",
     "svg/svgo",
     "tj/commander.js",
     "vega/vega",
     "vercel-labs/agent-skills",
+    "webtorrent/webtorrent",
     "yarnpkg/yarn"
   ]
 }

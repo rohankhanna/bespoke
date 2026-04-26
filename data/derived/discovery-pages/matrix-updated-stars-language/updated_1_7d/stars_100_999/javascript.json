@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 865,
-    "concepts": 203,
-    "observations": 209,
-    "repos": 29,
-    "terms": 202
+    "components": 787,
+    "concepts": 194,
+    "observations": 200,
+    "repos": 28,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "actions/create-github-app-token",
     "adamlui/ai-web-extensions",
@@ -31,7 +31,6 @@
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
     "jupyter/nbclassic",
-    "lobehub/lobe-editor",
     "marwin1991/profile-technology-icons",
     "neostandard/neostandard",
     "nodejs/admin",

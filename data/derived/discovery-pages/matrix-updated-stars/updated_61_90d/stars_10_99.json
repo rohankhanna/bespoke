@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 294,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 66,
-    "terms": 196
+    "components": 285,
+    "concepts": 203,
+    "observations": 204,
+    "repos": 69,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
     "AadSah/ConverSeg",
     "abap2UI5-addons/sql-console",
     "abapGit/ADT_Backend",
+    "abduznik/git-alchemist",
     "acw/simple_asn1",
     "AdaCore/gnatcoll-bindings",
     "adelarsq/vim-emoji-icon-theme",
@@ -48,7 +49,9 @@
     "ethereum/eipw",
     "fengkx/jieba-wasm",
     "fsspec/sshfs",
+    "googlefonts/lang",
     "HolyBlackCat/box2cpp",
+    "imlrz/DeepResearch-Bench-II",
     "inducer/genpy",
     "jm33-m0/arc",
     "joseluisq/paket",
@@ -64,12 +67,12 @@
     "nebelgrau77/airsniffer-esp32c6",
     "nfnty/pkgbuilds",
     "nodenv/nodenv-default-packages",
+    "nulone/claude-rules-doctor",
     "ocaml-opam/opam-publish",
     "ocaml-tracing/ocaml-tracy",
     "omril321/automated-notebooklm",
     "panaversity/claude-code-agent-teams-exercises",
     "rose-pine/rose-pine-bloom",
-    "sculptdotfun/viberank",
     "shawn0728/ARES",
     "sigp/ethereum_hashing",
     "Taritsyn/LibSassHost",

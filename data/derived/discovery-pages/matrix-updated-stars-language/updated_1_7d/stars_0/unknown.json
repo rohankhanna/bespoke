@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 38,
-    "terms": 32
+    "components": 5,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 35,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
-    "8144225309/lightning",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
@@ -24,13 +23,10 @@
     "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
     "damacol/google-gemma-2-2b-it",
-    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
-    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
     "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
     "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
-    "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",
@@ -50,6 +46,7 @@
     "narutoxdd6/nyro",
     "pragmatical-transshipment598/claude-code-workflows",
     "shouted-numberone752/wechat-agent-connector",
+    "TransferQueue/community_doc",
     "vivianalaced749/vk-calls-tunnel",
     "wendyalbanez/clawui"
   ]

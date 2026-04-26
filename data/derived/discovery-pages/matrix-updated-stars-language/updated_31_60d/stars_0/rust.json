@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 20,
+    "components": 24,
     "concepts": 8,
     "observations": 8,
-    "repos": 4,
+    "repos": 5,
     "terms": 8
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
+    "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
     "EspressoSystems/commit",
     "firstbatchxyz/dkn-protocol",

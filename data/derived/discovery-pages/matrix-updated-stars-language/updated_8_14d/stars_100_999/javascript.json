@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 275,
+    "components": 340,
     "concepts": 59,
     "observations": 59,
     "repos": 16,
@@ -12,18 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "agent-sh/agentsys",
     "bmad-code-org/bmad-module-game-dev-studio",
     "electron/node-abi",
     "eslint-community/eslint-plugin-n",
-    "fwcd/tree-sitter-kotlin",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "karma-runner/karma-coverage",
     "lis186/ccxray",
+    "lobehub/lobe-editor",
     "mattgodbolt/jsbeeb",
     "nodejs/TSC",
     "octokit/request-action",

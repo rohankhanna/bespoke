@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 42,
-    "observations": 42,
+    "components": 25,
+    "concepts": 53,
+    "observations": 53,
     "repos": 9,
-    "terms": 42
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
@@ -22,6 +22,6 @@
     "conda-forge/poppler-feedstock",
     "conda-forge/spacy-feedstock",
     "containers/automation",
-    "nodenv/node-build-update-defs"
+    "Digidai/product-manager-skills"
   ]
 }

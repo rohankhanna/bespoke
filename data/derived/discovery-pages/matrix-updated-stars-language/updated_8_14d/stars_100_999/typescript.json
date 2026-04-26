@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 418,
-    "concepts": 93,
-    "observations": 93,
+    "components": 449,
+    "concepts": 85,
+    "observations": 85,
     "repos": 27,
-    "terms": 118
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,34 +12,34 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
     "AmElmo/proofshot",
     "atomicmemory/llm-wiki-compiler",
     "badlogic/pi-share-hf",
-    "birdofpreyru/react-native-fs",
     "curiousdannii/parchment",
     "devcontainers/ci",
     "evmts/tevm-monorepo",
     "fastify/demo",
     "giselles-ai/giselle",
     "GoogleCloudPlatform/wombat-dressing-room",
-    "juliangruber/brace-expansion",
     "k-dense-ai/k-dense-byok",
     "lewislulu/llm-wiki-skill",
+    "lobehub/lobe-chat-plugins",
     "LuaLS/vscode-lua",
     "lucasastorian/llmwiki",
     "matepek/vscode-catch2-test-adapter",
+    "napi-rs/package-template",
     "neolabhq/context-engineering-kit",
-    "NVIDIA/OpenShell-Community",
     "nyatinte/ccexp",
     "Shougo/ddc.vim",
     "Shougo/ddu.vim",
     "Shougo/dpp.vim",
     "snipeship/ccflare",
     "stx-labs/stacks.js",
-    "timkindberg/jest-when"
+    "timkindberg/jest-when",
+    "tombii/better-ccflare"
   ]
 }

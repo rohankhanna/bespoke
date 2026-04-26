@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 23,
-    "terms": 81
+    "components": 120,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 21,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "activeviam/jdk4py",
     "AFLplusplus/afl-cov",
-    "amyreese/fissix",
     "cdeust/cortex",
     "cloudartisan/cloudartisan.github.io",
     "daltonmaag/vttLib",
@@ -33,7 +32,6 @@
     "pycompression/python-isal",
     "redhat-et/triton-dev-containers",
     "RWKV-Vibe/rwkv_lightning",
-    "scasella/nanochat-mlx",
     "Significant-Gravitas/gravitasml",
     "svaningelgem/logprise",
     "urschrei/pypolyline"

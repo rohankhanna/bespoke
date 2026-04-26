@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 25,
-    "observations": 25,
+    "components": 139,
+    "concepts": 21,
+    "observations": 21,
     "repos": 7,
-    "terms": 25
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "evenchange4/graphql.macro-example",
     "hectorm/chafa-wasm",
-    "ipfs/js-ipfs-utils",
+    "peergos/web-ui",
     "TrigenSoftware/simple-release-action"
   ]
 }

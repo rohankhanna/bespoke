@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 352,
-    "concepts": 245,
-    "observations": 245,
+    "components": 324,
+    "concepts": 247,
+    "observations": 247,
     "repos": 34,
-    "terms": 244
+    "terms": 246
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "ahujasid/blender-mcp",
     "anthropics/courses",
     "beehiveinnovations/pal-mcp-server",
+    "binary-husky/gpt_academic",
     "camenduru/stable-diffusion-webui-colab",
     "chatchat-space/Langchain-Chatchat",
     "ChatGPTNextWeb/NextChat",
@@ -28,7 +29,6 @@
     "FoundationAgents/MetaGPT",
     "fsnotify/fsnotify",
     "goldfire/howler.js",
-    "highlightjs/highlight.js",
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
     "JaidedAI/EasyOCR",

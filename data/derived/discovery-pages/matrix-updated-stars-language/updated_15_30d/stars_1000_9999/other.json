@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 269,
-    "concepts": 229,
-    "observations": 229,
-    "repos": 41,
-    "terms": 231
+    "concepts": 232,
+    "observations": 232,
+    "repos": 42,
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "airblade/vim-gitgutter",
     "akermu/emacs-libvterm",
@@ -26,7 +26,9 @@
     "ctrlpvim/ctrlp.vim",
     "dart-lang/http",
     "dotnet/project-system",
+    "elixir-ecto/postgrex",
     "elixir-plug/plug",
+    "ggandor/leap.nvim",
     "gjtorikian/html-proofer",
     "gpu-mode/Triton-Puzzles",
     "haleclipse/claudix",
@@ -42,7 +44,6 @@
     "mattn/vim-lsp-settings",
     "mfussenegger/nvim-dap",
     "ninenines/cowboy",
-    "nmattia/niv",
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     "OmniSharp/omnisharp-roslyn",

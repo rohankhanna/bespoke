@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 7,
-    "terms": 21
+    "components": 20,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 8,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "agenmod/okr-skill",
+    "ashvardanian/ashvardanian",
     "axolotl-ai-cloud/ml-cross-entropy",
+    "cdeust/cortex-cowork",
+    "cdxeve/scale-openclaw",
     "CoolCat467/idlemypyextension",
-    "KabakaWilliam/trajectorykit",
-    "ldayton/parable",
     "ldayton/Tongues",
     "Mbed-TLS/mbedtls-framework"
   ]

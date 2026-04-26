@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 211,
-    "observations": 211,
-    "repos": 40,
-    "terms": 209
+    "components": 241,
+    "concepts": 223,
+    "observations": 223,
+    "repos": 41,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "actboy168/bee.lua",
     "acts-project/acts",
@@ -27,7 +27,6 @@
     "DavidKinder/Inform6",
     "Ezibenroc/PyRoaringBitMap",
     "facil-io/cstl",
-    "freebsd/kyua",
     "Frommi/miniz_oxide",
     "google/dawn",
     "google/fuzztest",
@@ -40,14 +39,16 @@
     "lxqt/qtermwidget",
     "microsoft/vcpkg-tool",
     "mitsuba-renderer/drjit",
-    "mitsuba-renderer/drjit-core",
     "nss-dev/nss",
     "onnx/optimizer",
+    "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
+    "pantoniou/libfyaml",
     "powturbo/TurboBench",
     "pyg-team/pyg-lib",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
+    "ROCm/AMDMIGraphX",
     "ROCm/composable_kernel",
     "ROCm/MIVisionX",
     "ROCm/mori",

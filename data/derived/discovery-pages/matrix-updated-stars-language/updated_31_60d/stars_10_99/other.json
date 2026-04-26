@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 27,
-    "terms": 73
+    "components": 74,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 28,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "ably-labs/realtime-quiz-framework",
     "adinhodovic/argo-cd-mixin",
     "andys8/git-brunch",
     "AvaotaSBC/AvaotaF1",
+    "awslabs/aws-lc-verification",
     "blaine/fantastty",
     "BuddiesOfBudgie/budgie-desktop-view",
     "coin-or-tools/homebrew-coinor",

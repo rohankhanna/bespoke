@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 13,
-    "terms": 16
+    "components": 39,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 14,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,18 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
+    "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
-    "ashvardanian/ashvardanian",
     "audeering/audonnx",
     "bryanh9111/engram",
-    "cdeust/cortex-cowork",
-    "cdxeve/scale-openclaw",
+    "cjtruheart/abundance-codex",
+    "etanhey/brainlayer",
+    "gibdd-dps/prizolov-agent-os",
     "kelp/webdown",
     "piqrypt/piqrypt",
     "sunthinks/kvmind",

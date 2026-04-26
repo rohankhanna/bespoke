@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 4,
-    "terms": 31
+    "components": 206,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 6,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "chakra-core/ChakraCore",
+    "dherault/serverless-offline",
     "dwyl/learn-json-web-tokens",
     "ipfs/ipfs-companion",
-    "istanbuljs/nyc"
+    "istanbuljs/nyc",
+    "remarkjs/remark"
   ]
 }

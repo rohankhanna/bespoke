@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1295,
-    "concepts": 213,
-    "observations": 213,
-    "repos": 48,
-    "terms": 219
+    "components": 1393,
+    "concepts": 219,
+    "observations": 219,
+    "repos": 50,
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "1hanzla100/developer-portfolio",
     "aave/protocol-v2",
@@ -26,6 +26,7 @@
     "asg017/sqlite-ecosystem",
     "aws-samples/aws-lambda-layer-awscli",
     "Azzedde/brainstormers",
+    "claude-did-this/claude-hub",
     "codechecks/typecov",
     "connectai-e/midjourney-web",
     "cryptonomic/conseiljs",
@@ -61,6 +62,7 @@
     "stacks-archive/gaia",
     "TrueFiEng/Waffle",
     "wylieconlon/lsp-editor-adapter",
-    "yassinedoghri/astro-i18next"
+    "yassinedoghri/astro-i18next",
+    "zsio/claude-code-hub"
   ]
 }

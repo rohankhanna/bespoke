@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 653,
-    "concepts": 485,
-    "observations": 485,
-    "repos": 90,
-    "terms": 485
+    "components": 716,
+    "concepts": 493,
+    "observations": 493,
+    "repos": 93,
+    "terms": 492
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "3rd/image.nvim",
@@ -21,6 +21,7 @@
     "AIDC-AI/Ovis",
     "alteryx/featuretools",
     "amebalabs/TRex",
+    "analysis-tools-dev/dynamic-analysis",
     "andreafrancia/trash-cli",
     "anthropics/claude-code-security-review",
     "anthropics/claudes-c-compiler",
@@ -37,14 +38,15 @@
     "breezedeus/CnOCR",
     "breezedeus/Pix2Text",
     "brightmart/nlp_chinese_corpus",
+    "brycedrennan/imaginAIry",
     "caprica/vlcj",
     "chakra-core/ChakraCore",
     "CLUEbenchmark/CLUE",
-    "cpputest/cpputest",
     "crossbeam-rs/crossbeam",
     "crowsonkb/k-diffusion",
     "dagger/container-use",
     "davidhalter/jedi-vim",
+    "dherault/serverless-offline",
     "django/asgiref",
     "dtolnay/cargo-expand",
     "dwyl/learn-json-web-tokens",
@@ -86,6 +88,7 @@
     "r-lyeh/single_file_libs",
     "rails/tailwindcss-rails",
     "react-native-netinfo/react-native-netinfo",
+    "remarkjs/remark",
     "ricky0123/vad",
     "RobertBeckebans/RBDOOM-3-BFG",
     "rust-fuzz/cargo-fuzz",

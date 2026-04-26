@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 14,
-    "terms": 31
+    "components": 62,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 12,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "AFLplusplus/cov-analysis",
     "apache/arrow-testing",
@@ -23,10 +23,8 @@
     "cri-o/packaging",
     "dependabot/smoke-tests",
     "envoyproxy/examples",
-    "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "milvus-io/milvus-proto",
-    "NixOS/org",
-    "nodenv/nodenv-package-rehash"
+    "NixOS/org"
   ]
 }

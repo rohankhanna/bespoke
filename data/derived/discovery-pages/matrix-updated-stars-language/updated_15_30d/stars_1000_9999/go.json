@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 225,
-    "observations": 225,
-    "repos": 33,
-    "terms": 223
+    "components": 173,
+    "concepts": 207,
+    "observations": 207,
+    "repos": 29,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
-    "aquasecurity/starboard",
     "arl/statsviz",
     "azure/aztfexport",
     "bnb-chain/tss-lib",
@@ -22,20 +21,17 @@
     "cenkalti/backoff",
     "charmbracelet/harmonica",
     "cloudnativelabs/kube-router",
-    "cortesi/devd",
     "davidbyttow/govips",
     "dkron-io/dkron",
     "fatih/color",
     "fnproject/fn",
     "gobackup/gobackup",
     "golang/mobile",
-    "google/starlark-go",
     "grpc-ecosystem/grpc-health-probe",
     "hashicorp/go-version",
     "hashicorp/hcl",
     "itchyny/gojq",
     "klauspost/compress",
-    "kubernetes-sigs/krew",
     "kubernetes-sigs/prometheus-adapter",
     "mattn/goreman",
     "mvdan/sh",

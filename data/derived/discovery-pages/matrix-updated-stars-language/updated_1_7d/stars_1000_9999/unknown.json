@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 32,
+    "components": 33,
     "concepts": 68,
     "observations": 68,
-    "repos": 12,
+    "repos": 13,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
     "aws-controllers-k8s/community",
+    "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "dotnet/docs",
     "FasterXML/jackson",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 10,
-    "terms": 50
+    "components": 35,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 11,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
+    "alfredolopez80/multi-agent-ralph-loop",
     "astro-han/claude-pace",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",

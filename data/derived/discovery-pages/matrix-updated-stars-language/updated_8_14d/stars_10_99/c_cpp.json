@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 4,
-    "terms": 9
+    "components": 39,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 7,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
+    "8144225309/SuperScalar",
     "barak/minidjvu",
+    "DavidKinder/Windows-Inform7",
     "marciogranzotto/clawd-tank",
     "mitsuba-renderer/nanothread",
-    "mybigday/llama.node"
+    "mybigday/llama.node",
+    "yquake2/ref_vk"
   ]
 }

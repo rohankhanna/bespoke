@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 580,
-    "concepts": 322,
-    "observations": 324,
-    "repos": 57,
-    "terms": 331
+    "components": 516,
+    "concepts": 312,
+    "observations": 314,
+    "repos": 53,
+    "terms": 311
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0x676e67/wreq",
-    "aannoo/hcom",
     "actix/actix-net",
-    "agent-sh/agnix",
+    "apollographql/apollo-mcp-server",
     "arkworks-rs/algebra",
     "arkworks-rs/crypto-primitives",
     "Azure/azure-sdk-for-rust",
@@ -36,7 +35,6 @@
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
     "EspressoSystems/espresso-network",
-    "EspressoSystems/jellyfish",
     "fancy-regex/fancy-regex",
     "flashbots/contender",
     "flatpak/flat-manager",
@@ -45,7 +43,6 @@
     "huggingface/hf-hub",
     "hyper-mcp-rs/hyper-mcp",
     "lambdaclass/ethrex",
-    "LaurenzV/hayro",
     "LaurenzV/krilla",
     "lu-zero/cargo-c",
     "messense/jieba-rs",
@@ -65,7 +62,6 @@
     "Sovereign-Labs/sovereign-sdk",
     "succinctlabs/op-succinct",
     "tauri-apps/global-hotkey",
-    "tekumara/typos-lsp",
     "trifectatechfoundation/zlib-rs",
     "typst/packages",
     "untitaker/hyperlink",

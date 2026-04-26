@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 134,
-    "observations": 136,
-    "repos": 23,
-    "terms": 130
+    "components": 111,
+    "concepts": 129,
+    "observations": 131,
+    "repos": 22,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
@@ -23,15 +23,14 @@
     "bioconda/bioconda-recipes",
     "clangd/clangd",
     "conda-forge/miniforge",
-    "devcontainers/features",
     "devcontainers/images",
     "docker-library/docker",
     "docker-library/docs",
     "docker-library/golang",
     "docker-library/official-images",
     "docker-library/postgres",
+    "dtcooper/raspotify",
     "google/adk-docs",
-    "nix-community/nix-direnv",
     "nodenv/nodenv",
     "rbenv/ruby-build",
     "ROCm/ROCm",

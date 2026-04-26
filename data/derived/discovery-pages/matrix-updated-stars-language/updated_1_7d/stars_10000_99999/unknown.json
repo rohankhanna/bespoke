@@ -3,7 +3,7 @@
     "components": 5,
     "concepts": 35,
     "observations": 35,
-    "repos": 5,
+    "repos": 4,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "fffaraz/awesome-cpp",
     "microsoft/winget-pkgs",
-    "multica-ai/andrej-karpathy-skills",
     "tc39/proposals"
   ]
 }

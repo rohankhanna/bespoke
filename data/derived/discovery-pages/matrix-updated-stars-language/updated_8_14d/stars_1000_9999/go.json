@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 329,
-    "observations": 330,
-    "repos": 42,
-    "terms": 329
+    "components": 397,
+    "concepts": 346,
+    "observations": 347,
+    "repos": 46,
+    "terms": 352
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
@@ -21,12 +21,14 @@
     "aws/amazon-vpc-cni-k8s",
     "awslabs/eks-node-viewer",
     "axllent/mailpit",
+    "bazel-contrib/rules_go",
     "bazelbuild/bazelisk",
     "bensadeh/circumflex",
     "boyter/scc",
     "bufbuild/protovalidate",
     "BurntSushi/toml",
     "candid82/joker",
+    "databus23/helm-diff",
     "digitalocean/doctl",
     "docker/cli",
     "gin-gonic/examples",
@@ -39,8 +41,10 @@
     "hashicorp/raft",
     "helm-unittest/helm-unittest",
     "korotovsky/slack-mcp-server",
+    "kubernetes-sigs/controller-runtime",
     "kubernetes-sigs/metrics-server",
     "kubernetes/enhancements",
+    "larksuite/cli",
     "libp2p/go-libp2p",
     "madneal/gshark",
     "maypok86/otter",

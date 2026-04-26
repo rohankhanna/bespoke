@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 31,
-    "terms": 58
+    "components": 69,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 32,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "aaronrsun/spec-kit-confluence",
+    "abraxas-365/claudio-screenshot",
     "adiny/moodtrip-hotel-search",
-    "arckoor/botan-rs",
+    "amoniacou/external-dns-digitalocean-webhook",
     "b2agi/exist-is-charter_kr",
     "cdeust/cortex-know-when-to-stop-training-model",
     "cmake-wheel/cmeel-example",
@@ -37,12 +38,12 @@
     "grubersjoe/react-activity-calendar-tests",
     "kayabaNerve/monero-oxide",
     "neuroverseos/negotiator",
-    "nibir1/vaultsim",
     "piebald-ai/piebald",
     "redai-infra/TransferQueue",
     "semgrep/cursor-plugin",
     "Sovereign-Labs/reltester",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
-    "sujithpvarghese/bedrock-full-reconciliation"
+    "sujithpvarghese/bedrock-full-reconciliation",
+    "wencuecryforme/mysoul.skill"
   ]
 }

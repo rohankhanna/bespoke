@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 10,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 14,
-    "terms": 34
+    "concepts": 26,
+    "observations": 26,
+    "repos": 15,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "AppImageCommunity/awesome-appimage",
     "charm-and-friends/additional-bubbles",
@@ -26,6 +26,7 @@
     "oh-my-fish/packages-main",
     "opendilab/awesome-ui-agents",
     "proxy-wasm/spec",
+    "rust-fuzz/trophy-case",
     "sgl-project/sgl-learning-materials",
     "thibautmelen/agentic-ai-systems"
   ]

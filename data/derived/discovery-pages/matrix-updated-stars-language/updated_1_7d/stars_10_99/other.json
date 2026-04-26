@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 247,
-    "observations": 247,
-    "repos": 53,
-    "terms": 255
+    "components": 351,
+    "concepts": 256,
+    "observations": 256,
+    "repos": 51,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -21,15 +21,14 @@
     "apache/superset-site",
     "aquasecurity/trivy-checks",
     "ast-grep/ast-grep.github.io",
-    "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
+    "b-data/jupyterlab-r-docker-stack",
     "bazel-contrib/rules_d",
     "be-hase/caffeine-coroutines",
     "beyondcode/claude-hooks-sdk",
     "cbrgm/githubevents",
     "cgrindel/bazel-starlib",
     "chainguard-dev/rules_apko",
-    "chaos2cured/freelattice",
     "connectbot/termlib",
     "dart-lang/core",
     "dart-lang/i18n",
@@ -46,7 +45,6 @@
     "kata-containers/www.katacontainers.io",
     "lxqt/lxqt-build-tools",
     "meta-pytorch/executorch-examples",
-    "Mic92/nur-packages",
     "mrjones2014/codesettings.nvim",
     "nodenv/homebrew-nodenv",
     "NVIDIA/spark-rapids-tools",
@@ -63,7 +61,7 @@
     "sbt/sbt-java-formatter",
     "searxng/searx-instances-uptime",
     "servo/servo.org",
-    "steipete/homebrew-tap",
+    "squeak-smalltalk/squeak.org",
     "thedoggybrad/easylist-mirror",
     "uvarc/rivanna-docker",
     "WebAssembly/custom-page-sizes"

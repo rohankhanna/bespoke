@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 261,
-    "observations": 264,
-    "repos": 28,
-    "terms": 257
+    "components": 406,
+    "concepts": 350,
+    "observations": 353,
+    "repos": 40,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,35 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
+    "3b1b/manim",
     "abetlen/llama-cpp-python",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
     "anthropics/claude-plugins-official",
     "astral-sh/ty",
+    "browser-use/browser-use",
     "camel-ai/owl",
     "dask/dask",
+    "davila7/claude-code-templates",
     "dottxt-ai/outlines",
+    "GaiZhenbiao/ChuanhuChatGPT",
+    "getzep/graphiti",
     "github/spec-kit",
     "hpcaitech/ColossalAI",
     "k-dense-ai/scientific-agent-skills",
     "karpathy/nanochat",
+    "langchain-ai/deepagents",
     "letta-ai/letta",
     "Lightning-AI/litgpt",
+    "mem0ai/mem0",
     "microsoft/pyright",
     "openai/openai-python",
     "openai/swarm",
     "openai/whisper",
+    "pandas-dev/pandas",
     "pre-commit/pre-commit",
     "pydantic/pydantic-ai",
     "pyg-team/pytorch_geometric",
@@ -41,6 +49,10 @@
     "searxng/searxng",
     "simonw/datasette",
     "squidfunk/mkdocs-material",
-    "Textualize/rich"
+    "Textualize/rich",
+    "titanwings/colleague-skill",
+    "wshobson/agents",
+    "ycm-core/YouCompleteMe",
+    "ymcui/Chinese-BERT-wwm"
   ]
 }

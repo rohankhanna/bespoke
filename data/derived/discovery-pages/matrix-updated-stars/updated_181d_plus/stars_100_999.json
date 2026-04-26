@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4306,
-    "concepts": 3391,
-    "observations": 3400,
-    "repos": 1101,
-    "terms": 3364
+    "components": 4404,
+    "concepts": 3401,
+    "observations": 3410,
+    "repos": 1104,
+    "terms": 3383
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -28,6 +28,7 @@
     "42Shawn/PTQ4DM",
     "47degrees/github4s",
     "6/stopwords-json",
+    "76creates/stickers",
     "88250/wide",
     "99designs/keyring",
     "a-e-k/canvas_ity",
@@ -317,6 +318,7 @@
     "CjangCjengh/MoeGoe_GUI",
     "CjangCjengh/TTSModels",
     "CJReinforce/PURE",
+    "claude-did-this/claude-hub",
     "clayrisser/sphinx-markdown-builder",
     "clog-tool/clog-cli",
     "clovaai/rebias",
@@ -1113,6 +1115,7 @@
     "zhangj111/astnn",
     "zlzeng/DeepFloorplan",
     "zsef123/Connected_components_PyTorch",
+    "zsio/claude-code-hub",
     "ZubinGou/math-evaluation-harness"
   ]
 }

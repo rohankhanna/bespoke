@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 851,
-    "concepts": 811,
-    "observations": 815,
-    "repos": 71,
-    "terms": 800
+    "components": 849,
+    "concepts": 795,
+    "observations": 799,
+    "repos": 68,
+    "terms": 787
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
-    "ahmetb/kubectx",
     "apache/casbin",
     "aquasecurity/trivy",
     "argoproj/argo-cd",
     "asdf-vm/asdf",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
-    "charmbracelet/crush",
-    "charmbracelet/lipgloss",
     "cli/cli",
     "coder/coder",
     "containerd/nerdctl",
@@ -70,20 +67,20 @@
     "mikefarah/yq",
     "milvus-io/milvus",
     "moby/moby",
+    "mudler/LocalAI",
     "nats-io/nats-server",
     "open-policy-agent/opa",
     "opencontainers/runc",
     "opentofu/opentofu",
     "php/frankenphp",
     "prometheus/prometheus",
-    "router-for-me/cliproxyapi",
+    "QuantumNous/new-api",
+    "redis/go-redis",
     "shirou/gopsutil",
     "slackhq/nebula",
     "syncthing/syncthing",
     "thanos-io/thanos",
     "trufflesecurity/trufflehog",
-    "urfave/cli",
-    "valyala/fasthttp",
-    "wader/fq"
+    "valyala/fasthttp"
   ]
 }

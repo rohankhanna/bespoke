@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 890,
-    "concepts": 937,
-    "observations": 938,
+    "components": 900,
+    "concepts": 927,
+    "observations": 928,
     "repos": 103,
-    "terms": 931
+    "terms": 921
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AOMediaCodec/libavif",
@@ -32,13 +32,13 @@
     "CLIUtils/CLI11",
     "cloudflare/workerd",
     "contour-terminal/contour",
-    "DanBloomberg/leptonica",
     "danmar/cppcheck",
     "diffblue/cbmc",
     "doctest/doctest",
     "ElementsProject/lightning",
     "erincatto/box2d",
     "eth-brownie/brownie",
+    "facebook/igl",
     "facebookincubator/velox",
     "fastfloat/fast_float",
     "FEniCS/dolfinx",
@@ -55,7 +55,6 @@
     "halide/Halide",
     "harfbuzz/harfbuzz",
     "herumi/xbyak",
-    "infiniflow/infinity",
     "intel/compute-runtime",
     "iree-org/iree",
     "jarro2783/cxxopts",
@@ -63,6 +62,7 @@
     "KhronosGroup/SPIRV-Tools",
     "KhronosGroup/Vulkan-Samples",
     "Kitware/CMake",
+    "kvcache-ai/Mooncake",
     "liballeg/allegro5",
     "libarchive/libarchive",
     "libgeos/geos",
@@ -93,7 +93,7 @@
     "OpenMathLib/OpenBLAS",
     "openssh/openssh-portable",
     "openxla/xla",
-    "plasma-umass/coz",
+    "pytorch/FBGEMM",
     "pytorch/gloo",
     "rapidsai/cudf",
     "rapidsai/cuml",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 22,
-    "terms": 51
+    "components": 55,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 21,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0xrsydn/nix-hermes-agent",
     "aspect-build/rules_cypress",
     "astropy/astropy-project",
-    "awslabs/aws-lc-verification",
     "buildbot/buildbot-website",
     "dominique-unruh/qrhl-tool",
     "donderom/llm4s",

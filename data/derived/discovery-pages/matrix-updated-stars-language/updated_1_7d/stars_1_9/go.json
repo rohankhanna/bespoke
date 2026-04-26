@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 9,
-    "terms": 36
+    "components": 46,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 8,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
-    "anexia/k8s-external-dns-webhook",
     "cgrindel/swift_gazelle_plugin",
     "erikceballos/nano-banana-cli",
     "goreleaser/sponsors",

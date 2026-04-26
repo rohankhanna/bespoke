@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 22,
-    "terms": 61
+    "components": 63,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 21,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
-    "abduznik/git-alchemist",
+    "0xNyk/openclaw-to-hermes",
     "agents-x-project/PyVision-RL",
     "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
+    "bentoml/openllm-models",
     "bigai-nlco/RuleReasoner",
     "chaoss/grimoirelab-graal",
     "ckan/ckanext-xloader",
@@ -28,8 +29,6 @@
     "corl-team/VL-DAC",
     "danielrosehill/Index",
     "Embarcadero/PythonEnvironments",
-    "googlefonts/lang",
-    "imlrz/DeepResearch-Bench-II",
     "inducer/codepy",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",

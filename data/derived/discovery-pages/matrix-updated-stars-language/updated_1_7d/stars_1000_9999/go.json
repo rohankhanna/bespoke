@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 929,
-    "concepts": 824,
-    "observations": 828,
-    "repos": 99,
-    "terms": 830
+    "components": 937,
+    "concepts": 835,
+    "observations": 839,
+    "repos": 97,
+    "terms": 835
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
+    "akuity/kargo",
     "alecthomas/chroma",
     "alibaba/higress",
     "anacrolix/torrent",
@@ -30,7 +31,6 @@
     "awslabs/amazon-ecr-credential-helper",
     "awslabs/amazon-eks-ami",
     "bazel-contrib/bazel-gazelle",
-    "bazel-contrib/rules_go",
     "Bearer/bearer",
     "bluesky-social/indigo",
     "bradfitz/gomemcache",
@@ -50,7 +50,6 @@
     "containers/buildah",
     "cortexproject/cortex",
     "cri-o/cri-o",
-    "databus23/helm-diff",
     "DataDog/datadog-agent",
     "digitalocean/godo",
     "docker/buildx",
@@ -83,7 +82,7 @@
     "knative/eventing",
     "knative/serving",
     "ko-build/ko",
-    "kubernetes-sigs/controller-runtime",
+    "Kong/kubernetes-ingress-controller",
     "kubernetes-sigs/cri-tools",
     "kubernetes-sigs/external-dns",
     "kubernetes-sigs/kubebuilder",
@@ -91,7 +90,6 @@
     "kubernetes/client-go",
     "kubernetes/kube-state-metrics",
     "kubernetes/test-infra",
-    "larksuite/cli",
     "lightningnetwork/lnd",
     "mark3labs/mcp-go",
     "moby/buildkit",

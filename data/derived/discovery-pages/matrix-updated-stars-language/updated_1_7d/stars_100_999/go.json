@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 487,
-    "concepts": 377,
-    "observations": 380,
+    "concepts": 385,
+    "observations": 388,
     "repos": 59,
-    "terms": 384
+    "terms": 385
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "a2aproject/a2a-go",
     "AdguardTeam/urlfilter",
@@ -46,6 +46,8 @@
     "hashicorp/terraform-provider-random",
     "hashicorp/terraform-provider-scaffolding-framework",
     "helm/chart-releaser",
+    "ipfs/boxo",
+    "ipfs/rainbow",
     "knative/community",
     "Kong/deck",
     "kube-rbac-proxy/kube-rbac-proxy",
@@ -60,14 +62,12 @@
     "microsoft/dcp",
     "microsoft/hcsshim",
     "moul/gotty-client",
-    "open-telemetry/opentelemetry-collector-releases",
     "openshift/enhancements",
     "openshift/library",
     "opentofu/registry",
     "ossf/osv-schema",
     "prometheus/common",
     "raystack/meteor",
-    "skenetechnologies/skene",
     "snowflakedb/gosnowflake",
     "terraform-linters/tflint-ruleset-aws",
     "terraform-linters/tflint-ruleset-azurerm",

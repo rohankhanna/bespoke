@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 857,
-    "concepts": 752,
-    "observations": 760,
-    "repos": 149,
-    "terms": 746
+    "components": 844,
+    "concepts": 748,
+    "observations": 756,
+    "repos": 146,
+    "terms": 742
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -21,7 +21,6 @@
     "Alexander-Miller/treemacs",
     "alexmojaki/birdseye",
     "alexmojaki/snoop",
-    "alibaba/sentinel-golang",
     "AlibabaResearch/DAMO-ConvAI",
     "andialbrecht/sqlparse",
     "andrewrk/poop",
@@ -35,13 +34,13 @@
     "brianmario/charlock_holmes",
     "bshoshany/thread-pool",
     "carrierwaveuploader/carrierwave",
-    "cask/cask",
     "ChaoningZhang/MobileSAM",
     "charmbracelet/skate",
     "cleanlab/cleanvision",
     "cloudpipe/cloudpickle",
     "containernetworking/cni",
     "cpm-cmake/CPM.cmake",
+    "cpputest/cpputest",
     "create-dmg/create-dmg",
     "ddollar/forego",
     "deepseek-ai/DeepSeek-V3.2-Exp",
@@ -52,7 +51,6 @@
     "facebookresearch/DomainBed",
     "facebookresearch/ImageBind",
     "facebookresearch/pytorchvideo",
-    "feross/buffer",
     "flame/blis",
     "folke/flash.nvim",
     "fsprojects/Paket",
@@ -88,7 +86,6 @@
     "jorgebucaran/awsm.fish",
     "jorgebucaran/nvm.fish",
     "jpillora/cloud-torrent",
-    "jstkdng/ueberzugpp",
     "jsx-eslint/eslint-plugin-jsx-a11y",
     "julienxx/terminal-notifier",
     "justinmk/vim-sneak",

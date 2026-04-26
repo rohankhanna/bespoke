@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
+    "components": 70,
     "concepts": 42,
     "observations": 42,
-    "repos": 21,
-    "terms": 56
+    "repos": 17,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
-    "adaumann/speckit-preset-fiction-book-writing",
     "andriykohut/pdm-readiness",
     "astropy/repo_stats",
     "beneadie/DeepDog_1",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
-    "cjtruheart/abundance-codex",
     "dreamiurg/peakbagger-cli",
-    "etanhey/brainlayer",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
-    "gibdd-dps/prizolov-agent-os",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",

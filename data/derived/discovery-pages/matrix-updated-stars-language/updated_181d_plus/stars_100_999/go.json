@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 244,
-    "concepts": 325,
-    "observations": 325,
-    "repos": 76,
-    "terms": 318
+    "concepts": 329,
+    "observations": 329,
+    "repos": 77,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "1player/host-spawn",
+    "76creates/stickers",
     "99designs/keyring",
     "abs-lang/abs",
     "AbsaOSS/golic",

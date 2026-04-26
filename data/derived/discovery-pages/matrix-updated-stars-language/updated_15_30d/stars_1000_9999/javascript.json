@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 347,
-    "concepts": 77,
-    "observations": 77,
+    "components": 339,
+    "concepts": 76,
+    "observations": 76,
     "repos": 16,
     "terms": 77
   },
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "amqp-node/amqplib",
     "danmactough/node-feedparser",
     "dooy/chatgpt-web-midjourney-proxy",
-    "engineer-man/piston",
     "ethereum/devp2p",
     "facebook/jscodeshift",
     "isaacs/minimatch",
@@ -28,6 +27,7 @@
     "pillarjs/iconv-lite",
     "pinojs/pino-pretty",
     "RichardLitt/standard-readme",
+    "sindresorhus/hyper-snazzy",
     "yeoman/yo",
     "ykdojo/claude-code-tips"
   ]

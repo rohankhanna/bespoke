@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1458,
-    "concepts": 240,
-    "observations": 240,
-    "repos": 76,
-    "terms": 236
+    "components": 1474,
+    "concepts": 245,
+    "observations": 245,
+    "repos": 77,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "alexpinel/Dot",
@@ -39,6 +39,7 @@
     "eigilnikolajsen/commit-mono",
     "estools/escodegen",
     "facebook/regenerator",
+    "feross/buffer",
     "frostney/react-native-create-library",
     "gitalk/gitalk",
     "google/closure-library",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 12,
-    "terms": 33
+    "components": 25,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 10,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
     "containerd/project",
@@ -21,8 +21,6 @@
     "docker/github-builder",
     "google/oss-policies-info",
     "mypyc/mypyc-benchmark-results",
-    "pre-commit/mirrors-eslint",
-    "simonw/simonwillisonblog-backup",
     "supabase/scoop-bucket",
     "w3c/accname",
     "w3c/core-aam"

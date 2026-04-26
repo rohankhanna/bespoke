@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 137,
-    "observations": 137,
-    "repos": 30,
-    "terms": 137
+    "components": 126,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 32,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
@@ -23,6 +23,7 @@
     "BrianPugh/belay",
     "celery/py-amqp",
     "Chris-hughes10/pytorch-accelerated",
+    "facebookincubator/ptr",
     "Gen-Verse/Open-AgentRL",
     "google/adk-python-community",
     "hukkin/mdformat",
@@ -43,6 +44,7 @@
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "wenet-e2e/WeTextProcessing",
+    "xavierpuigf/virtualhome",
     "yanring/Megatron-MoE-ModelZoo"
   ]
 }

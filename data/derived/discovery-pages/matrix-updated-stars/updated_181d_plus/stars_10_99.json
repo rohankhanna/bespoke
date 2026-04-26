@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3221,
-    "concepts": 1643,
-    "observations": 1648,
-    "repos": 783,
-    "terms": 1635
+    "components": 3249,
+    "concepts": 1655,
+    "observations": 1660,
+    "repos": 785,
+    "terms": 1646
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "0x7432/asm-ru",
     "0xC0000054/libheif-sharp",
@@ -40,6 +40,7 @@
     "aarowill/base16-gnome-terminal",
     "abap-ai/mcp",
     "abaplint/abaplint-sci-client",
+    "abaplint/abaplint-sci-server",
     "Abel2076/json2binidx_tool",
     "abersheeran/pdm-shell",
     "abilian/abilian-core",
@@ -655,6 +656,7 @@
     "paritytech/unsigned-varint",
     "Parveshiiii/Deepresearch-Agent",
     "pdcxs/manimprojects",
+    "PeterDaveHello/docker-doctoc",
     "pplux/wgpu.hpp",
     "prabirshrestha/typescript-language-server",
     "privatenumber/esbuild-loader-examples",

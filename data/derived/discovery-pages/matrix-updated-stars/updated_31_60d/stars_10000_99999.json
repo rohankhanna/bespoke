@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 351,
-    "concepts": 243,
-    "observations": 246,
-    "repos": 45,
-    "terms": 251
+    "components": 398,
+    "concepts": 253,
+    "observations": 256,
+    "repos": 48,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -35,8 +35,11 @@
     "karpathy/autoresearch",
     "knownsec/404StarLink",
     "lokesh/color-thief",
+    "markdown-it/markdown-it",
+    "microsoft/playwright-python",
     "nikic/PHP-Parser",
     "openai/CLIP",
+    "openai/gym",
     "PaddlePaddle/PaddleDetection",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",

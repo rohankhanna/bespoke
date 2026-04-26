@@ -1,25 +1,23 @@
 {
   "counts": {
-    "components": 1018,
-    "concepts": 240,
-    "observations": 240,
-    "repos": 100,
-    "terms": 272
+    "components": 944,
+    "concepts": 220,
+    "observations": 220,
+    "repos": 90,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "abraxas-365/claudio",
     "actboy168/ltest",
-    "adaumann/speckit-preset-fiction-book-writing",
     "AlmaLinux/osv-database",
     "andriykohut/pdm-readiness",
-    "anexia/k8s-external-dns-webhook",
     "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
     "astropy/repo_stats",
@@ -36,7 +34,6 @@
     "celo-org/charts",
     "certible/superagent-aws-sign",
     "cgrindel/swift_gazelle_plugin",
-    "cjtruheart/abundance-codex",
     "codelibs/fess-ds-atlassian",
     "codelibs/fess-ds-box",
     "conda-forge/.cirun",
@@ -61,9 +58,6 @@
     "enbop/fungi-app",
     "enxs969/skiller",
     "erikceballos/nano-banana-cli",
-    "eslint/.github",
-    "EspressoSystems/espresso-example-l2",
-    "etanhey/brainlayer",
     "eth-act/ere-guests",
     "floxym/financial-chat",
     "floxym/financial-chat-finance-nlp-chatbots",
@@ -71,7 +65,6 @@
     "frank-syncmarket/skills",
     "gauravrathod674/custom-chatbot",
     "gbrobro119-star/darksword-kexploit",
-    "gibdd-dps/prizolov-agent-os",
     "goreleaser/.github",
     "goreleaser/sponsors",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
@@ -89,7 +82,6 @@
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
-    "neuroverseos/neuroverseos-governance",
     "newrelic/csec-node-agent",
     "nicolo-ribaudo/engine262",
     "openssh/openssh-portable-selfhosted",
@@ -102,16 +94,14 @@
     "sass/sync-child-process",
     "sass/sync-message-port",
     "serpro69/capy",
-    "seunghunbae-3svs/solo-cto-agent",
     "status-im/nimbus-build-system",
     "stealabra5019/grok-enhancer",
     "tarikmanoar/tarikmanoar",
-    "ublacklist/builtin",
     "ublacklist/ublacklist.github.io",
     "vegardit/vegardit-maven-parent",
     "verkyyi/tokenman",
-    "vincent-k2026/codachi",
     "walles/ftop",
-    "wavelens/gobgp.nix"
+    "wavelens/gobgp.nix",
+    "web-platform-tests/results-analysis-cache"
   ]
 }

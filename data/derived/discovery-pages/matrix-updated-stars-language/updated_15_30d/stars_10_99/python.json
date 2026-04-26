@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 71,
-    "observations": 71,
+    "components": 105,
+    "concepts": 84,
+    "observations": 84,
     "repos": 21,
-    "terms": 71
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
-    "0xNyk/openclaw-to-hermes",
     "Accio-Lab/SwimBird",
     "AgriciDaniel/claude-email",
     "aiagenta2z/mcp-marketplace",
     "allenporter/python-google-nest-sdm",
+    "amyreese/fissix",
     "archlizheng/frontend-slides-editable",
     "beeware/briefcase-template",
-    "bentoml/openllm-models",
     "browser-use/benchmark",
     "cmake-wheel/cmeel",
     "collinear-ai/yc-bench",
@@ -32,6 +31,7 @@
     "jupyter/governance",
     "libp2p/test-plans",
     "microsoft/vscode-azurecli",
+    "scasella/nanochat-mlx",
     "sphinx-contrib/sphinxcontrib-towncrier",
     "symgraph/BinAssistMCP",
     "w1ndys/ex-cure-skill"

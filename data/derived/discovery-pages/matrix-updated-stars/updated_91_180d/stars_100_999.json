@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 943,
-    "concepts": 655,
-    "observations": 660,
-    "repos": 185,
-    "terms": 673
+    "components": 845,
+    "concepts": 649,
+    "observations": 654,
+    "repos": 183,
+    "terms": 658
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
-    "76creates/stickers",
     "acomagu/fish-async-prompt",
     "aesalazar/AsteroidsWasm",
     "akshaykmr/teletype",
@@ -57,7 +56,6 @@
     "bytedance/SandboxFusion",
     "charm-and-friends/additional-bubbles",
     "charmbracelet/tree-sitter-vhs",
-    "claude-did-this/claude-hub",
     "cleanlab/examples",
     "clearbluejar/ghidrecomp",
     "CodeBoarding/GeneratedOnBoardings",
@@ -166,6 +164,7 @@
     "rootless-containers/usernetes",
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",
+    "rust-fuzz/trophy-case",
     "rust-lang/homu",
     "rust-lang/lang-team",
     "rusticstuff/simdutf8",
@@ -196,7 +195,6 @@
     "yaml/yaml-test-suite",
     "yashsinghcodes/wik",
     "ymoslem/OpenNMT-Tutorial",
-    "zippoxer/recall",
-    "zsio/claude-code-hub"
+    "zippoxer/recall"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 1,
+    "components": 15,
     "concepts": 0,
     "observations": 0,
     "repos": 1,
@@ -12,8 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
-    "grubersjoe/react-activity-calendar-tests"
+    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
   ]
 }

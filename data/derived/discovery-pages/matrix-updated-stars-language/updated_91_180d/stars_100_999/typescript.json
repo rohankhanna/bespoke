@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 10,
-    "terms": 56
+    "components": 248,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 8,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-26T05:27:31.548826+00:00",
   "repo_ids": [
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
-    "claude-did-this/claude-hub",
     "electron-userland/electron-wix-msi",
     "enisdenjo/graphql-sse",
     "jezweb/roo-commander",
     "morrys/react-relay-offline",
     "nanbingxyz/mcpsvr",
-    "scopecraft/command",
-    "zsio/claude-code-hub"
+    "scopecraft/command"
   ]
 }
