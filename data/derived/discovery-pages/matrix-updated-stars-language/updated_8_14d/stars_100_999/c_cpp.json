@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 77,
-    "observations": 79,
+    "components": 97,
+    "concepts": 75,
+    "observations": 77,
     "repos": 15,
-    "terms": 77
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "aibasel/downward",
     "cusplibrary/cusplibrary",
     "freebsd/kyua",
     "google-deepmind/reverb",
     "google/jpegli",
-    "ifduyue/python-xxhash",
+    "microsoft/vcpkg-tool",
     "mitsuba-renderer/drjit-core",
     "mybigday/llama.rn",
     "nfrechette/rtm",

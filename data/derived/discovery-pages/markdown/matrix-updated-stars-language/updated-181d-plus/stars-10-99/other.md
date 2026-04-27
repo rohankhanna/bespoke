@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -100,7 +100,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jspanchu/webgpu-dawn-binaries](https://github.com/jspanchu/webgpu-dawn-binaries) | 21 | 2024-06-19T23:27:57Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [bunysae/abap_db_preparator](https://github.com/bunysae/abap_db_preparator) | 18 | 2024-06-17T08:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [babashka/pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy) | 17 | 2024-06-06T10:16:38Z | Other | Service/API | 0 | 0 | 0 | 0 |
-| [crux82/CLiC-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
+| [crux82/clic-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [digitalmoksha/motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it) | 51 | 2024-05-23T19:32:55Z | Other | Infrastructure/tooling | 4 | 2 | 6 | 6 |
 | [objectbox/objectbox-dart-performance](https://github.com/objectbox/objectbox-dart-performance) | 16 | 2024-05-22T06:23:00Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [ActiveState/tdk](https://github.com/ActiveState/tdk) | 82 | 2024-05-17T21:05:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -311,7 +311,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nelsonic/nelsonic.github.io](https://github.com/nelsonic/nelsonic.github.io) | 31 | 2022-09-26T05:59:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [eki3z/git-cliff.el](https://github.com/eki3z/git-cliff.el) | 30 | 2025-02-16T22:17:03Z | Other | CLI | 3 | 3 | 3 | 3 |
 | [vim-denops/denops-shared-server.vim](https://github.com/vim-denops/denops-shared-server.vim) | 30 | 2024-08-18T17:00:27Z | Other | Service/API | 5 | 0 | 5 | 5 |
-| [crux82/CLiC-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
+| [crux82/clic-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [azret/llm.cs](https://github.com/azret/llm.cs) | 30 | 2024-04-23T01:45:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aragon/staking](https://github.com/aragon/staking) | 29 | 2023-03-08T16:47:44Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [BuddiesOfBudgie/budgie-backgrounds](https://github.com/BuddiesOfBudgie/budgie-backgrounds) | 28 | 2025-10-20T04:27:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |

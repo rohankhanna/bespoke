@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 785
-- terms: 1646
-- components: 3249
-- concepts: 1655
-- observations: 1660
+- terms: 1648
+- components: 3245
+- concepts: 1657
+- observations: 1662
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [beayemx/gitviper](https://github.com/BeayemX/GitViper) | 39 | 2025-10-28T16:48:29Z | Python | CLI | 4 | 0 | 4 | 4 |
 | [PeterDaveHello/docker-doctoc](https://github.com/PeterDaveHello/docker-doctoc) | 15 | 2025-10-28T02:46:03Z | Other | Infrastructure/tooling | 7 | 0 | 8 | 8 |
 | [abaplint/abaplint-sci-server](https://github.com/abaplint/abaplint-sci-server) | 22 | 2025-10-27T12:35:36Z | TypeScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
 | [Quentin18/gymnasium-2048](https://github.com/Quentin18/gymnasium-2048) | 13 | 2025-10-26T08:04:26Z | Python | Infrastructure/tooling | 4 | 4 | 6 | 6 |
@@ -382,7 +383,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babashka/pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy) | 17 | 2024-06-06T10:16:38Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [webassemblylabs/webassembly-language-runtimes](https://github.com/webassemblylabs/webassembly-language-runtimes) | 61 | 2024-06-05T20:50:51Z | Unknown | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [madler/brotli](https://github.com/madler/brotli) | 99 | 2024-06-05T20:22:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [crux82/CLiC-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
+| [crux82/clic-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [chemprop/chemprop_benchmark](https://github.com/chemprop/chemprop_benchmark) | 32 | 2024-06-04T13:47:43Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [greggb/sublime-snazzy](https://github.com/greggb/sublime-snazzy) | 16 | 2024-06-03T13:28:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [webassemblylabs/wasm-workers-server](https://github.com/webassemblylabs/wasm-workers-server) | 59 | 2024-06-03T08:38:47Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
@@ -809,7 +810,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pdcxs/manimprojects](https://github.com/pdcxs/ManimProjects) | 33 | 2021-05-11T13:29:03Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [antonbabenko/modules.tf-demo](https://github.com/antonbabenko/modules.tf-demo) | 46 | 2021-05-10T13:13:37Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [unixorn/autoupdate-zgen](https://github.com/unixorn/autoupdate-zgen) | 21 | 2021-05-07T15:21:00Z | Shell | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [anderejd/cargo-geiger](https://github.com/anderejd/cargo-geiger) | 48 | 2021-04-27T21:37:54Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -1113,7 +1113,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wylieconlon/jsonrpc-ws-proxy](https://github.com/wylieconlon/jsonrpc-ws-proxy) | 48 | 2022-07-18T19:38:17Z | JavaScript | Web app | 0 | 11 | 0 | 0 |
 | [aca/completion-tabnine](https://github.com/aca/completion-tabnine) | 48 | 2021-09-27T12:08:49Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [awthomp/cusignal-icassp-tutorial](https://github.com/awthomp/cusignal-icassp-tutorial) | 48 | 2021-06-07T13:25:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [anderejd/cargo-geiger](https://github.com/anderejd/cargo-geiger) | 48 | 2021-04-27T21:37:54Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ShadeCloak/ADORA](https://github.com/ShadeCloak/ADORA) | 47 | 2025-04-09T13:19:12Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [juneedahamed/vc.vim](https://github.com/juneedahamed/vc.vim) | 47 | 2022-11-16T14:07:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) | 47 | 2022-09-18T10:57:42Z | Other | Unknown | 2 | 0 | 2 | 2 |
@@ -1190,6 +1189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ROCm/HIPCC](https://github.com/ROCm/HIPCC) | 40 | 2024-05-06T13:45:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [AdnoC/sixel-rs](https://github.com/AdnoC/sixel-rs) | 40 | 2023-08-30T16:16:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [conor42/fxz](https://github.com/conor42/fxz) | 40 | 2022-01-09T12:39:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [beayemx/gitviper](https://github.com/BeayemX/GitViper) | 39 | 2025-10-28T16:48:29Z | Python | CLI | 4 | 0 | 4 | 4 |
 | [coin-or-tools/ThirdParty-HSL](https://github.com/coin-or-tools/ThirdParty-HSL) | 39 | 2025-09-10T07:37:35Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Julien-cpsn/Phone-OS](https://github.com/Julien-cpsn/Phone-OS) | 39 | 2025-09-06T21:31:26Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [136108Haumea/my-manim](https://github.com/136108Haumea/my-manim) | 39 | 2024-06-12T15:46:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1285,7 +1285,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mariushobbhahn/SWEBench-verified-mini](https://github.com/mariushobbhahn/SWEBench-verified-mini) | 30 | 2025-01-08T14:30:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lmbelo/python3-embeddable](https://github.com/lmbelo/python3-embeddable) | 30 | 2024-11-14T13:06:38Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [vim-denops/denops-shared-server.vim](https://github.com/vim-denops/denops-shared-server.vim) | 30 | 2024-08-18T17:00:27Z | Other | Service/API | 5 | 0 | 5 | 5 |
-| [crux82/CLiC-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
+| [crux82/clic-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [azret/llm.cs](https://github.com/azret/llm.cs) | 30 | 2024-04-23T01:45:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [MILVLG/xmchat](https://github.com/MILVLG/xmchat) | 30 | 2023-04-24T14:26:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dzryk/clip-grams](https://github.com/dzryk/clip-grams) | 30 | 2021-11-25T17:41:27Z | Python | Unknown | 0 | 0 | 0 | 0 |

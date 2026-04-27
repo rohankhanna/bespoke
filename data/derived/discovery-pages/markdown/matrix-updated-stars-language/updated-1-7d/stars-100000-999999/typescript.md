@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · TypeScript
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 62
-- components: 536
+- repos: 4
+- terms: 49
+- components: 367
 - concepts: 49
 - observations: 50
 
@@ -30,16 +30,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langgenius/dify](https://github.com/langgenius/dify) | 138796 | 2026-04-23T01:22:42Z | TypeScript | Infrastructure/tooling | 20 | 21 | 20 | 20 |
 | [angular/angular](https://github.com/angular/angular) | 100046 | 2026-04-22T23:50:41Z | TypeScript | Infrastructure/tooling | 10 | 152 | 10 | 11 |
 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 146871 | 2026-04-21T11:12:34Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
-| [microsoft/typescript](https://github.com/microsoft/TypeScript) | 108595 | 2026-04-19T12:01:08Z | TypeScript | Infrastructure/tooling | 7 | 52 | 0 | 0 |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 360359 | 2026-04-19T11:13:13Z | TypeScript | Infrastructure/tooling | 6 | 117 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 360359 | 2026-04-19T11:13:13Z | TypeScript | Infrastructure/tooling | 6 | 117 | 0 | 0 |
 | [microsoft/vscode](https://github.com/microsoft/vscode) | 184158 | 2026-04-23T01:26:43Z | TypeScript | Infrastructure/tooling | 11 | 167 | 11 | 11 |
 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 146871 | 2026-04-21T11:12:34Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [langgenius/dify](https://github.com/langgenius/dify) | 138796 | 2026-04-23T01:22:42Z | TypeScript | Infrastructure/tooling | 20 | 21 | 20 | 20 |
-| [microsoft/typescript](https://github.com/microsoft/TypeScript) | 108595 | 2026-04-19T12:01:08Z | TypeScript | Infrastructure/tooling | 7 | 52 | 0 | 0 |
 | [angular/angular](https://github.com/angular/angular) | 100046 | 2026-04-22T23:50:41Z | TypeScript | Infrastructure/tooling | 10 | 152 | 10 | 11 |

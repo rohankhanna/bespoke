@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 214,
-    "observations": 214,
-    "repos": 24,
-    "terms": 211
+    "components": 243,
+    "concepts": 262,
+    "observations": 262,
+    "repos": 27,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
@@ -25,10 +25,13 @@
     "containerd/containerd",
     "coreybutler/nvm-windows",
     "danielmiessler/fabric",
+    "dgraph-io/badger",
+    "dolthub/dolt",
     "ent/ent",
     "google/cadvisor",
     "hibiken/asynq",
     "Jguer/yay",
+    "junegunn/fzf",
     "kubernetes-sigs/kustomize",
     "kubernetes/kompose",
     "microsoft/typescript-go",

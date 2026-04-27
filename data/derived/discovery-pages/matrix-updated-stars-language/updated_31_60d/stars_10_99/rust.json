@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 12,
-    "terms": 63
+    "components": 66,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 11,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "arkworks-rs/std",
-    "Cykooz/libheif-rs",
     "dgn/oidc-filter",
     "fortanix/rust-mbedtls",
     "libp2p/if-watch",

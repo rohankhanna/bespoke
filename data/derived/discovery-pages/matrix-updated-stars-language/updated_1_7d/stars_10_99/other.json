@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 351,
+    "components": 347,
     "concepts": 256,
     "observations": 256,
-    "repos": 51,
-    "terms": 263
+    "repos": 49,
+    "terms": 259
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -35,7 +35,6 @@
     "dotnet/arcade-services",
     "emacscollective/epkg",
     "emibcn/badge-action",
-    "ethpandaops/xatu-data",
     "flavorjones/tailwindcss-ruby",
     "foo-dogsquared/hugo-mod-simple-icons",
     "gopasspw/gopass-summon-provider",
@@ -62,7 +61,6 @@
     "searxng/searx-instances-uptime",
     "servo/servo.org",
     "squeak-smalltalk/squeak.org",
-    "thedoggybrad/easylist-mirror",
     "uvarc/rivanna-docker",
     "WebAssembly/custom-page-sizes"
   ]

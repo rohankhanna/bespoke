@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1701,
-    "concepts": 302,
-    "observations": 302,
-    "repos": 47,
-    "terms": 309
+    "components": 1505,
+    "concepts": 276,
+    "observations": 276,
+    "repos": 42,
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "a2aproject/a2a-js",
@@ -22,7 +22,6 @@
     "aws/aws-iot-device-sdk-js-v2",
     "Azure/login",
     "babel/website",
-    "blrchen/chatgpt-lite",
     "charmbracelet/vhs-action",
     "circlefin/stablecoin-evm",
     "decentralized-identity/did-jwt",
@@ -35,9 +34,6 @@
     "engine262/engine262",
     "github/local-action",
     "graphprotocol/graph-client",
-    "grubersjoe/github-contributions-api",
-    "grubersjoe/react-activity-calendar",
-    "grubersjoe/react-github-calendar",
     "Kong/kong-manager",
     "lerna-lite/lerna-lite",
     "microsoft/DefinitelyTyped-tools",
@@ -59,7 +55,6 @@
     "strands-agents/sdk-typescript",
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
-    "TabbyML/pochi",
-    "tony1223/better-agent-terminal"
+    "TabbyML/pochi"
   ]
 }

@@ -1,25 +1,27 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 21,
-    "terms": 50
+    "components": 77,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 24,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "adammes/voyanode",
     "arckoor/botan-rs",
-    "Bearer/homebrew-tap",
     "beurdouche/nss-gk-api",
     "CharlieFRuan/harbor",
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/AI-Projects-Index",
+    "danielrosehill/Backup-Projects-Index",
+    "danielrosehill/Context-Projects-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "DataDog/go-cmp",
     "DataDog/opa",
@@ -33,6 +35,7 @@
     "musicman3/r2-d2",
     "nibir1/vaultsim",
     "samsja/dion",
+    "sujithpvarghese/bedrock-full-reconciliation",
     "vaporif/rvx"
   ]
 }

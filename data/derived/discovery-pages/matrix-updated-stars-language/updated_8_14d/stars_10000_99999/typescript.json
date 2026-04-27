@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 474,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 14,
-    "terms": 79
+    "components": 1067,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 28,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,35 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
+    "badlogic/pi-mono",
     "changesets/changesets",
     "coder/code-server",
     "diegomura/react-pdf",
+    "everyinc/compound-engineering-plugin",
     "fission-ai/openspec",
+    "garrytan/gstack",
+    "iOfficeAI/AionUi",
+    "jestjs/jest",
     "lerna/lerna",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
     "modelcontextprotocol/servers",
+    "multica-ai/multica",
     "neoclide/coc.nvim",
+    "nvidia/nemoclaw",
+    "qwenlm/qwen-code",
+    "qwibitai/nanoclaw",
+    "recharts/recharts",
+    "ryoppippi/ccusage",
+    "SBoudrias/Inquirer.js",
     "shareai-lab/learn-claude-code",
     "slopus/happy",
+    "tanweai/pua",
     "toon-format/toon",
     "upstash/context7",
-    "vadimdemedes/ink"
+    "vadimdemedes/ink",
+    "withastro/astro"
   ]
 }

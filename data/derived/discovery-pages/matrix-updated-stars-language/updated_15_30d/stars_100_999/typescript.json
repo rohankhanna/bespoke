@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 402,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 15,
-    "terms": 57
+    "components": 439,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 16,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
@@ -20,6 +20,7 @@
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
     "cztomsik/ava",
+    "fastify/demo",
     "google/adk-web",
     "haskell/vscode-haskell",
     "juliangruber/brace-expansion",

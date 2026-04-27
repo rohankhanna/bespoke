@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 937,
-    "concepts": 835,
-    "observations": 839,
-    "repos": 97,
-    "terms": 835
+    "components": 888,
+    "concepts": 768,
+    "observations": 772,
+    "repos": 91,
+    "terms": 768
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
-    "0xERR0R/blocky",
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
     "akuity/kargo",
-    "alecthomas/chroma",
     "alibaba/higress",
     "anacrolix/torrent",
     "apache/dubbo-admin",
     "apache/dubbo-go",
     "apache/incubator-seata-go",
     "aquasecurity/trivy-operator",
-    "ariga/atlas",
     "aws/amazon-ecs-agent",
     "aws/aws-node-termination-handler",
     "awslabs/amazon-ecr-credential-helper",
     "awslabs/amazon-eks-ami",
     "bazel-contrib/bazel-gazelle",
-    "Bearer/bearer",
     "bluesky-social/indigo",
     "bradfitz/gomemcache",
     "bufbuild/protoc-gen-validate",
@@ -46,7 +42,6 @@
     "cncf/toc",
     "connectrpc/connect-go",
     "containerd/stargz-snapshotter",
-    "containernetworking/plugins",
     "containers/buildah",
     "cortexproject/cortex",
     "cri-o/cri-o",
@@ -108,7 +103,6 @@
     "sigstore/rekor",
     "SpecterOps/BloodHound",
     "stripe/stripe-go",
-    "terraform-linters/tflint",
     "tonistiigi/binfmt",
     "x-motemen/ghq"
   ]

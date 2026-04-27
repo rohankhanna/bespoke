@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 844,
-    "concepts": 748,
-    "observations": 756,
-    "repos": 146,
-    "terms": 742
+    "components": 939,
+    "concepts": 756,
+    "observations": 764,
+    "repos": 145,
+    "terms": 750
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -52,7 +52,6 @@
     "facebookresearch/ImageBind",
     "facebookresearch/pytorchvideo",
     "flame/blis",
-    "folke/flash.nvim",
     "fsprojects/Paket",
     "fukuball/jieba-php",
     "geiger-rs/cargo-geiger",
@@ -62,6 +61,7 @@
     "github/git-sizer",
     "google-gemini/deprecated-generative-ai-python",
     "google-github-actions/auth",
+    "google/fuzzbench",
     "google/gts",
     "google/re2",
     "gulrak/filesystem",
@@ -72,13 +72,13 @@
     "harbor-framework/terminal-bench",
     "haskell/stylish-haskell",
     "hkust-nlp/simpleRL-reason",
-    "honza/vim-snippets",
     "huggingface/swift-coreml-diffusers",
     "hyperupcall/autoenv",
     "ianlancetaylor/libbacktrace",
     "IBM/Project_CodeNet",
     "IntelLabs/fastRAG",
     "InternLM/InternLM",
+    "ipfs/ipfs-companion",
     "isaacs/nave",
     "jasongin/nvs",
     "jhump/protoreflect",
@@ -96,7 +96,6 @@
     "labring/laf",
     "lokerl/tts-vue",
     "MaskRay/ccls",
-    "meta-llama/synthetic-data-kit",
     "monaqa/dial.nvim",
     "Morganamilo/paru",
     "mrash/fwknop",

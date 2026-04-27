@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3266,
-    "concepts": 2838,
-    "observations": 2839,
-    "repos": 713,
-    "terms": 2818
+    "components": 3275,
+    "concepts": 2849,
+    "observations": 2850,
+    "repos": 716,
+    "terms": 2829
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -272,6 +272,7 @@
     "finagle/finch",
     "FlineDev/BartyCrouch",
     "FMInference/FlexLLMGen",
+    "folke/flash.nvim",
     "fraillt/bitsery",
     "FranxYao/chain-of-thought-hub",
     "frostney/react-native-create-library",
@@ -342,6 +343,7 @@
     "hiyouga/FastEdit",
     "hojonathanho/diffusion",
     "Homebrew/homebrew-bundle",
+    "honza/vim-snippets",
     "hrsh7th/nvim-compe",
     "huawei-noah/Efficient-AI-Backbones",
     "hugapi/hug",
@@ -450,6 +452,7 @@
     "mattingalls/soundflower",
     "mbzuai-oryx/Video-ChatGPT",
     "mesos/chronos",
+    "meta-llama/synthetic-data-kit",
     "meta-pytorch/gpt-fast",
     "mfncooper/mockery",
     "mgdm/htmlq",

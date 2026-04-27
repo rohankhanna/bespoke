@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 32,
-    "terms": 60
+    "components": 58,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 30,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "aaronrsun/spec-kit-confluence",
+    "aaronrsun/spec-kit-issue",
     "abraxas-365/claudio-screenshot",
     "adiny/moodtrip-hotel-search",
     "amoniacou/external-dns-digitalocean-webhook",
@@ -24,16 +25,14 @@
     "danielrosehill/adb-keep-awake",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
-    "danielrosehill/AI-Projects-Index",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/amd-gpu-fixes",
-    "danielrosehill/Backup-Projects-Index",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
-    "danielrosehill/Context-Projects-Index",
     "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Patches-Repos-Index",
+    "eigenwallet/arti",
     "ethpandaops/xatu-cbt",
     "grubersjoe/react-activity-calendar-tests",
     "kayabaNerve/monero-oxide",
@@ -43,7 +42,6 @@
     "semgrep/cursor-plugin",
     "Sovereign-Labs/reltester",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
-    "sujithpvarghese/bedrock-full-reconciliation",
     "wencuecryforme/mysoul.skill"
   ]
 }

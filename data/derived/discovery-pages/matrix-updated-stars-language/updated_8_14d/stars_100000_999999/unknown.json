@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 1,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "unknown",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "repo_ids": [
+    "sindresorhus/awesome"
+  ]
+}

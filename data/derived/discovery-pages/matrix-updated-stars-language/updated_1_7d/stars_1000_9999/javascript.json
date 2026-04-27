@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1154,
-    "concepts": 226,
-    "observations": 226,
-    "repos": 30,
-    "terms": 224
+    "components": 1072,
+    "concepts": 208,
+    "observations": 208,
+    "repos": 27,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "apache/cordova-android",
     "apache/cordova-ios",
     "Automattic/juice",
     "Blockstream/esplora",
-    "callstack/react-native-builder-bob",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
-    "DavidAnson/markdownlint",
     "dequelabs/axe-core",
     "eslint/js",
     "expressjs/body-parser",
@@ -39,7 +37,6 @@
     "nodegit/nodegit",
     "nodejs/undici",
     "pmmmwh/react-refresh-webpack-plugin",
-    "rullerzhou-afk/clawd-on-desk",
     "tc39/test262",
     "tchx84/Flatseal",
     "thlorenz/doctoc",

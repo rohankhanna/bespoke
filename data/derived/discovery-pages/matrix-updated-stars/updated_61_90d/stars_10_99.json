@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 285,
+    "components": 290,
     "concepts": 203,
-    "observations": 204,
-    "repos": 69,
+    "observations": 203,
+    "repos": 70,
     "terms": 211
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
     "AadSah/ConverSeg",
@@ -21,15 +21,17 @@
     "acw/simple_asn1",
     "AdaCore/gnatcoll-bindings",
     "adelarsq/vim-emoji-icon-theme",
+    "agents-x-project/PyVision-RL",
     "alloy-rs/op-alloy",
     "amerkoleci/Alimer.Bindings",
     "androidStern-personal/openclaw-mcp-adapter",
     "antonbabenko/serverless.tf-playground",
     "antonengelhardt/wasm-oidc-plugin",
     "apache/incubator-seata-go-samples",
+    "apache/incubator-seata-k8s",
     "asg017/sqlite-hello",
-    "aws-cloudformation/cloudformation-resource-schema",
     "az1326/advisor-models",
+    "bigai-nlco/RuleReasoner",
     "Birch-san/box2d3-wasm",
     "bored-engineer/github-conditional-http-transport",
     "camel-ai/seta",
@@ -38,6 +40,7 @@
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",
     "conda-forge/cfep",
+    "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
@@ -48,7 +51,7 @@
     "ethereum/beacon-metrics",
     "ethereum/eipw",
     "fengkx/jieba-wasm",
-    "fsspec/sshfs",
+    "flatpak/flatpak-xdg-utils",
     "googlefonts/lang",
     "HolyBlackCat/box2cpp",
     "imlrz/DeepResearch-Bench-II",
@@ -61,7 +64,6 @@
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",
     "MicrosoftDocs/vcpkg-docs",
-    "minikube-ci/examples",
     "mohammadtavakoli78/beam",
     "multiformats/go-varint",
     "nebelgrau77/airsniffer-esp32c6",
@@ -79,7 +81,6 @@
     "tony/claude-code-riper-5",
     "withastro/.github",
     "worlpaker/go-syntax",
-    "zeng3ld/claude-session-restore",
     "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"
   ]

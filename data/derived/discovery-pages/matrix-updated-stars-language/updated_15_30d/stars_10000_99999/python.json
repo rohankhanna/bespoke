@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 154,
-    "observations": 154,
-    "repos": 21,
-    "terms": 154
+    "components": 154,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 22,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -30,10 +30,11 @@
     "google/yapf",
     "gruns/icecream",
     "huggingface/open-r1",
-    "openai/tiktoken",
+    "letta-ai/letta",
     "OpenBMB/ChatDev",
     "spotify/luigi",
     "subframe7536/maple-font",
+    "Textualize/rich",
     "thu-ml/tianshou"
   ]
 }

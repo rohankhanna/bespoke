@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 8,
-    "terms": 32
+    "components": 55,
+    "concepts": 47,
+    "observations": 49,
+    "repos": 12,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
+    "alrra/dotfiles",
     "bluesky-social/pds",
+    "clangd/clangd",
     "crosstool-ng/crosstool-ng",
     "devcontainers/features",
     "diet103/claude-code-infrastructure-showcase",
+    "docker-library/golang",
     "frankbria/ralph-claude-code",
     "nix-community/nix-direnv",
+    "nodenv/nodenv",
     "pyenv/pyenv-virtualenv",
     "spiffe/spiffe"
   ]

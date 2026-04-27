@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 13,
-    "terms": 14
+    "components": 12,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 15,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
+    "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
     "cedar-policy/cedar-docs",
     "collective/awesome-volto",
     "dragonflyoss/community",
     "ipshipyard/dnslink-action",
+    "ipshipyard/ipfs-deploy-action",
     "onyx-dot-app/onyx_deep_research_bench",
     "operator-framework/community",
     "SeleniumHQ/selenium_manager_artifacts",

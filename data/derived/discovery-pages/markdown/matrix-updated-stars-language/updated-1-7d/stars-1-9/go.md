@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 33
-- components: 46
-- concepts: 32
-- observations: 32
+- repos: 4
+- terms: 20
+- components: 30
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -30,10 +30,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [probe-lab/tiros](https://github.com/probe-lab/tiros) | 6 | 2026-04-23T13:20:24Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [cgrindel/swift_gazelle_plugin](https://github.com/cgrindel/swift_gazelle_plugin) | 9 | 2026-04-22T21:23:01Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [goreleaser/sponsors](https://github.com/goreleaser/sponsors) | 2 | 2026-04-20T10:33:50Z | Go | Infrastructure/tooling | 4 | 15 | 4 | 4 |
-| [k8nstantin/openpraxis](https://github.com/k8nstantin/OpenPraxis) | 2 | 2026-04-19T13:50:23Z | Go | Infrastructure/tooling | 1 | 5 | 0 | 0 |
-| [abraxas-365/claudio](https://github.com/Abraxas-365/claudio) | 3 | 2026-04-19T13:47:51Z | Go | CLI | 0 | 3 | 0 | 0 |
-| [erikceballos/nano-banana-cli](https://github.com/erikceballos/nano-banana-cli) | 4 | 2026-04-19T11:53:09Z | Go | CLI | 0 | 0 | 0 | 0 |
-| [serpro69/capy](https://github.com/serpro69/capy) | 4 | 2026-04-19T09:18:43Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -42,8 +38,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cgrindel/swift_gazelle_plugin](https://github.com/cgrindel/swift_gazelle_plugin) | 9 | 2026-04-22T21:23:01Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [walles/ftop](https://github.com/walles/ftop) | 6 | 2026-04-23T17:17:39Z | Go | CLI | 5 | 2 | 5 | 5 |
 | [probe-lab/tiros](https://github.com/probe-lab/tiros) | 6 | 2026-04-23T13:20:24Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [erikceballos/nano-banana-cli](https://github.com/erikceballos/nano-banana-cli) | 4 | 2026-04-19T11:53:09Z | Go | CLI | 0 | 0 | 0 | 0 |
-| [serpro69/capy](https://github.com/serpro69/capy) | 4 | 2026-04-19T09:18:43Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
-| [abraxas-365/claudio](https://github.com/Abraxas-365/claudio) | 3 | 2026-04-19T13:47:51Z | Go | CLI | 0 | 3 | 0 | 0 |
 | [goreleaser/sponsors](https://github.com/goreleaser/sponsors) | 2 | 2026-04-20T10:33:50Z | Go | Infrastructure/tooling | 4 | 15 | 4 | 4 |
-| [k8nstantin/openpraxis](https://github.com/k8nstantin/OpenPraxis) | 2 | 2026-04-19T13:50:23Z | Go | Infrastructure/tooling | 1 | 5 | 0 | 0 |

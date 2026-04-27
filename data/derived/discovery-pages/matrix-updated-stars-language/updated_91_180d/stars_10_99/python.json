@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 42,
-    "observations": 42,
+    "components": 68,
+    "concepts": 41,
+    "observations": 41,
     "repos": 23,
-    "terms": 52
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "akaihola/graylint",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
     "antgroup/DeepXTrace",
     "Azure/aaz-dev-tools",
-    "beayemx/gitviper",
     "bentoml/BentoLMDeploy",
     "biocypher/project-template",
     "Coobiw/IE-Critic-R1",
     "erkyrath/glk-dev",
+    "fsspec/sshfs",
     "HabanaAI/DeepSpeed",
     "haydn-jones/SOAP_JAX",
     "ichard26/diff-shades",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 114,
-    "observations": 116,
-    "repos": 18,
-    "terms": 114
+    "components": 66,
+    "concepts": 96,
+    "observations": 98,
+    "repos": 16,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "alexmyczko/fnt",
     "alpinelinux/aports",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
     "docker-library/drupal",
-    "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
     "git-friendly/git-friendly",
@@ -28,7 +27,6 @@
     "opea-project/GenAIExamples",
     "openshift/release",
     "rust-cross/rust-musl-cross",
-    "serpro69/claude-toolbox",
     "termux/repology-metadata",
     "tonistiigi/xx",
     "unixorn/zsh-quickstart-kit"

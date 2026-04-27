@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 28,
-    "terms": 78
+    "components": 77,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 29,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "ably-labs/realtime-quiz-framework",
@@ -36,6 +36,7 @@
     "kalbasit/nur-packages",
     "larshp/abapGitServer",
     "notaryproject/notaryproject.dev",
+    "notomo/vusted",
     "ocurrent/opam-health-check",
     "opencontainers/.github",
     "revfactory/claude-code-harness",

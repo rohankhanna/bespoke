@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 849,
-    "concepts": 795,
-    "observations": 799,
-    "repos": 68,
-    "terms": 787
+    "components": 817,
+    "concepts": 747,
+    "observations": 751,
+    "repos": 65,
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -30,10 +30,8 @@
     "containers/skopeo",
     "coredns/coredns",
     "dexidp/dex",
-    "dgraph-io/badger",
     "distribution/distribution",
     "docker/compose",
-    "dolthub/dolt",
     "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
@@ -57,7 +55,6 @@
     "ipfs/kubo",
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
-    "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",
     "kubernetes/kops",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 275,
-    "concepts": 492,
-    "observations": 492,
-    "repos": 127,
-    "terms": 492
+    "components": 280,
+    "concepts": 498,
+    "observations": 498,
+    "repos": 129,
+    "terms": 498
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "abo-abo/avy",
@@ -55,6 +55,7 @@
     "facebookresearch/vissl",
     "finagle/finch",
     "FlineDev/BartyCrouch",
+    "folke/flash.nvim",
     "FranxYao/chain-of-thought-hub",
     "fwcd/kotlin-language-server",
     "garbas/vim-snipmate",
@@ -66,6 +67,7 @@
     "google-research/big_vision",
     "hadronized/hop.nvim",
     "hexops-graveyard/dockerfile",
+    "honza/vim-snippets",
     "hrsh7th/nvim-compe",
     "hyperhype/hyperscript",
     "innnky/emotional-vits",

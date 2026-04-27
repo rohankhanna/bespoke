@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 138
-- components: 212
-- concepts: 140
-- observations: 141
+- repos: 62
+- terms: 136
+- components: 208
+- concepts: 138
+- observations: 139
 
 ## Static behavior
 
@@ -88,7 +88,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sonhal/wasm-oauth-filter](https://github.com/sonhal/wasm-oauth-filter) | 16 | 2021-09-01T20:42:40Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [joshtriplett/metadeps](https://github.com/joshtriplett/metadeps) | 27 | 2021-06-30T07:13:26Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [extrawurst/gitui-presentation](https://github.com/extrawurst/gitui-presentation) | 12 | 2021-05-28T08:02:16Z | Rust | CLI | 0 | 0 | 0 | 0 |
-| [anderejd/cargo-geiger](https://github.com/anderejd/cargo-geiger) | 48 | 2021-04-27T21:37:54Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -110,7 +109,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eira-fransham/crunchy](https://github.com/eira-fransham/crunchy) | 52 | 2025-06-25T12:54:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [BonsaiDen/cursive_table_view](https://github.com/BonsaiDen/cursive_table_view) | 52 | 2024-08-02T23:11:00Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [nlewo/hydra-cli](https://github.com/nlewo/hydra-cli) | 51 | 2024-07-22T08:10:00Z | Rust | CLI | 0 | 0 | 0 | 0 |
-| [anderejd/cargo-geiger](https://github.com/anderejd/cargo-geiger) | 48 | 2021-04-27T21:37:54Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [nlordell/solabi-rs](https://github.com/nlordell/solabi-rs) | 43 | 2025-09-06T21:44:37Z | Rust | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [vladkens/badges](https://github.com/vladkens/badges) | 43 | 2025-08-31T19:59:45Z | Rust | Infrastructure/tooling | 7 | 7 | 8 | 8 |
 | [rkyv/ptr_meta](https://github.com/rkyv/ptr_meta) | 41 | 2025-09-29T14:58:47Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |

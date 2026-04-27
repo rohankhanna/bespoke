@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 8,
-    "terms": 33
+    "components": 30,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 4,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
-    "abraxas-365/claudio",
     "cgrindel/swift_gazelle_plugin",
-    "erikceballos/nano-banana-cli",
     "goreleaser/sponsors",
-    "k8nstantin/openpraxis",
     "probe-lab/tiros",
-    "serpro69/capy",
     "walles/ftop"
   ]
 }

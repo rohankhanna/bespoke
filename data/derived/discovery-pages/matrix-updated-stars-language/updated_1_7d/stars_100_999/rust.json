@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 516,
-    "concepts": 312,
-    "observations": 314,
-    "repos": 53,
-    "terms": 311
+    "components": 474,
+    "concepts": 289,
+    "observations": 290,
+    "repos": 49,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "actix/actix-net",
@@ -21,7 +21,6 @@
     "arkworks-rs/crypto-primitives",
     "Azure/azure-sdk-for-rust",
     "Blockstream/electrs",
-    "cargo-bins/cargo-quickinstall",
     "ChainSafe/forest",
     "cloudflare/boring",
     "Commit-Boost/commit-boost-client",
@@ -30,7 +29,6 @@
     "crisidev/bacon-ls",
     "cyphar/libpathrs",
     "djkoloski/rust_serialization_benchmark",
-    "dtolnay/proc-macro2",
     "eigenwallet/core",
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
@@ -45,7 +43,6 @@
     "lambdaclass/ethrex",
     "LaurenzV/krilla",
     "lu-zero/cargo-c",
-    "messense/jieba-rs",
     "nix-community/harmonia",
     "NixOS/nix-installer",
     "OptiVorbis/OptiVorbis",
@@ -64,7 +61,6 @@
     "tauri-apps/global-hotkey",
     "trifectatechfoundation/zlib-rs",
     "typst/packages",
-    "untitaker/hyperlink",
     "Watfaq/PowerSession-rs",
     "yetanotherco/aligned_layer"
   ]

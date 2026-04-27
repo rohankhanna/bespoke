@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 11,
-    "terms": 18
+    "components": 20,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 12,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
-    "bleichenbacher-daniel/Rooterberg",
     "cdxeve/awesome-computer-use-agents",
     "charmbracelet/scoop-bucket",
+    "Dexters-Hub/Dexters-Hub",
     "eigenfoundation/elips",
     "flinedev/plankit",
     "Homebrew/.github",
-    "ipshipyard/ipfs-deploy-action",
     "kubernetes/steering",
     "ocaml/platform-blog",
     "pre-commit/mirrors-eslint",
-    "simonw/simonwillisonblog-backup"
+    "simonw/simonwillisonblog-backup",
+    "w3c/accname",
+    "w3c/core-aam"
   ]
 }

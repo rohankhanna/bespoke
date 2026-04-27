@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 487,
-    "concepts": 385,
-    "observations": 388,
-    "repos": 59,
-    "terms": 385
+    "components": 450,
+    "concepts": 342,
+    "observations": 345,
+    "repos": 54,
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "a2aproject/a2a-go",
     "AdguardTeam/urlfilter",
@@ -28,12 +28,10 @@
     "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
     "bufbuild/protovalidate-go",
-    "ByteNess/aws-vault",
     "celestiaorg/celestia-node",
     "chainguard-dev/melange",
     "charmbracelet/catwalk",
     "crytic/medusa",
-    "dependabot/cli",
     "docker/model-runner",
     "estesp/manifest-tool",
     "etclabscore/core-geth",
@@ -52,7 +50,6 @@
     "Kong/deck",
     "kube-rbac-proxy/kube-rbac-proxy",
     "kubecfg/kubecfg",
-    "kubernetes-sigs/controller-tools",
     "kubernetes-sigs/custom-metrics-apiserver",
     "kubernetes-sigs/prow",
     "kubernetes/apiextensions-apiserver",
@@ -69,8 +66,6 @@
     "prometheus/common",
     "raystack/meteor",
     "snowflakedb/gosnowflake",
-    "terraform-linters/tflint-ruleset-aws",
-    "terraform-linters/tflint-ruleset-azurerm",
     "transparency-dev/tessera",
     "web-platform-tests/wpt.fyi"
   ]

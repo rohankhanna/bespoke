@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 10,
-    "terms": 45
+    "components": 49,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 11,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "flashlight/flashlight",
+    "hpjansson/chafa",
     "jkuhlmann/cgltf",
     "json-c/json-c",
     "memononen/nanovg",

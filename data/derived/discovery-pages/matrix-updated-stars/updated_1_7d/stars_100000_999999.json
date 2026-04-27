@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 1286,
-    "concepts": 339,
-    "observations": 341,
-    "repos": 32,
-    "terms": 358
+    "components": 1045,
+    "concepts": 294,
+    "observations": 296,
+    "repos": 24,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "angular/angular",
     "anomalyco/opencode",
     "avelino/awesome-go",
     "Comfy-Org/ComfyUI",
-    "denoland/deno",
     "electron/electron",
     "f/prompts.chat",
     "facebook/react",
@@ -25,25 +24,18 @@
     "flutter/flutter",
     "ggml-org/llama.cpp",
     "golang/go",
-    "huggingface/transformers",
     "langchain-ai/langchain",
     "langflow-ai/langflow",
     "langgenius/dify",
     "microsoft/terminal",
-    "microsoft/typescript",
     "microsoft/vscode",
     "mrdoob/three.js",
-    "nousresearch/hermes-agent",
     "ohmyzsh/ohmyzsh",
     "ollama/ollama",
-    "openclaw/openclaw",
-    "rust-lang/rust",
     "Significant-Gravitas/AutoGPT",
-    "sindresorhus/awesome",
     "tauri-apps/tauri",
     "tensorflow/tensorflow",
     "torvalds/linux",
-    "vercel/next.js",
-    "yt-dlp/yt-dlp"
+    "vercel/next.js"
   ]
 }

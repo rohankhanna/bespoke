@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 78,
-    "observations": 80,
-    "repos": 12,
-    "terms": 77
+    "components": 482,
+    "concepts": 111,
+    "observations": 113,
+    "repos": 16,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "alexandresanlim/Badges4-README.md-Profile",
     "apache/spark",
@@ -21,8 +21,12 @@
     "dense-analysis/ale",
     "google-gemini/gemini-fullstack-langgraph-quickstart",
     "kubernetes/community",
+    "metabase/metabase",
     "microsoft/OmniParser",
+    "oven-sh/bun",
+    "realm/SwiftLint",
     "rubocop/rubocop",
+    "SaschaWillems/Vulkan",
     "semgrep/semgrep",
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode"

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 253,
-    "observations": 256,
-    "repos": 48,
-    "terms": 260
+    "components": 425,
+    "concepts": 299,
+    "observations": 302,
+    "repos": 53,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -23,6 +23,7 @@
     "chriskiehl/Gooey",
     "CocoaPods/CocoaPods",
     "cool-RR/PySnooper",
+    "fatih/vim-go",
     "github-linguist/linguist",
     "gitleaks/gitleaks",
     "google-research/vision_transformer",
@@ -34,12 +35,14 @@
     "Jiayi-Pan/TinyZero",
     "karpathy/autoresearch",
     "knownsec/404StarLink",
+    "Kong/kong",
     "lokesh/color-thief",
     "markdown-it/markdown-it",
     "microsoft/playwright-python",
     "nikic/PHP-Parser",
     "openai/CLIP",
     "openai/gym",
+    "openai/tiktoken",
     "PaddlePaddle/PaddleDetection",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
@@ -50,6 +53,7 @@
     "romkatv/powerlevel10k",
     "ryanoasis/nerd-fonts",
     "serde-rs/serde",
+    "sindresorhus/pure",
     "sirupsen/logrus",
     "sorin-ionescu/prezto",
     "sql-js/sql.js",
@@ -60,6 +64,7 @@
     "uber-go/zap",
     "vercel/satori",
     "videojs/video.js",
+    "vuejs/awesome-vue",
     "Wan-Video/Wan2.1"
   ]
 }

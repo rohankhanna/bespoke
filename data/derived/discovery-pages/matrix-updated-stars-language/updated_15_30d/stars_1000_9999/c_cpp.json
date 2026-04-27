@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 144,
+    "components": 131,
     "concepts": 124,
     "observations": 125,
     "repos": 18,
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "asg017/sqlite-vec",
     "Dav1dde/glad",
     "DLTcollab/sse2neon",
+    "ericniebler/range-v3",
     "espeak-ng/espeak-ng",
     "google/double-conversion",
     "google/draco",
     "KhronosGroup/MoltenVK",
     "libbpf/libbpf",
-    "madler/zlib",
     "microsoft/DirectX-Graphics-Samples",
     "microsoft/snmalloc",
     "nalgeon/sqlean",

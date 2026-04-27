@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 818,
-    "concepts": 132,
-    "observations": 134,
-    "repos": 25,
-    "terms": 136
+    "components": 751,
+    "concepts": 112,
+    "observations": 114,
+    "repos": 22,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "abaplint/transpiler",
-    "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
     "Azure/bicep-deploy",
     "bufbuild/protovalidate-es",
@@ -24,7 +23,6 @@
     "electron/windows-sign",
     "ethereum/eip-review-bot",
     "fannheyward/coc-xml",
-    "favware/cliff-jumper",
     "grafana/profiles-drilldown",
     "gridatek/semantic-icons",
     "hashintel/labs",
@@ -33,7 +31,6 @@
     "mcous/vitest-when",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
-    "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "slopus/slopus.github.io",
     "TrigenSoftware/simple-release",

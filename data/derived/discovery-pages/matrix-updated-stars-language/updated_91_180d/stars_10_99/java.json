@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 5,
-    "terms": 8
+    "components": 4,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 6,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "abapGit/ADT_Frontend",
+    "aws-cloudformation/cloudformation-resource-schema",
     "beehive-lab/kfusion-tornadovm",
     "castortech/mdbxjni",
     "hashicorp/hello-vault-spring",

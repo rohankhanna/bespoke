@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
+    "components": 41,
     "concepts": 22,
     "observations": 22,
-    "repos": 7,
-    "terms": 22
+    "repos": 9,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "barak/minidjvu",
     "DavidKinder/Windows-Inform7",
+    "JFLarvoire/the_silver_searcher",
+    "liangshengyong/lanwan",
     "marciogranzotto/clawd-tank",
     "mitsuba-renderer/nanothread",
     "mybigday/llama.node",

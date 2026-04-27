@@ -3,7 +3,7 @@
     "components": 1,
     "concepts": 2,
     "observations": 2,
-    "repos": 5,
+    "repos": 4,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "agent-sh/glidemq",
     "alvistack/ansible-role-conmon",
     "cdeust/zetetic-team-subagents",
-    "chronosphereio/calyptia-cli",
-    "marcindulak/ralph-wiggum-bdd"
+    "chronosphereio/calyptia-cli"
   ]
 }

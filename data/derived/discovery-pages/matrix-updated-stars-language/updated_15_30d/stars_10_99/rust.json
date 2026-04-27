@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 9,
-    "terms": 29
+    "components": 48,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 10,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
+    "alixinne/glsl-lang",
     "antonWetzel/prettypst",
     "ashvardanian/NumWars",
     "BlackDex/rust-musl",

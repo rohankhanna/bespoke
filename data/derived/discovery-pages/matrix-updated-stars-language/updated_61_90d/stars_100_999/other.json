@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 20,
-    "terms": 45
+    "components": 66,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 21,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
+    "AndrewRadev/switch.vim",
     "arnetheduck/nph",
     "Azure/arm-ttk",
     "cross-rs/cross-toolchains",

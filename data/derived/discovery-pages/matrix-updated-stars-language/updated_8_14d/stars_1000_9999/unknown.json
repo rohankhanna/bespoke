@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 16,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 6,
-    "terms": 16
+    "concepts": 18,
+    "observations": 18,
+    "repos": 7,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "android/skills",
     "bbatsov/clojure-style-guide",
+    "FasterXML/jackson",
     "FuelLabs/fuel-specs",
     "libp2p/specs",
     "MicrosoftDocs/WSL",

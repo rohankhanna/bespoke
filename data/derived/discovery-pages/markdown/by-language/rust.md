@@ -1,6 +1,6 @@
 # Rust
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-26T07:06:32.247427+00:00`
 
 ## Counts
 
-- repos: 733
-- terms: 3665
-- components: 5486
-- concepts: 3631
-- observations: 3654
+- repos: 732
+- terms: 3663
+- components: 5482
+- concepts: 3629
+- observations: 3652
 
 ## Static behavior
 
@@ -754,7 +754,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [joshtriplett/metadeps](https://github.com/joshtriplett/metadeps) | 27 | 2021-06-30T07:13:26Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [gfx-rs/wgpu-rs](https://github.com/gfx-rs/wgpu-rs) | 1676 | 2021-06-03T01:59:24Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [extrawurst/gitui-presentation](https://github.com/extrawurst/gitui-presentation) | 12 | 2021-05-28T08:02:16Z | Rust | CLI | 0 | 0 | 0 | 0 |
-| [anderejd/cargo-geiger](https://github.com/anderejd/cargo-geiger) | 48 | 2021-04-27T21:37:54Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -1318,7 +1317,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BonsaiDen/cursive_table_view](https://github.com/BonsaiDen/cursive_table_view) | 52 | 2024-08-02T23:11:00Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [quininer/x11-clipboard](https://github.com/quininer/x11-clipboard) | 51 | 2026-04-14T14:17:34Z | Rust | CLI | 2 | 1 | 2 | 2 |
 | [nlewo/hydra-cli](https://github.com/nlewo/hydra-cli) | 51 | 2024-07-22T08:10:00Z | Rust | CLI | 0 | 0 | 0 | 0 |
-| [anderejd/cargo-geiger](https://github.com/anderejd/cargo-geiger) | 48 | 2021-04-27T21:37:54Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-04-22T23:55:58Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [foundry-rs/foundry-fork-db](https://github.com/foundry-rs/foundry-fork-db) | 47 | 2026-04-20T09:41:05Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [Calsign/gazelle_rust](https://github.com/Calsign/gazelle_rust) | 47 | 2026-04-05T01:03:52Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |

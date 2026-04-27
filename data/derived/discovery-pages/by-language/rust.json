@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 5486,
-    "concepts": 3631,
-    "observations": 3654,
-    "repos": 733,
-    "terms": 3665
+    "components": 5482,
+    "concepts": 3629,
+    "observations": 3652,
+    "repos": 732,
+    "terms": 3663
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -69,7 +69,6 @@
     "analysis-tools-dev/static-analysis",
     "andelf/axcli",
     "andelf/picc",
-    "anderejd/cargo-geiger",
     "anordal/shellharden",
     "anthropics/claudes-c-compiler",
     "antonengelhardt/wasm-oidc-plugin",

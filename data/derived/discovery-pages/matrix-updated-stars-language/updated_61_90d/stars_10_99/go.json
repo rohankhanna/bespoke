@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 7,
-    "terms": 27
+    "components": 35,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 8,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "apache/incubator-seata-go-samples",
+    "apache/incubator-seata-k8s",
     "bored-engineer/github-conditional-http-transport",
     "doraemonkeys/paddleocr",
     "jm33-m0/arc",

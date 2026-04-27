@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 43,
-    "observations": 44,
-    "repos": 11,
-    "terms": 42
+    "components": 272,
+    "concepts": 56,
+    "observations": 57,
+    "repos": 12,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "afc163/fanyi",
     "alexmojaki/birdseye",
     "guybedford/es-module-lexer",
     "guybedford/es-module-shims",
     "gwudcap/cc-sessions",
+    "ipfs/ipfs-companion",
     "jasongin/nvs",
     "jsx-eslint/eslint-plugin-jsx-a11y",
     "reactjs/react-a11y",

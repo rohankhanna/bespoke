@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 2,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
-    "danielrosehill/Claude-Calls-The-Shots"
+    "danielrosehill/Claude-Calls-The-Shots",
+    "gerardtschanz/revenue-os"
   ]
 }

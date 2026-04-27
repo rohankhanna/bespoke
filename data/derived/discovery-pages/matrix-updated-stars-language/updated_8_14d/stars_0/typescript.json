@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 15,
+    "components": 208,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 3,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
+    "fekkak1998/scira",
+    "gopi2211/ralph",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
   ]
 }

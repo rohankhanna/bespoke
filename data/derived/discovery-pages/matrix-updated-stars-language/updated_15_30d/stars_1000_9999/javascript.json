@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 339,
+    "components": 320,
     "concepts": 76,
     "observations": 76,
-    "repos": 16,
+    "repos": 15,
     "terms": 77
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "amqp-node/amqplib",
-    "danmactough/node-feedparser",
     "dooy/chatgpt-web-midjourney-proxy",
     "ethereum/devp2p",
     "facebook/jscodeshift",

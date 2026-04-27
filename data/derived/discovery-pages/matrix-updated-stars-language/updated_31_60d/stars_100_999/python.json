@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 33,
-    "terms": 149
+    "components": 121,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 32,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "AGI-Arena/MARS",
+    "akin-ozer/cc-devops-skills",
     "alexei-led/aws-mcp-server",
     "angr/angrop",
-    "araffin/sbx",
     "BrianPugh/belay",
     "celery/py-amqp",
     "Chris-hughes10/pytorch-accelerated",
     "facebookincubator/ptr",
     "Gen-Verse/Open-AgentRL",
-    "google/adk-python-community",
     "hukkin/mdformat",
     "jsegov/autoresearch-win-rtx",
     "LAION-AI/CLIP_benchmark",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 4,
-    "terms": 6
+    "components": 10,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 2,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
-    "Amtrend/ssh-manager",
     "DataDog/vault",
-    "jonislutheran87/weclaw",
     "kdubbo/xds-api"
   ]
 }

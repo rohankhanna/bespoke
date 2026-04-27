@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 119,
-    "observations": 121,
-    "repos": 32,
-    "terms": 132
+    "components": 196,
+    "concepts": 116,
+    "observations": 118,
+    "repos": 29,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "AI-Hypercomputer/pathways-utils",
     "AMD-AGI/torchtitan-amd",
@@ -23,11 +23,9 @@
     "atlanhq/application-sdk",
     "aws-controllers-k8s/test-infra",
     "bufbuild/protovalidate-python",
-    "carstencodes/simplepycons",
     "channel-io/ch-tts-llasa-rl-grpo",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-repodata-patches-feedstock",
-    "costiash/claude-code-docs",
     "DeterminateSystems/determinate-nix-action",
     "ethstaker/ethstaker-deposit-cli",
     "GaloisInc/BLST-Verification",
@@ -44,7 +42,6 @@
     "pytest-dev/execnet",
     "ROCm/tritonBLAS",
     "scipy/scipy-stubs",
-    "sliamh11/deus",
     "typeshed-internal/stub_uploader"
   ]
 }

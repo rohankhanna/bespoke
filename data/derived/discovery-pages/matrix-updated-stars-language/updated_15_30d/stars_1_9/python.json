@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 8,
-    "terms": 15
+    "components": 14,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 7,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "agenmod/okr-skill",
     "ashvardanian/ashvardanian",
@@ -20,7 +20,6 @@
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "CoolCat467/idlemypyextension",
-    "ldayton/Tongues",
     "Mbed-TLS/mbedtls-framework"
   ]
 }

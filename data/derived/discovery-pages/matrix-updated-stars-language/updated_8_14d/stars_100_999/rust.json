@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 136,
-    "observations": 139,
-    "repos": 34,
-    "terms": 147
+    "components": 292,
+    "concepts": 153,
+    "observations": 157,
+    "repos": 37,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "ada-url/rust",
@@ -22,19 +22,21 @@
     "alloy-rs/core",
     "alloy-rs/examples",
     "alloy-rs/svm-rs",
+    "cargo-bins/cargo-quickinstall",
     "containers/aardvark-dns",
     "crate-ci/committed",
     "criterion-rs/criterion.rs",
     "denoland/deno_doc",
+    "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
     "EspressoSystems/jellyfish",
     "FuelLabs/fuel-vm",
     "gdesmott/system-deps",
     "gjtorikian/commonmarker",
     "hniksic/rust-subprocess",
-    "in-toto/attestation",
     "Kampfkarren/full-moon",
     "LaurenzV/hayro",
+    "messense/jieba-rs",
     "nielsgroen/claude-tmux",
     "nix-community/lorri",
     "ramsayleung/rspotify",
@@ -46,6 +48,7 @@
     "tekumara/typos-lsp",
     "tikv/jemallocator",
     "tracel-ai/models",
+    "untitaker/hyperlink",
     "yeslogic/allsorts",
     "zimbatm/mdsh"
   ]

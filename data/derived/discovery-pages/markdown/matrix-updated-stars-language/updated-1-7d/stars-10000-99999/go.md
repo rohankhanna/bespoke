@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 787
-- components: 849
-- concepts: 795
-- observations: 799
+- repos: 65
+- terms: 740
+- components: 817
+- concepts: 747
+- observations: 751
 
 ## Static behavior
 
@@ -91,9 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 34667 | 2026-04-20T10:21:52Z | Go | Infrastructure/tooling | 20 | 4 | 20 | 20 |
 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15181 | 2026-04-20T08:50:53Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 9 |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | 23341 | 2026-04-20T07:51:28Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [dgraph-io/badger](https://github.com/dgraph-io/badger) | 15578 | 2026-04-20T00:26:11Z | Go | Infrastructure/tooling | 11 | 6 | 11 | 11 |
-| [dolthub/dolt](https://github.com/dolthub/dolt) | 22236 | 2026-04-19T21:17:34Z | Go | Infrastructure/tooling | 25 | 16 | 25 | 25 |
-| [junegunn/fzf](https://github.com/junegunn/fzf) | 79627 | 2026-04-19T15:56:34Z | Go | CLI | 11 | 10 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -102,7 +99,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | 88359 | 2026-04-22T22:32:49Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [gohugoio/hugo](https://github.com/gohugoio/hugo) | 87725 | 2026-04-22T20:41:51Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | 82885 | 2026-04-22T06:38:05Z | Go | Infrastructure/tooling | 9 | 25 | 9 | 9 |
-| [junegunn/fzf](https://github.com/junegunn/fzf) | 79627 | 2026-04-19T15:56:34Z | Go | CLI | 11 | 10 | 12 | 12 |
 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | 76816 | 2026-04-22T00:13:49Z | Go | CLI | 7 | 14 | 7 | 7 |
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 71765 | 2026-04-23T00:25:18Z | Go | Infrastructure/tooling | 21 | 13 | 21 | 21 |
 | [moby/moby](https://github.com/moby/moby) | 71488 | 2026-04-23T22:38:10Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
@@ -134,7 +130,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [micro/go-micro](https://github.com/micro/go-micro) | 22738 | 2026-04-20T13:55:01Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | 22713 | 2026-04-24T06:10:40Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 22697 | 2026-04-23T17:33:44Z | Go | Infrastructure/tooling | 21 | 23 | 21 | 21 |
-| [dolthub/dolt](https://github.com/dolthub/dolt) | 22236 | 2026-04-19T21:17:34Z | Go | Infrastructure/tooling | 25 | 16 | 25 | 25 |
 | [redis/go-redis](https://github.com/redis/go-redis) | 22056 | 2026-04-24T07:16:15Z | Go | CLI | 11 | 10 | 11 | 11 |
 | [gastownhall/beads](https://github.com/gastownhall/beads) | 21129 | 2026-04-22T19:47:16Z | Go | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [lima-vm/lima](https://github.com/lima-vm/lima) | 20803 | 2026-04-21T03:54:27Z | Go | Infrastructure/tooling | 9 | 17 | 9 | 9 |
@@ -145,7 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/kubo](https://github.com/ipfs/kubo) | 16992 | 2026-04-24T00:08:49Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [kubernetes/kops](https://github.com/kubernetes/kops) | 16594 | 2026-04-21T19:31:51Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) | 15719 | 2026-04-21T01:02:59Z | Go | Infrastructure/tooling | 13 | 29 | 13 | 13 |
-| [dgraph-io/badger](https://github.com/dgraph-io/badger) | 15578 | 2026-04-20T00:26:11Z | Go | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [mikefarah/yq](https://github.com/mikefarah/yq) | 15282 | 2026-04-23T03:52:40Z | Go | CLI | 14 | 18 | 18 | 18 |
 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15181 | 2026-04-20T08:50:53Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 9 |
 | [gastownhall/gastown](https://github.com/gastownhall/gastown) | 14571 | 2026-04-22T20:10:40Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |

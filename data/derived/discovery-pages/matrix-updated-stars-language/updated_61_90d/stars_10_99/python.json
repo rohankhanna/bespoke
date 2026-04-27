@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 13,
-    "terms": 52
+    "components": 19,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 14,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "abduznik/git-alchemist",
+    "agents-x-project/PyVision-RL",
     "az1326/advisor-models",
+    "bigai-nlco/RuleReasoner",
     "camel-ai/seta",
-    "fsspec/sshfs",
     "googlefonts/lang",
     "imlrz/DeepResearch-Bench-II",
     "inducer/genpy",

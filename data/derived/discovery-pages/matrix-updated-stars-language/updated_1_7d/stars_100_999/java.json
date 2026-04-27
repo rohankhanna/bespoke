@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 16,
-    "terms": 122
+    "components": 104,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 15,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "aws-powertools/powertools-lambda-java",
@@ -24,7 +24,6 @@
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
-    "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
     "milvus-io/milvus-sdk-java",
     "spotbugs/sonar-findbugs",

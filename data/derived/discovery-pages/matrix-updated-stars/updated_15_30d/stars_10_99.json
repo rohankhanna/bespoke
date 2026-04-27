@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 892,
-    "concepts": 452,
-    "observations": 454,
-    "repos": 124,
-    "terms": 453
+    "components": 911,
+    "concepts": 475,
+    "observations": 477,
+    "repos": 129,
+    "terms": 480
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0xrsydn/nix-hermes-agent",
@@ -26,9 +26,12 @@
     "AIWintermuteAI/whispercpp",
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
+    "alixinne/glsl-lang",
     "allenporter/python-google-nest-sdm",
     "amyreese/fissix",
+    "antham/ghokin",
     "antonWetzel/prettypst",
+    "apache/dubbo-go-pixiu-samples",
     "AppImage/AppImageSpec",
     "archlizheng/frontend-slides-editable",
     "ashvardanian/NumWars",
@@ -36,11 +39,13 @@
     "aspect-build/rules_cypress",
     "astro-han/diffpane",
     "astropy/astropy-project",
+    "awnist/cson-loader",
     "aws/amazon-network-policy-controller-k8s",
     "beehive-lab/docker-tornadovm",
     "beeware/briefcase-template",
     "berty/www.berty.tech",
     "BlackDex/rust-musl",
+    "bleichenbacher-daniel/Rooterberg",
     "blrchen/chatgpt-minimal",
     "bmad-code-org/bmad-plugins-marketplace",
     "browser-use/benchmark",
@@ -50,6 +55,7 @@
     "cedar-policy/cedar-docs",
     "celestiaorg/hana",
     "ChainSafe/forest-iac",
+    "cloudartisan/cloudartisan.github.io",
     "cmake-wheel/cmeel",
     "coderaiser/supertape",
     "codetyio/codety-scanner",
@@ -62,7 +68,6 @@
     "darkweak/storages",
     "dart-lang/site-shared",
     "dart4e/dart4e",
-    "depado/bfchroma",
     "Digidai/product-manager-skills",
     "dominique-unruh/qrhl-tool",
     "donderom/llm4s",
@@ -71,7 +76,6 @@
     "ekino/frankenphp-magento2",
     "ElementsProject/cln-application",
     "ethpandaops/xatu",
-    "explosion/weasel",
     "facebookresearch/mosaic",
     "faressoft/inquirer-checkbox-plus-prompt",
     "flashlight/text",
@@ -96,8 +100,8 @@
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "ipshipyard/dnslink-action",
+    "ipshipyard/ipfs-deploy-action",
     "iterate-ch/rococoa",
-    "Jack-Works/react-refresh-transformer",
     "janestreet/tracing",
     "jerseycheese/narraitor",
     "jiegec/tantivy-jieba",
@@ -116,7 +120,7 @@
     "neysofu/reltester",
     "niheaven/scoop-sysinternals",
     "NixOS/nix-installer-action",
-    "notomo/vusted",
+    "notaryproject/notation-go",
     "nvim-mini/mini.base16",
     "ocaml-opam/opam2web",
     "ocurrent/obuilder",
@@ -136,6 +140,7 @@
     "tilt-dev/tilt-apiserver",
     "vorburger/blog",
     "w1ndys/ex-cure-skill",
-    "zai-org/z-ai-sdk-java"
+    "zai-org/z-ai-sdk-java",
+    "zhayujie/cow-skill-hub"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 4,
-    "terms": 20
+    "components": 41,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 5,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "carrot2/carrot2",
     "eclipse-lsp4j/lsp4j",
     "higress-group/higress-console",
+    "microsoft/java-debug",
     "mockingbot/react-native-zip-archive"
   ]
 }

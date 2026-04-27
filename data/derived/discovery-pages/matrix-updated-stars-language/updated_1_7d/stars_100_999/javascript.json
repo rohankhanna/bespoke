@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 787,
-    "concepts": 194,
-    "observations": 200,
-    "repos": 28,
-    "terms": 193
+    "components": 693,
+    "concepts": 158,
+    "observations": 164,
+    "repos": 24,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actions/create-github-app-token",
     "adamlui/ai-web-extensions",
@@ -21,19 +21,15 @@
     "browserslist/caniuse-lite",
     "chaijs/chai-http",
     "ClickHouse/agent-skills",
-    "coderaiser/putout",
     "conda-forge/conda-forge.github.io",
     "CVEProject/cve-services",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
     "evenchange4/graphql.macro",
-    "fastify/fastify-autoload",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
-    "jupyter/nbclassic",
     "marwin1991/profile-technology-icons",
     "neostandard/neostandard",
-    "nodejs/admin",
     "OffchainLabs/arbitrum-docs",
     "plone/volto",
     "poolifier/poolifier",

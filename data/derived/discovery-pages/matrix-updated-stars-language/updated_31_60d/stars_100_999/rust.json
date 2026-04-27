@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 101,
-    "observations": 102,
-    "repos": 22,
-    "terms": 100
+    "components": 111,
+    "concepts": 87,
+    "observations": 88,
+    "repos": 19,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
     "bet4it/udbserver",
     "cedar-policy/cedar-examples",
-    "cowboy8625/rusty-rain",
     "dfrg/swash",
     "DoumanAsh/xxhash-rust",
     "dtolnay/readonly",
@@ -27,8 +26,6 @@
     "firstbatchxyz/dkn-compute-node",
     "gfx-rs/rspirv",
     "Kampfkarren/selene",
-    "KyleMayes/clang-rs",
-    "KyleMayes/clang-sys",
     "LukasKalbertodt/libtest-mimic",
     "pdf-rs/pdf_render",
     "rust-lang/crater",

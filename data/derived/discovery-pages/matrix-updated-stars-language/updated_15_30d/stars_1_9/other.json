@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 31,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 9,
-    "terms": 19
+    "concepts": 16,
+    "observations": 16,
+    "repos": 8,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "ada-url/kotlin",
     "aspect-build/tools_telemetry",
@@ -21,7 +21,6 @@
     "dwyl/auth_plug_example",
     "ethpandaops/checkpoint-sync-health-checks",
     "marcindulak/learning-api-styles-gen-ai-experiments",
-    "microsoft/LinuxTracepoints-Net",
-    "objectbox/objectbox-swift-spm"
+    "microsoft/LinuxTracepoints-Net"
   ]
 }

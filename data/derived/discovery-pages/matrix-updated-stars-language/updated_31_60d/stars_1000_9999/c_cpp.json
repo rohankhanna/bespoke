@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 112,
-    "observations": 113,
+    "components": 96,
+    "concepts": 105,
+    "observations": 106,
     "repos": 21,
-    "terms": 110
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "akheron/jansson",
     "arrayfire/arrayfire",
@@ -24,9 +24,9 @@
     "containers/bubblewrap",
     "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
-    "hpjansson/chafa",
     "icecc/icecream",
     "libgit2/rugged",
+    "madler/zlib",
     "onnx/onnx-tensorrt",
     "redis/hiredis",
     "snapcast/snapcast",

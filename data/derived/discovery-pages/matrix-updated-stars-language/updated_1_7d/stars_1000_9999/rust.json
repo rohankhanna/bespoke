@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 924,
-    "concepts": 618,
-    "observations": 620,
-    "repos": 81,
-    "terms": 629
+    "components": 872,
+    "concepts": 589,
+    "observations": 591,
+    "repos": 75,
+    "terms": 589
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
-    "abraxas-365/langchain-rust",
     "actix/actix",
     "ai-dynamo/dynamo",
     "apache/arrow-rs",
@@ -28,7 +27,6 @@
     "axodotdev/cargo-dist",
     "bheisler/criterion.rs",
     "bitcoindevkit/bdk",
-    "blacknon/hwatch",
     "bluealloy/revm",
     "cargo-generate/cargo-generate",
     "compio-rs/compio",
@@ -44,7 +42,6 @@
     "gfx-rs/wgpu-native",
     "google/zerocopy",
     "googlefonts/Inconsolata",
-    "hashintel/hash",
     "hickory-dns/hickory-dns",
     "hrkfdn/ncspot",
     "intentee/paddler",
@@ -54,7 +51,6 @@
     "lycheeverse/lychee",
     "matter-labs/zksync",
     "medialab/xan",
-    "mfontanini/presenterm",
     "model-checking/kani",
     "modelcontextprotocol/rust-sdk",
     "mozilla/grcov",
@@ -69,9 +65,7 @@
     "rizsotto/Bear",
     "rkyv/rkyv",
     "romanz/electrs",
-    "rusqlite/rusqlite",
     "rust-bitcoin/rust-bitcoin",
-    "rust-lang/cc-rs",
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
     "rust-lang/git2-rs",

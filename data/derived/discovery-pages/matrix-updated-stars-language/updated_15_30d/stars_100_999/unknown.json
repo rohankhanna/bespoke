@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 14,
-    "terms": 21
+    "concepts": 32,
+    "observations": 32,
+    "repos": 15,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "adoptium/adoptium",
     "agamm/claude-code-owasp",
@@ -21,6 +21,7 @@
     "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
+    "astro-han/karpathy-llm-wiki",
     "cncf/artwork",
     "flathub/com.vscodium.codium",
     "grpc/proposal",

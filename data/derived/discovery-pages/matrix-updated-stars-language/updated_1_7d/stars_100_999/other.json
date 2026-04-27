@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1192,
-    "concepts": 745,
-    "observations": 746,
-    "repos": 109,
-    "terms": 742
+    "components": 1158,
+    "concepts": 704,
+    "observations": 705,
+    "repos": 103,
+    "terms": 702
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "a2aproject/a2a-dotnet",
     "abap2UI5/abap2UI5",
     "AdaCore/ada_language_server",
     "AdaCore/libadalang",
-    "agourlay/cornichon",
     "aio-libs/aiohttp-demos",
     "apache/arrow-adbc",
     "apache/arrow-go",
@@ -36,9 +35,7 @@
     "bazelbuild/rules_rust",
     "bazelbuild/rules_swift",
     "bencherdev/bencher",
-    "biopragmatics/bioregistry",
     "bootscore/bootscore",
-    "BorisPolonsky/dify-helm",
     "Calinou/scoop-games",
     "cedar-policy/cedar-spec",
     "celo-org/celo-monorepo",
@@ -46,7 +43,6 @@
     "chainguard-images/images",
     "ChristopherHX/runner.server",
     "ClickHouse/clickhouse-docs",
-    "clojure-emacs/cider-nrepl",
     "cncf/foundation",
     "connectrpc/connect-kotlin",
     "cplusplus/draft",
@@ -102,7 +98,6 @@
     "OpenZeppelin/openzeppelin-foundry-upgrades",
     "pq-code-package/mlkem-native",
     "purcell/emacs-reformatter",
-    "r-spatial/stars",
     "rapidsai/cuvs",
     "ROCm/llvm-project",
     "ROCm/rocm-libraries",
@@ -118,7 +113,6 @@
     "tc39/proposal-defer-import-eval",
     "usnistgov/ACVP",
     "vibhorkum/pg_background",
-    "vim-fuzzbox/fuzzbox.vim",
     "w3c/aria",
     "WebAssembly/meetings",
     "WebAssembly/threads",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 223,
-    "observations": 224,
-    "repos": 42,
-    "terms": 222
+    "components": 204,
+    "concepts": 214,
+    "observations": 215,
+    "repos": 41,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "6551Team/opennews-mcp",
     "ajenti/ajenti",
@@ -52,7 +52,6 @@
     "RUC-NLPIR/FlashRAG",
     "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
-    "tensorflow/datasets",
     "Textualize/rich-cli",
     "therealxiaomanchu/ex-skill",
     "Yelp/dumb-init"

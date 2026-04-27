@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 10,
-    "terms": 31
+    "components": 20,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 7,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
     "containerd/project",
     "crewAIInc/skills",
-    "Dexters-Hub/Dexters-Hub",
     "docker/github-builder",
     "google/oss-policies-info",
     "mypyc/mypyc-benchmark-results",
-    "supabase/scoop-bucket",
-    "w3c/accname",
-    "w3c/core-aam"
+    "supabase/scoop-bucket"
   ]
 }

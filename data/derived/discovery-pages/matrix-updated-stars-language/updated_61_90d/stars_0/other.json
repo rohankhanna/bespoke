@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 12,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "concepts": 6,
+    "observations": 6,
+    "repos": 3,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
+    "Bearer/homebrew-tap",
     "mjvolk3/dendron-template"
   ]
 }

@@ -3,8 +3,8 @@
     "components": 0,
     "concepts": 11,
     "observations": 11,
-    "repos": 30,
-    "terms": 12
+    "repos": 10,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,37 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
-    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
-    "begmyratb/floweye-yyyxxx.cc",
-    "biparous-blaxploitation156/ciphermind",
-    "carloandremoreyra/xx",
-    "chafingdishposition355/go-skills",
     "conda-forge/conda-lock-feedstock",
     "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",
-    "danielrosehill/Arch-And-Interiors-Index",
-    "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
-    "danielrosehill/Claude-AI-Engineering-Plugin",
-    "danielrosehill/Claude-Audio-Production-Plugin",
-    "danielrosehill/Claude-Budgeting-Plugin",
-    "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Israel",
-    "danielrosehill/Claude-Workspace-Reshaping-190426",
-    "foundersieve687/skill-gateway",
-    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
-    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
-    "narutoxdd6/nyro",
-    "pragmatical-transshipment598/claude-code-workflows",
-    "shouted-numberone752/wechat-agent-connector",
-    "TransferQueue/community_doc",
-    "vivianalaced749/vk-calls-tunnel",
-    "wendyalbanez/clawui"
+    "TransferQueue/community_doc"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 537,
-    "concepts": 242,
-    "observations": 244,
-    "repos": 109,
-    "terms": 247
+    "components": 548,
+    "concepts": 246,
+    "observations": 249,
+    "repos": 112,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -30,9 +30,9 @@
     "antgroup/DeepXTrace",
     "apache/opendal-ofs",
     "automazeio/open-royalties",
+    "aws-cloudformation/cloudformation-resource-schema",
     "ayrat555/cargo-mode",
     "Azure/aaz-dev-tools",
-    "beayemx/gitviper",
     "beehive-lab/kfusion-tornadovm",
     "bentoml/BentoLMDeploy",
     "bincode-org/virtue",
@@ -62,6 +62,7 @@
     "eric-haibin-lin/verl-community",
     "erkyrath/glk-dev",
     "ethpandaops/optimism-package",
+    "fsspec/sshfs",
     "geekworm-com/xscript",
     "getumbrel/umbrel-lightning",
     "google/gnostic-models",
@@ -84,6 +85,7 @@
     "marcindulak/stt-mcp-server-linux",
     "markdown-it/markdown-it-abbr",
     "microsoft/LinuxTracepoints-Rust",
+    "minikube-ci/examples",
     "MINT-SJTU/STI-Bench",
     "mirage/ocaml-conduit",
     "modelscope/ms-enclave",
@@ -121,6 +123,7 @@
     "webdataset/WebDataset.jl",
     "wirasm/dylan",
     "ykdojo/cc-safe",
+    "zeng3ld/claude-session-restore",
     "zilliztech/kafka-connect-milvus"
   ]
 }

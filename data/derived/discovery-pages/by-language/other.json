@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0x7432/asm-ru",
@@ -482,7 +482,7 @@
     "creativescala/doodle",
     "crewAIInc/crewAI-examples",
     "cross-rs/cross-toolchains",
-    "crux82/CLiC-it_2023_tutorial",
+    "crux82/clic-it_2023_tutorial",
     "Cryptonomic/Conseil",
     "crytic/building-secure-contracts",
     "crytic/echidna",

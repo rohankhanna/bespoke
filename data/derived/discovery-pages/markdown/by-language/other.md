@@ -1,6 +1,6 @@
 # Other
 
-Generated at: `2026-04-26T07:06:32.247427+00:00`
+Generated at: `2026-04-27T05:36:53.281381+00:00`
 
 ## Active filters
 
@@ -1276,7 +1276,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abap-prep/abap_db_preparator](https://github.com/ABAP-prep/abap_db_preparator) | 3 | 2024-06-07T12:06:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [inside/vim-search-pulse](https://github.com/inside/vim-search-pulse) | 132 | 2024-06-07T07:51:35Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [babashka/pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy) | 17 | 2024-06-06T10:16:38Z | Other | Service/API | 0 | 0 | 0 | 0 |
-| [crux82/CLiC-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
+| [crux82/clic-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [rust-lang/rust.vim](https://github.com/rust-lang/rust.vim) | 4153 | 2024-06-02T21:15:07Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [larshp/uccp](https://github.com/larshp/uccp) | 0 | 2024-05-25T08:38:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [autofac/Autofac.Diagnostics.DotGraph](https://github.com/autofac/Autofac.Diagnostics.DotGraph) | 4 | 2024-05-24T14:19:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -2941,7 +2941,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rejeep/ansi.el](https://github.com/rejeep/ansi.el) | 30 | 2025-11-19T01:08:14Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [eki3z/git-cliff.el](https://github.com/eki3z/git-cliff.el) | 30 | 2025-02-16T22:17:03Z | Other | CLI | 3 | 3 | 3 | 3 |
 | [vim-denops/denops-shared-server.vim](https://github.com/vim-denops/denops-shared-server.vim) | 30 | 2024-08-18T17:00:27Z | Other | Service/API | 5 | 0 | 5 | 5 |
-| [crux82/CLiC-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
+| [crux82/clic-it_2023_tutorial](https://github.com/crux82/CLiC-it_2023_tutorial) | 30 | 2024-06-05T15:34:37Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [azret/llm.cs](https://github.com/azret/llm.cs) | 30 | 2024-04-23T01:45:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [blaine/fantastty](https://github.com/blaine/fantastty) | 29 | 2026-03-21T01:06:26Z | Other | CLI | 1 | 5 | 1 | 1 |
 | [aragon/staking](https://github.com/aragon/staking) | 29 | 2023-03-08T16:47:44Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |

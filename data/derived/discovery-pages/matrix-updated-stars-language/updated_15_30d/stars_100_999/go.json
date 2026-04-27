@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 16,
-    "terms": 82
+    "components": 120,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 17,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "adrg/xdg",
     "aws/credentials-fetcher",
@@ -24,6 +24,7 @@
     "ekalinin/github-markdown-toc.go",
     "ethereum-optimism/superchain-registry",
     "go-chi/docgen",
+    "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
     "imjasonh/kontain.me",
     "ipfs/go-cid",

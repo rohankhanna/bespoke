@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 40,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 2,
+    "terms": 8
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "repo_ids": [
+    "denoland/deno",
+    "rust-lang/rust"
+  ]
+}

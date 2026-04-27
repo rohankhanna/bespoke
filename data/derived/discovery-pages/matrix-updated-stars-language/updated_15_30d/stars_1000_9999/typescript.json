@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 775,
-    "concepts": 150,
-    "observations": 151,
-    "repos": 21,
-    "terms": 157
+    "components": 808,
+    "concepts": 157,
+    "observations": 158,
+    "repos": 22,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
+    "actions/typescript-action",
     "allweonedev/presentation-ai",
     "badgen/badgen.net",
     "bash-lsp/bash-language-server",

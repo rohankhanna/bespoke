@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 11,
-    "terms": 68
+    "components": 43,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 13,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "alfredolopez80/multi-agent-ralph-loop",
@@ -20,10 +20,12 @@
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "EmbarkStudios/cargo-deny-action",
+    "ericbuess/claude-code-docs",
     "kubernetes/sig-release",
     "nodenv/node-build",
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
+    "serpro69/claude-toolbox",
     "undeadlist/claude-code-agents"
   ]
 }

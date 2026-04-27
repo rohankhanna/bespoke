@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 217,
-    "observations": 217,
-    "repos": 40,
-    "terms": 215
+    "components": 227,
+    "concepts": 214,
+    "observations": 214,
+    "repos": 39,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actboy168/bee.lua",
     "acts-project/acts",
@@ -37,7 +37,6 @@
     "KhronosGroup/SPIRV-Headers",
     "lxqt/qterminal",
     "lxqt/qtermwidget",
-    "microsoft/vcpkg-tool",
     "mitsuba-renderer/drjit",
     "nss-dev/nss",
     "openvinotoolkit/model_server",

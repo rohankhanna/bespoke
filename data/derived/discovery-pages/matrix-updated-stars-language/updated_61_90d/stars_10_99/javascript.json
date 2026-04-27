@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 14,
-    "observations": 15,
-    "repos": 5,
-    "terms": 14
+    "components": 55,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "coderaiser/mock-import",
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",
-    "kunwar-shah/claudex",
-    "minikube-ci/examples"
+    "kunwar-shah/claudex"
   ]
 }

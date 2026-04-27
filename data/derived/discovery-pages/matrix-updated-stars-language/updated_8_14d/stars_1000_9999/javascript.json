@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 348,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 17,
-    "terms": 85
+    "components": 430,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 20,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actions/javascript-action",
     "apollographql/eslint-plugin-graphql",
     "archiverjs/node-archiver",
     "asciinema/asciinema-player",
     "bcoe/c8",
+    "callstack/react-native-builder-bob",
     "codemirror/dev",
+    "DavidAnson/markdownlint",
     "gautamkrishnar/blog-post-workflow",
     "google/closure-compiler",
     "igorshubovych/markdownlint-cli",
@@ -28,6 +30,7 @@
     "npm/cli",
     "npm/node-semver",
     "piebald-ai/claude-code-system-prompts",
+    "rullerzhou-afk/clawd-on-desk",
     "tc39/agendas",
     "webtorrent/webtorrent-cli",
     "WiseLibs/better-sqlite3"

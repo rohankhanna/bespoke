@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 335,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 9,
-    "terms": 41
+    "components": 343,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 10,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "absolute-version/absolute-version-js",
     "blrchen/chatgpt-minimal",
@@ -22,6 +22,7 @@
     "ipfs/ipld-explorer-components",
     "jerseycheese/narraitor",
     "microsoft/vscode-js-debug-companion",
-    "Shougo/ddu-ui-ff"
+    "Shougo/ddu-ui-ff",
+    "zhayujie/cow-skill-hub"
   ]
 }

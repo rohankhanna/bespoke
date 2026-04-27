@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 89,
-    "observations": 90,
-    "repos": 31,
-    "terms": 99
+    "components": 119,
+    "concepts": 95,
+    "observations": 96,
+    "repos": 33,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "AgentR1/Claw-R1",
     "ahmedasmar/devops-claude-skills",
     "AIR-Bench/AIR-Bench",
-    "akin-ozer/cc-devops-skills",
     "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
     "allenai/IFBench",
     "biocypher/biocypher",
+    "chaiNNer-org/spandrel",
     "ddh0/easy-llama",
     "facebookresearch/optimizers",
     "facebookresearch/RAM",
@@ -38,7 +38,9 @@
     "MinimalFuture/AgentMesh",
     "modelscope/DiffSynth-Engine",
     "mosaicml/diffusion",
+    "nuprl/MultiPL-E",
     "pnkraemer/matfree",
+    "pypa/auditwheel",
     "python/typing_extensions",
     "spesmilo/electrumx",
     "syncthing/docs",

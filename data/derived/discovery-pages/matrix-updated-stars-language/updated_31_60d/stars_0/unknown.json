@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 4,
-    "terms": 7
+    "concepts": 14,
+    "observations": 14,
+    "repos": 7,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/AI-Projects-Index",
+    "danielrosehill/Backup-Projects-Index",
+    "danielrosehill/Context-Projects-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "DataDog/opa",
     "kleisauke/glib"

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 8772,
-    "concepts": 4281,
-    "observations": 4298,
-    "repos": 1550,
-    "terms": 4364
+    "components": 8768,
+    "concepts": 4279,
+    "observations": 4296,
+    "repos": 1549,
+    "terms": 4362
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0ghny/gitconfig",
@@ -181,7 +181,6 @@
     "ancorso/LLMWargaming",
     "andelf/axcli",
     "andelf/picc",
-    "anderejd/cargo-geiger",
     "andreock/AdguardHomeAPI",
     "androidStern-personal/openclaw-mcp-adapter",
     "andyluo7/autoresearch",
@@ -552,7 +551,7 @@
     "cri-o/packaging",
     "criteo/mesos-term",
     "CROSS-signature/CROSS-implementation",
-    "crux82/CLiC-it_2023_tutorial",
+    "crux82/clic-it_2023_tutorial",
     "CryptArchy/regex_generate",
     "Cryptonomic/Conseil",
     "Cryptonomic/T2",

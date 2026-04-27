@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 13,
-    "terms": 65
+    "components": 95,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 16,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
+    "cowboy8625/rusty-rain",
     "cuviper/autocfg",
     "dtolnay/prettyplease",
     "georust/proj",
     "gwihlidal/vk-mem-rs",
     "ImageOptim/libimagequant",
     "kata-containers/cgroups-rs",
+    "KyleMayes/clang-rs",
+    "KyleMayes/clang-sys",
     "ratatui/templates",
     "smol-rs/async-executor",
     "tsonglew/dutis",

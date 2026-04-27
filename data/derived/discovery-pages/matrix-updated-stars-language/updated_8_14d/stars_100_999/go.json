@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 109,
-    "observations": 112,
-    "repos": 22,
-    "terms": 119
+    "components": 217,
+    "concepts": 150,
+    "observations": 153,
+    "repos": 26,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,33 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "apache/dubbo-go-pixiu",
     "argoproj-labs/argo-rollouts-manager",
+    "ByteNess/aws-vault",
     "celo-org/celo-blockchain",
     "charmbracelet/colorprofile",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "coder/envbuilder",
     "darkweak/souin",
+    "dependabot/cli",
     "ethereum-optimism/op-geth",
     "foxj77/claudectx",
     "go-viper/mapstructure",
     "hashicorp/errwrap",
-    "hashicorp/go-discover",
     "jaegertracing/jaeger-idl",
     "kubernetes-sigs/boskos",
+    "kubernetes-sigs/controller-tools",
     "kubernetes/cri-api",
     "Layr-Labs/eigenda",
     "open-telemetry/opentelemetry-collector-releases",
     "phiat/claude-esp",
     "prehisle/relay-pulse",
     "skenetechnologies/skene",
-    "SpecterOps/AzureHound"
+    "SpecterOps/AzureHound",
+    "terraform-linters/tflint-ruleset-aws",
+    "terraform-linters/tflint-ruleset-azurerm"
   ]
 }

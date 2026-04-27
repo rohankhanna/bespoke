@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3249,
-    "concepts": 1655,
-    "observations": 1660,
+    "components": 3245,
+    "concepts": 1657,
+    "observations": 1662,
     "repos": 785,
-    "terms": 1646
+    "terms": 1648
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0x7432/asm-ru",
     "0xC0000054/libheif-sharp",
@@ -95,7 +95,6 @@
     "anandpiyer/seoul256-emacs",
     "anapnoe/sd-webui-ux",
     "ancorso/LLMWargaming",
-    "anderejd/cargo-geiger",
     "andreock/AdguardHomeAPI",
     "angelozerr/ec4e",
     "anguslees/kustomize-libsonnet",
@@ -166,6 +165,7 @@
     "bandali/rust-for-c",
     "basecase/testdouble-chai",
     "bchr02/node-pre-gyp-github",
+    "beayemx/gitviper",
     "bentoml/BentoChatTTS",
     "bentoml/BentoColPali",
     "bentoml/BentoCrewAI",
@@ -265,7 +265,7 @@
     "crashr/gppm",
     "crev-dev/pip-crev",
     "criteo/mesos-term",
-    "crux82/CLiC-it_2023_tutorial",
+    "crux82/clic-it_2023_tutorial",
     "CryptArchy/regex_generate",
     "Cryptonomic/Conseil",
     "Cryptonomic/T2",

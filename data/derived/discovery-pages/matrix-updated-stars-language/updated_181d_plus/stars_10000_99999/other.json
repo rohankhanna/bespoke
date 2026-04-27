@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 85,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 31,
-    "terms": 121
+    "concepts": 127,
+    "observations": 127,
+    "repos": 32,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
+    "adobe-fonts/source-code-pro",
     "altercation/solarized",
     "animate-css/animate.css",
     "artidoro/qlora",

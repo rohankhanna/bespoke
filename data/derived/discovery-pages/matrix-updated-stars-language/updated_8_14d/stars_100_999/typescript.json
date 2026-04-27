@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 28,
-    "terms": 131
+    "components": 645,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 32,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
     "AmElmo/proofshot",
     "atomicmemory/llm-wiki-compiler",
     "badlogic/pi-share-hf",
+    "blrchen/chatgpt-lite",
     "curiousdannii/parchment",
     "devcontainers/ci",
     "evmts/tevm-monorepo",
-    "fastify/demo",
     "giselles-ai/giselle",
     "GoogleCloudPlatform/wombat-dressing-room",
+    "grubersjoe/github-contributions-api",
+    "grubersjoe/react-activity-calendar",
+    "grubersjoe/react-github-calendar",
     "k-dense-ai/k-dense-byok",
     "lewislulu/llm-wiki-skill",
     "lobehub/lobe-chat-plugins",
@@ -41,6 +44,7 @@
     "stx-labs/stacks.js",
     "timkindberg/jest-when",
     "tombii/better-ccflare",
+    "tony1223/better-agent-terminal",
     "vibe-log/vibe-log-cli"
   ]
 }

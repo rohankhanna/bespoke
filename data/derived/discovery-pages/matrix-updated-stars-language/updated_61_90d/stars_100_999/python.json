@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 125,
-    "observations": 125,
+    "components": 52,
+    "concepts": 119,
+    "observations": 119,
     "repos": 25,
-    "terms": 123
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -20,15 +20,15 @@
     "alex-petrenko/sample-factory",
     "alfworld/alfworld",
     "alonw0/web-asset-generator",
-    "AMAP-ML/Tree-GRPO",
+    "araffin/sbx",
     "berkerpeksag/astor",
     "breezedeus/CnSTD",
     "cleinc/bts",
     "dualverse-ai/station",
     "githubharald/CTCDecoder",
+    "google/adk-python-community",
     "inducer/cgen",
     "intel/ai-reference-models",
-    "marin-community/levanter",
     "metauto-ai/GPTSwarm",
     "MMMU-Benchmark/MMMU",
     "OpenBMB/infllmv2_cuda_impl",

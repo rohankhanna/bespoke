@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 716,
-    "concepts": 493,
-    "observations": 493,
-    "repos": 93,
-    "terms": 492
+    "components": 623,
+    "concepts": 500,
+    "observations": 500,
+    "repos": 95,
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "3rd/image.nvim",
@@ -56,12 +56,11 @@
     "fschutt/printpdf",
     "Glavin001/atom-beautify",
     "go-rod/rod",
-    "google/fuzzbench",
     "graphql-python/graphene-django",
     "greggh/claude-code.nvim",
     "GREsau/schemars",
+    "hpjansson/chafa",
     "instrumenta/kubeval",
-    "ipfs/ipfs-companion",
     "istanbuljs/nyc",
     "jkuhlmann/cgltf",
     "jorgebucaran/fisher",
@@ -81,10 +80,12 @@
     "onsails/lspkind.nvim",
     "open-mmlab/mmcv",
     "OpenBMB/MiniCPM",
+    "orogene/orogene",
     "PaddlePaddle/PaddleSeg",
     "parruda/swarm",
     "pramsey/pgsql-http",
     "Python-Markdown/markdown",
+    "qix-/better-exceptions",
     "r-lyeh/single_file_libs",
     "rails/tailwindcss-rails",
     "react-native-netinfo/react-native-netinfo",
@@ -98,6 +99,7 @@
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "sindresorhus/ponyfill",
+    "stevearc/aerial.nvim",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
     "tokio-rs/loom",

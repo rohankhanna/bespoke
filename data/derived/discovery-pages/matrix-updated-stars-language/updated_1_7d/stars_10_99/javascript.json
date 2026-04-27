@@ -3,7 +3,7 @@
     "components": 158,
     "concepts": 40,
     "observations": 40,
-    "repos": 12,
+    "repos": 11,
     "terms": 40
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "alexellis/arkade-get",
     "bufbuild/protobuf-conformance",
     "GuillaumeGomez/browser-UI-test",
-    "itsrishika/payment-bypass-bug-lab",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
     "newrelic/newrelic-node-apollo-server-plugin",

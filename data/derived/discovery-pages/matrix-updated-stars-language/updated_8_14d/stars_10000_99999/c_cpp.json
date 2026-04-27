@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 19,
-    "terms": 125
+    "components": 172,
+    "concepts": 132,
+    "observations": 132,
+    "repos": 20,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "ApolloAuto/apollo",
     "aristocratos/btop",
@@ -20,16 +20,17 @@
     "Cyan4973/xxHash",
     "davatorium/rofi",
     "gabime/spdlog",
+    "ggml-org/whisper.cpp",
     "google/flatbuffers",
     "google/skia",
     "jedisct1/libsodium",
     "microsoft/wslg",
     "mozilla-ai/llamafile",
-    "ninja-build/ninja",
     "nothings/stb",
     "NVIDIA/TensorRT",
     "opencv/opencv_contrib",
     "pgvector/pgvector",
+    "px4/px4-autopilot",
     "pybind/pybind11",
     "tmux/tmux",
     "tsl0922/ttyd"

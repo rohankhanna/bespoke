@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1187,
-    "concepts": 962,
-    "observations": 965,
-    "repos": 130,
-    "terms": 953
+    "components": 1081,
+    "concepts": 921,
+    "observations": 924,
+    "repos": 126,
+    "terms": 912
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
     "abapGit/abapGit",
-    "adobe/spectrum-css",
     "alchaincyf/huashu-design",
     "all-contributors/allcontributors.org",
     "AnswerDotAI/fastcore",
     "apollographql/apollo-ios",
-    "apple/containerization",
     "apple/swift-argument-parser",
     "apple/swift-crypto",
     "apple/swift-protobuf",
@@ -72,7 +70,6 @@
     "google/flax",
     "googleapis/googleapis",
     "GoogleCloudPlatform/kubernetes-engine-samples",
-    "haskell/haskell-language-server",
     "ibhagwan/fzf-lua",
     "jeremyevans/sequel",
     "knative/docs",
@@ -109,7 +106,6 @@
     "prometheus-community/helm-charts",
     "prometheus-operator/kube-prometheus",
     "psmux/psmux",
-    "puma/puma",
     "purcell/emacs.d",
     "purcell/exec-path-from-shell",
     "puremourning/vimspector",

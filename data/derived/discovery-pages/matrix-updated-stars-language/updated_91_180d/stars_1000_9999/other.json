@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 142,
-    "observations": 143,
-    "repos": 34,
-    "terms": 141
+    "components": 48,
+    "concepts": 136,
+    "observations": 137,
+    "repos": 32,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "andrewrk/poop",
@@ -24,13 +24,11 @@
     "cpm-cmake/CPM.cmake",
     "EleutherAI/pythia",
     "emacs-lsp/lsp-ui",
-    "folke/flash.nvim",
     "fsprojects/Paket",
     "fukuball/jieba-php",
     "GEOSwift/GEOSwift",
     "gf3/dotfiles",
     "haskell/stylish-haskell",
-    "honza/vim-snippets",
     "huggingface/swift-coreml-diffusers",
     "justinmk/vim-sneak",
     "karb94/neoscroll.nvim",

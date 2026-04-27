@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1418,
-    "concepts": 1227,
-    "observations": 1230,
-    "repos": 104,
-    "terms": 1234
+    "components": 1279,
+    "concepts": 1113,
+    "observations": 1115,
+    "repos": 93,
+    "terms": 1103
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "aden-hive/hive",
-    "aio-libs/aiohttp",
     "akfamily/akshare",
     "ansible/ansible",
     "apache/airflow",
@@ -26,7 +25,6 @@
     "BerriAI/litellm",
     "BlinkDL/RWKV-LM",
     "camel-ai/camel",
-    "caronc/apprise",
     "celery/celery",
     "Chia-Network/chia-blockchain",
     "chubin/wttr.in",
@@ -36,8 +34,6 @@
     "cupy/cupy",
     "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
-    "django/django",
-    "DLR-RM/stable-baselines3",
     "docling-project/docling",
     "emmabostian/developer-portfolios",
     "eosphoros-ai/DB-GPT",
@@ -53,7 +49,6 @@
     "giampaolo/psutil",
     "google/adk-python",
     "gradio-app/gradio",
-    "hesreallyhim/awesome-claude-code",
     "hiyouga/LlamaFactory",
     "HKUDS/LightRAG",
     "home-assistant/core",
@@ -67,7 +62,6 @@
     "keras-team/keras",
     "kovidgoyal/kitty",
     "langbot-app/LangBot",
-    "langchain-ai/langgraph",
     "Lightning-AI/pytorch-lightning",
     "ManimCommunity/manim",
     "matplotlib/matplotlib",
@@ -77,7 +71,6 @@
     "modelcontextprotocol/python-sdk",
     "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",
-    "nginx-proxy/nginx-proxy",
     "nodejs/node-gyp",
     "numba/numba",
     "numpy/numpy",
@@ -85,11 +78,9 @@
     "NVIDIA/Megatron-LM",
     "NVIDIA/TensorRT-LLM",
     "onnx/onnx",
-    "onyx-dot-app/onyx",
     "oobabooga/textgen",
     "openai/openai-agents-python",
     "OpenHands/OpenHands",
-    "oraios/serena",
     "PaddlePaddle/PaddleOCR",
     "plotly/dash",
     "psf/black",
@@ -105,7 +96,6 @@
     "ray-project/ray",
     "redis/redis-py",
     "run-llama/llama_index",
-    "sgl-project/sglang",
     "stanfordnlp/dspy",
     "streamlit/streamlit",
     "SWE-agent/SWE-agent",
@@ -115,7 +105,6 @@
     "unslothai/unsloth",
     "vega/altair",
     "verl-project/verl",
-    "vllm-project/vllm",
     "voxel51/fiftyone",
     "zhayujie/CowAgent"
   ]

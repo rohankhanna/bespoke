@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 231,
-    "observations": 231,
-    "repos": 46,
-    "terms": 263
+    "components": 304,
+    "concepts": 266,
+    "observations": 266,
+    "repos": 50,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actboy168/luamake",
+    "agourlay/cornichon",
     "akash-akya/vix",
     "aws-samples/anthropic-on-aws",
     "awslabs/s2n-bignum",
     "basf/MolPipeline",
-    "bazel-contrib/rules_oci",
     "BcryptNet/bcrypt.net",
+    "biopragmatics/bioregistry",
+    "BorisPolonsky/dify-helm",
     "caddyserver/website",
+    "clojure-emacs/cider-nrepl",
     "CocoaPods/Molinillo",
     "connectrpc/connect-swift",
     "dart-lang/test",
@@ -46,8 +49,8 @@
     "nvim-mini/mini.icons",
     "open-telemetry/opentelemetry-proto",
     "openclaw/nix-openclaw",
-    "paretosecurity/pareto-mac",
     "pytorch/pytorch.github.io",
+    "r-spatial/stars",
     "REditorSupport/languageserver",
     "robur-coop/albatross",
     "sebastienros/esprima-dotnet",
@@ -59,6 +62,7 @@
     "supranational/blst",
     "swiftlang/swiftly",
     "tc39/ecma402",
-    "usnistgov/ACVP-Server"
+    "usnistgov/ACVP-Server",
+    "vim-fuzzbox/fuzzbox.vim"
   ]
 }

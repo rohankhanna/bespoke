@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 2,
-    "terms": 11
+    "components": 5,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 3,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
-    "knownsec/404StarLink"
+    "knownsec/404StarLink",
+    "vuejs/awesome-vue"
   ]
 }

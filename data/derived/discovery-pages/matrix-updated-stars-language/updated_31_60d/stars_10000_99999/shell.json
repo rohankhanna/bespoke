@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 3,
-    "terms": 13
+    "concepts": 24,
+    "observations": 24,
+    "repos": 4,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "rbenv/rbenv",
     "romkatv/powerlevel10k",
+    "sindresorhus/pure",
     "sorin-ionescu/prezto"
   ]
 }

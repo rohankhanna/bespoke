@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 892,
-    "concepts": 570,
-    "observations": 572,
-    "repos": 72,
-    "terms": 567
+    "components": 888,
+    "concepts": 551,
+    "observations": 554,
+    "repos": 70,
+    "terms": 548
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -43,7 +43,6 @@
     "facebookresearch/detectron2",
     "facebookresearch/sam2",
     "fastai/fastai",
-    "fatih/vim-go",
     "fishaudio/fish-speech",
     "g-truc/glm",
     "glfw/glfw",
@@ -58,32 +57,31 @@
     "hyperium/hyper",
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
-    "Kong/kong",
     "labstack/echo",
     "LazyVim/LazyVim",
+    "letta-ai/letta",
     "libgit2/libgit2",
     "lsd-rs/lsd",
     "lz4/lz4",
     "microsoft/language-server-protocol",
     "Mrs4s/go-cqhttp",
+    "ninja-build/ninja",
     "nlohmann/json",
     "NVIDIA/open-gpu-kernel-modules",
     "nvim-treesitter/nvim-treesitter",
     "nvm-sh/nvm",
     "oh-my-fish/oh-my-fish",
-    "openai/tiktoken",
     "OpenBMB/ChatDev",
     "parcel-bundler/parcel",
     "preactjs/preact",
     "reactjs/react.dev",
     "ruvnet/ruflo",
-    "sindresorhus/pure",
     "spaceship-prompt/spaceship-prompt",
     "spotify/luigi",
     "subframe7536/maple-font",
     "termux/termux-app",
+    "Textualize/rich",
     "thu-ml/tianshou",
-    "tobi/qmd",
-    "vuejs/awesome-vue"
+    "tobi/qmd"
   ]
 }

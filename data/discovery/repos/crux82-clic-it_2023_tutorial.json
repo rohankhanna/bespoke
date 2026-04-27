@@ -51,13 +51,14 @@
       "size": 2837
     }
   ],
+  "metadata_refreshed_at": "2026-04-27T05:36:53.151571+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "This repository hosts materials from the CLiC-IT 2023 tutorial",
     "fork": false,
-    "full_name": "crux82/CLiC-it_2023_tutorial",
+    "full_name": "crux82/clic-it_2023_tutorial",
     "html_url": "https://github.com/crux82/CLiC-it_2023_tutorial",
     "language": "Jupyter Notebook",
     "pushed_at": "2024-06-05T15:34:37Z",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 319,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 15,
-    "terms": 82
+    "components": 413,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 19,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "agent-sh/agentsys",
     "bmad-code-org/bmad-module-game-dev-studio",
+    "coderaiser/putout",
     "electron/node-abi",
     "eslint-community/eslint-plugin-n",
+    "fastify/fastify-autoload",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
+    "jupyter/nbclassic",
     "karma-runner/karma-coverage",
     "lis186/ccxray",
     "lobehub/lobe-editor",
     "mattgodbolt/jsbeeb",
+    "nodejs/admin",
     "nodejs/TSC",
     "octokit/request-action",
     "sethgammon/citadel",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 250,
-    "observations": 252,
-    "repos": 42,
-    "terms": 255
+    "components": 362,
+    "concepts": 279,
+    "observations": 281,
+    "repos": 44,
+    "terms": 284
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "actions/runner",
     "adobe-type-tools/afdko",
+    "adobe/spectrum-css",
     "alchaincyf/darwin-skill",
+    "apple/containerization",
     "apple/swift-log",
     "automazeio/vibeproxy",
     "BLAKE3-team/BLAKE3",
@@ -24,13 +26,12 @@
     "crytic/building-secure-contracts",
     "crytic/echidna",
     "Denys88/rl_games",
-    "dotnet/machinelearning",
     "durgeshsamariya/awesome-github-profile-readme-templates",
     "dwyl/learn-elixir",
     "gohugoio/hugoDocs",
     "GoogleCloudPlatform/vertex-ai-creative-studio",
     "grain-lang/grain",
-    "itchyny/lightline.vim",
+    "haskell/haskell-language-server",
     "jeremyevans/roda",
     "junegunn/seoul256.vim",
     "KhronosGroup/glTF",
@@ -43,6 +44,7 @@
     "ocaml/opam",
     "pinterest/ktlint",
     "prabirshrestha/vim-lsp",
+    "puma/puma",
     "pyannote/pyannote-audio",
     "pyenv-win/pyenv-win",
     "radian-software/straight.el",

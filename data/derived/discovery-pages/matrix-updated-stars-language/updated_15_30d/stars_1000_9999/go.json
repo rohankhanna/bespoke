@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 207,
-    "observations": 207,
-    "repos": 29,
-    "terms": 205
+    "components": 201,
+    "concepts": 226,
+    "observations": 226,
+    "repos": 32,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-26T07:06:32.247427+00:00",
+  "generated_at": "2026-04-27T05:36:53.281381+00:00",
   "repo_ids": [
     "arl/statsviz",
     "azure/aztfexport",
@@ -27,9 +27,11 @@
     "fnproject/fn",
     "gobackup/gobackup",
     "golang/mobile",
+    "gopasspw/gopass",
     "grpc-ecosystem/grpc-health-probe",
     "hashicorp/go-version",
     "hashicorp/hcl",
+    "hashicorp/raft",
     "itchyny/gojq",
     "klauspost/compress",
     "kubernetes-sigs/prometheus-adapter",
@@ -39,6 +41,7 @@
     "probonopd/go-appimage",
     "rest-sh/restish",
     "rootless-containers/rootlesskit",
+    "schachmat/wego",
     "smtg-ai/claude-squad",
     "tensorchord/envd",
     "uptrace/bun",
