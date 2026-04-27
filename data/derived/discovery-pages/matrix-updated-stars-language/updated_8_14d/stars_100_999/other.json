@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 304,
-    "concepts": 266,
-    "observations": 266,
-    "repos": 50,
-    "terms": 290
+    "components": 333,
+    "concepts": 275,
+    "observations": 275,
+    "repos": 52,
+    "terms": 299
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "actboy168/luamake",
     "agourlay/cornichon",
     "akash-akya/vix",
+    "aspect-build/bazel-examples",
     "aws-samples/anthropic-on-aws",
     "awslabs/s2n-bignum",
     "basf/MolPipeline",
@@ -32,6 +33,7 @@
     "dgSPARSE/dgSPARSE-Lib",
     "dwyl/auth",
     "elixir-lang/elixir-lang.github.com",
+    "emacs-tree-sitter/tree-sitter-langs",
     "ethereum/beacon-APIs",
     "fourmolu/fourmolu",
     "GoogleCloudPlatform/vertex-ai-samples",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11422,
-    "concepts": 4806,
-    "observations": 4829,
-    "repos": 423,
-    "terms": 4768
+    "components": 11414,
+    "concepts": 4781,
+    "observations": 4804,
+    "repos": 422,
+    "terms": 4743
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "89luca89/distrobox",
@@ -31,7 +31,6 @@
     "AlDanial/cloc",
     "alibaba/MNN",
     "alibaba/nacos",
-    "alibaba/spring-cloud-alibaba",
     "analysis-tools-dev/static-analysis",
     "ansible/ansible",
     "anthropics/claude-cookbooks",

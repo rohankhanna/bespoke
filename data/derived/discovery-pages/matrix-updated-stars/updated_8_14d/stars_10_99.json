@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1047,
+    "components": 1053,
     "concepts": 367,
     "observations": 369,
-    "repos": 126,
-    "terms": 439
+    "repos": 130,
+    "terms": 443
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "64bit/commandOK",
@@ -36,6 +36,7 @@
     "barak/minidjvu",
     "bazel-contrib/rules_distroless",
     "benchsci/rules_nodejs_gazelle",
+    "beyondcode/claude-hooks-sdk",
     "blinklabs-io/bluefin",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
@@ -91,6 +92,9 @@
     "lblankl/Short-RL",
     "liangshengyong/lanwan",
     "lobehub/lobe-lint",
+    "lxqt/liblxqt",
+    "lxqt/libqtxdg",
+    "lxqt/lxqt-build-tools",
     "m2e-code-quality/m2e-code-quality",
     "magodo/aztft",
     "marciogranzotto/clawd-tank",

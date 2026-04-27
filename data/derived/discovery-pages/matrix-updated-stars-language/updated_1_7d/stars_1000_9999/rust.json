@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 872,
-    "concepts": 589,
-    "observations": 591,
-    "repos": 75,
-    "terms": 589
+    "components": 862,
+    "concepts": 578,
+    "observations": 580,
+    "repos": 74,
+    "terms": 578
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -30,7 +30,6 @@
     "bluealloy/revm",
     "cargo-generate/cargo-generate",
     "compio-rs/compio",
-    "dalek-cryptography/curve25519-dalek",
     "dathere/qsv",
     "DeterminateSystems/nix-installer",
     "dimforge/nalgebra",

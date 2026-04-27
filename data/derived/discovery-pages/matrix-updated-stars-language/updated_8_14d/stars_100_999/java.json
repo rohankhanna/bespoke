@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 5,
-    "terms": 21
+    "components": 43,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 6,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "carrot2/carrot2",
+    "Cosium/git-code-format-maven-plugin",
     "eclipse-lsp4j/lsp4j",
     "higress-group/higress-console",
     "microsoft/java-debug",

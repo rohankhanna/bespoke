@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 4,
-    "terms": 19
+    "components": 58,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 3,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "caolan/async",
-    "chalk/chalk",
     "FortAwesome/Font-Awesome",
     "gulpjs/gulp"
   ]

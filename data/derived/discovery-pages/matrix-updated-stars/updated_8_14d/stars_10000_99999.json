@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3200,
-    "concepts": 1298,
-    "observations": 1304,
-    "repos": 175,
-    "terms": 1362
+    "components": 3208,
+    "concepts": 1323,
+    "observations": 1329,
+    "repos": 176,
+    "terms": 1387
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -25,6 +25,7 @@
     "alacritty/alacritty",
     "alchaincyf/nuwa-skill",
     "alexandresanlim/Badges4-README.md-Profile",
+    "alibaba/spring-cloud-alibaba",
     "alirezarezvani/claude-skills",
     "anthropics/claude-plugins-official",
     "apache/spark",

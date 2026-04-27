@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2967,
-    "concepts": 2028,
-    "observations": 2044,
-    "repos": 565,
-    "terms": 2041
+    "components": 2980,
+    "concepts": 2037,
+    "observations": 2053,
+    "repos": 566,
+    "terms": 2050
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -135,6 +135,7 @@
     "catch-twenty-two/rust-ssd",
     "cedar-policy/rfcs",
     "cehoffman/lua-build",
+    "chalk/chalk",
     "ChaoningZhang/MobileSAM",
     "charm-and-friends/additional-bubbles",
     "charmbracelet/skate",

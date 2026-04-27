@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 487,
-    "concepts": 304,
-    "observations": 304,
-    "repos": 42,
-    "terms": 319
+    "components": 497,
+    "concepts": 315,
+    "observations": 315,
+    "repos": 43,
+    "terms": 330
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
@@ -27,6 +27,7 @@
     "cedar-policy/cedar",
     "crate-ci/typos",
     "crev-dev/cargo-crev",
+    "dalek-cryptography/curve25519-dalek",
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
     "eventual-inc/daft",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2060,
+    "components": 2054,
     "concepts": 919,
     "observations": 923,
-    "repos": 198,
-    "terms": 919
+    "repos": 194,
+    "terms": 915
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "3rd/config",
@@ -57,7 +57,6 @@
     "bazel-contrib/rules_d",
     "bazel-contrib/rules_jvm",
     "be-hase/caffeine-coroutines",
-    "beyondcode/claude-hooks-sdk",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "bitnami/vulndb",
@@ -140,9 +139,6 @@
     "kubernetes-sigs/verify-conformance",
     "llamastack/llama-stack-client-typescript",
     "Looong01/pyg-rocm-build",
-    "lxqt/liblxqt",
-    "lxqt/libqtxdg",
-    "lxqt/lxqt-build-tools",
     "major7apps/pensyve",
     "Mbed-TLS/TF-PSA-Crypto",
     "mcous/vitest-when",

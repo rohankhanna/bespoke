@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 418,
-    "concepts": 394,
-    "observations": 395,
+    "components": 412,
+    "concepts": 389,
+    "observations": 390,
     "repos": 49,
-    "terms": 400
+    "terms": 395
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -28,7 +28,6 @@
     "bazelbuild/bazelisk",
     "Bearer/bearer",
     "bensadeh/circumflex",
-    "boyter/scc",
     "bufbuild/protovalidate",
     "BurntSushi/toml",
     "candid82/joker",
@@ -38,6 +37,7 @@
     "docker/cli",
     "gin-gonic/examples",
     "google/gnostic",
+    "GoogleCloudPlatform/berglas",
     "GoogleContainerTools/container-structure-test",
     "gotestyourself/gotestsum",
     "hairyhenderson/gomplate",

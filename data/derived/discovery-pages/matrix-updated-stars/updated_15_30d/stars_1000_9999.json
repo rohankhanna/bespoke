@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 2122,
-    "concepts": 1228,
-    "observations": 1232,
-    "repos": 206,
-    "terms": 1230
+    "components": 2129,
+    "concepts": 1246,
+    "observations": 1250,
+    "repos": 207,
+    "terms": 1248
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "6551Team/opennews-mcp",
     "acss-io/atomizer",
     "actions/typescript-action",
+    "AIPexStudio/AIPex",
     "airblade/vim-gitgutter",
     "ajenti/ajenti",
     "akermu/emacs-libvterm",
@@ -37,6 +38,7 @@
     "behisecc/awesome-claude-skills",
     "bitshifter/glam-rs",
     "bnb-chain/tss-lib",
+    "boyter/scc",
     "bpython/bpython",
     "btcsuite/btcd",
     "BurntSushi/quickcheck",
@@ -61,7 +63,6 @@
     "davidbyttow/govips",
     "deepspeedai/DeepSpeedExamples",
     "devcontainers/templates",
-    "django/channels",
     "django/daphne",
     "dkron-io/dkron",
     "DLTcollab/sse2neon",
@@ -96,6 +97,7 @@
     "google-github-actions/run-gemini-cli",
     "google/double-conversion",
     "google/draco",
+    "google/honggfuzz",
     "gopasspw/gopass",
     "gpu-mode/Triton-Puzzles",
     "graphql-python/gql",
@@ -148,7 +150,6 @@
     "microsoft/MInference",
     "microsoft/node-pty",
     "microsoft/pylance-release",
-    "microsoft/snmalloc",
     "microsoft/vscode-recipes",
     "miguelgrinberg/python-socketio",
     "mitsuhiko/insta",

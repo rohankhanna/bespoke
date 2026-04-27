@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 19,
-    "terms": 118
+    "components": 445,
+    "concepts": 100,
+    "observations": 101,
+    "repos": 20,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "agent-sh/agentsys",
@@ -31,6 +31,7 @@
     "nodejs/admin",
     "nodejs/TSC",
     "octokit/request-action",
+    "semantic-release/npm",
     "sethgammon/citadel",
     "stripe-samples/accept-a-payment"
   ]

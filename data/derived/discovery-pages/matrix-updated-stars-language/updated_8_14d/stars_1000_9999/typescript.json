@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1755,
-    "concepts": 288,
-    "observations": 289,
-    "repos": 51,
-    "terms": 394
+    "components": 1742,
+    "concepts": 275,
+    "observations": 276,
+    "repos": 50,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "actions/upload-artifact",
-    "AIPexStudio/AIPex",
     "anthropics/claude-code-action",
     "apollographql/apollo-tooling",
     "archestra-ai/archestra",

@@ -1,21 +1,22 @@
 {
   "counts": {
     "components": 88,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 31,
-    "terms": 90
+    "concepts": 93,
+    "observations": 93,
+    "repos": 32,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0k/shyaml-rs",
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
+    "alexpolonsky/agent-skill-jlm-coffee",
     "arya-s/phantty",
     "avivshafir/israeli-corporate-law-skill",
     "biocypher/collectri",

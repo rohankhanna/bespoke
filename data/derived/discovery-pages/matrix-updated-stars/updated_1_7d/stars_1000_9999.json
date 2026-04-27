@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9250,
-    "concepts": 5534,
-    "observations": 5553,
-    "repos": 668,
-    "terms": 5504
+    "components": 9209,
+    "concepts": 5496,
+    "observations": 5515,
+    "repos": 664,
+    "terms": 5468
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xAX/asm",
@@ -151,7 +151,6 @@
     "chromebrew/chromebrew",
     "ChromeDevTools/devtools-frontend",
     "cimgui/cimgui",
-    "circe/circe",
     "citusdata/pg_cron",
     "civitai/civitai",
     "ckan/ckan",
@@ -189,7 +188,6 @@
     "crewAIInc/crewAI-examples",
     "cri-o/cri-o",
     "CVEProject/cvelistV5",
-    "dalek-cryptography/curve25519-dalek",
     "danmar/cppcheck",
     "dart-lang/site-www",
     "DataDog/datadog-agent",
@@ -322,7 +320,6 @@
     "googleapis/googleapis",
     "GoogleChrome/web-vitals",
     "GoogleCloudPlatform/agent-starter-pack",
-    "GoogleCloudPlatform/berglas",
     "GoogleCloudPlatform/kubernetes-engine-samples",
     "googlefonts/Inconsolata",
     "gorhom/react-native-bottom-sheet",
@@ -536,7 +533,6 @@
     "PyCQA/isort",
     "pymc-devs/pymc",
     "PyO3/maturin",
-    "pypa/cibuildwheel",
     "pypa/virtualenv",
     "pypi/warehouse",
     "python-mode/python-mode",

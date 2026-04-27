@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1081,
-    "concepts": 921,
-    "observations": 924,
-    "repos": 126,
-    "terms": 912
+    "components": 1072,
+    "concepts": 916,
+    "observations": 919,
+    "repos": 125,
+    "terms": 908
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -38,7 +38,6 @@
     "CesiumGS/3d-tiles",
     "chromebrew/chromebrew",
     "cimgui/cimgui",
-    "circe/circe",
     "clojure-lsp/clojure-lsp",
     "community/community",
     "company-mode/company-mode",

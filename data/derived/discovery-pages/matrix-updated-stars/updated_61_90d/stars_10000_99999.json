@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 153,
-    "observations": 153,
-    "repos": 26,
-    "terms": 151
+    "components": 217,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 25,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "anthropics/claude-quickstarts",
     "bmaltais/kohya_ss",
     "caolan/async",
-    "chalk/chalk",
     "ComposioHQ/awesome-claude-skills",
     "ffmpegwasm/ffmpeg.wasm",
     "FortAwesome/Font-Awesome",

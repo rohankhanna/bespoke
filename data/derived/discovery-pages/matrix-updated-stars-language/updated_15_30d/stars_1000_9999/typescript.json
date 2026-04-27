@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 808,
-    "concepts": 157,
-    "observations": 158,
-    "repos": 22,
-    "terms": 164
+    "components": 821,
+    "concepts": 170,
+    "observations": 171,
+    "repos": 23,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "actions/typescript-action",
+    "AIPexStudio/AIPex",
     "allweonedev/presentation-ai",
     "badgen/badgen.net",
     "bash-lsp/bash-language-server",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 888,
-    "concepts": 768,
-    "observations": 772,
-    "repos": 91,
-    "terms": 768
+    "components": 882,
+    "concepts": 760,
+    "observations": 764,
+    "repos": 90,
+    "terms": 760
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
@@ -67,7 +67,6 @@
     "google/adk-go",
     "google/go-containerregistry",
     "google/syzkaller",
-    "GoogleCloudPlatform/berglas",
     "grafana/alloy",
     "hashicorp/terraform-provider-azurerm",
     "helm/chart-testing",

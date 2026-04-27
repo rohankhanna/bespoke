@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1219,
-    "concepts": 1298,
-    "observations": 1304,
-    "repos": 147,
-    "terms": 1287
+    "components": 1203,
+    "concepts": 1284,
+    "observations": 1290,
+    "repos": 146,
+    "terms": 1274
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "AgentR1/Agent-R1",
@@ -132,7 +132,6 @@
     "pyca/cryptography",
     "PyCQA/isort",
     "pymc-devs/pymc",
-    "pypa/cibuildwheel",
     "pypa/virtualenv",
     "pypi/warehouse",
     "python-trio/trio",

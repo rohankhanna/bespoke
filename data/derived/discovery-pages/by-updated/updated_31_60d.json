@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4225,
-    "concepts": 2609,
-    "observations": 2621,
-    "repos": 619,
-    "terms": 2651
+    "components": 4243,
+    "concepts": 2610,
+    "observations": 2622,
+    "repos": 620,
+    "terms": 2652
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "0xBigBoss/vscode-bootty",
@@ -57,7 +57,6 @@
     "alexellis/fstail",
     "alexellis/gha-bump",
     "alexkohler/prealloc",
-    "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-ontopo",
     "alexpolonsky/awesome-agent-skills-israel",
     "Alibaba-NLP/DeepResearch",
@@ -234,6 +233,7 @@
     "dghubble/sling",
     "dgn/oidc-filter",
     "dimitri/el-get",
+    "django/channels",
     "dmitry-brazhenko/SharpToken",
     "docker-library/hello-world",
     "dolfies/discord.py-self",
@@ -435,6 +435,7 @@
     "microsoft/microsoft-performance-toolkit-sdk",
     "microsoft/playwright-python",
     "microsoft/react-native-winrt",
+    "microsoft/snmalloc",
     "microsoft/TaskWeaver",
     "microsoft/tracing-etw",
     "microsoft/xlang",

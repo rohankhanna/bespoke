@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 226,
-    "observations": 226,
-    "repos": 32,
-    "terms": 224
+    "components": 213,
+    "concepts": 239,
+    "observations": 239,
+    "repos": 33,
+    "terms": 237
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "arl/statsviz",
     "azure/aztfexport",
     "bnb-chain/tss-lib",
+    "boyter/scc",
     "btcsuite/btcd",
     "cenkalti/backoff",
     "charmbracelet/harmonica",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5520,
-    "concepts": 2879,
-    "observations": 2894,
-    "repos": 469,
-    "terms": 2873
+    "components": 5454,
+    "concepts": 2858,
+    "observations": 2872,
+    "repos": 463,
+    "terms": 2852
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "1mcp-app/agent",
@@ -66,7 +66,6 @@
     "arkworks-rs/crypto-primitives",
     "Ascend/pytorch",
     "aseprite/laf",
-    "aspect-build/bazel-examples",
     "aspect-build/rules_js",
     "astral-sh/ruff-action",
     "atsign-foundation/noports",
@@ -144,7 +143,6 @@
     "connectrpc/connect-kotlin",
     "containers/netavark",
     "corporateshark/lightweightvk",
-    "Cosium/git-code-format-maven-plugin",
     "cplusplus/draft",
     "crisidev/bacon-ls",
     "crytic/medusa",
@@ -184,7 +182,6 @@
     "elixir-ecto/db_connection",
     "elizaos/elizaos.github.io",
     "elsa-workflows/elsa-studio",
-    "emacs-tree-sitter/tree-sitter-langs",
     "emacscollective/borg",
     "EmbarkStudios/cargo-about",
     "emberjs/rfcs",
@@ -193,7 +190,6 @@
     "envoyproxy/envoy-perf",
     "eole-nlp/eole",
     "eryajf/awesome-stars-eryajf",
-    "eslint/rfcs",
     "EspressoSystems/espresso-network",
     "estesp/manifest-tool",
     "etclabscore/core-geth",
@@ -417,7 +413,6 @@
     "rust-lang/compiler-builtins",
     "rust-lang/crates.io-index",
     "rust-lang/rustc-perf",
-    "rust-lang/rustwide",
     "rust-lang/team",
     "safe-fndn/safe-singleton-factory",
     "safe-global/safe-deployments",
@@ -429,7 +424,6 @@
     "searxng/searx-instances",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
-    "semantic-release/npm",
     "SemiAnalysisAI/InferenceX",
     "servo/stylo",
     "shakacode/shakapacker",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 5858,
-    "concepts": 3241,
-    "observations": 3256,
-    "repos": 692,
-    "terms": 3270
+    "components": 5865,
+    "concepts": 3259,
+    "observations": 3274,
+    "repos": 693,
+    "terms": 3288
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/shellx",
@@ -55,6 +55,7 @@
     "aiagenta2z/mcp-marketplace",
     "aider-ai/aider",
     "aiKrice/homebrew-badgetizr",
+    "AIPexStudio/AIPex",
     "AIR-Bench/AIR-Bench",
     "airblade/vim-gitgutter",
     "AIWintermuteAI/whispercpp",
@@ -149,6 +150,7 @@
     "bmad-code-org/bmad-plugins-marketplace",
     "bnb-chain/tss-lib",
     "bnprks/BPCells",
+    "boyter/scc",
     "bpython/bpython",
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
@@ -252,7 +254,6 @@
     "devicons/devicon",
     "Digidai/product-manager-skills",
     "direnv/direnv",
-    "django/channels",
     "django/daphne",
     "dkron-io/dkron",
     "DLTcollab/sse2neon",
@@ -357,6 +358,7 @@
     "google/double-conversion",
     "google/draco",
     "google/googletest",
+    "google/honggfuzz",
     "google/protobuf.dart",
     "google/sanitizers",
     "google/styleguide",
@@ -506,7 +508,6 @@
     "microsoft/MInference",
     "microsoft/node-pty",
     "microsoft/pylance-release",
-    "microsoft/snmalloc",
     "microsoft/Tutel",
     "microsoft/vscode-azurecli",
     "microsoft/vscode-js-debug-companion",

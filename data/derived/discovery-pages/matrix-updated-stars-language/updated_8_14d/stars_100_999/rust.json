@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 292,
+    "components": 294,
     "concepts": 153,
     "observations": 157,
-    "repos": 37,
+    "repos": 38,
     "terms": 164
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "ada-url/rust",
@@ -42,6 +42,7 @@
     "ramsayleung/rspotify",
     "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",
+    "rust-lang/rustwide",
     "RustCrypto/RSA",
     "rustcrypto/signatures",
     "tauri-apps/muda",

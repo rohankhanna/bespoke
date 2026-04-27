@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 279,
-    "observations": 281,
-    "repos": 44,
-    "terms": 284
+    "components": 371,
+    "concepts": 284,
+    "observations": 286,
+    "repos": 45,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "actions/runner",
     "adobe-type-tools/afdko",
@@ -22,6 +22,7 @@
     "apple/swift-log",
     "automazeio/vibeproxy",
     "BLAKE3-team/BLAKE3",
+    "circe/circe",
     "clj-kondo/clj-kondo",
     "crytic/building-secure-contracts",
     "crytic/echidna",

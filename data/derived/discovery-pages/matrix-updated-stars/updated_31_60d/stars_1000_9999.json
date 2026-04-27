@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1455,
-    "concepts": 870,
-    "observations": 874,
-    "repos": 167,
-    "terms": 900
+    "components": 1473,
+    "concepts": 880,
+    "observations": 884,
+    "repos": 169,
+    "terms": 910
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "a16z/helios",
     "actions/download-artifact",
@@ -62,6 +62,7 @@
     "devcontainers/spec",
     "dghubble/sling",
     "dimitri/el-get",
+    "django/channels",
     "dolfies/discord.py-self",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
@@ -119,6 +120,7 @@
     "madler/zlib",
     "michalmuskala/jason",
     "microsoft/genaiscript",
+    "microsoft/snmalloc",
     "microsoft/TaskWeaver",
     "miolini/autoresearch-macos",
     "mosaicml/composer",

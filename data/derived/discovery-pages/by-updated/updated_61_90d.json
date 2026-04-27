@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 1858,
+    "components": 1845,
     "concepts": 1387,
     "observations": 1389,
     "repos": 333,
@@ -10,7 +10,7 @@
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0k/shyaml-rs",
@@ -41,6 +41,7 @@
     "AIDC-AI/Ovis",
     "alex-petrenko/sample-factory",
     "alexkohler/nakedret",
+    "alexpolonsky/agent-skill-jlm-coffee",
     "alfworld/alfworld",
     "alirezarezvani/claude-code-tresor",
     "alloy-rs/op-alloy",
@@ -100,7 +101,6 @@
     "caprica/vlcj",
     "castwide/vscode-solargraph",
     "chakra-core/ChakraCore",
-    "chalk/chalk",
     "chfast/intx",
     "chronosphereio/calyptia-api",
     "cleinc/bts",

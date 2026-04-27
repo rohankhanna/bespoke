@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 18
+    "components": 75,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 4,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T05:36:53.281381+00:00",
+  "generated_at": "2026-04-27T07:23:38.417858+00:00",
   "repo_ids": [
+    "chalk/chalk",
     "forwardemail/superagent",
     "goldfire/howler.js",
     "songquanpeng/one-api"
