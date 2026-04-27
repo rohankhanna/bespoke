@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T18:19:44.272117+00:00",
+  "generated_at": "2026-04-27T00:33:48.414524+00:00",
   "pending": [
     {
       "discovered_via": "explicit-github-link",
@@ -13783,7 +13783,6 @@
     "hashberg-io/multiformats-config",
     "hashberg-io/typing-validation",
     "unstoppableswap/wallet",
-    "anderejd/cargo-geiger",
     "facebook/folly",
     "frommi/miniz_oxide",
     "rustsec/advisory-db",
