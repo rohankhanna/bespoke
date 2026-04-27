@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T12:45:43.808179+00:00",
+  "generated_at": "2026-04-27T18:34:25.697053+00:00",
   "pending": [
     {
       "discovered_via": "explicit-github-link",
@@ -12405,7 +12405,6 @@
     "nodejs/abi-stable-node",
     "nodejs/build",
     "aio-libs/aiohttp-demos",
-    "python/asyncio",
     "agronholm/anyio",
     "coolcat467/idlemypyextension",
     "dense-analysis/ale",
