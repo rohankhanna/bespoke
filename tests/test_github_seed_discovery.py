@@ -160,7 +160,7 @@ def test_api_get_json_backoff_grows_exponentially_until_success(monkeypatch):
     assert module.RATE_LIMIT_BACKOFF_SECONDS == 0
 
 
-def test_main_converts_transient_api_error_into_checkpointed_stop(tmp_path, monkeypatch):
+def test_main_skips_transient_api_error_for_non_rate_limit_403(tmp_path, monkeypatch):
     module = load_module()
 
     seed_path = tmp_path / "seed.json"
@@ -199,7 +199,7 @@ def test_main_converts_transient_api_error_into_checkpointed_stop(tmp_path, monk
         url="https://api.github.com/repos/owner/repo",
         code=403,
         msg="Forbidden",
-        hdrs={"Retry-After": "60", "X-RateLimit-Remaining": "0"},
+        hdrs={},
         fp=None,
     )
     monkeypatch.setattr(module, "collect_repo", lambda *args, **kwargs: (_ for _ in ()).throw(error))
@@ -219,10 +219,12 @@ def test_main_converts_transient_api_error_into_checkpointed_stop(tmp_path, monk
     run_files = sorted((data_root / "data" / "runs").glob("*.json"))
     assert len(run_files) == 1
     summary = json.loads(run_files[0].read_text())
-    assert summary["stopped_due_to_api"] is True
-    assert summary["stop_reason"] == "github_api_error"
-    assert summary["api_stop_detail"]["full_name"] == "owner/repo"
-    assert summary["remaining_frontier"] == 1
+    assert summary["stopped_due_to_api"] is False
+    assert summary["stop_reason"] is None
+    assert summary["processed_repositories"] == []
+    assert len(summary["skipped_repositories"]) == 1
+    assert summary["skipped_repositories"][0]["reason"] == "repo_access_forbidden"
+    assert summary["remaining_frontier"] == 0
 
     frontier = json.loads((data_root / "data" / "frontier" / "repos.json").read_text())
-    assert frontier["pending"][0]["full_name"] == "owner/repo"
+    assert frontier["pending"] == []

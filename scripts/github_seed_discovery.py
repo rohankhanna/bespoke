@@ -1485,6 +1485,13 @@ def main():
                         "discovered_via": entry.get("discovered_via"),
                     })
                     continue
+                if e.code == 403 and not is_rate_limit_http_error(e):
+                    skipped_repositories.append({
+                        "full_name": owner_repo,
+                        "reason": "repo_access_forbidden",
+                        "discovered_via": entry.get("discovered_via"),
+                    })
+                    continue
                 if is_transient_github_http_error(e):
                     stopped_due_to_api = True
                     stop_reason = "github_api_error"
