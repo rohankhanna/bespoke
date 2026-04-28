@@ -3,7 +3,7 @@
     "components": 70,
     "concepts": 76,
     "observations": 76,
-    "repos": 86,
+    "repos": 87,
     "terms": 76
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "1nickpappas/move-code-quality-skill",
     "adobe-research/Cross-lingual-Test-Dataset-XTD10",
@@ -36,6 +36,7 @@
     "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
     "chrisleyva/todo-slash-command",
     "cncf/tag-network",
+    "danielrosehill/claude-file-organiser-super-slash",
     "datasette/datasette-studio",
     "dgileadi/vscode-java-decompiler",
     "docker/model-spec",

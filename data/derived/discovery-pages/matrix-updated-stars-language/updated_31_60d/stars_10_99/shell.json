@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 8,
-    "terms": 12
+    "components": 18,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 9,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
     "coin-or/coinbrew",
+    "conda-forge/spacy-feedstock",
     "containers/image_build",
     "graphql/composite-schemas-spec",
     "jawwadfirdousi/agent-skills",

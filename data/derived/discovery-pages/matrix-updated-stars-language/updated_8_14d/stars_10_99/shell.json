@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 6,
-    "terms": 23
+    "components": 31,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 8,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "agricidaniel/claude-cybersecurity",
     "alvistack/ansible-role-crun",
-    "aporthq/aport-agent-guardrails",
+    "apache/arrow-testing",
+    "cri-o/packaging",
     "flinedev/tandemkit",
     "GoogleCloudPlatform/blueprints",
+    "NixOS/org",
     "nodenv/nodenv-package-rehash"
   ]
 }

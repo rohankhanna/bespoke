@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 18
+    "components": 15,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
+    "alexkohler/prealloc",
     "lightningnetwork/lightning-onion",
     "multiformats/go-multiaddr"
   ]

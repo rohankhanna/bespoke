@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5877,
-    "concepts": 560,
-    "observations": 567,
-    "repos": 49,
-    "terms": 558
+    "components": 5697,
+    "concepts": 522,
+    "observations": 529,
+    "repos": 46,
+    "terms": 520
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "apache/superset",
-    "apollographql/apollo-client",
     "apollographql/apollo-server",
     "babel/babel",
     "bitwarden/clients",
@@ -37,7 +36,6 @@
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",
-    "invoke-ai/InvokeAI",
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
     "KaTeX/KaTeX",
@@ -59,7 +57,6 @@
     "typescript-eslint/typescript-eslint",
     "vercel-labs/skills",
     "vitejs/vite",
-    "VSCodeVim/Vim",
     "vuejs/core",
     "xtermjs/xterm.js",
     "xyflow/xyflow"

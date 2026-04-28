@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1045,
-    "concepts": 294,
-    "observations": 296,
-    "repos": 24,
-    "terms": 295
+    "components": 1038,
+    "concepts": 277,
+    "observations": 279,
+    "repos": 23,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "angular/angular",
     "anomalyco/opencode",
@@ -30,7 +30,6 @@
     "microsoft/terminal",
     "microsoft/vscode",
     "mrdoob/three.js",
-    "ohmyzsh/ohmyzsh",
     "ollama/ollama",
     "Significant-Gravitas/AutoGPT",
     "tauri-apps/tauri",

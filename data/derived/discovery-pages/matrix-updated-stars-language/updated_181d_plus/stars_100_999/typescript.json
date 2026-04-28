@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1393,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 50,
-    "terms": 234
+    "components": 1420,
+    "concepts": 223,
+    "observations": 223,
+    "repos": 51,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "1hanzla100/developer-portfolio",
     "aave/protocol-v2",
@@ -33,6 +33,7 @@
     "Dogtiti/AutoGPT-Next-Web",
     "dsherret/ts-nameof",
     "electron-userland/electron-installer-dmg",
+    "electron-userland/electron-wix-msi",
     "firede/ts-transform-graphql-tag",
     "fuergaosi233/openai-proxy",
     "fwcd/vscode-kotlin",

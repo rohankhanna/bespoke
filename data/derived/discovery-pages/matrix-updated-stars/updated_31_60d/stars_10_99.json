@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 667,
-    "concepts": 412,
-    "observations": 413,
+    "components": 668,
+    "concepts": 413,
+    "observations": 414,
     "repos": 129,
-    "terms": 414
+    "terms": 415
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -63,6 +63,7 @@
     "coderaiser/estree-to-babel",
     "coin-or-tools/homebrew-coinor",
     "coin-or/coinbrew",
+    "conda-forge/spacy-feedstock",
     "containerd/release-tool",
     "containers/image_build",
     "corl-team/VL-DAC",
@@ -88,7 +89,6 @@
     "explosion/weasel",
     "filip26/iridium-cbor-ld",
     "fortanix/rust-mbedtls",
-    "FoundationDB/fdb-build-support",
     "GaloisInc/cryptol-specs",
     "googlefonts/emoji-metadata",
     "gozaltech/espeak-ng-sapi",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 116
+- repos: 48
+- terms: 111
 - components: 4
-- concepts: 118
-- observations: 118
+- concepts: 112
+- observations: 112
 
 ## Static behavior
 
@@ -74,7 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/renaming](https://github.com/github/renaming) | 2459 | 2022-03-18T00:40:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [0xAX/erlang-bookmarks](https://github.com/0xAX/erlang-bookmarks) | 1158 | 2021-07-31T10:36:29Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [testdouble/contributing-tests](https://github.com/testdouble/contributing-tests) | 1124 | 2021-05-11T13:44:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [python/asyncio](https://github.com/python/asyncio) | 1075 | 2021-04-28T17:37:52Z | Unknown | Unknown | 5 | 0 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -126,6 +125,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws-cloudformation/cloudformation-coverage-roadmap](https://github.com/aws-cloudformation/cloudformation-coverage-roadmap) | 1142 | 2024-04-15T16:51:14Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [testdouble/contributing-tests](https://github.com/testdouble/contributing-tests) | 1124 | 2021-05-11T13:44:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [NVIDIA/nvidia-container-runtime](https://github.com/NVIDIA/nvidia-container-runtime) | 1123 | 2023-10-27T13:58:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [python/asyncio](https://github.com/python/asyncio) | 1075 | 2021-04-28T17:37:52Z | Unknown | Unknown | 5 | 0 | 6 | 6 |
 | [jaydenseric/graphql-multipart-request-spec](https://github.com/jaydenseric/graphql-multipart-request-spec) | 1054 | 2025-03-05T06:37:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [carlosperate/awesome-pyproject](https://github.com/carlosperate/awesome-pyproject) | 1005 | 2023-12-28T17:05:38Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 280,
+    "components": 283,
     "concepts": 498,
     "observations": 498,
-    "repos": 129,
+    "repos": 130,
     "terms": 498
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "abo-abo/avy",
@@ -24,6 +24,7 @@
     "AliSoftware/Reusable",
     "altercation/vim-colors-solarized",
     "anderscui/jieba.NET",
+    "andrewrk/poop",
     "anmonteiro/lumo",
     "anuvyklack/hydra.nvim",
     "asciinema/asciicast2gif",

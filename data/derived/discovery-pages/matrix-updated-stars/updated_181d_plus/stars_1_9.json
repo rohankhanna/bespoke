@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1803,
-    "concepts": 458,
-    "observations": 460,
-    "repos": 330,
-    "terms": 466
+    "components": 1813,
+    "concepts": 462,
+    "observations": 464,
+    "repos": 332,
+    "terms": 470
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -277,6 +277,7 @@
     "mrsmkl/keep-awake-rs",
     "ncitron/ethereum_hashing",
     "nice-mee/WindowsAgentArena",
+    "nornagon/crossterm",
     "norwoodj/hashbash-backend-go",
     "norwoodj/hashbash-backend-java",
     "notaryproject/.github",
@@ -333,6 +334,7 @@
     "walles/loadviz",
     "warpdotdev/brand-assets",
     "web-platform-tests/wpt-notes",
+    "WebAssembly/compilation-hints",
     "wezterm/xcb-imdkit-rs",
     "winily/zhipuai-sdk-nodejs-v4",
     "XcodesOrg/homebrew-made",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 3,
-    "terms": 27
+    "concepts": 10,
+    "observations": 10,
+    "repos": 2,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "hauntsaninja/mypy",
-    "hmellor/vllm",
-    "roampal-ai/roampal-labs"
+    "hmellor/vllm"
   ]
 }

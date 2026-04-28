@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 75,
-    "observations": 75,
+    "components": 45,
+    "concepts": 91,
+    "observations": 91,
     "repos": 13,
-    "terms": 89
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "alfredolopez80/multi-agent-ralph-loop",
-    "astro-han/claude-pace",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
+    "docker-library/drupal",
     "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",
     "kubernetes/sig-release",
@@ -26,6 +26,6 @@
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
     "serpro69/claude-toolbox",
-    "undeadlist/claude-code-agents"
+    "unixorn/zsh-quickstart-kit"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 450,
-    "concepts": 342,
-    "observations": 345,
-    "repos": 54,
-    "terms": 342
+    "components": 317,
+    "concepts": 241,
+    "observations": 244,
+    "repos": 39,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "a2aproject/a2a-go",
     "AdguardTeam/urlfilter",
@@ -21,32 +21,20 @@
     "AliyunContainerService/terway",
     "apache/dubbo-go-samples",
     "apache/dubbo-kubernetes",
-    "appleboy/go-fcm",
-    "aws/amazon-vpc-resource-controller-k8s",
     "awslabs/soci-snapshotter",
-    "Azure/azure-workload-identity",
     "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
     "bufbuild/protovalidate-go",
     "celestiaorg/celestia-node",
     "chainguard-dev/melange",
-    "charmbracelet/catwalk",
-    "crytic/medusa",
     "docker/model-runner",
-    "estesp/manifest-tool",
     "etclabscore/core-geth",
     "ethereum/hive",
-    "googleapis/go-genproto",
-    "hashicorp/terraform-plugin-docs",
     "hashicorp/terraform-plugin-framework",
-    "hashicorp/terraform-plugin-go",
     "hashicorp/terraform-plugin-sdk",
-    "hashicorp/terraform-provider-random",
     "hashicorp/terraform-provider-scaffolding-framework",
-    "helm/chart-releaser",
     "ipfs/boxo",
     "ipfs/rainbow",
-    "knative/community",
     "Kong/deck",
     "kube-rbac-proxy/kube-rbac-proxy",
     "kubecfg/kubecfg",
@@ -60,13 +48,10 @@
     "microsoft/hcsshim",
     "moul/gotty-client",
     "openshift/enhancements",
-    "openshift/library",
     "opentofu/registry",
     "ossf/osv-schema",
     "prometheus/common",
-    "raystack/meteor",
     "snowflakedb/gosnowflake",
-    "transparency-dev/tessera",
     "web-platform-tests/wpt.fyi"
   ]
 }

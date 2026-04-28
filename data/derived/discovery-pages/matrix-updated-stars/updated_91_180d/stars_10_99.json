@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 548,
-    "concepts": 246,
-    "observations": 249,
-    "repos": 112,
-    "terms": 251
+    "components": 554,
+    "concepts": 253,
+    "observations": 256,
+    "repos": 111,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -54,7 +54,6 @@
     "CyanSalt/commas",
     "d3x0r/JSOX",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
-    "danielrosehill/claude-file-organiser-super-slash",
     "datafusion-contrib/hdfs-native-object-store",
     "dredozubov/prd-generator",
     "dzeiocom/simple-icons-astro",
@@ -62,8 +61,8 @@
     "eric-haibin-lin/verl-community",
     "erkyrath/glk-dev",
     "ethpandaops/optimism-package",
+    "fengkx/jieba-wasm",
     "fsspec/sshfs",
-    "geekworm-com/xscript",
     "getumbrel/umbrel-lightning",
     "google/gnostic-models",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",

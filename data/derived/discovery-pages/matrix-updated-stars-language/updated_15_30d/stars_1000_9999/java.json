@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 1,
-    "terms": 13
+    "components": 55,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 3,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "objectbox/objectbox-java"
+    "java-native-access/jna",
+    "objectbox/objectbox-java",
+    "react-native-share/react-native-share"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 661,
-    "concepts": 152,
-    "observations": 157,
-    "repos": 23,
-    "terms": 151
+    "components": 550,
+    "concepts": 128,
+    "observations": 131,
+    "repos": 18,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "actions/create-github-app-token",
     "adamlui/ai-web-extensions",
     "apache/incubator-seata-website",
-    "bcomnes/npm-run-all2",
     "browserslist/caniuse-lite",
-    "chaijs/chai-http",
-    "ClickHouse/agent-skills",
     "conda-forge/conda-forge.github.io",
     "CVEProject/cve-services",
     "DavidAnson/markdownlint-cli2",
@@ -33,8 +30,6 @@
     "OffchainLabs/arbitrum-docs",
     "plone/volto",
     "poolifier/poolifier",
-    "semantic-release/commit-analyzer",
-    "semantic-release/github",
     "speced/respec",
     "tc39/notes"
   ]

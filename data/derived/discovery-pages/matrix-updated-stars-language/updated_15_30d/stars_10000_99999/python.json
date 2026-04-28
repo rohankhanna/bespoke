@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 176,
-    "observations": 177,
-    "repos": 22,
-    "terms": 173
+    "components": 159,
+    "concepts": 209,
+    "observations": 211,
+    "repos": 24,
+    "terms": 207
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,25 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
     "666ghj/MiroFish",
     "aider-ai/aider",
+    "alchaincyf/nuwa-skill",
+    "alirezarezvani/claude-skills",
     "cookiecutter/cookiecutter",
+    "dask/dask",
     "deepinsight/insightface",
     "delgan/loguru",
     "EleutherAI/lm-evaluation-harness",
-    "encode/httpx",
-    "explosion/spaCy",
     "facebook/prophet",
     "facebookresearch/detectron2",
     "fishaudio/fish-speech",
     "google/yapf",
     "gruns/icecream",
+    "hpcaitech/ColossalAI",
     "huggingface/open-r1",
     "letta-ai/letta",
     "OpenBMB/ChatDev",

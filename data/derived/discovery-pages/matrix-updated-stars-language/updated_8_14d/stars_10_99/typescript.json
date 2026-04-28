@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 405,
-    "concepts": 60,
-    "observations": 61,
-    "repos": 18,
-    "terms": 88
+    "components": 513,
+    "concepts": 75,
+    "observations": 77,
+    "repos": 22,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
     "almogdepaz/wolfpack",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
+    "ethereum/eip-review-bot",
     "favware/cliff-jumper",
     "Godefroy/micdrop",
+    "hashintel/labs",
     "huangguang1999/ccstatusline-zh",
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
@@ -28,8 +30,10 @@
     "labring/fastgpt-plugin",
     "lobehub/lobe-lint",
     "overseedai/viwo",
+    "patrickkabwe/create-nitro-module",
     "sgcarstrends/sgcarstrends",
     "Shougo/dpp-ext-installer",
+    "slopus/slopus.github.io",
     "ylsssq926/relic.skill",
     "zuplo/docs"
   ]

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 623,
-    "concepts": 500,
-    "observations": 500,
-    "repos": 95,
-    "terms": 499
+    "components": 678,
+    "concepts": 513,
+    "observations": 513,
+    "repos": 100,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "3rd/image.nvim",
@@ -28,6 +28,7 @@
     "antonbabenko/terraform-skill",
     "apache/casbin-rs",
     "apache/incubator-seata-samples",
+    "apostrophecms/sanitize-html",
     "ash-rs/ash",
     "avast/retry-go",
     "bats-core/bats-core",
@@ -69,6 +70,7 @@
     "kijai/ComfyUI-WanVideoWrapper",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
+    "langfengQ/verl-agent",
     "librespot-org/librespot",
     "memononen/nanovg",
     "meta-llama/llama-models",
@@ -80,6 +82,7 @@
     "onsails/lspkind.nvim",
     "open-mmlab/mmcv",
     "OpenBMB/MiniCPM",
+    "opencontainers/image-spec",
     "orogene/orogene",
     "PaddlePaddle/PaddleSeg",
     "parruda/swarm",
@@ -99,7 +102,9 @@
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "sindresorhus/ponyfill",
+    "snarktank/antfarm",
     "stevearc/aerial.nvim",
+    "stravu/crystal",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
     "tokio-rs/loom",

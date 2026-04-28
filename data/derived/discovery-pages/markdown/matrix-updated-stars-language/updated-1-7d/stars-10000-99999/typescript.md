@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 558
-- components: 5877
-- concepts: 560
-- observations: 567
+- repos: 46
+- terms: 520
+- components: 5697
+- concepts: 522
+- observations: 529
 
 ## Static behavior
 
@@ -72,9 +72,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vitejs/vite](https://github.com/vitejs/vite) | 80039 | 2026-04-21T09:05:48Z | TypeScript | Infrastructure/tooling | 10 | 40 | 10 | 10 |
 | [browserless/browserless](https://github.com/browserless/browserless) | 13014 | 2026-04-21T05:55:14Z | TypeScript | Infrastructure/tooling | 13 | 31 | 13 | 15 |
 | [openai/openai-node](https://github.com/openai/openai-node) | 10826 | 2026-04-21T05:47:36Z | TypeScript | Infrastructure/tooling | 5 | 37 | 5 | 5 |
-| [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27029 | 2026-04-21T02:01:57Z | TypeScript | Infrastructure/tooling | 21 | 17 | 21 | 21 |
-| [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) | 15122 | 2026-04-21T01:00:41Z | TypeScript | Infrastructure/tooling | 6 | 53 | 6 | 6 |
-| [apollographql/apollo-client](https://github.com/apollographql/apollo-client) | 19716 | 2026-04-21T00:52:10Z | TypeScript | CLI | 11 | 110 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -100,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | 36293 | 2026-04-21T22:07:35Z | TypeScript | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [pnpm/pnpm](https://github.com/pnpm/pnpm) | 34723 | 2026-04-23T21:57:34Z | TypeScript | Infrastructure/tooling | 13 | 43 | 13 | 13 |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 27800 | 2026-04-22T01:53:25Z | TypeScript | Infrastructure/tooling | 12 | 28 | 12 | 12 |
-| [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27029 | 2026-04-21T02:01:57Z | TypeScript | Infrastructure/tooling | 21 | 17 | 21 | 21 |
 | [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | 24438 | 2026-04-22T12:34:52Z | TypeScript | Infrastructure/tooling | 9 | 29 | 9 | 9 |
 | [emberjs/ember.js](https://github.com/emberjs/ember.js) | 22567 | 2026-04-23T14:20:19Z | TypeScript | Infrastructure/tooling | 10 | 86 | 10 | 10 |
 | [renovatebot/renovate](https://github.com/renovatebot/renovate) | 21353 | 2026-04-22T19:55:29Z | TypeScript | CLI | 15 | 216 | 15 | 15 |
@@ -108,7 +104,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 20367 | 2026-04-21T19:57:25Z | TypeScript | CLI | 10 | 51 | 10 | 10 |
 | [graphql/graphql-js](https://github.com/graphql/graphql-js) | 20311 | 2026-04-22T13:02:23Z | TypeScript | Infrastructure/tooling | 7 | 33 | 7 | 7 |
 | [KaTeX/KaTeX](https://github.com/KaTeX/KaTeX) | 19996 | 2026-04-21T13:10:34Z | TypeScript | Infrastructure/tooling | 7 | 86 | 7 | 7 |
-| [apollographql/apollo-client](https://github.com/apollographql/apollo-client) | 19716 | 2026-04-21T00:52:10Z | TypeScript | CLI | 11 | 110 | 11 | 11 |
 | [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) | 18475 | 2026-04-22T14:24:28Z | TypeScript | Infrastructure/tooling | 6 | 32 | 6 | 6 |
 | [bluesky-social/social-app](https://github.com/bluesky-social/social-app) | 17905 | 2026-04-24T03:15:37Z | TypeScript | Infrastructure/tooling | 7 | 227 | 7 | 7 |
 | [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17558 | 2026-04-23T04:24:13Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
@@ -118,7 +113,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | 16211 | 2026-04-21T14:10:40Z | TypeScript | Infrastructure/tooling | 11 | 62 | 11 | 11 |
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 15883 | 2026-04-22T09:46:48Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [sass/sass](https://github.com/sass/sass) | 15376 | 2026-04-22T22:11:44Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
-| [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) | 15122 | 2026-04-21T01:00:41Z | TypeScript | Infrastructure/tooling | 6 | 53 | 6 | 6 |
 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 15103 | 2026-04-22T12:38:16Z | TypeScript | Infrastructure/tooling | 9 | 30 | 9 | 9 |
 | [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14686 | 2026-04-24T07:57:18Z | TypeScript | Infrastructure/tooling | 3 | 48 | 4 | 4 |
 | [google/brotli](https://github.com/google/brotli) | 14672 | 2026-04-22T23:46:28Z | TypeScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |

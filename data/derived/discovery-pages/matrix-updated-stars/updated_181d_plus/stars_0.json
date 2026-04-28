@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 136,
-    "observations": 137,
-    "repos": 105,
-    "terms": 136
+    "components": 333,
+    "concepts": 137,
+    "observations": 138,
+    "repos": 107,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "5scontrol/5s-algorithms-controller",
@@ -34,7 +34,9 @@
     "avsm/ocaml-uri",
     "benwmills/core-sass-compiler",
     "bfshi/llava_next_s2_integration",
+    "bgw/virtue",
     "bnosac/audio.vadsilero",
+    "bnosac/images",
     "boingoing/node-sass",
     "boundless-xyz/reth",
     "brodybits/create-react-native-module",

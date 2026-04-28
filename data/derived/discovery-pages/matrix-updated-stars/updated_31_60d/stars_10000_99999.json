@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 425,
-    "concepts": 299,
-    "observations": 302,
-    "repos": 53,
-    "terms": 303
+    "components": 447,
+    "concepts": 332,
+    "observations": 335,
+    "repos": 55,
+    "terms": 336
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -23,6 +23,9 @@
     "chriskiehl/Gooey",
     "CocoaPods/CocoaPods",
     "cool-RR/PySnooper",
+    "dandavison/delta",
+    "encode/httpx",
+    "explosion/spaCy",
     "fatih/vim-go",
     "github-linguist/linguist",
     "gitleaks/gitleaks",
@@ -39,7 +42,6 @@
     "lokesh/color-thief",
     "markdown-it/markdown-it",
     "microsoft/playwright-python",
-    "nikic/PHP-Parser",
     "openai/CLIP",
     "openai/gym",
     "openai/tiktoken",

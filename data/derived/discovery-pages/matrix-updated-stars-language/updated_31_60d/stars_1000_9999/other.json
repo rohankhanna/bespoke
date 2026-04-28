@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 160,
-    "observations": 162,
-    "repos": 27,
-    "terms": 162
+    "components": 146,
+    "concepts": 168,
+    "observations": 170,
+    "repos": 28,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "apache/casbin-Casbin.NET",
     "athityakumar/colorls",
@@ -37,6 +37,7 @@
     "michalmuskala/jason",
     "nmattia/niv",
     "onnx/models",
+    "rom1504/clip-retrieval",
     "salesforce/BLIP",
     "steipete/imsg",
     "steipete/peekaboo",

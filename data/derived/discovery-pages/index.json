@@ -1,6 +1,6 @@
 {
   "facet_version": 1,
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "language_counts": {
     "c_cpp": 751,
     "go": 788,
@@ -11,17 +11,17 @@
     "rust": 732,
     "shell": 351,
     "typescript": 656,
-    "unknown": 651
+    "unknown": 650
   },
-  "matrix_updated_stars_language_nonempty": 417,
+  "matrix_updated_stars_language_nonempty": 414,
   "matrix_updated_stars_nonempty": 47,
-  "repo_count": 8367,
+  "repo_count": 8366,
   "star_counts": {
     "stars_0": 287,
     "stars_1000000_plus": 0,
     "stars_100000_999999": 45,
     "stars_10000_99999": 923,
-    "stars_1000_9999": 2328,
+    "stars_1000_9999": 2327,
     "stars_100_999": 2519,
     "stars_10_99": 1549,
     "stars_1_9": 701,
@@ -29,12 +29,12 @@
   },
   "updated_counts": {
     "updated_0_1d": 0,
-    "updated_15_30d": 693,
-    "updated_181d_plus": 3187,
-    "updated_1_7d": 1845,
-    "updated_31_60d": 620,
-    "updated_61_90d": 333,
-    "updated_8_14d": 1123,
-    "updated_91_180d": 566
+    "updated_15_30d": 816,
+    "updated_181d_plus": 3198,
+    "updated_1_7d": 1567,
+    "updated_31_60d": 621,
+    "updated_61_90d": 340,
+    "updated_8_14d": 1261,
+    "updated_91_180d": 563
   }
 }

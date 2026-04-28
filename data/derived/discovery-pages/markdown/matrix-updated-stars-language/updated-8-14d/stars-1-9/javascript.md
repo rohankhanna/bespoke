@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 89
-- components: 87
-- concepts: 81
-- observations: 81
+- repos: 15
+- terms: 88
+- components: 83
+- concepts: 80
+- observations: 80
 
 ## Static behavior
 
@@ -41,7 +41,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/drift-detect](https://github.com/agent-sh/drift-detect) | 4 | 2026-04-14T23:26:57Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [agent-sh/perf](https://github.com/agent-sh/perf) | 2 | 2026-04-14T23:26:55Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [agent-sh/enhance](https://github.com/agent-sh/enhance) | 3 | 2026-04-14T23:26:52Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [istanbuljs/schema](https://github.com/istanbuljs/schema) | 3 | 2026-04-13T11:04:17Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -58,7 +57,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/sync-docs](https://github.com/agent-sh/sync-docs) | 3 | 2026-04-14T23:27:04Z | JavaScript | Infrastructure/tooling | 9 | 5 | 10 | 10 |
 | [agent-sh/repo-intel](https://github.com/agent-sh/repo-intel) | 3 | 2026-04-14T23:27:01Z | JavaScript | Unknown | 11 | 0 | 11 | 11 |
 | [agent-sh/enhance](https://github.com/agent-sh/enhance) | 3 | 2026-04-14T23:26:52Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [istanbuljs/schema](https://github.com/istanbuljs/schema) | 3 | 2026-04-13T11:04:17Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [anojndr/grok-to-openai](https://github.com/anojndr/grok-to-openai) | 2 | 2026-04-19T12:57:02Z | JavaScript | Web app | 1 | 6 | 0 | 0 |
 | [agent-sh/perf](https://github.com/agent-sh/perf) | 2 | 2026-04-14T23:26:55Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [stealabra5019/grok-enhancer](https://github.com/stealabra5019/Grok-Enhancer) | 1 | 2026-04-19T12:26:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 13,
-    "terms": 49
+    "components": 150,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 14,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "berty/www.berty.tech",
@@ -23,6 +23,7 @@
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
     "haskell-actions/run-fourmolu",
+    "hectorm/chafa-wasm",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "Level/browser-level",

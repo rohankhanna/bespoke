@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 13,
-    "terms": 6
+    "components": 3,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 15,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
     "adiny/moodtrip-hotel-search",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/brainstorm-solutions-plugin",
@@ -26,6 +27,7 @@
     "danielrosehill/Patches-Repos-Index",
     "piebald-ai/piebald",
     "semgrep/cursor-plugin",
+    "ublacklist/store-assets",
     "wencuecryforme/mysoul.skill"
   ]
 }

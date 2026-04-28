@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
+- repos: 26
 - terms: 13
 - components: 29
 - concepts: 13
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bgw/virtue](https://github.com/bgw/virtue) | 0 | 2025-10-29T23:57:55Z | Unknown | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [get-gah/setup-gah](https://github.com/get-gah/setup-gah) | 0 | 2025-10-27T12:30:45Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [brodybits/create-react-native-module](https://github.com/brodybits/create-react-native-module) | 0 | 2025-10-19T13:13:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [autofac/.github](https://github.com/autofac/.github) | 0 | 2025-09-25T18:29:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -56,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bgw/virtue](https://github.com/bgw/virtue) | 0 | 2025-10-29T23:57:55Z | Unknown | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [get-gah/setup-gah](https://github.com/get-gah/setup-gah) | 0 | 2025-10-27T12:30:45Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [brodybits/create-react-native-module](https://github.com/brodybits/create-react-native-module) | 0 | 2025-10-19T13:13:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [autofac/.github](https://github.com/autofac/.github) | 0 | 2025-09-25T18:29:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

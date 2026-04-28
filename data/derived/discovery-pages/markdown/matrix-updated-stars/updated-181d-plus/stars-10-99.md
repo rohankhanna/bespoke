@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 785
+- repos: 787
 - terms: 1648
 - components: 3245
 - concepts: 1657
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [geekworm-com/xscript](https://github.com/geekworm-com/xscript) | 18 | 2025-10-29T15:16:39Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/claude-file-organiser-super-slash](https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash) | 10 | 2025-10-29T14:55:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [beayemx/gitviper](https://github.com/BeayemX/GitViper) | 39 | 2025-10-28T16:48:29Z | Python | CLI | 4 | 0 | 4 | 4 |
 | [PeterDaveHello/docker-doctoc](https://github.com/PeterDaveHello/docker-doctoc) | 15 | 2025-10-28T02:46:03Z | Other | Infrastructure/tooling | 7 | 0 | 8 | 8 |
 | [abaplint/abaplint-sci-server](https://github.com/abaplint/abaplint-sci-server) | 22 | 2025-10-27T12:35:36Z | TypeScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
@@ -1430,6 +1432,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MaureenZOU/detectron2-xyz](https://github.com/MaureenZOU/detectron2-xyz) | 19 | 2022-05-07T05:28:53Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ethereum/ddht](https://github.com/ethereum/ddht) | 19 | 2022-03-01T10:35:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Akira13641/PasBGFX](https://github.com/Akira13641/PasBGFX) | 19 | 2022-01-12T16:19:42Z | Other | Framework | 16 | 0 | 16 | 16 |
+| [geekworm-com/xscript](https://github.com/geekworm-com/xscript) | 18 | 2025-10-29T15:16:39Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielnappa/tweakgc-cli](https://github.com/DanielNappa/tweakgc-cli) | 18 | 2025-10-11T13:36:17Z | TypeScript | CLI | 0 | 35 | 0 | 0 |
 | [look4u-ok/video-slicer](https://github.com/look4u-ok/video-slicer) | 18 | 2024-06-18T11:52:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bunysae/abap_db_preparator](https://github.com/bunysae/abap_db_preparator) | 18 | 2024-06-17T08:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1573,6 +1576,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wooorm/linter-remark](https://github.com/wooorm/linter-remark) | 11 | 2022-06-18T15:22:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [google/gfbuild-SPIRV-Tools](https://github.com/google/gfbuild-SPIRV-Tools) | 11 | 2022-04-20T05:38:57Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [pplux/wgpu.hpp](https://github.com/pplux/wgpu.hpp) | 11 | 2022-03-04T15:29:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/claude-file-organiser-super-slash](https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash) | 10 | 2025-10-29T14:55:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [imandra-ai/catapult](https://github.com/imandra-ai/catapult) | 10 | 2025-10-07T14:40:22Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [ashvardanian/HashEvals](https://github.com/ashvardanian/HashEvals) | 10 | 2025-10-06T16:30:52Z | Rust | Unknown | 13 | 0 | 13 | 13 |
 | [cyberphone/jws-ct](https://github.com/cyberphone/jws-ct) | 10 | 2025-09-20T15:58:45Z | Java | Unknown | 0 | 0 | 0 | 0 |

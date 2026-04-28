@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 33,
+    "components": 37,
     "concepts": 51,
     "observations": 52,
-    "repos": 10,
+    "repos": 11,
     "terms": 50
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "apache/casbin-cpp",
@@ -23,6 +23,7 @@
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",
     "stardot/b-em",
+    "starwing/luautf8",
     "TkTech/can_ada"
   ]
 }

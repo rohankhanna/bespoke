@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1371,
-    "concepts": 276,
-    "observations": 278,
-    "repos": 25,
-    "terms": 272
+    "components": 1288,
+    "concepts": 256,
+    "observations": 257,
+    "repos": 23,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "ajaxorg/ace",
     "badges/shields",
@@ -27,14 +27,12 @@
     "fastify/fastify",
     "jquery/jquery",
     "lovell/sharp",
-    "markedjs/marked",
     "nock/nock",
     "nwjs/nw.js",
     "prettier/prettier",
     "protobufjs/protobuf.js",
     "remy/nodemon",
     "rollup/rollup",
-    "semantic-release/semantic-release",
     "serverless/serverless",
     "simple-icons/simple-icons",
     "webpack/webpack",

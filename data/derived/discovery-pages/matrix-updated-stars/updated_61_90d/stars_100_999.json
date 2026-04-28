@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 587,
-    "concepts": 435,
-    "observations": 437,
-    "repos": 103,
-    "terms": 432
+    "components": 641,
+    "concepts": 447,
+    "observations": 449,
+    "repos": 107,
+    "terms": 444
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0k/shyaml",
+    "0xtbug/zero-limit",
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
     "adamritter/fastgron",
@@ -22,6 +23,7 @@
     "Ai00-X/ai00_server",
     "alex-petrenko/sample-factory",
     "alexkohler/nakedret",
+    "alexkohler/prealloc",
     "alfworld/alfworld",
     "alirezarezvani/claude-code-tresor",
     "alonw0/web-asset-generator",
@@ -41,7 +43,6 @@
     "cleinc/bts",
     "cowboy8625/rusty-rain",
     "CppCXY/EmmyLuaCodeStyle",
-    "cross-rs/cross-toolchains",
     "CSU-Radarmet/CSU_RadarTools",
     "cuviper/autocfg",
     "CVEProject/cve-schema",
@@ -59,7 +60,6 @@
     "google/adk-python-community",
     "google/effcee",
     "gwihlidal/vk-mem-rs",
-    "haskell/text",
     "helm/kind-action",
     "hollowstrawberry/kohya-colab",
     "ImageOptim/libimagequant",
@@ -67,6 +67,8 @@
     "intel/ai-reference-models",
     "ipfs/devgrants",
     "JacksonBurns/chemeleon",
+    "JuliaEditorSupport/julia-emacs",
+    "JuliaEditorSupport/julia-vim",
     "kamranahmedse/claude-run",
     "kata-containers/cgroups-rs",
     "KyleMayes/clang-rs",
@@ -82,6 +84,7 @@
     "MMMU-Benchmark/MMMU",
     "multiformats/go-multiaddr",
     "niieani/gpt-tokenizer",
+    "nodejs/unofficial-builds",
     "nodenv/jetbrains-npm",
     "omerxx/tmux-floax",
     "OpenBMB/infllmv2_cuda_impl",
@@ -100,6 +103,7 @@
     "smol-rs/async-executor",
     "snwfdhmp/awesome-ralph",
     "stardot/b-em",
+    "starwing/luautf8",
     "superclaude-org/supergemini_framework",
     "swansonk14/admet_ai",
     "tensorflow/build",
@@ -109,11 +113,11 @@
     "tsonglew/dutis",
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
-    "vim-php/phpctags",
     "vuejs/vue-eslint-parser",
     "walles/px",
     "walles/riff",
     "WebAssembly/tool-conventions",
+    "wenet-e2e/WeTextProcessing",
     "whatwg/meta",
     "wjakob/nanobind_example"
   ]

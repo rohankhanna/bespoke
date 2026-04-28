@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 109,
+    "components": 124,
     "concepts": 27,
     "observations": 27,
-    "repos": 5,
+    "repos": 6,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "apostrophecms/sanitize-html",
     "chakra-core/ChakraCore",
     "dherault/serverless-offline",
     "dwyl/learn-json-web-tokens",

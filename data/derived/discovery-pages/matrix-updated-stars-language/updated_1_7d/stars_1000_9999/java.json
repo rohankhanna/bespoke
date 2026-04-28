@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 179,
-    "observations": 180,
-    "repos": 19,
-    "terms": 179
+    "components": 119,
+    "concepts": 161,
+    "observations": 162,
+    "repos": 16,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -26,12 +26,9 @@
     "google/adk-java",
     "google/error-prone",
     "google/google-java-format",
-    "googleapis/google-api-java-client",
-    "googleapis/google-http-java-client",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",
     "rabbitmq/rabbitmq-tutorials",
-    "soot-oss/soot",
-    "spotbugs/spotbugs"
+    "soot-oss/soot"
   ]
 }

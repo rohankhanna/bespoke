@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 25,
-    "terms": 117
+    "components": 56,
+    "concepts": 124,
+    "observations": 124,
+    "repos": 26,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -38,6 +38,7 @@
     "superclaude-org/supergemini_framework",
     "thorstenMueller/Thorsten-Voice",
     "walles/px",
+    "wenet-e2e/WeTextProcessing",
     "whatwg/meta"
   ]
 }

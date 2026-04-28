@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 244,
-    "observations": 244,
-    "repos": 43,
-    "terms": 242
+    "components": 309,
+    "concepts": 278,
+    "observations": 279,
+    "repos": 49,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "airblade/vim-gitgutter",
     "akermu/emacs-libvterm",
@@ -23,6 +23,7 @@
     "cake-build/cake",
     "CocoaPods/Xcodeproj",
     "compose-spec/compose-spec",
+    "crytic/building-secure-contracts",
     "ctrlpvim/ctrlp.vim",
     "dart-lang/http",
     "dotnet/machinelearning",
@@ -32,10 +33,12 @@
     "ggandor/leap.nvim",
     "gjtorikian/html-proofer",
     "gpu-mode/Triton-Puzzles",
+    "grain-lang/grain",
     "haleclipse/claudix",
     "ipfs/specs",
     "ipld/ipld",
     "itchyny/lightline.vim",
+    "jeremyevans/roda",
     "jgm/djot",
     "jpsim/Yams",
     "L3MON4D3/LuaSnip",
@@ -46,13 +49,16 @@
     "mattn/vim-lsp-settings",
     "mfussenegger/nvim-dap",
     "ninenines/cowboy",
+    "NVIDIA/nccl-tests",
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     "OmniSharp/omnisharp-roslyn",
     "phodal/auto-dev",
+    "pyenv-win/pyenv-win",
     "r-lib/lintr",
     "rcarriga/nvim-dap-ui",
-    "rom1504/clip-retrieval",
+    "ruby/debug",
+    "sbdchd/neoformat",
     "stevearc/overseer.nvim",
     "swiftbar/SwiftBar",
     "tc39/proposal-temporal",

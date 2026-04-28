@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 862,
-    "concepts": 578,
-    "observations": 580,
-    "repos": 74,
-    "terms": 578
+    "components": 822,
+    "concepts": 541,
+    "observations": 543,
+    "repos": 66,
+    "terms": 541
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -31,13 +31,10 @@
     "cargo-generate/cargo-generate",
     "compio-rs/compio",
     "dathere/qsv",
-    "DeterminateSystems/nix-installer",
     "dimforge/nalgebra",
     "dtolnay/cxx",
     "esp-rs/esp-hal",
-    "flamegraph-rs/flamegraph",
     "freenet/freenet-core",
-    "georust/geo",
     "gfx-rs/wgpu-native",
     "google/zerocopy",
     "googlefonts/Inconsolata",
@@ -52,14 +49,10 @@
     "medialab/xan",
     "model-checking/kani",
     "modelcontextprotocol/rust-sdk",
-    "mozilla/grcov",
     "mstange/samply",
     "nextest-rs/nextest",
-    "notify-rs/notify",
     "paradigmxyz/reth",
-    "proptest-rs/proptest",
     "PyO3/maturin",
-    "ratatui/mousefood",
     "release-plz/release-plz",
     "rizsotto/Bear",
     "rkyv/rkyv",
@@ -67,7 +60,6 @@
     "rust-bitcoin/rust-bitcoin",
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
-    "rust-lang/git2-rs",
     "rust-lang/miri",
     "rust-lang/rust-bindgen",
     "rust-lang/rustfmt",

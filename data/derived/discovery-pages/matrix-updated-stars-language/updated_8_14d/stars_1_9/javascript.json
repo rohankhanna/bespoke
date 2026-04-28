@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 16,
-    "terms": 89
+    "components": 83,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 15,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -27,7 +27,6 @@
     "apache/netbeans-antora",
     "ChadKillingsworth/closure-compiler-npm",
     "gauravrathod674/custom-chatbot",
-    "istanbuljs/schema",
     "seunghunbae-3svs/solo-cto-agent",
     "stealabra5019/grok-enhancer"
   ]

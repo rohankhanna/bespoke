@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
-- terms: 687
-- components: 503
-- concepts: 693
-- observations: 696
+- repos: 56
+- terms: 652
+- components: 475
+- concepts: 657
+- observations: 660
 
 ## Static behavior
 
@@ -82,11 +82,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 73653 | 2026-04-21T11:29:19Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [opencv/opencv](https://github.com/opencv/opencv) | 87203 | 2026-04-21T11:05:02Z | C/C++ | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [openssl/openssl](https://github.com/openssl/openssl) | 30023 | 2026-04-21T08:57:15Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [microsoft/WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel) | 10318 | 2026-04-20T23:17:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [git/git](https://github.com/git/git) | 60495 | 2026-04-20T22:44:44Z | C/C++ | Infrastructure/tooling | 5 | 13 | 6 | 6 |
-| [google/benchmark](https://github.com/google/benchmark) | 10155 | 2026-04-20T20:58:11Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [jonas/tig](https://github.com/jonas/tig) | 13199 | 2026-04-20T18:00:55Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [fmtlib/fmt](https://github.com/fmtlib/fmt) | 23441 | 2026-04-20T17:29:42Z | C/C++ | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -98,7 +93,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 73653 | 2026-04-21T11:29:19Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | 72744 | 2026-04-22T12:50:21Z | C/C++ | Infrastructure/tooling | 16 | 1 | 16 | 16 |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71144 | 2026-04-24T07:48:02Z | C/C++ | Infrastructure/tooling | 13 | 10 | 13 | 13 |
-| [git/git](https://github.com/git/git) | 60495 | 2026-04-20T22:44:44Z | C/C++ | Infrastructure/tooling | 5 | 13 | 6 | 6 |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 46992 | 2026-04-21T11:35:12Z | C/C++ | CLI | 21 | 5 | 21 | 21 |
 | [grpc/grpc](https://github.com/grpc/grpc) | 44665 | 2026-04-24T08:03:06Z | C/C++ | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [curl/curl](https://github.com/curl/curl) | 41364 | 2026-04-22T21:42:17Z | C/C++ | CLI | 25 | 7 | 25 | 25 |
@@ -121,7 +115,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 23850 | 2026-04-24T07:38:24Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 23681 | 2026-04-22T17:54:16Z | C/C++ | CLI | 24 | 12 | 27 | 27 |
 | [chromium/chromium](https://github.com/chromium/chromium) | 23493 | 2026-04-24T00:21:20Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [fmtlib/fmt](https://github.com/fmtlib/fmt) | 23441 | 2026-04-20T17:29:42Z | C/C++ | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
 | [google/filament](https://github.com/google/filament) | 20007 | 2026-04-24T06:53:00Z | C/C++ | Infrastructure/tooling | 19 | 8 | 20 | 21 |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | 19945 | 2026-04-23T08:42:20Z | C/C++ | Infrastructure/tooling | 14 | 13 | 14 | 14 |
@@ -139,7 +132,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba/MNN](https://github.com/alibaba/MNN) | 14999 | 2026-04-21T11:31:53Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14494 | 2026-04-22T12:49:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [arangodb/arangodb](https://github.com/arangodb/arangodb) | 14151 | 2026-04-24T07:18:39Z | C/C++ | Model/data | 9 | 0 | 9 | 9 |
-| [jonas/tig](https://github.com/jonas/tig) | 13199 | 2026-04-20T18:00:55Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | 13080 | 2026-04-23T06:58:34Z | C/C++ | CLI | 14 | 8 | 14 | 14 |
 | [qemu/qemu](https://github.com/qemu/qemu) | 13038 | 2026-04-23T17:52:35Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [microsoft/mimalloc](https://github.com/microsoft/mimalloc) | 12742 | 2026-04-23T18:55:11Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -149,7 +141,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libvips/libvips](https://github.com/libvips/libvips) | 11258 | 2026-04-23T17:07:21Z | C/C++ | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [Immediate-Mode-UI/Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) | 11076 | 2026-04-21T14:14:37Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [microsoft/STL](https://github.com/microsoft/STL) | 11028 | 2026-04-24T07:37:25Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [microsoft/WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel) | 10318 | 2026-04-20T23:17:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [google/benchmark](https://github.com/google/benchmark) | 10155 | 2026-04-20T20:58:11Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 10134 | 2026-04-24T00:48:56Z | C/C++ | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [bpftrace/bpftrace](https://github.com/bpftrace/bpftrace) | 10069 | 2026-04-23T20:51:05Z | C/C++ | Infrastructure/tooling | 14 | 11 | 14 | 14 |

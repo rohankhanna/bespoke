@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 66,
-    "observations": 67,
-    "repos": 19,
-    "terms": 66
+    "components": 45,
+    "concepts": 55,
+    "observations": 56,
+    "repos": 16,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "antonbabenko/awesome-terraform-compliance",
@@ -20,7 +20,6 @@
     "bitrise-io/bitrise-steplib",
     "cisagov/vulnrichment",
     "CVEProject/automation-working-group",
-    "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "ghimiresunil/Top-AI-Tools",
     "google/agents-cli",
@@ -29,9 +28,7 @@
     "kubernetes-sigs/krew-index",
     "mason-org/mason-registry",
     "NuGet/docs.microsoft.com-nuget",
-    "oak-security/audit-reports",
     "ocaml/opam-repository",
-    "stripe/openapi",
     "tinted-theming/home"
   ]
 }

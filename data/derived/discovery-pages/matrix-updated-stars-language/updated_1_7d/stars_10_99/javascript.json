@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 11,
-    "terms": 40
+    "components": 98,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 7,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "alexellis/arkade-get",
-    "bufbuild/protobuf-conformance",
     "GuillaumeGomez/browser-UI-test",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
-    "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
     "rashfael/eslint-plugin-vue-pug",
-    "semantic-release/error",
     "ultralytics/llm",
     "web-platform-tests/results-analysis"
   ]

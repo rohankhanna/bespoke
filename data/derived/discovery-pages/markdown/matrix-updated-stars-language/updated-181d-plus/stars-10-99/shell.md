@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
+- repos: 39
 - terms: 85
 - components: 51
 - concepts: 88
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [geekworm-com/xscript](https://github.com/geekworm-com/xscript) | 18 | 2025-10-29T15:16:39Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [ChainSafe/lodestar-quickstart](https://github.com/ChainSafe/lodestar-quickstart) | 35 | 2025-10-15T14:25:09Z | Shell | CLI | 0 | 0 | 0 | 0 |
 | [luizm/asdf-shellcheck](https://github.com/luizm/asdf-shellcheck) | 28 | 2025-10-02T19:52:39Z | Shell | Infrastructure/tooling | 4 | 1 | 5 | 5 |
 | [coin-or-tools/ThirdParty-HSL](https://github.com/coin-or-tools/ThirdParty-HSL) | 39 | 2025-09-10T07:37:35Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -97,6 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [isaacs/npm](https://github.com/isaacs/npm) | 25 | 2024-02-26T05:45:09Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [babashka/pod-babashka-filewatcher](https://github.com/babashka/pod-babashka-filewatcher) | 25 | 2023-09-03T11:47:06Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [unixorn/autoupdate-zgen](https://github.com/unixorn/autoupdate-zgen) | 21 | 2021-05-07T15:21:00Z | Shell | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [geekworm-com/xscript](https://github.com/geekworm-com/xscript) | 18 | 2025-10-29T15:16:39Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [aleksejkrueger/tmux-spotify-tui](https://github.com/aleksejkrueger/tmux-spotify-tui) | 18 | 2022-12-17T12:03:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [geekworm-com/x-c1](https://github.com/geekworm-com/x-c1) | 17 | 2024-06-11T12:52:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Berrysoft/fish-msys2](https://github.com/Berrysoft/fish-msys2) | 15 | 2025-08-15T13:41:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |

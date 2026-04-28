@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 208,
-    "concepts": 120,
-    "observations": 121,
-    "repos": 40,
-    "terms": 120
+    "concepts": 116,
+    "observations": 117,
+    "repos": 41,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "actboy168/json.lua",
     "ahyatt/emacs-websocket",
@@ -36,19 +36,20 @@
     "Embarcadero/python4delphi",
     "fsharp/fslang-design",
     "iftheshoefritz/solargraph-rails",
-    "JuliaEditorSupport/julia-emacs",
-    "JuliaEditorSupport/julia-vim",
     "lassik/emacs-format-all-the-code",
     "lifepillar/vim-mucomplete",
     "mattn/webapi-vim",
+    "metauto-ai/agent-as-a-judge",
     "microsoft/microsoft-performance-toolkit-sdk",
     "milvus-io/milvus-sdk-csharp",
+    "mirage/mirage-www",
     "ocurrent/ocaml-ci",
     "ocurrent/ocurrent",
     "prabirshrestha/asyncomplete.vim",
     "pug-php/pug",
     "purcell/envrc",
     "semver/semver.org",
+    "tanvirtin/vgit.nvim",
     "tc39/proposal-source-phase-imports",
     "trailofbits/eth-security-toolbox",
     "travis-ci/travis-api",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 294,
-    "concepts": 153,
-    "observations": 157,
-    "repos": 38,
-    "terms": 164
+    "components": 334,
+    "concepts": 152,
+    "observations": 156,
+    "repos": 39,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "ada-url/rust",
     "agent-sh/agnix",
-    "alex/rust-asn1",
     "alexheretic/glyph-brush",
     "alloy-rs/core",
     "alloy-rs/examples",
@@ -25,6 +24,7 @@
     "cargo-bins/cargo-quickinstall",
     "containers/aardvark-dns",
     "crate-ci/committed",
+    "crisidev/bacon-ls",
     "criterion-rs/criterion.rs",
     "denoland/deno_doc",
     "dtolnay/proc-macro2",
@@ -32,16 +32,16 @@
     "EspressoSystems/jellyfish",
     "FuelLabs/fuel-vm",
     "gdesmott/system-deps",
-    "gjtorikian/commonmarker",
+    "georust/geojson",
     "hniksic/rust-subprocess",
+    "hyper-mcp-rs/hyper-mcp",
     "Kampfkarren/full-moon",
     "LaurenzV/hayro",
     "messense/jieba-rs",
     "nielsgroen/claude-tmux",
+    "nix-community/harmonia",
     "nix-community/lorri",
-    "ramsayleung/rspotify",
-    "rust-lang/libz-sys",
-    "rust-lang/pkg-config-rs",
+    "rust-lang/compiler-builtins",
     "rust-lang/rustwide",
     "RustCrypto/RSA",
     "rustcrypto/signatures",
@@ -49,6 +49,7 @@
     "tekumara/typos-lsp",
     "tikv/jemallocator",
     "tracel-ai/models",
+    "trifectatechfoundation/zlib-rs",
     "untitaker/hyperlink",
     "yeslogic/allsorts",
     "zimbatm/mdsh"

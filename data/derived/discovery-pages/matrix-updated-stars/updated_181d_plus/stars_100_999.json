@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4404,
-    "concepts": 3401,
-    "observations": 3410,
-    "repos": 1104,
-    "terms": 3383
+    "components": 4435,
+    "concepts": 3410,
+    "observations": 3419,
+    "repos": 1107,
+    "terms": 3392
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -453,6 +453,7 @@
     "electron-userland/electron-installer-dmg",
     "electron-userland/electron-installer-windows",
     "electron-userland/electron-windows-store",
+    "electron-userland/electron-wix-msi",
     "EleutherAI/DeeperSpeed",
     "EleutherAI/polyglot",
     "eliemichel/glfw3webgpu",
@@ -472,6 +473,7 @@
     "EspressoSystems/HotShot",
     "eth-clients/checkpoint-sync-endpoints",
     "ethereum-optimism/cannon",
+    "ethereum/portal-network-specs",
     "ethereum/retesteth",
     "ethereum/snake-charmers-tactical-manual",
     "ethereum/tests",
@@ -606,6 +608,7 @@
     "inikep/lizard",
     "innnky/ar-vits",
     "inside/vim-search-pulse",
+    "intel/intel-extension-for-tensorflow",
     "intel/tinycrypt",
     "InternLM/InternEvo",
     "InternLM/InternLM-Math",

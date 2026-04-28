@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 35,
-    "terms": 29
+    "components": 32,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 34,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -32,7 +32,7 @@
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
-    "danielrosehill/AI-Memory-Planning-0426",
+    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Claude-AI-Engineering-Plugin",
@@ -46,7 +46,6 @@
     "narutoxdd6/nyro",
     "pragmatical-transshipment598/claude-code-workflows",
     "shouted-numberone752/wechat-agent-connector",
-    "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",
     "wendyalbanez/clawui"
   ]

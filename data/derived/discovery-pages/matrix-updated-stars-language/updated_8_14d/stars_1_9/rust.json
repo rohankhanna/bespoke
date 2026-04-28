@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 7,
-    "terms": 24
+    "components": 40,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 6,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "eikarna/hermes-rs",
     "EspressoSystems/espresso-example-l2",
     "kensave/agent-memory-rs",
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
-    "Layr-Labs/hokulea",
-    "urschrei/polyline-ffi"
+    "Layr-Labs/hokulea"
   ]
 }

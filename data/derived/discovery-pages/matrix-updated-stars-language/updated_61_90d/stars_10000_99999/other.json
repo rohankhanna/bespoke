@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 3,
-    "terms": 12
+    "components": 9,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 4,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "junegunn/vim-plug",
+    "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "QwenLM/Qwen3-VL"
   ]

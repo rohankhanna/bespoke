@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 47,
-    "observations": 49,
+    "components": 64,
+    "concepts": 65,
+    "observations": 67,
     "repos": 12,
-    "terms": 53
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "alrra/dotfiles",
+    "antonbabenko/pre-commit-terraform",
+    "bblanchon/pdfium-binaries",
     "bluesky-social/pds",
     "clangd/clangd",
-    "crosstool-ng/crosstool-ng",
     "devcontainers/features",
     "diet103/claude-code-infrastructure-showcase",
+    "docker-library/docker",
     "docker-library/golang",
-    "frankbria/ralph-claude-code",
     "nix-community/nix-direnv",
     "nodenv/nodenv",
-    "pyenv/pyenv-virtualenv",
-    "spiffe/spiffe"
+    "pyenv/pyenv-virtualenv"
   ]
 }

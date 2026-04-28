@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 48,
-    "observations": 49,
-    "repos": 11,
-    "terms": 48
+    "components": 134,
+    "concepts": 49,
+    "observations": 50,
+    "repos": 12,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "asdf-vm/actions",
     "cmake-js/cmake-js",
     "dwyl/learn-postgresql",
     "executablebooks/sphinx-copybutton",
     "fgnass/domino",
+    "mafintosh/streamx",
     "markdown-it/linkify-it",
     "npm/abbrev-js",
     "npm/rfcs",

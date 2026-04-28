@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 21,
-    "terms": 49
+    "components": 59,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 20,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "AndrewRadev/switch.vim",
     "arnetheduck/nph",
     "Azure/arm-ttk",
-    "cross-rs/cross-toolchains",
     "CSU-Radarmet/CSU_RadarTools",
     "CVEProject/cve-schema",
     "domluna/JuliaFormatter.jl",
     "ema2159/centaur-tabs",
     "envoyproxy/data-plane-api",
     "filiph/linkcheck",
-    "haskell/text",
     "hollowstrawberry/kohya-colab",
     "JacksonBurns/chemeleon",
+    "JuliaEditorSupport/julia-emacs",
+    "JuliaEditorSupport/julia-vim",
     "loqusion/typix",
     "rapidsai-community/notebooks-contrib",
     "renzmann/treesit-auto",
     "swansonk14/admet_ai",
     "tpapp/julia-repl",
-    "vim-php/phpctags",
     "WebAssembly/tool-conventions",
     "wjakob/nanobind_example"
   ]

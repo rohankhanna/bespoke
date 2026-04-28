@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 6,
-    "terms": 26
+    "components": 49,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 7,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "carrot2/carrot2",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-lsp4j/lsp4j",
+    "googleapis/google-auth-library-java",
+    "googleapis/google-oauth-java-client",
     "higress-group/higress-console",
     "microsoft/java-debug",
-    "mockingbot/react-native-zip-archive"
+    "spotbugs/sonar-findbugs"
   ]
 }

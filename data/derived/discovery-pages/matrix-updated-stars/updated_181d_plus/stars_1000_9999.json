@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3275,
-    "concepts": 2849,
-    "observations": 2850,
-    "repos": 716,
-    "terms": 2829
+    "components": 3282,
+    "concepts": 2855,
+    "observations": 2856,
+    "repos": 717,
+    "terms": 2836
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -59,6 +59,7 @@
     "altercation/vim-colors-solarized",
     "anderscui/jieba.NET",
     "andrewrk/groovebasin",
+    "andrewrk/poop",
     "anmonteiro/lumo",
     "anse-app/anse",
     "anse-app/chatgpt-demo",
@@ -357,6 +358,7 @@
     "innnky/emotional-vits",
     "insin/nwb",
     "Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+    "InternLM/InternLM",
     "InternLM/InternLM-XComposer",
     "iodide-project/iodide",
     "ipfs/js-ipfs",
@@ -578,7 +580,6 @@
     "PyCQA/pydocstyle",
     "pyenv/pyenv-installer",
     "pystardust/ytfzf",
-    "python/asyncio",
     "qd-today/qd",
     "qhjqhj00/MemoRAG",
     "QwenLM/Qwen-VL",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 34,
+    "components": 30,
     "concepts": 67,
     "observations": 67,
-    "repos": 19,
+    "repos": 18,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "anacrolix/go-libutp",
     "ARM-software/EndpointAI",
@@ -31,7 +31,6 @@
     "objectbox/objectbox-c",
     "raysan5/raylib-games",
     "rusty1s/pytorch_cluster",
-    "stardot/beebasm",
-    "starwing/luautf8"
+    "stardot/beebasm"
   ]
 }

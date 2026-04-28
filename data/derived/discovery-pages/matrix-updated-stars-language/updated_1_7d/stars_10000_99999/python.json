@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1279,
-    "concepts": 1113,
-    "observations": 1115,
-    "repos": 93,
-    "terms": 1103
+    "components": 1225,
+    "concepts": 1025,
+    "observations": 1027,
+    "repos": 85,
+    "terms": 1015
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aden-hive/hive",
-    "akfamily/akshare",
     "ansible/ansible",
     "apache/airflow",
     "apache/tvm",
     "aws/aws-cli",
     "axolotl-ai-cloud/axolotl",
-    "bentoml/OpenLLM",
     "BerriAI/litellm",
-    "BlinkDL/RWKV-LM",
     "camel-ai/camel",
     "celery/celery",
     "Chia-Network/chia-blockchain",
@@ -67,8 +64,6 @@
     "matplotlib/matplotlib",
     "microsoft/graphrag",
     "mlc-ai/mlc-llm",
-    "mlfoundations/open_clip",
-    "modelcontextprotocol/python-sdk",
     "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",
     "nodejs/node-gyp",
@@ -87,8 +82,6 @@
     "pyinstaller/pyinstaller",
     "pyodide/pyodide",
     "pypa/pip",
-    "pypa/pipx",
-    "pytest-dev/pytest",
     "python-poetry/poetry",
     "python/cpython",
     "pytorch/pytorch",
@@ -98,7 +91,6 @@
     "run-llama/llama_index",
     "stanfordnlp/dspy",
     "streamlit/streamlit",
-    "SWE-agent/SWE-agent",
     "tensorflow/models",
     "Textualize/textual",
     "ultralytics/ultralytics",

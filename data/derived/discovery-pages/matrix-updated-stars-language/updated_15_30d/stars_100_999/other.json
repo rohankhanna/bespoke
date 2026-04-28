@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 252,
-    "concepts": 214,
-    "observations": 215,
-    "repos": 44,
-    "terms": 218
+    "components": 273,
+    "concepts": 240,
+    "observations": 241,
+    "repos": 46,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "adelarsq/neoline.vim",
     "adinhodovic/terraform-cloudflare-maintenance",
@@ -27,27 +27,29 @@
     "blemale/scaffeine",
     "cafeTechne/antigravity-link-extension",
     "CommunityToolkit/Windows",
+    "connectrpc/connect-swift",
     "coredns/helm",
     "cshum/vipsgen",
     "dcampos/nvim-snippy",
     "DefinedNet/mobile_nebula",
+    "dgSPARSE/dgSPARSE-Lib",
     "dstein64/vim-startuptime",
+    "dwyl/auth",
     "elastic/docs",
     "emacs-rustic/rustic",
     "ethereum/builder-specs",
     "ethpandaops/ethereum-helm-charts",
     "fanshiqing/grouped_gemm",
+    "fourmolu/fourmolu",
     "fzyzcjy/dart_interactive",
     "gcv/julia-snail",
     "getsentry/sentry-clj",
     "google/protobuf.dart",
     "JuliaPluto/PlutoUI.jl",
     "Layr-Labs/eigenlayer-contracts",
-    "metauto-ai/agent-as-a-judge",
     "microsoft/vscode-mono-debug",
     "microsoft/vssetup.powershell",
     "microsoft/winget-cli-restsource",
-    "mirage/mirage-www",
     "n8willis/opentype-shaping-documents",
     "nvim-mini/mini.files",
     "nvim-mini/mini.pick",
@@ -57,6 +59,6 @@
     "r-lib/styler",
     "rust-lang/compiler-team",
     "saka1/simdjson_ruby",
-    "tanvirtin/vgit.nvim"
+    "swiftlang/swiftly"
   ]
 }

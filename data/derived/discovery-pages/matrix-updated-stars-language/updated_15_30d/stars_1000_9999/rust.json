@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 22,
-    "terms": 130
+    "components": 190,
+    "concepts": 150,
+    "observations": 151,
+    "repos": 26,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
     "bitshifter/glam-rs",
     "BurntSushi/quickcheck",
     "bvaisvil/zenith",
+    "bytedance/monoio",
     "chronotope/chrono",
     "crossterm-rs/crossterm",
     "enigo-rs/enigo",
     "GuillaumeGomez/sysinfo",
     "hyperium/http",
+    "jonhoo/inferno",
     "linebender/resvg",
     "liuchengxu/vim-clap",
     "mitsuhiko/insta",
@@ -31,6 +33,8 @@
     "mozilla/cbindgen",
     "nabijaczleweli/cargo-update",
     "pop-os/cosmic-text",
+    "rust-cli/confy",
+    "rust-windowing/winit",
     "serde-rs/json",
     "servo/ipc-channel",
     "spacejam/sled",

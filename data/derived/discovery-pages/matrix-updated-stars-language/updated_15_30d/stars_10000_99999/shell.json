@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 26,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 3,
-    "terms": 35
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "agarrharr/awesome-cli-apps",
     "nvm-sh/nvm",
     "oh-my-fish/oh-my-fish",
     "spaceship-prompt/spaceship-prompt"

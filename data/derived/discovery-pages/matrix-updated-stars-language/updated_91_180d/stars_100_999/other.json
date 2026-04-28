@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 39,
-    "terms": 122
+    "components": 112,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 42,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aesalazar/AsteroidsWasm",
     "alibaba-damo-academy/PixelRefer",
@@ -24,12 +24,14 @@
     "cleanlab/examples",
     "coin-or/CyLP",
     "com-lihaoyi/cask",
+    "cross-rs/cross-toolchains",
     "ecukes/ecukes",
     "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-java",
     "emacs-lsp/lsp-treemacs",
     "FiloSottile/homebrew-musl-cross",
     "flosse/sloc",
+    "haskell/text",
     "HerringtonDarkholme/yats.vim",
     "igor-makarov/xcake",
     "jayli/vim-easycomplete",
@@ -51,6 +53,7 @@
     "travis-ci/travis-build",
     "travis-ci/travis-cookbooks",
     "VectorSpaceLab/MegaPairs",
+    "vim-php/phpctags",
     "yaml/yaml-test-suite",
     "ymoslem/OpenNMT-Tutorial"
   ]

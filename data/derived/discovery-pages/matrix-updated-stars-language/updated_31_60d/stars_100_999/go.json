@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 18,
-    "terms": 86
+    "components": 99,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 17,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "alexkohler/prealloc",
     "anacrolix/dht",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 213,
-    "observations": 214,
-    "repos": 40,
-    "terms": 212
+    "components": 263,
+    "concepts": 282,
+    "observations": 283,
+    "repos": 49,
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "6551Team/opennews-mcp",
     "ajenti/ajenti",
@@ -22,9 +22,11 @@
     "caronc/apprise-api",
     "chemprop/chemprop",
     "cisco-ai-defense/skill-scanner",
+    "containers/podman-compose",
     "deepspeedai/DeepSpeedExamples",
     "django/daphne",
     "drivendataorg/cookiecutter-data-science",
+    "EleutherAI/gpt-neox",
     "facebookincubator/AITemplate",
     "getzep/zep",
     "google-deepmind/acme",
@@ -35,8 +37,13 @@
     "huggingface/optimum-quanto",
     "huggingface/smollm",
     "intel/intel-extension-for-pytorch",
+    "InternScience/GraphGen",
+    "JoshData/python-email-validator",
     "Kapeli/Dash-User-Contributions",
     "KohakuBlueleaf/LyCORIS",
+    "Kosinkadink/ComfyUI-VideoHelperSuite",
+    "kurtmckee/feedparser",
+    "Lightning-AI/LitServe",
     "linkchecker/linkchecker",
     "microsoft/debugpy",
     "microsoft/MInference",
@@ -44,13 +51,15 @@
     "miguelgrinberg/python-socketio",
     "ml-explore/mlx-examples",
     "neovim/pynvim",
+    "nousresearch/atropos",
     "openvinotoolkit/open_model_zoo",
+    "PyCQA/bandit",
+    "pypa/setuptools",
     "python-poetry/cleo",
     "QwenLM/Qwen3-VL-Embedding",
     "RapidAI/RapidOCR",
     "RUC-NLPIR/FlashRAG",
     "SWE-bench/SWE-bench",
-    "tabatkins/railroad-diagrams",
     "Textualize/rich-cli",
     "therealxiaomanchu/ex-skill",
     "Yelp/dumb-init"

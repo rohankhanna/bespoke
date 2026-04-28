@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 10,
-    "terms": 81
+    "components": 60,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 9,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "fatih/vim-go",
@@ -20,7 +20,6 @@
     "google-research/vision_transformer",
     "Ileriayo/markdown-badges",
     "Kong/kong",
-    "nikic/PHP-Parser",
     "openai/CLIP",
     "ryanoasis/nerd-fonts",
     "tpope/vim-fugitive"

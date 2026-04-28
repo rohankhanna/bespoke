@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 256,
-    "observations": 256,
-    "repos": 47,
-    "terms": 255
+    "components": 264,
+    "concepts": 180,
+    "observations": 180,
+    "repos": 35,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,37 +12,27 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
     "AdaCore/langkit",
     "apache/arrow-dotnet",
     "apache/superset-site",
-    "aquasecurity/trivy-checks",
     "ast-grep/ast-grep.github.io",
     "b-data/jupyterlab-python-docker-stack",
     "b-data/jupyterlab-r-docker-stack",
     "bazel-contrib/rules_d",
     "be-hase/caffeine-coroutines",
-    "cbrgm/githubevents",
-    "cgrindel/bazel-starlib",
     "chainguard-dev/rules_apko",
     "connectbot/termlib",
-    "dart-lang/core",
-    "dart-lang/i18n",
     "dotnet/arcade-services",
-    "emacscollective/epkg",
     "emibcn/badge-action",
     "flavorjones/tailwindcss-ruby",
     "foo-dogsquared/hugo-mod-simple-icons",
-    "gopasspw/gopass-summon-provider",
-    "habamax/.vim",
-    "harfbuzz/uharfbuzz",
     "hashicorp/web-unified-docs",
     "kata-containers/www.katacontainers.io",
     "meta-pytorch/executorch-examples",
-    "mrjones2014/codesettings.nvim",
     "nodenv/homebrew-nodenv",
     "NVIDIA/spark-rapids-tools",
     "ocaml-tracing/ocaml-opentelemetry",
@@ -54,12 +44,10 @@
     "saghen/blink.lib",
     "SAP/abap-file-formats",
     "SAP/abap-file-formats-tools",
-    "sass-contrib/sass-embedded-host-ruby",
     "sbt/sbt-java-formatter",
     "searxng/searx-instances-uptime",
     "servo/servo.org",
     "squeak-smalltalk/squeak.org",
-    "uvarc/rivanna-docker",
-    "WebAssembly/custom-page-sizes"
+    "uvarc/rivanna-docker"
   ]
 }

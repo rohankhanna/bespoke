@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 472,
-    "concepts": 289,
-    "observations": 290,
-    "repos": 48,
-    "terms": 288
+    "components": 405,
+    "concepts": 265,
+    "observations": 266,
+    "repos": 42,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "actix/actix-net",
@@ -26,7 +26,6 @@
     "Commit-Boost/commit-boost-client",
     "ComunidadAylas/PackSquash",
     "containers/netavark",
-    "crisidev/bacon-ls",
     "cyphar/libpathrs",
     "djkoloski/rust_serialization_benchmark",
     "eigenwallet/core",
@@ -36,14 +35,11 @@
     "fancy-regex/fancy-regex",
     "flashbots/contender",
     "flatpak/flat-manager",
-    "georust/geojson",
     "GNOME/librsvg",
     "huggingface/hf-hub",
-    "hyper-mcp-rs/hyper-mcp",
     "lambdaclass/ethrex",
     "LaurenzV/krilla",
     "lu-zero/cargo-c",
-    "nix-community/harmonia",
     "NixOS/nix-installer",
     "OptiVorbis/OptiVorbis",
     "paritytech/parity-scale-codec",
@@ -51,14 +47,12 @@
     "recmo/uint",
     "rust-bitcoin/rust-miniscript",
     "rust-lang/bors",
-    "rust-lang/compiler-builtins",
     "rust-lang/rustc-perf",
     "rust-lang/team",
     "servo/stylo",
     "Sovereign-Labs/sovereign-sdk",
     "succinctlabs/op-succinct",
     "tauri-apps/global-hotkey",
-    "trifectatechfoundation/zlib-rs",
     "typst/packages",
     "Watfaq/PowerSession-rs",
     "yetanotherco/aligned_layer"

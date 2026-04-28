@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Unknown
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 29
-- components: 34
-- concepts: 20
-- observations: 20
+- repos: 34
+- terms: 27
+- components: 32
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -59,13 +60,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [damacol/ai-hub](https://github.com/Damacol/ai-hub) | 0 | 2026-04-17T14:23:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [danielrosehill/AI-Memory-Planning-0426](https://github.com/danielrosehill/AI-Memory-Planning-0426) | 0 | 2026-04-13T12:00:38Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -99,5 +99,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [damacol/ai-hub](https://github.com/Damacol/ai-hub) | 0 | 2026-04-17T14:23:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [danielrosehill/AI-Memory-Planning-0426](https://github.com/danielrosehill/AI-Memory-Planning-0426) | 0 | 2026-04-13T12:00:38Z | Unknown | Unknown | 3 | 0 | 3 | 3 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 24
-- terms: 19
-- components: 92
-- concepts: 19
-- observations: 19
+- repos: 22
+- terms: 18
+- components: 85
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -47,8 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/ai-human-attribution-adder](https://github.com/danielrosehill/AI-Human-Attribution-Adder) | 0 | 2025-10-31T17:29:36Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [pgvector/pgvector-ada](https://github.com/pgvector/pgvector-ada) | 0 | 2025-10-31T05:38:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Claude-Linux-Desktop-Manager](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) | 0 | 2025-10-30T16:36:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [bgw/virtue](https://github.com/bgw/virtue) | 0 | 2025-10-29T23:57:55Z | Unknown | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [bnosac/images](https://github.com/bnosac/images) | 0 | 2025-10-29T13:30:01Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -76,5 +74,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/ai-human-attribution-adder](https://github.com/danielrosehill/AI-Human-Attribution-Adder) | 0 | 2025-10-31T17:29:36Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [pgvector/pgvector-ada](https://github.com/pgvector/pgvector-ada) | 0 | 2025-10-31T05:38:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Claude-Linux-Desktop-Manager](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) | 0 | 2025-10-30T16:36:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [bgw/virtue](https://github.com/bgw/virtue) | 0 | 2025-10-29T23:57:55Z | Unknown | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [bnosac/images](https://github.com/bnosac/images) | 0 | 2025-10-29T13:30:01Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |

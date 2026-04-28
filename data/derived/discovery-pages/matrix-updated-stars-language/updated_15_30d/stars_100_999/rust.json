@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 70,
-    "observations": 71,
-    "repos": 14,
-    "terms": 70
+    "components": 100,
+    "concepts": 95,
+    "observations": 96,
+    "repos": 19,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "alex/rust-asn1",
     "cryscan/web-rwkv",
     "ctz/graviola",
     "drahnr/cargo-spellcheck",
     "esp-rs/esp-idf-svc",
     "FedericoPonzi/Horust",
     "gimli-rs/addr2line",
+    "gjtorikian/commonmarker",
     "in-toto/attestation",
     "mitsuhiko/similar-asserts",
     "nixops4/nixops4",
     "Nugine/simd",
+    "ramsayleung/rspotify",
+    "rust-lang/libz-sys",
+    "rust-lang/pkg-config-rs",
     "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",
     "saghen/frizbee",

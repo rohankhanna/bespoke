@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 8,
-    "terms": 15
+    "components": 20,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 9,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "antimatter15/alpaca.cpp",
     "BVLC/caffe",
@@ -20,6 +20,7 @@
     "ggreer/the_silver_searcher",
     "karpathy/llama2.c",
     "krallin/tini",
+    "spotify/annoy",
     "Tencent/rapidjson",
     "wg/wrk"
   ]

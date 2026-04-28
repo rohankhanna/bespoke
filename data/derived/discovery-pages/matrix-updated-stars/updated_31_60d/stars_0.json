@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 77,
+    "components": 86,
     "concepts": 66,
     "observations": 66,
-    "repos": 24,
-    "terms": 68
+    "repos": 25,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "adammes/voyanode",
@@ -33,6 +33,7 @@
     "marin-community/harbor",
     "musicman3/cruder",
     "musicman3/r2-d2",
+    "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "samsja/dion",
     "sujithpvarghese/bedrock-full-reconciliation",

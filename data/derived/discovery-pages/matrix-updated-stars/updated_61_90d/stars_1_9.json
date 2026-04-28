@@ -1,27 +1,26 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 32,
-    "terms": 99
+    "components": 97,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 30,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0k/shyaml-rs",
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
     "alexpolonsky/agent-skill-jlm-coffee",
+    "alexpolonsky/awesome-agent-skills-israel",
     "arya-s/phantty",
-    "avivshafir/israeli-corporate-law-skill",
     "biocypher/collectri",
     "birdofpreyru/js-utils",
-    "chronosphereio/calyptia-api",
     "Coral-Protocol/coral-rs",
     "cpojer/js-codemod",
     "dart4e/dart4e-studio",
@@ -35,14 +34,13 @@
     "genius-harry/neural-chat",
     "hesreallyhim/inkverse-fork",
     "leaktk/gitleaks",
-    "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
     "objectbox/objectbox-swift-generator",
+    "open-rpc/markdown-gen",
     "piebald-ai/.github",
     "qiuyu96/CoDeF",
     "shesek/electrumd",
     "tianon/fake-git",
-    "trufflesecurity/test_keys",
     "zen-eth/multiformats-zig",
     "zwowo1997/pack-repo-4ai"
   ]

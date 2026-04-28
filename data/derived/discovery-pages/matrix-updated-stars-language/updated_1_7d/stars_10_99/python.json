@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 116,
-    "observations": 118,
-    "repos": 29,
-    "terms": 115
+    "components": 163,
+    "concepts": 105,
+    "observations": 107,
+    "repos": 23,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "AI-Hypercomputer/pathways-utils",
     "AMD-AGI/torchtitan-amd",
     "angr/archinfo",
     "ansible/ansible-compat",
@@ -23,23 +22,18 @@
     "atlanhq/application-sdk",
     "aws-controllers-k8s/test-infra",
     "bufbuild/protovalidate-python",
-    "channel-io/ch-tts-llasa-rl-grpo",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-repodata-patches-feedstock",
     "DeterminateSystems/determinate-nix-action",
-    "ethstaker/ethstaker-deposit-cli",
     "GaloisInc/BLST-Verification",
     "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "jxpress/lightning-hydra-template-vertex-ai",
-    "Looong01/pyg-rocm-build",
     "meta-pytorch/MSLK",
     "metatensor/metatensor",
     "ModelCloud/Evalution",
     "OpenHands/benchmarks",
-    "pyodide/pyodide-build",
     "pyodide/pytest-pyodide",
-    "pytest-dev/execnet",
     "ROCm/tritonBLAS",
     "scipy/scipy-stubs",
     "typeshed-internal/stub_uploader"

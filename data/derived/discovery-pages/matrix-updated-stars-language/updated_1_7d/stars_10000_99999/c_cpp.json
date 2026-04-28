@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 503,
-    "concepts": 693,
-    "observations": 696,
-    "repos": 61,
-    "terms": 687
+    "components": 475,
+    "concepts": 657,
+    "observations": 660,
+    "repos": 56,
+    "terms": 652
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "alibaba/MNN",
@@ -34,18 +34,14 @@
     "facebook/folly",
     "facebook/rocksdb",
     "facebookresearch/faiss",
-    "fmtlib/fmt",
     "FreeRDP/FreeRDP",
     "ggml-org/ggml",
-    "git/git",
     "gnachman/iTerm2",
     "google-ai-edge/mediapipe",
-    "google/benchmark",
     "google/filament",
     "google/sentencepiece",
     "grpc/grpc",
     "Immediate-Mode-UI/Nuklear",
-    "jonas/tig",
     "jqlang/jq",
     "libvips/libvips",
     "microsoft/mimalloc",
@@ -54,7 +50,6 @@
     "microsoft/STL",
     "microsoft/winget-cli",
     "microsoft/WSL",
-    "microsoft/WSL2-Linux-Kernel",
     "ml-explore/mlx",
     "mpv-player/mpv",
     "NixOS/nix",

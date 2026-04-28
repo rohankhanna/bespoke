@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
-- terms: 592
-- components: 631
-- concepts: 594
-- observations: 597
+- repos: 57
+- terms: 542
+- components: 546
+- concepts: 544
+- observations: 547
 
 ## Static behavior
 
@@ -83,10 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) | 15222 | 2026-04-21T11:31:56Z | Other | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [Homebrew/brew](https://github.com/Homebrew/brew) | 47637 | 2026-04-21T11:25:05Z | Other | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 13565 | 2026-04-21T11:23:06Z | Other | Infrastructure/tooling | 10 | 6 | 10 | 10 |
-| [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | 51300 | 2026-04-21T04:28:34Z | Other | CLI | 9 | 20 | 9 | 9 |
-| [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) | 42376 | 2026-04-21T00:18:56Z | Other | Infrastructure/tooling | 16 | 5 | 16 | 16 |
-| [composer/composer](https://github.com/composer/composer) | 29380 | 2026-04-20T21:20:08Z | Other | Infrastructure/tooling | 13 | 8 | 13 | 13 |
-| [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) | 27051 | 2026-04-20T13:47:11Z | Other | Infrastructure/tooling | 12 | 52 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -98,11 +94,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rails/rails](https://github.com/rails/rails) | 58367 | 2026-04-22T06:12:58Z | Other | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [JetBrains/kotlin](https://github.com/JetBrains/kotlin) | 52614 | 2026-04-23T01:06:01Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [jekyll/jekyll](https://github.com/jekyll/jekyll) | 51376 | 2026-04-22T14:50:12Z | Other | Infrastructure/tooling | 13 | 10 | 14 | 14 |
-| [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | 51300 | 2026-04-21T04:28:34Z | Other | CLI | 9 | 20 | 9 | 9 |
 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 48617 | 2026-04-22T22:45:56Z | Other | Infrastructure/tooling | 15 | 7 | 15 | 15 |
 | [Homebrew/brew](https://github.com/Homebrew/brew) | 47637 | 2026-04-21T11:25:05Z | Other | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | 43656 | 2026-04-24T08:55:59Z | Other | Infrastructure/tooling | 16 | 11 | 17 | 17 |
-| [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) | 42376 | 2026-04-21T00:18:56Z | Other | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 41449 | 2026-04-21T22:52:36Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 41424 | 2026-04-23T10:30:17Z | Other | Infrastructure/tooling | 15 | 11 | 15 | 15 |
 | [vim/vim](https://github.com/vim/vim) | 40262 | 2026-04-23T16:04:10Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
@@ -110,9 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 37858 | 2026-04-23T18:48:45Z | Other | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [google-research/google-research](https://github.com/google-research/google-research) | 37770 | 2026-04-21T21:37:26Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | 30901 | 2026-04-22T07:43:52Z | Other | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [composer/composer](https://github.com/composer/composer) | 29380 | 2026-04-20T21:20:08Z | Other | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 27749 | 2026-04-21T18:09:03Z | Other | Infrastructure/tooling | 9 | 16 | 9 | 9 |
-| [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) | 27051 | 2026-04-20T13:47:11Z | Other | Infrastructure/tooling | 12 | 52 | 12 | 12 |
 | [microsoft/vcpkg](https://github.com/microsoft/vcpkg) | 26924 | 2026-04-21T18:28:29Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [elixir-lang/elixir](https://github.com/elixir-lang/elixir) | 26371 | 2026-04-22T20:11:43Z | Other | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [shap/shap](https://github.com/shap/shap) | 25338 | 2026-04-22T17:42:34Z | Other | Infrastructure/tooling | 12 | 14 | 12 | 12 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 13,
-    "terms": 50
+    "components": 111,
+    "concepts": 64,
+    "observations": 65,
+    "repos": 15,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "allenreder/cliproxyapi-quota-inspector",
     "appleboy/drone-lambda",
-    "apptainer/sif",
     "benchsci/rules_nodejs_gazelle",
     "blinklabs-io/bluefin",
     "celo-org/op-geth",
     "cmdjulian/mopy",
+    "coder/coder-logstream-kube",
     "compozy/kb",
+    "connectrpc/conformance",
+    "connectrpc/grpchealth-go",
     "depado/smallblog",
-    "fgrehm/clotilde",
+    "gopasspw/git-credential-gopass",
+    "gopasspw/gopass-hibp",
     "joshsymonds/cc-tools",
-    "magodo/aztft",
-    "notaryproject/notation-core-go"
+    "magodo/aztft"
   ]
 }

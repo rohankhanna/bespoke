@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 821,
-    "concepts": 170,
-    "observations": 171,
-    "repos": 23,
-    "terms": 177
+    "components": 894,
+    "concepts": 175,
+    "observations": 176,
+    "repos": 25,
+    "terms": 182
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "actions/typescript-action",
     "AIPexStudio/AIPex",
@@ -21,12 +21,14 @@
     "bash-lsp/bash-language-server",
     "butlerx/wetty",
     "changesets/action",
+    "coder/ghostty-web",
     "electron/windows-installer",
     "ethers-io/ethers.js",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
     "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
+    "googleapis/release-please",
     "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
     "lobehub/lobe-icons",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 75,
-    "observations": 75,
-    "repos": 15,
-    "terms": 75
+    "components": 25,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 17,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "ailev/fpf",
-    "antonbabenko/terraform-aws-devops",
     "cloudflare/skills",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
+    "emberjs/rfcs",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "gautamkrishnar/gautamkrishnar",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
+    "oak-security/audit-reports",
     "piebald-ai/awesome-gemini-cli",
     "pyOpenSci/software-submission",
     "SamurAIGPT/awesome-openclaw",
     "servo/project",
+    "stripe/openapi",
     "Uzaaft/awesome-libghostty"
   ]
 }

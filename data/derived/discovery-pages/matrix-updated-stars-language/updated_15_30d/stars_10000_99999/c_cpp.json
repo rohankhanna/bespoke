@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 12,
-    "terms": 71
+    "components": 89,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 17,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "aristocratos/btop",
     "cloudwu/skynet",
+    "Cyan4973/xxHash",
+    "davatorium/rofi",
     "deepseek-ai/FlashMLA",
     "facebook/zstd",
     "g-truc/glm",
@@ -23,8 +26,10 @@
     "google/sanitizers",
     "libgit2/libgit2",
     "lz4/lz4",
+    "microsoft/wslg",
     "ninja-build/ninja",
     "nlohmann/json",
-    "NVIDIA/open-gpu-kernel-modules"
+    "NVIDIA/open-gpu-kernel-modules",
+    "NVIDIA/TensorRT"
   ]
 }

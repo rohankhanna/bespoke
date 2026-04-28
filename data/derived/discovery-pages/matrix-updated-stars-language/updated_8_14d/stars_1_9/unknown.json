@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 12,
-    "terms": 11
+    "components": 13,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 10,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
     "agent-sh/prepare-delivery",
     "ai-dynamo/enhancements",
-    "dpc/crev-proofs",
     "eslint/.github",
     "eternahybridexchange/eterna-mcp",
     "flinedev/marketplace",
-    "gkr-bot/gkr-bot",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "nodejs/web-team",
     "piebald-ai/piebald-issues"

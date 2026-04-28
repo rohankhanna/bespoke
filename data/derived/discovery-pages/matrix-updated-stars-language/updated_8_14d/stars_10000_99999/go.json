@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 262,
-    "observations": 262,
-    "repos": 27,
-    "terms": 258
+    "components": 326,
+    "concepts": 313,
+    "observations": 316,
+    "repos": 32,
+    "terms": 309
   },
   "facet_version": 1,
   "filters": {
@@ -12,34 +12,39 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
-    "abiosoft/colima",
     "ahmetb/kubectx",
+    "aquasecurity/trivy",
+    "asdf-vm/asdf",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
-    "charmbracelet/gum",
     "charmbracelet/lipgloss",
-    "charmbracelet/vhs",
     "containerd/containerd",
+    "containerd/nerdctl",
+    "containers/skopeo",
     "coreybutler/nvm-windows",
     "danielmiessler/fabric",
     "dgraph-io/badger",
     "dolthub/dolt",
     "ent/ent",
     "google/cadvisor",
-    "hibiken/asynq",
+    "goreleaser/goreleaser",
     "Jguer/yay",
     "junegunn/fzf",
+    "k3s-io/k3s",
+    "kubernetes-sigs/kind",
     "kubernetes-sigs/kustomize",
     "kubernetes/kompose",
+    "lima-vm/lima",
+    "micro/go-micro",
     "microsoft/typescript-go",
     "nektos/act",
     "router-for-me/cliproxyapi",
-    "shadow1ng/fscan",
     "slimtoolkit/slim",
     "urfave/cli",
+    "valyala/fasthttp",
     "wader/fq"
   ]
 }

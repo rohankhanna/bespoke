@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 2,
-    "terms": 2
+    "components": 8,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 3,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "codelibs/fess-ds-atlassian",
-    "codelibs/fess-ds-box"
+    "codelibs/fess-ds-box",
+    "vegardit/vegardit-maven-parent"
   ]
 }

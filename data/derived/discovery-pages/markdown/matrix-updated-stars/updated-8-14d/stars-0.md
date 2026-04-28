@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 72
-- terms: 62
-- components: 384
-- concepts: 33
-- observations: 33
+- terms: 91
+- components: 393
+- concepts: 62
+- observations: 62
 
 ## Static behavior
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [8144225309/superscalar-wallet](https://github.com/8144225309/superscalar-wallet) | 0 | 2026-04-20T20:18:01Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
+| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -93,15 +97,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PrimeIntellect-ai/router](https://github.com/PrimeIntellect-ai/router) | 0 | 2026-04-16T12:13:48Z | Rust | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [dubbo-go-pixiu/dubbo-go-pixiu](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu) | 0 | 2026-04-16T02:43:04Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [danielrosehill/AI-Memory-Planning-0426](https://github.com/danielrosehill/AI-Memory-Planning-0426) | 0 | 2026-04-13T12:00:38Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [8144225309/superscalar-wallet](https://github.com/8144225309/superscalar-wallet) | 0 | 2026-04-20T20:18:01Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
+| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -170,7 +174,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PrimeIntellect-ai/router](https://github.com/PrimeIntellect-ai/router) | 0 | 2026-04-16T12:13:48Z | Rust | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [dubbo-go-pixiu/dubbo-go-pixiu](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu) | 0 | 2026-04-16T02:43:04Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [danielrosehill/AI-Memory-Planning-0426](https://github.com/danielrosehill/AI-Memory-Planning-0426) | 0 | 2026-04-13T12:00:38Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |

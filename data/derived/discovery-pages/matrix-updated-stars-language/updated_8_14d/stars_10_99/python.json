@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 23,
-    "terms": 82
+    "components": 140,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 21,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,28 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "activeviam/jdk4py",
     "AFLplusplus/afl-cov",
+    "AI-Hypercomputer/pathways-utils",
     "carstencodes/simplepycons",
     "cdeust/cortex",
+    "channel-io/ch-tts-llasa-rl-grpo",
     "costiash/claude-code-docs",
-    "daltonmaag/vttLib",
     "dathere/datapusher-plus",
-    "dreamiurg/claude-mountaineering-skills",
-    "googleapis/python-pubsublite",
+    "ethstaker/ethstaker-deposit-cli",
     "lblankl/Short-RL",
-    "mem0ai/memory-benchmarks",
+    "Looong01/pyg-rocm-build",
     "MeteoSwiss/pyart",
     "MeteoSwiss/pyrad",
     "mypyc/mypyc-benchmarks",
-    "nix-community/nur-update",
-    "NixOS/branding",
     "pycompression/python-isal",
+    "pyodide/pyodide-build",
+    "pytest-dev/execnet",
     "redhat-et/triton-dev-containers",
     "RWKV-Vibe/rwkv_lightning",
-    "Significant-Gravitas/gravitasml",
     "sliamh11/deus",
-    "svaningelgem/logprise",
-    "urschrei/pypolyline"
+    "svaningelgem/logprise"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 336,
-    "observations": 339,
-    "repos": 91,
-    "terms": 331
+    "components": 224,
+    "concepts": 341,
+    "observations": 344,
+    "repos": 92,
+    "terms": 336
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "aarnphm/whispercpp",
@@ -67,6 +67,7 @@
     "huawei-noah/bolt",
     "incluit/OpenVino-For-SmartCity",
     "inikep/lizard",
+    "intel/intel-extension-for-tensorflow",
     "intel/tinycrypt",
     "jandrewrogers/MetroHash",
     "JaneaSystems/nodejs-mobile-cordova",

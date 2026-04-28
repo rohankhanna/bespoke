@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 631,
-    "concepts": 594,
-    "observations": 597,
-    "repos": 61,
-    "terms": 592
+    "components": 546,
+    "concepts": 544,
+    "observations": 547,
+    "repos": 57,
+    "terms": 542
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abpframework/abp",
     "actions/runner-images",
-    "Alamofire/Alamofire",
     "AlDanial/cloc",
     "anthropics/claude-cookbooks",
     "AssemblyScript/assemblyscript",
     "Azure/azure-quickstart-templates",
-    "composer/composer",
     "cython/cython",
     "dart-lang/sdk",
     "deepset-ai/haystack",
@@ -36,7 +34,6 @@
     "dotnet/runtime",
     "elixir-lang/elixir",
     "fastlane/fastlane",
-    "ghostty-org/ghostty",
     "google-gemini/cookbook",
     "google-research/google-research",
     "google/fonts",
@@ -61,7 +58,6 @@
     "nvim-telescope/telescope.nvim",
     "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
-    "OpenZeppelin/openzeppelin-contracts",
     "rails/rails",
     "ScoopInstaller/Scoop",
     "shap/shap",

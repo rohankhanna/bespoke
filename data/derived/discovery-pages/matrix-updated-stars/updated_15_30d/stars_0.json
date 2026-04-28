@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 30,
-    "terms": 41
+    "components": 53,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 33,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "aaronrsun/spec-kit-confluence",
@@ -19,12 +19,14 @@
     "abraxas-365/claudio-screenshot",
     "adiny/moodtrip-hotel-search",
     "amoniacou/external-dns-digitalocean-webhook",
+    "arckoor/jsonwebtoken-botan",
     "b2agi/exist-is-charter_kr",
     "cdeust/cortex-know-when-to-stop-training-model",
     "cmake-wheel/cmeel-example",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/amd-gpu-fixes",
@@ -36,12 +38,13 @@
     "ethpandaops/xatu-cbt",
     "grubersjoe/react-activity-calendar-tests",
     "kayabaNerve/monero-oxide",
-    "neuroverseos/negotiator",
+    "mitchuski/agentprivacy-skills",
     "piebald-ai/piebald",
     "redai-infra/TransferQueue",
     "semgrep/cursor-plugin",
     "Sovereign-Labs/reltester",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "ublacklist/store-assets",
     "wencuecryforme/mysoul.skill"
   ]
 }

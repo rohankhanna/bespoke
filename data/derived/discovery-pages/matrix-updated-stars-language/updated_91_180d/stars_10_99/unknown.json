@@ -3,7 +3,7 @@
     "components": 12,
     "concepts": 23,
     "observations": 23,
-    "repos": 15,
+    "repos": 14,
     "terms": 22
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "automazeio/open-royalties",
     "bl-ue/tweakcc-system-prompts",
     "cedar-policy/rfcs",
-    "danielrosehill/claude-file-organiser-super-slash",
     "dredozubov/prd-generator",
     "eric-haibin-lin/verl-community",
     "json-schema-org/.github",

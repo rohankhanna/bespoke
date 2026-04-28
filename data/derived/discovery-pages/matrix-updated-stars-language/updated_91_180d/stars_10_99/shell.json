@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 15,
     "observations": 15,
-    "repos": 6,
+    "repos": 5,
     "terms": 15
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "cehoffman/lua-build",
     "crate-ci/gh-install",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
-    "geekworm-com/xscript",
     "nodenv/nodenv-installer"
   ]
 }

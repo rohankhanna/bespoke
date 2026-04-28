@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 102
+- repos: 103
 - terms: 382
-- components: 1227
+- components: 1229
 - concepts: 389
 - observations: 389
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ethereum/portal-network-specs](https://github.com/ethereum/portal-network-specs) | 358 | 2025-10-29T08:43:48Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [chrisvoncsefalvay/claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill) | 158 | 2025-10-18T02:29:55Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [grommet/grommet-icons](https://github.com/grommet/grommet-icons) | 343 | 2025-09-03T19:15:46Z | JavaScript | Unknown | 0 | 54 | 0 | 0 |
 | [bartolli/claude-code-typescript-hooks](https://github.com/bartolli/claude-code-typescript-hooks) | 175 | 2025-08-26T17:11:20Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -174,6 +175,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [electron-userland/electron-installer-debian](https://github.com/electron-userland/electron-installer-debian) | 388 | 2025-05-05T08:03:38Z | JavaScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
 | [ebdrup/json-schema-benchmark](https://github.com/ebdrup/json-schema-benchmark) | 387 | 2024-07-04T03:06:14Z | JavaScript | Unknown | 0 | 31 | 0 | 0 |
 | [sveltejs/eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3) | 371 | 2023-04-25T08:36:34Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
+| [ethereum/portal-network-specs](https://github.com/ethereum/portal-network-specs) | 358 | 2025-10-29T08:43:48Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [jonschlinkert/kind-of](https://github.com/jonschlinkert/kind-of) | 354 | 2024-06-12T12:59:53Z | JavaScript | Unknown | 14 | 5 | 14 | 14 |
 | [chromium/hterm](https://github.com/chromium/hterm) | 350 | 2022-06-29T10:30:05Z | JavaScript | CLI | 2 | 5 | 2 | 2 |
 | [grommet/grommet-icons](https://github.com/grommet/grommet-icons) | 343 | 2025-09-03T19:15:46Z | JavaScript | Unknown | 0 | 54 | 0 | 0 |

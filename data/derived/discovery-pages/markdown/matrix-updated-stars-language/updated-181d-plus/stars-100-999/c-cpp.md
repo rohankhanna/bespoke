@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 91
-- terms: 331
-- components: 222
-- concepts: 336
-- observations: 339
+- repos: 92
+- terms: 336
+- components: 224
+- concepts: 341
+- observations: 344
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [intel/intel-extension-for-tensorflow](https://github.com/intel/intel-extension-for-tensorflow) | 352 | 2025-10-29T21:33:22Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [bwa-mem2/bwa-mem2](https://github.com/bwa-mem2/bwa-mem2) | 829 | 2025-10-15T03:58:27Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [inikep/lizard](https://github.com/inikep/lizard) | 702 | 2025-10-09T17:41:20Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [pq-crystals/dilithium](https://github.com/pq-crystals/dilithium) | 585 | 2025-10-08T16:09:44Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
@@ -161,6 +162,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EEEEhex/QQImpl](https://github.com/EEEEhex/QQImpl) | 374 | 2024-01-19T06:42:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jandrewrogers/MetroHash](https://github.com/jandrewrogers/MetroHash) | 371 | 2022-08-30T20:33:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [envoyproxy/envoy-filter-example](https://github.com/envoyproxy/envoy-filter-example) | 361 | 2025-04-14T18:44:17Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [intel/intel-extension-for-tensorflow](https://github.com/intel/intel-extension-for-tensorflow) | 352 | 2025-10-29T21:33:22Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [aarnphm/whispercpp](https://github.com/aarnphm/whispercpp) | 345 | 2024-12-08T00:20:10Z | C/C++ | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [RapidAI/RapidOcrOnnx](https://github.com/RapidAI/RapidOcrOnnx) | 344 | 2025-03-25T06:03:39Z | C/C++ | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [librtlsdr/librtlsdr](https://github.com/librtlsdr/librtlsdr) | 335 | 2024-03-29T12:31:28Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |

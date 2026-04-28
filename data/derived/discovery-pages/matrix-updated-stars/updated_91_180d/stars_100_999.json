@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 883,
-    "concepts": 686,
-    "observations": 691,
+    "components": 862,
+    "concepts": 694,
+    "observations": 699,
     "repos": 188,
-    "terms": 695
+    "terms": 703
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -72,12 +72,12 @@
     "coredns/deployment",
     "cpuguy83/go-md2man",
     "criteo/autofaiss",
+    "cross-rs/cross-toolchains",
     "CSfufu/Revisual-R1",
     "deepseek-ai/awesome-deepseek-coder",
     "dtolnay/cargo-llvm-lines",
     "dustinblackman/cargo-run-bin",
     "ecukes/ecukes",
-    "electron-userland/electron-wix-msi",
     "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-java",
     "emacs-lsp/lsp-treemacs",
@@ -85,7 +85,6 @@
     "erkyrath/glulxe",
     "eryajf/awesome-github-profile-readme-chinese",
     "ethereum-optimism/asterisc",
-    "ethereum/portal-network-specs",
     "ethstaker/ethstaker-guides",
     "f-dangel/backpack",
     "faradayio/cage",
@@ -97,6 +96,7 @@
     "googlefonts/fontmake",
     "gristlabs/asttokens",
     "harfbuzz/ttf-parser",
+    "haskell/text",
     "helm/chart-releaser-action",
     "HerringtonDarkholme/yats.vim",
     "hluaguo/learn-faster-kit",
@@ -104,7 +104,6 @@
     "IAAR-Shanghai/xFinder",
     "igor-makarov/xcake",
     "inclusionAI/ASearcher",
-    "intel/intel-extension-for-tensorflow",
     "intel/isa-l_crypto",
     "ipfs-shipyard/gomobile-ipfs",
     "ipfs/go-ds-s3",
@@ -195,6 +194,7 @@
     "typst/pdf-writer",
     "ValYouW/njsTrace",
     "VectorSpaceLab/MegaPairs",
+    "vim-php/phpctags",
     "virtuald/pyhcl",
     "wenet-e2e/wetts",
     "yaml/yaml-test-suite",

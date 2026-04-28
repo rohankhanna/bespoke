@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 24
-- terms: 68
-- components: 77
+- repos: 25
+- terms: 69
+- components: 86
 - concepts: 66
 - observations: 66
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [neuroverseos/negotiator](https://github.com/NeuroverseOS/negotiator) | 0 | 2026-03-29T00:37:35Z | TypeScript | Infrastructure/tooling | 1 | 9 | 0 | 0 |
 | [sujithpvarghese/bedrock-full-reconciliation](https://github.com/sujithpvarghese/bedrock-full-reconciliation) | 0 | 2026-03-27T19:40:31Z | TypeScript | Framework | 12 | 11 | 12 | 12 |
 | [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
@@ -54,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [neuroverseos/negotiator](https://github.com/NeuroverseOS/negotiator) | 0 | 2026-03-29T00:37:35Z | TypeScript | Infrastructure/tooling | 1 | 9 | 0 | 0 |
 | [sujithpvarghese/bedrock-full-reconciliation](https://github.com/sujithpvarghese/bedrock-full-reconciliation) | 0 | 2026-03-27T19:40:31Z | TypeScript | Framework | 12 | 11 | 12 | 12 |
 | [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |

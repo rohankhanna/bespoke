@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 8,
-    "terms": 58
+    "components": 255,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 9,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "0xtbug/zero-limit",
     "addyosmani/chatty",
     "axel-op/googlejavaformat-action",
     "castwide/vscode-solargraph",

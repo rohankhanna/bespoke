@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 19,
-    "terms": 117
+    "components": 119,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 14,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abhinav/tmux-fastcopy",
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
-    "coder/coder-logstream-kube",
-    "connectrpc/conformance",
-    "connectrpc/grpchealth-go",
     "containers/container-libs",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
-    "gopasspw/git-credential-gopass",
-    "gopasspw/gopass-hibp",
     "ipshipyard/p2p-forge",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",

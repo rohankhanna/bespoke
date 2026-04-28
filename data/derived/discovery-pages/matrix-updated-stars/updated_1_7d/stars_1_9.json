@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 544,
-    "concepts": 176,
-    "observations": 176,
-    "repos": 54,
-    "terms": 175
+    "components": 442,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 43,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "actboy168/ltest",
@@ -23,11 +23,9 @@
     "b-data/jupyterlab-mojo-docker-stack",
     "bell-sw/osv-database",
     "cake-contrib/Cake.Markdownlint",
-    "caronc/apprise-docs",
     "celo-org/charts",
     "certible/superagent-aws-sign",
     "cgrindel/swift_gazelle_plugin",
-    "conda-forge/.cirun",
     "conda-forge/pgvector-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
@@ -39,8 +37,6 @@
     "danielrosehill/Claude-Code-Plugins",
     "danielrosehill/Subindices",
     "DavidKinder/inform",
-    "dreamiurg/mountaineers-mcp",
-    "dreamiurg/peakbagger-cli",
     "eea/bise-frontend",
     "eea/eea-website-frontend",
     "eea/fise-frontend",
@@ -48,10 +44,7 @@
     "eth-act/ere-guests",
     "foundry-rs/foundry-core",
     "goreleaser/.github",
-    "goreleaser/sponsors",
-    "gusztavvargadr/aws-vault-chocolatey",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
-    "lahma/test262-harness-dotnet",
     "Mbed-TLS/mbedtls-test",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
@@ -59,11 +52,7 @@
     "nicolo-ribaudo/engine262",
     "probe-lab/tiros",
     "pyrtlsdr/pyrtlsdrlib",
-    "sass/sync-child-process",
-    "sass/sync-message-port",
     "status-im/nimbus-build-system",
-    "tarikmanoar/tarikmanoar",
-    "vegardit/vegardit-maven-parent",
     "walles/ftop",
     "wavelens/gobgp.nix",
     "web-platform-tests/results-analysis-cache"

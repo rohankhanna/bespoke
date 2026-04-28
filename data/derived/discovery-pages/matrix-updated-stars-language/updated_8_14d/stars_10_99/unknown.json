@@ -3,7 +3,7 @@
     "components": 20,
     "concepts": 22,
     "observations": 22,
-    "repos": 12,
+    "repos": 11,
     "terms": 21
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "cdxeve/awesome-computer-use-agents",
     "charmbracelet/scoop-bucket",
     "Dexters-Hub/Dexters-Hub",
-    "eigenfoundation/elips",
     "flinedev/plankit",
+    "google/oss-policies-info",
     "Homebrew/.github",
     "kubernetes/steering",
     "ocaml/platform-blog",

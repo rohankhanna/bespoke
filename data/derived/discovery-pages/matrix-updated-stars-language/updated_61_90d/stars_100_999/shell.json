@@ -3,7 +3,7 @@
     "components": 25,
     "concepts": 39,
     "observations": 40,
-    "repos": 8,
+    "repos": 9,
     "terms": 38
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "agkozak/zcomet",
     "alirezarezvani/claude-code-tresor",
@@ -20,6 +20,7 @@
     "docker-library/buildpack-deps",
     "get-gah/gah",
     "helm/kind-action",
+    "nodejs/unofficial-builds",
     "omerxx/tmux-floax",
     "tensorflow/build"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 26,
-    "terms": 117
+    "components": 138,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 19,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "0x676e67/wreq-util",
     "ai-dynamo/modelexpress",
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
@@ -23,17 +22,11 @@
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "boundless-xyz/kailua",
-    "boundless-xyz/steel",
     "celo-org/celo-threshold-bls-rs",
-    "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "eth-act/ere",
     "eth-act/zkboost",
-    "fortanix/rustls-mbedtls-provider",
-    "foundry-rs/foundry-fork-db",
     "janrueth/boring-rustls-provider",
-    "major7apps/pensyve",
-    "multiformats/rust-cid",
     "nico-abram/blondie",
     "paradigmxyz/stateless",
     "Sovereign-Labs/rollup-starter",

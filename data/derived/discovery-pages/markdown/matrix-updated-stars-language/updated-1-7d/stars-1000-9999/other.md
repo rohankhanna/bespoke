@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 125
-- terms: 908
-- components: 1072
-- concepts: 916
-- observations: 919
+- repos: 113
+- terms: 823
+- components: 967
+- concepts: 828
+- observations: 830
 
 ## Static behavior
 
@@ -139,18 +139,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nodejs/docker-node](https://github.com/nodejs/docker-node) | 8532 | 2026-04-21T09:22:34Z | Other | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [modelscope/modelscope-classroom](https://github.com/modelscope/modelscope-classroom) | 1374 | 2026-04-21T08:26:37Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ruby/rbs](https://github.com/ruby/rbs) | 2137 | 2026-04-21T06:45:30Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 11 |
-| [WebAssembly/wasi-sdk](https://github.com/WebAssembly/wasi-sdk) | 1538 | 2026-04-20T21:37:05Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [crewAIInc/crewAI-examples](https://github.com/crewAIInc/crewAI-examples) | 5895 | 2026-04-20T19:45:46Z | Other | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [babashka/babashka](https://github.com/babashka/babashka) | 4475 | 2026-04-20T18:57:41Z | Other | Infrastructure/tooling | 5 | 9 | 7 | 8 |
-| [github/choosealicense.com](https://github.com/github/choosealicense.com) | 4102 | 2026-04-20T18:48:53Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [open-telemetry/opentelemetry-specification](https://github.com/open-telemetry/opentelemetry-specification) | 4224 | 2026-04-20T16:55:43Z | Other | Infrastructure/tooling | 7 | 19 | 7 | 7 |
-| [ethereum/execution-apis](https://github.com/ethereum/execution-apis) | 1108 | 2026-04-20T15:16:07Z | Other | CLI | 4 | 28 | 4 | 4 |
-| [objectbox/objectbox-dart](https://github.com/objectbox/objectbox-dart) | 1219 | 2026-04-20T13:42:10Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2062 | 2026-04-20T13:23:29Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [rack/rack](https://github.com/rack/rack) | 5103 | 2026-04-20T09:18:10Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [cimgui/cimgui](https://github.com/cimgui/cimgui) | 1868 | 2026-04-20T08:38:05Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
-| [apple/swift-crypto](https://github.com/apple/swift-crypto) | 1676 | 2026-04-20T08:37:39Z | Other | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode) | 5081 | 2026-04-20T07:47:33Z | Other | CLI | 16 | 10 | 17 | 17 |
 
 ## Repos sorted by stars
 
@@ -180,7 +168,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [saghen/blink.cmp](https://github.com/saghen/blink.cmp) | 6200 | 2026-04-23T21:24:44Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts) | 6074 | 2026-04-22T03:05:04Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5896 | 2026-04-23T07:14:59Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [crewAIInc/crewAI-examples](https://github.com/crewAIInc/crewAI-examples) | 5895 | 2026-04-20T19:45:46Z | Other | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [microsoft/aspire](https://github.com/microsoft/aspire) | 5851 | 2026-04-24T08:07:42Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [Fyrd/caniuse](https://github.com/Fyrd/caniuse) | 5830 | 2026-04-22T05:28:07Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5777 | 2026-04-23T15:33:21Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
@@ -188,9 +175,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | 5548 | 2026-04-23T19:49:31Z | Other | Infrastructure/tooling | 19 | 12 | 19 | 19 |
 | [python-mode/python-mode](https://github.com/python-mode/python-mode) | 5474 | 2026-04-21T20:47:01Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [NeogitOrg/neogit](https://github.com/NeogitOrg/neogit) | 5307 | 2026-04-23T08:00:40Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [rack/rack](https://github.com/rack/rack) | 5103 | 2026-04-20T09:18:10Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [jeremyevans/sequel](https://github.com/jeremyevans/sequel) | 5084 | 2026-04-22T15:45:41Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode) | 5081 | 2026-04-20T07:47:33Z | Other | CLI | 16 | 10 | 17 | 17 |
 | [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim) | 5073 | 2026-04-23T06:01:24Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [knative/docs](https://github.com/knative/docs) | 5028 | 2026-04-22T23:41:21Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [apple/swift-protobuf](https://github.com/apple/swift-protobuf) | 4914 | 2026-04-23T18:40:15Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -198,15 +183,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sebastienros/jint](https://github.com/sebastienros/jint) | 4611 | 2026-04-21T19:56:25Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [microsoft/azurelinux](https://github.com/microsoft/azurelinux) | 4602 | 2026-04-23T08:13:11Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [blockscout/blockscout](https://github.com/blockscout/blockscout) | 4500 | 2026-04-23T16:25:52Z | Other | Infrastructure/tooling | 13 | 14 | 13 | 13 |
-| [babashka/babashka](https://github.com/babashka/babashka) | 4475 | 2026-04-20T18:57:41Z | Other | Infrastructure/tooling | 5 | 9 | 7 | 8 |
 | [dotnet/docfx](https://github.com/dotnet/docfx) | 4426 | 2026-04-22T18:53:51Z | Other | Infrastructure/tooling | 10 | 14 | 11 | 11 |
 | [puremourning/vimspector](https://github.com/puremourning/vimspector) | 4304 | 2026-04-22T06:52:01Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [dotnet/fsharp](https://github.com/dotnet/fsharp) | 4283 | 2026-04-23T21:15:06Z | Other | Infrastructure/tooling | 15 | 22 | 15 | 15 |
-| [open-telemetry/opentelemetry-specification](https://github.com/open-telemetry/opentelemetry-specification) | 4224 | 2026-04-20T16:55:43Z | Other | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) | 4219 | 2026-04-21T10:02:29Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [LuaLS/lua-language-server](https://github.com/LuaLS/lua-language-server) | 4214 | 2026-04-22T09:52:12Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [sass/dart-sass](https://github.com/sass/dart-sass) | 4186 | 2026-04-21T19:25:48Z | Other | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [github/choosealicense.com](https://github.com/github/choosealicense.com) | 4102 | 2026-04-20T18:48:53Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [xiph/rav1e](https://github.com/xiph/rav1e) | 4083 | 2026-04-21T18:42:21Z | Other | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [briansmith/ring](https://github.com/briansmith/ring) | 4076 | 2026-04-21T18:18:57Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [apollographql/apollo-ios](https://github.com/apollographql/apollo-ios) | 4036 | 2026-04-23T17:40:00Z | Other | CLI | 7 | 3 | 7 | 7 |
@@ -238,19 +220,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rapidsai/cugraph](https://github.com/rapidsai/cugraph) | 2163 | 2026-04-23T05:34:42Z | Other | Infrastructure/tooling | 13 | 22 | 13 | 13 |
 | [ruby/rbs](https://github.com/ruby/rbs) | 2137 | 2026-04-21T06:45:30Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 11 |
 | [facebook/react-native-website](https://github.com/facebook/react-native-website) | 2113 | 2026-04-22T23:21:10Z | Other | Infrastructure/tooling | 5 | 22 | 5 | 5 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2062 | 2026-04-20T13:23:29Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [ScoopInstaller/Extras](https://github.com/ScoopInstaller/Extras) | 2059 | 2026-04-23T20:38:26Z | Other | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [Azure/azureml-examples](https://github.com/Azure/azureml-examples) | 1995 | 2026-04-24T02:55:21Z | Other | Infrastructure/tooling | 13 | 3 | 13 | 13 |
-| [cimgui/cimgui](https://github.com/cimgui/cimgui) | 1868 | 2026-04-20T08:38:05Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [ScoopInstaller/Main](https://github.com/ScoopInstaller/Main) | 1828 | 2026-04-23T05:16:10Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [abapGit/abapGit](https://github.com/abapGit/abapGit) | 1818 | 2026-04-23T15:37:27Z | Other | CLI | 10 | 16 | 10 | 10 |
 | [decidim/decidim](https://github.com/decidim/decidim) | 1732 | 2026-04-23T08:20:33Z | Other | Infrastructure/tooling | 16 | 18 | 16 | 16 |
-| [apple/swift-crypto](https://github.com/apple/swift-crypto) | 1676 | 2026-04-20T08:37:39Z | Other | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [beam-community/elixir-companies](https://github.com/beam-community/elixir-companies) | 1668 | 2026-04-23T01:23:34Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [purcell/exec-path-from-shell](https://github.com/purcell/exec-path-from-shell) | 1559 | 2026-04-22T11:03:46Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [NuGet/Home](https://github.com/NuGet/Home) | 1546 | 2026-04-23T02:56:09Z | Other | CLI | 2 | 0 | 2 | 2 |
 | [NethermindEth/nethermind](https://github.com/NethermindEth/nethermind) | 1543 | 2026-04-23T06:20:40Z | Other | CLI | 11 | 13 | 11 | 11 |
-| [WebAssembly/wasi-sdk](https://github.com/WebAssembly/wasi-sdk) | 1538 | 2026-04-20T21:37:05Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [BarutSRB/OmniWM](https://github.com/BarutSRB/OmniWM) | 1532 | 2026-04-22T02:42:44Z | Other | Unknown | 14 | 0 | 14 | 14 |
 | [a2aproject/a2a-samples](https://github.com/a2aproject/a2a-samples) | 1523 | 2026-04-23T14:31:09Z | Other | CLI | 6 | 3 | 6 | 6 |
 | [psmux/psmux](https://github.com/psmux/psmux) | 1515 | 2026-04-22T17:07:12Z | Other | CLI | 16 | 5 | 16 | 16 |
@@ -267,9 +245,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [WebAssembly/component-model](https://github.com/WebAssembly/component-model) | 1298 | 2026-04-23T20:36:53Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [SpecterOps/SharpHound](https://github.com/SpecterOps/SharpHound) | 1249 | 2026-04-23T15:56:25Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1225 | 2026-04-24T12:54:37Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
-| [objectbox/objectbox-dart](https://github.com/objectbox/objectbox-dart) | 1219 | 2026-04-20T13:42:10Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1167 | 2026-04-23T21:43:13Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
-| [ethereum/execution-apis](https://github.com/ethereum/execution-apis) | 1108 | 2026-04-20T15:16:07Z | Other | CLI | 4 | 28 | 4 | 4 |
 | [lm-sensors/lm-sensors](https://github.com/lm-sensors/lm-sensors) | 1103 | 2026-04-24T07:01:28Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ocsigen/js_of_ocaml](https://github.com/ocsigen/js_of_ocaml) | 1100 | 2026-04-22T12:57:38Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [dotnet/dotnet](https://github.com/dotnet/dotnet) | 1094 | 2026-04-24T00:25:40Z | Other | Infrastructure/tooling | 3 | 1 | 3 | 3 |

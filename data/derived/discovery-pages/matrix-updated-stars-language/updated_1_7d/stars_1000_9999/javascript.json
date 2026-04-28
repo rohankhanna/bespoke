@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1072,
-    "concepts": 208,
-    "observations": 208,
-    "repos": 27,
-    "terms": 205
+    "components": 1021,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 23,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "apache/cordova-android",
     "apache/cordova-ios",
-    "Automattic/juice",
     "Blockstream/esplora",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
@@ -29,9 +28,7 @@
     "ipfs/ipfs-desktop",
     "ipfs/ipfs-webui",
     "json-schema-org/json-schema-spec",
-    "JuliaPluto/Pluto.jl",
     "mapbox/node-pre-gyp",
-    "micromatch/picomatch",
     "minio/minio-js",
     "newrelic/node-newrelic",
     "nodegit/nodegit",
@@ -39,7 +36,6 @@
     "pmmmwh/react-refresh-webpack-plugin",
     "tc39/test262",
     "tchx84/Flatseal",
-    "thlorenz/doctoc",
-    "webtorrent/bittorrent-dht"
+    "thlorenz/doctoc"
   ]
 }

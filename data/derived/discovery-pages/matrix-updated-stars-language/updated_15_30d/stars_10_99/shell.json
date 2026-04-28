@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 53,
-    "observations": 53,
+    "components": 34,
+    "concepts": 60,
+    "observations": 60,
     "repos": 9,
-    "terms": 53
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
+    "aporthq/aport-agent-guardrails",
     "beehive-lab/docker-tornadovm",
     "ChainSafe/forest-iac",
     "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/poppler-feedstock",
-    "conda-forge/spacy-feedstock",
     "containers/automation",
     "Digidai/product-manager-skills"
   ]

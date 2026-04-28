@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 3,
-    "terms": 21
+    "components": 26,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "fsnotify/fsnotify",
+    "fullstorydev/grpcurl",
     "muesli/duf",
     "spf13/viper"
   ]

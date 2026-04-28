@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 22,
-    "terms": 21
+    "components": 72,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 23,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abap2ui5/abap2ui5-build",
     "adre5577/contour-tinted",
@@ -20,6 +20,7 @@
     "avsm/ocaml-uri",
     "benwmills/core-sass-compiler",
     "bnosac/audio.vadsilero",
+    "bnosac/images",
     "bronter/wgpu-native-zig-windows-test",
     "chrisguida/nix-dell",
     "dop-amin/ches2025-slothy-tutorial",

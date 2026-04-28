@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 808,
-    "concepts": 839,
-    "observations": 840,
-    "repos": 93,
-    "terms": 835
+    "components": 717,
+    "concepts": 750,
+    "observations": 751,
+    "repos": 83,
+    "terms": 746
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
-    "AOMediaCodec/libavif",
     "aphrodite-engine/aphrodite-engine",
     "ARM-software/astc-encoder",
     "ARM-software/ComputeLibrary",
     "ashvardanian/NumKong",
-    "async-profiler/async-profiler",
     "axboe/liburing",
     "bdwgc/bdwgc",
     "BinomialLLC/basis_universal",
@@ -32,7 +30,6 @@
     "danmar/cppcheck",
     "diffblue/cbmc",
     "doctest/doctest",
-    "ElementsProject/lightning",
     "erincatto/box2d",
     "eth-brownie/brownie",
     "facebook/igl",
@@ -61,9 +58,7 @@
     "kvcache-ai/Mooncake",
     "liballeg/allegro5",
     "libarchive/libarchive",
-    "libgeos/geos",
     "libjxl/libjxl",
-    "libressl/portable",
     "libssh2/libssh2",
     "mamba-org/mamba",
     "Mbed-TLS/mbedtls",
@@ -75,9 +70,7 @@
     "microsoft/react-native-macos",
     "microsoft/WindowsAppSDK",
     "Mithril-mine/libmdbx",
-    "mitsuba-renderer/mitsuba3",
     "Moddable-OpenSource/moddable",
-    "netblue30/firejail",
     "NVIDIA/cccl",
     "NVIDIA/cutlass",
     "NVIDIA/MatX",
@@ -87,7 +80,6 @@
     "OpenMathLib/OpenBLAS",
     "openxla/xla",
     "pytorch/FBGEMM",
-    "pytorch/gloo",
     "rapidsai/cudf",
     "rapidsai/cuml",
     "RoaringBitmap/CRoaring",
@@ -96,7 +88,6 @@
     "simdutf/simdutf",
     "sqlite/sqlite",
     "strukturag/libheif",
-    "sveinbjornt/Platypus",
     "swiftlang/swift-llbuild",
     "uccl-project/uccl",
     "uNetworking/uWebSockets.js",
@@ -105,7 +96,6 @@
     "WebAssembly/wasi-libc",
     "wireshark/wireshark",
     "yaml/libyaml",
-    "zeux/meshoptimizer",
-    "zlib-ng/minizip-ng"
+    "zeux/meshoptimizer"
   ]
 }

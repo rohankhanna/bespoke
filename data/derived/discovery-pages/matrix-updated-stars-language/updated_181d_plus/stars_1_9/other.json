@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 72,
-    "terms": 82
+    "components": 494,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 73,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "4e554c4c/base16-halloy",
     "985892345/mirai-hotfix",
@@ -81,6 +81,7 @@
     "travis-ci/job-board",
     "viperjuice/flutter-structurizr",
     "w3c-ccg/multibase",
+    "WebAssembly/compilation-hints",
     "XcodesOrg/homebrew-made",
     "yejimeiming/electron-screenshort",
     "yeslogic/corpus",

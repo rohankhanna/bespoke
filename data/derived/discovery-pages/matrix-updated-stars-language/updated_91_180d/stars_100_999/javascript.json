@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 127,
+    "components": 125,
     "concepts": 30,
     "observations": 30,
-    "repos": 13,
+    "repos": 12,
     "terms": 31
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "ayoubben18/ab-method",
     "bramstein/url-template",
     "charmbracelet/tree-sitter-vhs",
-    "ethereum/portal-network-specs",
     "gherghett/Antigravity-Shit-Chat",
     "Level/awesome",
     "Meteor-Community-Packages/meteor-scss",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 8,
-    "terms": 45
+    "components": 50,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 7,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "apache/arrow-java",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
-    "bazel-contrib/rules_jvm",
     "bufbuild/protovalidate-java",
     "cedar-policy/cedar-java",
     "filip26/ld-cli",

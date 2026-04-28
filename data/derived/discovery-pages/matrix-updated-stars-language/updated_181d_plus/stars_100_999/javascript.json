@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1227,
+    "components": 1229,
     "concepts": 389,
     "observations": 389,
-    "repos": 102,
+    "repos": 103,
     "terms": 382
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "6/stopwords-json",
@@ -53,6 +53,7 @@
     "electron-userland/electron-installer-debian",
     "electron-userland/electron-installer-windows",
     "electron-userland/electron-windows-store",
+    "ethereum/portal-network-specs",
     "ethereum/tests",
     "eugeneware/gifencoder",
     "fimeg/networkchronicles",

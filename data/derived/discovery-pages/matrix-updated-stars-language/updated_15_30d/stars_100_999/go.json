@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 17,
-    "terms": 84
+    "components": 150,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 20,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "adrg/xdg",
     "aws/credentials-fetcher",
     "bluesky-social/goat",
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
+    "charmbracelet/colorprofile",
+    "coder/code-marketplace",
     "connectrpc/validate-go",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
     "ethereum-optimism/superchain-registry",
     "go-chi/docgen",
+    "hashicorp/errwrap",
     "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
     "imjasonh/kontain.me",

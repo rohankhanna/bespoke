@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 452
-- components: 684
-- concepts: 456
-- observations: 457
+- repos: 37
+- terms: 416
+- components: 573
+- concepts: 420
+- observations: 421
 
 ## Static behavior
 
@@ -63,12 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13080 | 2026-04-21T07:13:22Z | Rust | CLI | 10 | 9 | 10 | 10 |
 | [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16287 | 2026-04-21T06:03:40Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [diem/diem](https://github.com/diem/diem) | 16683 | 2026-04-21T05:52:38Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
-| [rust-lang/cargo](https://github.com/rust-lang/cargo) | 14857 | 2026-04-21T02:45:44Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [sharkdp/fd](https://github.com/sharkdp/fd) | 42640 | 2026-04-21T02:19:57Z | Rust | CLI | 9 | 7 | 9 | 9 |
-| [facebook/relay](https://github.com/facebook/relay) | 18934 | 2026-04-21T02:03:45Z | Rust | Infrastructure/tooling | 4 | 69 | 4 | 4 |
-| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 30261 | 2026-04-20T21:12:47Z | Rust | CLI | 1 | 7 | 1 | 1 |
-| [tokio-rs/tokio](https://github.com/tokio-rs/tokio) | 31746 | 2026-04-20T19:03:45Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
-| [asciinema/asciinema](https://github.com/asciinema/asciinema) | 17197 | 2026-04-20T08:58:54Z | Rust | CLI | 7 | 5 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -82,11 +76,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | 47228 | 2026-04-24T11:57:15Z | Rust | Infrastructure/tooling | 14 | 32 | 14 | 14 |
 | [bevyengine/bevy](https://github.com/bevyengine/bevy) | 45691 | 2026-04-22T05:03:26Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [sharkdp/fd](https://github.com/sharkdp/fd) | 42640 | 2026-04-21T02:19:57Z | Rust | CLI | 9 | 7 | 9 | 9 |
 | [servo/servo](https://github.com/servo/servo) | 36515 | 2026-04-23T06:38:32Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) | 33254 | 2026-04-22T06:48:26Z | Rust | CLI | 10 | 12 | 11 | 11 |
-| [tokio-rs/tokio](https://github.com/tokio-rs/tokio) | 31746 | 2026-04-20T19:03:45Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
-| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 30261 | 2026-04-20T21:12:47Z | Rust | CLI | 1 | 7 | 1 | 1 |
 | [jj-vcs/jj](https://github.com/jj-vcs/jj) | 28289 | 2026-04-24T04:15:09Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [jdx/mise](https://github.com/jdx/mise) | 27007 | 2026-04-21T11:22:04Z | Rust | Infrastructure/tooling | 6 | 40 | 6 | 6 |
 | [wezterm/wezterm](https://github.com/wezterm/wezterm) | 25689 | 2026-04-23T00:58:26Z | Rust | CLI | 10 | 9 | 10 | 10 |
@@ -97,15 +88,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21547 | 2026-04-23T17:03:05Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21381 | 2026-04-23T15:00:50Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [ratatui/ratatui](https://github.com/ratatui/ratatui) | 19936 | 2026-04-21T17:23:50Z | Rust | CLI | 9 | 17 | 9 | 9 |
-| [facebook/relay](https://github.com/facebook/relay) | 18934 | 2026-04-21T02:03:45Z | Rust | Infrastructure/tooling | 4 | 69 | 4 | 4 |
-| [asciinema/asciinema](https://github.com/asciinema/asciinema) | 17197 | 2026-04-20T08:58:54Z | Rust | CLI | 7 | 5 | 7 | 7 |
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | 16968 | 2026-04-22T21:48:28Z | Rust | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [launchbadge/sqlx](https://github.com/launchbadge/sqlx) | 16918 | 2026-04-23T11:23:56Z | Rust | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [diem/diem](https://github.com/diem/diem) | 16683 | 2026-04-21T05:52:38Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [clap-rs/clap](https://github.com/clap-rs/clap) | 16329 | 2026-04-22T23:59:22Z | Rust | CLI | 14 | 11 | 14 | 14 |
 | [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16287 | 2026-04-21T06:03:40Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 14915 | 2026-04-22T03:41:19Z | Rust | Infrastructure/tooling | 25 | 11 | 25 | 25 |
-| [rust-lang/cargo](https://github.com/rust-lang/cargo) | 14857 | 2026-04-21T02:45:44Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) | 14508 | 2026-04-23T00:29:32Z | Rust | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | 13558 | 2026-04-23T02:37:29Z | Rust | CLI | 19 | 20 | 19 | 19 |
 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13080 | 2026-04-21T07:13:22Z | Rust | CLI | 10 | 9 | 10 | 10 |

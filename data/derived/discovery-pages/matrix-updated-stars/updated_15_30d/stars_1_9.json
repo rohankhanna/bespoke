@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 54,
-    "terms": 127
+    "components": 353,
+    "concepts": 143,
+    "observations": 143,
+    "repos": 61,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "1sh1ro/liangxi-skills",
@@ -27,12 +27,13 @@
     "archestra-ai/terraform-provider-archestra",
     "ashvardanian/ashvardanian",
     "Asmod4n/mruby-fast-json",
-    "aspect-build/tools_telemetry",
     "axolotl-ai-cloud/ml-cross-entropy",
     "azure/homebrew-bicep",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "CoolCat467/idlemypyextension",
+    "cpu/wycheproof",
+    "curiousdannii/asyncglk",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/agent-junction",
     "danielrosehill/AI-Decision-Eval-Projects",
@@ -42,13 +43,18 @@
     "DataDog/trivy",
     "dnvt/burn-speech-training",
     "dp111/6502timing",
+    "dpc/crev-proofs",
+    "dreamiurg/mountaineers-assistant",
     "dwyl/auth_plug_example",
     "EspressoSystems/Push-CDN",
     "ethpandaops/cbt",
     "ethpandaops/checkpoint-sync-health-checks",
+    "gkr-bot/gkr-bot",
     "graphql/community-wg",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
+    "istanbuljs/schema",
+    "joinwell52-ai/joinwell52",
     "lab-cosmo/.github",
     "Level/read-stream",
     "Level/supports",
@@ -66,6 +72,7 @@
     "rapidsai/gha-tools",
     "ScoopInstaller/.github",
     "semgrep/mcp-marketplace",
-    "sp1-patches/bn"
+    "sp1-patches/bn",
+    "urschrei/polyline-ffi"
   ]
 }

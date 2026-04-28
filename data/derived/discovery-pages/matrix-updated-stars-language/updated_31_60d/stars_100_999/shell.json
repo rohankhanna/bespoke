@@ -3,7 +3,7 @@
     "components": 3,
     "concepts": 12,
     "observations": 12,
-    "repos": 7,
+    "repos": 6,
     "terms": 13
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
     "aws/aws-app-mesh-examples",
     "docker-library/hello-world",
     "flinedev/contextkit",
     "heroku/heroku-buildpack-pgbouncer",
-    "mosaicml/examples",
-    "nodejs/unofficial-builds"
+    "mosaicml/examples"
   ]
 }

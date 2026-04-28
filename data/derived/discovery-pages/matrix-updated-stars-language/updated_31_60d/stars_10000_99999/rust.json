@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 16,
-    "observations": 18,
-    "repos": 3,
-    "terms": 17
+    "components": 47,
+    "concepts": 27,
+    "observations": 29,
+    "repos": 4,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "burntsushi/ripgrep",
+    "dandavison/delta",
     "serde-rs/serde",
     "TabbyML/tabby"
   ]

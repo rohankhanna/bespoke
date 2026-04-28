@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 22
+    "components": 158,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 6,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
     "react-native-netinfo/react-native-netinfo",
-    "ricky0123/vad"
+    "ricky0123/vad",
+    "snarktank/antfarm",
+    "stravu/crystal"
   ]
 }

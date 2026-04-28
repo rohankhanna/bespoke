@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Other
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 6
-- components: 27
-- concepts: 0
-- observations: 0
+- repos: 9
+- terms: 10
+- components: 32
+- concepts: 4
+- observations: 4
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [danielrosehill/AI-Ideation-Runs](https://github.com/danielrosehill/AI-Ideation-Runs) | 0 | 2026-04-19T14:44:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [b2agi/exist-is-charter](https://github.com/b2agi/exist-is-charter) | 0 | 2026-04-19T13:51:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [robertabao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | 0 | 2026-04-19T13:37:47Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -39,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [danielrosehill/AI-Ideation-Runs](https://github.com/danielrosehill/AI-Ideation-Runs) | 0 | 2026-04-19T14:44:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [b2agi/exist-is-charter](https://github.com/b2agi/exist-is-charter) | 0 | 2026-04-19T13:51:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [robertabao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | 0 | 2026-04-19T13:37:47Z | Other | Model/data | 0 | 0 | 0 | 0 |

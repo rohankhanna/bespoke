@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 445,
-    "concepts": 100,
-    "observations": 101,
-    "repos": 20,
-    "terms": 124
+    "components": 529,
+    "concepts": 118,
+    "observations": 121,
+    "repos": 24,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "actions/hello-world-javascript-action",
     "agent-sh/agentsys",
+    "bcomnes/npm-run-all2",
     "bmad-code-org/bmad-module-game-dev-studio",
+    "chaijs/chai-http",
+    "ClickHouse/agent-skills",
     "coderaiser/putout",
     "electron/node-abi",
     "eslint-community/eslint-plugin-n",
@@ -31,6 +33,8 @@
     "nodejs/admin",
     "nodejs/TSC",
     "octokit/request-action",
+    "semantic-release/commit-analyzer",
+    "semantic-release/github",
     "semantic-release/npm",
     "sethgammon/citadel",
     "stripe-samples/accept-a-payment"

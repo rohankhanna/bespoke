@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
+    "components": 20,
     "concepts": 12,
     "observations": 12,
-    "repos": 1,
-    "terms": 12
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "neuroverseos/negotiator",
     "sujithpvarghese/bedrock-full-reconciliation"
   ]
 }

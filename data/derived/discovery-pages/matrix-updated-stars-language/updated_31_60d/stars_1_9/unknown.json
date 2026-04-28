@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 11,
-    "terms": 12
+    "concepts": 4,
+    "observations": 4,
+    "repos": 10,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
-    "alexpolonsky/awesome-agent-skills-israel",
     "awni/picochat",
     "cncf/k8s-conformance-archive",
     "conda-forge/modin-feedstock",

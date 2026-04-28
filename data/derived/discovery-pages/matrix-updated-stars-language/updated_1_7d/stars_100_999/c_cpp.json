@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 227,
-    "concepts": 214,
-    "observations": 214,
-    "repos": 39,
-    "terms": 212
+    "components": 195,
+    "concepts": 172,
+    "observations": 172,
+    "repos": 33,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "actboy168/bee.lua",
     "acts-project/acts",
     "ampl/mp",
-    "aseprite/laf",
     "aws/aws-ofi-nccl",
     "BabylonJS/BabylonNative",
     "bitcoin-core/gui",
     "boazsegev/iodine",
-    "coin-or/Cbc",
     "corporateshark/lightweightvk",
     "DavidKinder/Inform6",
     "Ezibenroc/PyRoaringBitMap",
@@ -31,18 +29,14 @@
     "google/dawn",
     "google/fuzztest",
     "google/riegeli",
-    "hajimes/mmh3",
     "intel/intel-ipsec-mb",
     "ipsilon/evmone",
-    "KhronosGroup/SPIRV-Headers",
-    "lxqt/qterminal",
     "lxqt/qtermwidget",
     "mitsuba-renderer/drjit",
     "nss-dev/nss",
     "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
     "pantoniou/libfyaml",
-    "powturbo/TurboBench",
     "pyg-team/pyg-lib",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",

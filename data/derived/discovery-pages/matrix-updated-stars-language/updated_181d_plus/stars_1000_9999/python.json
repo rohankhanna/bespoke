@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 329,
-    "concepts": 1080,
-    "observations": 1081,
-    "repos": 253,
-    "terms": 1068
+    "components": 333,
+    "concepts": 1092,
+    "observations": 1093,
+    "repos": 254,
+    "terms": 1080
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abisee/pointer-generator",
     "acheong08/EdgeGPT",
@@ -136,6 +136,7 @@
     "i-tu/Hasklig",
     "IDEA-CCNL/Fengshenbang-LM",
     "IDEA-Research/detrex",
+    "InternLM/InternLM",
     "InternLM/InternLM-XComposer",
     "isl-org/DPT",
     "isl-org/MiDaS",

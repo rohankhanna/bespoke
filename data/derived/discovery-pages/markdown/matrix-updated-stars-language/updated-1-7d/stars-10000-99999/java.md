@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 186
-- components: 153
-- concepts: 188
-- observations: 188
+- repos: 12
+- terms: 178
+- components: 148
+- concepts: 180
+- observations: 180
 
 ## Static behavior
 
@@ -38,7 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/dubbo](https://github.com/apache/dubbo) | 41563 | 2026-04-22T04:56:58Z | Java | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | 26146 | 2026-04-21T16:45:53Z | Java | CLI | 19 | 11 | 19 | 19 |
 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25335 | 2026-04-21T11:23:13Z | Java | Infrastructure/tooling | 15 | 13 | 15 | 15 |
-| [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10643 | 2026-04-20T15:06:18Z | Java | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -56,4 +55,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/doris](https://github.com/apache/doris) | 15259 | 2026-04-23T15:28:11Z | Java | Infrastructure/tooling | 22 | 9 | 22 | 22 |
 | [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12002 | 2026-04-23T15:53:54Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [apple/pkl](https://github.com/apple/pkl) | 11315 | 2026-04-23T21:39:56Z | Java | Infrastructure/tooling | 18 | 11 | 20 | 20 |
-| [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10643 | 2026-04-20T15:06:18Z | Java | Infrastructure/tooling | 8 | 5 | 8 | 8 |

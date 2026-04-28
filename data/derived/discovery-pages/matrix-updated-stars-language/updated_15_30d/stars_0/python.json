@@ -3,7 +3,7 @@
     "components": 8,
     "concepts": 7,
     "observations": 7,
-    "repos": 2,
+    "repos": 3,
     "terms": 7
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "cdeust/cortex-know-when-to-stop-training-model",
+    "mitchuski/agentprivacy-skills",
     "redai-infra/TransferQueue"
   ]
 }

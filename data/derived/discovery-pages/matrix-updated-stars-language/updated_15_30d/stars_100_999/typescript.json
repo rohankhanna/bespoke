@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 439,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 16,
-    "terms": 65
+    "components": 443,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 18,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "actions/container-toolkit-action",
+    "AmElmo/proofshot",
     "aws-actions/aws-secretsmanager-get-secrets",
-    "aws-samples/dify-self-hosted-on-aws",
+    "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
     "cztomsik/ava",
+    "evmts/tevm-monorepo",
     "fastify/demo",
     "google/adk-web",
     "haskell/vscode-haskell",
     "juliangruber/brace-expansion",
     "krassowski/jupyterlab-lsp",
-    "lobehub/lobe-midjourney-webui",
     "nashaofu/screenshots",
     "NVIDIA/OpenShell-Community",
     "shareai-lab/kode-agent-sdk",

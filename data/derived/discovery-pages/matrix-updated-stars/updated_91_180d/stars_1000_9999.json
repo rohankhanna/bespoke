@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 939,
-    "concepts": 756,
-    "observations": 764,
-    "repos": 145,
-    "terms": 750
+    "components": 932,
+    "concepts": 744,
+    "observations": 752,
+    "repos": 143,
+    "terms": 738
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -23,7 +23,6 @@
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
     "andialbrecht/sqlparse",
-    "andrewrk/poop",
     "anordal/shellharden",
     "asdf-vm/asdf-plugins",
     "ashvardanian/less_slow.cpp",
@@ -77,7 +76,6 @@
     "ianlancetaylor/libbacktrace",
     "IBM/Project_CodeNet",
     "IntelLabs/fastRAG",
-    "InternLM/InternLM",
     "ipfs/ipfs-companion",
     "isaacs/nave",
     "jasongin/nvs",

@@ -3,7 +3,7 @@
     "components": 20,
     "concepts": 15,
     "observations": 15,
-    "repos": 7,
+    "repos": 6,
     "terms": 15
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
     "containerd/project",
     "crewAIInc/skills",
     "docker/github-builder",
-    "google/oss-policies-info",
     "mypyc/mypyc-benchmark-results",
     "supabase/scoop-bucket"
   ]

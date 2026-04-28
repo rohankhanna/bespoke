@@ -3,7 +3,7 @@
     "components": 3245,
     "concepts": 1657,
     "observations": 1662,
-    "repos": 785,
+    "repos": 787,
     "terms": 1648
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0x7432/asm-ru",
     "0xC0000054/libheif-sharp",
@@ -281,6 +281,7 @@
     "dandavison/open-in-editor",
     "danielgindi/node-autodetect-decoder-stream",
     "danielnappa/tweakgc-cli",
+    "danielrosehill/claude-file-organiser-super-slash",
     "dapplion/beacon-metrics-gazer",
     "darkweak/go-esi",
     "darrenyao87/tnn-models",
@@ -393,6 +394,7 @@
     "gchq/koryphe",
     "gdkrmr/lsp-julia",
     "geekworm-com/x-c1",
+    "geekworm-com/xscript",
     "geoffreylitt/ladybug",
     "georust/geocoding",
     "gerschel/sd-web-ui-quickcss",

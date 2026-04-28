@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 67,
-    "observations": 68,
-    "repos": 15,
-    "terms": 67
+    "components": 114,
+    "concepts": 76,
+    "observations": 77,
+    "repos": 18,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "antham/ghokin",
     "apache/dubbo-go-pixiu-samples",
+    "apptainer/sif",
     "astro-han/diffpane",
     "aws/amazon-network-policy-controller-k8s",
     "darkweak/storages",
     "ethpandaops/xatu",
+    "fgrehm/clotilde",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
     "magodo/tfadd",
+    "notaryproject/notation-core-go",
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",
     "tilt-dev/tilt-apiserver"

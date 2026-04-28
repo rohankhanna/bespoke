@@ -1,24 +1,22 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 24,
-    "terms": 19
+    "components": 85,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 22,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "appscodelabs/liche",
     "babashka/homebrew-brew",
-    "bgw/virtue",
     "biocypher/biocypher-cookiecutter-template",
-    "bnosac/images",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Agent-Virtual-Panel-Configs",

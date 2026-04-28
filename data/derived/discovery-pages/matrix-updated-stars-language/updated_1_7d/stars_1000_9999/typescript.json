@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3048,
-    "concepts": 563,
-    "observations": 565,
-    "repos": 60,
-    "terms": 561
+    "components": 2759,
+    "concepts": 513,
+    "observations": 515,
+    "repos": 53,
+    "terms": 511
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "a-ghorbani/pocketpal-ai",
     "actions/cache",
     "actions/toolkit",
     "adobe/spectrum-web-components",
     "ai-that-works/ai-that-works",
     "artifacthub/hub",
-    "astral-sh/ruff-vscode",
-    "aws-actions/configure-aws-credentials",
     "aws-powertools/powertools-lambda-typescript",
     "Azure/azure-sdk-for-js",
     "bluesky-social/atproto",
@@ -31,7 +28,6 @@
     "civitai/civitai",
     "clerk/javascript",
     "cloudflare/agents",
-    "cloudflare/agents-starter",
     "coder/mux",
     "Comfy-Org/ComfyUI_frontend",
     "Comfy-Org/desktop",
@@ -59,10 +55,7 @@
     "netlify/cli",
     "NomicFoundation/hardhat",
     "open-telemetry/opentelemetry-js",
-    "panva/jose",
     "podman-desktop/podman-desktop",
-    "prettier/prettier-vscode",
-    "privatenumber/esbuild-loader",
     "r5n-labs/vscode-react-javascript-snippets",
     "react-native-community/cli",
     "redhat-developer/yaml-language-server",

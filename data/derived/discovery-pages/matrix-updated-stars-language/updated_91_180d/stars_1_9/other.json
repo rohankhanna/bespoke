@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 13,
-    "terms": 22
+    "components": 26,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 12,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -25,7 +25,6 @@
     "ocaml-opam/opam-rt",
     "parruda/ruby_llm",
     "slunsford/coffee-analytics",
-    "thalesgelinger/toon.nvim",
-    "WebAssembly/compilation-hints"
+    "thalesgelinger/toon.nvim"
   ]
 }

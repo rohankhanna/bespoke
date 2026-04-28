@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
-- terms: 234
-- components: 1393
-- concepts: 219
-- observations: 219
+- repos: 51
+- terms: 238
+- components: 1420
+- concepts: 223
+- observations: 223
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [electron-userland/electron-wix-msi](https://github.com/electron-userland/electron-wix-msi) | 331 | 2025-10-29T22:10:39Z | TypeScript | Unknown | 4 | 27 | 4 | 4 |
 | [claude-did-this/claude-hub](https://github.com/claude-did-this/claude-hub) | 457 | 2025-10-27T14:06:25Z | TypeScript | Infrastructure/tooling | 9 | 52 | 0 | 0 |
 | [zsio/claude-code-hub](https://github.com/zsio/claude-code-hub) | 163 | 2025-10-27T10:34:48Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
 | [neplexlabs/canvacord](https://github.com/neplexlabs/canvacord) | 259 | 2025-10-21T17:22:50Z | TypeScript | Infrastructure/tooling | 15 | 14 | 15 | 15 |
@@ -107,6 +108,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fwcd/vscode-kotlin](https://github.com/fwcd/vscode-kotlin) | 358 | 2024-12-06T02:45:38Z | TypeScript | Infrastructure/tooling | 6 | 23 | 6 | 6 |
 | [johnlindquist/claude-hooks](https://github.com/johnlindquist/claude-hooks) | 350 | 2025-08-08T03:19:00Z | TypeScript | Infrastructure/tooling | 3 | 36 | 0 | 0 |
 | [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 343 | 2025-07-28T08:11:03Z | TypeScript | Infrastructure/tooling | 7 | 54 | 7 | 7 |
+| [electron-userland/electron-wix-msi](https://github.com/electron-userland/electron-wix-msi) | 331 | 2025-10-29T22:10:39Z | TypeScript | Unknown | 4 | 27 | 4 | 4 |
 | [electron-userland/electron-installer-dmg](https://github.com/electron-userland/electron-installer-dmg) | 326 | 2025-08-27T22:49:37Z | TypeScript | Infrastructure/tooling | 0 | 23 | 0 | 0 |
 | [InternLM/OpenAOE](https://github.com/InternLM/OpenAOE) | 323 | 2025-06-19T13:58:16Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [asg017/sqlite-ecosystem](https://github.com/asg017/sqlite-ecosystem) | 292 | 2023-08-06T02:27:05Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |

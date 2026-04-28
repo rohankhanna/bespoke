@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 817,
-    "concepts": 747,
-    "observations": 751,
-    "repos": 65,
-    "terms": 740
+    "components": 704,
+    "concepts": 652,
+    "observations": 653,
+    "repos": 55,
+    "terms": 647
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
     "apache/casbin",
-    "aquasecurity/trivy",
     "argoproj/argo-cd",
-    "asdf-vm/asdf",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
     "cli/cli",
     "coder/coder",
-    "containerd/nerdctl",
     "containers/podman",
-    "containers/skopeo",
     "coredns/coredns",
     "dexidp/dex",
     "distribution/distribution",
@@ -44,7 +40,6 @@
     "gohugoio/hugo",
     "golangci/golangci-lint",
     "google/go-github",
-    "goreleaser/goreleaser",
     "grafana/loki",
     "grafana/pyroscope",
     "grpc/grpc-go",
@@ -55,12 +50,8 @@
     "ipfs/kubo",
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
-    "k3s-io/k3s",
-    "kubernetes-sigs/kind",
     "kubernetes/kops",
     "kubernetes/minikube",
-    "lima-vm/lima",
-    "micro/go-micro",
     "mikefarah/yq",
     "milvus-io/milvus",
     "moby/moby",
@@ -77,7 +68,6 @@
     "slackhq/nebula",
     "syncthing/syncthing",
     "thanos-io/thanos",
-    "trufflesecurity/trufflehog",
-    "valyala/fasthttp"
+    "trufflesecurity/trufflehog"
   ]
 }

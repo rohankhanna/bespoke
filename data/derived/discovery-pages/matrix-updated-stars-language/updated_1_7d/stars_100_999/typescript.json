@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1505,
-    "concepts": 276,
-    "observations": 276,
-    "repos": 42,
-    "terms": 282
+    "components": 1192,
+    "concepts": 241,
+    "observations": 241,
+    "repos": 34,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "a2aproject/a2a-js",
     "abaplint/abaplint",
-    "anthropics/claude-code-base-action",
     "astral-sh/ruff-action",
     "aws/aws-iot-device-sdk-js-v2",
     "Azure/login",
@@ -30,7 +29,6 @@
     "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "electron/packager",
-    "elizaos/elizaos.github.io",
     "engine262/engine262",
     "github/local-action",
     "graphprotocol/graph-client",
@@ -39,20 +37,14 @@
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
-    "microsoft/TypeScript-DOM-lib-generator",
-    "mightyiam/eslint-config-love",
     "octokit/request.js",
     "octokit/webhooks",
     "octokit/webhooks.js",
-    "OffchainLabs/arbitrum-sdk",
-    "open-telemetry/opentelemetry-js-contrib",
     "OpenZeppelin/openzeppelin-upgrades",
     "redhat-developer/vscode-xml",
     "safe-fndn/safe-singleton-factory",
     "safe-global/safe-deployments",
-    "sass/embedded-host-node",
     "Softeria/ms-365-mcp-server",
-    "strands-agents/sdk-typescript",
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi"

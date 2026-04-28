@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 10,
-    "terms": 11
+    "concepts": 9,
+    "observations": 9,
+    "repos": 9,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "conda-forge/conda-lock-feedstock",
     "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
     "danielrosehill/adb-ops-plugin",
-    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/Backup-Planner",
     "danielrosehill/Claude-Code-Bugs-And-FRs",

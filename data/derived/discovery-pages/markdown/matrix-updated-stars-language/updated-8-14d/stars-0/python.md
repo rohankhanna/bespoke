@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Python
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 8
-- terms: 5
+- terms: 22
 - components: 6
-- concepts: 0
-- observations: 0
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
 | [florisheedless915/grok-register](https://github.com/Florisheedless915/grok-register) | 0 | 2026-04-19T12:38:12Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
 | [shubishere/ai-drawio](https://github.com/Shubishere/ai-drawio) | 0 | 2026-04-19T11:52:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -33,12 +34,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [kidshadow79/ogma](https://github.com/kidshadow79/Ogma) | 0 | 2026-04-18T22:33:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
-| [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
 | [florisheedless915/grok-register](https://github.com/Florisheedless915/grok-register) | 0 | 2026-04-19T12:38:12Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
 | [shubishere/ai-drawio](https://github.com/Shubishere/ai-drawio) | 0 | 2026-04-19T11:52:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -46,4 +47,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [kidshadow79/ogma](https://github.com/kidshadow79/Ogma) | 0 | 2026-04-18T22:33:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
-| [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |

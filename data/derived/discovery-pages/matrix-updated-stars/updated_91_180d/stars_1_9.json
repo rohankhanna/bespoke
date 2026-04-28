@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 181,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 63,
-    "terms": 85
+    "components": 188,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 65,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "3swordman/tree-sitter-toon",
     "abap2UI5-addons/table-maintenance",
@@ -26,10 +26,12 @@
     "AnshulGora/portfolio_template_v1",
     "arustydev/pre-commit-hooks",
     "atrodo/WebGPU-Direct",
+    "avivshafir/israeli-corporate-law-skill",
     "behnamazimi/inquirer-checkbox-plus-plus",
     "buttercannfly/AIPex",
     "ca-ruz/bumpit",
     "CHERIoT-Platform/cheriot-pqc",
+    "chronosphereio/calyptia-api",
     "codeGROOVE-dev/retry",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
     "danielrosehill/AI-Agent-UN",
@@ -54,8 +56,8 @@
     "lita-xyz/Plonky3",
     "lukasz-wronski/Antigravity-Shit-Chat",
     "MarcCote/downward",
+    "mjvolk3/torchcell",
     "MollySophia/Albatross",
-    "nornagon/crossterm",
     "ocaml-opam/opam-rt",
     "parruda/ruby_llm",
     "pydantic/pydantic-docs",
@@ -70,11 +72,11 @@
     "Tencent/tencent.github.io",
     "thalesgelinger/toon.nvim",
     "Triang-jyed-driung/Albatross",
+    "trufflesecurity/test_keys",
     "Vaishnav-Sabari-Girish/Hayasen-Examples",
     "Vaishnav-Sabari-Girish/Mousefood-Programs",
     "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
     "Vaishnav-Sabari-Girish/rust_bangalore_oct_2025",
-    "vllm-project/media-kit",
-    "WebAssembly/compilation-hints"
+    "vllm-project/media-kit"
   ]
 }

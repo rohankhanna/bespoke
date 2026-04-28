@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 4,
-    "terms": 7
+    "components": 17,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 5,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "actions-oss/gh-rc",
+    "chronosphereio/calyptia-api",
     "danielrosehill/Claude-Bug-Catcher",
     "deiga/nodenv-default-npmrc",
     "Vaishnav-Sabari-Girish/rust_bangalore_december_2025"

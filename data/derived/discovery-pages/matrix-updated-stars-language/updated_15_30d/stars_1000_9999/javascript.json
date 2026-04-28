@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 320,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 15,
-    "terms": 77
+    "components": 348,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 18,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "acss-io/atomizer",
+    "actions/javascript-action",
     "amqp-node/amqplib",
-    "dooy/chatgpt-web-midjourney-proxy",
     "ethereum/devp2p",
     "facebook/jscodeshift",
+    "igorshubovych/markdownlint-cli",
     "isaacs/minimatch",
     "istanbuljs/istanbuljs",
+    "kpdecker/jsdiff",
     "Level/level",
     "microsoft/vscode-recipes",
     "pillarjs/iconv-lite",
     "pinojs/pino-pretty",
     "RichardLitt/standard-readme",
     "sindresorhus/hyper-snazzy",
+    "WiseLibs/better-sqlite3",
     "yeoman/yo",
     "ykdojo/claude-code-tips"
   ]

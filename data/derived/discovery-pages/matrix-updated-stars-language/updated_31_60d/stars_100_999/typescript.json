@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 549,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 18,
-    "terms": 122
+    "components": 570,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 19,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "aquasecurity/trivy-vscode-extension",
+    "aws-samples/dify-self-hosted-on-aws",
     "aymenfurter/ralph",
     "connectrpc/connect-query-es",
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "graphql-hive/graphql-eslint",
     "lobehub/lobe-charts",
+    "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
     "multiformats/js-multiformats",
     "PanAeon/vscode-tmgrammar-test",

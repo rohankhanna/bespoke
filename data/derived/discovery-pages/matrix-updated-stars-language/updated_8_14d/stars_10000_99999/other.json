@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 482,
-    "concepts": 111,
-    "observations": 113,
-    "repos": 16,
-    "terms": 117
+    "components": 565,
+    "concepts": 158,
+    "observations": 160,
+    "repos": 18,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,25 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "Alamofire/Alamofire",
     "alexandresanlim/Badges4-README.md-Profile",
     "apache/spark",
     "apple/container",
     "AudioKit/AudioKit",
+    "composer/composer",
     "dense-analysis/ale",
+    "ghostty-org/ghostty",
     "google-gemini/gemini-fullstack-langgraph-quickstart",
     "kubernetes/community",
     "metabase/metabase",
-    "microsoft/OmniParser",
+    "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
     "realm/SwiftLint",
     "rubocop/rubocop",
     "SaschaWillems/Vulkan",
     "semgrep/semgrep",
-    "tmuxinator/tmuxinator",
-    "tonsky/FiraCode"
+    "tmuxinator/tmuxinator"
   ]
 }

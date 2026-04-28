@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 48,
+    "components": 45,
     "concepts": 136,
     "observations": 137,
-    "repos": 32,
+    "repos": 31,
     "terms": 135
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
-    "andrewrk/poop",
     "bazelbuild/rules_docker",
     "bkeepers/dotenv",
     "brianmario/charlock_holmes",

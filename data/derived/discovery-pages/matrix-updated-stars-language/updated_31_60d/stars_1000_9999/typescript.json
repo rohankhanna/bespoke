@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 687,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 19,
-    "terms": 167
+    "components": 653,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 17,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "ben-rogerson/twin.macro",
@@ -29,9 +29,7 @@
     "microsoft/genaiscript",
     "nanbingxyz/5ire",
     "REditorSupport/vscode-R",
-    "snarktank/antfarm",
     "stephenh/ts-proto",
-    "stravu/crystal",
     "vercel/serve"
   ]
 }

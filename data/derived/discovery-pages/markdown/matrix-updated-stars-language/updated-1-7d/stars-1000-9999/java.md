@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-04-27T07:23:38.417858+00:00`
+Generated at: `2026-04-28T05:40:32.276038+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 179
-- components: 139
-- concepts: 179
-- observations: 180
+- repos: 16
+- terms: 161
+- components: 119
+- concepts: 161
+- observations: 162
 
 ## Static behavior
 
@@ -42,9 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/error-prone](https://github.com/google/error-prone) | 7158 | 2026-04-21T23:33:25Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [soot-oss/soot](https://github.com/soot-oss/soot) | 3076 | 2026-04-21T09:03:16Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
-| [googleapis/google-api-java-client](https://github.com/googleapis/google-api-java-client) | 1449 | 2026-04-20T21:14:38Z | Java | CLI | 4 | 6 | 4 | 4 |
-| [googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client) | 1434 | 2026-04-20T20:46:31Z | Java | CLI | 5 | 8 | 5 | 5 |
-| [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -56,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/google-java-format](https://github.com/google/google-java-format) | 6117 | 2026-04-23T21:56:44Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [diffplug/spotless](https://github.com/diffplug/spotless) | 5427 | 2026-04-23T11:56:48Z | Java | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 | [oshi/oshi](https://github.com/oshi/oshi) | 5207 | 2026-04-23T16:57:51Z | Java | Infrastructure/tooling | 21 | 11 | 21 | 21 |
-| [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [apache/lucene](https://github.com/apache/lucene) | 3408 | 2026-04-23T09:41:23Z | Java | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [soot-oss/soot](https://github.com/soot-oss/soot) | 3076 | 2026-04-21T09:03:16Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [apache/netbeans](https://github.com/apache/netbeans) | 3046 | 2026-04-23T10:43:45Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 9 |
@@ -65,7 +61,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1909 | 2026-04-24T08:32:59Z | Java | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [besu-eth/besu](https://github.com/besu-eth/besu) | 1800 | 2026-04-23T23:40:06Z | Java | CLI | 12 | 13 | 12 | 12 |
 | [google/adk-java](https://github.com/google/adk-java) | 1499 | 2026-04-23T20:34:30Z | Java | Infrastructure/tooling | 16 | 4 | 16 | 16 |
-| [googleapis/google-api-java-client](https://github.com/googleapis/google-api-java-client) | 1449 | 2026-04-20T21:14:38Z | Java | CLI | 4 | 6 | 4 | 4 |
-| [googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client) | 1434 | 2026-04-20T20:46:31Z | Java | CLI | 5 | 8 | 5 | 5 |
 | [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [agents-flex/agents-flex](https://github.com/agents-flex/agents-flex) | 1031 | 2026-04-24T05:48:16Z | Java | Framework | 6 | 0 | 6 | 6 |

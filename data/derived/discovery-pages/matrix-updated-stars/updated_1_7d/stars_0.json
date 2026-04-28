@@ -1,28 +1,25 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 24,
-    "terms": 88
+    "components": 67,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 20,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
-    "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
-    "AdaCore/vss-extra",
     "conda-forge/cccl-feedstock",
     "conda-forge/conda-lock-feedstock",
     "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
     "danielrosehill/adb-ops-plugin",
-    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/Backup-Planner",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
@@ -35,7 +32,6 @@
     "nodenv/node-build-prerelease",
     "regro/cf-graph-countyfair",
     "rltakashige/mlx-jaccl-fix-small-recv",
-    "roampal-ai/roampal-labs",
     "TransferQueue/community_doc"
   ]
 }

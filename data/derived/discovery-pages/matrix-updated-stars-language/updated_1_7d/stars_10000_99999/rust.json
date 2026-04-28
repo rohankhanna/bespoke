@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 684,
-    "concepts": 456,
-    "observations": 457,
-    "repos": 43,
-    "terms": 452
+    "components": 573,
+    "concepts": 420,
+    "observations": 421,
+    "repos": 37,
+    "terms": 416
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
     "analysis-tools-dev/static-analysis",
-    "asciinema/asciinema",
     "ast-grep/ast-grep",
     "astral-sh/ruff",
     "bevyengine/bevy",
     "clap-rs/clap",
     "dani-garcia/vaultwarden",
     "diem/diem",
-    "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
     "FuelLabs/fuel-core",
@@ -43,18 +41,14 @@
     "orhun/git-cliff",
     "ratatui/ratatui",
     "rayon-rs/rayon",
-    "rust-lang/cargo",
     "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
     "rust-lang/rust-clippy",
     "servo/servo",
-    "sharkdp/fd",
     "starship/starship",
-    "tokio-rs/tokio",
     "tracel-ai/burn",
     "tree-sitter/tree-sitter",
     "typst/typst",
-    "vercel-labs/agent-browser",
     "web-infra-dev/rspack",
     "wezterm/wezterm"
   ]

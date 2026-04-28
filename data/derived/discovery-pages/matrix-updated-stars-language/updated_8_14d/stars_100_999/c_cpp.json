@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 75,
-    "observations": 77,
-    "repos": 15,
-    "terms": 75
+    "components": 115,
+    "concepts": 106,
+    "observations": 108,
+    "repos": 19,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aibasel/downward",
+    "aseprite/laf",
+    "coin-or/Cbc",
     "cusplibrary/cusplibrary",
     "freebsd/kyua",
     "google-deepmind/reverb",
     "google/jpegli",
+    "hajimes/mmh3",
+    "KhronosGroup/SPIRV-Headers",
+    "lxqt/qterminal",
     "microsoft/vcpkg-tool",
     "mitsuba-renderer/drjit-core",
     "mybigday/llama.rn",
-    "nfrechette/rtm",
     "NiklasRosenstein/pbzx",
     "onnx/optimizer",
-    "pauldmccarthy/indexed_gzip",
+    "powturbo/TurboBench",
     "SHI-Labs/NATTEN",
     "Solo5/solo5",
     "Yubico/libfido2"

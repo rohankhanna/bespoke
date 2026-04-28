@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 150,
-    "observations": 153,
-    "repos": 26,
-    "terms": 160
+    "components": 320,
+    "concepts": 239,
+    "observations": 242,
+    "repos": 38,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,45 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "apache/dubbo-go-pixiu",
+    "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
+    "aws/amazon-vpc-resource-controller-k8s",
+    "Azure/azure-workload-identity",
     "ByteNess/aws-vault",
     "celo-org/celo-blockchain",
-    "charmbracelet/colorprofile",
+    "charmbracelet/catwalk",
     "cloudfoundry/gosigar",
-    "coder/code-marketplace",
     "coder/envbuilder",
+    "crytic/medusa",
     "darkweak/souin",
     "dependabot/cli",
+    "estesp/manifest-tool",
     "ethereum-optimism/op-geth",
     "foxj77/claudectx",
     "go-viper/mapstructure",
-    "hashicorp/errwrap",
+    "googleapis/go-genproto",
+    "hashicorp/terraform-plugin-docs",
+    "hashicorp/terraform-plugin-go",
+    "hashicorp/terraform-provider-random",
+    "helm/chart-releaser",
     "jaegertracing/jaeger-idl",
+    "knative/community",
     "kubernetes-sigs/boskos",
     "kubernetes-sigs/controller-tools",
     "kubernetes/cri-api",
     "Layr-Labs/eigenda",
     "open-telemetry/opentelemetry-collector-releases",
+    "openshift/library",
     "phiat/claude-esp",
     "prehisle/relay-pulse",
+    "raystack/meteor",
     "skenetechnologies/skene",
     "SpecterOps/AzureHound",
     "terraform-linters/tflint-ruleset-aws",
-    "terraform-linters/tflint-ruleset-azurerm"
+    "terraform-linters/tflint-ruleset-azurerm",
+    "transparency-dev/tessera"
   ]
 }

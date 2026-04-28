@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 41,
+    "components": 39,
     "concepts": 8,
     "observations": 8,
-    "repos": 7,
+    "repos": 6,
     "terms": 16
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
-    "arckoor/jsonwebtoken-botan",
     "jsleekr/skilldigest",
     "mupozg823/codelens-mcp-plugin",
     "PrimeIntellect-ai/router",

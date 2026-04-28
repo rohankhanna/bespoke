@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1067,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 28,
-    "terms": 181
+    "components": 1247,
+    "concepts": 198,
+    "observations": 198,
+    "repos": 31,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
+    "apollographql/apollo-client",
     "badlogic/pi-mono",
     "changesets/changesets",
     "coder/code-server",
@@ -21,6 +22,7 @@
     "everyinc/compound-engineering-plugin",
     "fission-ai/openspec",
     "garrytan/gstack",
+    "invoke-ai/InvokeAI",
     "iOfficeAI/AionUi",
     "jestjs/jest",
     "lerna/lerna",
@@ -41,6 +43,7 @@
     "toon-format/toon",
     "upstash/context7",
     "vadimdemedes/ink",
+    "VSCodeVim/Vim",
     "withastro/astro"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 6,
     "observations": 6,
-    "repos": 11,
+    "repos": 10,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
-    "bgw/virtue",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/ai-human-attribution-adder",

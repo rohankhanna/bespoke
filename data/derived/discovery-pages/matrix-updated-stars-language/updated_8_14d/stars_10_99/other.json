@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 22,
-    "terms": 57
+    "components": 150,
+    "concepts": 118,
+    "observations": 118,
+    "repos": 32,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,39 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "AdaCore/gnatcoll-core",
     "adams85/acornima",
+    "aquasecurity/trivy-checks",
     "Ascend/Ascend-CI",
     "aspect-build/rules_esbuild",
     "Azure/bicep-extensibility",
     "bazel-contrib/rules_distroless",
     "beyondcode/claude-hooks-sdk",
+    "cbrgm/githubevents",
+    "cgrindel/bazel-starlib",
     "chaos2cured/freelattice",
+    "dart-lang/core",
     "dart-lang/ecosystem",
+    "dart-lang/i18n",
+    "emacscollective/epkg",
     "ethpandaops/xatu-data",
-    "hashicorp/hello-vault-dotnet",
+    "gopasspw/gopass-summon-provider",
+    "habamax/.vim",
+    "harfbuzz/uharfbuzz",
     "IDAES/idaes-ext",
     "lxqt/lxqt-build-tools",
     "Mic92/nur-packages",
+    "mrjones2014/codesettings.nvim",
     "musicman3/emarket",
-    "sbcgua/ajson",
+    "sass-contrib/sass-embedded-host-ruby",
     "sentientwave/automata",
     "SimplyDanny/SwiftLintPlugins",
     "steipete/homebrew-tap",
     "thedoggybrad/easylist-mirror",
     "w3c/webmediaapi",
-    "WebAssembly/custom-descriptors"
+    "WebAssembly/custom-descriptors",
+    "WebAssembly/custom-page-sizes"
   ]
 }

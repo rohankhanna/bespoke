@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1151,
-    "concepts": 614,
-    "observations": 616,
-    "repos": 143,
-    "terms": 597
+    "components": 1159,
+    "concepts": 621,
+    "observations": 623,
+    "repos": 144,
+    "terms": 604
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "adam-p/markdown-here",
     "adobe-fonts/source-code-pro",
@@ -135,6 +135,7 @@
     "rsms/inter",
     "salesforce/LAVIS",
     "Sanster/IOPaint",
+    "spotify/annoy",
     "srush/GPU-Puzzles",
     "standard/standard",
     "suno-ai/bark",

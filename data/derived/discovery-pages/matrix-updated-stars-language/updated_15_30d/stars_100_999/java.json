@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 8,
-    "terms": 65
+    "components": 41,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 10,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-28T05:40:32.276038+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
+    "carrot2/carrot2",
     "eclipse-buildship/buildship",
     "eclipse-tm4e/tm4e",
+    "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
     "ysbing/YADB"
