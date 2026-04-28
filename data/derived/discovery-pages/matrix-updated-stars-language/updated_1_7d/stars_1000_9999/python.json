@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1035,
-    "concepts": 1117,
-    "observations": 1123,
-    "repos": 122,
-    "terms": 1112
+    "components": 1027,
+    "concepts": 1108,
+    "observations": 1114,
+    "repos": 121,
+    "terms": 1103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "AgentR1/Agent-R1",
@@ -116,7 +116,6 @@
     "pymc-devs/pymc",
     "pypa/virtualenv",
     "pypi/warehouse",
-    "python/typeshed",
     "pytorch/ao",
     "pytorch/executorch",
     "pytorch/TensorRT",

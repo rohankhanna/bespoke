@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 13,
-    "terms": 53
+    "components": 42,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 12,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "actboy168/ltest",
     "b-data/jupyterlab-julia-docker-stack",
@@ -25,7 +25,6 @@
     "CVEProject/cve-user-registry-client",
     "enbop/fungi-app",
     "goreleaser/.github",
-    "Mbed-TLS/mbedtls-test",
-    "wavelens/gobgp.nix"
+    "Mbed-TLS/mbedtls-test"
   ]
 }

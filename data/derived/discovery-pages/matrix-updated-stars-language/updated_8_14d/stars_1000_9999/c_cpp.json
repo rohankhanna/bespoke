@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 325,
-    "observations": 327,
+    "components": 299,
+    "concepts": 321,
+    "observations": 323,
     "repos": 39,
-    "terms": 319
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "AFLplusplus/AFLplusplus",
     "AOMediaCodec/libavif",
     "async-profiler/async-profiler",
     "avahi/avahi",
-    "boazsegev/facil.io",
     "ccache/ccache",
     "commonmark/cmark",
     "containers/crun",
@@ -47,6 +46,7 @@
     "richgel999/miniz",
     "risc0/risc0",
     "soramimi/guitar",
+    "strukturag/libheif",
     "sveinbjornt/Platypus",
     "tsujan/Kvantum",
     "webmproject/libwebp",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 7,
-    "terms": 22
+    "components": 62,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 6,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "GuillaumeGomez/browser-UI-test",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
     "newrelic/newrelic-node-examples",
-    "rashfael/eslint-plugin-vue-pug",
     "ultralytics/llm",
     "web-platform-tests/results-analysis"
   ]

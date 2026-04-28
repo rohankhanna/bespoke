@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2521,
-    "concepts": 1494,
-    "observations": 1499,
-    "repos": 250,
-    "terms": 1498
+    "components": 2537,
+    "concepts": 1514,
+    "observations": 1519,
+    "repos": 254,
+    "terms": 1517
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "6551Team/opennews-mcp",
@@ -43,7 +43,9 @@
     "behisecc/awesome-claude-skills",
     "bensadeh/circumflex",
     "bitshifter/glam-rs",
+    "BLAKE3-team/BLAKE3",
     "bnb-chain/tss-lib",
+    "boazsegev/facil.io",
     "boyter/scc",
     "bpython/bpython",
     "btcsuite/btcd",
@@ -171,6 +173,7 @@
     "mattn/go-sqlite3",
     "mattn/goreman",
     "mattn/vim-lsp-settings",
+    "maypok86/otter",
     "mfussenegger/nvim-dap",
     "microsoft/debugpy",
     "microsoft/DirectX-Graphics-Samples",
@@ -183,6 +186,7 @@
     "mitsuhiko/similar",
     "ml-explore/mlx-examples",
     "ml-explore/mlx-swift",
+    "mll-lab-nu/RAGEN",
     "mozilla/cbindgen",
     "mvdan/sh",
     "nabijaczleweli/cargo-update",

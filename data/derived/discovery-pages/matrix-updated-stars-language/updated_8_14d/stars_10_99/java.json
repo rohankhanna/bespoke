@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 5,
-    "terms": 30
+    "components": 13,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 4,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "bazel-contrib/rules_jvm",
     "codelibs/fess-crawler",
     "google/guava-beta-checker",
-    "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality"
   ]
 }

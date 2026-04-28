@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 519,
-    "observations": 519,
+    "components": 539,
+    "concepts": 528,
+    "observations": 528,
     "repos": 77,
-    "terms": 537
+    "terms": 546
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "agricidaniel/claude-ads",
     "agricidaniel/claude-seo",
@@ -67,7 +67,6 @@
     "microsoft/UFO",
     "mkdocs/catalog",
     "mlcommons/training",
-    "mll-lab-nu/RAGEN",
     "modelscope/ms-agent",
     "mxmlnkn/ratarmount",
     "nesquena/hermes-webui",
@@ -80,6 +79,7 @@
     "pypa/cibuildwheel",
     "python-attrs/attrs",
     "python-trio/trio",
+    "python/typeshed",
     "python/typing",
     "SirVer/ultisnips",
     "strands-agents/tools",

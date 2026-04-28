@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1808,
-    "concepts": 992,
-    "observations": 998,
-    "repos": 236,
-    "terms": 1022
+    "components": 1859,
+    "concepts": 1010,
+    "observations": 1016,
+    "repos": 239,
+    "terms": 1040
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/container-toolkit-action",
@@ -173,6 +173,7 @@
     "llm-in-sandbox/llm-in-sandbox",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "marcelm/cutadapt",
+    "matepek/vscode-catch2-test-adapter",
     "matthew-brett/delocate",
     "mattmc3/zephyr",
     "meta-pytorch/torchft",
@@ -210,6 +211,8 @@
     "preactjs/awesome-preact",
     "pyodide/micropip",
     "pypa/auditwheel",
+    "pytest-dev/pytest-rerunfailures",
+    "python-hyper/uritemplate",
     "python/typing_extensions",
     "r-lib/styler",
     "ramsayleung/rspotify",

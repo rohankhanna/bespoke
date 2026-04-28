@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10732,
-    "concepts": 4373,
-    "observations": 4392,
-    "repos": 380,
-    "terms": 4339
+    "components": 10615,
+    "concepts": 4308,
+    "observations": 4325,
+    "repos": 374,
+    "terms": 4274
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "89luca89/distrobox",
@@ -66,7 +66,6 @@
     "bluesky-social/social-app",
     "bpftrace/bpftrace",
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
-    "browserless/browserless",
     "caddyserver/caddy",
     "camel-ai/camel",
     "celery/celery",
@@ -101,7 +100,6 @@
     "deepspeedai/DeepSpeed",
     "DefinitelyTyped/DefinitelyTyped",
     "dexidp/dex",
-    "diem/diem",
     "distribution/distribution",
     "docker/compose",
     "docling-project/docling",
@@ -287,7 +285,6 @@
     "open-policy-agent/opa",
     "openai/openai-agents-python",
     "openai/openai-cookbook",
-    "openai/openai-node",
     "OpenAPITools/openapi-generator",
     "opencontainers/runc",
     "opencv/opencv",
@@ -319,7 +316,6 @@
     "QuantumNous/new-api",
     "rails/rails",
     "ratatui/ratatui",
-    "ray-project/ray",
     "rayon-rs/rayon",
     "raysan5/raylib",
     "react-navigation/react-navigation",
@@ -334,8 +330,6 @@
     "RPCS3/rpcs3",
     "run-llama/llama_index",
     "rust-lang/mdBook",
-    "rust-lang/rust-analyzer",
-    "rust-lang/rust-clippy",
     "sass/sass",
     "ScoopInstaller/Scoop",
     "SeleniumHQ/selenium",

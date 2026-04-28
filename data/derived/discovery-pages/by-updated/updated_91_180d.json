@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2951,
-    "concepts": 2034,
-    "observations": 2050,
-    "repos": 563,
-    "terms": 2053
+    "components": 2958,
+    "concepts": 2036,
+    "observations": 2052,
+    "repos": 565,
+    "terms": 2055
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -280,6 +280,7 @@
     "hedronvision/bazel-cc-filesystem-backport",
     "helm/chart-releaser-action",
     "HerringtonDarkholme/yats.vim",
+    "hesreallyhim/inkverse-fork",
     "hiroi-sora/Umi-OCR",
     "hkust-nlp/simpleRL-reason",
     "hluaguo/learn-faster-kit",
@@ -521,6 +522,7 @@
     "theupdateframework/specification",
     "thibautmelen/agentic-ai-systems",
     "thinkdepthai/Deep_Research",
+    "TkTech/can_ada",
     "toml-lang/toml",
     "tpoechtrager/osxcross",
     "tpope/vim-dadbod",

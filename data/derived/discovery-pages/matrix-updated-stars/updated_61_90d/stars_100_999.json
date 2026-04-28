@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 641,
-    "concepts": 447,
-    "observations": 449,
-    "repos": 107,
-    "terms": 444
+    "components": 634,
+    "concepts": 445,
+    "observations": 447,
+    "repos": 106,
+    "terms": 442
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -108,7 +108,6 @@
     "swansonk14/admet_ai",
     "tensorflow/build",
     "thorstenMueller/Thorsten-Voice",
-    "TkTech/can_ada",
     "tpapp/julia-repl",
     "tsonglew/dutis",
     "typstyle-rs/typstyle",

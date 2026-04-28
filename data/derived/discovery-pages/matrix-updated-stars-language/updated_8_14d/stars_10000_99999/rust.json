@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 19,
-    "terms": 115
+    "components": 358,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 22,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "asciinema/asciinema",
     "astral-sh/uv",
     "casey/just",
     "cjpais/Handy",
+    "diem/diem",
     "diesel-rs/diesel",
     "facebook/relay",
     "huggingface/candle",
     "openai/codex",
     "rust-lang/cargo",
+    "rust-lang/rust-analyzer",
+    "rust-lang/rust-clippy",
     "Schniz/fnm",
     "seanmonstar/reqwest",
     "seanmonstar/warp",

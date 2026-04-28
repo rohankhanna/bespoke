@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1316,
-    "concepts": 494,
-    "observations": 497,
-    "repos": 153,
-    "terms": 568
+    "components": 1354,
+    "concepts": 485,
+    "observations": 488,
+    "repos": 154,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "4catalyzer/javascript",
@@ -106,7 +106,6 @@
     "jkheadley/instar",
     "joshsymonds/cc-tools",
     "kubernetes/steering",
-    "kurrent-io/KurrentDB-Client-Java",
     "labring/fastgpt-plugin",
     "lblankl/Short-RL",
     "liangshengyong/lanwan",
@@ -141,6 +140,7 @@
     "pyodide/pyodide-build",
     "pytest-dev/execnet",
     "quininer/x11-clipboard",
+    "rashfael/eslint-plugin-vue-pug",
     "redhat-et/triton-dev-containers",
     "RWKV-Vibe/rwkv_lightning",
     "sass-contrib/sass-embedded-host-ruby",
@@ -157,6 +157,7 @@
     "thedoggybrad/easylist-mirror",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
+    "tracel-ai/burn-onnx",
     "TrigenSoftware/simple-release-action",
     "w3c/accname",
     "w3c/core-aam",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 562,
-    "concepts": 471,
-    "observations": 473,
-    "repos": 53,
-    "terms": 503
+    "components": 565,
+    "concepts": 491,
+    "observations": 493,
+    "repos": 54,
+    "terms": 523
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -57,6 +57,7 @@
     "pytest-dev/pytest",
     "python/mypy",
     "ranger/ranger",
+    "ray-project/ray",
     "searxng/searxng",
     "sgl-project/sglang",
     "simonw/datasette",

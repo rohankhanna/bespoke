@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1225,
-    "concepts": 1025,
-    "observations": 1027,
-    "repos": 85,
-    "terms": 1015
+    "components": 1222,
+    "concepts": 1005,
+    "observations": 1007,
+    "repos": 84,
+    "terms": 995
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "ansible/ansible",
@@ -86,7 +86,6 @@
     "python/cpython",
     "pytorch/pytorch",
     "pytorch/vision",
-    "ray-project/ray",
     "redis/redis-py",
     "run-llama/llama_index",
     "stanfordnlp/dspy",

@@ -3,7 +3,7 @@
     "components": 97,
     "concepts": 106,
     "observations": 106,
-    "repos": 30,
+    "repos": 29,
     "terms": 104
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0k/shyaml-rs",
     "adityasugandhi/skillsync-mcp",
@@ -32,7 +32,6 @@
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
     "genius-harry/neural-chat",
-    "hesreallyhim/inkverse-fork",
     "leaktk/gitleaks",
     "mlfoundations/SkyRL",
     "objectbox/objectbox-swift-generator",

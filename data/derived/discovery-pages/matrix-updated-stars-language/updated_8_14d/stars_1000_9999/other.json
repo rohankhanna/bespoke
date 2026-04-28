@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 433,
-    "concepts": 330,
-    "observations": 332,
+    "components": 430,
+    "concepts": 339,
+    "observations": 342,
     "repos": 50,
-    "terms": 333
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "actions/runner",
     "adobe-type-tools/afdko",
@@ -23,7 +23,6 @@
     "apple/swift-log",
     "automazeio/vibeproxy",
     "babashka/babashka",
-    "BLAKE3-team/BLAKE3",
     "cimgui/cimgui",
     "circe/circe",
     "clj-kondo/clj-kondo",
@@ -57,6 +56,7 @@
     "radian-software/straight.el",
     "rails/propshaft",
     "revfactory/harness",
+    "ruby/rbs",
     "rust-lang/rfcs",
     "rust-lang/rust-mode",
     "snakers4/silero-models",

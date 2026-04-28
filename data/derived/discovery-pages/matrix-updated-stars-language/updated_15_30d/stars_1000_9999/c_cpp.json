@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 158,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 26,
-    "terms": 166
+    "concepts": 177,
+    "observations": 178,
+    "repos": 27,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "ada-url/ada",
     "asg017/sqlite-vec",
+    "boazsegev/facil.io",
     "CNugteren/CLBlast",
     "Dav1dde/glad",
     "DLTcollab/sse2neon",

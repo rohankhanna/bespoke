@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 320,
-    "concepts": 239,
-    "observations": 242,
-    "repos": 38,
-    "terms": 249
+    "components": 335,
+    "concepts": 266,
+    "observations": 269,
+    "repos": 40,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "apache/dubbo-go-pixiu",
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
     "aws/amazon-vpc-resource-controller-k8s",
     "Azure/azure-workload-identity",
+    "Azure/terraform-provider-azapi",
     "ByteNess/aws-vault",
     "celo-org/celo-blockchain",
     "charmbracelet/catwalk",
@@ -28,6 +29,7 @@
     "darkweak/souin",
     "dependabot/cli",
     "estesp/manifest-tool",
+    "etclabscore/core-geth",
     "ethereum-optimism/op-geth",
     "foxj77/claudectx",
     "go-viper/mapstructure",

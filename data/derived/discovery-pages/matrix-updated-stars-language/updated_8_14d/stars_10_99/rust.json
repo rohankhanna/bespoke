@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 17,
-    "terms": 71
+    "components": 127,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 18,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -30,6 +30,7 @@
     "phiat/claude-esp-rs",
     "quininer/x11-clipboard",
     "tombelieber/claude-view",
-    "tracel-ai/burn-bench"
+    "tracel-ai/burn-bench",
+    "tracel-ai/burn-onnx"
   ]
 }

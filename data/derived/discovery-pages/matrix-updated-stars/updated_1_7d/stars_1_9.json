@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 442,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 43,
-    "terms": 128
+    "components": 434,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 42,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "actboy168/ltest",
@@ -54,7 +54,6 @@
     "pyrtlsdr/pyrtlsdrlib",
     "status-im/nimbus-build-system",
     "walles/ftop",
-    "wavelens/gobgp.nix",
     "web-platform-tests/results-analysis-cache"
   ]
 }

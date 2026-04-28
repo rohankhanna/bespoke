@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 152,
-    "observations": 156,
-    "repos": 39,
-    "terms": 163
+    "components": 340,
+    "concepts": 154,
+    "observations": 158,
+    "repos": 40,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "ada-url/rust",
@@ -27,6 +27,7 @@
     "crisidev/bacon-ls",
     "criterion-rs/criterion.rs",
     "denoland/deno_doc",
+    "djkoloski/rust_serialization_benchmark",
     "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
     "EspressoSystems/jellyfish",

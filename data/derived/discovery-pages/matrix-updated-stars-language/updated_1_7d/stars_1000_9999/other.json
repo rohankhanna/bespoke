@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 967,
-    "concepts": 828,
-    "observations": 830,
-    "repos": 113,
-    "terms": 823
+    "components": 962,
+    "concepts": 818,
+    "observations": 819,
+    "repos": 112,
+    "terms": 813
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -101,7 +101,6 @@
     "python-mode/python-mode",
     "r-spatial/sf",
     "rapidsai/cugraph",
-    "ruby/rbs",
     "saghen/blink.cmp",
     "sass/dart-sass",
     "ScoopInstaller/Extras",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5697,
-    "concepts": 522,
-    "observations": 529,
-    "repos": 46,
-    "terms": 520
+    "components": 5629,
+    "concepts": 504,
+    "observations": 509,
+    "repos": 44,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "apache/superset",
@@ -20,7 +20,6 @@
     "babel/babel",
     "bitwarden/clients",
     "bluesky-social/social-app",
-    "browserless/browserless",
     "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
     "cline/cline",
@@ -45,7 +44,6 @@
     "lobehub/lobehub",
     "microsoft/playwright",
     "nuxt/nuxt",
-    "openai/openai-node",
     "pnpm/pnpm",
     "puppeteer/puppeteer",
     "react-navigation/react-navigation",

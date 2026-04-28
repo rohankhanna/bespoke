@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 862,
-    "concepts": 694,
-    "observations": 699,
-    "repos": 188,
-    "terms": 703
+    "components": 869,
+    "concepts": 696,
+    "observations": 701,
+    "repos": 189,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -185,6 +185,7 @@
     "theupdateframework/specification",
     "thibautmelen/agentic-ai-systems",
     "thinkdepthai/Deep_Research",
+    "TkTech/can_ada",
     "travis-ci/packer-templates",
     "travis-ci/travis-build",
     "travis-ci/travis-cookbooks",

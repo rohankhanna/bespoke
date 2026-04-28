@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1641,
-    "concepts": 722,
-    "observations": 725,
-    "repos": 151,
-    "terms": 718
+    "components": 1597,
+    "concepts": 717,
+    "observations": 720,
+    "repos": 149,
+    "terms": 713
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -138,7 +138,6 @@
     "pq-code-package/mldsa-native",
     "pyodide/pytest-pyodide",
     "rapidsai/ucxx",
-    "rashfael/eslint-plugin-vue-pug",
     "ROCm/ROCgdb",
     "ROCm/tritonBLAS",
     "saghen/blink.lib",
@@ -153,7 +152,6 @@
     "squeak-smalltalk/squeak.org",
     "supabase/scoop-bucket",
     "terraform-linters/tflint-ruleset-google",
-    "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "TrigenSoftware/simple-release",
     "typeshed-internal/stub_uploader",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 471,
-    "concepts": 419,
-    "observations": 421,
-    "repos": 56,
-    "terms": 425
+    "components": 494,
+    "concepts": 432,
+    "observations": 434,
+    "repos": 57,
+    "terms": 438
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "alecthomas/chroma",
+    "alibaba/higress",
     "appleboy/gorush",
     "apptainer/apptainer",
     "ariga/atlas",
@@ -44,6 +45,7 @@
     "GoogleContainerTools/container-structure-test",
     "gotestyourself/gotestsum",
     "hairyhenderson/gomplate",
+    "helm/chart-testing",
     "korotovsky/slack-mcp-server",
     "kubernetes-sigs/controller-runtime",
     "kubernetes-sigs/cri-tools",
@@ -54,7 +56,6 @@
     "libp2p/go-libp2p",
     "madneal/gshark",
     "mark3labs/mcp-go",
-    "maypok86/otter",
     "nginx-proxy/docker-gen",
     "norwoodj/helm-docs",
     "operator-framework/operator-sdk",

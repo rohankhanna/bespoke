@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 317,
-    "concepts": 241,
-    "observations": 244,
-    "repos": 39,
-    "terms": 241
+    "components": 302,
+    "concepts": 214,
+    "observations": 217,
+    "repos": 37,
+    "terms": 214
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "a2aproject/a2a-go",
     "AdguardTeam/urlfilter",
@@ -22,13 +22,11 @@
     "apache/dubbo-go-samples",
     "apache/dubbo-kubernetes",
     "awslabs/soci-snapshotter",
-    "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
     "bufbuild/protovalidate-go",
     "celestiaorg/celestia-node",
     "chainguard-dev/melange",
     "docker/model-runner",
-    "etclabscore/core-geth",
     "ethereum/hive",
     "hashicorp/terraform-plugin-framework",
     "hashicorp/terraform-plugin-sdk",

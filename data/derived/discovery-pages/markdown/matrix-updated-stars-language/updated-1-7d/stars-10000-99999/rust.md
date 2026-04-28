@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-04-28T05:40:32.276038+00:00`
+Generated at: `2026-04-28T07:21:38.058645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
-- terms: 416
-- components: 573
-- concepts: 420
-- observations: 421
+- repos: 34
+- terms: 389
+- components: 527
+- concepts: 393
+- observations: 394
 
 ## Static behavior
 
@@ -60,9 +60,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyperium/tonic](https://github.com/hyperium/tonic) | 11986 | 2026-04-21T16:40:37Z | Rust | CLI | 4 | 14 | 4 | 4 |
 | [foundry-rs/foundry](https://github.com/foundry-rs/foundry) | 10287 | 2026-04-21T11:38:41Z | Rust | Infrastructure/tooling | 23 | 22 | 23 | 23 |
 | [jdx/mise](https://github.com/jdx/mise) | 27007 | 2026-04-21T11:22:04Z | Rust | Infrastructure/tooling | 6 | 40 | 6 | 6 |
-| [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13080 | 2026-04-21T07:13:22Z | Rust | CLI | 10 | 9 | 10 | 10 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16287 | 2026-04-21T06:03:40Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [diem/diem](https://github.com/diem/diem) | 16683 | 2026-04-21T05:52:38Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -90,13 +87,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ratatui/ratatui](https://github.com/ratatui/ratatui) | 19936 | 2026-04-21T17:23:50Z | Rust | CLI | 9 | 17 | 9 | 9 |
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | 16968 | 2026-04-22T21:48:28Z | Rust | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [launchbadge/sqlx](https://github.com/launchbadge/sqlx) | 16918 | 2026-04-23T11:23:56Z | Rust | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [diem/diem](https://github.com/diem/diem) | 16683 | 2026-04-21T05:52:38Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [clap-rs/clap](https://github.com/clap-rs/clap) | 16329 | 2026-04-22T23:59:22Z | Rust | CLI | 14 | 11 | 14 | 14 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16287 | 2026-04-21T06:03:40Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 14915 | 2026-04-22T03:41:19Z | Rust | Infrastructure/tooling | 25 | 11 | 25 | 25 |
 | [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) | 14508 | 2026-04-23T00:29:32Z | Rust | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | 13558 | 2026-04-23T02:37:29Z | Rust | CLI | 19 | 20 | 19 | 19 |
-| [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13080 | 2026-04-21T07:13:22Z | Rust | CLI | 10 | 9 | 10 | 10 |
 | [rayon-rs/rayon](https://github.com/rayon-rs/rayon) | 12916 | 2026-04-23T20:07:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | 12632 | 2026-04-23T15:03:14Z | Rust | Infrastructure/tooling | 16 | 21 | 16 | 16 |
 | [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |

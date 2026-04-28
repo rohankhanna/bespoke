@@ -3,7 +3,7 @@
     "components": 263,
     "concepts": 282,
     "observations": 283,
-    "repos": 49,
+    "repos": 50,
     "terms": 282
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "6551Team/opennews-mcp",
     "ajenti/ajenti",
@@ -50,6 +50,7 @@
     "microsoft/pylance-release",
     "miguelgrinberg/python-socketio",
     "ml-explore/mlx-examples",
+    "mll-lab-nu/RAGEN",
     "neovim/pynvim",
     "nousresearch/atropos",
     "openvinotoolkit/open_model_zoo",

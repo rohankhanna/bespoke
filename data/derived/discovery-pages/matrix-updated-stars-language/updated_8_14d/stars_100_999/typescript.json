@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 883,
-    "concepts": 132,
-    "observations": 132,
-    "repos": 36,
-    "terms": 180
+    "components": 844,
+    "concepts": 120,
+    "observations": 120,
+    "repos": 35,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "affaan-m/agentshield",
     "anthropics/claude-code-base-action",
@@ -31,7 +31,6 @@
     "lobehub/lobe-chat-plugins",
     "LuaLS/vscode-lua",
     "lucasastorian/llmwiki",
-    "matepek/vscode-catch2-test-adapter",
     "microsoft/TypeScript-DOM-lib-generator",
     "mightyiam/eslint-config-love",
     "napi-rs/package-template",

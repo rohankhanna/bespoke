@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 615,
-    "concepts": 448,
-    "observations": 449,
-    "repos": 82,
-    "terms": 447
+    "components": 600,
+    "concepts": 436,
+    "observations": 437,
+    "repos": 79,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "adamchainz/blacken-docs",
@@ -32,7 +32,6 @@
     "aws/aws-lambda-builders",
     "Azure/azure-cli-extensions",
     "Azure/azure-linux-extensions",
-    "bastibe/python-soundfile",
     "blepping/ComfyUI-bleh",
     "bonfy/github-trending",
     "boto/s3transfer",
@@ -58,8 +57,6 @@
     "jquast/wcwidth",
     "KBH00/Semantic-Fast-SAM",
     "kjd/idna",
-    "langchain-ai/langgraph-bigtool",
-    "lightningd/plugins",
     "llamastack/llama-stack-client-python",
     "marin-community/marin",
     "meta-llama/prompt-ops",

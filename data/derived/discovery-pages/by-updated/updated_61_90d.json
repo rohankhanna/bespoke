@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1958,
-    "concepts": 1417,
-    "observations": 1419,
-    "repos": 340,
-    "terms": 1421
+    "components": 1953,
+    "concepts": 1419,
+    "observations": 1421,
+    "repos": 339,
+    "terms": 1423
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0k/shyaml-rs",
@@ -183,7 +183,6 @@
     "gulpjs/gulp",
     "gwihlidal/vk-mem-rs",
     "helm/kind-action",
-    "hesreallyhim/inkverse-fork",
     "hollowstrawberry/kohya-colab",
     "HolyBlackCat/box2cpp",
     "hpjansson/chafa",
@@ -196,6 +195,7 @@
     "ipfs/devgrants",
     "istanbuljs/nyc",
     "JacksonBurns/chemeleon",
+    "Jiayi-Pan/TinyZero",
     "jkuhlmann/cgltf",
     "jm33-m0/arc",
     "jorgebucaran/fisher",
@@ -323,7 +323,6 @@
     "thorstenMueller/Thorsten-Voice",
     "tianon/fake-git",
     "tikv/grpc-rs",
-    "TkTech/can_ada",
     "tokio-rs/bytes",
     "tokio-rs/loom",
     "tony/claude-code-riper-5",

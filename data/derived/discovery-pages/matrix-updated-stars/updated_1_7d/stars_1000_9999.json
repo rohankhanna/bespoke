@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8298,
-    "concepts": 4870,
-    "observations": 4887,
-    "repos": 575,
-    "terms": 4850
+    "components": 8247,
+    "concepts": 4823,
+    "observations": 4839,
+    "repos": 570,
+    "terms": 4803
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xAX/asm",
@@ -35,7 +35,6 @@
     "ai-that-works/ai-that-works",
     "akuity/kargo",
     "alchaincyf/huashu-design",
-    "alibaba/higress",
     "alibaba/ROLL",
     "all-contributors/allcontributors.org",
     "allenai/open-instruct",
@@ -289,7 +288,6 @@
     "harbor-framework/harbor",
     "harfbuzz/harfbuzz",
     "hashicorp/terraform-provider-azurerm",
-    "helm/chart-testing",
     "herumi/xbyak",
     "hhatto/autopep8",
     "hickory-dns/hickory-dns",
@@ -467,7 +465,6 @@
     "pypa/virtualenv",
     "pypi/warehouse",
     "python-mode/python-mode",
-    "python/typeshed",
     "pytorch/ao",
     "pytorch/executorch",
     "pytorch/FBGEMM",
@@ -494,7 +491,6 @@
     "RoaringBitmap/CRoaring",
     "ROCm/ROCm",
     "romanz/electrs",
-    "ruby/rbs",
     "rust-bitcoin/rust-bitcoin",
     "rust-embedded/awesome-embedded-rust",
     "rust-embedded/wg",
@@ -534,7 +530,6 @@
     "stan-dev/rstan",
     "stevearc/conform.nvim",
     "strands-agents/sdk-python",
-    "strukturag/libheif",
     "sublimelsp/LSP",
     "succinctlabs/sp1",
     "swiftlang/llvm-project",

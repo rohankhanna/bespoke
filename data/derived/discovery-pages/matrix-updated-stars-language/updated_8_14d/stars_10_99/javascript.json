@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 11,
-    "terms": 35
+    "components": 208,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 12,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "alexellis/arkade-get",
@@ -23,6 +23,7 @@
     "itsrishika/payment-bypass-bug-lab",
     "newrelic/newrelic-node-apollo-server-plugin",
     "peergos/web-ui",
+    "rashfael/eslint-plugin-vue-pug",
     "semantic-release/error",
     "TrigenSoftware/simple-release-action"
   ]

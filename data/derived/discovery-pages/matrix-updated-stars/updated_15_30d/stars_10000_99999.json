@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1021,
-    "concepts": 698,
-    "observations": 702,
-    "repos": 88,
-    "terms": 691
+    "components": 1024,
+    "concepts": 712,
+    "observations": 716,
+    "repos": 89,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -28,6 +28,7 @@
     "aristocratos/btop",
     "auth0/node-jsonwebtoken",
     "Automattic/node-canvas",
+    "catchorg/Catch2",
     "charmbracelet/glow",
     "charmbracelet/gum",
     "charmbracelet/vhs",

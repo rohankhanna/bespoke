@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 717,
-    "concepts": 750,
-    "observations": 751,
-    "repos": 83,
-    "terms": 746
+    "components": 710,
+    "concepts": 742,
+    "observations": 743,
+    "repos": 82,
+    "terms": 738
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "aphrodite-engine/aphrodite-engine",
@@ -87,7 +87,6 @@
     "shader-slang/slang",
     "simdutf/simdutf",
     "sqlite/sqlite",
-    "strukturag/libheif",
     "swiftlang/swift-llbuild",
     "uccl-project/uccl",
     "uNetworking/uWebSockets.js",

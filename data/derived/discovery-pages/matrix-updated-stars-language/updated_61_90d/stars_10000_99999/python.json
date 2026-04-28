@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 7,
-    "terms": 57
+    "components": 49,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 8,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "anthropics/claude-quickstarts",
     "bmaltais/kohya_ss",
     "ComposioHQ/awesome-claude-skills",
     "FoundationAgents/OpenManus",
+    "Jiayi-Pan/TinyZero",
     "lucidrains/denoising-diffusion-pytorch",
     "modin-project/modin",
     "tqdm/tqdm"

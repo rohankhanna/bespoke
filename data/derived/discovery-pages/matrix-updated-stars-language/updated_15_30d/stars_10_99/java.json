@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 20,
-    "observations": 21,
-    "repos": 5,
-    "terms": 20
+    "components": 18,
+    "concepts": 34,
+    "observations": 35,
+    "repos": 6,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "codetyio/codety-scanner",
     "dart4e/dart4e",
     "glaforge/adk-java-maven-template",
     "iterate-ch/rococoa",
+    "kurrent-io/KurrentDB-Client-Java",
     "zai-org/z-ai-sdk-java"
   ]
 }

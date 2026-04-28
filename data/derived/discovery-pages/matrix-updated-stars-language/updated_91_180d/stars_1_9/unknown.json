@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 13,
     "observations": 13,
-    "repos": 17,
+    "repos": 18,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "airowe/claude-a11y-skill",
     "avivshafir/israeli-corporate-law-skill",
@@ -23,6 +23,7 @@
     "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Change-My-View",
     "danielrosehill/Claude-Code-Bash-Aliases",
+    "hesreallyhim/inkverse-fork",
     "rose-pine/.github",
     "sigstore/.github",
     "steve-todorov/oidc-debugger-action",

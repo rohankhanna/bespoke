@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 573,
-    "concepts": 420,
-    "observations": 421,
-    "repos": 37,
-    "terms": 416
+    "components": 527,
+    "concepts": 393,
+    "observations": 394,
+    "repos": 34,
+    "terms": 389
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -22,7 +22,6 @@
     "bevyengine/bevy",
     "clap-rs/clap",
     "dani-garcia/vaultwarden",
-    "diem/diem",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
     "FuelLabs/fuel-core",
@@ -42,8 +41,6 @@
     "ratatui/ratatui",
     "rayon-rs/rayon",
     "rust-lang/mdBook",
-    "rust-lang/rust-analyzer",
-    "rust-lang/rust-clippy",
     "servo/servo",
     "starship/starship",
     "tracel-ai/burn",

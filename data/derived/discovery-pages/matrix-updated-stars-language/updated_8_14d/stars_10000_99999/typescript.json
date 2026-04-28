@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1247,
-    "concepts": 198,
-    "observations": 198,
-    "repos": 31,
-    "terms": 219
+    "components": 1315,
+    "concepts": 216,
+    "observations": 218,
+    "repos": 33,
+    "terms": 237
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T05:40:32.276038+00:00",
+  "generated_at": "2026-04-28T07:21:38.058645+00:00",
   "repo_ids": [
     "apollographql/apollo-client",
     "badlogic/pi-mono",
+    "browserless/browserless",
     "changesets/changesets",
     "coder/code-server",
     "diegomura/react-pdf",
@@ -32,6 +33,7 @@
     "multica-ai/multica",
     "neoclide/coc.nvim",
     "nvidia/nemoclaw",
+    "openai/openai-node",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
     "recharts/recharts",
